@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d6a21e852ff44a9036f2fbb9d0d0e60a0f4c930f
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 8c052b5a9c3745a1d253b533086a9fdf4d86eae9
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223959"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967809"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
@@ -255,7 +255,7 @@ Siga estos pasos:
     - Una suscripción para el entorno de **infraestructura compartida**.
     - Una suscripción para el entorno de **producción**.
     - Una suscripción para el entorno de **desarrollo**.
-5. El administrador de la cuenta de Azure [agrega el propietario del servicio de suscripción a cada suscripción](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription).
+5. El administrador de la cuenta de Azure [agrega el propietario del servicio de suscripción a cada suscripción](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#to-assign-a-user-as-an-administrator).
 6. Cree un proceso de aprobación para que **propietarios de cargas de trabajo** soliciten la creación de grupos de recursos. El proceso de aprobación se puede implementar de muchas maneras, por ejemplo, por correo electrónico, o bien puede usar una herramienta de administración de procesos como [flujos de trabajo de Sharepoint](https://support.office.com/article/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3). El proceso de aprobación puede seguir estos pasos:
     - El **propietario de la carga de trabajo** prepara una lista de materiales de los recursos de Azure que necesita en el entorno de **desarrollo**, de **producción** o ambos, y la envía al **propietario de la suscripción**.
     - El **propietario de la suscripción** revisa la lista de materiales y valida los recursos solicitados para asegurarse de que son los adecuados para el uso previsto; por ejemplo, comprueba que los [ tamaños de máquina virtual](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) solicitados son los correctos.

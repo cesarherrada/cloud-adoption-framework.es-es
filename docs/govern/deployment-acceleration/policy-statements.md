@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4de6cced9bb387f2955d644f93523ac4f26931da
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 1a4a82893535228e84defc8918be6e5fa884ca16
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222665"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967691"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Declaraciones de la directiva de ejemplo de aceleración de la implementación
 
@@ -32,7 +32,7 @@ Las siguientes declaraciones de la directiva de ejemplo abordan algunos riesgos 
 
 **Declaración de directiva**: todos los recursos que se implementan en la nube deben implementarse mediante plantillas o scripts de automatización siempre que sea posible.
 
-**Opciones de diseño posibles:** las [plantillas de Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#template-deployment) proporcionan un enfoque de infraestructura como código para implementar los recursos en Azure. También puede usar [Terraform](https://docs.microsoft.com/azure/terraform/terraform-overview) como una herramienta de implementación coherente tanto local como basada en la nube.
+**Opciones de diseño posibles:** las [plantillas de Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/template-deployment-overview) proporcionan un enfoque de infraestructura como código para implementar los recursos en Azure. También puede usar [Terraform](https://docs.microsoft.com/azure/terraform/terraform-overview) como una herramienta de implementación coherente tanto local como basada en la nube.
 
 ## <a name="lack-of-visibility-into-system-issues"></a>Falta de visibilidad de los problemas del sistema
 

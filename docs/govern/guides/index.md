@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: b5d5bca79d08a0084026c027a242086cefb0100f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: c7d019cc7264ba972252b6182d4f2c10d7b91f43
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71026156"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967602"
 ---
 # <a name="cloud-governance-guides"></a>Guías de gobernanza en la nube
 
@@ -76,27 +76,27 @@ Para iniciar un recorrido de gobernanza, elija una de las dos opciones siguiente
 
 ### <a name="business-characteristics"></a>Características empresariales
 
-| Característica | Organización estándar                                                                              | Empresa compleja                                                                                               |
-|--------------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Geografía (país o región geopolítica) | Los clientes y el personal residen en gran medida en una geografía.                                                      | Los clientes y el personal residen en varias regiones geográficas o requieren nubes soberanas.                                                             |
-| Unidades de negocio afectadas                    | Unidades de negocio que comparten una infraestructura de TI común                                                                                    | Varias unidades de negocio que no comparten ninguna infraestructura de TI común                                                                                        |
-| Presupuesto de TI                                  | Presupuesto de TI único.                                                                                        | Presupuesto asignado a varias unidades de negocio y en varias divisas                                                                         |
-| Inversiones en TI                             | Las inversiones determinadas por los gastos de capital se planean anualmente y, por lo general, cubren solo el mantenimiento básico. | Las inversiones orientadas a los gastos de capital se planean anualmente y a menudo incluyen el mantenimiento y un ciclo de actualización de 3 a 5 años. |
+| Característica | Organización estándar | Empresa compleja |
+|---|---|---|
+| Geografía (país o región geopolítica) | Los clientes y el personal residen en gran medida en una geografía. | Los clientes y el personal residen en varias regiones geográficas o requieren nubes soberanas. |
+| Unidades de negocio afectadas | Unidades de negocio que comparten una infraestructura de TI común | Varias unidades de negocio que no comparten ninguna infraestructura de TI común |
+| Presupuesto de TI | Presupuesto de TI único. | Presupuesto asignado a varias unidades de negocio y en varias divisas |
+| Inversiones en TI | Las inversiones determinadas por los gastos de capital se planean anualmente y, por lo general, cubren solo el mantenimiento básico. | Las inversiones orientadas a los gastos de capital se planean anualmente y a menudo incluyen el mantenimiento y un ciclo de actualización de 3 a 5 años. |
 
 ### <a name="current-state-before-adopting-cloud-governance"></a>Estado actual antes de adoptar la gobernanza de la nube
 
-| State | Empresa estándar                                                                               | Empresa compleja                                                                                                          |
-|---------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Proveedores de hospedaje de terceros o centro de datos | Menos de cinco centros de datos                                                                                  | Más de cinco centros de datos                                                                                                   |
-| Redes                                  | Sin WAN o 1 &ndash; 2 proveedores de WAN                                                                             | Red compleja o WAN global                                                                                             |
-| Identidad                                    | Un único bosque, un único dominio. | Varios bosques complejos, varios dominios.  |
+| State | Empresa estándar | Empresa compleja |
+|---|---|---|
+| Proveedores de hospedaje de terceros o centro de datos | Menos de cinco centros de datos | Más de cinco centros de datos |
+| Redes | Sin WAN o 1 &ndash; 2 proveedores de WAN | Red compleja o WAN global |
+| Identidad | Un único bosque, un único dominio. | Varios bosques complejos, varios dominios. |
 
 ### <a name="desired-future-state-after-incremental-improvement-of-cloud-governance"></a>Estado futuro deseado después de la mejora incremental de la gobernanza de la nube
 
-| State | Organización estándar                                                                        | Empresa compleja                                                                                        |
-|----------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Administración de costos: cuentas de nube           | Modelo showback. La facturación se centraliza a través de TI.                                                | Modelo chargeback. La facturación se puede distribuir a través de la contratación de TI.                                  |
-| Línea de base de seguridad: datos protegidos           | Datos financieros de la compañía e IP. Datos limitados del cliente. Sin requisitos de cumplimiento de terceros.     | Varias colecciones de datos financieros y personales de los clientes. Es posible que deba considerar el cumplimiento de terceros. |
+| State | Organización estándar | Empresa compleja |
+|---|---|---|
+| Administración de costos: cuentas de nube | Modelo showback. La facturación se centraliza a través de TI. | Modelo chargeback. La facturación se puede distribuir a través de la contratación de TI. |
+| Línea de base de seguridad: datos protegidos | Datos financieros de la compañía e IP. Datos limitados del cliente. Sin requisitos de cumplimiento de terceros. | Varias colecciones de datos financieros y personales de los clientes. Es posible que deba considerar el cumplimiento de terceros. |
 
 ## <a name="azure-virtual-datacenter"></a>Centro de datos virtual de Azure
 
@@ -124,6 +124,6 @@ Para más información, visite la sección [Centro de datos virtual de Azure](..
 Elija una de estas guías:
 
 > [!div class="nextstepaction"]
-> [Guía de gobernanza estándar](./standard/index.md)
+> [Guía de gobernanza para empresas estándar](./standard/index.md)
 >
 > [Guía de gobernanza para empresas complejas](./complex/index.md)

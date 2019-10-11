@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: df33e9f7f1c591d9de286b0a2c646bb009fc2775
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 9a64a069dcebb12cf550f697561b76903e6d01bf
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223054"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967344"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Diseño de gobernanza para una carga de trabajo sencilla
 
@@ -109,7 +109,7 @@ Cuando cree la cuenta de Azure, especifique el usuario de su organización que s
 
 A continuación, el **propietario de la cuenta** de Azure debe [crear una suscripción](https://docs.microsoft.com/partner-center/create-a-new-subscription) y [asociar el inquilino de Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) a ella.
 
-Por último, con la suscripción creada y el inquilino de Azure AD asociado a ella, puede [agregar el **propietario de cargas de trabajo** a la suscripción con el rol integrado **propietario**](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription).
+Por último, con la suscripción creada y el inquilino de Azure AD asociado a ella, puede [agregar el **propietario de cargas de trabajo** a la suscripción con el rol integrado **propietario**](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#to-assign-a-user-as-an-administrator).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

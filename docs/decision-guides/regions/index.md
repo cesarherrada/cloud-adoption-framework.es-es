@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 041e1ccaf6ec0e928b6868f4e8c90849c8d4dea8
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 8323a8bded4f2cc1d24407fa3326abf3b96ef810
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224599"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967708"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -110,7 +110,7 @@ Este enfoque lo controla la información cuantificable. De ese modo, el enfoque 
 Cuando el ámbito de una migración incluye varias regiones, el equipo de adopción de la nube debe evaluar las consideraciones de disponibilidad siguientes:
 
 - Es posible que la soberanía de datos requiera localizar algunos recursos, pero puede que esas restricciones de cumplimiento no rijan muchos de esos recursos. Aspectos como el registro, la creación de informes, el enrutamiento de red, la identidad y otros servicios centrales de TI pueden ser elegibles para hospedarlos como servicios compartidos en varias suscripciones o, incluso, en varias regiones. Se recomienda que el equipo de adopción de la nube evalúe un modelo de servicio de recurso compartido para esos servicios, tal como se describe en la [arquitectura de referencia para una topología radial con servicios compartidos](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services).
-- Cuando se implementan varias instancias de entornos similares, un generador de entornos podría crear coherencia, mejorar la gobernanza y acelerar la implementación. El [recorrido de la gobernanza de las grandes empresas](../../govern/guides/complex/index.md) establece un enfoque que crea un entorno que se escala en varias regiones.
+- Cuando se implementan varias instancias de entornos similares, un generador de entornos podría crear coherencia, mejorar la gobernanza y acelerar la implementación. La [guía de gobernanza de empresas complejas](../../govern/guides/complex/index.md) establece un enfoque que crea un entorno que se escala en varias regiones.
 
 Una vez que el equipo esté familiarizado con el enfoque de línea de base y que la disponibilidad está alineada, es necesario considerar algunos requisitos previos controlados por datos:
 

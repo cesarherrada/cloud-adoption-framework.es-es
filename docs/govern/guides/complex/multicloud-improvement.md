@@ -1,7 +1,7 @@
 ---
 title: 'Guía de gobernanza para empresas complejas: Mejora de la nube múltiple'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Guía para grandes empresas: Mejora de la nube múltiple'
+description: 'Guía de gobernanza para empresas complejas: Mejora de la nube múltiple'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9e7b968683e2ab7295b4178cb8b7f9fbf43e33b1
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: aaafd0d4fa3c94d1ccf0b5bc3ee3f30377a2b08e
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220614"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967650"
 ---
-# <a name="large-enterprise-guide-multicloud-improvement"></a>Guía para grandes empresas: Mejora de la nube múltiple
+# <a name="governance-guide-for-complex-enterprises-multicloud-improvement"></a>Guía de gobernanza para empresas complejas: Mejora de la nube múltiple
 
 ## <a name="advancing-the-narrative"></a>Continuación de la historia
 

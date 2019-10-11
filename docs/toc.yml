@@ -66,8 +66,6 @@
               href: digital-estate/calculate.md
         - name: Alineación inicial de la organización
           href: plan/initial-org-alignment.md
-        - name: 'Preparación de las aptitudes: Adaptación de roles, aptitutes y procesos'
-          href: plan/adapt-roles-skills-processes.md
         - name: Plan de adopción de la nube
           items:
             - name: Introducción
@@ -426,7 +424,7 @@
               items:
                 - name: Información general
                   href: govern/guides/index.md
-                - name: Guía para pequeñas y medianas empresas
+                - name: Guía de gobernanza para empresas estándar
                   items:
                     - name: Información general
                       href: govern/guides/standard/index.md
@@ -444,7 +442,7 @@
                       href: govern/guides/standard/cost-management-improvement.md
                     - name: Escenarios de nube múltiple
                       href: govern/guides/standard/multicloud-improvement.md
-                - name: Guía para grandes empresas
+                - name: Guía de gobernanza para empresas complejas
                   items:
                     - name: Información general
                       href: govern/guides/complex/index.md
@@ -685,8 +683,9 @@
         - name: Hoja de ruta de Cloud Adoption Framework
           href: reference/roadmap.md
         - name: Guías de decisión
-          href: decision-guides/index.md
           items:
+            - name: Información general
+              href: decision-guides/index.md
             - name: Suscripciones
               href: decision-guides/subscriptions/index.md
             - name: Identidad
