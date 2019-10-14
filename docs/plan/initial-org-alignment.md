@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 7b80d61aea9f713de422b5575e7cb3617314857f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 4a1135ec23d508cdd0f013439bb034ff66cf0c4d
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022490"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967791"
 ---
 # <a name="initial-organization-alignment"></a>Alineación inicial de la organización
 
@@ -43,9 +43,11 @@ Suponiendo que la estructura sugerida se alinea con el plan de adopción de la n
 - ¿Qué persona será responsable de la definición de esos controles de gobernanza?
 - ¿Existen otras funcionalidades o personas que tengan responsabilidad en el plan de adopción de la nube?
 
+Una vez que haya documentado las respuestas a estas preguntas, puede establecer [planes de preparación de las aptitudes](./adapt-roles-skills-processes.md) para definir planes para preparar a estas personas para el futuro trabajo.
+
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez que haya documentado las respuestas a estas preguntas, continúe con el [artículo sobre la preparación de las aptitudes](./adapt-roles-skills-processes.md) para definir planes para preparar a estas personas para el trabajo que está por venir.
+Información sobre el plan para la adopción de la nube.
 
 > [!div class="nextstepaction"]
-> [Definición de un plan de preparación de las aptitudes](./adapt-roles-skills-processes.md)
+> [Plan para la adopción de la nube](./plan-intro.md)

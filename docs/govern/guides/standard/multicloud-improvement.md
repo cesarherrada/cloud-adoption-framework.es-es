@@ -1,7 +1,7 @@
 ---
-title: 'Guía para empresa estándar: Mejora de la nube múltiple'
+title: 'Guía de gobernanza para empresas estándar: Mejora de la nube múltiple'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Guía para empresa estándar: Mejora de la nube múltiple'
+description: 'Guía de gobernanza para empresas estándar: Mejora de la nube múltiple'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2616193b01b252a74ad17a241d97bfd0ebc4860c
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 3a14603574430272004d9fe40654409409dd563e
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223793"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967305"
 ---
-# <a name="small-to-medium-enterprise-guide-multicloud-improvement"></a>Guía para pequeñas y medianas empresas: Mejora de la nube múltiple
+# <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Guía de gobernanza para empresas estándar: Mejora de la nube múltiple
 
 En este artículo se desarrolla la narrativa con la adición de controles para la adopción de varias nubes.
 

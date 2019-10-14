@@ -8,12 +8,12 @@ ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: e026ac8c46fd8c39d2c6ff36c3612fed2bed7e82
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 67313af2166fbd8dab0f66abb8c6477079a049ad
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022163"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967752"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Seguimiento de los costos en unidades de negocio, entornos o proyectos
 
@@ -40,7 +40,7 @@ El primer paso para realizar un seguimiento preciso de la información de costos
 
 ### <a name="resource-organization"></a>Organización de recursos
 
-Existen varios métodos para organizar los recursos. En esta sección se describe un procedimiento recomendado en función de las necesidades de una gran empresa con estructuras de costos distribuidas entre unidades de negocio, zonas geográficas y organizaciones de TI. Hay un procedimiento recomendado similar para una organización más pequeña y menos compleja en [Recorrido de gobernanza de pequeñas y medianas empresas](../../govern/guides/standard/index.md).
+Existen varios métodos para organizar los recursos. En esta sección se describe un procedimiento recomendado en función de las necesidades de una gran empresa con estructuras de costos distribuidas entre unidades de negocio, zonas geográficas y organizaciones de TI. Hay un procedimiento recomendado similar para una organización más pequeña y menos compleja en la [Guía de gobernanza para empresas estándar](../../govern/guides/standard/index.md).
 
 En el caso de una empresa grande, el siguiente modelo para grupos de administración, suscripciones y grupos de recursos creará una jerarquía que permite a cada equipo tener el nivel adecuado de visibilidad para realizar sus tareas. Cuando la empresa necesita controles de costos para evitar la saturación del presupuesto, puede aplicar herramientas de gobernanza como Azure Blueprints o Azure Policy a las suscripciones de esta estructura para evitar rápidamente futuros errores de costos.
 

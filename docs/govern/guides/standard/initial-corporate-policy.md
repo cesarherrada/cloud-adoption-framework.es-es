@@ -1,7 +1,7 @@
 ---
-title: 'Guía para empresa estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
+title: 'Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Guía para empresa estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
+description: 'Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ec184cc41608452c945e7665eae845a773b7cfbd
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 5e269e623f22fa976f85c75c130ef0b19e4e9620
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223667"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967534"
 ---
-# <a name="standard-enterprise-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Guía para empresa estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza
+# <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza
 
 La siguiente directiva corporativa define una posición de gobernanza inicial, que es el punto de inicio de esta guía. En este artículo se definen riesgos incipientes, las declaraciones de directiva iniciales y los procesos iniciales para aplicar las declaraciones de directiva.
 

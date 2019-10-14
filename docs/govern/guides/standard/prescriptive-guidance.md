@@ -1,5 +1,5 @@
 ---
-title: 'Guía para empresa estándar: Guías prescriptivas explicadas'
+title: 'Guía de gobernanza para empresas estándar: Guías prescriptivas explicadas'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre las guías prescriptivas para la gobernanza en empresas estándar.
 author: BrianBlanchard
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8f9bd9d7dadbd880265cc441b1e927ab835165cb
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 3f9149c3edc90a12b0e9dd1f99e20172cf277fb2
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223837"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967509"
 ---
-# <a name="standard-enterprise-guide-prescriptive-guidance-explained"></a>Guía para empresa estándar: Guías prescriptivas explicadas
+# <a name="standard-enterprise-governance-guide-prescriptive-guidance-explained"></a>Guía de gobernanza para empresas estándar: Guías prescriptivas explicadas
 
 La guía de gobernanza empieza con un conjunto de [directivas corporativas](./initial-corporate-policy.md) iniciales. Estas directivas se usan para establecer un producto viable mínimo de gobernanza que refleje los [procedimientos recomendados](./index.md).
 

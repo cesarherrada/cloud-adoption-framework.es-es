@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c6b195a69622a4934f257090650a8ba6ce884025
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 7a5f3b3f9a50cf4a989d268788279f132a42efb7
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024804"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967209"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
@@ -71,7 +71,7 @@ La estimación resultante, mostrada a continuación, identifica los costos mensu
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configuración y revisión de una evaluación con Azure Migrate](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#set-up-an-assessment)
-- Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [guía de mejora de Cost Management en grandes empresas](../../govern/guides/complex/cost-management-improvement.md).
+- Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [Guía de gobernanza para empresas complejas: Mejora de la materia de administración de costos](../../govern/guides/complex/cost-management-improvement.md).
 
 # <a name="estimate-and-optimize-vm-costs-during-and-after-migrationtabestimateoptimize"></a>[Estimación y optimización de costos de máquina virtual durante y después de la migración](#tab/EstimateOptimize)
 
@@ -104,7 +104,7 @@ Este análisis le permitirá revisar los costos totales, el presupuesto (si esta
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [guía de mejora incremental de Cost Management en grandes empresas](../../govern/guides/complex/cost-management-improvement.md).
+- Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [Guía de gobernanza para empresas complejas: Mejora de la materia de administración de costos](../../govern/guides/complex/cost-management-improvement.md).
 - Para obtener más información sobre Azure Advisor, consulte [Reducción de los costos de servicio con Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
 - Para obtener más información sobre Azure Cost Management, consulte [Descripción y uso de ámbitos](https://docs.microsoft.com/azure/cost-management/understand-work-scopes) y [Explore y analice los costos con Análisis de costos](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis).
 
@@ -142,4 +142,4 @@ En el caso de los procesos en segundo plano de prioridad más baja, Batch ofrece
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [guía de mejora incremental de Cost Management en la gobernanza de grandes empresas](../../govern/guides/complex/cost-management-improvement.md).
+Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [Guía de gobernanza para empresas complejas: Mejora de la materia de administración de costos](../../govern/guides/complex/cost-management-improvement.md).
