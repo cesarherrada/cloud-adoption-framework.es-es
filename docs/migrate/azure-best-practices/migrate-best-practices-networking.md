@@ -8,12 +8,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8fbdd20c435d4aed8a284174d813abc8d391171b
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 632ba4f74046636a2a41d9666c5c58784290c9b4
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022847"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378350"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
@@ -120,7 +120,7 @@ Azure agrega un servidor DNS de forma predeterminada al implementar una red virt
 **Más información:**
 
 - [Obtenga más información sobre](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure) la resolución de nombres al usar su propio servidor DNS.
-- [Obtenga más información sobre](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions?toc=%2fazure%2fvirtual-network%2ftoc.json#naming-subscriptions) las reglas y restricciones de nomenclatura DNS.
+- [Obtenga más información sobre](../../ready/considerations/naming-and-tagging.md) las reglas y restricciones de nomenclatura DNS.
 
 ## <a name="best-practice-set-up-availability-zones"></a>Procedimiento recomendado: Configuración de zonas de disponibilidad
 

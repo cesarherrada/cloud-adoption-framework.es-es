@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: e795074526db2b5aec88052dc15aa9fa4140a91f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ad32490cd732888ca2fc78a39b3f33d88828776b
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025141"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378307"
 ---
 # <a name="scaling-with-multiple-azure-subscriptions"></a>Escalado con varias suscripciones de Azure
 
@@ -76,7 +76,7 @@ Azure proporciona cuatro niveles de ámbito administración: grupo de administra
 
 Al confiar en este modelo de herencia, puede organizar las suscripciones de la jerarquía de forma que cada suscripción siga las directivas y los controles de seguridad adecuados.
 
-![Los cuatro niveles de ámbito para organizar los recursos de Azure](../../ready/azure-readiness-guide/media/organize-resources/scope-levels.png)
+![Los cuatro niveles de ámbito para organizar los recursos de Azure](../../ready/azure-setup-guide/media/organize-resources/scope-levels.png)
 
 Todas las asignaciones de acceso o directivas en el grupo de administración raíz se aplican a todos los recursos dentro del directorio. Considere cuidadosamente qué elementos define en este ámbito. Incluya solo las asignaciones que debe tener.
 

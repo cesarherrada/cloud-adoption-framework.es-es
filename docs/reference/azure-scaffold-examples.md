@@ -8,17 +8,17 @@ ms.date: 01/03/2017
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 208bab0093d8add065a8c8f5ad2b92d9ff012fe8
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ffda6a8f11954895e934f310c1a53c95fb2e1351
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032515"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378039"
 ---
 # <a name="examples-of-implementing-azure-enterprise-scaffold"></a>Ejemplos de implementación de plantillas scaffold empresariales de Azure
 
 > [!NOTE]
-> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/azure-readiness-guide/migration-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
+> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/azure-setup-guide/migration-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
 
 En este artículo se ofrecen ejemplos de cómo una empresa puede implementar las recomendaciones de un [scaffolding empresarial de Azure](./azure-scaffold.md). Se usa una compañía ficticia denominada "Contoso" con el objetivo de ilustrar las prácticas recomendadas para escenarios comunes.
 
@@ -112,7 +112,7 @@ David identifica que la conectividad de la red corporativa de Contoso a la red v
 
 Para ello, crea los siguientes [bloqueos de recursos](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources):
 
-| Tipo de bloqueo | Recurso | DESCRIPCIÓN |
+| Tipo de bloqueo | Resource | DESCRIPCIÓN |
 | --- | --- | --- |
 | **CanNotDelete** |red virtual interna |Impide que los usuarios eliminen la red virtual o las subredes, pero no que se agreguen nuevas subredes |
 
@@ -195,7 +195,7 @@ David y Alicia se reúnen y deciden agregar bloqueos de recursos en algunos de l
 
 Para ello, crean el bloqueo siguiente:
 
-| Tipo de bloqueo | Recurso | DESCRIPCIÓN |
+| Tipo de bloqueo | Resource | DESCRIPCIÓN |
 | --- | --- | --- |
 | **CanNotDelete** |red virtual externa |Se utiliza para evitar que los usuarios eliminen la red virtual o las subredes. El bloqueo no impide que se agreguen nuevas subredes |
 

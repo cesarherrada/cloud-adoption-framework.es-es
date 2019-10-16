@@ -8,17 +8,17 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 6e5a9b00ff7cb6a2f8b16ee62f9e61f4ecae3906
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: b7a2ae0457550189df66b8aa290fd9835cb11904
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223986"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378161"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
 > [!NOTE]
-> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/azure-readiness-guide/migration-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
+> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/azure-setup-guide/migration-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
 
 Cada vez son más las empresas que adoptan la tecnología de nube pública para ganar agilidad y flexibilidad. Confían en los puntos fuertes de la nube para generar ingresos y optimizar el uso de los recursos de la empresa. Microsoft Azure proporciona un gran número de servicios y funcionalidades que las empresas ensamblan como bloques de creación con el objetivo de abordar diversas aplicaciones y cargas de trabajo.
 
