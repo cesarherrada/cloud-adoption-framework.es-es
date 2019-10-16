@@ -8,12 +8,12 @@ layout: LandingPage
 ms.topic: landing-page
 author: BrianBlanchard
 ms.date: 07/04/2019
-ms.openlocfilehash: f7928418f583528cd08a0eeb5d7c77c724abe675
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 19a0b45359fb271d5d4d1355f0bf147f396dc976
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024433"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72377937"
 ---
 # <a name="microsoft-cloud-adoption-framework-for-azure"></a>Plataforma de adopción de la nube de Microsoft para Azure
 
@@ -159,7 +159,7 @@ Cloud Adoption Framework se ofrece actualmente como versión preliminar pública
 - [Migración a la nube](./migrate/index.md)
 - [Gobernanza de la nube](./govern/guides/index.md)
 
-Cloud Adoption Framework se ampliará con frecuencia a medida que se aproxime a la fase de disponibilidad general. Esta ampliación agregará profundidad a cada sección y nuevas secciones de contenido. Para más información, consulte la [hoja de ruta de Cloud Adoption Framework](./reference/roadmap.md).
+Cloud Adoption Framework se ampliará con frecuencia a medida que se aproxime a la fase de disponibilidad general. Esta ampliación agregará profundidad a cada sección y nuevas secciones de contenido. Para más información, consulte la [hoja de ruta de Cloud Adoption Framework](./reference/index.md).
 
 ## <a name="intent"></a>Intención
 

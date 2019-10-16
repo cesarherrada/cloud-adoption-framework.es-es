@@ -2,19 +2,19 @@
 title: Guía de decisiones de nomenclatura y etiquetado de recursos
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de la organización y el etiquetado de recursos como servicio principal en las migraciones de Azure.
-author: rotycenh
-ms.author: v-tyhopk
+author: alexbuckgit
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4d28e0ec6dea61a96e463df8fd2717ed0a8c8f02
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ef226d55d6b16c69b35c57734de25efec6abaa00
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023648"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378034"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Guía de decisiones de nomenclatura y etiquetado de recursos
 
@@ -40,7 +40,7 @@ Los esquemas de etiquetado que incluyen un foco alineado con el negocio, como la
 
 Una convención de nomenclatura estandarizada es el punto de partida para organizar los recursos hospedados en la nube. Un sistema de nomenclatura estructurado correctamente permite identificar con rapidez los recursos para la administración y la contabilidad. Si existen convenciones de nomenclatura de TI en otras partes de la organización, considere si las convenciones de nomenclatura en la nube deben alinearse con ellas o si debe establecer estándares basados en la nube independientes.
 
-Tenga en cuenta también que los diferentes tipos de recursos de Azure tienen diferentes [requisitos de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions#naming-rules-and-restrictions). Las convenciones de nomenclatura deben ser compatibles con estos requisitos de nomenclatura.
+Tenga en cuenta también que los diferentes tipos de recursos de Azure tienen diferentes [requisitos de nomenclatura](../../ready/considerations/naming-and-tagging.md). Las convenciones de nomenclatura deben ser compatibles con estos requisitos de nomenclatura.
 
 ## <a name="resource-tagging-patterns"></a>Patrones de etiquetado de recursos
 

@@ -92,24 +92,24 @@
       items:
         - name: Información general
           href: ready/index.md
-        - name: Guía de preparación para Azure
+        - name: Guía de instalación de Azure
           items:
             - name: Antes de comenzar
-              href: ready/azure-readiness-guide/index.md
+              href: ready/azure-setup-guide/index.md
             - name: Organización de los recursos
-              href: ready/azure-readiness-guide/organize-resources.md
+              href: ready/azure-setup-guide/organize-resources.md
             - name: Administración del acceso
-              href: ready/azure-readiness-guide/manage-access.md
+              href: ready/azure-setup-guide/manage-access.md
             - name: Administración de los costos y la facturación
-              href: ready/azure-readiness-guide/manage-costs.md
+              href: ready/azure-setup-guide/manage-costs.md
             - name: 'Planeación de la gobernanza, seguridad y cumplimiento'
-              href: ready/azure-readiness-guide/govern-org-compliance.md
+              href: ready/azure-setup-guide/govern-org-compliance.md
             - name: Uso de la supervisión e informes
-              href: ready/azure-readiness-guide/monitoring-reporting.md
+              href: ready/azure-setup-guide/monitoring-reporting.md
             - name: Mantenerse al día con Azure
-              href: ready/azure-readiness-guide/staying-current.md
+              href: ready/azure-setup-guide/staying-current.md
             - name: Implementación de una zona de aterrizaje para la migración
-              href: ready/azure-readiness-guide/migration-landing-zone.md
+              href: ready/azure-setup-guide/migration-landing-zone.md
         - name: Consideraciones sobre la zona de aterrizaje
           items:
             - name: Información general
@@ -404,196 +404,196 @@
           items:
             - name: Información general
               href: innovate/index.md
+    - name: Control
+      items:
+        - name: Información general
+          href: govern/index.md
+        - name: Metodología
+          href: govern/methodology.md
+        - name: Prueba comparativa
+          href: govern/benchmark.md
+        - name: Base de gobernanza inicial
+          href: govern/initial-foundation.md
+        - name: Mejoras de la base de gobernanza
+          href: govern/foundation-improvements.md
+        - name: Guías de gobernanza
+          items:
+            - name: Información general
+              href: govern/guides/index.md
+            - name: Guía de gobernanza para empresas estándar
+              items:
+                - name: Información general
+                  href: govern/guides/standard/index.md
+                - name: Narración
+                  href: govern/guides/standard/narrative.md
+                - name: Directiva corporativa inicial
+                  href: govern/guides/standard/initial-corporate-policy.md
+                - name: Guías prescriptivas
+                  href: govern/guides/standard/prescriptive-guidance.md
+                - name: Mejora de la materia de línea de base de seguridad
+                  href: govern/guides/standard/security-baseline-improvement.md
+                - name: Mejora de la materia de coherencia de recursos
+                  href: govern/guides/standard/resource-consistency-improvement.md
+                - name: Mejora de la materia de administración de costos
+                  href: govern/guides/standard/cost-management-improvement.md
+                - name: Escenarios de nube múltiple
+                  href: govern/guides/standard/multicloud-improvement.md
+            - name: Guía de gobernanza para empresas complejas
+              items:
+                - name: Información general
+                  href: govern/guides/complex/index.md
+                - name: Narración
+                  href: govern/guides/complex/narrative.md
+                - name: Directiva corporativa inicial
+                  href: govern/guides/complex/initial-corporate-policy.md
+                - name: Guías prescriptivas
+                  href: govern/guides/complex/prescriptive-guidance.md
+                - name: Mejora de la materia de línea de base de identidad
+                  href: govern/guides/complex/identity-baseline-improvement.md
+                - name: Mejora de la materia de línea de base de seguridad
+                  href: govern/guides/complex/security-baseline-improvement.md
+                - name: Mejora de la materia de coherencia de recursos
+                  href: govern/guides/complex/resource-consistency-improvement.md
+                - name: Mejora de la materia de administración de costos
+                  href: govern/guides/complex/cost-management-improvement.md
+                - name: Escenarios de nube múltiple
+                  href: govern/guides/complex/multicloud-improvement.md
+                - name: Varias capas de gobernanza
+                  href: govern/guides/complex/multiple-layers-of-governance.md
+        - name: Consideraciones de gobernanza
+          items:
+            - name: Evaluación de la directiva corporativa
+              href: govern/corporate-policy.md
+            - name: Directiva y cumplimiento normativo corporativos preparados para la nube
+              items:
+                - name: Preparar la directiva corporativa para la nube
+                  href: govern/policy-compliance/index.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/policy-compliance/business-risk.md
+                - name: Evaluación de la tolerancia al riesgo
+                  href: govern/policy-compliance/risk-tolerance.md
+                - name: Definición de la directiva corporativa
+                  href: govern/policy-compliance/policy-definition.md
+                - name: Alineación del diseño con las directivas
+                  href: govern/policy-compliance/governance-alignment.md
+                - name: Establecimiento de procesos de adhesión a directivas
+                  href: govern/policy-compliance/processes.md
+                - name: Cumplimiento de normativas
+                  href: govern/policy-compliance/regulatory-compliance.md
+                - name: Preparación de la seguridad en la nube
+                  href: govern/policy-compliance/cloud-security-readiness.md
+                - name: Revisión de la directiva en la nube
+                  href: govern/policy-compliance/cloud-policy-review.md
+                - name: Clasificación de los datos
+                  href: govern/policy-compliance/data-classification.md
+        - name: Materias de gobernanza en la nube
+          href: govern/governance-disciplines.md
+        - name: Implementación de materias de la gobernanza en la nube
+          items:
+            - name: Administración de costos
+              items:
+                - name: Introducción a la administración de costos
+                  href: govern/cost-management/index.md
+                - name: Descarga de la plantilla
+                  href: govern/cost-management/template.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/cost-management/business-risks.md
+                - name: Métricas e indicadores de tolerancia al riesgo
+                  href: govern/cost-management/metrics-tolerance.md
+                - name: Directivas de administración de costos de ejemplo
+                  href: govern/cost-management/policy-statements.md
+                - name: Procesos de cumplimiento de directivas
+                  href: govern/cost-management/compliance-processes.md
+                - name: Mejorar la administración de costos
+                  href: govern/cost-management/discipline-improvement.md
+                - name: Herramientas de administración de costos de Azure
+                  href: govern/cost-management/toolchain.md
+            - name: Línea de base de seguridad
+              items:
+                - name: Introducción a la línea de base de seguridad
+                  href: govern/security-baseline/index.md
+                - name: Descarga de la plantilla
+                  href: govern/security-baseline/template.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/security-baseline/business-risks.md
+                - name: Métricas e indicadores de tolerancia al riesgo
+                  href: govern/security-baseline/metrics-tolerance.md
+                - name: Directivas de línea de base de seguridad de ejemplo
+                  href: govern/security-baseline/policy-statements.md
+                - name: Procesos de cumplimiento de directivas
+                  href: govern/security-baseline/compliance-processes.md
+                - name: Introducción a la línea de base de seguridad
+                  href: govern/security-baseline/discipline-improvement.md
+                - name: Línea de base de seguridad nativa en la nube
+                  href: govern/security-baseline/cloud-native-policy.md
+                - name: Guía de seguridad adicional de Azure
+                  href: govern/security-baseline/azure-security-guidance.md
+                - name: Herramientas de línea base de seguridad de Azure
+                  href: govern/security-baseline/toolchain.md
+            - name: Línea de base de identidad
+              items:
+                - name: Introducción a la línea de base de identidad
+                  href: govern/identity-baseline/index.md
+                - name: Descarga de la plantilla
+                  href: govern/identity-baseline/template.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/identity-baseline/business-risks.md
+                - name: Métricas e indicadores de tolerancia al riesgo
+                  href: govern/identity-baseline/metrics-tolerance.md
+                - name: Directivas de línea de base de identidad de ejemplo
+                  href: govern/identity-baseline/policy-statements.md
+                - name: Procesos de cumplimiento de directivas
+                  href: govern/identity-baseline/compliance-processes.md
+                - name: Mejorar la línea de base de identidad
+                  href: govern/identity-baseline/discipline-improvement.md
+                - name: Herramientas de línea base de identidad de Azure
+                  href: govern/identity-baseline/toolchain.md
+            - name: Coherencia de recursos
+              items:
+                - name: Introducción a la coherencia de recursos
+                  href: govern/resource-consistency/index.md
+                - name: Descarga de la plantilla
+                  href: govern/resource-consistency/template.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/resource-consistency/business-risks.md
+                - name: Métricas e indicadores de tolerancia al riesgo
+                  href: govern/resource-consistency/metrics-tolerance.md
+                - name: Directivas de coherencia de recursos de ejemplo
+                  href: govern/resource-consistency/policy-statements.md
+                - name: Procesos de cumplimiento de directivas
+                  href: govern/resource-consistency/compliance-processes.md
+                - name: Mejorar la coherencia de recursos
+                  href: govern/resource-consistency/discipline-improvement.md
+                - name: Herramientas de coherencia de recursos de Azure
+                  href: govern/resource-consistency/toolchain.md
+                - name: Administración del acceso a recursos
+                  href: govern/resource-consistency/resource-access-management.md
+                - name: Diseño de gobernanza para una carga de trabajo sencilla
+                  href: govern/resource-consistency/governance-simple-workload.md
+                - name: Diseño de gobernanza para varios equipos
+                  href: govern/resource-consistency/governance-multiple-teams.md
+            - name: Aceleración de la implementación
+              items:
+                - name: Introducción a la aceleración de la implementación
+                  href: govern/deployment-acceleration/index.md
+                - name: Descarga de la plantilla
+                  href: govern/deployment-acceleration/template.md
+                - name: Descripción de los riesgos empresariales
+                  href: govern/deployment-acceleration/business-risks.md
+                - name: Métricas e indicadores de tolerancia al riesgo
+                  href: govern/deployment-acceleration/metrics-tolerance.md
+                - name: Directivas de aceleración de la implementación de ejemplo
+                  href: govern/deployment-acceleration/policy-statements.md
+                - name: Procesos de cumplimiento de directivas
+                  href: govern/deployment-acceleration/compliance-processes.md
+                - name: Mejorar la aceleración de la implementación
+                  href: govern/deployment-acceleration/discipline-improvement.md
+                - name: Herramientas de aceleración de la implementación de Azure
+                  href: govern/deployment-acceleration/toolchain.md
     - name: Funcionamiento
       items:
         - name: Información general
           href: operate/index.md
-        - name: Control
-          items:
-            - name: Información general
-              href: govern/index.md
-            - name: Metodología
-              href: govern/methodology.md
-            - name: Prueba comparativa
-              href: govern/benchmark.md
-            - name: Base de gobernanza inicial
-              href: govern/initial-foundation.md
-            - name: Mejoras de la base de gobernanza
-              href: govern/foundation-improvements.md
-            - name: Guías de gobernanza
-              items:
-                - name: Información general
-                  href: govern/guides/index.md
-                - name: Guía de gobernanza para empresas estándar
-                  items:
-                    - name: Información general
-                      href: govern/guides/standard/index.md
-                    - name: Narración
-                      href: govern/guides/standard/narrative.md
-                    - name: Directiva corporativa inicial
-                      href: govern/guides/standard/initial-corporate-policy.md
-                    - name: Guías prescriptivas
-                      href: govern/guides/standard/prescriptive-guidance.md
-                    - name: Mejora de la materia de línea de base de seguridad
-                      href: govern/guides/standard/security-baseline-improvement.md
-                    - name: Mejora de la materia de coherencia de recursos
-                      href: govern/guides/standard/resource-consistency-improvement.md
-                    - name: Mejora de la materia de administración de costos
-                      href: govern/guides/standard/cost-management-improvement.md
-                    - name: Escenarios de nube múltiple
-                      href: govern/guides/standard/multicloud-improvement.md
-                - name: Guía de gobernanza para empresas complejas
-                  items:
-                    - name: Información general
-                      href: govern/guides/complex/index.md
-                    - name: Narración
-                      href: govern/guides/complex/narrative.md
-                    - name: Directiva corporativa inicial
-                      href: govern/guides/complex/initial-corporate-policy.md
-                    - name: Guías prescriptivas
-                      href: govern/guides/complex/prescriptive-guidance.md
-                    - name: Mejora de la materia de línea de base de identidad
-                      href: govern/guides/complex/identity-baseline-improvement.md
-                    - name: Mejora de la materia de línea de base de seguridad
-                      href: govern/guides/complex/security-baseline-improvement.md
-                    - name: Mejora de la materia de coherencia de recursos
-                      href: govern/guides/complex/resource-consistency-improvement.md
-                    - name: Mejora de la materia de administración de costos
-                      href: govern/guides/complex/cost-management-improvement.md
-                    - name: Escenarios de nube múltiple
-                      href: govern/guides/complex/multicloud-improvement.md
-                    - name: Varias capas de gobernanza
-                      href: govern/guides/complex/multiple-layers-of-governance.md
-            - name: Consideraciones de gobernanza
-              items:
-                - name: Evaluación de la directiva corporativa
-                  href: govern/corporate-policy.md
-                - name: Directiva y cumplimiento normativo corporativos preparados para la nube
-                  items:
-                    - name: Preparar la directiva corporativa para la nube
-                      href: govern/policy-compliance/index.md
-                    - name: Descripción de los riesgos empresariales
-                      href: govern/policy-compliance/business-risk.md
-                    - name: Evaluación de la tolerancia al riesgo
-                      href: govern/policy-compliance/risk-tolerance.md
-                    - name: Definición de la directiva corporativa
-                      href: govern/policy-compliance/policy-definition.md
-                    - name: Alineación del diseño con las directivas
-                      href: govern/policy-compliance/governance-alignment.md
-                    - name: Establecimiento de procesos de adhesión a directivas
-                      href: govern/policy-compliance/processes.md
-                    - name: Cumplimiento de normativas
-                      href: govern/policy-compliance/regulatory-compliance.md
-                    - name: Preparación de la seguridad en la nube
-                      href: govern/policy-compliance/cloud-security-readiness.md
-                    - name: Revisión de la directiva en la nube
-                      href: govern/policy-compliance/cloud-policy-review.md
-                    - name: Clasificación de los datos
-                      href: govern/policy-compliance/data-classification.md
-                - name: Materias de gobernanza en la nube
-                  href: govern/governance-disciplines.md
-                - name: Implementación de materias de la gobernanza en la nube
-                  items:
-                    - name: Administración de costos
-                      items:
-                        - name: Introducción a la administración de costos
-                          href: govern/cost-management/index.md
-                        - name: Descarga de la plantilla
-                          href: govern/cost-management/template.md
-                        - name: Descripción de los riesgos empresariales
-                          href: govern/cost-management/business-risks.md
-                        - name: Métricas e indicadores de tolerancia al riesgo
-                          href: govern/cost-management/metrics-tolerance.md
-                        - name: Directivas de administración de costos de ejemplo
-                          href: govern/cost-management/policy-statements.md
-                        - name: Procesos de cumplimiento de directivas
-                          href: govern/cost-management/compliance-processes.md
-                        - name: Mejorar la administración de costos
-                          href: govern/cost-management/discipline-improvement.md
-                        - name: Herramientas de administración de costos de Azure
-                          href: govern/cost-management/toolchain.md
-                    - name: Línea de base de seguridad
-                      items:
-                        - name: Introducción a la línea de base de seguridad
-                          href: govern/security-baseline/index.md
-                        - name: Descarga de la plantilla
-                          href: govern/security-baseline/template.md
-                        - name: Descripción de los riesgos empresariales
-                          href: govern/security-baseline/business-risks.md
-                        - name: Métricas e indicadores de tolerancia al riesgo
-                          href: govern/security-baseline/metrics-tolerance.md
-                        - name: Directivas de línea de base de seguridad de ejemplo
-                          href: govern/security-baseline/policy-statements.md
-                        - name: Procesos de cumplimiento de directivas
-                          href: govern/security-baseline/compliance-processes.md
-                        - name: Introducción a la línea de base de seguridad
-                          href: govern/security-baseline/discipline-improvement.md
-                        - name: Línea de base de seguridad nativa en la nube
-                          href: govern/security-baseline/cloud-native-policy.md
-                        - name: Guía de seguridad adicional de Azure
-                          href: govern/security-baseline/azure-security-guidance.md
-                        - name: Herramientas de línea base de seguridad de Azure
-                          href: govern/security-baseline/toolchain.md
-                    - name: Línea de base de identidad
-                      items:
-                        - name: Introducción a la línea de base de identidad
-                          href: govern/identity-baseline/index.md
-                        - name: Descarga de la plantilla
-                          href: govern/identity-baseline/template.md
-                        - name: Descripción de los riesgos empresariales
-                          href: govern/identity-baseline/business-risks.md
-                        - name: Métricas e indicadores de tolerancia al riesgo
-                          href: govern/identity-baseline/metrics-tolerance.md
-                        - name: Directivas de línea de base de identidad de ejemplo
-                          href: govern/identity-baseline/policy-statements.md
-                        - name: Procesos de cumplimiento de directivas
-                          href: govern/identity-baseline/compliance-processes.md
-                        - name: Mejorar la línea de base de identidad
-                          href: govern/identity-baseline/discipline-improvement.md
-                        - name: Herramientas de línea base de identidad de Azure
-                          href: govern/identity-baseline/toolchain.md
-                    - name: Coherencia de recursos
-                      items:
-                        - name: Introducción a la coherencia de recursos
-                          href: govern/resource-consistency/index.md
-                        - name: Descarga de la plantilla
-                          href: govern/resource-consistency/template.md
-                        - name: Descripción de los riesgos empresariales
-                          href: govern/resource-consistency/business-risks.md
-                        - name: Métricas e indicadores de tolerancia al riesgo
-                          href: govern/resource-consistency/metrics-tolerance.md
-                        - name: Directivas de coherencia de recursos de ejemplo
-                          href: govern/resource-consistency/policy-statements.md
-                        - name: Procesos de cumplimiento de directivas
-                          href: govern/resource-consistency/compliance-processes.md
-                        - name: Mejorar la coherencia de recursos
-                          href: govern/resource-consistency/discipline-improvement.md
-                        - name: Herramientas de coherencia de recursos de Azure
-                          href: govern/resource-consistency/toolchain.md
-                        - name: Administración del acceso a recursos
-                          href: govern/resource-consistency/resource-access-management.md
-                        - name: Diseño de gobernanza para una carga de trabajo sencilla
-                          href: govern/resource-consistency/governance-simple-workload.md
-                        - name: Diseño de gobernanza para varios equipos
-                          href: govern/resource-consistency/governance-multiple-teams.md
-                    - name: Aceleración de la implementación
-                      items:
-                        - name: Introducción a la aceleración de la implementación
-                          href: govern/deployment-acceleration/index.md
-                        - name: Descarga de la plantilla
-                          href: govern/deployment-acceleration/template.md
-                        - name: Descripción de los riesgos empresariales
-                          href: govern/deployment-acceleration/business-risks.md
-                        - name: Métricas e indicadores de tolerancia al riesgo
-                          href: govern/deployment-acceleration/metrics-tolerance.md
-                        - name: Directivas de aceleración de la implementación de ejemplo
-                          href: govern/deployment-acceleration/policy-statements.md
-                        - name: Procesos de cumplimiento de directivas
-                          href: govern/deployment-acceleration/compliance-processes.md
-                        - name: Mejorar la aceleración de la implementación
-                          href: govern/deployment-acceleration/discipline-improvement.md
-                        - name: Herramientas de aceleración de la implementación de Azure
-                          href: govern/deployment-acceleration/toolchain.md
         - name: Organizar
           items:
             - name: Administración de la alineación de la organización
@@ -681,7 +681,7 @@
     - name: Referencia
       items:
         - name: Hoja de ruta de Cloud Adoption Framework
-          href: reference/roadmap.md
+          href: reference/index.md
         - name: Guías de decisión
           items:
             - name: Información general
