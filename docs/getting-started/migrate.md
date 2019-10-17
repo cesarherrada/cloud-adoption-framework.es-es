@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: ab637312535f1497b8f506cb9636025460a7905b
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: fb521115d0a59af123bd78fdc2f4cc7c72939fb6
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223061"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378007"
 ---
 # <a name="getting-started-with-a-cloud-migration-journey"></a>Introducción al recorrido de migración a la nube
 
@@ -64,7 +64,7 @@ El objetivo de este trabajo es la migración o la modernización de las cargas d
 
 Las migraciones a la nube a menudo se consideran un solo proyecto dentro de un programa más amplio para simplificar las operaciones, los costos o la complejidad de TI. La metodología de implementación en la nube ayuda a alinear los trabajos técnicos de una serie de migraciones de cargas de trabajo con valores empresariales más generales descritos en la estrategia y el planeamiento para la nube.
 
-**Introducción:** para empezar a trabajar con una implementación en la nube, en la [guía de migración de Azure](../migrate/azure-migration-guide/index.md) y en la [guía de preparación de Azure](../ready/azure-readiness-guide/index.md) se describen las herramientas y los procesos generales necesarios para realizar correctamente una implementación en la nube. La migración de la primera carga de trabajo mediante esas guías ayudará al equipo a superar las curvas de aprendizaje iniciales en el proceso de planeamiento. Posteriormente, es necesario tener en cuenta además la [lista de comprobación de ámbito expandida](../migrate/expanded-scope/index.md), los [procedimientos recomendados de migración](../migrate/azure-best-practices/index.md) y las [consideraciones sobre la migración](../migrate/migration-considerations/index.md), a fin de alinear las orientaciones básicas con las restricciones, los procesos, las estructuras de equipo y los objetivos particulares de su trabajo.
+**Introducción:** para empezar a trabajar con una implementación en la nube, en la [guía de migración de Azure](../migrate/azure-migration-guide/index.md) y en la [guía de configuración de Azure](../ready/azure-setup-guide/index.md) se describen las herramientas y los procesos generales necesarios para realizar correctamente una implementación en la nube. La migración de la primera carga de trabajo mediante esas guías ayudará al equipo a superar las curvas de aprendizaje iniciales en el proceso de planeamiento. Posteriormente, es necesario tener en cuenta además la [lista de comprobación de ámbito expandida](../migrate/expanded-scope/index.md), los [procedimientos recomendados de migración](../migrate/azure-best-practices/index.md) y las [consideraciones sobre la migración](../migrate/migration-considerations/index.md), a fin de alinear las orientaciones básicas con las restricciones, los procesos, las estructuras de equipo y los objetivos particulares de su trabajo.
 
 ## <a name="cloud-strategy-and-planning"></a>Estrategia y planeamiento de la nube
 

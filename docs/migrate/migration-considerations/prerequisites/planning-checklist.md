@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d2366e4b5fad3344f324f9ff6f1b7dda0cc0b8c6
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 5b4e192aac3cf73aca704ed2c04116cd0d2a972b
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022598"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378379"
 ---
 # <a name="migration-environment-planning-checklist---validate-environmental-readiness-prior-to-migration"></a>Lista de comprobación del planeamiento del entorno de migración: validación de la preparación del entorno antes de la migración
 
@@ -35,7 +35,7 @@ Tanto si elige alinearse con una estrategia de control de la nube más amplia co
 
 Si desde el principio tiene previsto alinear la migración con una estrategia de gobernanza de la nube, deberá aplicar [Las cinco disciplinas de la gobernanza de la nube](../../../govern/governance-disciplines.md) para ayudar a tomar decisiones sobre las directivas, cadenas de herramientas y mecanismos de cumplimiento que alinearán el entorno de nube con los requisitos corporativos generales. Consulte las [guías de diseño de gobernanza accionables](../../../govern/guides/index.md) del marco de adopción de la nube para ver ejemplos de cómo implementar este modelo con los servicios de Azure.
 
-Si las migraciones iniciales no están estrechamente alineadas con una estrategia de gobernanza de la nube más amplia, aún será necesario gestionar los problemas generales de planeamiento de la organización, acceso e infraestructura. Consulte la [guía de preparación de Azure](../../../ready/azure-readiness-guide/index.md) para obtener ayuda con estas decisiones de preparación de la nube.
+Si las migraciones iniciales no están estrechamente alineadas con una estrategia de gobernanza de la nube más amplia, aún será necesario gestionar los problemas generales de planeamiento de la organización, acceso e infraestructura. Consulte la [guía de configuración de Azure](../../../ready/azure-setup-guide/index.md) para obtener ayuda con estas decisiones de preparación de la nube.
 
 > [!CAUTION]
 > Se recomienda encarecidamente desarrollar una estrategia de gobernanza para todos aquellos aspectos que vayan más allá de la migración inicial de la carga de trabajo.

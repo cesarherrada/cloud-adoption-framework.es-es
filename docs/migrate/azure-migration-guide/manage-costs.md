@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7a5f3b3f9a50cf4a989d268788279f132a42efb7
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 38e412bda80e68b0c5cb7e53ad52c078fa39f8fb
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967209"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378410"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
@@ -91,7 +91,7 @@ Los siguientes pasos proporcionan recomendaciones sobre el costo para los recurs
 
 Azure Cost Management puede proporcionar una vista más holística de los hábitos de gasto, incluida una vista detallada de los costos y las tendencias de los gastos a lo largo del tiempo. En el caso de las migraciones grandes o complejas, esta vista puede proporcionar la información necesaria para tomar decisiones amplias sobre la administración de costos de rastreo.
 
-Requisitos previos: el recordatorio de esta pestaña da por supuesto que el lector ha completado la configuración de Azure Cost Management durante la finalización de la guía de preparación de Azure. Para obtener más detalles sobre cómo configurar Azure Cost Management, consulte este [artículo en la guía de preparación de Azure](../../ready/azure-readiness-guide/manage-costs.md). Una vez que se rellenen los datos, siga los siguientes pasos para estimar los costos mensuales en función de los datos recopilados.
+Requisitos previos: el recordatorio de esta pestaña da por supuesto que el lector ha completado la configuración de Azure Cost Management durante la finalización de la guía de configuración de Azure. Para más información sobre cómo configurar Azure Cost Management, consulte este [artículo en la guía de configuración de Azure](../../ready/azure-setup-guide/manage-costs.md). Una vez que se rellenen los datos, siga los siguientes pasos para estimar los costos mensuales en función de los datos recopilados.
 
 Los siguientes pasos cargarán los datos de análisis de costos de Azure Cost Management para sus suscripciones:
 

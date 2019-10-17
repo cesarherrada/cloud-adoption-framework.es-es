@@ -9,18 +9,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: fc4d337f844cef3408c9bc073e3848ee4612fca3
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 003e212326959b593071f8230d2ddc0dba646909
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032424"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378276"
 ---
 # <a name="ready-recommended-naming-and-tagging-conventions"></a>Párese: Convenciones recomendadas de nomenclatura y etiquetado
 
 La organización de los recursos basados en la nube de forma que ayuden a la administración operativa y admitan los requisitos de contabilidad es un desafío común que afrontan las enormes labores de adopción de la nube. Al aplicar convenciones de etiquetado de metadatos y nomenclatura bien definidas a recursos hospedados en la nube, el personal de TI puede buscar y administrar los recursos rápidamente. Los nombres y etiquetas bien definidos también ayudan a alinear los costos de uso de la nube con los equipos empresariales mediante mecanismos de contabilidad de contracargo y visualización de costos.
 
-En la guía de [convenciones de nomenclatura de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) del Centro de arquitectura de Azure se proporcionan recomendaciones generales sobre las convenciones de nomenclatura y se analizan las limitaciones de los nombres y las reglas de plataforma. El siguiente análisis amplía esa guía genérica con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
+En la guía de [nomenclatura y restricciones de nombres de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) del Centro de arquitectura de Azure se proporcionan recomendaciones generales sobre las convenciones de nomenclatura y se analizan las limitaciones de los nombres y las reglas de plataforma. El siguiente análisis amplía esa guía genérica con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
 
 Los nombres de los recursos pueden ser difíciles de cambiar. Antes de comenzar con una implementación de gran tamaño en la nube, su prioridad debe ser que los equipos de adopción de la nube establezcan una convención de nomenclatura completa.
 
@@ -141,6 +141,8 @@ Las etiquetas que se aplican a los recursos y las etiquetas que son necesarias u
 ## <a name="sample-naming-convention"></a>Ejemplo de convención de nomenclatura
 
 En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura para tipos de recursos comunes de Azure que se implementan durante una implementación de nube de empresa.
+
+<!-- markdownlint-disable MD033 -->
 
 ### <a name="subscriptions"></a>Suscripciones
 

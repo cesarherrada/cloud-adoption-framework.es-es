@@ -8,17 +8,17 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: fasttrack-edit
-ms.openlocfilehash: 82e011355363eb0483914b01185a739ab847a997
+ms.custom: fasttrack-edit, setup
+ms.openlocfilehash: 0eee9746f4d2ee5fcf078774e070ffc25d430f38
 ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378253"
+ms.locfileid: "72379208"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Implementación de una zona de aterrizaje para la migración
 
-La *zona de aterrizaje de migración* es un término que se usa para describir un entorno que se ha aprovisionado y preparado para hospedar las cargas de trabajo que se van a migrar desde un entorno local a Azure. Una zona de aterrizaje de migración es la entrega final de la guía de configuración para Azure. En este artículo se unen todos los temas de preparación descritos en esta guía y se aplican las decisiones tomadas a la implementación de la primera zona de aterrizaje de migración.
+La *zona de aterrizaje de migración* es un término que se usa para describir un entorno que se ha aprovisionado y preparado para hospedar las cargas de trabajo que se van a migrar desde un entorno local a Azure. Una zona de aterrizaje de migración es la entrega final de la guía de configuración de Azure. En este artículo se unen todos los temas de preparación descritos en esta guía y se aplican las decisiones tomadas a la implementación de la primera zona de aterrizaje de migración.
 
 En las secciones siguientes se describe una zona de aterrizaje que se suele usar para establecer un entorno adecuado para usarse durante una migración. El entorno o la zona de aterrizaje descritos en este artículo también se capturan en un plano técnico de Azure. Puede usar el plano técnico de la zona de aterrizaje de migración de la plataforma de adopción de la nube (CAF) para implementar el entorno definido con un solo clic.
 
