@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 58fc2c1f3ac08fb38fcbd71e6dc1d91db768284e
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c32bbb180bc7b78a74681dc4a2554fd449bb21dc
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221114"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547889"
 ---
 # <a name="resource-consistency-decision-guide"></a>Guía de decisiones de la coherencia de recursos
 
@@ -32,7 +32,7 @@ Con el aumento de la importancia de estos factores, las ventajas de garantizar l
 
 En Azure, los [grupos de recursos](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups) son un mecanismo principal de organización de recursos para agrupar lógicamente los recursos dentro de una suscripción.
 
-Los grupos de recursos actúan como contenedores para los recursos con un ciclo de vida común Y restricciones de administración compartidas, como la directiva o los requisitos de control de acceso basado en rol (RBAC). Los grupos de recursos no pueden anidarse, y los recursos solo pueden pertenecer a un único grupo de recursos. Todas las acciones del plano de control actúan sobre todos los recursos de un grupo de recursos. Por ejemplo, al eliminar un grupo de recursos, también se eliminan todos los recursos de ese grupo. El patrón preferido para la administración del grupo de recursos debe tener en cuenta lo siguiente:
+Los grupos de recursos actúan como contenedores para los recursos con un ciclo de vida común Y restricciones de administración compartidas, como la directiva o los requisitos de control de acceso basado en rol (RBAC). Los grupos de recursos no pueden anidarse, y los recursos solo pueden pertenecer a un solo grupo de recursos. Todas las acciones del plano de control actúan sobre todos los recursos de un grupo de recursos. Por ejemplo, al eliminar un grupo de recursos, también se eliminan todos los recursos de ese grupo. El patrón preferido para la administración del grupo de recursos debe tener en cuenta lo siguiente:
 
 1. ¿Se desarrollan los contenidos del grupo de recursos de forma conjunta?
 1. ¿Se administran, actualizan y supervisan de forma conjunta los contenidos del grupo de recursos? ¿Realizan esas operaciones las mismas personas o equipos?
@@ -47,7 +47,7 @@ Si respondió _NO_ a cualquiera de las preguntas anteriores, el recurso en cuest
 
 Creadas sobre el mecanismo de agrupación de recursos base, la plataforma de Azure proporciona un sistema para usar plantillas para implementar los recursos en el entorno en la nube. Puede usar plantillas para crear convenciones de nomenclatura y organización coherentes al implementar cargas de trabajo, reforzando esos aspectos del diseño de la implementación y la administración de recursos.
 
-Las [plantillas de Azure Resource Manager](/azure/azure-resource-manager/template-deployment-overview) permiten implementar repetidamente los recursos en un estado coherente mediante una estructura de grupos de recursos y una configuración predeterminada. Las plantillas de Resource Manager ayudan a definir un conjunto de estándares como punto de partida para las implementaciones.
+Las [plantillas de Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/template-deployment-overview) permiten implementar repetidamente los recursos en un estado coherente mediante una estructura de grupos de recursos y una configuración predeterminada. Las plantillas de Resource Manager ayudan a definir un conjunto de estándares como punto de partida para las implementaciones.
 
 Por ejemplo, puede tener una plantilla estándar para la implementación de una carga de trabajo de servidor web que contiene dos máquinas virtuales como servidores web combinadas con un equilibrador de carga para distribuir el tráfico entre los servidores. A continuación, puede volver a usar esta plantilla para crear un conjunto de máquinas virtuales y un equilibrador de carga estructuralmente idénticos cada vez que se necesita este tipo de carga de trabajo, solo cambiando el nombre de la implementación y las direcciones IP implicadas.
 
