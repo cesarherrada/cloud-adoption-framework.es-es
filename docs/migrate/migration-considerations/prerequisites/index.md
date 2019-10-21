@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 96752e360442c2532ce48d61dd69b84ae3641ddd
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: ce4cf827f391c5fb15f6b9e78997dd0f02e1751b
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378406"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683774"
 ---
 # <a name="prerequisites-for-migration"></a>Requisitos previos para la migración
 
@@ -57,8 +57,8 @@ Se debe identificar un único miembro de cada equipo como responsable de cada un
 Además de la responsabilidad de alto nivel, hay acciones de las que un individuo o grupo se deben hacer responsables directamente. Estas son algunas de las responsabilidades que afectan a estas actividades:
 
 - **Prioridades empresariales.** Tome decisiones empresariales en relación a las cargas de trabajo que se desean migrar y a las restricciones temporales generales. Para más información, consulte [Cloud migration business motivations](../../../strategy/motivations.md) (Motivaciones empresariales para la migración a la nube).
-- **Preparación para la administración de cambios.** Establezca y comunique el plan para realizar el seguimiento de los cambios técnicos durante la migración. Habrá más información disponible sobre este tema en el tercer trimestre de 2019.
-- **Alineación del usuario empresarial.** Establezca un plan de preparación de la comunidad de usuarios empresariales para la ejecución de la migración. Habrá más información disponible sobre este tema en el tercer trimestre de 2019.
+- **Preparación para la administración de cambios.** Establezca y comunique el plan para realizar el seguimiento de los cambios técnicos durante la migración.
+- **Alineación del usuario empresarial.** Establezca un plan de preparación de la comunidad de usuarios empresariales para la ejecución de la migración.
 - **Inventario y análisis del patrimonio digital.** Ejecución de las herramientas necesarias para catalogar y analizar el patrimonio digital. Consulte el análisis de Cloud Adoption Framework del [patrimonio digital](../../../digital-estate/index.md) para más información.
 - **Preparación de la nube.** Evalúe el entorno de implementación de destino para asegurarse de que cumple con los requisitos de las primeras cargas de trabajo candidatas a la migración. Consulte la [Guía de instalación de Azure](../../../ready/azure-setup-guide/index.md) para más información.
 
