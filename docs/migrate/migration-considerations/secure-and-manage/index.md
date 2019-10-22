@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 652637905f9de09972eed199f85245e99fb60e29
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 86a88183b7743a4fb326d325e97f90c4f4a5aa24
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022586"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683772"
 ---
 # <a name="secure-monitoring-and-management-tools"></a>Protección de las herramientas de administración y supervisión
 
@@ -41,6 +41,16 @@ Confíe en Azure Security Center para lograr una supervisión unificada de la se
 
 Obtenga más información sobre [Azure Security Center](https://docs.microsoft.com/azure/security-center) para la protección de los recursos migrados.
 
+## <a name="service-health-monitoring"></a>Supervisión del estado del servicio
+
+Azure Service Health le proporciona alertas e indicaciones personalizadas cuando le afectan los incidentes que se producen en los servicios de Azure. Puede enviarle notificaciones, ayudarle a conocer el impacto de los problemas e informarle de la resolución de estos. También le puede ayudar a preparar las operaciones de mantenimiento y los cambios planeados que podrían afectar a la disponibilidad de sus recursos.
+
+- **Panel de estado del servicio.** Compruebe el estado general de los servicios y regiones de Azure, con actualizaciones detalladas sobre los problemas de servicio actuales, próximos mantenimientos planeados y transiciones de servicio.
+- **Alertas del estado del servicio.** Configure alertas que le notifiquen a usted y a sus equipos en caso de un problema de servicio como una interrupción o un próximo mantenimiento planeado.
+- **Historial de estados de servicio.** Revise los problemas de servicio pasados y descargue resúmenes e informes oficiales de Microsoft.
+
+Obtenga más información acerca de [Azure Service Health](https://docs.microsoft.com/azure/service-health) para mantenerse informado sobre el estado de los recursos migrados.
+
 ## <a name="protect-assets-and-data"></a>Protección de recursos y datos
 
 Azure Backup proporciona un medio de protección de las máquinas virtuales, archivos y datos. Azure Backup puede ayudarle con muchas funciones, incluidas:
@@ -51,3 +61,13 @@ Azure Backup proporciona un medio de protección de las máquinas virtuales, arc
 - La recuperación de recursos protegidos.
 
 Obtenga más información sobre [Azure Backup](https://docs.microsoft.com/azure/backup) para proteger los recursos migrados.
+
+## <a name="optimize-resources"></a>Optimización de recursos
+
+Azure Advisor es su guía personalizada de procedimientos recomendados para Azure. Azure Advisor analiza sus configuraciones y la telemetría de uso y ofrece recomendaciones que le ayudan a optimizar los recursos de Azure para obtener alta disponibilidad, seguridad, rendimiento y rentabilidad. Las acciones insertadas de Advisor le ayudan a corregir sus recomendaciones de forma rápida y sencilla, así como a optimizar las implementaciones.
+
+- **Procedimientos recomendados de Azure.** Optimice los recursos migrados para lograr una alta disponibilidad, seguridad, rendimiento y rentabilidad.
+- **Guía paso a paso.** Obtenga recomendaciones de corrección eficaces con vínculos rápidos guiados.
+- **Nuevas alertas de recomendaciones.** Manténgase al día sobre nuevas recomendaciones como, por ejemplo, oportunidades adicionales para ajustar el tamaño de las máquinas virtuales y ahorrar dinero.
+
+Obtenga más información sobre el uso de [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) para optimizar los recursos migrados.
