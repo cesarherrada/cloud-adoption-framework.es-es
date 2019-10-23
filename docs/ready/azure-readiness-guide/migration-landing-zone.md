@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: 82e011355363eb0483914b01185a739ab847a997
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: cb4b14da5b7f9e934a6597fb0fc4e1c8b3d656ff
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378253"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548912"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Implementación de una zona de aterrizaje para la migración
 
-La *zona de aterrizaje de migración* es un término que se usa para describir un entorno que se ha aprovisionado y preparado para hospedar las cargas de trabajo que se van a migrar desde un entorno local a Azure. Una zona de aterrizaje de migración es la entrega final de la guía de configuración para Azure. En este artículo se unen todos los temas de preparación descritos en esta guía y se aplican las decisiones tomadas a la implementación de la primera zona de aterrizaje de migración.
+La *zona de aterrizaje de migración* es un término que se usa para describir un entorno que se ha aprovisionado y preparado para hospedar las cargas de trabajo que se van a migrar desde un entorno local a Azure. Una zona de aterrizaje de migración es la entrega final de la guía de configuración de Azure. En este artículo se unen todos los temas de preparación descritos en esta guía y se aplican las decisiones tomadas a la implementación de la primera zona de aterrizaje de migración.
 
 En las secciones siguientes se describe una zona de aterrizaje que se suele usar para establecer un entorno adecuado para usarse durante una migración. El entorno o la zona de aterrizaje descritos en este artículo también se capturan en un plano técnico de Azure. Puede usar el plano técnico de la zona de aterrizaje de migración de la plataforma de adopción de la nube (CAF) para implementar el entorno definido con un solo clic.
 
@@ -60,12 +60,12 @@ Las siguientes decisiones se representan en el plano técnico de la zona de ater
 |Herramientas de migración|Azure Site Recovery se implementará y se creará un proyecto de Azure Migrate.|[Guía para la toma de decisiones de las herramientas de migración](../../decision-guides/migrate-decision-guide/index.md)|
 |Registro y supervisión|La cuenta de almacenamiento de diagnóstico y el área de trabajo de Operational Insights se aprovisionarán.|         |
 |Red|Se creará una red virtual con subredes para la puerta de enlace, el firewall, el jumpbox y la zona de aterrizaje.|[Decisiones respecto a las redes](../considerations/network-decisions.md)|
-|Identidad|Se da por sentado que la suscripción ya está asociada a una instancia de Azure Active Directory.|[Procedimientos recomendados de administración de identidades](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
+|Identidad|Se da por sentado que la suscripción ya está asociada a una instancia de Azure Active Directory.|[Procedimientos recomendados de administración de identidades](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)         |
 |Directiva|En la actualidad, en este plano técnico se da por hecho que no se aplicará ninguna directiva de Azure.|         |
 |Detalles de la suscripción|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)|
 |Grupos de administración|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)         |
 |Grupos de recursos|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)         |
-|Datos|N/D|[Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/architecture/bread/toc.json) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+|Datos|N/D|[Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Storage|N/D|[Guía de Azure Storage](../considerations/storage-guidance.md)         |
 |Estándares de nomenclatura y etiquetado|N/D|[Procedimientos recomendados de nomenclatura y etiquetado](../considerations/naming-and-tagging.md)         |
 |Administración de costos|N/D|[Seguimiento de costos](../azure-best-practices/track-costs.md)|

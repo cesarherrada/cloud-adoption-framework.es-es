@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 7144e772da10cd6c7d581fba61c11677524b60c2
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 6f45b3d3da6a1086f77474e823a9fd573b9b9bd0
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967296"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548261"
 ---
 # <a name="configure-azure-management-services-at-scale"></a>Configuración de servicios de administración de Azure a escala
 
@@ -30,7 +30,7 @@ La incorporación de los servicios de administración de Azure a los servidores 
 
 Todas las soluciones de administración descritas en el artículo sobre [servicios y herramientas de administración de Azure](./tools-services.md) requieren que el agente de Log Analytics se instale en máquinas virtuales (VM) de Azure y en servidores locales. Puede incorporar sus máquinas virtuales de Azure a escala mediante Azure Policy. Asigne una directiva para asegurarse de que el agente se instala en todas las máquinas virtuales de Azure y se conecta al área de trabajo de Log Analytics correcta.
 
-Azure Policy tiene una [iniciativa de directiva](/azure/governance/policy/concepts/definition-structure#initiatives) integrada que incluye el agente de Log Analytics y [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), que se requiere con Azure Monitor para VM.
+Azure Policy tiene una [iniciativa de directiva](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#initiatives) integrada que incluye el agente de Log Analytics y [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), que se requiere con Azure Monitor para VM.
 
 <!-- TODO: Add these when available.
 - [Preview]: Enable Azure Monitor for virtual machine scale sets.

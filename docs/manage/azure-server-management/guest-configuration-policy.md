@@ -8,16 +8,16 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c43d07c6cfdea0152559d7a13fec7dde148b1530
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 16d67f628ff99f971d2d79127b25698987cc8977
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221574"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547273"
 ---
 # <a name="guest-configuration-policy"></a>Directivas de configuración de invitado
 
-La extensión [Configuración de invitado](/azure/governance/policy/concepts/guest-configuration) de Azure Policy permite auditar la configuración de una máquina virtual. Configuración de invitado solo se admite de momento en máquinas virtuales de Azure.
+La extensión [Configuración de invitado](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) de Azure Policy permite auditar la configuración de una máquina virtual. Configuración de invitado solo se admite de momento en máquinas virtuales de Azure.
 
 Para encontrar la lista de directivas de configuración de invitado, busque la categoría "Configuración de invitado" en la página del portal de Azure Policy. También puede buscar la lista si ejecuta este cmdlet en una ventana de PowerShell:
 

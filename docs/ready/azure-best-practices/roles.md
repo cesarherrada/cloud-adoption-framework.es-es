@@ -11,12 +11,12 @@ ms.subservice: ready
 manager: BrianBlanchard
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 62d6ab27e127f9d954989465838cd7c328db0573
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: d9b51b7bb67a58d3a41818b1c51138c2e1c9c43a
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967770"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548980"
 ---
 # <a name="role-based-access-control"></a>Control de acceso basado en rol
 
@@ -28,7 +28,7 @@ Para información general sobre las prácticas de RBAC recomendadas como parte d
 
 Mediante el [ control de acceso basado en rol](https://docs.microsoft.com/azure/role-based-access-control/overview), puede separar las tareas dentro de su equipo y otorgar solo acceso suficiente para usuarios, grupos, entidades de servicio o identidades administradas de Azure Active Directory (Azure AD) específicos para realizar sus trabajos. En lugar de proporcionar acceso no restringido a todos los empleados a los recursos o la suscripción de Azure, puede limitar los permisos para cada conjunto de recursos.
 
-[Las definiciones de rol de RBAC](https://docs.microsoft.com/azure/role-based-access-control/role-definitions) enumeran las operaciones permitidas o no permitidas para los usuarios o grupos asignados a ese rol. El [ámbito](/azure/role-based-access-control/overview#scope) de un rol especifica a qué recursos se aplican estos permisos definidos. Los ámbitos se pueden especificar en varios niveles: grupo de administración, suscripción, grupo de recursos o recurso. Los ámbitos se estructuran en una relación de elementos primarios y secundarios.
+[Las definiciones de rol de RBAC](https://docs.microsoft.com/azure/role-based-access-control/role-definitions) enumeran las operaciones permitidas o no permitidas para los usuarios o grupos asignados a ese rol. El [ámbito](https://docs.microsoft.com/azure/role-based-access-control/overview#scope) de un rol especifica a qué recursos se aplican estos permisos definidos. Los ámbitos se pueden especificar en varios niveles: grupo de administración, suscripción, grupo de recursos o recurso. Los ámbitos se estructuran en una relación de elementos primarios y secundarios.
 
 ![Jerarquía de ámbitos RBAC](../../_images/azure-best-practices/rbac-scope.png)
 
