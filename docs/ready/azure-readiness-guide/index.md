@@ -10,18 +10,25 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 124b308538161423c3f1b0c34f9834f4454c1e69
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: c344751d8db08a84efdcaddc32a48f6326d1ac3f
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378359"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72698504"
 ---
-# <a name="before-you-start"></a>Antes de comenzar
+::: zone target="docs"
+
+# <a name="azure-setup-guide-before-you-start"></a>Guía de instalación de Azure: Antes de comenzar
+
+> [!NOTE]
+> Esta guía es un punto de partida para la guía de innovación en Cloud Adoption Framework. También está disponible en el Centro de inicio rápido de Azure. Más adelante en este artículo encontrará un vínculo al Centro de inicio rápido de Azure.
+
+::: zone-end
 
 ::: zone target="docs"
-> [!NOTE]
-> Esta guía ofrece un punto de partida inicial para obtener instrucciones de preparación de Cloud Adoption Framework y también está disponible en Azure Quickstart Center. Vea la sugerencia del artículo para acceder a un vínculo.
+
+# <a name="before-you-start"></a>Antes de comenzar
 
 ::: zone-end
 
@@ -29,8 +36,6 @@ Antes de empezar a compilar e implementar soluciones con servicios de Azure, deb
 
 Aprenderá a:
 
-::: zone target="chromeless"
-
 > [!div class="checklist"]
 >
 > - **Organizar recursos**: configure una jerarquía de administración para aplicar de forma coherente el control de acceso, las directivas y el cumplimiento a grupos de recursos y utilice el etiquetado para realizar el seguimiento de los recursos relacionados.
@@ -39,19 +44,8 @@ Aprenderá a:
 > - **Planear la gobernanza, seguridad y cumplimiento**: aplique y automatice las directivas y la configuración de seguridad que le ayudarán a seguir los requisitos legales aplicables.
 > - **Usar la supervisión y los informes**: obtenga visibilidad a través de los recursos para ayudar a buscar y solucionar problemas, optimizar el rendimiento u obtener información sobre el comportamiento de los clientes.
 > - **Mantenerse al día con Azure**: realice un seguimiento de las actualizaciones de productos para que pueda adoptar un enfoque proactivo de la administración de cambios.
-
-::: zone-end
 
 ::: zone target="docs"
-
-> [!div class="checklist"]
->
-> - **Organizar recursos**: configure una jerarquía de administración para aplicar de forma coherente el control de acceso, las directivas y el cumplimiento a grupos de recursos y utilice el etiquetado para realizar el seguimiento de los recursos relacionados.
-> - **Administrar el acceso**: utilice el control de acceso basado en roles para asegurarse de que los usuarios solo tienen los permisos que realmente necesitan.
-> - **Administrar costos y facturación**: identifique el tipo de suscripción, comprenda cómo funciona la facturación y vea cómo puede controlar los costos.
-> - **Planear la gobernanza, seguridad y cumplimiento**: aplique y automatice las directivas y la configuración de seguridad que le ayudarán a seguir los requisitos legales aplicables.
-> - **Usar la supervisión y los informes**: obtenga visibilidad a través de los recursos para ayudar a buscar y solucionar problemas, optimizar el rendimiento u obtener información sobre el comportamiento de los clientes.
-> - **Mantenerse al día con Azure**: realice un seguimiento de las actualizaciones de productos para que pueda adoptar un enfoque proactivo de la administración de cambios.
 
 > [!TIP]
 > Para una experiencia interactiva, consulte esta guía en Azure Portal. Vaya al [Centro de inicio rápido de Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) en Azure Portal y seleccione **Introducción a la configuración de Azure**. Después, siga las instrucciones detalladas.
@@ -62,6 +56,6 @@ Pasos siguientes: [Organización de los recursos para simplificar cómo se aplic
 
 ::: zone target="chromeless"
 
-En esta guía se proporcionan pasos interactivos que permiten probar las características que se introducen. Para volver a donde lo dejó, utilice la ruta de navegación para la navegación.
+Esta guía incluye pasos interactivos que permiten probar las características a medida que se introducen. Para volver a donde lo dejó, utilice la ruta de navegación para la navegación.
 
 ::: zone-end

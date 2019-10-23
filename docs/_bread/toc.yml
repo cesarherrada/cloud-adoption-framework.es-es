@@ -27,9 +27,13 @@
             - name: Innovación
               tocHref: /azure/cloud-adoption-framework/innovate/
               topicHref: /azure/cloud-adoption-framework/innovate
-        - name: Funcionamiento
-          tocHref: /azure/cloud-adoption-framework/operate/
-          topicHref: /azure/cloud-adoption-framework/operate
+              items:
+                - name: Guía de innovación de Azure
+                  tocHref: /azure/cloud-adoption-framework/innovate/innovation-guide/
+                  topicHref: /azure/cloud-adoption-framework/innovate/innovation-guide
+        - name: Modelo operativo
+          tocHref: /azure/cloud-adoption-framework/operating-model/
+          topicHref: /azure/cloud-adoption-framework/operating-model
           items:
             - name: Control
               tocHref: /azure/cloud-adoption-framework/govern/

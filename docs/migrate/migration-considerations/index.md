@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 99e5deee6551d7e4db3a0404c6dd0e81deffe35d
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 15c4be90354e30333384023e67090ef6103464e2
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224036"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548469"
 ---
 # <a name="cloud-adoption-framework-migration-model"></a>Modelo de migración de Cloud Adoption Framework
 
@@ -30,7 +30,7 @@ El modelo de migración de Cloud Adoption Framework depende de que la organizaci
 
 ## <a name="envision-an-end-state"></a>Previsión de un estado final
 
-Es importante establecer una visión aproximada del estado final antes de iniciar los esfuerzos de migración. En el diagrama siguiente se muestra un punto inicial local de la infraestructura, las aplicaciones y los datos, que define su *patrimonio digital*. Durante el proceso de migración, esos recursos realizan la transición mediante una de las cinco estrategias de migración descritas en [Las cinco "R" de la racionalización](../../digital-estate/5-rs-of-rationalization.md).
+Es importante tener una visión aproximada del estado final antes de iniciar los trabajos de migración. En el diagrama siguiente se muestra un punto inicial local de la infraestructura, las aplicaciones y los datos, que define su *patrimonio digital*. Durante el proceso de migración, esos recursos realizan la transición mediante una de las cinco estrategias de migración descritas en [Las cinco "R" de la racionalización](../../digital-estate/5-rs-of-rationalization.md).
 
 ![Infografía de las opciones de migración](../../_images/migrate/migration-options.png)
 

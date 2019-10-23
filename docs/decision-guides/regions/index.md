@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 8323a8bded4f2cc1d24407fa3326abf3b96ef810
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 65c7d342aa201f06e3b38ed25e933ba7d6a471b1
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967708"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547851"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -52,8 +52,8 @@ Cualquier implementación sólida en la nube requiere una red bien ponderada que
     > No intente utilizar el almacenamiento con redundancia geográfica de Azure para las copias de seguridad o la recuperación de máquinas virtuales. En vez de eso, utilice [Azure Backup](https://azure.microsoft.com/services/backup) y [Azure Site Recovery](https://azure.microsoft.com/services/site-recovery), además de [Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview), para mejorar la resistencia de las cargas de trabajo de IaaS.
 2. Azure Backup y Azure Site Recovery funcionan de forma conjunta con el diseño de la red para facilitar la resistencia regional para sus necesidades de IaaS y de copia de seguridad de datos. Asegúrese de que la red está optimizada para que las transferencias de datos permanezcan en la red troncal de Microsoft y utilicen el [emparejamiento de redes virtuales](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) si es posible. En su lugar, algunas organizaciones de mayor tamaño con implementaciones globales pueden utilizar [ExpressRoute Premium](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) para enrutar el tráfico entre regiones, lo cual puede suponer un ahorro en los cargos de salida de la región.
 3. Los grupos de recursos de Azure son construcciones específicas de cada región. Sin embargo, es normal que los recursos de un grupo de recursos abarquen varias regiones. Si es así, es importante tener en cuenta que, en caso de error en una región, las operaciones del plano de control en un grupo de recursos producirán un error en la región afectada, aunque los recursos de otras regiones (dentro de ese grupo de recursos) sigan funcionando. Esto puede afectar a la red y al diseño del grupo de recursos.
-4. Muchos servicios de PaaS de Azure admiten [puntos de conexión de servicio](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) o [Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview). Ambas soluciones afectan notablemente a aspectos como la resistencia, la migración y la gobernanza regionales.
-5. Muchos servicios de PaaS se basan en sus propias soluciones de resistencia regional. Por ejemplo, Azure SQL Database le permite replicar fácilmente en N regiones adicionales, como también hace CosmosDB. Algunos servicios no incluyen ninguna dependencia de región como Azure DNS. A la hora de considerar qué servicios va a utilizar en el proceso de adopción, asegúrese de que comprende claramente las funcionalidades de conmutación por error y los pasos de recuperación que puede necesitar cada servicio de Azure.
+4. Muchos servicios de PaaS de Azure admiten [puntos de conexión de servicio](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) o [vínculos privados](https://docs.microsoft.com/azure/private-link/private-link-overview). Ambas soluciones afectan notablemente a aspectos como la resistencia, la migración y la gobernanza regionales.
+5. Muchos servicios de PaaS se basan en sus propias soluciones de resistencia regional. Por ejemplo, Azure SQL Database le permite replicar fácilmente en N regiones adicionales, como también hace Cosmos DB. Algunos servicios no incluyen ninguna dependencia de región como Azure DNS. A la hora de considerar qué servicios va a utilizar en el proceso de adopción, asegúrese de que comprende claramente las funcionalidades de conmutación por error y los pasos de recuperación que puede necesitar cada servicio de Azure.
 6. Además de realizar la implementación en varias regiones para dar servicio a la recuperación ante desastres, muchas organizaciones deciden implementarse en un patrón activo-activo para que no sea necesaria ninguna conmutación por error. Esto tiene la ventaja adicional de proporcionar equilibrio de carga global, una mejora de la tolerancia a errores y mejor rendimiento de red. Para sacar el máximo partido a este patrón, las aplicaciones deben admitir la ejecución activa-activa en varias regiones.
 
 > [!WARNING]
@@ -63,9 +63,9 @@ Después de reflexionar sobre la topología de red que necesita para preservar c
 
 - Considere una implementación de disponibilidad y gobernanza más sólida.
 - Realice un inventario de las geografías afectadas. Cree una lista de las regiones y los países afectados.
-- Documente los requisitos de soberanía de datos: ¿Los países identificados tienen requisitos de cumplimiento que rigen la soberanía de datos?
-- Documente la base de usuarios: ¿La migración a la nube afectará a los empleados, asociados o clientes del país identificado?
-- Documente los centros de datos y los recursos: ¿En el país identificado hay recursos que se podrían incluir en el trabajo de migración?
+- Documente los requisitos de soberanía de datos. ¿Los países identificados tienen requisitos de cumplimiento que rigen la soberanía de datos?
+- Documente la base de usuarios. ¿La migración a la nube afectará a los empleados, asociados o clientes del país identificado?
+- Documente los centros de datos y los recursos. ¿En el país identificado hay recursos que se podrían incluir en el trabajo de migración?
 - Documente los requisitos de disponibilidad y conmutación por error de la SKU regional.
 
 Alinee los cambios en el proceso de migración para dirigir el inventario inicial.

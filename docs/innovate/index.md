@@ -1,35 +1,122 @@
 ---
-title: Innovación en la nube
+title: Innovación en la nube en Cloud Adoption Framework
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Introducción al contenido de innovación en la nube
+description: Más información acerca de la innovación en la nube en Cloud Adoption Framework.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2019
-ms.topic: guide
+ms.date: 10/14/2019
+ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4dbdaeecc094afd90df078a59774d886fd909924
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+layout: LandingPage
+ms.openlocfilehash: f3ede236dc0abc59dbf6e250c319185dda4e11e6
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70816608"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72545121"
 ---
-# <a name="innovation-in-the-cloud-adoption-framework"></a>Innovación en Cloud Adoption Framework
+# <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Innovación en la nube en Cloud Adoption Framework
 
-La nube crea nuevas oportunidades para que los clientes innoven.
+Todas las carteras de TI tienen una pequeña colección de cargas de trabajo e ideas que pueden mejorar considerablemente la posición de la empresa en el mercado. Aunque la mayor parte de los esfuerzos de adopción de la nube se centran en la migración y modernización de las cargas de trabajo existentes, el mayor valor empresarial derivado de la adopción de la nube proviene de las actividades de innovación que desbloquean nuevas aptitudes técnicas y funcionalidades empresariales ampliadas. Esta sección de Cloud Adoption Framework se centra en la parte de la cartera que genera la máxima rentabilidad de la inversión.
 
-> [!NOTE]
-> En el tercer trimestre de 2019, Cloud Adoption Framework se ampliará para incluir orientaciones relacionadas con la modernización y enfoques nativos de la nube para impulsar la innovación en el patrimonio digital y la cartera de aplicaciones.
+## <a name="getting-started"></a>Introducción
 
-## <a name="application-modernization-and-innovation"></a>Innovación y modernización de aplicaciones
+Para prepararse para esta fase del ciclo de vida de la adopción de la nube, el marco sugiere los siguientes ejercicios:
 
-Las aplicaciones y datos nativos de la nube aceleran los ciclos de desarrollo y experimentación. Las aplicaciones antiguas pueden aprovecharse de muchas de las ventajas de las aplicaciones nativas de la nube mediante la modernización de la solución o de los componentes de esta. Los enfoques actuales de DevOps y SDLC que utilizan tecnología en la nube acortan el tiempo que transcurre entre la idea y el cambio real del producto. En combinación, estas herramientas invitan al cliente al proceso de crear bucles de comentarios más cortos y mejores experiencias de cliente.
+<!-- markdownlint-disable MD033 -->
 
-## <a name="data-platform-modernization-and-innovation"></a>Modernización e innovación de la plataforma de datos
+<ul class="panelContent cardsF">
+    <li style="display: flex; flex-direction: column;">
+        <a href="./business-value.md">
+            <div class="cardSize">
+                <div class="cardPadding" style="padding-bottom:10px;">
+                    <div class="card" style="padding-bottom:10px;">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img alt="" src="../_images/icons/1.png" data-linktype="external">
+                            </div>
+                        </div>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Consenso del valor empresarial</h3>
+Antes de tomar una decisión acerca de las soluciones técnicas es importante alinear el valor empresarial deseado. Ese valor debe asignarse a la estrategia de la nube. En esta metodología incremental, el valor empresarial se representa mediante una hipótesis acerca de las necesidades del cliente.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./innovation-guide/index.md">
+            <div class="cardSize">
+                <div class="cardPadding" style="padding-bottom:10px;">
+                    <div class="card" style="padding-bottom:10px;">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
+                            </div>
+                        </div>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Guía de innovación de Azure</h3>
+Muchas herramientas nativas de la nube disponibles en Azure pueden acelerar el desarrollo de soluciones innovadoras. En función de la hipótesis del cliente se pueden aplicar varias combinaciones de herramientas. Se sugiere crear un producto viable mínimo (MVP) con herramientas básicas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./best-practices/index.md">
+            <div class="cardSize">
+                <div class="cardPadding" style="padding-bottom:10px;">
+                    <div class="card" style="padding-bottom:10px;">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
+                            </div>
+                        </div>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Procedimientos recomendados</h3>
+Compruebe que las decisiones arquitectónicas siguen los procedimientos recomendados de todas las herramientas de la cadena. Estos procedimientos recomendados ayudan a acelerar el desarrollo de soluciones y proporcionan una referencia para la creación de diseños arquitectónicos sólidos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./considerations/adoption.md">
+            <div class="cardSize">
+                <div class="cardPadding" style="padding-bottom:10px;">
+                    <div class="card" style="padding-bottom:10px;">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
+                            </div>
+                        </div>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Bucles de comentarios</h3>
+Durante cada iteración de desarrollo, las soluciones en desarrollo permiten a los equipos aprender al mismo tiempo que sus clientes. Unos bucles de comentarios con los clientes rápidos y precisos ayudan a probar, medir y aprender a reducir el impacto del tiempo necesario para la comercialización. Más información acerca de la forma en que Azure y GitHub aceleran los bucles de comentarios.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+<!-- markdownlint-enable MD033 -->
 
-La nube permite nuevos formularios de datos dentro de las plataformas habituales. Aumentar la velocidad, veracidad, variedad y volumen de los datos permite que los profesionales del sector desarrollen predicciones y conclusiones en conjuntos de datos más amplios. Unas herramientas de entrada ampliadas, como IoT y Azure Data Factory, permiten a equipos más amplios integrar datos bidireccionalmente con productos físicos y virtuales.
+## <a name="methodology-summary"></a>Resumen de metodología
 
-## <a name="infrastructure-modernization-and-innovation"></a>Modernización e innovación de la infraestructura
+La [sección de consideraciones de la metodología de innovación](./considerations/index.md) establece un lenguaje común para la innovación en el desarrollo de aplicaciones, DevOps, TI y equipos empresariales. Los ejercicios anteriores hacen que esta sea una metodología práctica durante el desarrollo de soluciones innovadoras.
 
-Los enfoques modernos relacionados con la implementación de la infraestructura, las operaciones y la gobernanza están permitiendo salvar rápidamente la separación entre la fase de desarrollo y la de operaciones. El establecimiento de factorías de entorno con plantillas comunes para diversos patrones de aplicación permite que los equipos de TI y de operaciones aceleren la implementación al tiempo que reducen los riesgos. La integración de las operaciones libera a los equipos de DevOps de los servicios de mantenimiento de desfase de la configuración, la implementación de la línea de base de la seguridad, la supervisión operativa y otros servicios de TI. La modernización e innovación en la cartera de TI genera una mejor alineación con DevOps y acelera las innovaciones en el patrimonio digital y en la cartera de aplicaciones.
+![La metodología de innovación de Cloud Adoption Framework](../_images/innovate/innovate-methodology.png)
+
+Esta metodología se basa en las metodologías lean existentes para crear una conversación centrada en la nube acerca de la adopción por parte del cliente y de un modelo científico para la creación de valor empresarial. También alinea los servicios de Azure existentes con procesos de decisión administrables, lo que facilita la búsqueda de las opciones técnicas adecuadas para abordar una necesidad o hipótesis concretas de un cliente.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+El primer ejercicio durante la innovación en la nube es [crear consenso para el valor empresarial](./business-value.md).
+
+> [!div class="nextstepaction"]
+> [Creación de consenso para el valor empresarial](./business-value.md)

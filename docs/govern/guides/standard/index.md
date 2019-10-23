@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 492415da236ad54b66d6aeb6b1571f623793db0a
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 059e60e44ccf393bb731005bd4a579f3e3e41951
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967626"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547596"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Guía de gobernanza para empresas estándar
 
@@ -22,7 +22,7 @@ ms.locfileid: "71967626"
 
 Esta guía de gobernanza muestra las experiencias de una empresa ficticia a través de diversas fases de madurez del proceso de gobernanza. Se basa en experiencias reales de los clientes. Los procedimientos recomendados se basan en las restricciones y necesidades de la empresa ficticia.
 
-Como punto de inicio rápido, esta información general define un producto viable mínimo (MVP) para la gobernanza basado en una guía preceptiva. También proporciona vínculos a algunas mejoras de gobernanza que agregan más procedimientos recomendados a medida que surgen nuevos riesgos técnicos o empresariales.
+Como punto de inicio rápido, esta información general define un producto viable mínimo (MVP) para la gobernanza en función de los procedimientos recomendados. También proporciona vínculos a algunas mejoras de gobernanza que agregan más procedimientos recomendados a medida que emergen nuevos riesgos técnicos o empresariales.
 
 > [!WARNING]
 > Este MVP es un punto de inicio de la base de referencia, basado en un conjunto de suposiciones. Incluso este conjunto mínimo de procedimientos recomendados se basa en directivas corporativas controladas por tolerancias al riesgo y riesgos empresariales únicos. Para ver si estas suposiciones se aplican a usted, lea la [narrativa más larga](./narrative.md) que sigue este artículo.
@@ -82,7 +82,7 @@ Con el tiempo, este MVP de gobernanza se usará para mejorar las prácticas de g
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que se ha familiarizado con el MVP de gobernanza y tiene una idea de las mejoras de gobernanza que se deben seguir, lea la narrativa de apoyo para obtener contexto adicional.
+Ahora que se ha familiarizado con el producto viable mínimo de gobernanza y tiene una idea de las mejoras de gobernanza que se deben seguir, lea la documentación complementaria para obtener más contexto.
 
 > [!div class="nextstepaction"]
 > [Lectura de la narrativa de apoyo](./narrative.md)

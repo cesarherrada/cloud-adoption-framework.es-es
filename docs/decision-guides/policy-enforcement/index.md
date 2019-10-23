@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 383f2d6a2443c70c8e082183f601b8186fc98870
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 5dba9732220d5219b7d58a60ba93aec68792a24f
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023708"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547865"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Guía de decisiones sobre el cumplimiento de directivas
 
@@ -22,7 +22,7 @@ La definición de una directiva de la organización no será eficaz a menos que 
 
 ![Esquema de las opciones de cumplimiento de directivas, de las menos a las más complejas, con sus hipervínculos](../../_images/decision-guides/decision-guide-policy-enforcement.png)
 
-Vaya a: [Procedimientos recomendados de la base de referencia](#baseline-recommended-practices) | [Supervisión del cumplimiento de la directiva](#policy-compliance-monitoring) | [Cumplimiento de la directiva](#policy-enforcement) | [Directiva para toda la organización](#cross-organization-policy) | [Cumplimiento automatizado](#automated-enforcement)
+Vaya a: [Procedimientos recomendados de la base de referencia](#baseline-best-practices) | [Supervisión del cumplimiento de la directiva](#policy-compliance-monitoring) | [Cumplimiento de la directiva](#policy-enforcement) | [Directiva para toda la organización](#cross-organization-policy) | [Cumplimiento automatizado](#automated-enforcement)
 
 A medida que crece el entorno en la nube, se tendrá que enfrentar con la correspondiente necesidad de mantener y aplicar las directivas en una amplia matriz de recursos y suscripciones. A medida que el entorno se amplía y aumentan los requisitos de directivas de la organización, el ámbito de los procesos de cumplimiento de directivas se debe expandir para garantizar un cumplimiento coherente de la directivas y una detección de infracciones rápida.
 
@@ -30,7 +30,7 @@ Los mecanismos de cumplimiento de directivas que proporciona la plataforma en el
 
 Los principales factores para determinar el ámbito de los procesos de cumplimiento de directivas son los [requisitos de gobernanza en la nube](../../govern/index.md) de la organización, el tamaño y la naturaleza del entorno en la nube y cómo se refleja la organización en el [diseño de suscripciones](../subscriptions/index.md). Un aumento de tamaño del entorno o una mayor necesidad de administrar de forma centralizada la aplicación de directivas pueden justificar un aumento en el ámbito del cumplimiento.
 
-## <a name="baseline-recommended-practices"></a>Procedimientos recomendados sobre la base de referencia
+## <a name="baseline-best-practices"></a>Procedimientos recomendados de seguridad
 
 Para una sola suscripción e implementaciones sencillas en la nube, se pueden aplicar muchas directivas corporativas mediante características que son nativas a los recursos y las suscripciones de Azure. El uso coherente de los patrones descritos en las [guías de decisión](../index.md) de Cloud Adoption Framework puede ayudar a establecer un nivel de línea de base de cumplimiento de directivas sin inversión específica en cumplimiento de directivas. Estas características son:
 
@@ -43,7 +43,7 @@ Inicie la planeación del cumplimiento de la directiva de la nube mediante el an
 
 ## <a name="policy-compliance-monitoring"></a>Supervisión del cumplimiento de la directiva
 
-Un primer paso más allá de la simple confianza en los mecanismos de cumplimiento de directivas proporcionados por la plataforma de Azure es garantizar la posibilidad de comprobar que las aplicaciones y servicios basados en la nube cumplen con la directiva organizativa. Esto incluye la implementación de funcionalidades de notificación para alertar a las partes responsables si un recurso no logra el cumplimiento. El [registro y notificación](../logging-and-reporting/index.md) eficaz del estado de cumplimiento de las cargas de trabajo de la nube es una parte fundamental de una estrategia de cumplimiento de la directiva corporativa.
+Un primer paso más allá de la simple confianza en los mecanismos de cumplimiento de directivas proporcionados por la plataforma de Azure es garantizar la posibilidad de comprobar que las aplicaciones y servicios basados en la nube cumplen con la directiva de la organización. Esto incluye la implementación de funcionalidades de notificación para alertar a las partes responsables si un recurso no logra el cumplimiento. El [registro y notificación](../logging-and-reporting/index.md) eficaz del estado de cumplimiento de las cargas de trabajo de la nube es una parte fundamental de una estrategia de cumplimiento de la directiva corporativa.
 
 A medida que crece el patrimonio de la nube, hay herramientas adicionales como [Azure Security Center](https://docs.microsoft.com/azure/security-center) que ofrecen seguridad y detección de amenazas integrada, y que ayuda a aplicar una administración centralizada de la directiva y a enviar alertas sobre el estado de los recursos locales y en la nube.
 

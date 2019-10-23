@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d2218c812c131c16716e9df1f347b4615e0c6b60
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 882d78a7100a84326b486a00611c13dacb4df18e
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220563"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547746"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 
@@ -83,7 +83,7 @@ Con el tiempo, este MVP de gobernanza se usará para mejorar de forma incrementa
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que se ha familiarizado con el MVP de gobernanza y con los próximos cambios de esta, lea la narrativa de apoyo para obtener contexto adicional.
+Ahora que se ha familiarizado con el producto viable mínimo de gobernanza y con los próximos cambios de la gobernanza, lea la documentación complementaria para obtener más contexto.
 
 > [!div class="nextstepaction"]
 > [Lectura de la narrativa de apoyo](./narrative.md)

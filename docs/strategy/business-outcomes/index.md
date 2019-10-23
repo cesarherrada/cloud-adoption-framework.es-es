@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: fffbb4c2017d05ab6eccb350615ef18572b601d5
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: e67d3e0ed1e13fc4c7a5cfdca1bb2f6c138601ba
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71026416"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548728"
 ---
 <!-- markdownlint-disable -->
 
@@ -21,7 +21,7 @@ ms.locfileid: "71026416"
 
 Los procesos de transformación con más éxito comienzan con un resultado empresarial en mente. Adopción de la nube puede ser un esfuerzo en el que hay que invertir mucho tiempo y dinero. Fomentar el nivel adecuado de soporte técnico de TI y otras áreas de la empresa es fundamental para el éxito. El [marco de resultados empresariales](../index.md) de Microsoft está diseñado para ayudar a los clientes a identificar resultados empresariales que son concisos, están definidos y fomentan resultados observables o cambios en el rendimiento de la empresa, además de contar con el apoyo de una medida concreta.
 
-Durante todas las transformaciones en la nube la capacidad para hablar en términos de resultados soporta la transparencia y las asociaciones interfuncionales. El marco de resultados empresariales comienza con una plantilla sencilla que ayuda a los usuarios con mentalidad técnica a documentarse y conseguir un consenso. Dicha plan se puede usar con varias partes interesadas del negocio para recopilar varios resultados empresariales, que pueden verse influidos por el proceso de transformación de una empresa. Dicha plantilla se puede usar de forma electrónica, o mejor aún, se puede dibujar en una pizarra para que los líderes empresariales y las partes interesadas puedan participar en debates acerca de dichos resultados.
+Durante todas las transformaciones en la nube la capacidad para hablar en términos de resultados soporta la transparencia y las asociaciones interfuncionales. El marco de resultados empresariales comienza con una plantilla sencilla que ayuda a los usuarios con mentalidad técnica a documentarse y conseguir un consenso. Dicha plantilla se puede usar con varias de las partes interesadas del negocio para recopilar los distintos resultados empresariales que podrían verse influidos por el proceso de transformación de una empresa. Dicha plantilla se puede usar de forma electrónica, o mejor aún, se puede dibujar en una pizarra para que los líderes empresariales y las partes interesadas puedan participar en debates acerca de dichos resultados.
 
 Para más información acerca de los resultados empresariales y la plantilla de resultados empresariales, consulte cómo [documentar los resultados empresariales](./business-outcome-template.md) o descargue la [plantilla de resultados empresariales](https://archcenter.blob.core.windows.net/cdn/business-outcome-template.xlsx).
 
@@ -48,7 +48,7 @@ Vea ejemplos de [resultados fiscales](./fiscal-outcomes.md).
 
 ## <a name="agility-outcomes"></a>Resultados de agilidad
 
-El entorno empresarial actual cambia a velocidad de vértigo, por lo que hace especial énfasis en el tiempo. La capacidad de impulsar cambios en el mercado, o de dar una respuesta a tales cambios de forma rápida, es la medida fundamental de la agilidad empresarial.
+El entorno empresarial actual cambia a velocidad de vértigo, por lo que el tiempo tiene especial importancia. La capacidad de impulsar cambios en el mercado, o de dar una respuesta a tales cambios de forma rápida, es la medida fundamental de la agilidad empresarial.
 
 Vea ejemplos de [resultados de agilidad](./agility-outcomes.md).
 
