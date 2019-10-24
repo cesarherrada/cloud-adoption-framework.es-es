@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre la selección de regiones en la plataforma de nube.
 author: doodlemania2
 ms.author: dermar
-ms.date: 09/19/2019
+ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 65c7d342aa201f06e3b38ed25e933ba7d6a471b1
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 14ebb2d3f253a7cf80b005595584202537e46cc1
+ms.sourcegitcommit: 910efd3e686bd6b9bf93951d84253b43d4cc82b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547851"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72769401"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -44,7 +44,7 @@ A medida que profundicemos en estos puntos, empezará a comprender lo importante
 
 Cualquier implementación sólida en la nube requiere una red bien ponderada que tenga en cuenta las regiones de Azure. Después de reflexionar sobre las características anteriores acerca de en qué regiones realizar la implementación, se debe implementar la red. Aunque el análisis exhaustivo de las redes queda fuera del ámbito de este artículo, se deben tener en cuenta algunas consideraciones:
 
-1. Las regiones de Azure se implementan por pares. Si se produce un error grave en una región, se designa otra región dentro del mismo límite geopolítico* como su región emparejada. La implementación en regiones emparejadas debe considerarse una estrategia de resistencia principal y secundaria. *Azure Brasil es una excepción importante cuya región emparejada es Centro y Sur de EE. UU. Para más información, [consulte aquí](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions).
+1. Las regiones de Azure se implementan por pares. Si se produce un error grave en una región, se designa otra región dentro del mismo límite geopolítico* como su región emparejada. La implementación en regiones emparejadas debe considerarse una estrategia de resistencia principal y secundaria. *Azure Brasil es una excepción importante cuya región emparejada es Centro y Sur de EE. UU. Para más información, consulte [Regiones emparejadas de Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions).
     1. Azure Storage admite el [almacenamiento con redundancia geográfica (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), lo que implica que se almacenan tres copias de los datos en la región primaria y tres copias adicionales en la región emparejada. En el almacenamiento con redundancia geográfica no se puede cambiar el emparejamiento del almacenamiento.
     1. Los servicios que se basan en este tipo de almacenamiento de Azure Storage pueden sacar el máximo partido a esta funcionalidad de región emparejada. Para ello, se deben orientar las aplicaciones y la red para que admitan dicha funcionalidad.
     1. Si no tiene previsto aprovechar GRS para apoyar sus necesidades de resistencia regional, se recomienda que _NO_ utilice la región emparejada como secundaria. En caso de error regional, los recursos de la región emparejada estarán sometidos a una gran presión mientras se migran los recursos. Realizar la recuperación en un sitio alternativo evita esa presión y proporcionar más velocidad.

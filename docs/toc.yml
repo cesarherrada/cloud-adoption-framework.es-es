@@ -192,7 +192,7 @@
               href: migrate/index.md
             - name: Guía de migración a Azure
               items:
-                - name: Introducción a la guía de migración a Azure
+                - name: Antes de comenzar
                   href: migrate/azure-migration-guide/index.md
                 - name: Requisitos previos para la migración a Azure
                   href: migrate/azure-migration-guide/prerequisites.md
@@ -334,7 +334,7 @@
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Configuración de la nube privada como sitio de recuperación ante desastres mediante VMware SRM
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                - name: Procedimientos recomendados para migrar servidores de SQL
+                - name: Procedimientos recomendados para migrar plataformas de datos
                   items:
                     - name: Información general
                       href: migrate/azure-best-practices/sql-migration.md
@@ -418,16 +418,16 @@
                           href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Migración de Oracle a Azure Database for PostgreSQL en línea
                           href: 'https://docs.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Migración del sistema central
-                      items:
-                        - name: Información general
-                          href: infrastructure/mainframe-migration/index.md
-                        - name: Mitos y verdades
-                          href: infrastructure/mainframe-migration/myths-and-facts.md
-                        - name: Estrategias de migración
-                          href: infrastructure/mainframe-migration/migration-strategies.md
-                        - name: Estrategias de aplicación
-                          href: infrastructure/mainframe-migration/application-strategies.md
+                - name: Procedimientos recomendados para migrar sistemas centrales
+                  items:
+                    - name: Información general
+                      href: infrastructure/mainframe-migration/index.md
+                    - name: Mitos y verdades
+                      href: infrastructure/mainframe-migration/myths-and-facts.md
+                    - name: Estrategias de migración
+                      href: infrastructure/mainframe-migration/migration-strategies.md
+                    - name: Estrategias de aplicación
+                      href: infrastructure/mainframe-migration/application-strategies.md
                 - name: Procedimientos recomendados para optimizar cargas de trabajo
                   items:
                     - name: Determinar los costos y el tamaño de las cargas de trabajo
@@ -546,7 +546,7 @@
               href: innovate/index.md
             - name: Guía de innovación de Azure
               items:
-                - name: Introducción
+                - name: Antes de comenzar
                   href: innovate/innovation-guide/index.md
                 - name: Preparación para los comentarios de los clientes
                   href: innovate/innovation-guide/adoption.md
@@ -654,40 +654,6 @@
                   items:
                     - name: Información general
                       href: innovate/best-practices/apps.md
-                    - name: Nativo de la nube
-                      items:
-                        - name: Aplicaciones nativas en la nube
-                          items:
-                            - name: Soluciones de referencia para aplicaciones nativas en la nube
-                              href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
-                            - name: "Creación de una aplicación .Net Core con SQL\_Database"
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Creación de una aplicación .Net con SQL Database
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Creación de una aplicación PHP con MySQL
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Creación de una instancia de Node.js con MongoDB
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Creación de una aplicación iOS
-                              href: 'https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-ios-get-started?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Microservicios
-                          items:
-                            - name: 'Diseño, compilación y uso de microservicios en Azure'
-                              href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Arquitectura de referencia para microservicios con Service Fabric
-                              href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/microservices/service-fabric?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Arquitectura de referencia para microservicios con Azure Kubernetes Service (AKS)
-                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Guía para diseñar aplicaciones de Azure
-                              href: 'https://docs.microsoft.com/azure/architecture/guide?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: 'Migración y modernización, después innovación'
-                      items:
-                        - name: 'Migración de cargas de trabajo (aplicaciones, máquinas virtuales y datos)'
-                          href: 'https://azure.microsoft.com/migration/'
-                        - name: Migración de una aplicación existente con Kubernetes Services (AKS) administrado de Azure
-                          href: 'https://azure.microsoft.com/solutions/architecture/migrate-existing-applications-with-aks/'
-                        - name: Ampliación de los datos heredados mediante Azure Stack y aplicaciones nativas en la nube
-                          href: 'https://azure.microsoft.com/solutions/architecture/unlock-legacy-data/'
                     - name: Desarrolladores cívicos
                       items:
                         - name: Creación de aplicaciones en PowerApps
@@ -700,28 +666,58 @@
                           href: 'https://docs.microsoft.com/power-platform/admin/wp-compliance-data-privacy?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Directivas de prevención de pérdida de datos para soluciones de desarrolladores cívicos
                           href: 'https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Experiencias web modernas
+                    - name: Experiencias inteligentes
                       items:
-                        - name: Soluciones de referencia para aplicaciones nativas en la nube
-                          href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
-                        - name: "Creación de una aplicación .Net Core con SQL\_Database"
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Creación de una aplicación .Net con SQL Database
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Creación de una aplicación PHP con MySQL
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Creación de una instancia de Node.js con MongoDB
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Aplicaciones web modernas
+                          items:
+                            - name: Soluciones de referencia para aplicaciones web
+                              href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
+                            - name: "Creación de una aplicación .Net Core con SQL\_Database"
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Creación de una aplicación .Net con SQL Database
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Creación de una aplicación PHP con MySQL
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Creación de una instancia de Node.js con MongoDB
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Incorporación de inteligencia
+                          items:
+                            - name: Computer Vision en Visual Studio
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/computer-vision/vs-computer-vision-connected-service'
+                            - name: Traducción de texto en tiempo real
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-translate'
+                            - name: Descripción de sentimientos mediante LUIS
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/luis/luis-quickstart-intent-and-sentiment-analysis'
+                            - name: Conversión de voz en texto
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/speech-service/quickstart-csharp-dotnet-windows'
+                            - name: Bing Web Search
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app'
+                            - name: Búsqueda visual desde una imagen
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/index'
+                        - name: ChatBots
+                          items:
+                            - name: Creación e implementación de un bot básico
+                              href: 'https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-basic-deploy'
+                            - name: 'Ruta de aprendizaje: Creación de bots con Azure Bot Services'
+                              href: 'https://docs.microsoft.com/learn/paths/create-bots-with-the-azure-bot-service/'
+                            - name: 'Repositorio: Ejemplos de Azure Bots en GitHub'
+                              href: 'https://github.com/microsoft/botframework-sdk'
                     - name: Aplicaciones nativas en la nube
                       items:
                         - name: Arquitectura de microservicios
                           items:
-                            - name: Arquitectura de referencia para microservicios con Azure Kubernetes Service (AKS)
-                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Contenedores
-                          items:
                             - name: 'Diseño, compilación y uso de microservicios en Azure'
                               href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Arquitectura de referencia para microservicios con Azure Kubernetes Service (AKS)
+                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: 'Arquitectura de referencia: Ejemplo de microservicios sin servidor'
+                              href: 'https://docs.microsoft.com/samples/azure-samples/serverless-microservices-reference-architecture/serverless-microservices-reference-architecture/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Contenedores
+                          items:
+                            - name: ¿Qué es Kubernetes?
+                              href: 'https://azure.microsoft.com/topic/what-is-kubernetes/'
+                            - name: Preparación de una aplicación para Azure Kubernetes Service (AKS)
+                              href: 'https://docs.microsoft.com/azure/aks/tutorial-kubernetes-prepare-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                             - name: Creación de un clúster de Red Hat OpenShift en Azure
                               href: 'https://docs.microsoft.com/azure/openshift/tutorial-create-cluster?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Microservicios de Spring Boot
@@ -732,6 +728,16 @@
                               href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-distributed-tracing?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                             - name: "Enlace de Azure Cosmos\_DB con la aplicación Azure Spring Cloud"
                               href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-bind-cosmos?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Aplicaciones controladas por eventos
+                          items:
+                            - name: 'Ruta de aprendizaje: Creación de aplicaciones sin servidor'
+                              href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Guía para desarrolladores de Functions
+                              href: 'https://docs.microsoft.com/azure/azure-functions/functions-reference?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: 'Libro electrónico: Guía sobre informática sin servidor'
+                              href: 'https://azure.microsoft.com/resources/azure-serverless-computing-cookbook/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: 'Documentación: Azure Functions'
+                              href: 'https://docs.microsoft.com/azure/azure-functions/'
                 - name: Capacitación para la adopción
                   items:
                     - name: Información general
