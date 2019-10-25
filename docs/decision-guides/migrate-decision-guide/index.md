@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: 17f462802a9ff5b44dfd734b299057649bbd797b
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 85d284494a6fd9ca95b9566c939015a0a57b6f78
+ms.sourcegitcommit: 15898374495761bfb76cee719e0f9189856884e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023827"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72888912"
 ---
 # <a name="migration-tools-decision-guide"></a>Guía para la toma de decisiones de las herramientas de migración
 
@@ -32,7 +32,7 @@ Responder a las preguntas siguientes le permitirá tomar decisiones basándose e
 - **¿Se ejecuta la aplicación actualmente en máquinas virtuales dedicadas o comparte hospedaje con otras aplicaciones?** Las aplicaciones que se ejecutan en máquinas virtuales dedicadas se pueden migrar más fácilmente a las opciones de hospedaje de PaaS que las aplicaciones que se ejecutan en servidores compartidos.
 - **¿Superará la migración de datos el ancho de banda de la red?** La capacidad de la red entre los orígenes de datos locales y Azure puede ser un cuello de botella en la migración de datos. Si los datos que necesita transferir se enfrentan a limitaciones de ancho de banda que impiden que la migración se realice en el momento oportuno y de forma eficaz, es posible que deba buscar mecanismos de transferencia alternativos o sin conexión. En el [artículo acerca de la replicación de migraciones](../../migrate/migration-considerations/migrate/replicate.md#replication-risks---physics-of-replication) de Cloud Adoption Framework explica de qué forma pueden afectar los límites en la replicación a los esfuerzos de migración. Una parte de la valoración de la migración consiste en consultar a los equipos de TI si el ancho de banda local y de la WAN puede cumplir los requisitos de la migración. Consulte también el [escenario de migración de ámbito ampliado para aquellos casos en que los requisitos de almacenamiento superan la capacidad de la red durante una migración](../../migrate/expanded-scope/network-capacity-exceeded.md#suggested-prerequisites).
 - **¿Hace uso su aplicación de una canalización de DevOps existente?** En muchos casos Azure Pipelines se puede refactorizar fácilmente para implementar aplicaciones en entornos de hospedaje basado en la nube.
-- **¿Tienen los datos requisitos de almacenamiento de datos complejos?** Las aplicaciones de producción suelen requerir almacenamiento de datos que tengan una alta disponibilidad, que ofrezcan la funcionalidad Always On y características de continuidad y tiempo de actividad del servicio similares. Las opciones de bases de datos administradas basadas en PaaS de Azure, como Azure SQL Database, Azure Database for MySQL y Azure Cosmos DB ofrecen contratos de nivel de servicio de tiempo de actividad del 99,99 %. Por el contrario, una instancia de SQL Server basada en IaaS en una máquina virtual de Azure ofrece contratos de nivel de servicio de instancia única del 99,95 %. Si los datos no se puede modernizar para usar las opciones de almacenamiento de PaaS, lo que garantiza que un mayor tiempo de actividad de IaaS implicará escenarios de almacenamiento de datos más complejos, como la ejecución de clústeres Always On de SQL Server y la sincronización continua de datos entre instancias. Esto puede implicar importantes costos de hospedaje y mantenimiento, por lo que es mantener un equilibrio entre los requisitos de tiempo de actividad, el esfuerzo de modernización y el impacto general en el presupuesto es importante al considerar las opciones de migración de datos.
+- **¿Tienen los datos requisitos de almacenamiento de datos complejos?** Las aplicaciones de producción normalmente requieren un almacenamiento de datos que tengan una alta disponibilidad y que ofrezcan tanto la funcionalidad Always On como características de continuidad y tiempo de actividad del servicio similares. Las opciones de bases de datos administradas basadas en PaaS de Azure, como Azure SQL Database, Azure Database for MySQL y Azure Cosmos DB ofrecen contratos de nivel de servicio de tiempo de actividad del 99,99 %. Por el contrario, una instancia de SQL Server basada en IaaS en una máquina virtual de Azure ofrece contratos de nivel de servicio de instancia única del 99,95 %. Si los datos no se puede modernizar para usar las opciones de almacenamiento de PaaS, lo que garantiza que un mayor tiempo de actividad de IaaS implicará escenarios de almacenamiento de datos más complejos, como la ejecución de clústeres Always On de SQL Server y la sincronización continua de datos entre instancias. Esto puede implicar importantes costos de hospedaje y mantenimiento, por lo que es mantener un equilibrio entre los requisitos de tiempo de actividad, el esfuerzo de modernización y el impacto general en el presupuesto es importante al considerar las opciones de migración de datos.
 
 ## <a name="innovation-and-migration"></a>Innovación y migración
 
