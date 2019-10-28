@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 082b9ccdcc94548b46a5a220cfe83768f7c4cbf6
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 3254cf195c001f7ce575bf067cd434649293b970
+ms.sourcegitcommit: f7ec7828687f433ff8b69b91817cbec7b074662c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547891"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72915037"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -26,7 +26,7 @@ Vaya a: [Planeamiento de una infraestructura de supervisión](#planning-your-mon
 
 El punto de inflexión al determinar una estrategia de generación de informes y registro en la nube se basa principalmente en las inversiones que una organización haya realizado en los procesos operativos y, hasta cierto punto, en los requisitos que hay que cumplir para respaldar una estrategia de nube múltiple.
 
-Hay varias formas de registrar y notificar las actividades en la nube. El registro nativo de la nube y centralizado son dos opciones de software como servicio (SaaS) comunes basadas en el diseño de la suscripción y en el número de suscripciones.
+Hay varias formas de registrar y notificar las actividades en la nube. El registro nativo en la nube y el centralizado son dos opciones de servicio administrado habituales basadas en el diseño de la suscripción y en el número de suscripciones.
 
 ## <a name="planning-your-monitoring-infrastructure"></a>Planeamiento de la infraestructura de supervisión
 
