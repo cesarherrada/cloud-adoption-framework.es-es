@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: ac62364b6117e4744b0432a5c4fbb46b7ee914b8
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 1a0c1bfe2943176d647e53e8f91c8d92e168af12
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031764"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548682"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Ejemplos de resultados fiscales
 
@@ -59,7 +59,7 @@ La informática en la nube puede reducir los gastos de capital del hardware y el
 
 ### <a name="example-coverdell"></a>Ejemplo: Coverdell
 
-Coverdell moderniza su infraestructura para impulsar el ahorro en los costos de registro con Azure. La decisión de Coverdell de invertir en Azure y de unir su red de sitios web, aplicaciones, datos e infraestructura dentro de este entorno, les condujo a unos ahorros en los costos mayores de lo que jamás habrían esperado. La migración a un entorno solo de Azure eliminó 54 000 dólares USD en costos mensuales por servicios de ubicación. Solo con la nueva infraestructura unida de la compañía, Coverdell espera ahorrar casi 1 millón de dólares durante los próximos 2 o 3 años.
+Coverdell moderniza su infraestructura para impulsar el ahorro en los costos de registro con Azure. La decisión de Coverdell de invertir en Azure y de unir su red de sitios web, aplicaciones, datos e infraestructura dentro de este entorno, les generó unos ahorros en los costos mayores de lo que jamás habrían esperado. La migración a un entorno solo de Azure eliminó 54 000 dólares USD en costos mensuales por servicios de ubicación. Solo con la nueva infraestructura unida de la compañía, Coverdell espera ahorrar casi 1 millón de dólares durante los próximos 2 o 3 años.
 
 > "Tener acceso a la pila de tecnología de Azure abre la puerta a soluciones escalables, fáciles de implementar y con una gran disponibilidad que son rentables. Así nuestros arquitectos pueden ser mucho más creativos con las soluciones que proporcionan".  
 > Ryan Sorensen  
@@ -70,7 +70,7 @@ Coverdell moderniza su infraestructura para impulsar el ahorro en los costos de 
 
 La terminación de los centros de datos también proporciona prevención de costos al impedir futuros ciclos de actualizaciones. Un ciclo de actualización es el proceso de comprar nuevo hardware y software para reemplazar los sistemas antiguos locales. En Azure, el hardware y el sistema operativo reciben habitualmente mantenimiento, revisiones y actualizaciones sin costo adicional para los clientes. De esta manera, el director financiero puede eliminar los gastos futuros planeados de las previsiones financieras a largo plazo. La prevención de costos se mide en dólares. Se diferencia de la reducción de costos en que normalmente se centra en un presupuesto futuro que aún no se ha aprobado completamente.
 
-- **Ejemplo**: El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría una prevención de costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
+- **Ejemplo**: El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría prevenir costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
 
 ### <a name="capital-expenses-vs-operating-expenses"></a>Gastos de capital en comparación con los gastos operativos
 

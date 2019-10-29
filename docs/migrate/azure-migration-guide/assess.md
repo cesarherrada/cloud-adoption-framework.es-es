@@ -10,18 +10,20 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 78c82a2cb8793f8b5f0b90b1958fb4a83e3da935
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 0d1918f60f6bfe2a6d458b83b5838a8776af51a7
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224388"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549271"
 ---
 # <a name="assess-the-digital-estate"></a>Evaluación del patrimonio digital
 
 En una migración ideal, cada recurso (infraestructura, aplicación o datos) sería compatible con una plataforma en la nube y estaría listo para la migración. En la realidad, no todo se debe migrar a la nube. Además, no todos los recursos son compatibles con las plataformas en la nube. Antes de migrar una carga de trabajo a la nube, es importante evaluar la carga de trabajo y cada recurso relacionado (infraestructura, aplicaciones y datos).
 
 Los recursos que aparecen en esta sección lo ayudarán a evaluar su entorno para determinar su idoneidad para la migración y los métodos que debe tener en cuenta.
+
+<!-- markdownlint-disable MD025 -->
 
 # <a name="toolstabtools"></a>[Herramientas](#tab/Tools)
 

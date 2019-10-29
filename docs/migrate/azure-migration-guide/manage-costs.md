@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 38e412bda80e68b0c5cb7e53ad52c078fa39f8fb
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 219f5868f8fa8f3f5d26fa4c3c63db7786479a2c
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378410"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683837"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
@@ -31,7 +31,7 @@ Entre las herramientas de este artículo, se incluyen:
 > - Azure Cost Management
 > - Azure Advisor
 
-También es posible que los procesos descritos en este artículo requieran una asociación con propietarios de aplicaciones de línea de negocio, de finanzas o administradores de TI. Para obtener instrucciones sobre cómo asociarse a estos roles, consulte el artículo de la Plataforma de adopción de la nube sobre el establecimiento de una organización con control de costo (a partir del 3T de 2019).
+También es posible que los procesos descritos en este artículo requieran una asociación con propietarios de aplicaciones de línea de negocio, de finanzas o administradores de TI.
 
 <!-- markdownlint-disable MD024 MD025 -->
 
@@ -54,14 +54,14 @@ Estas calculadoras de costos manuales se pueden usar por su cuenta para prever l
 
 Azure Migrate calcula los **costos mensuales estimados** en función de los datos capturados por el recopilador y el mapa de servicio. Los siguientes pasos cargarán las estimaciones del costo:
 
-1. Vaya a la hoja Evaluación de Azure Migrate en el portal.
-1. En la página **Introducción** del proyecto, seleccione **+Crear evaluación**.
-1. Haga clic en **View all** (Ver todo) para revisar la configuración de la valoración.
-1. Cree el grupo y especifique un nombre para él.
-1. Seleccione las máquinas que desee agregar al grupo.
-1. Haga clic en **Crear evaluación** para crear el grupo y la evaluación.
-1. Una vez creada la evaluación, puede verla en Introducción > Panel.
-1. En la sección Detalles de la evaluación de la navegación por hojas, seleccione **Detalles del costo**.
+1. Vaya a Evaluación de Azure Migrate en el portal.
+2. En la página **Introducción** del proyecto, seleccione **+Crear evaluación**.
+3. Haga clic en **View all** (Ver todo) para revisar la configuración de la valoración.
+4. Cree el grupo y especifique un nombre para él.
+5. Seleccione las máquinas que desee agregar al grupo.
+6. Haga clic en **Crear evaluación** para crear el grupo y la evaluación.
+7. Una vez creada la evaluación, puede verla en Introducción > Panel.
+8. En la sección Detalles de la evaluación de la navegación del portal, seleccione **Detalles del costo**.
 
 La estimación resultante, mostrada a continuación, identifica los costos mensuales de proceso y almacenamiento, que suelen representar la parte más grande de los costos de la nube.
 
@@ -83,9 +83,9 @@ Dentro de un plazo de 24 horas de la migración de recursos (infraestructura, a
 
 Los siguientes pasos proporcionan recomendaciones sobre el costo para los recursos (infraestructura, aplicaciones y datos) de sus suscripciones actuales:
 
-1. Vaya a la hoja **Azure Advisor** del portal. Para hacerlo, seleccione **Advisor** en el panel de navegación izquierdo de Azure Portal. Si no ve Asesor en el panel izquierdo, seleccione **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, seleccione **Advisor**.
-1. El panel de Advisor mostrará un resumen de las recomendaciones para todas las suscripciones seleccionadas. Puede elegir las suscripciones que desee que muestren las recomendaciones para usar el menú desplegable del filtro de suscripción.
-1. Para ver las recomendaciones sobre el costo, seleccione la pestaña Costo.
+1. Vaya a **Azure Advisor** en el portal. Para hacerlo, seleccione **Advisor** en el panel de navegación izquierdo de Azure Portal. Si no ve Asesor en el panel izquierdo, seleccione **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, seleccione **Advisor**.
+2. El panel de Advisor mostrará un resumen de las recomendaciones para todas las suscripciones seleccionadas. Puede elegir las suscripciones que desee que muestren las recomendaciones para usar el menú desplegable del filtro de suscripción.
+3. Para ver las recomendaciones sobre el costo, seleccione la pestaña Costo.
 
 ## <a name="azure-cost-management"></a>Azure Cost Management
 
@@ -95,10 +95,10 @@ Requisitos previos: el recordatorio de esta pestaña da por supuesto que el lect
 
 Los siguientes pasos cargarán los datos de análisis de costos de Azure Cost Management para sus suscripciones:
 
-1. Vaya a la hoja **Cost Management + facturación** del portal. Si no ve Cost Management + facturación en el panel izquierdo, haga clic en **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, haga clic en **Cost Management + facturación**.
-1. En la hoja Cost Management + facturación, seleccione **Cost Management** en el panel de navegación izquierdo para que la hoja abierta empiece a analizar y optimizar los costos de la nube.
-1. En la hoja Cost Management, seleccione **Análisis de costos**.
-    1. Use la píldora **Ámbito** para cambiar a un ámbito diferente en el análisis de costos.
+1. Vaya a **Cost Management + facturación** en el portal. Si no ve Cost Management + facturación en el panel izquierdo, haga clic en **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, haga clic en **Cost Management + facturación**.
+2. En Cost Management + facturación, seleccione **Cost Management** en el panel de navegación izquierdo para empezar a analizar y optimizar los costos de la nube.
+3. En Cost Management, seleccione **Análisis de costos**.
+    a. Use la píldora **Ámbito** para cambiar a un ámbito diferente en el análisis de costos.
 
 Este análisis le permitirá revisar los costos totales, el presupuesto (si esta disponible) y los costos acumulados. Cada cálculo puede verse por servicio, por recurso y a lo largo del tiempo. Lo más importante, los costos pueden analizarse por etiquetas. La nomenclatura y el etiquetado de recursos (infraestructura, aplicaciones y datos) es el punto inicial fundamental de todos los procesos de administración de costos y gobernanza de sonido. Las etiquetas adecuadas permiten una mejor administración de los costos e impactos más claros de las optimizaciones de costos y rendimiento.
 

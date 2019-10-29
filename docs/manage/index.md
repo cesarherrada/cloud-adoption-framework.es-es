@@ -9,16 +9,16 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 layout: LandingPage
-ms.openlocfilehash: 3f66a3ef43c16c9a331fabdaf718c85f9f131d8a
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 5a53b72747d20e8b7b2d3ca25a6ffc29b46e1203
+ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72682709"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "72979889"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Administración de la nube en Cloud Adoption Framework
 
-Proporcionar una [estrategia de nube](../strategy/index.md) requiere un planeamiento, una preparación y una adopción sólidos. Pero es el funcionamiento continuo de los recursos digitales lo que produce unos resultados empresariales tangibles. Sin un plan de operaciones confiables y bien administradas de las soluciones en la nube, esos esfuerzos generarán resultados escasos. Los ejercicios siguientes le ayudarán a desarrollar los enfoques técnicos y empresariales necesarios para proporcionar una administración de la nube que impulse las operaciones en curso.
+Proporcionar una [estrategia de nube](../strategy/index.md) requiere un planeamiento, una preparación y una adopción sólidos. Pero es el funcionamiento continuo de los recursos digitales lo que produce unos resultados empresariales tangibles. Sin un plan de operaciones confiables y bien administradas de las soluciones en la nube, esos esfuerzos generarán resultados escasos. Los ejercicios siguientes ayudan a desarrollar los enfoques técnicos y empresariales necesarios para proporcionar una administración de la nube que impulse las operaciones en curso.
 
 ## <a name="getting-started"></a>Introducción
 
@@ -140,7 +140,7 @@ Si desea seguir esta guía de principio a fin, este contenido ayuda a desarrolla
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Aplique la metodología para [establecer compromisos empresariales claros](./considerations/business-alignment.md).
+Aplique la metodología para establecer compromisos empresariales claros.
 
 > [!div class="nextstepaction"]
 > [Establecimiento de compromisos empresariales claros](./considerations/business-alignment.md)

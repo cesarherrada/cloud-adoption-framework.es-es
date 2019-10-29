@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: governance
-ms.openlocfilehash: 5e425a61f6b9da7fed044d06ac9323306d728261
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b15cee23f81027e3b5597079e61fcc7ac0e534e2
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71021985"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548747"
 ---
 # <a name="initial-organization-alignment"></a>Alineación inicial de la organización
 

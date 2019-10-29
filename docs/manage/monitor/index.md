@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: e816420e99bfb712db3ad8064b4c077df3edfcee
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 67dbfbe48626c77303ec8626dc7889f474a28b66
+ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548181"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "72979879"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Guía sobre la supervisión en la nube: Introducción
 
@@ -28,17 +28,17 @@ Esta transformación digital también permite una oportunidad de modernizar la i
 
 Las partes interesadas quieren usar herramientas de supervisión y administración de software como servicio (SaaS) basadas en la nube. Necesitan comprender lo que los servicios y las soluciones ofrecen para lograr una visibilidad de un extremo a otro, reducir costos y prestar una menor atención a la infraestructura y el mantenimiento de las herramientas operativas tradicionales de TI basadas en software.
 
-Sin embargo, el equipo de TI suele preferir utilizar las herramientas en las que ya ha realizado una inversión importante. Esto permite que sus procesos de operaciones de servicio supervisen ambos modelos de nube, con el objetivo final de realizar la transición a una oferta basada en SaaS. Esto se debe no solo a que lleva bastante tiempo el planeamiento, los recursos y la financiación del cambio. También existe confusión sobre qué productos o servicios de Azure son apropiados o aplicables para conseguir la transición.
+Sin embargo, el equipo de TI suele preferir utilizar las herramientas en las que ya ha realizado una inversión importante. Este enfoque permite que sus procesos de operaciones de servicio supervisen ambos modelos de nube, con el objetivo final de realizar la transición a una oferta basada en SaaS. El departamento de TI prefiere este enfoque no solo porque el planeamiento, los recursos y la financiación del cambio requiere bastante tiempo. También existe confusión sobre qué productos o servicios de Azure son apropiados o aplicables para conseguir la transición.
 
 El objetivo de esta guía es proporcionar una referencia detallada para ayudar a los administradores empresariales de tecnologías de TI, a los responsables de toma de decisiones empresariales y a los arquitectos y desarrolladores de aplicaciones a comprender:
 
 * Las plataformas de supervisión, con información general y una comparación de sus funcionalidades.
 * La solución que mejor se adapta a la supervisión de cargas de trabajo híbridas, privadas y nativas de Azure.
-* El enfoque de supervisión recomendado para la infraestructura y las aplicaciones como un conjunto, de un extremo a otro. Esto incluye soluciones que se pueden implementar para estas cargas de trabajo comunes que se van a migrar a Azure.
+* El enfoque de supervisión recomendado para la infraestructura y las aplicaciones como un conjunto, de un extremo a otro. Este enfoque incluye soluciones que se pueden implementar para migrar estas cargas de trabajo comunes a Azure.
 
-Esta no es una guía paso a paso de uso o configuración de servicios y soluciones individuales de Azure, pero hace referencia a esas fuentes si son aplicables o están disponibles. Después de leer esta guía, comprenderá cómo usar correctamente una carga de trabajo siguiendo unos procedimientos y patrones recomendados.
+Esta no es una guía paso a paso de uso o configuración de servicios y soluciones individuales de Azure, pero hace referencia a esas fuentes si son aplicables o están disponibles. Después de leerla, comprenderá cómo usar correctamente una carga de trabajo siguiendo unos procedimientos y patrones recomendados.
 
-Si no está familiarizado con Azure monitor y System Center Operations Manager y desea descubrir qué es lo que los hace únicos y cómo compararlos entre sí antes de avanzar más, revise [Introducción a las plataformas de supervisión](./platform-overview.md).
+Si no está familiarizado con Azure Monitor y System Center Operations Manager, y desea descubrir qué es lo que los hace únicos y cómo compararlos entre sí, revise [Introducción a las plataformas de supervisión](./platform-overview.md).
 
 ## <a name="audience"></a>Público
 
@@ -55,7 +55,7 @@ Este artículo forma parte de una serie. Los siguientes artículos están diseñ
 
 ## <a name="products-and-services"></a>Productos y servicios
 
-Hay una selección de software y servicios disponible para supervisar y administrar diversos recursos hospedados en Azure, en la red corporativa o en otros proveedores de nube. Son las siguientes:
+Hay software y servicios disponibles para ayudarle a supervisar y administrar los diversos recursos hospedados en Azure, en la red corporativa o en otros proveedores de nube. Son las siguientes:
 
 * System Center Operations Manager
 * Azure Monitor, que ahora incluye Log Analytics y Application Insights
@@ -64,7 +64,7 @@ Hay una selección de software y servicios disponible para supervisar y administ
 * Azure Logic Apps
 * Azure Event Hubs
 
-En esta primera versión de la guía se describen nuestras plataformas de supervisión actuales: Azure Monitor y System Center Operations Manager, y se describe la estrategia recomendada para supervisar cada uno de los modelos de implementación en la nube. También se incluye el primer conjunto de recomendaciones de supervisión, comenzando por la recopilación de datos y las alertas.
+En esta primera versión de la guía se describen nuestras plataformas de supervisión actuales: Azure Monitor y System Center Operations Manager. También se describe la estrategia recomendada para supervisar cada uno de los modelos de implementación en la nube. También se incluye el primer conjunto de recomendaciones de supervisión, comenzando por la recopilación de datos y las alertas.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

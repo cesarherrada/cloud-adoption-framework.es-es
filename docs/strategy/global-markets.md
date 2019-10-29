@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: ca1e18bdc8da300667b721e673bb1fc0388b4bdf
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 36f0d5ccf826746370054ed213b83968babdee6b
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032172"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548624"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -33,7 +33,7 @@ Es importante conocer qué unidades de negocio operan en países extranjeros y q
 
 ## <a name="employee-usage-patterns"></a>Patrones de uso de empleados
 
-Es importante conocer cómo los usuarios globales acceden a las aplicaciones que no están hospedadas en el mismo país que el usuario. A menudo, las redes de área extensa (WAN) globales enrutan a los usuarios según los acuerdos de red existentes. En los entornos locales tradicionales, algunas restricciones limitan el diseño de WAN. Estas restricciones pueden dar lugar a experiencias de usuario deficientes si no se comprenden correctamente antes de la adopción de la nube.
+Es importante conocer cómo los usuarios globales acceden a las aplicaciones que no están hospedadas en el mismo país que el usuario. Las redes de área extensa (WAN) globales enrutan a los usuarios según los contratos de red existentes. En los entornos locales tradicionales, algunas restricciones limitan el diseño de WAN. Estas restricciones pueden dar lugar a experiencias de usuario deficientes si no se comprenden correctamente antes de la adopción de la nube.
 
 En un modelo en la nube, el Internet de los productos también abre muchas opciones nuevas. La comunicación de la distribución de los empleados en varias zonas geográficas puede ayudar al equipo de adopción de la nube a diseñar soluciones WAN que crean experiencias de usuario positivas **y** a reducir potencialmente los costos de red.
 

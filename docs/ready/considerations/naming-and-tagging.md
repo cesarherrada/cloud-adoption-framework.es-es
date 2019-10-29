@@ -9,18 +9,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: 003e212326959b593071f8230d2ddc0dba646909
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 242b397312fe466670d3f1a315059f72447b300b
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378276"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548844"
 ---
 # <a name="ready-recommended-naming-and-tagging-conventions"></a>Párese: Convenciones recomendadas de nomenclatura y etiquetado
 
 La organización de los recursos basados en la nube de forma que ayuden a la administración operativa y admitan los requisitos de contabilidad es un desafío común que afrontan las enormes labores de adopción de la nube. Al aplicar convenciones de etiquetado de metadatos y nomenclatura bien definidas a recursos hospedados en la nube, el personal de TI puede buscar y administrar los recursos rápidamente. Los nombres y etiquetas bien definidos también ayudan a alinear los costos de uso de la nube con los equipos empresariales mediante mecanismos de contabilidad de contracargo y visualización de costos.
 
-En la guía de [nomenclatura y restricciones de nombres de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) del Centro de arquitectura de Azure se proporcionan recomendaciones generales sobre las convenciones de nomenclatura y se analizan las limitaciones de los nombres y las reglas de plataforma. El siguiente análisis amplía esa guía genérica con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
+En la guía de [nomenclatura y restricciones de nombres de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) del Centro de arquitectura de Azure se proporcionan recomendaciones generales y las limitaciones de plataforma. El siguiente análisis amplía esa guía genérica con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
 
 Los nombres de los recursos pueden ser difíciles de cambiar. Antes de comenzar con una implementación de gran tamaño en la nube, su prioridad debe ser que los equipos de adopción de la nube establezcan una convención de nomenclatura completa.
 
@@ -46,7 +46,7 @@ A partir del nombre, puede identificar rápidamente el tipo del recurso, su carg
 
 #### <a name="naming-scope"></a>Ámbito de nomenclatura
 
-Todos los tipos de recursos de Azure tienen un ámbito que define cómo se pueden administrar estos recursos en relación con otros tipos de recursos. En términos de las convenciones de nomenclatura, esto significa que un recurso debe tener un nombre único dentro de su ámbito.
+Todos los tipos de recursos de Azure tienen un ámbito que define el nivel en el que los nombres de los recursos deben ser únicos. Un recurso debe tener un nombre único dentro de su ámbito.
 
 Por ejemplo, una red virtual tiene un ámbito de grupo de recursos, lo que significa que solo puede haber una red llamada `vnet-prod-westus-001` en un grupo de recursos determinado. Otros grupos de recursos pueden tener su propia red virtual llamada `vnet-prod-westus-001`. Las subredes, para proporcionar otro ejemplo, tienen como ámbito las redes virtuales, lo que significa que cada subred de una red virtual debe tener un nombre único.
 
@@ -77,45 +77,48 @@ En la lista siguiente se proporcionan los prefijos de tipo de recurso de Azure r
 | Tipo de recurso                       | Prefijo de nombre de recurso |
 | ----------------------------------- | -------------------- |
 | Resource group                      | rg-                  |
-| Azure Virtual Network                     | vnet-                |
+| Azure Virtual Network               | vnet-                |
 | Puerta de enlace de red virtual             | vnet-gw-             |
 | Conexión de puerta de enlace                  | cn-                  |
 | Subnet                              | snet-                |
 | Grupo de seguridad de red              | nsg-                 |
-| Azure Virtual Machines                    | vm-                  |
+| Tabla de rutas                         | route-               |
+| Azure Virtual Machines              | vm-                  |
 | Cuenta de almacenamiento de máquina virtual                  | stvm                 |
 | Dirección IP pública                           | pip-                 |
-| Azure Load Balancer                       | lb-                  |
+| Azure Load Balancer                 | lb-                  |
 | NIC                                 | nic-                 |
-| Azure Service Bus                         | sb-                  |
-| Colas de Azure Service Bus                  | sbq-                 |
-| Aplicaciones de Azure App Service                    | azapp-               |
-| Aplicaciones de Azure Functions                       | azfun-               |
-| Azure Cloud Services                      | azcs-                |
+| Azure Key Vault                     | kv-                  |
+| Azure Kubernetes Service            | aks-                 |
+| Azure Service Bus                   | sb-                  |
+| Colas de Azure Service Bus            | sbq-                 |
+| Aplicaciones de Azure App Service              | azapp-               |
+| Aplicaciones de Azure Functions                | azfun-               |
+| Azure Cloud Services                | azcs-                |
 | Azure SQL Database                  | sqldb-               |
 | Azure Cosmos DB (anteriormente Azure DocumentDB) | cosdb-               |
 | Azure Cache for Redis               | redis-               |
 | Azure Database for MySQL            | mysql-               |
-| Azure SQL Data Warehouse                  | sqldw-               |
+| Azure SQL Data Warehouse            | sqldw-               |
 | SQL Server Stretch Database         | sqlstrdb-            |
 | Azure Storage                       | stor                 |
-| Azure StorSimple                          | ssimp                |
+| Azure StorSimple                    | ssimp                |
 | Azure Search                        | srch-                |
-| Azure Cognitive Services                  | cs-                  |
+| Azure Cognitive Services            | cs-                  |
 | Área de trabajo de Azure Machine Learning    | aml-                 |
 | Azure Data Lake Storage             | dls                  |
 | Análisis con Azure Data Lake           | dla                  |
-| Azure HDInsight: Spark                   | hdis-                |
-| Azure HDInsight: Hadoop                  | hdihd-               |
-| Azure HDInsight: R Server                | hdir-                |
-| Azure HDInsight: HBase                   | hdihb-               |
+| Azure HDInsight: Spark             | hdis-                |
+| Azure HDInsight: Hadoop            | hdihd-               |
+| Azure HDInsight: R Server          | hdir-                |
+| Azure HDInsight: HBase             | hdihb-               |
 | Power BI Embedded                   | pbiemb               |
-| Azure Stream Analytics                    | asa-                 |
-| Azure Data Factory                        | df-                  |
-| Azure Event Hubs                           | evh-                 |
+| Azure Stream Analytics              | asa-                 |
+| Azure Data Factory                  | df-                  |
+| Azure Event Hubs                    | evh-                 |
 | Azure IoT Hub                       | aih-                 |
-| Azure Notification Hubs                   | anh-                 |
-| Espacio de nombres de Azure Notification Hubs          | anhns-               |
+| Azure Notification Hubs             | anh-                 |
+| Espacio de nombres de Azure Notification Hubs   | anhns-               |
 
 ### <a name="metadata-tags"></a>Etiquetas de metadatos
 

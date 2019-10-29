@@ -1,23 +1,23 @@
 ---
-title: Equilibrio de la cartera
+title: Conciliar la cartera
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Equilibrio de la cartera
+description: Obtenga información sobre cómo conciliar su cartera en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1227b798972ce7e139181c9267a1a1e860390029
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 2b26f8c763d477d95b21e302158c318e3ab4b101
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70836710"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548586"
 ---
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
-La adopción de la nube es un esfuerzo de administración de carteras, disfrazado de manera inteligente como una implementación técnica. Al igual que cualquier ejercicio de administración de carteras, el equilibrio de una cartera es un elemento crítico para alcanzar el éxito. En un nivel estratégico, esto significa equilibrar la migración, innovación y experimentación para aprovechar la nube al máximo. Cuando el esfuerzo de adopción de la nube se inclina demasiado en una dirección o en la otra, la complejidad se abre camino en el esfuerzo de migración. En este artículo se le guiará al lector a través de los enfoques para alcanzar el equilibrio de la cartera.
+La adopción de la nube es un esfuerzo de administración de carteras, disfrazado de manera inteligente como una implementación técnica. Al igual que cualquier ejercicio de administración de carteras, el equilibrio de una cartera es crítico. En un nivel estratégico, esto significa equilibrar la migración, innovación y experimentación para aprovechar la nube al máximo. Cuando el esfuerzo de adopción de la nube se inclina demasiado en una dirección o en la otra, la complejidad se abre camino en el esfuerzo de migración. En este artículo se le guiará al lector a través de los enfoques para alcanzar el equilibrio de la cartera.
 
 ## <a name="general-scope-expansion"></a>Expansión del ámbito general
 

@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ad32490cd732888ca2fc78a39b3f33d88828776b
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: be35763ea3beeec5977073dab8ef98c2e441b537
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378307"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548793"
 ---
 # <a name="scaling-with-multiple-azure-subscriptions"></a>Escalado con varias suscripciones de Azure
 
@@ -45,7 +45,7 @@ Otras situaciones pueden requerir suscripciones adicionales. Tenga en cuenta lo 
 
 - Las suscripciones en las regiones de la nube pública y en las regiones de la nube soberana o de administración pública tienen diferentes limitaciones. A menudo, están condicionadas por diferentes niveles de clasificación de datos entre entornos.
 
-- Si separa por completo diferentes conjuntos de usuarios por motivos de seguridad o cumplimiento, puede que necesite suscripciones independientes. Por ejemplo, las organizaciones del gobierno nacional pueden tener que limitar el acceso de una suscripción a solo los ciudadanos.
+- Si separa por completo diferentes conjuntos de usuarios por motivos de seguridad o cumplimiento, puede que necesite suscripciones independientes. Por ejemplo, es posible que las organizaciones del gobierno nacional tengan que limitar el acceso de una suscripción a solo los ciudadanos.
 
 - Distintas suscripciones pueden tener distintos tipos de ofertas, cada una con sus propios términos y ventajas.
 

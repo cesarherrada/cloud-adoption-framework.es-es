@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 554bfdaf0a21fac50cafe9c510c4fd83c6702b81
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 0157cf5c50cd676478b28889b565c7f3f6952e32
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221386"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548605"
 ---
 # <a name="cloud-monitoring-guide-alerting"></a>Guía sobre la supervisión en la nube: Alertas
 
@@ -35,7 +35,7 @@ Para determinar si un síntoma es un candidato adecuado de una alerta, tenga en 
 
 Formule estas preguntas al desarrollar inicialmente una configuración de supervisión. Pruebe y valide las suposiciones en un entorno que no sea de producción y, luego, implemente en producción. Las configuraciones de supervisión se derivan de modos de error conocidos, de resultados de pruebas de errores simulados y de la experiencia de los distintos miembros del equipo.
 
-Después del lanzamiento de la configuración de supervisión, puede aprender mucho sobre lo que funciona y lo que no. Piense en los problemas con un alto volumen de alertas desapercibidos en la supervisión pero advertidos por los usuarios finales, y cuáles fueron las mejores acciones que se tomaron como parte de esta evaluación. Identifique los cambios que se deben implementar para mejorar la entrega del servicio, como parte de un proceso continuo de mejora de la supervisión. No consiste solo en evaluar el ruido de las alertas o la ausencia de ellas, sino también de la efectividad de la supervisión de la carga de trabajo. Consiste en la efectividad de las directivas de alerta, el proceso y la referencia cultural general para determinar las mejoras.
+Después del lanzamiento de la configuración de supervisión, puede aprender mucho sobre lo que funciona y lo que no. Piense en los problemas con un alto volumen de alertas desapercibidos en la supervisión pero advertidos por los usuarios finales, y cuáles fueron las mejores acciones que se tomaron como parte de esta evaluación. Identifique los cambios que se deben implementar para mejorar la entrega del servicio, como parte de un proceso continuo de mejora de la supervisión. No consiste solo en evaluar el ruido de las alertas o la ausencia de ellas, sino también la efectividad de la supervisión de la carga de trabajo. Consiste en la efectividad de las directivas de alerta, el proceso y la referencia cultural general para determinar las mejoras.
 
 Tanto System Center Operations Manager como Azure Monitor admiten alertas basadas en umbrales estáticos o incluso dinámicos y acciones configuradas sobre ellos. Algunos ejemplos son las alertas de correo electrónico, SMS y llamadas de voz para notificaciones simples. Ambos servicios también admiten la integración de ITSM para automatizar la creación de registros de incidentes y escalarlos al equipo de soporte técnico correcto, o cualquier otro sistema de administración de alertas que use un webhook.
 
@@ -81,7 +81,7 @@ Las [soluciones de administración](https://docs.microsoft.com/azure/azure-monit
 
 Solución| Tipo de datos | Comportamiento de alerta
 :---|:---|:---
-Azure Monitor para contenedores | Los datos de rendimiento medio calculados de nodos y pods se escriben en el almacén de métricas. | Cree alertas de métricas si quiere recibir alertas en función de la variación del rendimiento de uso medido, acumulado durante un período de tiempo.
+Azure Monitor para contenedores | Los datos de rendimiento medio calculados de nodos y pods se escriben en el almacén de métricas. | Cree alertas de métricas si quiere recibir alertas en función de la variación del rendimiento de uso medido, acumulado a lo largo del tiempo.
 || Los datos de rendimiento calculados que usan percentiles de nodos, controladores, contenedores y pods se escriben en el almacén de registros. Los registros de contenedor y la información de inventario también se escriben en el almacén de registros. | Cree alertas de consulta de registro si quiere recibir alertas en función de la variación del uso medido de clústeres y contenedores. Las alertas de consulta de registro también se pueden configurar en función de los recuentos de fase de pod y el número de nodos de estado.
 Azure Monitor para máquinas virtuales | Los criterios de mantenimiento son métricas que se escriben en el almacén de métricas. | Se generan alertas cuando el estado de mantenimiento cambia de una condición de correcto a incorrecto. Solo admite grupos de acciones configurados para enviar notificaciones por correo electrónico o SMS.
 || Los datos de registro de rendimiento de asignación y del sistema operativo invitado se escriben en el almacén de registros. | Cree alertas de consulta de registros.
@@ -104,9 +104,9 @@ La **telemetría del sistema operativo invitado** tiene una serie de rutas de ac
 
 ### <a name="minimize-alerts"></a>Minimizar las alertas
 
-Si usa una solución como Azure Monitor para VM y encuentra los criterios de mantenimiento predeterminados que supervisan el uso de rendimiento aceptable, no cree alertas de métricas o de consulta de registro superpuestas basadas en los mismos contadores de rendimiento.
+Si usa una solución como Azure Monitor para VM y la parecen aceptables los criterios de mantenimiento predeterminados que supervisan el uso de rendimiento, no cree alertas de métricas o de consulta de registro superpuestas basadas en los mismos contadores de rendimiento.
 
-Si no usa Azure Monitor para VM, explore las siguientes características para facilitar el trabajo de creación de alertas y administración de notificaciones:  
+Si no usa Azure Monitor para VM, explore las siguientes características para facilitar el trabajo de creación de alertas y administración de notificaciones:
 
 > [!NOTE]
 > Estas características solo se aplican a alertas de métricas; es decir, las alertas basadas en los datos que se envían a la base de datos de métricas de Azure Monitor. No se aplican a los otros tipos de alertas. Como se mencionó anteriormente, el objetivo principal de las alertas de métricas es la velocidad. Si recibir una alerta en menos de 5 minutos no es la principal preocupación, puede usar en su lugar una alerta de consulta de registro.
