@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2fa30c01de9d09af2c2947f940264d9156941589
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 221259ce6550f42aad6e8dbb0a1dd2144bbdb6b4
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72698517"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048523"
 ---
 ::: zone target="docs"
 
@@ -34,7 +34,7 @@ Antes de migrar recursos a Azure, debe elegir el método de migración y las fun
 ::: zone target="docs"
 
 > [!TIP]
-> Para una experiencia interactiva, consulte esta guía en Azure Portal. Vaya al [Centro de inicio rápido de Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) en Azure Portal y seleccione **Migrate your environment to Azure** (Migrar su entorno a Azure).
+> Para una experiencia interactiva, consulte esta guía en Azure Portal. Vaya al [Centro de inicio rápido de Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) en Azure Portal, seleccione **Migrate your environment to Azure** (Migrar su entorno a Azure) y, después, siga las instrucciones paso a paso.
 
 ::: zone-end
 

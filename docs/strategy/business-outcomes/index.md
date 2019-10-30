@@ -8,14 +8,14 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: e67d3e0ed1e13fc4c7a5cfdca1bb2f6c138601ba
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 58891a3afcafc9ac160f90027c35aa459ca7636a
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548728"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048019"
 ---
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD026 -->
 
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>¿Qué resultados empresariales se asocian con procesos de transformación?
 
@@ -29,42 +29,42 @@ Para más información acerca de los resultados empresariales y la plantilla de 
 
 A continuación encontrará algunos resultados empresariales que tienden a desencadenar conversaciones con distintos roles:
 
-- **Liderazgo financiero**: aumentar la rentabilidad sin perder de vista el cumplimiento.
-- **Marketing**: lograr nuevos clientes, conservar los conseguidos y crear una reputación.
-- **Ventas**: acelerar las ventas, mejorar el valor de los clientes.
-- **RR. HH.** : conservar, contratar y capacitar a los empleados.
+- **Liderazgo financiero:** : aumentar la rentabilidad sin perder de vista el cumplimiento.
+- **Marketing:** lograr nuevos clientes, conservar los conseguidos y crear una reputación.
+- **Ventas:** acelerar las ventas, mejorar el valor de los clientes.
+- **Recursos humanos:** conservar, contratar y capacitar a los empleados.
 
-# <a name="sample-outcomes-by-category"></a>Resultados de ejemplo por categoría
+## <a name="sample-outcomes-by-category"></a>Resultados de ejemplo por categoría
 
 Hablar acerca de los resultados empresariales puede ser como hablar un idioma extranjero para muchas personas con mente técnica. Para facilitar la traducción, Microsoft mantiene un conjunto de resultados empresariales de ejemplo en el [marco de resultados empresariales](../index.md). Estos ejemplos se pueden usar como ayuda para inspirarse y mostrar los resultados empresariales basados en procesos de transformación reales.
 
 Para ayudarle a encontrar resultados empresariales más fácilmente, los hemos separado en las siguientes categorías. Este enfoque tiende a impulsar conversaciones para alcanzar un consenso entre unidades de negocio.
 
-## <a name="fiscal-outcomes"></a>Resultados fiscales
+### <a name="fiscal-outcomes"></a>Resultados fiscales
 
 El rendimiento financiero o fiscal es el resultado empresarial más limpio para muchos líderes de negocios, pero no es el único.
 
 Vea ejemplos de [resultados fiscales](./fiscal-outcomes.md).
 
-## <a name="agility-outcomes"></a>Resultados de agilidad
+### <a name="agility-outcomes"></a>Resultados de agilidad
 
 El entorno empresarial actual cambia a velocidad de vértigo, por lo que el tiempo tiene especial importancia. La capacidad de impulsar cambios en el mercado, o de dar una respuesta a tales cambios de forma rápida, es la medida fundamental de la agilidad empresarial.
 
 Vea ejemplos de [resultados de agilidad](./agility-outcomes.md).
 
-## <a name="reach-outcomes"></a>Resultados de cobertura
+### <a name="reach-outcomes"></a>Resultados de cobertura
 
 En un mercado en constante reducción, la cobertura global (capacidad para dar soporte técnico a clientes y usuarios globales) se puede medir por el cumplimiento en ubicaciones geográficas que son relevantes para la empresa.
 
 Vea resultados relacionados con la [cobertura global](./reach-outcomes.md).
 
-## <a name="customer-engagement-outcomes"></a>Resultados de la involucración del usuario
+### <a name="customer-engagement-outcomes"></a>Resultados de la involucración del usuario
 
 Los mercados sociales están redefiniendo a los ganadores y perdedores a un ritmo inaudito. La respuesta a las necesidades del usuario es una medida de clave del compromiso del usuario.
 
 Más información acerca [los resultados de la involucración del usuario](./engagement-outcomes.md).
 
-## <a name="performance-outcomes"></a>Resultados de rendimiento
+### <a name="performance-outcomes"></a>Resultados de rendimiento
 
 Tanto el rendimiento como la confiabilidad se dan por hecho. Su alguno de los dos flaquea, el daño en la reputación puede ser doloroso y duradero.
 
