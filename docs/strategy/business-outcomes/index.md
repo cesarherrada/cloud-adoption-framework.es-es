@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 58891a3afcafc9ac160f90027c35aa459ca7636a
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: faa1728dd72828478a167cf09535bdf9f2ac1a82
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048019"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058874"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -62,7 +62,7 @@ Vea resultados relacionados con la [cobertura global](./reach-outcomes.md).
 
 Los mercados sociales están redefiniendo a los ganadores y perdedores a un ritmo inaudito. La respuesta a las necesidades del usuario es una medida de clave del compromiso del usuario.
 
-Más información acerca [los resultados de la involucración del usuario](./engagement-outcomes.md).
+Más información acerca de los [resultados de la involucración del usuario](./engagement-outcomes.md).
 
 ### <a name="performance-outcomes"></a>Resultados de rendimiento
 

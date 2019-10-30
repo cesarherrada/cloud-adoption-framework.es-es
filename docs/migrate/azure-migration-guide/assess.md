@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0d1918f60f6bfe2a6d458b83b5838a8776af51a7
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 39c756c1d90cc9baf7927b2a0ba02814a82f6031
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549271"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058797"
 ---
 # <a name="assess-the-digital-estate"></a>Evaluación del patrimonio digital
 
@@ -58,7 +58,7 @@ Para iniciar una evaluación de migración de servidor mediante Azure Migrate, s
 
 ::: zone target="docs"
 
-### <a name="read-more"></a>Más información
+### <a name="learn-more"></a>Más información
 
 - [Información general de Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-services-overview).
 - [Migración de servidores físicos o virtualizados a Azure](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)
@@ -82,7 +82,7 @@ Para usar la visualización de dependencias, debe descargar e instalar agentes e
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="read-more"></a>Más información
+### <a name="learn-more"></a>Más información
 
 - [Uso de la solución Service Map en Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
 - [Azure Migrate y Service Map: Visualización de dependencias](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
@@ -104,7 +104,7 @@ La lista completa de las partes interesadas varía entre los proyectos de migrac
 
 Establecer un equipo de estrategia de la nube principal, basado en estas partes interesadas clave de alto nivel, puede ayudar a preparar su organización para la adopción de la nube y guiar los esfuerzos generales de migración a la nube. Este equipo es responsable de comprender las tecnologías de nube y los procesos de migración, identificar la justificación comercial de las migraciones y determinar las mejores soluciones de alto nivel para los esfuerzos de migración. También ayuda a identificar y trabajar con partes interesadas del ámbito empresarial y aplicaciones específicas para garantizar una migración correcta.
 
-Para obtener más información sobre cómo preparar su organización para los esfuerzos de migración a la nube, consulte el artículo de la Plataforma de adopción de la nube sobre la [alineación inicial de la organización](../../ready/initial-org-alignment.md).
+Para obtener más información sobre cómo preparar su organización para los esfuerzos de migración a la nube, consulte el artículo de la Plataforma de adopción de la nube sobre la [alineación inicial de la organización](../../plan/initial-org-alignment.md).
 
 # <a name="timelinestabtimelines"></a>[Escalas de tiempo](#tab/Timelines)
 

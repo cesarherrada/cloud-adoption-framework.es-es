@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: d16af8b5b9c70dfdaf08f7bfe280dbd42ed4f8c7
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: aaa00910fb37545949087c71d6300918a3435cc2
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022757"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058759"
 ---
 # <a name="secure-and-manage"></a>Proteger y administrar
 
@@ -39,7 +39,7 @@ Azure Monitor maximiza la disponibilidad y el rendimiento de las aplicaciones co
 
 ::: zone target="docs"
 
-## <a name="read-more"></a>Más información
+## <a name="learn-more"></a>Más información
 
 - [Introducción a Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview).
 
@@ -70,7 +70,7 @@ En combinación, estas experiencias ofrecen una vista completa del estado de Azu
 
 ::: zone target="docs"
 
-## <a name="read-more"></a>Más información
+## <a name="learn-more"></a>Más información
 
 Para más información, consulte la [documentación de Azure Service Health](https://docs.microsoft.com/azure/service-health).
 
@@ -93,7 +93,7 @@ Asistente de Azure es un consultor en la nube personalizado que le ayudará a re
 
 ::: zone target="docs"
 
-## <a name="read-more"></a>Más información
+## <a name="learn-more"></a>Más información
 
 [Información general](https://docs.microsoft.com/azure/advisor/advisor-overview).
 
@@ -116,7 +116,7 @@ Azure Security Center es un sistema unificado de administración de seguridad de
 
 ::: zone target="docs"
 
-## <a name="read-more"></a>Más información
+## <a name="learn-more"></a>Más información
 
 [Información general](https://docs.microsoft.com/azure/security-center/security-center-intro)
 
