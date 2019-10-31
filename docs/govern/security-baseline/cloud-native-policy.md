@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8768f1f9c1496fa53bec7e10432854d5ad16b747
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 037cfa2a10ecce9bc56d747eb658824014758827
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222902"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548040"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 
@@ -33,7 +33,7 @@ La seguridad está integrada en todos los aspectos de Azure y le ofrece unas ven
 
 ### <a name="built-in-security-controls"></a>Controles de seguridad integrados
 
-Es difícil de mantener una infraestructura de alta seguridad cuando los controles de seguridad no son intuitivos y deben configurarse por separado. Azure incluye controles de seguridad integrados en una variedad de servicios que le ayuda a proteger datos y cargas de trabajo de manera rápida, y a administrar el riesgo en los entornos híbridos. Las soluciones de asociados integradas permiten también trasladar fácilmente a la nube los elementos de protección existentes.
+Una infraestructura de alta seguridad resulta difícil de mantener cuando los controles de seguridad no son intuitivos y deben configurarse por separado. Azure incluye controles de seguridad integrados en una variedad de servicios que le ayuda a proteger datos y cargas de trabajo de manera rápida, y a administrar el riesgo en los entornos híbridos. Las soluciones de asociados integradas permiten también trasladar fácilmente a la nube los elementos de protección existentes.
 
 ### <a name="cloud-native-identity-policies"></a>Directivas de identidad nativas en la nube
 
@@ -87,10 +87,10 @@ El uso de la nube puede reducir en parte la carga de seguridad. Microsoft propor
 Pero incluso con esta inversión en una línea de base de seguridad nativa en la nube, se recomienda que cualquier directiva de línea de base de seguridad se extienda a las directivas nativas en la nube predeterminadas. Los siguientes son ejemplos de directivas extendidas que se deben tener en cuenta incluso en un entorno nativo en la nube:
 
 - **Proteger las máquinas virtuales.** La seguridad debería ser la prioridad principal de todas las organizaciones, y lograr que esta sea eficaz requiere varias cosas. Debe evaluar el estado de la seguridad, protegerse contra amenazas de seguridad y, posteriormente, detectar y responder rápidamente a las amenazas que ya se están produciendo.
-- **Proteger los contenidos de las máquinas virtuales.** La configuración de copias de seguridad automatizadas regulares es fundamental para protegerse frente a errores del usuario. Sin embargo, esto no es suficiente. También hay que asegurarse de que las copias de seguridad están protegidas frente a ciberataques y que están disponibles para cuando las necesita.
+- **Proteger los contenidos de las máquinas virtuales.** La configuración de copias de seguridad automatizadas regulares es fundamental para protegerse frente a errores del usuario. Sin embargo, esto no es suficiente. También hay que asegurarse de que las copias de seguridad están protegidas frente a ciberataques y que están disponibles cuando las necesita.
 - **Supervisión de aplicaciones.** Este patrón abarca varias tareas, entre las que se incluye la obtención de información sobre el estado de las máquinas virtuales, la descripción de las interacciones entre ellas y el establecimiento de maneras de supervisar las aplicaciones que estas máquinas virtuales ejecutan. Todas estas tareas son fundamentales para mantener sus aplicaciones en ejecución ininterrumpidamente.
 - **Protección y auditoría del acceso a los datos.** Las organizaciones deben auditar todos los accesos a los datos y aprovechar las funcionalidades avanzadas de aprendizaje automático para resaltar las desviaciones de los patrones de acceso normales.
-- **Procedimiento de conmutación por error.** Las operaciones en la nube que tienen baja tolerancia a errores deben ser capaces de realizar una conmutación por error o por recuperación después de un incidente de ciberseguridad o de la plataforma. Estos procedimientos no solo se deben documentar sino que también se deben practicar con carácter trimestral.
+- **Procedimiento de conmutación por error.** Las operaciones en la nube que tienen baja tolerancia a errores deben ser capaces de realizar una conmutación por error o una recuperación después de un incidente de ciberseguridad o de la plataforma. Estos procedimientos no solo se deben documentar sino que también se deben practicar con carácter trimestral.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

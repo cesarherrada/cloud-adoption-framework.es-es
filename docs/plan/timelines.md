@@ -8,18 +8,18 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 4e095dd90711f201935e88ea5f2712e881a8574b
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: c5bafd4504a0df9570bf65846a5a077e54e158ca
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70837626"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549027"
 ---
 # <a name="timelines-in-a-cloud-adoption-plan"></a>Escalas de tiempo de un plan de adopción de la nube
 
 En el artículo anterior de esta serie, las cargas de trabajo y las tareas se asignaron a [versiones e iteraciones](./iteration-paths.md). Estas asignaciones alimentan las estimaciones de la escala de tiempo en este artículo.
 
-Las estructuras de descomposición del trabajo (WBS) se usan normalmente en herramientas de administración de proyectos secuenciales. Representan cómo se completarán las tareas dependientes durante un período de tiempo. Estas estructuras funcionan bien cuando las tareas son secuenciales por naturaleza. Las interdependencias de las tareas que se encuentran en la adopción de la nube hacen que estas estructuras sean difíciles de administrar. Para rellenar esta brecha, puede hacer una estimación de las escalas de tiempo en función de las asignaciones de rutas de iteración ocultando la complejidad.
+Las estructuras de descomposición del trabajo (WBS) se usan normalmente en herramientas de administración de proyectos secuenciales. Representan cómo se completarán las tareas dependientes con el tiempo. Estas estructuras funcionan bien cuando las tareas son secuenciales por naturaleza. Las interdependencias de las tareas que se encuentran en la adopción de la nube hacen que estas estructuras sean difíciles de administrar. Para rellenar esta brecha, puede hacer una estimación de las escalas de tiempo en función de las asignaciones de rutas de iteración ocultando la complejidad.
 
 ## <a name="estimate-timelines"></a>Estimación de escalas de tiempo
 

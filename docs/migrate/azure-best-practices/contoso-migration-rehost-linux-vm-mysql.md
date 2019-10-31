@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8056ef1a53a47bc79e106f0fcd4fcf768e3a5126
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 3e39452782f1966e0efe2742264d26a60062d78b
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224315"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547329"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms-and-azure-database-for-mysql"></a>Rehospedaje de una aplicación Linux local en máquinas virtuales de Azure y en Azure Database for MySQL
 
@@ -34,7 +34,7 @@ El equipo directivo de TI ha trabajado estrechamente con sus socios comerciales 
 El equipo de la nube de Contoso ha definido los objetivos de esta migración con el fin de determinar el mejor método para llevarla a cabo:
 
 - Tras la migración, la aplicación de Azure debe tener las mismas funcionalidades de rendimiento que las que tiene actualmente en su entorno de VMware local. La aplicación seguirá siendo tan imprescindible en la nube como lo es en el entorno local.
-- Contoso no quiere hacer inversiones en esta aplicación. Es importante para la empresa, pero, en su estado actual, Contoso solo quiere moverla a la nube de modo seguro.
+- Contoso no quiere invertir en esta aplicación. Es importante para la empresa, pero, en su estado actual, Contoso solo quiere moverla a la nube de modo seguro.
 - Una vez completadas un par de migraciones de aplicaciones de Windows, Contoso quiere aprender a usar una infraestructura basada en Linux en Azure.
 - Quiere minimizar las tareas de administración de la base de datos tras mover la aplicación a la nube.
 

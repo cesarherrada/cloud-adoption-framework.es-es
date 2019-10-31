@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: dc045d26dd855240700341748c189a985f1f6758
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 2e2e075b6f051af003d4c8d542e592943084c1e7
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220556"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547609"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -22,7 +22,7 @@ En este artículo se detalla el método de adición de controles de seguridad qu
 
 ## <a name="advancing-the-narrative"></a>Continuación de la historia
 
-El Director de sistemas de información lleva meses colaborando con sus colegas y el personal legal de la empresa. Se contrató un consultor de administración con experiencia en ciberseguridad para ayudar a los equipos de seguridad y gobernanza de TI a redactar una nueva directiva con respecto a los datos protegidos. El grupo pudo promover el apoyo de la dirección para reemplazar las directivas existentes, permitiendo así que los proveedores de nube aprobados hospeden los datos financieros y la información personal confidencial. Debido a ello, es necesario adoptar un conjunto de requisitos de seguridad y un proceso de gobernanza para comprobar y documentar el cumplimiento de esas directivas.
+El director de sistemas de información lleva meses colaborando con sus colegas y el personal del departamento jurídico de la empresa. Se contrató un consultor de administración con experiencia en ciberseguridad para ayudar a los equipos de seguridad y gobernanza de TI a redactar una nueva directiva con respecto a los datos protegidos. El grupo pudo promover el apoyo de la dirección para reemplazar las directivas existentes, permitiendo así que los proveedores de nube aprobados hospeden los datos financieros y la información personal confidencial. Debido a ello, es necesario adoptar un conjunto de requisitos de seguridad y un proceso de gobernanza para comprobar y documentar el cumplimiento de esas directivas.
 
 Durante los últimos 12 meses, los equipos de adopción en la nube han retirado la mayoría de los 5000 recursos de los dos centros de datos. Por su parte, los 350 recursos incompatibles se llevaron a un centro de datos alternativo. Así pues, solo quedan las 1250 máquinas virtuales que contienen los datos protegidos.
 
@@ -75,7 +75,7 @@ Este riesgo empresarial puede ampliarse a algunos riesgos técnicos:
 Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgos y le guiarán en la implementación. La lista es larga, pero la adopción de estas directivas podría ser más fácil de lo que parece.
 
 1. Todos los recursos implementados deben categorizarse por importancia y clasificación de datos. Asimismo, el equipo de gobernanza de la nube y el propietario de la aplicación deben revisar las clasificaciones antes de realizar la implementación en la nube.
-2. Las aplicaciones que almacenan u obtienen acceso a datos protegidos se deben administrar de manera diferente a las demás. Como mínimo, deben segmentarse para evitar el acceso no intencionado de los datos protegidos.
+2. Las aplicaciones que almacenan o acceden a datos protegidos se deben administrar de manera diferente de las demás. Como mínimo, deben segmentarse para evitar el acceso no intencionado de los datos protegidos.
 3. Todos los datos protegidos deben estar cifrados cuando están en reposo.
 4. Los permisos elevados en los segmentos que contienen datos protegidos deben ser una excepción. Estas excepciones se registrarán con el equipo de gobernanza de la nube y se auditarán periódicamente.
 5. las subredes que contengan datos protegidos deben aislarse de las otras subredes. El tráfico de red entre subredes de datos protegidos se auditará periódicamente.

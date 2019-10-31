@@ -8,12 +8,12 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: afde9af7da83bfd8d95847542d5f7236d318121e
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 5675d611979c992f41f03d362f0110aaeb3b9b24
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220450"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547383"
 ---
 # <a name="ciso-cloud-readiness-guide"></a>Guía de preparación de CISO para la nube
 
@@ -72,7 +72,7 @@ Transparencia:
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-El primer paso para tomar medidas en cualquier estrategia de gobernanza, es realizar una [revisión de directiva](./cloud-policy-review.md). La sección [Directiva y cumplimiento](./index.md) puede ser una guía útil durante la revisión de las directivas.
+El primer paso para tomar medidas en cualquier estrategia de gobernanza es realizar una [revisión de directiva](./cloud-policy-review.md). La sección [Directiva y cumplimiento](./index.md) puede ser una guía útil durante la revisión de las directivas.
 
 > [!div class="nextstepaction"]
 > [Prepararse para una revisión de la directiva](./cloud-policy-review.md)

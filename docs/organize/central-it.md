@@ -9,18 +9,18 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 54e08a42a64d06005620b450b1458288316df74e
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: d1d59b105dd6d75b0c5b5ed12d711473fd4995c8
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224020"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549119"
 ---
 # <a name="central-it-capabilities"></a>Funciones de TI centralizadas
 
 A medida que se escala la adopción de la nube, puede que las funcionalidades de gobernanza de la nube no sean suficientes por sí solas para gobernar los esfuerzos de adopción. Si la adopción es gradual, los equipos tienden a desarrollar orgánicamente las aptitudes y los procesos necesarios para estar preparados para la nube con el tiempo.
 
-Sin embargo, cuando un equipo de adopción de la nube aprovecha la nube para lograr un resultado empresarial de alto perfil, este rara vez es el caso. El éxito llama al éxito. Esto también es cierto en la adopción de la nube, pero se produce en la escala de la nube. Cuando la adopción de la nube se amplía de un equipo a varios equipos en un período de tiempo relativamente corto, se necesita soporte adicional por parte del personal de TI existente. Sin embargo, es posible que ese personal no tenga el entrenamiento y la experiencia necesarios para dar soporte técnico a la nube mediante herramientas de TI nativas en la nube. Esto a menudo conduce a la formación de un equipo de TI central que gobierna la nube.
+Sin embargo, cuando un equipo de adopción de la nube aprovecha la nube para lograr un resultado empresarial de alto perfil, este rara vez es el caso. El éxito llama al éxito. Esto también es cierto en la adopción de la nube, pero se produce en la escala de la nube. Cuando la adopción de la nube se amplía de un equipo a varios equipos con relativa rapidez, se necesita soporte técnico adicional por parte del personal de TI existente. Sin embargo, es posible que ese personal no tenga el entrenamiento y la experiencia necesarios para dar soporte técnico a la nube mediante herramientas de TI nativas en la nube. Esto a menudo conduce a la formación de un equipo de TI central que gobierna la nube.
 
 > [!CAUTION]
 > Aunque se trata de un paso habitual del proceso de consolidación, su adopción puede suponer un riesgo elevado y es posible que bloquee los esfuerzos de innovación y migración si no se administra correctamente. Consulte la sección sobre riesgos que aparece a continuación para aprender a mitigar el riesgo de que la centralización se convierta en un antipatrón cultural.

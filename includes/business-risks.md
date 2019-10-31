@@ -11,7 +11,7 @@ La empresa está en una fase temprana de adopción de la nube, experimentando y 
 
 **Perdurabilidad:** Existe el riesgo de no permitir el crecimiento, pero también el riesgo de no proporcionar los mecanismos de protección adecuados contra los riesgos futuros.
 
-Es necesario un enfoque de gobernanza ágil, pero sólido para admitir la visión del consejo de crecimiento corporativo y técnico. No implementar este tipo de estrategia ralentizará el crecimiento técnico, lo que posiblemente ponga en riesgo el crecimiento de la cuota de mercado actual y futura. El impacto de un riesgo empresarial tal es claramente alto. Sin embargo, se desconoce el rol que TI desempeñará en dichos posibles estados futuros, lo que hace que el riesgo asociado con los esfuerzos actuales de TI sean relativamente altos. Dicho esto, en tanto no se alineen planes más concretos, la empresa tiene una alta tolerancia al riesgo.
+Es necesario un enfoque de gobernanza ágil, pero sólido para admitir la visión del consejo para el crecimiento corporativo y técnico. No implementar este tipo de estrategia ralentizará el crecimiento técnico, lo que posiblemente ponga en riesgo el crecimiento de la cuota de mercado actual y futura. El impacto de un riesgo empresarial tal es claramente alto. Sin embargo, se desconoce el rol que TI desempeñará en dichos posibles estados futuros, lo que hace que el riesgo asociado con los esfuerzos actuales de TI sean relativamente altos. Dicho esto, en tanto no se alineen planes más concretos, la empresa tiene una alta tolerancia al riesgo.
 
 Este riesgo empresarial puede dividirse de manera táctica en varios riesgos técnicos:
 

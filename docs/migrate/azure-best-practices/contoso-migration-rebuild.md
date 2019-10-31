@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: cbe5de4242baedfa704bd90baa7fa3ca0f0aa026
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 258b5a656293001228aab51dd1319fe6a89780a9
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025124"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548225"
 ---
 # <a name="rebuild-an-on-premises-app-on-azure"></a>Recompilación de una aplicación local en Azure
 
@@ -143,7 +143,7 @@ Contoso ejecuta un script de implementación para crear el clúster de Kubernete
 
 Los administradores de Contoso aprovisionan de la manera siguiente:
 
-Abren la carpeta con Visual Studio Code y se desplazan al directorio **/deploy/k8s**, que contiene el script **gen-aks-env.ps1**.
+1. Abren la carpeta con Visual Studio Code y se desplazan al directorio **/deploy/k8s**, que contiene el script **gen-aks-env.ps1**.
 2. Ejecutan el script para crear el clúster de Kubernetes administrado, con AKS y ACR.
     ![AKS](./media/contoso-migration-rebuild/aks1.png)
 3. Con el archivo abierto, actualiza el parámetro $location a **eastus2** y guarda el archivo.

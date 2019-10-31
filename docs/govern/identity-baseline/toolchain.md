@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 72060f16add37d62a4747c5fe9d5aef49fe04c58
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 348bcc8a98585efb4b4b1dddef1499d4c4958424
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222122"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547417"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Herramientas de la base de referencia de identidad en Azure
 
@@ -45,7 +45,7 @@ Cuando se elige este método, Azure AD controla el proceso de inicio de sesión 
 
 **Autenticación federada:**
 
-si se elige este método, Azure AD pasa el proceso de autenticación a un sistema de autenticación de confianza como, por ejemplo, una instancia local de Servicios de federación de Active Directory (AD FS) o un proveedor de federación independiente de confianza para validar la contraseña del usuario.
+si se elige este método, Azure AD pasa el proceso de autenticación a un sistema de autenticación de confianza como, por ejemplo, una instancia local de Servicios de federación de Active Directory (AD FS) o un proveedor de federación independiente de confianza para validar la contraseña del usuario.
 
 El artículo [Elección del método de autenticación adecuado para Azure Active Directory](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) contiene un árbol de decisión que le ayuda a elegir la mejor solución para su organización.
 

@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5dbb92053e12ec9aee795c54271ab45d56d6722c
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 3a6e2effbd47c3516e3663d3c0f1f75d9db924e8
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220172"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547690"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-cost-management-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de administración de costos
 
@@ -24,7 +24,7 @@ En este artículo, la narración avanza agregando controles de costos a los meca
 
 La adopción ha crecido superando el indicador de tolerancia definido en el MVP para la gobernanza. Los aumentos en el gasto ahora justifican una inversión de tiempo por parte del equipo de gobernanza de la nube para supervisar y controlar los patrones de gasto.
 
-En tanto que impulsor claro de la innovación, el departamento de TI ya no se percibe principalmente como un centro de coste. A medida que la organización de TI genera más valor, el director de sistemas de información y el director financiero acuerdan que es el momento de cambiar el papel que desempeña el equipo de TI en la empresa. Entre otros cambios, el director financiero desea probar un enfoque de pago directo para la contabilidad en la nube para la sucursal canadiense de una de las unidades empresariales. Uno de los dos centros de datos retirados eran recursos hospedados exclusivamente para las operaciones en Canadá de esa unidad empresarial. En este modelo, se facturará directamente a la filial canadiense de la unidad empresarial por los gastos operativos relacionados con los recursos hospedados. Este modelo permite que el equipo de TI se centre menos en la administración del gasto de los demás y más en la creación de valor. Sin embargo, para que pueda comenzar esta transición, es necesario que las herramientas de administración de costos estén en vigor.
+En tanto que impulsor claro de la innovación, el departamento de TI ya no se percibe principalmente como un centro de coste. A medida que la organización de TI genera más valor, el director de sistemas de información y el director financiero acuerdan que es el momento de cambiar el papel que desempeña el equipo de TI en la empresa. Entre otros cambios, el director financiero desea probar un enfoque de pago directo para la contabilidad en la nube destinado a la sucursal canadiense de una de las unidades empresariales. Uno de los dos centros de datos retirados eran recursos hospedados exclusivamente para las operaciones en Canadá de esa unidad empresarial. En este modelo, se facturará directamente a la filial canadiense de la unidad empresarial por los gastos operativos relacionados con los recursos hospedados. Este modelo permite que el equipo de TI se centre menos en la administración del gasto de los demás y más en la creación de valor. Sin embargo, para que pueda comenzar esta transición, es necesario que las herramientas de administración de costos estén en vigor.
 
 ### <a name="changes-in-the-current-state"></a>Cambios en el estado actual
 

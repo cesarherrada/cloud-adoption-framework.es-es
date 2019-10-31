@@ -8,12 +8,12 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: b7a2ae0457550189df66b8aa290fd9835cb11904
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 2e605766e06b106fab61576e64bd5059569c8b38
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378161"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548767"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
@@ -129,7 +129,7 @@ Las etiquetas de los recursos están estrechamente vinculadas con los estándare
 > [!IMPORTANT]
 > Las etiquetas pueden contener información personal y pueden estar sujetas a las disposiciones del RGPD. Planee la administración de las etiquetas detenidamente. Si quiere información general sobre el RGPD, consulte la sección sobre RGPD del [Portal de confianza de servicios](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
-En muchos aspectos, las etiquetas se usan más allá de la facturación y la administración. A menudo se usan como parte de la automatización (consulte la sección siguiente). Esto puede ocasionar conflictos si no se considera por adelantado. La práctica recomendada consiste en identificar todas las etiquetas comunes en el nivel de empresa (por ejemplo, ApplicationOwner y CostCenter) y aplicarlas de forma coherente al implementar recursos mediante automatización.
+En muchos aspectos, las etiquetas se usan más allá de la facturación y la administración. A menudo se usan como parte de la automatización (consulte la sección siguiente). Esto puede ocasionar conflictos si no se considera por adelantado. El procedimiento recomendado consiste en identificar todas las etiquetas comunes en el nivel de empresa (por ejemplo, ApplicationOwner y CostCenter) y aplicarlas de forma coherente al implementar recursos mediante automatización.
 
 ## <a name="azure-policy-and-initiatives"></a>Iniciativas y directivas de Azure
 
@@ -267,7 +267,7 @@ Esta información se puede ver y examinar a varios niveles y está sujeta a mejo
 
 ## <a name="cost-management"></a>Administración de costos
 
-Uno de los cambios más importantes al que se enfrentará al realizar la migración de la nube local a la nube pública es el cambio del gasto de capital (comprar hardware) al gasto operativo (pagar por el servicio a medida que lo usa). Este modificador también requiere una administración más minuciosa de los costos. La ventaja de la nube es que puede reducir de forma significativa y positiva el costo de un servicio con tan solo desactivarlo o cambiarlo de tamaño cuando no lo necesite. La administración minuciosa de los costos en la nube es un práctica recomendada que los clientes consolidados aplican a diario.
+Uno de los cambios más importantes al que se enfrentará al realizar la migración de la nube local a la nube pública es el cambio del gasto de capital (comprar hardware) al gasto operativo (pagar por el servicio a medida que lo usa). Este modificador también requiere una administración más minuciosa de los costos. La ventaja de la nube es que puede reducir de forma significativa y positiva el costo de un servicio con tan solo desactivarlo o cambiarlo de tamaño cuando no lo necesite. La administración minuciosa de los costos en la nube es un procedimiento recomendado que los clientes consolidados aplican a diario.
 
 Microsoft ofrece varias herramientas para poder visualizar, controlar y administrar los costos. También proporcionamos un conjunto completo de API para que pueda personalizar e integrar la administración de costos en sus propias herramientas y paneles. Estas herramientas pueden clasificarse a nivel general en: funcionalidades de Azure Portal y funcionalidades externas.
 
@@ -286,7 +286,7 @@ Son herramientas que ofrecen información instantánea sobre los costos y la pos
 
 - **API de consumo:** las [API de consumo](/rest/api/consumption) otorgan acceso mediante programación a datos de costo y uso, así como a información sobre presupuestos, instancias reservadas y cambios en Marketplace. Estas API son accesibles solo para las inscripciones Enterprise y algunas suscripciones a Web Direct; no obstante, ofrecen la posibilidad de integrar los datos de costos en almacenamiento de datos y herramientas propios. También puede [acceder a estas API mediante la CLI de Azure](/cli/azure/consumption?view=azure-cli-latest).
 
-Los clientes que son usuarios de la nube a largo plazo y consolidados siguen algunas prácticas muy recomendadas:
+Los clientes que son usuarios de la nube a largo plazo y consolidados siguen ciertos procedimientos recomendados:
 
 - **Supervisión activa de costos.** Las organizaciones que son usuarios consolidados de Azure supervisan constantemente los costos y adoptan medidas cuando es necesario. Algunas organizaciones incluso dedican personal a realizar análisis y sugerir cambios de uso, y estas personas en lugar de financiarse de forma autónoma, encuentran un clúster de HDInsight sin utilizar que se ha estado ejecutando durante meses.
 - **Uso de instancias reservadas de máquina virtual.** Otro inquilino clave para administrar los costos en la nube consiste en utilizar la herramienta adecuada para el trabajo. Si dispone de una máquina virtual IaaS que debe estar disponible ininterrumpidamente, el uso de una instancia reservada de máquina virtual le permitirá ahorrar bastante dinero. Hallar un equilibrio adecuado entre la automatización del apagado de las máquinas virtuales y el uso de instancias de máquina virtual reservadas conlleva experiencia y análisis.

@@ -1,5 +1,5 @@
 ---
-title: 'Guía de supervisión de la nube: introducción a las plataformas de supervisión'
+title: 'Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
 author: mgoedtel
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 33d9647a0804859a611d45e130c753cab89a6ef6
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 668710d38fe6d3aa03761580f530f484133df792
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031281"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547252"
 ---
-# <a name="cloud-monitoring-guide-overview-of-our-monitoring-platforms"></a>Guía sobre la supervisión en la nube: introducción a nuestras plataformas de supervisión
+# <a name="cloud-monitoring-guide-monitoring-platforms-overview"></a>Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión
 
 Microsoft ofrece una gama de funcionalidades de supervisión en dos productos: System Center Operations Manager, diseñado para el entorno local y después ampliado a la nube, y Azure Monitor, diseñado para la nube, pero que también puede supervisar sistemas locales. Estas dos ofertas proporcionan servicios de supervisión principales, como alertas, seguimiento del tiempo de actividad del servicio, supervisión del estado de la aplicación y la infraestructura, diagnóstico y análisis.
 
@@ -34,7 +34,7 @@ Cuando se lanzó Azure en 2010, la supervisión de los servicios en la nube se p
 
 Se presentó Application Insights para adaptarse a los cambios en un sector donde aumentaban los dispositivos en la nube, móviles e IoT y comenzaban las prácticas de DevOps. Pasó de ser Supervisión de rendimiento de aplicaciones en Operations Manager a un servicio de Azure, donde ofrece sofisticadas funciones de supervisión de las aplicaciones web escritas en diversos lenguajes. En 2015 se anunció la versión preliminar de Application Insights para Visual Studio, que más adelante pasó a conocerse simplemente como Application Insights. Recopila detalles sobre el rendimiento de las aplicaciones, las solicitudes y las excepciones, y los seguimientos.
 
-En 2015, Azure Operational Insights empezó a estar disponible de forma general. Incluía el servicio de análisis Log Analytics, que recopilaba y buscaba datos de máquinas en Azure, en entornos locales o en otros entornos en la nube, conectadas a System Center Operations Manager. Se ofrecían Intelligence Packs que ofrecían diferentes configuraciones de administración y supervisión empaquetadas con una recopilación de lógica de consulta y analítica, visualizaciones y reglas de recopilación de datos para escenarios como la auditoría de seguridad, las evaluaciones de estado y la administración de alertas.  Más adelante, Azure Operational Insights pasó a conocerse como Log Analytics.  
+En 2015, Azure Operational Insights empezó a estar disponible de forma general. Incluía el servicio de análisis Log Analytics, que recopilaba y buscaba datos de máquinas en Azure, en entornos locales o en otros entornos en la nube, conectadas a System Center Operations Manager. Se ofrecían Intelligence Packs que ofrecían diferentes configuraciones de administración y supervisión empaquetadas con una recopilación de lógica de consulta y analítica, visualizaciones y reglas de recopilación de datos para escenarios como la auditoría de seguridad, las evaluaciones de estado y la administración de alertas. Más adelante, Azure Operational Insights pasó a conocerse como Log Analytics.  
 
 En 2016 se anunció Ignite, la versión preliminar de Azure Monitor. Proporcionó un marco común para recopilar métricas de plataformas, registros de diagnóstico de recursos y eventos de registro de actividades en el nivel de suscripción de cualquier servicio de Azure iniciado desde el marco. Anteriormente, cada servicio de Azure tenía su propio método de supervisión.
 
@@ -172,7 +172,7 @@ Aunque las soluciones de supervisión pueden incluir reglas de alerta, normalmen
 
 Los módulos de administración de Operations Manager contienen cientos de flujos de trabajo individuales y determinan tanto los datos que se van a recopilar como la acción que se debe realizar con ellos. Por ejemplo, una regla podría tomar una muestra de un contador de rendimiento cada pocos minutos y almacenar los resultados para su análisis. Un monitor podría tomar una muestra del mismo contador de rendimiento y comparar su valor con un umbral para determinar el estado de mantenimiento de un objeto supervisado. Otra regla podría ejecutar un script para recopilar y analizar algunos datos en el equipo de un agente, y activar una alerta si devuelve un valor determinado.
 
-Los flujos de trabajo de Operations Manager son independientes entre sí, por lo que resulta difícil realizar un análisis en varios objetos supervisados. Estos escenarios de supervisión deben basarse en los datos después de su recopilación, lo que es posible pero puede ser difícil, y no es habitual.
+Los flujos de trabajo de Operations Manager son independientes entre sí, por lo que resulta difícil realizar un análisis en varios objetos supervisados. Estos escenarios de supervisión deben basarse en los datos después de su recopilación, lo que es posible, pero puede ser difícil, y no es habitual.
 
 ### <a name="azure-monitor"></a>Azure Monitor
 

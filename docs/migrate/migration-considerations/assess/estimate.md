@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2bbafffd50cba58fc5304489f31521e6da8a8345
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: be4fe4616b4f0599075ceac2b9c0838949b350c8
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025432"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548490"
 ---
 # <a name="estimate-cloud-costs"></a>Estimación del costo de la nube
 
@@ -25,7 +25,7 @@ El tamaño del patrimonio digital afecta directamente a las decisiones de migrac
 
 Sin embargo, tenga en cuenta que las migraciones más pequeñas, de una sola carga de trabajo, de todos modos pueden implicar una cantidad muy variable de recursos complementarios. Si la migración implica menos de 1000 máquinas virtuales, una herramienta como [Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-overview) probablemente sea suficiente para recopilar datos sobre el inventario y realizar una previsión de los costos. Las opciones de herramientas de cálculos de costos adicionales se describen en el artículo sobre los [cálculos de costos del patrimonio digital](../../../digital-estate/calculate.md).
 
-Si hablamos de patrimonios digitales con más de 1000 unidades, todavía es posible desglosar una estimación en cuatro o cinco iteraciones accionables, lo que permite que el proceso de estimación sea manejable. En el caso de patrimonios más grandes o cuando se requiere un mayor grado de precisión para la previsión, es posible que se requiera un enfoque más integral, como el que se describe en la sección "[Patrimonio digital](../../../digital-estate/index.md)" de la Plataforma de adopción de la nube.
+Si hablamos de patrimonios digitales con más de 1000 unidades, todavía es posible desglosar una estimación en cuatro o cinco iteraciones accionables, lo que permite que el proceso de estimación sea manejable. En el caso de patrimonios más grandes o cuando se requiere un mayor grado de precisión para la previsión, es posible que se requiera un enfoque más integral, como el que se describe en la sección "[Patrimonio digital](../../../digital-estate/index.md)" de la Plataforma de adopción de la nube.
 
 ## <a name="accounting-models"></a>Modelos de contabilidad
 

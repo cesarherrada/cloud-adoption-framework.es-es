@@ -1,7 +1,7 @@
 ---
-title: 'Guía de gobernanza para empresas estándar: Guías prescriptivas explicadas'
+title: 'Guía de gobernanza para empresas estándar: Explicación de los procedimientos recomendados'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Más información sobre las guías prescriptivas para la gobernanza en empresas estándar.
+description: Más información sobre los procedimientos recomendados sobre gobernanza en empresas complejas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3f9149c3edc90a12b0e9dd1f99e20172cf277fb2
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 0f7a6b76ba348414b4aed7b40aaffa4867e62c02
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967509"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547466"
 ---
-# <a name="standard-enterprise-governance-guide-prescriptive-guidance-explained"></a>Guía de gobernanza para empresas estándar: Guías prescriptivas explicadas
+# <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Guía de gobernanza para empresas estándar: Explicación de los procedimientos recomendados
 
-La guía de gobernanza empieza con un conjunto de [directivas corporativas](./initial-corporate-policy.md) iniciales. Estas directivas se usan para establecer un producto viable mínimo de gobernanza que refleje los [procedimientos recomendados](./index.md).
+La guía de gobernanza empieza con un conjunto de [directivas corporativas](./initial-corporate-policy.md) iniciales. Estas directivas se usan para establecer un MVP de gobernanza que refleje los [procedimientos recomendados](./index.md).
 
 En este artículo, se abordarán las estrategias generales necesarias para crear un MVP de gobernanza. En el centro del MVP de gobernanza se encuentra la materia de [aceleración de la implementación](../../deployment-acceleration/index.md). Las herramientas y los patrones que se aplican en esta etapa darán lugar a las mejoras graduales necesarias para expandir la gobernanza en el futuro.
 
@@ -61,12 +61,12 @@ La decisión sobre qué diseño de suscripción usar determina cómo se estructu
 
 Las decisiones relacionadas con la coherencia de los recursos determinan las herramientas, los procesos y el esfuerzo necesarios para garantizar que los recursos de Azure se implementan, configuran y administran de forma coherente dentro de una suscripción. En este caso, se ha elegido el patrón **[coherencia de la implementación](../../../decision-guides/resource-consistency/index.md#deployment-consistency)** como el principal patrón de coherencia de los recursos.
 
-- Se crean grupos de recursos para las aplicaciones mediante el enfoque del ciclo de vida: todo lo que se crea, se mantiene y se retira de forma conjunta debe residir en un único grupo de recursos. Para más información sobre los grupos de recursos, consulte [aquí](../../../decision-guides/resource-consistency/index.md#basic-grouping).
+- Los grupos de recursos se crean para las aplicaciones que usan el enfoque del ciclo de vida. Todo lo que se crea, mantiene y retira de forma conjunta debe residir en un único grupo de recursos. Para más información sobre los grupos de recursos, consulte [aquí](../../../decision-guides/resource-consistency/index.md#basic-grouping).
 - Azure Policy se debe aplicar a todas las suscripciones del grupo de administración asociado.
 - Como parte del proceso de implementación, las plantillas de coherencia de recursos de Azure para el grupo de recursos deben almacenarse en el control de código fuente.
 - Cada grupo de recursos se asocia con una aplicación o carga de trabajo específica que se basa en el enfoque del ciclo de vida que se indicó anteriormente.
 - Los grupos de administración de Azure permiten actualizar los diseños de gobernanza a medida que madura la directiva corporativa.
-- La amplia implementación de Azure Policy podría superar los compromisos temporales del equipo, y es posible que no proporcione mucho valor en este momento. Sin embargo, debe crearse una directiva predeterminada simple y aplicarse a cada grupo de administración para hacer cumplir el pequeño número de instrucciones de la directiva de gobernanza en la nube. Esta directiva definirá la implementación de los requisitos de gobernanza específicos. Esas implementaciones pueden aplicarse a todos los recursos implementados.
+- La amplia implementación de Azure Policy podría superar los compromisos temporales del equipo y es posible que no aporte un gran valor en este momento. Sin embargo, debe crearse una directiva predeterminada simple y aplicarse a cada grupo de administración para hacer cumplir el pequeño número de instrucciones de la directiva de gobernanza en la nube. Esta directiva definirá la implementación de los requisitos de gobernanza específicos. Esas implementaciones pueden aplicarse a todos los recursos implementados.
 
 >[!IMPORTANT]
 >Siempre que un recurso de un grupo deje de compartir el mismo ciclo de vida, se debe trasladar a otro grupo de recurso. Entre los ejemplos se incluyen bases de datos y componentes de red habituales. Aunque pueden servir a la aplicación que se está desarrollando, también pueden servir para otros fines y, por tanto, existir en otros grupos de recursos.

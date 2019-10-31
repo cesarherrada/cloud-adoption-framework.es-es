@@ -8,12 +8,12 @@ ms.date: 12/31/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6cf1be3679032976efa0331e13ea6806f2f8a79f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 5c3fcb72fc58f4b33735a95a7fcf1623fe081795
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024363"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548106"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Implementación de una carga de trabajo básica en Azure
 

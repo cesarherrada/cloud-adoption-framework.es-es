@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2e9a913ce0d27e2f15cb83bb842630fcc039f6cc
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: b1f43bdf0e0d58c40f11e45caf0221f7983c9624
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967325"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547528"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas estándar: Mejora de la materia de base de referencia de la seguridad
 
@@ -70,7 +70,7 @@ Este riesgo empresarial puede ampliarse a algunos riesgos técnicos:
 Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgos y le guiarán en la implementación. La lista parece larga, pero la adopción de estas directivas puede ser más fácil de lo que parece.
 
 1. Todos los recursos implementados deben categorizarse por importancia y clasificación de datos. El equipo de gobernanza de la nube y el propietario de la aplicación deben revisar las clasificaciones antes de la implementación en la nube.
-2. Las aplicaciones que almacenan u obtienen acceso a datos protegidos se deben administrar de manera diferente a las demás. Como mínimo, deben segmentarse para evitar el acceso no intencionado de los datos protegidos.
+2. Las aplicaciones que almacenan o acceden a datos protegidos se deben administrar de manera diferente de las demás. Como mínimo, deben segmentarse para evitar el acceso no intencionado de los datos protegidos.
 3. todos los datos protegidos deben estar cifrados cuando están en reposo. Aunque este es el valor predeterminado para todas las cuentas de Azure Storage, es posible que se necesiten estrategias de cifrado adicionales, incluido el cifrado de los datos de la cuenta de almacenamiento, el cifrado de las máquinas virtuales y el cifrado en el nivel de bases de datos si se usa SQL en una máquina virtual (cifrado de datos transparente y de columnas).
 4. Los permisos elevados en los segmentos que contienen datos protegidos deben ser una excepción. Estas excepciones se registrarán con el equipo de gobernanza de la nube y se auditarán periódicamente.
 5. las subredes que contengan datos protegidos deben aislarse de las otras subredes. El tráfico de red entre subredes de datos protegidos se auditará periódicamente.

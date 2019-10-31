@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1a4a82893535228e84defc8918be6e5fa884ca16
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: c713af7557760d0bafeabf9d0cd0ef37a3885fe4
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967691"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547757"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Declaraciones de la directiva de ejemplo de aceleración de la implementación
 
@@ -43,7 +43,7 @@ Las siguientes declaraciones de la directiva de ejemplo abordan algunos riesgos 
 - Se identificarán medidas de diagnóstico y métricas clave para todos los sistemas de producción y los componentes, y se aplicarán herramientas de supervisión y diagnóstico a estos sistemas, que el personal de operaciones se encargará de supervisar regularmente.
 - El personal de operaciones considerará la opción de usar las herramientas de supervisión y diagnóstico en entornos que no sean de producción, como ensayo y control de calidad, a fin de identificar los problemas del sistema antes de que se produzcan en el entorno de producción.
 
-**Opciones de diseño posibles:** [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor), que también incluye Log Analytics y Application Insights, proporciona herramientas para recopilar y analizar datos de telemetría para ayudarle a comprender cómo funcionan las aplicaciones e identificar proactivamente los problemas que les afectan y los recursos de los que dependen. Además, [Azure Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) notifica todos los cambios que se realizan en el nivel de la plataforma y que se deben supervisar y auditar para detectar cambios no compatibles.
+**Opciones de diseño posibles:** [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor), que también incluye Log Analytics y Application Insights, proporciona herramientas para recopilar y analizar datos de telemetría para ayudarle a comprender cómo funcionan las aplicaciones e identificar proactivamente los problemas que les afectan y los recursos de los que dependen. Además, [Registro de actividad de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) notifica todos los cambios que se realizan en la plataforma y que se deben supervisar y auditar para detectar cambios no compatibles.
 
 ## <a name="configuration-security-reviews"></a>Revisiones de seguridad de configuración
 

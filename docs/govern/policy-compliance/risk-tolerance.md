@@ -8,12 +8,12 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 2b8bc595377b2748bd00f306659a46196115e91d
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 61f661a167b9a38a54a51dc9612a0b17df0bd0c3
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223547"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547174"
 ---
 # <a name="evaluate-risk-tolerance"></a>Evaluación de la tolerancia al riesgo
 
@@ -30,7 +30,7 @@ Los verdaderos riesgos empresariales se basan en los detalles de las transformac
 > [!IMPORTANT]
 > Antes de leer lo siguiente, tenga en cuenta que cada uno de estos riesgos se puede administrar. El objetivo de este artículo es informar y preparar a los lectores para mantener conversaciones más productivas sobre la administración de los riesgos.
 
-- **Vulneración de los datos.** El riesgo número uno asociado con cualquier transformación, es la protección de los datos. Las fugas de datos pueden provocar daños importantes en la empresa y, como consecuencia, provocar la pérdida de clientes, disminución del negocio o incluso responsabilidades legales. Los cambios en cómo se almacenan, procesan o usan los datos crea un riesgo. Las transformaciones a la nube suponen un gran cambio con respecto a la administración de los datos, por lo que el riesgo no debe tomarse a la ligera. [Base de referencia de la seguridad](../security-baseline/index.md), [Clasificación de los datos](./data-classification.md) y [Racionalización incremental](../../digital-estate/rationalize.md#incremental-rationalization) pueden ayudar a administrar este riesgo.
+- **Vulneración de datos:** El riesgo principal asociado a cualquier transformación es una vulneración de datos. Las fugas de datos pueden provocar daños importantes en la empresa y, como consecuencia, provocar la pérdida de clientes, disminución del negocio o incluso responsabilidades legales. Los cambios en cómo se almacenan, procesan o usan los datos crea un riesgo. Las transformaciones a la nube suponen un gran cambio con respecto a la administración de los datos, por lo que el riesgo no debe tomarse a la ligera. [Base de referencia de la seguridad](../security-baseline/index.md), [Clasificación de los datos](./data-classification.md) y [Racionalización incremental](../../digital-estate/rationalize.md#incremental-rationalization) pueden ayudar a administrar este riesgo.
 
 - **Interrupción del servicio.** Las operaciones empresariales y las experiencias de los clientes dependen en gran medida de las operaciones técnicas. Las transformaciones a la nube generarán cambios en las operaciones de TI. En algunas organizaciones, el cambio es pequeño y se ajusta fácilmente. En otras organizaciones, estos cambios podrían requerir nuevas herramientas, nuevos conocimientos o nuevos enfoques para admitir las operaciones en la nube. Cuanto mayor sea el cambio, mayor será el impacto potencial en las operaciones empresariales y en las experiencias de los clientes. Administrar este riesgo requerirá la participación de la empresa en el planeamiento de la transformación. El planeamiento de la versión y la selección de la primera carga de trabajo que se describen en el artículo de [racionalización incremental](../../digital-estate/rationalize.md#incremental-rationalization) describen maneras de elegir las cargas de trabajo para los proyectos de transformación. El rol de la empresa en esa actividad es comunicar el riesgo para las operaciones empresariales de cambiar las cargas de trabajo prioritarias. Ayudar al departamento de TI a elegir cargas de trabajo con un menor impacto en las operaciones reducirá el riesgo general.
 

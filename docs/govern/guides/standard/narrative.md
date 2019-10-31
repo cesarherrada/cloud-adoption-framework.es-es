@@ -9,22 +9,22 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: be679c1265907f2b4a6be86d82ce287dc94d4b70
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 8bf9b65c71defd57c319f46a83b5d4540967b012
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967470"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547446"
 ---
 # <a name="standard-enterprise-governance-guide-the-narrative-behind-the-governance-strategy"></a>Guía de gobernanza para empresas estándar: La narrativa detrás de la estrategia de gobernanza
 
-La narrativa siguiente describe un caso de uso de gobernanza durante el [recorrido de adopción de la nube de una empresa estándar](./index.md). Antes de implementar el recorrido, es importante comprender las suposiciones y los razonamientos que se reflejan en esta descripción. Solo entonces podrá alinear mejor la estrategia de gobernanza con el recorrido de su propia organización.
+La narrativa siguiente describe un caso de uso de gobernanza durante el [recorrido de adopción de la nube de una empresa estándar](./index.md). Antes de implementar el recorrido, es importante comprender las suposiciones y los razonamientos que se reflejan en esta descripción. Entonces podrá alinear mejor la estrategia de gobernanza con el recorrido de su propia organización.
 
-## <a name="back-story"></a>Historia retrospectiva
+## <a name="back-story"></a>Antecedentes
 
 La junta directiva comenzó el año con planes para dinamizar el negocio de varias maneras. Están impulsando el liderazgo para mejorar las experiencias de los clientes y ganar cuota de mercado. También están apostando por nuevos productos y servicios que posicionarán a la compañía como líder indiscutible del sector. Asimismo, iniciaron un esfuerzo paralelo para reducir los desperdicios y los costos innecesarios. Aunque pueden ser intimidantes, las acciones que la junta quiere llevar a cabo y su liderazgo muestran que el propósito de invertir la mayor cantidad de capital posible está enfocado a conseguir un crecimiento futuro.
 
-En el pasado, el Director de sistemas de información de la empresa había sido excluido de estas conversaciones estratégicas. Sin embargo, debido a que la visión de futuro está intrínsecamente vinculada al crecimiento técnico, el departamento de TI tiene un lugar en la mesa para aportar sus ideas en estos grandes planes. Así pues, se espera que el departamento de TI ofrezca nuevas formas de crecimiento. De todos modos, el equipo no está preparado para estos cambios y es probable que tenga problemas con la curva de aprendizaje.
+En el pasado, el director de sistemas de información de la empresa había sido excluido de estas conversaciones estratégicas. Sin embargo, debido a que la visión de futuro está intrínsecamente vinculada al crecimiento técnico, el departamento de TI tiene un lugar en la mesa para aportar sus ideas en estos grandes planes. Así pues, se espera que el departamento de TI ofrezca nuevas formas de crecimiento. De todos modos, el equipo no está preparado para estos cambios y es probable que tenga problemas con la curva de aprendizaje.
 
 ## <a name="business-characteristics"></a>Características empresariales
 

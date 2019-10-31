@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 4b9f6bcb8ce2732cda094e83b832c0e4c920c665
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 574fa1ede2d7ddeb0fe41f05c8519e9b16ba6c51
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024170"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058494"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>rehospedar una aplicación local en una máquina virtual de Azure e Instancia administrada de Azure SQL Database
 
@@ -588,7 +588,7 @@ El equipo de seguridad de Contoso revisa las máquinas virtuales de Azure e Inst
 
      ![Seguridad de Instancia administrada: detección de amenazas](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-security.png)
 
-Para más información sobre los procedimientos de seguridad para máquinas virtuales, consulte [Procedimientos de seguridad recomendados para cargas de trabajo de IaaS de Azure](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms).
+Para más información sobre los procedimientos de seguridad para máquinas virtuales, consulte [Procedimientos de seguridad recomendados para cargas de trabajo de IaaS de Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
 ### <a name="bcdr"></a>BCDR
 

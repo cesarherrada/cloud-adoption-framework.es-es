@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 1d4538230ae99fd7c22f53e2873645c9b112e46a
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: d0fff6d3c88d62ed3efc9f4cf2140981e8be331a
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224125"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547215"
 ---
 # <a name="rehost-an-on-premises-app-to-azure-vms"></a>Rehospedaje de una aplicación local en VM de Azure
 
@@ -35,7 +35,7 @@ El equipo directivo de TI ha trabajado estrechamente con sus socios comerciales 
 El equipo de la nube de Contoso ha marcado los objetivos de esta migración. Estos objetivos se usan para determinar el mejor método de migración:
 
 - Después de la migración, la aplicación de Azure debería tener las mismas funcionalidades de rendimiento que tiene actualmente en VMware. La aplicación seguirá siendo tan imprescindible en la nube como lo es en el entorno local.
-- Contoso no quiere hacer inversiones en esta aplicación. Es importante para la empresa, pero, en su formato actual, Contoso solo quiere moverla a la nube de modo seguro.
+- Contoso no quiere invertir en esta aplicación. Es importante para la empresa, pero, en su formato actual, Contoso solo quiere moverla a la nube de modo seguro.
 - Contoso no quiere cambiar el modelo de operaciones de esta aplicación. Lo que quiere es interactuar con ella en la nube de la misma manera que lo hace ahora.
 - Contoso no quiere cambiar la funcionalidad de la aplicación. Solo cambiará su ubicación.
 

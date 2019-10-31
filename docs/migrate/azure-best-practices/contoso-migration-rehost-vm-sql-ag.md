@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: fbcb06b671b13b48fe5063e5efd8ba72c3071667
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 3869103c257fa03806fe09b840ab41fd6365c152
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024327"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547227"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms-and-sql-server-always-on-availability-group"></a>Rehospedaje de una aplicación local en las VM de Azure y en el grupo de disponibilidad AlwaysOn de SQL Server
 
@@ -36,7 +36,7 @@ El equipo directivo de TI ha trabajado estrechamente con sus socios comerciales 
 El equipo de la nube de Contoso ha establecido los objetivos de esta migración. Estos objetivos se usaron para determinar el mejor método de migración:
 
 - Después de la migración, la aplicación de Azure debería tener las mismas funcionalidades de rendimiento que tiene actualmente en VMware. La aplicación seguirá siendo tan imprescindible en la nube como lo es en el entorno local.
-- Contoso no quiere hacer inversiones en esta aplicación. Es importante para la empresa, pero, en su estado actual, solo quiere moverla a la nube de modo seguro.
+- Contoso no quiere invertir en esta aplicación. Es importante para la empresa, pero, en su estado actual, solo quiere moverla a la nube de modo seguro.
 - La base de datos local de la aplicación ha tenido problemas de disponibilidad. Contoso querría implementarla en Azure como un clúster de alta disponibilidad con funcionalidades de conmutación por error.
 - Contoso quiere actualizar su plataforma actual de SQL Server 2008 R2 a SQL Server 2017.
 - Contoso no quiere usar Azure SQL Database para esta aplicación y está buscando alternativas.

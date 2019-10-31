@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 40bcd90d632bedd4e924942ac6efae5034cc0af8
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 216614c06f1638bf25149dac99f9bd258e9364aa
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221767"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548019"
 ---
 # <a name="understand-the-cloud-security-baseline"></a>Descripción de la línea de base de seguridad en la nube
 
@@ -40,7 +40,7 @@ Para las organizaciones de todo el mundo, ya sean gobiernos, organizaciones sin 
 
 Sin embargo, a medida que las organizaciones continúan sacando partido de los beneficios de los servicios en la nube, como el aumento de las opciones, la agilidad y la flexibilidad, y aumentan la eficiencia y reducen los costos de TI, deben considerar cómo afecta la introducción de los servicios en la nube a su postura relativa con la privacidad, la seguridad y el cumplimiento normativo. Microsoft ha trabajado para que sus ofertas de nube no sean solo escalables, confiables y fáciles de administrar, sino que también garanticen que los datos de nuestros clientes estén protegidos y se utilicen de forma transparente.
 
-La seguridad es un componente esencial de unas eficaces medidas de protección de los datos en todos los entornos informáticos en línea. Pero solo con la seguridad no basta. La disposición de los consumidores y las empresas a utilizar un producto de informática en la nube en particular también depende de su capacidad para confiar en que se protegerá la privacidad de su información y que sus datos solo se utilizarán de manera compatible con las expectativas del cliente. Obtenga más información sobre el enfoque de Microsoft en relación con la [protección de datos y privacidad en la nube](https://go.microsoft.com/fwlink/?LinkId=808242&clcid=0x409)
+La seguridad es un componente esencial de unas eficaces medidas de protección de los datos en todos los entornos informáticos en línea. Pero solo con la seguridad no basta. La disposición de los consumidores y las empresas a utilizar un producto de informática en la nube en particular también depende de su capacidad para confiar en que se protegerá la privacidad de su información y que sus datos solo se utilizarán de un modo acorde con las expectativas del cliente. Obtenga más información sobre el enfoque de Microsoft en relación con la [protección de datos y privacidad en la nube](https://go.microsoft.com/fwlink/?LinkId=808242&clcid=0x409)
 
 ## <a name="risk-mitigation"></a>Mitigación de riesgos
 

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1bf9497684c1043d23eec48b1ab5d5f1f12ef752
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 6bbd3ffe401a3e886ee1f91072a715002ab5e836
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70838002"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547244"
 ---
 # <a name="cloud-migration-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Migración a la nube en Microsoft Cloud Adoption Framework para Azure
 
@@ -28,7 +28,7 @@ La guía de esta sección de Cloud Adoption Framework está diseñada para dos f
 
 Este contenido está diseñado para el equipo de adopción de la nube. También es adecuado para los arquitectos de nube que necesitan desarrollar una base sólida en la migración a la nube.
 
-## <a name="intended-audience"></a>Audiencia objetivo
+## <a name="intended-audience"></a>Destinatarios
 
 Las instrucciones de Cloud Adoption Framework afectan al negocio, a la tecnología y a la cultura de las empresas. Esta sección afecta significativamente a los propietarios de aplicaciones, al personal de administración de cambios (como PMO y el personal de administración ágil) y a los directivos de las líneas de negocio, y al equipo de adopción de la nube. Existen varias dependencias entre estas personas que requerirán facilitación por parte de los arquitectos de la nube que usen esta guía. La facilitación con estos equipos puede ser un esfuerzo puntual, pero en algunos casos, dará como resultado interacciones recurrentes con estas otras personas.
 

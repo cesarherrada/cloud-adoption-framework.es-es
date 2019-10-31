@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 01d41b3b1486ea563ab1c0b100559e80ad3a03f6
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 5eabc654c174ac3eff895e6b2ff94700789f5de5
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022674"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549163"
 ---
 # <a name="understand-partnership-options"></a>Descripción de las opciones de colaboración
 
@@ -33,7 +33,7 @@ Durante el plan, la compilación o la migración, una empresa generalmente tiene
 Si una organización planea realizar una migración a Azure por sí misma, Microsoft siempre está ahí para ayudarle durante el recorrido. Para ayudar a realizar una migración acelerada a Azure, Microsoft y sus asociados han desarrollado un amplio conjunto de arquitecturas, guías, herramientas y servicios con el fin de disminuir el riesgo y acelerar la migración de máquinas virtuales, aplicaciones y bases de datos. Estas herramientas y servicios admiten una amplia selección de sistemas operativos, lenguajes de programación, marcos y bases de datos.
 
 - **Herramientas de evaluación y migración.** Azure proporciona una amplia variedad de herramientas que se pueden usar en distintas fases para la transformación en la nube, incluida la evaluación de la infraestructura existente. Para más información, consulte la sección "Evaluación" en el capítulo "Migración" que aparece a continuación.
-- **[Plataforma de adopción de la nube de Microsoft](../../index.md).** Esta plataforma presenta un enfoque estructurado para la adopción y la migración a la nube. Se basa en prácticas probadas en muchas de las interacciones con los clientes compatibles con Microsoft y se organiza como una serie de pasos, desde la arquitectura y el diseño hasta la implementación. Para cada paso, hay instrucciones auxiliares que lo ayudarán con el diseño de la arquitectura de la aplicación.
+- **[Plataforma de adopción de la nube de Microsoft](../../index.md).** Esta plataforma presenta un enfoque estructurado para la adopción y la migración a la nube. Se basa en los procedimientos recomendados en muchas de las interacciones con los clientes compatibles con Microsoft y se organiza como una serie de pasos, desde la arquitectura y el diseño hasta la implementación. Para cada paso, hay instrucciones auxiliares que lo ayudarán con el diseño de la arquitectura de la aplicación.
 - **[Patrones de diseño en la nube](https://docs.microsoft.com/azure/architecture/patterns).** Azure proporciona algunos patrones útiles de diseño en la nube para crear cargas de trabajo confiables, escalables y seguras en la nube. Cada patrón describe el problema al que hace frente, las consideraciones sobre su aplicación y un ejemplo basado en Azure. La mayoría incluye ejemplos de código o fragmentos de código que muestran cómo implementar el patrón en Azure. Sin embargo, son importantes para todos los sistemas distribuidos, tanto si se hospedan en Azure como en otras plataformas en la nube.
 - **[Aspectos básicos de la nube](https://docs.microsoft.com/azure/architecture/guide).** Estos ayudan a enseñar los enfoques básicos para la implementación de los conceptos básicos. Esta guía ayuda a los técnicos a pensar en soluciones que van más allá de un único servicio de Azure.
 - **[Escenarios de ejemplo](https://docs.microsoft.com/azure/architecture/example-scenario).** En esta guía se proporcionan referencias de implementaciones de clientes reales, donde se describen las herramientas, los enfoques y los procesos que los clientes han seguido para lograr objetivos empresariales específicos.

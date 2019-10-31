@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: fbb1e57d1073286d9b92db96dbf923eb28612f49
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 1e8b42170a4db025087acdabba14544cea9c8194
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224085"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548124"
 ---
 # <a name="scale-a-migration-to-azure"></a>Escalado de una migración en Azure
 
@@ -260,7 +260,7 @@ Contoso necesita averiguar cómo implementar estos componentes, en función de l
 
 **Componente** | **Requisitos de capacidad**
 --- | ---
-**Frecuencia de cambio de datos diaria máx.** | Un servidor de un solo proceso puede administrar una frecuencia de cambio diaria de hasta 2 TB. Puesto que una máquina virtual solo puede usar un servidor de procesos, la frecuencia de cambio de datos diaria máxima que se admite para una máquina virtual replicada es de 2 TB.
+**Frecuencia de cambio de datos diaria máx.** | Un servidor de un solo proceso puede administrar una tasa de cambio diaria de hasta 2 TB. Puesto que una máquina virtual solo puede usar un servidor de procesos, la frecuencia de cambio de datos diaria máxima que se admite para una máquina virtual replicada es de 2 TB.
 **Rendimiento máximo** | Una cuenta de almacenamiento de Azure estándar puede controlar un máximo de 20 000 solicitudes por segundo y las operaciones de entrada/salida por segundo (IOPS) en una máquina virtual de replicación no deben superar este límite. Por ejemplo, si una máquina virtual tiene 5 discos y cada disco genera 120 E/S por segundo (8 K de tamaño) en la máquina virtual, se encontrará dentro del límite de 500 de Azure por E/S por segundo por disco.<br/><br/> Tenga en cuenta que el número de cuentas de almacenamiento necesario es igual al IOPS de máquina de origen total dividido por 20 000. Una máquina replicada solo puede pertenecer a una cuenta de almacenamiento en Azure.
 **Servidor de configuración** | Según la estimación de Contoso de replicar 100-200 máquinas virtuales a la vez, y los [requisitos de configuración del tamaño de servidor](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#size-recommendations-for-the-configuration-server-and-inbuilt-process-server), Contoso calcula que necesita una máquina de servidor de configuración con las siguientes especificaciones:<br/><br/> CPU: 16 vCPUs (2 sockets * 8 núcleos @ 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> Además de los requisitos de tamaño, Contoso deberá asegurarse de que el servidor de configuración está ubicado de forma óptima, en la misma red y segmento LAN que las máquinas virtuales que se van a migrar.
 **Servidor de proceso** | Contoso implementará un servidor de procesos dedicado e independiente con capacidad para replicar entre 100 y 200 máquinas virtuales:<br/><br/> CPU: 16 vCPUs (2 sockets * 8 núcleos @ 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> El servidor de procesos trabajará duro y como tal debe estar ubicado en un host ESXi que pueda manejar la E/S del disco, el tráfico de red y la CPU requeridos para la replicación. Contoso se planteará la posibilidad de contar con un host dedicado para este fin.

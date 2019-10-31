@@ -8,12 +8,12 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 42981c9d3e8a87579033fbd0bd01c912d79c937f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 4adf229b1ffca1d1360d197ab09a04f0d9584ef8
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024394"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547922"
 ---
 # <a name="mainframe-myths-and-facts"></a>Mitos y verdades del sistema central
 

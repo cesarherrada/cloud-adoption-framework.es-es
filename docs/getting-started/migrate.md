@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Introducción al recorrido de migración a la nube
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2019
+ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: fb521115d0a59af123bd78fdc2f4cc7c72939fb6
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: af93f71b1e4e9eb3249720fd14c88482a8402789
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378007"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547830"
 ---
 # <a name="getting-started-with-a-cloud-migration-journey"></a>Introducción al recorrido de migración a la nube
 
@@ -76,7 +76,7 @@ La estrategia y el planeamiento de la nube es una metodología que se centra en 
 
 ### <a name="methodology-explained"></a>Metodología explicada
 
-La metodología de estrategia y planeamiento de la nube de Cloud Adoption Framework se basa en un enfoque incremental sobre la implementación en la nube que se alinea con estrategias tecnológicas ágiles, la madurez cultural basada en enfoques de mentalidad del crecimiento y estrategias impulsadas por los resultados empresariales. Esta metodología consta de los siguientes componentes generales que guían la implementación de cada estrategia.
+La metodología de estrategia y planeamiento de la nube de Cloud Adoption Framework se basa en un enfoque incremental sobre la implementación de la nube que se alinea con estrategias tecnológicas ágiles, enfoques con mentalidad de crecimiento basadas en una madurez cultural y estrategias impulsadas por los resultados empresariales. Esta metodología consta de los siguientes componentes generales que guían la implementación de cada estrategia.
 
 Como se ilustra en la imagen de arriba, este marco alinea las decisiones estratégicas con un pequeño número de procesos contenidos, que operan dentro de un modelo iterativo. Aunque se describen en un documento lineal, se espera que cada uno de los siguientes procesos se desarrolle en paralelo con las iteraciones de la implementación en la nube. Los vínculos de cada proceso ayudarán a definir el estado final deseado y los medios para llegar a él:
 
@@ -84,10 +84,10 @@ Como se ilustra en la imagen de arriba, este marco alinea las decisiones estrat�
 - **[Listo](../ready/index.md):** preparar la empresa, la cultura, la gente y el entorno para los cambios venideros conduce al éxito de cada trabajo y acelera los proyectos de implementación y cambio.
 - **Adopción:** garantizar la correcta implementación de los cambios deseados, en los procesos empresariales y de TI, para lograr los resultados empresariales.
   - **[Migración](../migrate/index.md):** ejecución iterativa de la [metodología de implementación en la nube](#cloud-implementation) que se adhiere al proceso probado de evaluar, migrar, optimizar, proteger y administrar a fin de crear un proceso repetible para la migración de las cargas de trabajo.
-- **[Operaciones](../operate/index.md):** defina un modelo operativo administrable para guiar las actividades durante y después de la adopción.
-  - **[Organizar](../organize/index.md):** alinear a personas y equipos para que las operaciones y la adopción de la nube se lleven a cabo de manera adecuada.
-  - **[Control](../govern/index.md):** alinear las directivas corporativas con los riesgos tangibles, que se pueden mitigar mediante directivas, procesos y herramientas de gobernanza basadas en la nube.
-  - **[Administrar](../manage/index.md):** expandir las operaciones de TI para garantizar que las soluciones basadas en la nube pueden funcionar mediante procesos seguros y rentables por medio de modernas herramientas de operaciones que tienen como prioridad la nube.
+  - **[Innovación](../innovate/index.md):** impulsar el valor empresarial mediante actividades de innovación que desbloqueen las nuevas habilidades técnicas y amplíen las funcionalidades empresariales.
+- **[Control](../govern/index.md):** alinear las directivas corporativas con los riesgos tangibles, que se pueden mitigar mediante directivas, procesos y herramientas de gobernanza basadas en la nube.
+- **[Administrar](../manage/index.md):** expandir las operaciones de TI para garantizar que las soluciones basadas en la nube pueden funcionar mediante procesos seguros y rentables por medio de modernas herramientas de operaciones que tienen como prioridad la nube.
+- **[Organizar](../organize/index.md):** alinear a personas y equipos para que las operaciones y la adopción de la nube se lleven a cabo de manera adecuada.
 
 A lo largo de esta experiencia de migración, este marco se usará para abordar la ambigüedad, administrar el cambio y guiar a los equipos multifuncionales hasta la consecución de los resultados empresariales.
 
@@ -134,12 +134,18 @@ Las tecnologías migradas a la nube se expanden constantemente a medida que los 
 Cloud Adoption Framework es una solución de ciclo de vida. Está diseñada para ayudar a los lectores que acaban de empezar su recorrido, pero también a aquellos que quieren profundizar en su migración. Como tal, el contenido es muy específico del contexto y del público. Los pasos siguientes se alinean mejor con el proceso general que al lector le gustaría mejorar a continuación.
 
 > [!div class="nextstepaction"]
+> [Estrategia](../strategy/index.md)
+>
 > [Plan](../plan/index.md)
 >
 > [Listo](../ready/index.md)
 >
 > [Migrar](../migrate/index.md)
 >
-> [Administración](../manage/index.md)
+> [Innovación](../innovate/index.md)
 >
 > [Gobernanza](../govern/index.md):
+>
+> [Administración](../manage/index.md)
+>
+> [Organización](../organize/index.md)

@@ -8,16 +8,16 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 89c3e17dcc1a76e46eabb0155b9dc9bee7c7ea93
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: dda348b5e0707a949df0171d718b8615918d9dff
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032014"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548651"
 ---
 # <a name="examples-of-global-reach-outcomes"></a>Ejemplos de resultados de alcance global
 
-Como ya se ha tratado en los [resultados empresariales](./index.md), varios posibles resultados empresariales pueden servir como base en las conversaciones con la empresa acerca del recorrido de transformación. Este artículo se centra en una medida empresarial común: el alcance. Comprender la estrategia de globalización de la empresa le ayudará a articular mejor los resultados empresariales que son el objetivo del recorrido de transformación de una empresa.
+Como ya se ha tratado en los [resultados empresariales](./index.md), varios posibles resultados empresariales pueden servir como base en las conversaciones con la empresa acerca del recorrido de transformación. Este artículo se centra en una medida empresarial común: el alcance. Conocer la estrategia de globalización de la empresa le ayudará a articular mejor los resultados empresariales que son el objetivo del recorrido de transformación de una empresa.
 
 En las empresas de la lista Fortune 500 y en empresas más pequeñas, la globalización de los servicios y la base de clientes ha sido el centro de atención durante más de tres décadas. A medida que el mundo se reduce, es cada vez más probable que una empresa participe en el comercio mundial. Admitir operaciones globales resulta desafiante y costoso. El hospedaje de centros de datos en todo el mundo puede llegar a consumir más del 80 % del presupuesto anual de TI. Por sí mismas, las redes de área extensa que usan líneas privadas para conectarse esos centros de datos pueden costar millones de dólares al año.
 

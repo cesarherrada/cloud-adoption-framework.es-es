@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos'
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 09/19/2019
+ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9875fb2ebc6948d22ac6eaf350f9784b61fd4dc3
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 66b1d5e414ecf7b1512cb408947bc519e460c471
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223811"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683540"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-resource-consistency-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos
 
@@ -41,7 +41,7 @@ Los equipos de la adopción de la nube han cumplido todos los requisitos para mo
 
 Este riesgo empresarial puede ampliarse a algunos riesgos técnicos:
 
-1. Los procesos operativos mal alineados podrían provocar interrupciones que no se detectan ni mitigan rápidamente.
+1. Los procesos operativos mal alineados podrían provocar interrupciones que no se pueden detectar ni mitigar rápidamente.
 2. Intrusiones externas o ataques por denegación de servicio podrían provocar una interrupción del negocio.
 3. Los recursos críticos podrían no detectarse adecuadamente y, por lo tanto, podrían pasarse por alto.
 4. Los recursos desconocidos o mal etiquetados podrían no ser compatibles con los procesos de administración operativa existentes.

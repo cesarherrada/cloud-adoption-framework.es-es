@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5e269e623f22fa976f85c75c130ef0b19e4e9620
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 20dc2136f997f69cafbbff241994de90e942c7db
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967534"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547546"
 ---
 # <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza
 
@@ -44,4 +44,4 @@ La tolerancia al riesgo actual es alta y el apetito por invertir en la gobernanz
 Esta directiva corporativa prepara el equipo de gobernanza de la nube para implementar el producto viable mínimo de gobernanza, que será la base para la adopción. El siguiente paso es implementar dicho producto mínimo viable.
 
 > [!div class="nextstepaction"]
-> [Guías prescriptivas explicadas](./prescriptive-guidance.md)
+> [Explicación de los procedimientos recomendados](./prescriptive-guidance.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: c94ad845571c5007f14773268d383764cdc89a6c
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 0118fcf3ca5b724a90d5e68482bfe6fe1a7e6abb
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025047"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548206"
 ---
 # <a name="refactor-an-on-premises-app-to-an-azure-app-service-web-app-and-azure-sql-database"></a>Refactorización de una aplicación local a una aplicación web de Azure App Service y a una base de datos de Azure SQL
 
@@ -78,7 +78,7 @@ Contoso evalúa el diseño propuesto creando una lista de ventajas y desventajas
 **Consideración** | **Detalles**
 --- | ---
 **Ventajas** | No será necesario modificar el código de la aplicación SmartHotel360 para la migración a Azure.<br/><br/> Contoso puede aprovechar su inversión en Software Assurance con la Ventaja híbrida de Azure para SQL Server y Windows Server.<br/><br/> Después de la migración, ya no será necesaria la compatibilidad con Windows Server 2008 R2. [Más información](https://support.microsoft.com/lifecycle).<br/><br/> Puede configurar la capa web de la aplicación con varias instancias, para que no haya un único punto de error.<br/><br/> La base de datos ya no dependerá de la antigüedad de SQL Server 2008 R2.<br/><br/> SQL Database es compatible con los requisitos técnicos. Contoso evaluó la base de datos local con Data Migration Assistant y averiguó que es compatible.<br/><br/> Azure SQL Database cuenta con tolerancia a errores integrada que no es necesario que Contoso configure. Esto garantiza que la capa de datos ya no sea un único punto de conmutación por error.
-**Desventajas** | Azure App Service solo admite la implementación de una aplicación por cada aplicación web. Esto significa que deben aprovisionarse dos aplicaciones web (una para el sitio web y otra para el servicio WCF).<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar la base de datos, no tendrán la infraestructura preparada para migrar bases de datos a escala. Contoso deberá compilar otra región para garantizar la conmutación por error si la región principal no está disponible.
+**Desventajas** | Azure App Service solo admite la implementación de una aplicación por cada aplicación web. Esto significa que deben aprovisionarse dos aplicaciones web (una para el sitio web y otra para el servicio WCF).<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar su base de datos, no tendrá la infraestructura preparada para migrar bases de datos a escala. Contoso deberá compilar otra región para garantizar la conmutación por error si la región principal no está disponible.
 
 <!-- markdownlint-enable MD033 -->
 

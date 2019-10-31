@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 22dc2f69f1b7e1541a9556fc8b8802cbb2d5e878
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 0efdd1a42ae7ff161c29f37365d0a14d4d869496
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024467"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547367"
 ---
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Rediseño de la arquitectura de una aplicación local en un contenedor de Azure y Azure SQL Database
 
@@ -82,7 +82,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 **Consideración** | **Detalles**
 --- | ---
 **Ventajas** | No será necesario modificar el código de la aplicación SmartHotel360 para la migración a Azure Service Fabric. Sin embargo, el esfuerzo es mínimo, si se usa SDK Tools de Service Fabric para los cambios.<br/><br/> Con el paso a Service Fabric, Contoso puede empezar a desarrollar microservicios para agregarlos a la aplicación rápidamente a lo largo del tiempo, sin riesgo para el código base original.<br/><br/> Los contenedores de Windows ofrecen las mismas ventajas que los contenedores en general. Mejoran la agilidad, la portabilidad y el control.<br/><br/> Contoso puede aprovechar su inversión en Software Assurance con la Ventaja híbrida de Azure para SQL Server y Windows Server.<br/><br/> Después de la migración ya no necesitarán la compatibilidad con Windows Server 2008 R2. [Más información](https://support.microsoft.com/lifecycle).<br/><br/> Puede configurar la capa web de la aplicación con varias instancias, para que no haya un único punto de error.<br/><br/> Ya no se dependerá de la antigüedad de SQL Server 2008 R2.<br/><br/> SQL Database es compatible con los requisitos técnicos de Contoso. Los administradores de Contoso evaluaron la base de datos local con Data Migration Assistant y descubrieron que es compatible.<br/><br/> SQL Database cuenta con tolerancia a errores integrada que no es necesario que Contoso configure. Esto garantiza que la capa de datos ya no sea un único punto de conmutación por error.
-**Desventajas** | Los contenedores son más complejos que otras opciones de migración. La curva de aprendizaje de los contenedores podría ser un problema para Contoso. Introducen un nuevo nivel de complejidad que proporciona un gran valor a pesar de la curva.<br/><br/> El equipo de operaciones de Contoso deberá esforzarse para comprender y ofrecer soporte técnico de Azure, los contenedores y los microservicios de la aplicación.<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar la base de datos, no tendrán la infraestructura preparada para migrar bases de datos a escala.
+**Desventajas** | Los contenedores son más complejos que otras opciones de migración. La curva de aprendizaje de los contenedores podría ser un problema para Contoso. Introducen un nuevo nivel de complejidad que proporciona un gran valor a pesar de la curva.<br/><br/> El equipo de operaciones de Contoso deberá esforzarse para comprender y ofrecer soporte técnico de Azure, los contenedores y los microservicios de la aplicación.<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar la base de datos, no tendrá la infraestructura preparada para migrar bases de datos a escala.
 
 <!-- markdownlint-enable MD033 -->
 

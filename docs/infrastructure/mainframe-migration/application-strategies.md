@@ -8,12 +8,12 @@ ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 47460a4099011cd96a75af9e8f99e3a6cccabb0c
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ba2d68a2b382ccccf0d124a57d33d1344476c3dc
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024411"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547949"
 ---
 # <a name="mainframe-application-migration"></a>Migración de aplicaciones del sistema central
 
@@ -63,7 +63,7 @@ Hay disponibles monitores de procesamiento de transacciones de varios proveedore
 
 ![Migración mediante "lift-and-shift" de un entorno de sistema central a Azure con software de emulación](../../_images/mainframe-migration/mainframe-vs-azure.png)
 
-En Azure, se usan entornos de emulación para ejecutar el administrador de TP y los trabajos por lotes que usan JCL. En la capa de datos, DB2 se reemplaza por [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview), aunque también se puede usar Microsoft SQL Server, DB2 LUW u Oracle Database. Un emulador admite IMS, VSAM y SEQ. Las herramientas de administración del sistema central se reemplazan por los servicios de Azure, y software de otros proveedores, que se ejecutan en máquinas virtuales.
+En Azure, se usan entornos de emulación para ejecutar el administrador de TP y los trabajos por lotes que usan JCL. En la capa de datos, DB2 se reemplaza por [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview), aunque también se puede usar Microsoft SQL Server, DB2 LUW u Oracle Database. Un emulador admite IMS, VSAM y SEQ. Las herramientas de administración del sistema central se reemplazan por los servicios de Azure y software de otros proveedores que se ejecutan en máquinas virtuales.
 
 La funcionalidad de entrada de formularios y tratamiento de la pantalla normalmente se implementa mediante servidores web, que se pueden combinar con API de base de datos tales como ADO, ODBC y JDBC para el acceso a los datos y las transacciones. La gama exacta de componentes de IaaS de Azure que usará dependerá del sistema operativo que prefiera. Por ejemplo:
 
