@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7542fafccd5b1ef4c5e944db8c14322c76772ed4
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: be75f4315d90c09c277846f8608ca0552f1d9853
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683561"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058698"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 
@@ -39,7 +39,7 @@ En el siguiente diagrama se muestra la jerarquía de MVP de gobernanza para orga
 
 Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía de grupos de recursos, suscripción y grupos de administración. Durante el planeamiento de la implementación, el equipo de gobernanza en la nube creará los nodos necesarios en la jerarquía para capacitar a los equipos de adopción de la nube.
 
-1. Defina un grupo de administración para cada unidad de negocio con una jerarquía detallada que refleje la zona geográfica y, después, el tipo de entorno (por ejemplo, Producción o No producción).
+1. Defina un grupo de administración para cada unidad de negocio con una jerarquía detallada que refleje la zona geográfica y, después, el tipo de entorno (por ejemplo, los entornos de producción o de preproducción).
 2. Cree una suscripción de producción y otra de no producción para cada combinación única de unidad de negocio o zona geográfica discreta. Se debe tener cuidado si se crean varias suscripciones. Consulte [aquí](../../../decision-guides/subscriptions/index.md) para más información.
 3. Aplique una [nomenclatura coherente](../../../ready/considerations/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
 4. Los grupos de recursos se deben implementar de forma que se tenga en cuenta el ciclo de vida de su contenido: todo lo que se desarrolla conjuntamente, se administra conjuntamente y se retira conjuntamente. Para más información sobre los procedimientos recomendados de los grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).

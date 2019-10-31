@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 000d1aba1ec496e7b6583c84351e2d6ca29b3e1f
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: a6ee53355313a0f0c277d7b1c69e77494cdf8e1c
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683517"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058719"
 ---
 # <a name="subscription-decision-guide"></a>Guía de decisiones de suscripción
 
@@ -26,7 +26,7 @@ A medida que crece su patrimonio digital en Azure, es probable que necesite crea
 
 Estos son algunos ejemplos básicos del uso de grupos de administración para separar diferentes cargas de trabajo:
 
-- **Producción frente a no producción:** Algunas empresas crean grupos de administración para separar las suscripciones de producción y las que no son de producción. Los grupos de administración permiten a estos clientes administrar roles y directivas más fácilmente. Por ejemplo, una suscripción que no es de producción puede otorgar a los desarrolladores acceso de **colaborador**, pero en producción solo tienen acceso de **lector**.
+- **Cargas de trabajo de producción y de no producción:** Algunas empresas crean grupos de administración para separar las suscripciones de producción y las que no son de producción. Los grupos de administración permiten a estos clientes administrar roles y directivas más fácilmente. Por ejemplo, una suscripción que no es de producción puede otorgar a los desarrolladores acceso de **colaborador**, pero en producción solo tienen acceso de **lector**.
 - **Servicios internos frente a servicios externos:** Al igual que sucede con las cargas de trabajo de producción en comparación con las que no son de producción, las empresas suelen tener requisitos, directivas y roles distintos para los servicios internos en comparación con los externos, orientados al cliente.
 
 Esta guía de decisiones le ayuda a tener en cuenta diferentes métodos para organizar la jerarquía del grupo de administración.

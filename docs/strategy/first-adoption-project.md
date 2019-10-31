@@ -49,7 +49,7 @@ Para respaldar los criterios anteriores, esta lista proporciona un ejemplo de un
 
 - **Eventos empresariales críticos:** cuando un evento empresarial crítico es la motivación principal, la implementación de una herramienta como [Azure Site Recovery](../migrate/azure-migration-guide/migrate.md?tabs=Tools#azure-site-recovery) podría ser un buen primer proyecto. Durante la migración, puede usar esta herramienta para migrar rápidamente recursos de centros de datos. Sin embargo, durante el primer proyecto, podría usarla exclusivamente como herramienta de recuperación ante desastres, lo que reduce las dependencias de recursos de recuperación ante desastres en el centro de datos.
 
-- **Motivaciones de migración:** cuando la migración es la motivación principal, es aconsejable empezar con la migración de una carga de trabajo no crítica. En la [guía de configuración de Azure[ y la ](../migrate/azure-migration-guide/index.md)guía de migración a Azure](../ready/azure-setup-guide/index.md) se proporcionan instrucciones para la migración de la primera carga de trabajo.
+- **Motivaciones de migración:** cuando la migración es la motivación principal, es aconsejable empezar con la migración de una carga de trabajo no crítica. En la [guía de configuración de Azure](../ready/azure-setup-guide/index.md) y la [guía de migración a Azure](../migrate/azure-migration-guide/index.md) se proporcionan instrucciones para la migración de la primera carga de trabajo.
 
 - **Motivaciones de innovación:** cuando la innovación es la motivación principal, la creación de un entorno de desarrollo y pruebas de destino puede ser un excelente primer proyecto.
 
