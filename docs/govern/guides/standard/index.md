@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ea7d9c51ced367734b28fd550ec1caa69ffe1f27
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 1f0db9ecd49973c769d74a5357e56406e3bce3cf
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058684"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239697"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Guía de gobernanza para empresas estándar
 
@@ -41,7 +41,7 @@ Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía
 
 1. Un grupo de administración para cada tipo de entorno (por ejemplo, producción, desarrollo y pruebas).
 2. Dos suscripciones, una para cargas de trabajo de producción y otra para cargas de trabajo que no sean de producción.
-3. Debe aplicarse una [nomenclatura coherente](../../../ready/considerations/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
+3. Debe aplicarse una [nomenclatura coherente](../../../ready/azure-best-practices/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
 4. Los grupos de recursos se deben implementar de forma que se tenga en cuenta el ciclo de vida de su contenido: todo lo que se desarrolla conjuntamente, se administra conjuntamente y se retira conjuntamente. Para más información sobre los procedimientos recomendados de los grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
 5. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
 

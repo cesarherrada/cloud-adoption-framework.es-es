@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ef226d55d6b16c69b35c57734de25efec6abaa00
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 77fe8ba38b2ebf79ddceeb9fe2df940e8e333cc6
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378034"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238843"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Guía de decisiones de nomenclatura y etiquetado de recursos
 
@@ -40,7 +40,7 @@ Los esquemas de etiquetado que incluyen un foco alineado con el negocio, como la
 
 Una convención de nomenclatura estandarizada es el punto de partida para organizar los recursos hospedados en la nube. Un sistema de nomenclatura estructurado correctamente permite identificar con rapidez los recursos para la administración y la contabilidad. Si existen convenciones de nomenclatura de TI en otras partes de la organización, considere si las convenciones de nomenclatura en la nube deben alinearse con ellas o si debe establecer estándares basados en la nube independientes.
 
-Tenga en cuenta también que los diferentes tipos de recursos de Azure tienen diferentes [requisitos de nomenclatura](../../ready/considerations/naming-and-tagging.md). Las convenciones de nomenclatura deben ser compatibles con estos requisitos de nomenclatura.
+Tenga en cuenta también que los diferentes tipos de recursos de Azure tienen diferentes [requisitos de nomenclatura](../../ready/azure-best-practices/naming-and-tagging.md). Las convenciones de nomenclatura deben ser compatibles con estos requisitos de nomenclatura.
 
 ## <a name="resource-tagging-patterns"></a>Patrones de etiquetado de recursos
 

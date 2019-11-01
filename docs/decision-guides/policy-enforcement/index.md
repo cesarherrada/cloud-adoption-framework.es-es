@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 5dba9732220d5219b7d58a60ba93aec68792a24f
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 10af3ade249bcc115d5b273b2610c093e48bf9a2
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547865"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238867"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Guía de decisiones sobre el cumplimiento de directivas
 
@@ -57,7 +57,7 @@ En Azure, también puede aplicar opciones de configuración y reglas de creació
 
 A medida que crece su entorno en la nube y este abarca muchas suscripciones que requieren cumplimiento, deberá centrarse en una estrategia de cumplimiento que abarque a todo el entorno para garantizar la coherencia de las directivas.
 
-El [diseño de las suscripciones](../subscriptions/index.md) deberá tener en cuenta la directiva en lo referente a la estructura organizativa. Además de ayudar a admitir una organización compleja dentro del diseño de suscripciones, los [grupos de administración de Azure](../../ready/considerations/scaling-subscriptions.md#managing-multiple-subscriptions) se pueden usar para asignar reglas de Azure Policy en varias suscripciones.
+El [diseño de las suscripciones](../subscriptions/index.md) deberá tener en cuenta la directiva en lo referente a la estructura organizativa. Además de ayudar a admitir una organización compleja dentro del diseño de suscripciones, los [grupos de administración de Azure](../../ready/azure-best-practices/scaling-subscriptions.md#managing-multiple-subscriptions) se pueden usar para asignar reglas de Azure Policy en varias suscripciones.
 
 ## <a name="automated-enforcement"></a>Cumplimiento automatizado
 

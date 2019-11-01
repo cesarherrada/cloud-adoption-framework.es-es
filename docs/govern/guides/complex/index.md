@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: be75f4315d90c09c277846f8608ca0552f1d9853
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: c2e7d5a3b442e6094ccc08fefbadab6102b09fcc
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058698"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239730"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 
@@ -41,7 +41,7 @@ Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía
 
 1. Defina un grupo de administración para cada unidad de negocio con una jerarquía detallada que refleje la zona geográfica y, después, el tipo de entorno (por ejemplo, los entornos de producción o de preproducción).
 2. Cree una suscripción de producción y otra de no producción para cada combinación única de unidad de negocio o zona geográfica discreta. Se debe tener cuidado si se crean varias suscripciones. Consulte [aquí](../../../decision-guides/subscriptions/index.md) para más información.
-3. Aplique una [nomenclatura coherente](../../../ready/considerations/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
+3. Aplique una [nomenclatura coherente](../../../ready/azure-best-practices/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
 4. Los grupos de recursos se deben implementar de forma que se tenga en cuenta el ciclo de vida de su contenido: todo lo que se desarrolla conjuntamente, se administra conjuntamente y se retira conjuntamente. Para más información sobre los procedimientos recomendados de los grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
 5. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
 
