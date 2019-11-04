@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 15c4be90354e30333384023e67090ef6103464e2
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 8087c67d07a17475e49d70a2b70b78d8af20460a
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548469"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240280"
 ---
 # <a name="cloud-adoption-framework-migration-model"></a>Modelo de migración de Cloud Adoption Framework
 
@@ -34,7 +34,7 @@ Es importante tener una visión aproximada del estado final antes de iniciar los
 
 ![Infografía de las opciones de migración](../../_images/migrate/migration-options.png)
 
-La migración y la modernización de las cargas de trabajo van desde simples migraciones de *rehospedaje* ("lift and shift") mediante las funcionalidades de infraestructura como servicio (IaaS) que no requieren cambios de código y aplicaciones, pasando por la *refactorización* con cambios mínimos, a *rediseño* para modificar y ampliar la funcionalidad de código y aplicaciones para aprovechar las tecnologías de la nube.
+La migración y modernización de las cargas de trabajo van desde simples migraciones de _rehospedaje_ (también llamado _lift and shift_) mediante las funcionalidades de infraestructura como servicio (IaaS) que no requieren cambios de código y aplicaciones, pasando por la _refactorización_ con cambios mínimos al _rediseño_ para modificar y ampliar la funcionalidad de código y aplicaciones para aprovechar las tecnologías de la nube.
 
 Las estrategias nativas de la nube y las estrategias de plataforma como servicio (PaaS) *recompilan* cargas de trabajo locales mediante ofertas de la plataforma Azure y servicios administrados. Las cargas de trabajo que tienen ofertas equivalentes de software como servicio (SaaS) totalmente administrado basadas en la nube pueden *reemplazarse* totalmente por estos servicios como parte del proceso de migración.
 

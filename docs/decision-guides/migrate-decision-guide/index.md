@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: cdfa8ffe64ac7af6d545f9706f8f0652a4d583c4
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: f493f53d2cc316a0e4ff7ae75211c5e41bc9d8a8
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047719"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238833"
 ---
 # <a name="migration-tools-decision-guide"></a>Guía para la toma de decisiones de las herramientas de migración
 
@@ -42,5 +42,5 @@ En consonancia con el énfasis que hace Cloud Adoption Frameworks en los esfuerz
 
 - **[Aspectos básicos de la nube: introducción a las opciones de proceso de Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/compute-overview).** Proporciona información acerca de las funcionalidades de las opciones de proceso de Azure IaaS y PaaS.
 - **[Aspectos básicos de la nube: Elija el almacén de datos apropiado](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview).** Describe las opciones de almacenamiento de PaaS disponibles en la plataforma Azure.
-- **[Migración de ámbito ampliado: Los requisitos de almacenamiento superan la capacidad de la red durante un esfuerzo de migración](../../migrate/expanded-scope/network-capacity-exceeded.md).** Describe mecanismos de migración de datos alternativos para escenarios en los que migración de datos se ve dificultada por el ancho de banda de red disponible.
+- **[Migración de ámbito ampliado: Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración](../../migrate/expanded-scope/network-capacity-exceeded.md).** Describe mecanismos de migración de datos alternativos para escenarios en los que migración de datos se ve dificultada por el ancho de banda de red disponible.
 - **[SQL Database: Elija la opción de SQL Server correcta en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas#business-motivations-for-choosing-databases-managed-instances-or-sql-virtual-machines).** Explicación de las opciones y las justificaciones comerciales para elegir hospedar las cargas de trabajo de SQL Server en una infraestructura hospedada (IaaS) o en un entorno de servicios hospedados (PaaS).

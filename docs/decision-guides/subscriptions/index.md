@@ -9,20 +9,20 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: a6ee53355313a0f0c277d7b1c69e77494cdf8e1c
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 4f024a95afcb993bd0fe314737ee4d2f97daffb0
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058719"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238791"
 ---
 # <a name="subscription-decision-guide"></a>Guía de decisiones de suscripción
 
-Un diseño eficaz de suscripciones ayuda a las organizaciones a establecer una estructura para organizar los recursos de Azure durante un proceso de adopción de la nube.
+Un diseño eficaz de las suscripciones ayuda a las organizaciones a establecer una estructura para organizar los recursos de Azure durante un proceso de adopción de la nube.
 
 Cada recurso de Azure, como una máquina virtual o una base de datos, está asociado a una suscripción. La adopción de Azure comienza con la creación de una suscripción, la asociación a una cuenta y la implementación de recursos en la suscripción. Para una introducción sobre estos conceptos, consulte [Conceptos básicos de Azure](../../ready/considerations/fundamental-concepts.md).
 
-A medida que crece su patrimonio digital en Azure, es probable que necesite crear suscripciones adicionales para satisfacer sus necesidades. Azure le permite definir una jerarquía de grupos de administración para organizar las suscripciones y aplicar fácilmente la directiva correcta a los recursos adecuados. Para más información, consulte [Scaling with multiple Azure subscriptions](../../ready/considerations/scaling-subscriptions.md) (Escalado de varias suscripciones de Azure).
+A medida que crece su patrimonio digital en Azure, es probable que necesite crear suscripciones adicionales para satisfacer sus necesidades. Azure le permite definir una jerarquía de grupos de administración para organizar las suscripciones y aplicar fácilmente la directiva correcta a los recursos adecuados. Para más información, consulte [Scaling with multiple Azure subscriptions](../../ready/azure-best-practices/scaling-subscriptions.md) (Escalado de varias suscripciones de Azure).
 
 Estos son algunos ejemplos básicos del uso de grupos de administración para separar diferentes cargas de trabajo:
 

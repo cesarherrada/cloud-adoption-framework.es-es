@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 3254cf195c001f7ce575bf067cd434649293b970
-ms.sourcegitcommit: f7ec7828687f433ff8b69b91817cbec7b074662c
+ms.openlocfilehash: ee1006efd3a8807e294480fdea4e46b8555a0bb8
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72915037"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238762"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -58,7 +58,7 @@ El uso de soluciones de registro y generación de informes, como Azure Monitor, 
 
 Para admitir este enfoque, será preciso que los recursos en la nube puedan comunicarse directamente con los sistemas locales mediante una combinación de [redes híbridas](../software-defined-network/hybrid.md) y [servicios de dominio hospedados en la nube](../identity/index.md#cloud-hosted-domain-services). Gracias a esto, la red virtual en la nube funciona como una extensión de red del entorno local. Por tanto, las cargas de trabajo hospedadas en la nube pueden comunicarse directamente con el sistema local de registros e informes.
 
-Este enfoque saca el máximo rendimiento a la inversión existente en herramientas de supervisión con una modificación limitada de todos los servicios o las aplicaciones implementados en la nube. Este enfoque a menudo es el que menos tarda en dar soporte a la supervisión durante una migración mediante "lift-and-shift". Sin embargo, no capturará los datos de registro creados por los recursos PaaS y SaaS basados en la nube y omitirá los registros relacionados con las máquinas virtuales generados por la plataforma de la nube, como el estado de dichas máquinas. Como resultado, este patrón debe ser una solución temporal hasta que se implemente una solución de supervisión híbrida más completa.
+Este enfoque saca el máximo rendimiento a la inversión existente en herramientas de supervisión con una modificación limitada de todos los servicios o las aplicaciones implementados en la nube. Este enfoque a menudo es el que menos tarda en dar soporte a la supervisión durante una migración mediante lift-and-shift. Sin embargo, no capturará los datos de registro creados por los recursos PaaS y SaaS basados en la nube y omitirá los registros relacionados con las máquinas virtuales generados por la plataforma de la nube, como el estado de dichas máquinas. Como resultado, este patrón debe ser una solución temporal hasta que se implemente una solución de supervisión híbrida más completa.
 
 Hipótesis solo&ndash;en un entorno local:
 
