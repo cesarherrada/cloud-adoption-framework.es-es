@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 0b743ffbace5c2b246df6f03d7e5b23570277dd0
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: aa7ce8c882521e9a346e3f00da8c664af7585423
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548143"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058224"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms"></a>Rehospedaje de una aplicación local Linux en Azure Virtual Machines
 
@@ -292,7 +292,7 @@ El equipo de seguridad de Contoso revisa las VM OSTICKETWEB y OSTICKETMYSQL para
 - El equipo revisa los grupos de seguridad de red de las máquinas virtuales para controlar el acceso. Los NSG se usan para garantizar que solo el tráfico permitido puede pasar a la aplicación.
 - El equipo también considera la posibilidad de proteger los datos de los discos de la máquina virtual mediante el cifrado de discos y Azure Key Vault.
 
-Obtenga [más información](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms) sobre los procedimientos de seguridad recomendados de las VM.
+Para obtener más información, consulte [Procedimientos de seguridad recomendados para cargas de trabajo de IaaS de Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
 ### <a name="bcdr"></a>BCDR
 

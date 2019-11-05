@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 9988141c1f0133a0a18c11c46e09d7285d988e5e
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 3bd26321eca1747e5ed579e4394b0a4b7b713294
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549185"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048213"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>Plan de adopción de la nube y Azure DevOps
 
@@ -45,10 +45,10 @@ Para preparar la estación de trabajo para la edición en masa, consulte [Adici�
 
 El plan de adopción de la nube organiza las actividades por tipo de actividad:
 
-- **Epopeyas**: una *epopeya* representa una fase general del ciclo de vida de la adopción de la nube.
-- **Características**: las características se usan para organizar objetivos específicos dentro de cada fase. Por ejemplo, la migración de una carga de trabajo específica sería una característica.
-- **Casos de usuario**: los casos de usuario agrupan el trabajo en colecciones lógicas de actividades en función de un objetivo específico.
-- **Tareas**: las tareas son el trabajo real que se va a realizar.
+- **Epopeyas:** una *epopeya* representa una fase general del ciclo de vida de la adopción de la nube.
+- **Características** las características se usan para organizar objetivos específicos dentro de cada fase. Por ejemplo, la migración de una carga de trabajo específica sería una característica.
+- **Casos de usuario:** los casos de usuario agrupan el trabajo en colecciones lógicas de actividades en función de un objetivo específico.
+- **Tareas:** las tareas son el trabajo real que se va a realizar.
 
 En cada nivel, las actividades se ordenan en función de las dependencias. Las actividades se vinculan a los artículos de Cloud Adoption Framework para aclarar el objetivo o la tarea.
 

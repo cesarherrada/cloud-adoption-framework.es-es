@@ -1,7 +1,7 @@
 ---
-title: Habilitación del éxito de los clientes en cualquier recorrido de adopción de la nube
+title: Habilitación del éxito de los clientes durante un recorrido de adopción de la nube
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Habilitación del éxito de los clientes en cualquier recorrido de adopción de la nube
+description: Habilitación del éxito de los clientes en todo un recorrido de adopción de la nube
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -9,20 +9,20 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 5e1b1c24b076c56fdf6e42a8340589ee58bd69dc
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ea9d6b17627883f63e0814b66ed5cb657555995d
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023440"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048336"
 ---
-# <a name="enable-success-across-any-cloud-adoption-journey"></a>Habilitación del éxito en cualquier recorrido de adopción de la nube
+# <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 
-Microsoft Cloud Adoption Framework para Azure se proporciona como una herramienta gratuita de autoservicio para guiar a los lectores en varios trabajos de adopción de la nube. El objetivo de este contenido es ayudar a los clientes a conocer correctamente los objetivos empresariales que se pueden habilitar con Azure. Sin embargo, este contenido también respeta que el lector pueda abordar desafíos empresariales, culturales o técnicos que pueden ser amplios por naturaleza y que, a veces, requieren una posición neutra en la nube. Como tal, cada sección de esta guía comienza con un primer enfoque de Azure, pero sigue con una teoría neutra sobre la nube que se puede escalar entre decisiones empresariales y técnicas.
+Cloud Adoption Framework es una herramienta gratuita de autoservicio para guiar a los lectores en varios trabajos de adopción de la nube. El marco ayuda a los clientes a alcanzar los objetivos empresariales que se pueden habilitar mediante Microsoft Azure. Sin embargo, este contenido también reconoce que el lector pueda abordar desafíos empresariales, culturales o técnicos amplios y que, a veces, pueden requerir una posición neutra en la nube. Por tanto, cada sección de esta guía comienza con un primer enfoque de Azure y, a continuación, sigue con una teoría neutra sobre la nube que se puede escalar entre decisiones empresariales y técnicas.
 
-A lo largo de este marco, la habilitación es un tema básico. La siguiente lista de comprobación contiene una serie de temas que se deben incluir en cualquier trabajo de adopción de la nube para asegurarse de que el recorrido sea un éxito a los ojos de TI y de la empresa:
+A lo largo de este marco, la habilitación es un tema básico. En la siguiente lista de comprobación se enumeran los principios fundamentales de adopción de la nube que garantizan que tanto el personal de TI como la empresa consideren que el recorrido de la adopción es satisfactorio:
 
-- **Planeamiento:** establezca [resultados empresariales](../strategy/business-outcomes/index.md) claros, un [plan de patrimonio digital](../digital-estate/index.md) definido y [trabajos pendientes de adopción](../migrate/migration-considerations/prerequisites/migration-backlog-review.md) bien entendidos.
+- **Planeamiento:** establezca [resultados empresariales](../strategy/business-outcomes/index.md) claros, un [plan de patrimonio digital](../digital-estate/index.md) bien definido y [trabajos pendientes de adopción](../migrate/migration-considerations/prerequisites/migration-backlog-review.md) bien entendidos.
 - **Listo:** garantice la preparación del personal mediante [planes de aptitudes y aprendizaje](../ready/technical-skills.md).
 - **Operaciones:** defina un modelo operativo administrable para guiar las actividades durante y después de la adopción.
   - **[Organizar](../organize/index.md):** alinear a personas y equipos para que las operaciones y la adopción de la nube se lleven a cabo de manera adecuada.

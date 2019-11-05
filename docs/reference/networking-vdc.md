@@ -10,12 +10,12 @@ ms.subservice: reference
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: bfa693155bb017f377b3a19c95c8cdb98ae3baa0
-ms.sourcegitcommit: 910efd3e686bd6b9bf93951d84253b43d4cc82b5
+ms.openlocfilehash: 718c93b560b38eaae6556e549a0c6f6bb97b807b
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72769483"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048247"
 ---
 # <a name="virtual-datacenters-a-network-perspective"></a>Centros de datos virtuales: Una perspectiva de la red
 
@@ -321,17 +321,17 @@ Los componentes de carga de trabajo son donde residen los servicios y aplicacion
 
 Las posibilidades de cargas de trabajo son infinitas. Estos son solo algunos de los tipos posibles de cargas de trabajo:
 
-**Aplicaciones de línea de negocio internas**: Las aplicaciones de línea de negocio son aplicaciones informáticas necesarias para la operación en curso de una empresa. Las aplicaciones de línea de negocio tienen algunas características comunes:
+**Aplicaciones de línea de negocio internas:** Las aplicaciones de línea de negocio son aplicaciones informáticas necesarias para la operación en curso de una empresa. Las aplicaciones de línea de negocio tienen algunas características comunes:
 
-- Son **interactivas** por naturaleza. Se especifican los datos y se devuelven resultados o informes.
-- Se **basan en el uso intensivo de datos**&mdash; con acceso frecuente a bases de datos o a otros almacenamientos de datos.
-- Integración de ofertas **integrada**&mdash; con otros sistemas dentro y fuera de la organización.
+- **Interactivas por naturaleza:** Se especifican los datos y se devuelven resultados o informes.
+- **Controladas por datos:** cargas de trabajo con un uso intensivo de datos y acceso frecuente a bases de datos o a otros almacenamientos de datos.
+- **Integradas:** cargas de trabajo que ofrecen integración con otros sistemas dentro o fuera de la organización.
 
 **Sitios web accesibles para clientes (accesibles desde Internet o internamente)** : La mayoría de las aplicaciones que interactúan con Internet son sitios web. Azure ofrece la funcionalidad de ejecutar un sitio web en una máquina virtual IaaS o desde un sitio de [Azure Web Apps][WebApps] (PaaS). Azure Web Apps admite la integración con redes virtuales que permiten la implementación de Web Apps en una zona de red de radios. Los sitios web a los que se accede internamente no necesitan exponer un punto de conexión de Internet público, ya que se puede acceder a los recursos a través de direcciones privadas enrutables sin conexión a Internet desde la red privada virtual.
 
-**Macrodatos y análisis**: Cuando los datos tengan que escalarse verticalmente a volumen grande, es posible que las bases de datos no se escalen correctamente. La tecnología de Hadoop ofrece un sistema para ejecutar consultas distribuidas en paralelo en un gran número de nodos. Los clientes tienen la opción de ejecutar las cargas de trabajo de datos en máquinas virtuales IaaS, o bien en PaaS ([HDInsight][HDI]). HDInsight admite la implementación en una red virtual basada en la ubicación y se puede implementar en un clúster de un radio del centro de datos virtual.
+**Macrodatos y análisis:** Cuando los datos tengan que escalarse verticalmente a volumen grande, es posible que las bases de datos no se escalen correctamente. La tecnología de Hadoop ofrece un sistema para ejecutar consultas distribuidas en paralelo en un gran número de nodos. Los clientes tienen la opción de ejecutar las cargas de trabajo de datos en máquinas virtuales IaaS, o bien en PaaS ([HDInsight][HDI]). HDInsight admite la implementación en una red virtual basada en la ubicación y se puede implementar en un clúster de un radio del centro de datos virtual.
 
-**Eventos y mensajería**: [Azure Event Hubs][EventHubs] es un servicio de ingesta de datos de telemetría a hiperescala que recopila, transforma y almacena millones de eventos. Como plataforma de streaming distribuida, ofrece retención de tiempo configurable y baja latencia, lo que permite recopilar grandes cantidades de datos de telemetría en Azure y leer los datos desde varias aplicaciones. Con Event Hubs, una única transmisión puede admitir canalizaciones en tiempo real y basadas en lotes.
+**Eventos y mensajería:** [Azure Event Hubs][EventHubs] es un servicio de ingesta de datos de telemetría a hiperescala que recopila, transforma y almacena millones de eventos. Como plataforma de streaming distribuida, ofrece retención de tiempo configurable y baja latencia, lo que permite recopilar grandes cantidades de datos de telemetría en Azure y leer los datos desde varias aplicaciones. Con Event Hubs, una única transmisión puede admitir canalizaciones en tiempo real y basadas en lotes.
 
 Puede implementar un servicio de mensajería en la nube altamente confiable entre aplicaciones y servicios mediante [Azure Service Bus][ServiceBus]. Este ofrece mensajería asincrónica entre cliente y servidor, además de mensajería estructurada de tipo FIFO (primero en entrar, primero en salir) y funcionalidades de publicación y suscripción.
 

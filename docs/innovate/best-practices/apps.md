@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 86e1cbe87b81bcd68ff2a7e6ad6a4652674c9c5f
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: f930f1b0f228b3969b89319962706104176717cc
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683466"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058612"
 ---
 # <a name="tools-to-engage-via-apps-in-azure"></a>Herramientas de participación a través de aplicaciones en Azure
 
@@ -31,7 +31,7 @@ En este artículo, se da por hecho que todas las invenciones dan lugar a una apl
 - **Experiencias inteligentes:** cree experiencias modernas con plataformas en la nube para impulsar la implementación rápida y los bucles de comentarios breves. Amplíe las aplicaciones web para infundir inteligencia o incluso integrar bots.
 - **Nativo de la nube:** cree una nueva invención que aproveche de forma natural las funcionalidades de la nube.
 
-Cada ruta produce ventajas y desventajas a corto y a largo plazo. Cuando los equipos de control de la nube, operaciones en la nube y el centro en la nube de excelencia están preparados para admitir cada enfoque, la adopción se puede acelerar con un efecto mínimo en las operaciones empresariales sostenibles.
+Cada ruta produce ventajas y desventajas a corto y a largo plazo. Cuando los equipos de gobernanza en la nube, operaciones en la nube y centro de excelencia en la nube están preparados para admitir cada enfoque, la adopción se puede acelerar con un impacto mínimo en las operaciones empresariales sostenibles.
 
 ## <a name="toolchain"></a>Cadena de herramientas
 

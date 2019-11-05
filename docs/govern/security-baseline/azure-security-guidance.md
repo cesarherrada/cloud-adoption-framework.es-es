@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8449878d46c939c58f690e585aac07fa0e827484
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 18fce98055f72e43ea7ecc2565ab859845cea356
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548048"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058828"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -52,7 +52,7 @@ La **plataforma de confianza del servicio (STP)** proporciona información detal
 
 ## <a name="unique-intelligent-insights"></a>Conclusiones inteligentes exclusivas
 
-A medida que crece el volumen y complejidad de las señales de seguridad, determinar si esas señales constituyen amenazas verdaderas y, posteriormente, actuar en consecuencia, lleva demasiado tiempo. Microsoft ofrece una variedad sin precedentes en lo que respecta a inteligencia de seguridad que se ofrece a escala en la nube para ayudarle a detectar y solucionar rápidamente las amenazas. [Más información](https://docs.microsoft.com/azure/security-center/security-center-intro)
+A medida que crece el volumen y complejidad de las señales de seguridad, determinar si esas señales constituyen amenazas verdaderas y, posteriormente, actuar en consecuencia, lleva demasiado tiempo. Microsoft ofrece una variedad sin precedentes en lo que respecta a inteligencia de seguridad que se ofrece a escala en la nube para ayudarle a detectar y solucionar rápidamente las amenazas. Para más información, consulte la [introducción a Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-intro).
 
 ## <a name="azure-threat-intelligence"></a>Inteligencia de Azure sobre amenazas
 

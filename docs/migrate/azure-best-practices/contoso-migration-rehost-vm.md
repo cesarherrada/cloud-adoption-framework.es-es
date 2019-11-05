@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: d0fff6d3c88d62ed3efc9f4cf2140981e8be331a
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 0bfadba7f6cefc5cd597d002c3cb18b0cfcc8c3d
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547215"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058200"
 ---
 # <a name="rehost-an-on-premises-app-to-azure-vms"></a>Rehospedaje de una aplicación local en VM de Azure
 
@@ -283,7 +283,7 @@ El equipo de seguridad de Contoso revisa las VM de Azure para determinar si exis
 - Para controlar el acceso, el equipo revisa los grupos de seguridad de red de las máquinas virtuales. Los grupos de seguridad de red (NSG) se usan para asegurarse de que solo el tráfico permitido pueda pasar a la aplicación.
 - El equipo también tiene en cuenta la protección de los datos en el disco con Azure Disk Encryption y Key Vault.
 
-Obtenga [más información](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms) sobre los procedimientos de seguridad recomendados de las VM.
+Para obtener más información, consulte [Procedimientos de seguridad recomendados para cargas de trabajo de IaaS de Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
 ## <a name="bcdr"></a>BCDR
 

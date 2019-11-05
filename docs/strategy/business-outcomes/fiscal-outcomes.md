@@ -9,20 +9,20 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 1a0c1bfe2943176d647e53e8f91c8d92e168af12
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 350b13e993d2130dc72482cbe7cafb3823b6a4d8
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548682"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048365"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Ejemplos de resultados fiscales
 
 En el nivel superior, las conversaciones fiscales constan de tres conceptos básicos:
 
-- **Ingresos**: ¿entrará más dinero en la empresa como resultado de las ventas de bienes o servicios?
-- **Costo**: ¿se dedicará menos dinero a la creación, el marketing, las ventas o la entrega de bienes o servicios?
-- **Beneficio**: aunque es poco habitual, algunas transformaciones pueden aumentar los ingresos y reducir los costos. Este es un resultado de beneficios.
+- **Ingresos:** ¿entrará más dinero en la empresa como resultado de las ventas de bienes o servicios?
+- **Costo:** ¿se dedicará menos dinero a la creación, el marketing, las ventas o la entrega de bienes o servicios?
+- **Beneficio:** aunque es poco habitual, algunas transformaciones pueden aumentar los ingresos y reducir los costos. Este es un resultado de beneficios.
 
 En el resto de este artículo se explican estos resultados fiscales en el contexto de una transformación a la nube.
 
@@ -35,13 +35,13 @@ En el resto de este artículo se explican estos resultados fiscales en el contex
 
 La nube ayuda a crear oportunidades de entrega de nuevos productos a los clientes o de entrega de productos ya existentes de nuevas maneras. Los nuevos canales de ingresos son innovadores, emprendedores y emocionantes para muchas personas del mundo empresarial. Pero también son propensos a errores y en muchas compañías se consideran de alto riesgo. Cuando el equipo de TI propone resultados relacionados con los ingresos, es probable que haya resistencia. Para dar mayor credibilidad a estos resultados, colabore con líderes empresariales que hayan demostrado ser innovadores. La validación de la fuente de ingresos al principio del proceso le ayudará a evitar los escollos del negocio.
 
-- **Ejemplo**: Una compañía lleva más de 100 años vendiendo libros. Un empleado de la empresa se da cuenta de que el contenido se puede enviar electrónicamente. Este empleado crea un dispositivo que se puede vender en la librería, que permite descargar los mismos libros directamente. Esto supone un aumento de X euros en la venta de libros.
+- **Ejemplo:** Una compañía lleva más de 100 años vendiendo libros. Un empleado de la empresa se da cuenta de que el contenido se puede enviar electrónicamente. Este empleado crea un dispositivo que se puede vender en la librería, que permite descargar los mismos libros directamente. Esto supone un aumento de X euros en la venta de libros.
 
 ### <a name="revenue-increases"></a>Aumento de ingresos
 
 Gracias a la escala global y a la presencia digital, la nube ayuda a las empresas a aumentar los ingresos procedentes de los canales de ingresos existentes. Con frecuencia, este tipo de resultado procede de una alineación con la dirección de marketing o ventas.
 
-- **Ejemplo**: Una compañía que vende widgets podría vender más si los vendedores pudieran acceder de forma segura al catálogo digital y los niveles de existencias de la compañía. Por desgracia, esos datos solo se encuentran en el sistema ERP de la compañía, al que solo se puede acceder mediante un dispositivo conectado a la red. La creación de una fachada de servicio que sirva de interfaz con ERP, de forma que se exponga el catálogo y los niveles de existencias no confidenciales en una aplicación en la nube, permitiría al personal de ventas acceder a los datos que necesitan mientras se encuentran en las instalaciones de un cliente. La extensión de Active Directory con Azure Active Directory (Azure AD) y la integración del acceso basado en rol en la aplicación permitirían a la compañía garantizar la seguridad de los datos. Este sencillo proyecto podría afectar un _X %_ a los ingresos de una línea de productos existente.
+- **Ejemplo:** Una compañía que vende widgets podría vender más si los vendedores pudieran acceder de forma segura al catálogo digital y los niveles de existencias de la compañía. Por desgracia, esos datos solo se encuentran en el sistema ERP de la compañía, al que solo se puede acceder mediante un dispositivo conectado a la red. La creación de una fachada de servicio que sirva de interfaz con ERP, de forma que se exponga el catálogo y los niveles de existencias no confidenciales en una aplicación en la nube, permitiría al personal de ventas acceder a los datos que necesitan mientras se encuentran en las instalaciones de un cliente. La extensión de Active Directory con Azure Active Directory (Azure AD) y la integración del acceso basado en rol en la aplicación permitirían a la compañía garantizar la seguridad de los datos. Este sencillo proyecto podría afectar un _X %_ a los ingresos de una línea de productos existente.
 
 ### <a name="profit-increases"></a>Aumento de beneficios
 
@@ -53,9 +53,9 @@ Raro es que un único esfuerzo aumente los ingresos y reduzca los costos simult�
 
 La informática en la nube puede reducir los gastos de capital del hardware y el software, la configuración de centros de datos, el funcionamiento de centros de datos locales in situ, etc. Los costos de los bastidores de servidores, el suministro eléctrico ininterrumpido para alimentación y refrigeración y los expertos de TI que administran la infraestructura los aumentan rápidamente. Apagar un centro de datos puede reducir los gastos de capital. A esto se le conoce normalmente como "salir del negocio del centro de datos". La reducción de los costos se mide normalmente en dólares en el presupuesto actual, que puede abarcar de 1 a 5 años, según cómo administre las finanzas el director financiero (CFO).
 
-- **Ejemplo 1**: El centro de datos de una compañía gasta un gran porcentaje del presupuesto de TI anual. El departamento de TI decide ejecutar una migración a la nube y traslada los recursos del centro de datos a soluciones de infraestructura como servicio (IaaS), de forma que se crea una reducción de costos de 3 años.
-- **Ejemplo 2**: Una sociedad de cartera ha adquirido recientemente una nueva compañía. En la adquisición, los términos dictaminan que la nueva entidad se debe retirar de los centros de datos actuales en un plazo de 6 meses. Si no lo hace, deberá pagar una multa de 1 millón de euros al mes a la sociedad de cartera. Mover los recursos digitales a la nube mediante una migración podría permitir una rápida retirada de los recursos antiguos.
-- **Ejemplo 3**: Una compañía de impuestos de renta que atiende a consumidores obtiene un 70 % de sus ingresos anuales durante los tres primeros meses del año. El resto del año, su enorme inversión en TI permanece relativamente inactiva. Una migración a la nube permitiría al equipo de TI implementar la capacidad de proceso y hospedaje necesaria para esos tres meses. Durante los nueve meses restantes, se podrían rebajar considerablemente los costos de IaaS mediante la reducción de la superficie de proceso.
+- **Ejemplo 1:** El centro de datos de una compañía gasta un gran porcentaje del presupuesto de TI anual. El departamento de TI decide ejecutar una migración a la nube y traslada los recursos del centro de datos a soluciones de infraestructura como servicio (IaaS), de forma que se crea una reducción de costos de 3 años.
+- **Ejemplo 2:** Una sociedad de cartera ha adquirido recientemente una nueva compañía. En la adquisición, los términos dictaminan que la nueva entidad se debe retirar de los centros de datos actuales en un plazo de 6 meses. Si no lo hace, deberá pagar una multa de 1 millón de euros al mes a la sociedad de cartera. Mover los recursos digitales a la nube mediante una migración podría permitir una rápida retirada de los recursos antiguos.
+- **Ejemplo 3:** Una compañía de impuestos de renta que atiende a consumidores obtiene un 70 % de sus ingresos anuales durante los tres primeros meses del año. El resto del año, su enorme inversión en TI permanece relativamente inactiva. Una migración a la nube permitiría al equipo de TI implementar la capacidad de proceso y hospedaje necesaria para esos tres meses. Durante los nueve meses restantes, se podrían rebajar considerablemente los costos de IaaS mediante la reducción de la superficie de proceso.
 
 ### <a name="example-coverdell"></a>Ejemplo: Coverdell
 
@@ -70,7 +70,7 @@ Coverdell moderniza su infraestructura para impulsar el ahorro en los costos de 
 
 La terminación de los centros de datos también proporciona prevención de costos al impedir futuros ciclos de actualizaciones. Un ciclo de actualización es el proceso de comprar nuevo hardware y software para reemplazar los sistemas antiguos locales. En Azure, el hardware y el sistema operativo reciben habitualmente mantenimiento, revisiones y actualizaciones sin costo adicional para los clientes. De esta manera, el director financiero puede eliminar los gastos futuros planeados de las previsiones financieras a largo plazo. La prevención de costos se mide en dólares. Se diferencia de la reducción de costos en que normalmente se centra en un presupuesto futuro que aún no se ha aprobado completamente.
 
-- **Ejemplo**: El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría prevenir costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
+- **Ejemplo:** El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría prevenir costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
 
 ### <a name="capital-expenses-vs-operating-expenses"></a>Gastos de capital en comparación con los gastos operativos
 
@@ -91,7 +91,7 @@ Sin embargo, antes de asociar cualquier proceso de transformación con este tipo
 
 Si el modelo de gastos operativos es deseable, el ejemplo siguiente podría ser un resultado empresarial viable:
 
-- **Ejemplo**: El centro de datos de la compañía se está depreciando actualmente a _x USD_ al año durante los 3 años siguientes. Se espera que se necesiten _Y dólares USD_ adicionales para actualizar el hardware el próximo año. Se pueden convertir todos esos gastos de capital en un modelo de gastos operativos con un índice constante de _Z dólares USD_ al mes, lo que permite una mejor administración y contabilidad de los costos de funcionamiento de la tecnología.
+- **Ejemplo:** El centro de datos de la compañía se está depreciando actualmente a _x USD_ al año durante los 3 años siguientes. Se espera que se necesiten _Y dólares USD_ adicionales para actualizar el hardware el próximo año. Se pueden convertir todos esos gastos de capital en un modelo de gastos operativos con un índice constante de _Z dólares USD_ al mes, lo que permite una mejor administración y contabilidad de los costos de funcionamiento de la tecnología.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

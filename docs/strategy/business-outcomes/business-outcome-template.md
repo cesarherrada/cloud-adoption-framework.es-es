@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 3874b1af74d7604e3e5c5dd3376b11c43ce24e05
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 8703734cbb287003edfd38ddac4395ac0e437332
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032173"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048383"
 ---
 # <a name="how-to-use-the-business-outcome-template"></a>Usar la plantilla de resultados empresariales
 
@@ -51,15 +51,15 @@ La detección es un principio fundamental de la arquitectura empresarial. Si la 
 
 *Figura 3: cinco áreas de enfoque en la detección: partes interesadas, resultados, impulsores, KPI y funcionalidades.*
 
-**Partes interesadas**: qué personas de la organización es probable que obtengan el máximo valor de un resultado empresarial específico. Qué personas es más probable que apoyen esta transformación, sobre todo cuando las cosas se pongan difíciles o lleven mucho tiempo. A qué personas se atribuye el éxito de esta transformación. Estas personas son partes interesadas potenciales.
+**Partes interesadas:** qué personas de la organización es probable que obtengan el máximo valor de un resultado empresarial específico. Qué personas es más probable que apoyen esta transformación, sobre todo cuando las cosas se pongan difíciles o lleven mucho tiempo. A qué personas se atribuye el éxito de esta transformación. Estas personas son partes interesadas potenciales.
 
-**Resultados empresariales**: un resultado empresarial es un resultado conciso, definido y perceptible o un cambio en el rendimiento empresarial respaldado por una medida específica. ¿Cómo quiere la parte interesada cambiar la empresa? ¿Cómo se va a ver afectada la empresa? ¿Cuál es el valor de esta transformación?
+**Resultados empresariales:** un resultado empresarial es un resultado conciso, definido y perceptible o un cambio en el rendimiento empresarial respaldado por una medida específica. ¿Cómo quiere la parte interesada cambiar la empresa? ¿Cómo se va a ver afectada la empresa? ¿Cuál es el valor de esta transformación?
 
-**Impulsores del negocio**: los impulsores del negocio capturan el desafío actual que evita que la empresa logre los resultados deseados. También pueden captar nuevas oportunidades que la empresa puede aprovechar con la solución adecuada. ¿Cómo describiría los desafíos actuales o el estado futuro de la empresa? ¿Qué funciones empresariales cambiaría para lograr los resultados deseados?
+**Impulsores del negocio:** los impulsores del negocio capturan el desafío actual que evita que la empresa logre los resultados deseados. También pueden captar nuevas oportunidades que la empresa puede aprovechar con la solución adecuada. ¿Cómo describiría los desafíos actuales o el estado futuro de la empresa? ¿Qué funciones empresariales cambiaría para lograr los resultados deseados?
 
-**KPI**: ¿cómo se va a medir este cambio? ¿Cómo sabe el negocio si son correctos? ¿Con qué frecuencia se va a observar este KPI? La comprensión de cada KPI ayuda a habilitar el cambio incremental y la experimentación.
+**KPI:** ¿cómo se va a medir este cambio? ¿Cómo sabe el negocio si son correctos? ¿Con qué frecuencia se va a observar este KPI? La comprensión de cada KPI ayuda a habilitar el cambio incremental y la experimentación.
 
-**Funcionalidades**: al definir un recorrido de transformación, ¿cómo van a acelerar las funcionalidades técnicas la consecución del resultado empresarial? ¿Qué aplicaciones deben incluirse en la transformación para lograr objetivos empresariales? ¿Cómo se clasifican por orden de prioridad las distintas aplicaciones o cargas de trabajo para ofrecer funcionalidades? ¿Cómo deben expandirse o rediseñarse las partes de la solución para lograr cada uno de los resultados? ¿Se pueden reorganizar los enfoques de ejecución (o las escalas de tiempo) para clasificar los resultados empresariales de alto impacto?
+**Funcionalidades:** al definir un recorrido de transformación, ¿cómo van a acelerar las funcionalidades técnicas la consecución del resultado empresarial? ¿Qué aplicaciones deben incluirse en la transformación para lograr objetivos empresariales? ¿Cómo se clasifican por orden de prioridad las distintas aplicaciones o cargas de trabajo para ofrecer funcionalidades? ¿Cómo deben expandirse o rediseñarse las partes de la solución para lograr cada uno de los resultados? ¿Se pueden reorganizar los enfoques de ejecución (o las escalas de tiempo) para clasificar los resultados empresariales de alto impacto?
 
 ## <a name="next-steps"></a>Pasos siguientes
 

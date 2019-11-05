@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: a4f8c76abb36d0b3f410ed4d2027f9307d6c1f0c
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: d772f7c8a2e7c76770a6496bb85acbac54debfe4
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548670"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048346"
 ---
 # <a name="examples-of-performance-outcomes"></a>Ejemplos de resultados de rendimiento
 
@@ -27,9 +27,9 @@ Los mayores servicios informáticos en la nube se ejecutan en una red mundial de
 
 Transforme el negocio y reduzca costos con una infraestructura de bajo consumo que abarca más de 100 instalaciones de alta seguridad en todo el mundo unidas por una de las mayores redes del planeta. Azure cuenta con más regiones globales que cualquier otro proveedor de nube. Esto se traduce en la escala necesaria para acercar las aplicaciones a usuarios de todo el mundo, mantener la residencia de los datos y ofrecer a los clientes opciones completas de cumplimiento normativo y resistencia.
 
-- **Ejemplo 1**: una empresa de servicios trabajaba con un proveedor de hospedaje que hospedaba varios recursos de infraestructura operativa. Esos sistemas experimentaban interrupciones frecuentes y un rendimiento deficiente. La empresa migró sus recursos a Azure para aprovechar el contrato de nivel de servicio y los controles de rendimiento de la nube. El tiempo de inactividad experimentado cuesta aproximadamente 15 000 USD por minuto de interrupción. Con una interrupción de entre cuatro y ocho horas al mes, resultó fácil justificar esta transformación organizativa.
+- **Ejemplo 1:** una empresa de servicios trabajaba con un proveedor de hospedaje que hospedaba varios recursos de infraestructura operativa. Esos sistemas experimentaban interrupciones frecuentes y un rendimiento deficiente. La empresa migró sus recursos a Azure para aprovechar el contrato de nivel de servicio y los controles de rendimiento de la nube. El tiempo de inactividad experimentado cuesta aproximadamente 15 000 USD por minuto de interrupción. Con una interrupción de entre cuatro y ocho horas al mes, resultó fácil justificar esta transformación organizativa.
 
-- **Ejemplo 2**: una empresa de inversión de consumo se encontraba en las primeras fases de un esfuerzo de innovación de aplicaciones habilitadas para la nube. Los procesos de Agile y DevOps estaban madurando correctamente, pero el rendimiento de las aplicaciones tenía picos. Como una transformación más madura, la empresa inició un programa para supervisar y automatizar el tamaño en función de las demandas de uso. La empresa pudo eliminar los problemas de tamaño con las herramientas de administración del rendimiento de Azure, lo que dio lugar a un aumento sorprendente del 5 por ciento en las transacciones.
+- **Ejemplo 2:** una empresa de inversión de consumo se encontraba en las primeras fases de un esfuerzo de innovación de aplicaciones habilitadas para la nube. Los procesos de Agile y DevOps estaban madurando correctamente, pero el rendimiento de las aplicaciones tenía picos. Como una transformación más madura, la empresa inició un programa para supervisar y automatizar el tamaño en función de las demandas de uso. La empresa pudo eliminar los problemas de tamaño con las herramientas de administración del rendimiento de Azure, lo que dio lugar a un aumento sorprendente del 5 por ciento en las transacciones.
 
 ## <a name="reliability"></a>Confiabilidad
 
@@ -41,7 +41,7 @@ Azure Backup es una solución sencilla que reduce los costos de infraestructura 
 
 Azure Site Recovery facilita la prueba de la recuperación ante desastres mediante la replicación de aplicaciones entre regiones de Azure. También puede replicar máquinas virtuales locales de VMware e Hyper-V y servidores físicos en Azure para que estén disponibles si el sitio principal deja de funcionar. Además, puede recuperar las cargas de trabajo en el sitio principal una vez que vuelva a estar en funcionamiento.
 
-- **Ejemplo**: una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (DRBC) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
+- **Ejemplo:** una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (DRBC) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

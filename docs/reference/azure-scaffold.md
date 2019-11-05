@@ -8,12 +8,12 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 2e605766e06b106fab61576e64bd5059569c8b38
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: dcf717841e7ac42e0957ce540fc974c84d112a79
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548767"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058182"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 

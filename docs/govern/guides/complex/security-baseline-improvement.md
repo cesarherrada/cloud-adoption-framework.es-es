@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2e2e075b6f051af003d4c8d542e592943084c1e7
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 075d587b60b7da1748cd6d06ce01a1a5866f8304
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547609"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058120"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -39,7 +39,7 @@ En la fase anterior de esta historia, la compañía había comenzado el proceso 
 Desde entonces, han cambiado algunas cosas que afectarán a la gobernanza:
 
 - Miles de recursos de TI y de negocios se han implementado en la nube.
-- El equipo de desarrollo de aplicaciones ha implementado una canalización de integración e implementación continua (CI/CD) para implementar una aplicación nativa en la nube y así poder ofrecer una experiencia de usuario mejorada. Como la aplicación aún no interactúa con los datos protegidos, no está lista para la producción.
+- El equipo de desarrollo de aplicaciones ha implementado una canalización de integración e implementación continua (CI/CD) para implementar una aplicación nativa en la nube y así poder ofrecer una experiencia de usuario mejorada. Dado que la aplicación aún no interactúa con los datos protegidos, no está lista para la producción.
 - El equipo de inteligencia empresarial de TI mantiene activamente los datos en la nube de terceros, inventario y logística. Estos datos se emplean para impulsar nuevas predicciones, que podrían dar forma a procesos empresariales. Sin embargo, no se puede actuar sobre las predicciones y conclusiones hasta que los datos de cliente y financieros puedan integrarse en la plataforma de datos.
 - El equipo de TI hace progresos en los planes del Director de sistemas de información y del director financiero para retirar los dos centros de datos. Casi 3500 recursos de los dos centros de datos han sido retirados o migrados.
 - Las directivas relativas a la información personal y financiera confidencial se han modernizado. Sin embargo, las nuevas directivas corporativas están supeditadas a la implementación de directivas de seguridad y de gobernanza relacionadas. Así que los equipos siguen estancados.

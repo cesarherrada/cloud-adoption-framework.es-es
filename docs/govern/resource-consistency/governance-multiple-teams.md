@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8c052b5a9c3745a1d253b533086a9fdf4d86eae9
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 5459d775051b831112029fe1502a62a13c21e1c2
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967809"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058775"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
@@ -29,10 +29,10 @@ Los requisitos son:
 - Compatibilidad para varios **entornos**. Un entorno es una agrupación lógica de recursos, como máquinas virtuales, redes virtuales y servicios de enrutamiento de tráfico de red. Estos grupos de recursos tienen requisitos de seguridad y administración similares y se suelen usar para un propósito específico, como pruebas o producción. En este ejemplo, son necesarios cuatro entornos:
   - Un **entorno de infraestructura compartida** que incluya los recursos compartidos por las cargas de trabajo en otros entornos. Por ejemplo, una red virtual con una subred de puerta de enlace que proporciona conectividad con el entorno local.
   - Un **entorno de producción** con las directivas de seguridad más restrictivas. Puede incluir las cargas de trabajo de acceso interno o externo.
-  - Un **entorno que no es de producción** para trabajos de desarrollo y pruebas. Las directivas de seguridad, de cumplimiento normativo y de costos de este entorno difieren de los del entorno de producción. En Azure, esto adopta la forma de una suscripción de desarrollo/pruebas - Enterprise.
+  - Un **entorno de preproducción** para trabajos de desarrollo y pruebas. Las directivas de seguridad, de cumplimiento normativo y de costos de este entorno difieren de los del entorno de producción. En Azure, esto adopta la forma de una suscripción de desarrollo/pruebas - Enterprise.
   - Un **entorno de espacio aislado** con fines de prueba de concepto y educativos. Este entorno se asigna normalmente por cada empleado que participa en las actividades de desarrollo e incluye estrictos controles de seguridad de procedimientos y controles operativos para evitar que los datos corporativos entren aquí. En Azure, estos adoptan la forma de suscripciones de Visual Studio. Estas suscripciones _no_ se deben asociar tampoco a la instancia de Azure Active Directory de la empresa.
 - Un **modelo de permisos de privilegios mínimos** en el cual los usuarios no poseen permisos de forma predeterminada. El modelo debe admitir lo siguiente:
-  - Un usuario único de confianza (una cuenta casi de servicio) en el ámbito de la suscripción con permiso para asignar derechos de acceso a los recursos.
+  - Un usuario único de confianza (que se trata como una cuenta de servicio) en el ámbito de la suscripción con permiso para asignar derechos de acceso a los recursos.
   - De forma predeterminada, a los propietarios de las cargas de trabajo se les deniega el acceso a los recursos. Los derechos de acceso a los recursos los concede explícitamente el usuario único de confianza en el ámbito del grupo de recursos.
   - Acceso de administración a los recursos compartidos de la infraestructura limitado a los propietarios de la infraestructura compartida.
   - Acceso de administración para cada carga de trabajo restringido al propietario de esta (en producción) y niveles crecientes de control a medida que aumenta el desarrollo de la fase de desarrollo a la de prueba, a la de copia intermedia y a la de producción.
@@ -135,11 +135,11 @@ Si comparamos cada ejemplo con los requisitos, vemos que ambos ejemplos admiten 
 
 Ahora que hemos diseñado un modelo de permisos con privilegios mínimos, vamos a ver algunas aplicaciones prácticas de estos modelos de gobernanza. Recuerde que los requisitos son que debemos admitir los siguientes tres entornos:
 
-1. **Infraestructura compartida:** un grupo de recursos que todas las cargas de trabajo comparten. Estos son recursos tales como puertas de enlace de red, firewalls y servicios de seguridad.
-2. **Producción:** varios grupos de recursos que representan varias cargas de trabajo de producción. Estos recursos se utilizan para hospedar los artefactos de aplicación de acceso privado y público. Estos recursos normalmente tienen una gobernanza y modelos de seguridad más estrictos para proteger los recursos, el código de la aplicación y los datos contra accesos no autorizados.
-3. **No de producción:** varios grupos de recursos que representan varias cargas de trabajo que no están listas para producción. Estos recursos se usan con fines de desarrollo y pruebas. Estos recursos pueden tener un modelo de gobernanza más flexible para ofrecer más agilidad a los desarrolladores. La seguridad dentro de estos grupos debe aumentar para ser lo más parecida a la de "producción" que un proceso de desarrollo de aplicaciones pueda ser.
+1. **Entorno de infraestructura compartida:** un grupo de recursos que todas las cargas de trabajo comparten. Estos son recursos tales como puertas de enlace de red, firewalls y servicios de seguridad.
+2. **Entorno de producción:** varios grupos de recursos que representan varias cargas de trabajo de producción. Estos recursos se utilizan para hospedar los artefactos de aplicación de acceso privado y público. Estos recursos normalmente tienen una gobernanza y modelos de seguridad más estrictos para proteger los recursos, el código de la aplicación y los datos contra accesos no autorizados.
+3. **Entorno de preproducción:** varios grupos de recursos que representan varias cargas de trabajo que no están listas para producción. Estos recursos se usan con fines de desarrollo y pruebas. Estos recursos pueden tener un modelo de gobernanza más flexible para ofrecer más agilidad a los desarrolladores. La seguridad dentro de estos grupos debe aumentar para ser lo más parecida a la de "producción" que un proceso de desarrollo de aplicaciones pueda ser.
 
-En cada uno de estos tres entornos, hay que realizar el seguimiento de los datos de costo por **propietario de carga de trabajo**, **entorno** o ambos. Es decir, querrá conocer el costo actual de la **infraestructura compartida**, los costos en los que incurren los usuarios tanto en entornos que **no son de producción** como en los que sí son de **producción** y, por último, el costo total de los entornos de **no producción** y los de **producción**.
+En cada uno de estos tres entornos, hay que realizar el seguimiento de los datos de costo por **propietario de carga de trabajo**, **entorno** o ambos. Es decir, querrá conocer el costo actual de la **infraestructura compartida**, los costos en los que incurren los usuarios tanto en entornos de **preproducción** como en entornos de **producción** y, por último, el costo total de los entornos de **preproducción** y los de **producción**.
 
 Ya ha aprendido que el ámbito de los recursos se establece en dos niveles: **suscripción** y **grupo de recursos**. Por lo tanto, la primera decisión es cómo organizar los entornos por **suscripción**. Hay solo dos posibilidades: una sola suscripción o varias suscripciones.
 

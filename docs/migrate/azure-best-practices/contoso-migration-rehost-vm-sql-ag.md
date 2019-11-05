@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3869103c257fa03806fe09b840ab41fd6365c152
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 1292eeec6559fc6caa6cd6ff265a37147cf0b887
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547227"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058648"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms-and-sql-server-always-on-availability-group"></a>Rehospedaje de una aplicación local en las VM de Azure y en el grupo de disponibilidad AlwaysOn de SQL Server
 
@@ -659,7 +659,7 @@ El equipo de seguridad de Contoso revisa las VM de Azure WEBVM, SQLAOG1 y SQLAOG
 - El equipo también tiene en cuenta la protección de los datos en el disco mediante Azure Disk Encryption y Key Vault.
 - Asimismo, el equipo debe evaluar el cifrado de datos transparente (TDE) y, luego, habilitarlo en la base de datos de SmartHotel360 que se ejecuta en el nuevo AOG de SQL. [Más información](/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017).
 
-Obtenga [más información](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms) sobre los procedimientos de seguridad recomendados de las VM.
+Para obtener más información, consulte [Procedimientos de seguridad recomendados para cargas de trabajo de IaaS de Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
 ## <a name="bcdr"></a>BCDR
 

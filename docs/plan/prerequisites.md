@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 118279ca768507471dbdddf9f499a592d34a477e
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 0933474aef96d01862f0f230073e275ac262cd83
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549040"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048507"
 ---
 # <a name="prerequisites-checklist-for-an-effective-cloud-adoption-plan"></a>Lista de comprobación de requisitos previos para un plan de adopción de la nube efectivo
 
@@ -23,9 +23,9 @@ Un plan solo es tan efectivo como los datos que se incluyen en él. Para que un 
 
 Las entradas estratégicas precisas garantizan que el trabajo que se realiza contribuye a la consecución de los resultados empresariales. La [sección de estrategia de Cloud Adoption Framework](../strategy/index.md) proporciona una serie de ejercicios para desarrollar una estrategia clara. Las salidas de estos ejercicios alimentan el plan de adopción de la nube. Antes de desarrollar el plan, asegúrese de que los siguientes elementos están bien definidos como un resultado de los ejercicios:
 
-- **Motivaciones claras**: ¿por qué se va a realizar la adopción de la nube?
-- **Resultados empresariales definidos**: ¿qué resultados se esperan ver de la adopción de la nube?
-- **Justificación empresarial**: ¿cómo medirá el éxito el negocio?
+- **Motivaciones claras:** ¿por qué se va a realizar la adopción de la nube?
+- **Resultados empresariales definidos:** ¿qué resultados se esperan ver de la adopción de la nube?
+- **Justificación empresarial:** ¿cómo medirá el éxito el negocio?
 
 Cada miembro del equipo que implementa el plan de adopción de la nube debe ser capaz de responder a estas tres preguntas estratégicas. Los administradores y líderes que son responsables de la implementación del plan deben comprender las métricas de cada pregunta y cualquier progreso hacia la realización de esas métricas.
 
@@ -33,9 +33,9 @@ Cada miembro del equipo que implementa el plan de adopción de la nube debe ser 
 
 Las entradas tácticas precisas garantizan que el trabajo se puede planear con precisión y se puede administrar de manera eficaz. La [sección de planeamiento de Cloud Adoption Framework](./index.md) proporciona una serie de ejercicios para desarrollar artefactos de planeamiento antes de desarrollar el plan. Estos artefactos proporcionan respuestas a las siguientes preguntas:
 
-- **Racionalización del patrimonio digital**: ¿Cuáles son las 10 cargas de trabajo de prioridad principales del plan de adopción? ¿Cuántas cargas de trabajo adicionales es probable que haya en el plan? ¿Cuántos recursos se consideran candidatos para la adopción de la nube? ¿Los trabajos iniciales se centran más en actividades de migración o de innovación?
-- **Alineación de la organización**: ¿Quién realizará el trabajo técnico del plan de adopción? ¿Quién es responsable de la adherencia a los requisitos de gobernanza y cumplimiento?
-- **Preparación de las aptitudes**: ¿Cuántas personas están asignadas para realizar las tareas necesarias? ¿En qué medida se alinean sus aptitudes con los trabajos de adopción de la nube? ¿Los asociados están alineados para dar soporte técnico a la implementación técnica?
+- **Racionalización del patrimonio digital:** ¿Cuáles son las 10 cargas de trabajo de prioridad principales del plan de adopción? ¿Cuántas cargas de trabajo adicionales es probable que haya en el plan? ¿Cuántos recursos se consideran candidatos para la adopción de la nube? ¿Los trabajos iniciales se centran más en actividades de migración o de innovación?
+- **Alineación de la organización:** ¿Quién realizará el trabajo técnico del plan de adopción? ¿Quién es responsable de la adherencia a los requisitos de gobernanza y cumplimiento?
+- **Preparación de las aptitudes:** ¿Cuántas personas están asignadas para realizar las tareas necesarias? ¿En qué medida se alinean sus aptitudes con los trabajos de adopción de la nube? ¿Los asociados están alineados para dar soporte técnico a la implementación técnica?
 
 Estas preguntas son esenciales para la precisión del plan de adopción de la nube. Como mínimo, se debe responder a las preguntas sobre la racionalización del patrimonio digital para crear un plan. Para proporcionar escalas de tiempo precisas, también son importantes las preguntas acerca de la organización y las aptitudes.
 

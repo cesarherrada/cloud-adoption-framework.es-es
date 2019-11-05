@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 74fd1f02455d822ae8f8266bc3f6deb5935c09fe
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 027b685b2c75edc59e03cca9f9d2614422684bf0
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70839174"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048282"
 ---
 # <a name="plan-for-cloud-adoption"></a>Plan para la adopción de la nube
 
@@ -35,11 +35,11 @@ Los modelos de adquisición de la nube cambian las dependencias principales que 
 
 En esta serie de artículos se describe cada paso de la conversión de estrategias y trabajos en un plan de adopción de la nube accionable:
 
-1. **Requisitos previos**: confirme que se han completado todos los pasos de requisitos previos antes de crear el plan.
-2. **Definición y clasificación por prioridades de las cargas de trabajo**: clasifique por prioridades las 10 primeras cargas de trabajo para establecer un trabajo pendiente de adopción inicial.
-3. **Alineación de recursos**: identifique qué recursos (propuestos o existentes) son necesarios para posibilitar las cargas de trabajo clasificadas por prioridades.
-4. **Revisión de la racionalización**: revise las decisiones de racionalización para refinar las decisiones de la ruta de adopción: migrar o innovar.
-5. **Definición de iteraciones y versiones**: las *iteraciones* son los bloques de tiempo asignados para realizar el trabajo. Las *versiones* son la definición del trabajo que se debe realizar antes de desencadenar un cambio en los procesos de producción.
+1. **Requisitos previos:** confirme que se han completado todos los pasos de requisitos previos antes de crear el plan.
+2. **Definición y clasificación por prioridades de las cargas de trabajo:** clasifique por prioridades las 10 primeras cargas de trabajo para establecer un trabajo pendiente de adopción inicial.
+3. **Alineación de recursos:** identifique qué recursos (propuestos o existentes) son necesarios para posibilitar las cargas de trabajo clasificadas por prioridades.
+4. **Revisión de la racionalización:** revise las decisiones de racionalización para refinar las decisiones de la ruta de adopción: migrar o innovar.
+5. **Definición de iteraciones y versiones:** las *iteraciones* son los bloques de tiempo asignados para realizar el trabajo. Las *versiones* son la definición del trabajo que se debe realizar antes de desencadenar un cambio en los procesos de producción.
 6. **Estimación de escalas de tiempo**: establezca escalas de tiempo aproximadas para fines de planeamiento de versiones, en función de las estimaciones iniciales.
 
 ## <a name="next-steps"></a>Pasos siguientes

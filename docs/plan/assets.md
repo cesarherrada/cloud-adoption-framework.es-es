@@ -8,21 +8,21 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 9d98a9e368f71310a05ae6242ef75a57771824d5
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: ef5ffecd998bbe4e5adadd30cf24fe965e22b703
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70837618"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048260"
 ---
 # <a name="align-assets-to-prioritized-workloads"></a>Alineación de los recursos con las cargas de trabajo prioritarias
 
 Una carga de trabajo es una descripción conceptual de una colección de recursos: máquinas virtuales, aplicaciones y orígenes de datos. En el artículo anterior, [Definición y clasificación por prioridades de las cargas de trabajo](./workloads.md), se proporciona una guía para recopilar los datos que van a definir la carga de trabajo. Antes de la migración, algunas de las entradas técnicas de esa lista requieren una validación adicional. Este artículo ayuda con la validación de las siguientes entradas:
 
-- **Aplicaciones**: enumere las aplicaciones incluidas en esta carga de trabajo.
-- **Máquinas virtuales/servidores**: enumere las máquinas virtuales o los servidores incluidos en la carga de trabajo.
-- **Orígenes de datos**: enumere los orígenes de datos incluidos en la carga de trabajo.
-- **Dependencias**: enumere las dependencias de recursos no incluidas en la carga de trabajo.
+- **Aplicaciones:** enumere las aplicaciones incluidas en esta carga de trabajo.
+- **VM y servidores:** enumere las máquinas virtuales o los servidores incluidos en la carga de trabajo.
+- **Orígenes de datos:** enumere los orígenes de datos incluidos en la carga de trabajo.
+- **Dependencias:** enumere las dependencias de recursos no incluidas en la carga de trabajo.
 
 Hay varias opciones para ensamblar estos datos. Estos son algunos de los enfoques más comunes.
 

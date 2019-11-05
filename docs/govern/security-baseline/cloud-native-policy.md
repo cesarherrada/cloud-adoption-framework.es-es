@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 037cfa2a10ecce9bc56d747eb658824014758827
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 9c9676684ebec0a34fcc2dc845935c598814ea52
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548040"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73047858"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 
-La [base de referencia de seguridad](./index.md) es una de las [cinco materias de gobernanza en la nube](../governance-disciplines.md). Esta materia se centra en temas de seguridad generales que incluyen la protección de la red, los recursos digitales, los datos, etc. Como se ha indicado en la [guía de revisión de directivas](../policy-compliance/cloud-policy-review.md), el Marco de adopción de la nube incluye tres niveles de **directivas de ejemplo**: nativa en la nube, enterprise y conforme con los principios de diseño de la nube para cada una de las materias. En este artículo se trata la directiva de ejemplo nativa en la nube para la materia de línea de base de seguridad.
+La [base de referencia de seguridad](./index.md) es una de las [cinco materias de gobernanza en la nube](../governance-disciplines.md). Esta materia se centra en temas de seguridad generales que incluyen la protección de la red, los recursos digitales, los datos, etc. Tal y como se describe en la [guía de revisión de directivas](../policy-compliance/cloud-policy-review.md), Cloud Adoption Framework incluye tres niveles de **directivas de ejemplo**: nativa en la nube, de empresa y conforme con los principios de diseño en la nube para cada una de las materias. En este artículo se trata la directiva de ejemplo nativa en la nube para la materia de línea de base de seguridad.
 
 > [!NOTE]
 > Microsoft no es quien debe dictar las directivas corporativas o de TI. Este artículo le ayudará a prepararse para una revisión de directivas interna. Se supone que este ejemplo de directiva se ampliará, validará y probará con sus directivas corporativas antes de intentar utilizarla. El uso de este ejemplo de directiva tal y como está, no es recomendable.

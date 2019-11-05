@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 3fb87179de2dac492b506f8aba610cc52d69a751
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 6e1743fbac07c27bfafdf679ff7aae056545b6eb
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548707"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048070"
 ---
 # <a name="examples-of-agility-outcomes"></a>Ejemplos de resultados de agilidad 
 
@@ -33,9 +33,9 @@ Tanto en las organizaciones ya establecidas como en las compañías noveles, la 
 
 En el marco de los esfuerzos de innovación compatibles con la nube, el tiempo de comercialización es una medida clave de la capacidad de TI de abordar cambios en el mercado. En muchos casos, es posible que un líder empresarial tenga un presupuesto existente para la creación de una aplicación o el lanzamiento de un nuevo producto. Comunicar claramente las ventajas del tiempo de comercialización puede motivar a ese líder a reorientar el presupuesto al recorrido de transformación de TI.
 
-- **Ejemplo 1**: La división europea de una empresa con sede en Estados Unidos debe cumplir las normas del reglamento general de protección de datos mediante la protección de los datos de los clientes de una base de datos que admita operaciones en el Reino Unido. La versión existente de SQL no admite la seguridad de nivel de fila necesaria. Una actualización local provocaría demasiadas interrupciones. Con Azure SQL para replicar y actualizar la base de datos, el cliente agrega la medida de cumplimiento necesaria en cuestión de semanas.
+- **Ejemplo 1:** La división europea de una empresa con sede en Estados Unidos debe cumplir las normas del reglamento general de protección de datos mediante la protección de los datos de los clientes de una base de datos que admita operaciones en el Reino Unido. La versión existente de SQL no admite la seguridad de nivel de fila necesaria. Una actualización local provocaría demasiadas interrupciones. Con Azure SQL para replicar y actualizar la base de datos, el cliente agrega la medida de cumplimiento necesaria en cuestión de semanas.
 
-- **Ejemplo 2**: Una empresa de logística ha descubierto un segmento sin explotar del mercado, pero necesita una nueva versión de su aplicación estrella para captar esa cuota de mercado. Su principal competidor también ha detectado esta situación. Mediante la ejecución de un esfuerzo de innovación de la aplicación compatible con la nube, la compañía adoptó una estrategia de obsesión por el cliente y un enfoque de desarrollo basado en DevOps para adelantarse _x_ meses a su competidor más lento y obsoleto. Este impulso de entrada en el mercado le permitió lograr la base de clientes.
+- **Ejemplo 2:** Una empresa de logística ha descubierto un segmento sin explotar del mercado, pero necesita una nueva versión de su aplicación estrella para captar esa cuota de mercado. Su principal competidor también ha detectado esta situación. Mediante la ejecución de un esfuerzo de innovación de la aplicación compatible con la nube, la compañía adoptó una estrategia de obsesión por el cliente y un enfoque de desarrollo basado en DevOps para adelantarse _x_ meses a su competidor más lento y obsoleto. Este impulso de entrada en el mercado le permitió lograr la base de clientes.
 
 **Aurora Health Care**: Un sistema sanitario transforma los servicios en línea en una sencilla experiencia digital. Para transformar sus servicios digitales, Aurora Health Care migró sus sitios web a la plataforma de Microsoft Azure y adoptó una estrategia de innovación continua.
 
@@ -48,7 +48,7 @@ En el marco de los esfuerzos de innovación compatibles con la nube, el tiempo d
 
 Cuando el negocio exige nuevos servicios de TI o escalar a servicios existentes, la adquisición y el aprovisionamiento de nuevos recursos virtuales o de hardware pueden tardar semanas. Después de la migración a la nube, TI puede habilitar el autoservicio de aprovisionamiento más fácilmente, lo que permite a la empresa escalar sus servicios en horas.
 
-- **Ejemplo**: Una empresa de bienes de consumo envasados requiere la creación y anulación de cientos de clústeres de bases de datos cada año para satisfacer las demandas operativas de la empresa. Los hosts virtuales locales se pueden aprovisionar rápidamente, pero el proceso de recuperación de los recursos virtuales es lento y ocupa un tiempo significativo del equipo. Por lo tanto, el entorno local heredado se ve sobrecargado y apenas puede mantener el ritmo de la demanda. Después de la migración a la nube, TI puede proporcionar más fácilmente aprovisionamiento automático de recursos con scripts, con un enfoque de anulación para la facturación. En conjunto, esto permite a la empresa moverse tan rápidamente como sea necesario, al tiempo que sigue asumiendo la responsabilidad del costo de los recursos que se demandan. Al hacer esto en la nube, se limitan las implementaciones exclusivamente al presupuesto de la empresa.
+- **Ejemplo:** Una empresa de bienes de consumo envasados requiere la creación y anulación de cientos de clústeres de bases de datos cada año para satisfacer las demandas operativas de la empresa. Los hosts virtuales locales se pueden aprovisionar rápidamente, pero el proceso de recuperación de los recursos virtuales es lento y ocupa un tiempo significativo del equipo. Por lo tanto, el entorno local heredado se ve sobrecargado y apenas puede mantener el ritmo de la demanda. Después de la migración a la nube, TI puede proporcionar más fácilmente aprovisionamiento automático de recursos con scripts, con un enfoque de anulación para la facturación. En conjunto, esto permite a la empresa moverse tan rápidamente como sea necesario, al tiempo que sigue asumiendo la responsabilidad del costo de los recursos que se demandan. Al hacer esto en la nube, se limitan las implementaciones exclusivamente al presupuesto de la empresa.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

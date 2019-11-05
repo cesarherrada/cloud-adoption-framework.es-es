@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 258b5a656293001228aab51dd1319fe6a89780a9
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: bd9042fcd0b7ae6d18a5cc522a4006b7f8bfdbc6
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548225"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058564"
 ---
 # <a name="rebuild-an-on-premises-app-on-azure"></a>Recompilación de una aplicación local en Azure
 
@@ -132,7 +132,7 @@ Contoso ejecutará la migración de la forma siguiente:
 Contoso ejecuta un script de implementación para crear el clúster de Kubernetes administrado con AKS y Azure Container Registry (ACR).
 
 - Las instrucciones de esta sección usan el repositorio **SmartHotel360-Azure-backend**.
-- El repositorio **SmartHotel360-Azure-backend** de GitHub contiene todo el software para esta parte de la implementación.
+- El repositorio **SmartHotel360-Azure-backend** de GitHub contiene todo el software para esta parte de la implementación.  
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -152,7 +152,7 @@ Los administradores de Contoso aprovisionan de la manera siguiente:
     ![AKS](./media/contoso-migration-rebuild/aks3.png)
 5. En el terminal integrado de PowerShell, inicia sesión en Azure mediante el comando Connect-AzureRmAccount. [Obtenga más información](https://docs.microsoft.com/powershell/azure/get-started-azureps) sobre cómo empezar a usar PowerShell.
     ![AKS](./media/contoso-migration-rebuild/aks4.png)
-6. Autentica la CLI de Azure mediante la ejecución del comando **az login** y sigue las instrucciones para autenticarse con su explorador web. [Obtenga más información](/cli/azure/authenticate-azure-cli?view=azure-cli-latest) acerca del inicio de sesión con la CLI de Azure.
+6. Autentica la CLI de Azure mediante la ejecución del comando `az login` y sigue las instrucciones para autenticarse con su explorador web. [Obtenga más información](/cli/azure/authenticate-azure-cli?view=azure-cli-latest) acerca del inicio de sesión con la CLI de Azure.
     ![AKS](./media/contoso-migration-rebuild/aks5.png)
 7. Ejecuta el siguiente comando, pasando el nombre del grupo de recursos de ContosoRG, el nombre del clúster de AKS smarthotel-aks-eus2 y el nuevo nombre del registro.
 
@@ -178,7 +178,9 @@ Los administradores de Contoso aprovisionan de la manera siguiente:
 
 11. Ejecutan el comando siguiente para iniciar el panel de Kubernetes:
 
-    **az aks browse --resource-group ContosoRG --name smarthotelakseus2**
+    ```console
+    az aks browse --resource-group ContosoRG --name smarthotelakseus2
+    ```
 
 12. Se abre una pestaña del explorador en el panel. Se trata de una conexión de túnel mediante la CLI de Azure.
 
@@ -278,7 +280,7 @@ Ahora, los administradores de Contoso hacen lo siguiente:
 - Implementan los microservicios en el clúster de AKS.
 - Como primer paso, actualizan las cadenas de conexión a los microservicios con Azure DevOps. Luego configuran una nueva canalización de versión de Azure DevOps para implementar los microservicios.
 - Las instrucciones de esta sección usan el repositorio [SmartHotel360-Azure-Backend](https://github.com/Microsoft/SmartHotel360-Azure-backend).
-- Tenga en cuenta que en este artículo no se tratan algunas de las opciones de configuración (por ejemplo, Active Directory B2C). Hay más información sobre estas opciones en el repositorio.
+- Algunas de las opciones de configuración (por ejemplo, Active Directory B2C) no se tratan en este artículo. Para obtener más información sobre estas opciones, consulte el repositorio anterior.
 
 Se crea la canalización:
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 8d9bce8b12b3054c2f4a6aa0421e1d30d5011860
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 8408b657a3896cbb9376d0364dbd752ed90b9306
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032130"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048130"
 ---
 # <a name="cloud-operating-model-is-now-part-of-the-microsoft-cloud-adoption-framework-for-azure"></a>El Modelo de funcionamiento en la nube es ahora parte del Marco de adopción de la nube para Azure
 
@@ -26,9 +26,9 @@ En octubre de 2018, se comenzó a revisar todos los modelos que habían prolifer
 
 Para ver un enfoque similar a COM, los lectores deben empezar con uno de los siguientes:
 
-- [Introducción a la migración en la nube](../getting-started/migrate.md)
-- [Introducción a la innovación habilitada para la nube](../getting-started/innovate.md)
-- [Habilitación correcta de la adopción](../getting-started/enable.md)
+- [Iniciar un recorrido de migración a la nube](../getting-started/migrate.md)
+- [Innovar mediante la adopción de la nube](../getting-started/innovate.md)
+- [Habilitar una adopción de la nube correcta](../getting-started/enable.md)
 
 La orientación proporcionada anteriormente en COM sigue siendo relevante para el Marco de adopción de la nube. La experiencia es diferente, pero la estructura del Marco de adopción de la nube es simplemente una ampliación de esa orientación. Para pasar de COM al Marco de adopción de la nube, es importante comprender el ámbito y la estructura. En las dos secciones siguientes se describe esa transición.
 
