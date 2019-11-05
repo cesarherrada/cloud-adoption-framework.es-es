@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 222768f457f566d1ba19f8c53814110595e03bf3
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 94b1f2784875553bb27f32189e6d7d723de42634
+ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379125"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "72980185"
 ---
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
@@ -159,7 +159,7 @@ También puede utilizar etiquetas para muchas otras cosas. Entre los usos comune
 - **Automation:** es posible que cuente con scripts que se ejecuten regularmente y que puedan realizar una acción basada en un valor de etiqueta como "ShutdownTime" o "DeprovisionDate".
 - **Facturación:** Las etiquetas pueden aparecer en la factura. Puede usarlas para ayudar a segmentar la factura mediante etiquetas como "CostCenter" o "BillTo".
 
-Cada recurso o grupo de recursos puede tener hasta 15 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
+Cada recurso o grupo de recursos puede tener hasta 50 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
 
 Para obtener más recomendaciones y ejemplos de etiquetado, consulte la [guía sobre el etiquetado](../considerations/naming-and-tagging.md) del marco de adopción de la nube.
 
