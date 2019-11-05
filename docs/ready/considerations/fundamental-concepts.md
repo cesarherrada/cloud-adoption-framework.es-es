@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 02d4cf1218c6b00dd0d42dfb877af49a92498115
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 7b635ea417502a175b7fe308e5faeee1ff8a65a5
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548831"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048395"
 ---
 # <a name="azure-fundamental-concepts"></a>Conceptos básicos de Azure
 
@@ -23,25 +23,25 @@ Conozca los conceptos y términos fundamentales que se usan en Azure y cómo eso
 
 Al comenzar las labores de adopción de la nube de Azure, resulta útil conocer las siguientes definiciones:
 
-- **Recursos**: entidad administrada por Azure. Algunos ejemplos son máquinas virtuales, redes virtuales y cuentas de almacenamiento de Azure.
-- **Suscripción**: contenedor lógico para los recursos. Cada recurso de Azure está asociado a una sola suscripción. La creación de una suscripción es el primer paso en la adopción de Azure.
-- **Cuenta de Azure**: la dirección de correo electrónico que proporciona al crear una suscripción a Azure es la cuenta de Azure de la suscripción. La entidad que está asociada a la cuenta de correo electrónico es responsable de los costos mensuales que generan los recursos de la suscripción. Cuando se crea una cuenta de Azure, se proporciona información de contacto y detalles de facturación, como una tarjeta de crédito. Puede usar la misma cuenta de Azure (dirección de correo electrónico) con varias suscripciones. Cada suscripción está asociada solo a una cuenta de Azure.
-- **Administrador de cuenta**: la entidad asociada a la dirección de correo electrónico que se usa para crear una suscripción a Azure. El administrador de la cuenta es responsable del pago de todos los costos que generan los recursos de la suscripción.
-- **Azure Active Directory** (Azure AD): el servicio de administración de acceso e identidades de Microsoft, basado en la nube. Azure AD ayuda a sus empleados a iniciar sesión y a acceder a los recursos.
-- **Inquilino de Azure AD**: instancia dedicada y de confianza de Azure AD. Se crea automáticamente cuando su organización se suscribe por primera vez a un servicio en la nube de Microsoft, como Microsoft Azure, Microsoft Intune u Office 365. Un inquilino de Azure representa una organización individual.
-- **Directorio de Azure AD**: todos los inquilinos de Azure AD tienen un directorio dedicado y de confianza. El directorio incluye los usuarios, los grupos y las aplicaciones del inquilino. Se usa para realizar funciones de administración de identidades y acceso para los recursos del inquilino. Un directorio puede asociarse a varias suscripciones, pero cada suscripción solo está asociada a un directorio.
-- **Grupos de recursos**: contenedores lógicos que se usan para agrupar los recursos relacionados de una suscripción. Cada recurso solo puede existir en un grupo de recursos.
-- **Grupos de administración**: contenedores lógicos que se usan para una o varias suscripciones. Puede definir una jerarquía de grupos de administración, suscripciones, grupos de recursos y recursos para administrar de forma eficaz el acceso, las directivas y el cumplimiento a través de la herencia.
-- **Región**: conjunto de centros de datos de Azure que se implementan dentro de un perímetro definido por la latencia. Los centros de datos se conectan a través de una red dedicada, regional y de baja latencia. La mayoría de los recursos de Azure se ejecutan en una región específica de Azure.
+- **Recurso:** entidad administrada por Azure. Algunos ejemplos son máquinas virtuales, redes virtuales y cuentas de almacenamiento de Azure.
+- **Subscription** (Suscripción): contenedor lógico para los recursos. Cada recurso de Azure está asociado a una sola suscripción. La creación de una suscripción es el primer paso en la adopción de Azure.
+- **Cuenta de Azure:** la dirección de correo electrónico que proporciona al crear una suscripción a Azure es la cuenta de Azure de la suscripción. La entidad que está asociada a la cuenta de correo electrónico es responsable de los costos mensuales que generan los recursos de la suscripción. Cuando se crea una cuenta de Azure, se proporciona información de contacto y detalles de facturación, como una tarjeta de crédito. Puede usar la misma cuenta de Azure (dirección de correo electrónico) con varias suscripciones. Cada suscripción está asociada solo a una cuenta de Azure.
+- **Administrador de cuenta:** la entidad asociada a la dirección de correo electrónico que se usa para crear una suscripción a Azure. El administrador de la cuenta es responsable del pago de todos los costos que generan los recursos de la suscripción.
+- **Azure Active Directory (Azure AD):** el servicio de administración de acceso e identidades de Microsoft, basado en la nube. Azure AD ayuda a sus empleados a iniciar sesión y a acceder a los recursos.
+- **Inquilino de Azure AD:** instancia dedicada y de confianza de Azure AD. Se crea automáticamente cuando su organización se suscribe por primera vez a un servicio en la nube de Microsoft, como Microsoft Azure, Microsoft Intune u Office 365. Un inquilino de Azure representa una organización individual.
+- **Directorio de Azure AD:** todos los inquilinos de Azure AD tienen un directorio dedicado y de confianza. El directorio incluye los usuarios, los grupos y las aplicaciones del inquilino. Se usa para realizar funciones de administración de identidades y acceso para los recursos del inquilino. Un directorio puede asociarse a varias suscripciones, pero cada suscripción solo está asociada a un directorio.
+- **Grupos de recursos:** contenedores lógicos que se usan para agrupar los recursos relacionados de una suscripción. Cada recurso solo puede existir en un grupo de recursos.
+- **Grupos de administración:** contenedores lógicos que se usan para una o varias suscripciones. Puede definir una jerarquía de grupos de administración, suscripciones, grupos de recursos y recursos para administrar de forma eficaz el acceso, las directivas y el cumplimiento a través de la herencia.
+- **Región:** conjunto de centros de datos de Azure que se implementan dentro de un perímetro definido por la latencia. Los centros de datos se conectan a través de una red dedicada, regional y de baja latencia. La mayoría de los recursos de Azure se ejecutan en una región específica de Azure.
 
 ## <a name="azure-subscription-purposes"></a>Objetivos de la suscripción a Azure
 
 Una suscripción a Azure sirve a varios fines. Una suscripción de Azure es:
 
-- **Un contrato legal**. Cada suscripción está asociada a una [oferta de Azure](https://azure.microsoft.com/support/legal/offer-details) (como evaluación gratuita o pago por uso). Cada oferta tiene un plan de tarifa, unas ventajas y unos términos y condiciones asociados específicos. Puede elegir una oferta de Azure al crear una suscripción.
-- **Un acuerdo de pago**. Al crear una suscripción, se proporciona la información de pago de esa suscripción, como un número de tarjeta de crédito. Cada mes, los costos que generan los recursos implementados en esa suscripción se calculan y facturan mediante ese método de pago.
-- **Un límite de escala**. Se definen límites de escala para una suscripción. Los recursos de la suscripción no pueden superar los límites de escala establecidos. Por ejemplo, hay un límite en el número de máquinas virtuales que puede crear en una sola suscripción.
-- **Un límite administrativo**. Una suscripción puede actuar como límite de administración, seguridad y directiva. Azure también proporciona otros mecanismos para satisfacer estas necesidades, como grupos de administración, grupos de recursos y control de acceso basado en rol.
+- **Un contrato legal.** Cada suscripción está asociada a una [oferta de Azure](https://azure.microsoft.com/support/legal/offer-details) (como evaluación gratuita o pago por uso). Cada oferta tiene un plan de tarifa, unas ventajas y unos términos y condiciones asociados específicos. Puede elegir una oferta de Azure al crear una suscripción.
+- **Un acuerdo de pago.** Al crear una suscripción, se proporciona la información de pago de esa suscripción, como un número de tarjeta de crédito. Cada mes, los costos que generan los recursos implementados en esa suscripción se calculan y facturan mediante ese método de pago.
+- **Un límite de escala.** Se definen límites de escala para una suscripción. Los recursos de la suscripción no pueden superar los límites de escala establecidos. Por ejemplo, hay un límite en el número de máquinas virtuales que puede crear en una sola suscripción.
+- **Un límite administrativo.** Una suscripción puede actuar como límite de administración, seguridad y directiva. Azure también proporciona otros mecanismos para satisfacer estas necesidades, como grupos de administración, grupos de recursos y control de acceso basado en rol.
 
 ## <a name="azure-subscription-considerations"></a>Consideraciones sobre las suscripciones a Azure
 

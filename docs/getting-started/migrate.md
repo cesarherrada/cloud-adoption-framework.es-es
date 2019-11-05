@@ -1,27 +1,27 @@
 ---
-title: Introducción al recorrido de migración a la nube
+title: Comenzar un recorrido de migración a nube en Azure
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Introducción al recorrido de migración a la nube
+description: Comience un recorrido de migración a nube en Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: af93f71b1e4e9eb3249720fd14c88482a8402789
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 8870f5ebeab855ec841ed00d109245a1efdeff20
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547830"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048314"
 ---
-# <a name="getting-started-with-a-cloud-migration-journey"></a>Introducción al recorrido de migración a la nube
+# <a name="begin-a-cloud-migration-journey-in-azure"></a>Comenzar un recorrido de migración a nube en Azure
 
-Aprenda a usar Microsoft Cloud Adoption Framework para Azure y comience el recorrido de migración a la nube. Este marco proporciona una guía completa para la transición de las cargas de trabajo de aplicaciones heredadas mediante innovadoras tecnologías basadas en la nube.
+Use Microsoft Cloud Adoption Framework de Azure para empezar el recorrido de una migración a nube. Este marco proporciona una guía completa para la transición de las cargas de trabajo de aplicaciones heredadas a la nube mediante innovadoras tecnologías basadas en la nube.
 
 ## <a name="executive-summary"></a>Resumen ejecutivo
 
-Cloud Adoption Framework ayuda a los clientes a simplificar su recorrido hacia la adopción de la nube. Este marco contiene información detallada que incluye un recorrido de adopción de la nube de un extremo a otro, que comienza con resultados empresariales fijados y la alineación de la preparación para la nube y las evaluaciones con objetivos empresariales claramente definidos. Esos resultados se logran mediante una ruta definida para la adopción de la nube. Con la adopción basada en la migración, la ruta definida se centra en gran medida en realizar una migración de las cargas de trabajo locales a la nube. En ocasiones, este recorrido incluye la modernización de las cargas de trabajo para aumentar la rentabilidad de la inversión del trabajo de migración.
+Cloud Adoption Framework ayuda a los clientes a simplificar su recorrido hacia la adopción de la nube. Este marco contiene información detallada sobre un recorrido de adopción de la nube de un extremo a otro, que comienza con resultados empresariales fijados y la alineación de la preparación para la nube y las evaluaciones con objetivos empresariales claramente definidos. Esos resultados se logran mediante una ruta definida para la adopción de la nube. Con la adopción basada en la migración, la ruta definida se centra en gran medida en migrar las cargas de trabajo locales a la nube. En ocasiones, este recorrido incluye la modernización de las cargas de trabajo para aumentar la rentabilidad de la inversión del trabajo de migración.
 
 Este marco está diseñado principalmente para los arquitectos de la nube y los equipos de estrategia de la nube que lideran los trabajos de adopción. Sin embargo, muchos temas de este marco son de interés para otros roles de la empresa y de TI. Los arquitectos de la nube suelen servir como facilitadores de la interacción con cada uno de los roles pertinentes. Este resumen Ejecutivo está diseñado para preparar a los distintos roles antes de facilitar las conversaciones.
 
