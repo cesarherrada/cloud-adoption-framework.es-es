@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: f96ada5b1c43694d0ea1af10524f3c344db62356
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 9de6f01a4252383c1d7619078568964fe8e685c9
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222713"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566365"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Introducción a la materia de aceleración de la implementación
 
@@ -35,7 +35,7 @@ Las instrucciones accionables de las directivas y los requisitos de arquitectura
 > [!CAUTION]
 > Las directivas de ejemplo proceden de experiencias habituales de los clientes. Para alinear mejor estas directivas con necesidades de gobernanza en la nube específicas, ejecute los pasos siguientes para crear declaraciones de la directiva que satisfagan sus necesidades empresariales únicas.
 
-## <a name="developing-deployment-acceleration-governance-policy-statements"></a>Desarrollo de las instrucciones de directiva de gobernanza de aceleración de la implementación
+## <a name="develop-governance-policy-statements"></a>Desarrollo de instrucciones de la directiva de gobierno
 
 Los seis pasos siguientes le ayudarán a definir las directivas de gobernanza para controlar la implementación y configuración de recursos en el entorno de nube.
 

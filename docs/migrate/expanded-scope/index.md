@@ -8,12 +8,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ee164f75b4f3748fce027d0c6c98db5200dcdd71
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 181777e08e82cf7e58c73c7c8b66544d0960656d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548504"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564635"
 ---
 # <a name="expanded-scope-for-cloud-migration"></a>Ámbito ampliado para la migración a la nube
 
@@ -32,7 +32,7 @@ En la siguiente lista de verificación se describen las áreas comunes de comple
 
 ### <a name="technology-driven-scope-expansion"></a>Expansión de ámbito controlado por la tecnología
 
-- **[Migración de VMWare](./vmware-host.md):** la migración de los hosts de VMWare puede acelerar el proceso general de migración. Cada host de VMWare migrado puede mover varias cargas de trabajo a la nube con un enfoque de tipo "lift-and-shift". Después de la migración, esas máquinas virtuales y cargas de trabajo pueden permanecer en VMWare o migrarse a las funcionalidades modernas de la nube.
+- **[Migración de VMware](./vmware-host.md):** la migración de hosts de VMware puede acelerar el proceso de migración global. Todos los hosts de VMware migrados pueden mover varias cargas de trabajo a la nube con un enfoque de tipo "lift-and-shift". Después de la migración, esas máquinas virtuales y cargas de trabajo pueden permanecer en VMware o migrarse a las funcionalidades modernas de la nube.
 - **[Migración de SQL Server](./sql-migration.md):** la migración de los servidores de SQL Server puede acelerar el proceso general de migración. Cada servidor de SQL Server migrado puede trasladar varias bases de datos y servicios, con lo que se acelerarían varias cargas de trabajo.
 - **[Varios centros de datos](./multiple-datacenters.md):** la migración de múltiples centros de datos agrega una gran complejidad. Durante los procesos de evaluación, migración, optimización y administración, se describen consideraciones adicionales para preparar entornos más complejos.
 - **[Los requisitos de datos superan la capacidad de la red](./network-capacity-exceeded.md):** con frecuencia, las empresas optan por migrar a la nube porque la capacidad, la velocidad o la estabilidad de un centro de datos existente ya no son satisfactorias. Lamentablemente, esas mismas limitaciones agregan complejidad al proceso de migración y requieren un planeamiento adicional durante los procesos de evaluación y migración.

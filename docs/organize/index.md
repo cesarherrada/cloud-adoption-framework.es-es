@@ -10,14 +10,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 layout: LandingPage
-ms.openlocfilehash: b1fc986983b709491d0b06f4624c60deed7e9219
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: d2ed2222aa536ec377987674837b237d1050cdeb
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71026119"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564286"
 ---
-# <a name="managing-organizational-alignment"></a>Administración de la alineación organizativa
+# <a name="manage-organizational-alignment"></a>Administración de la alineación de la organización
 
 No se puede llevar a cabo la adopción de la nube sin personas bien organizadas. La adopción correcta de la nube es el resultado de un equipo de personas debidamente cualificadas, que realiza los tipos de trabajo adecuados, en consonancia con objetivos empresariales claramente definidos y en un entorno bien administrado. Para ofrecer un modelo de funcionamiento en la nube eficaz, es importante establecer estructuras organizativas con el personal adecuado. En este artículo se describe un enfoque para establecer y mantener las estructuras organizativas adecuadas en cuatro pasos.
 
@@ -130,7 +130,7 @@ A continuación se muestra una lista de las funcionalidades de la nube que se ne
 - [Plataforma de nube](./cloud-platform.md): Uso y maduración de la plataforma.
 - [Automatización en la nube](./cloud-automation.md): Aceleración de la adopción y la innovación.
 
-## <a name="maturing-organizational-structures"></a>Madurez de las estructuras organizativas
+## <a name="mature-organizational-structures"></a>Madurez de las estructuras organizativas
 
 Hasta cierto punto, cada una de las funcionalidades anteriores se refleja en todos los esfuerzos de adopción de la nube, ya sea explícitamente o de acuerdo con una estructura de equipo definida.
 A medida que aumentan las necesidades de adopción, aumenta la necesidad de contar con un equilibrio y una estructura. Para satisfacer estas necesidades, las empresas a menudo siguen un proceso de madurez de las estructuras organizativas.
@@ -139,7 +139,7 @@ A medida que aumentan las necesidades de adopción, aumenta la necesidad de cont
 
 El artículo sobre la [determinación de la madurez de la estructura organizativa](./organization-structures.md) proporciona detalles adicionales sobre cada nivel de madurez.
 
-## <a name="aligning-raci-charts"></a>Alineación de gráficos de RACI
+## <a name="align-raci-charts"></a>Alineación de gráficos de RACI
 
 En cada nivel de madurez, la responsabilidad de las diversas funcionalidades de la nube va cambiando a nuevos equipos. Este cambio de responsabilidad permite ciclos de migración e innovación más rápidos al eliminar y automatizar las barreras a los cambios. Para alinear las asignaciones correctamente, el artículo sobre [alineación de RACI](./raci-alignment.md) comparte un gráfico de RACI para cada una de las estructuras organizativas a las que se hace referencia.
 

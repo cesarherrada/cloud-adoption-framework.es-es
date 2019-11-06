@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: c112c1d340de944502ac16159977ffa12b5b095d
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: a6e7cb52fdac7607765b32c5355c0f2df066538a
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378263"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566858"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Migración a la nube en Cloud Adoption Framework
 
@@ -130,7 +130,7 @@ En esencia, la migración a la nube consta de cuatro fases simples: Evaluación,
 
 ![Modelo de migración de Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
 
-## <a name="creating-a-balanced-cloud-portfolio"></a>Creación de una cartera equilibrada en la nube
+## <a name="create-a-balanced-cloud-portfolio"></a>Creación de una cartera equilibrada en la nube
 
 Cualquier cartera de tecnología equilibrada tiene una mezcla de recursos en varios estados. Algunas aplicaciones están programadas para la retirada y reciben un soporte técnico mínimo. Se admiten otras aplicaciones o recursos en estado de mantenimiento, pero las características de esas soluciones son estables. Para los procesos empresariales más recientes, es probable que las condiciones cambiantes del mercado estimulen mejoras o modernizaciones continuas de las características. Cuando surgen oportunidades para impulsar nuevas fuentes de ingresos, se introducen nuevas aplicaciones o recursos en el entorno. En cada fase del ciclo de vida de un recurso, el impacto de cualquier inversión en los ingresos y las ganancias cambiará. Cuanto más avanzada sea la fase del ciclo de vida, menos probable es que una nueva característica o un esfuerzo de modernización produzcan una fuerte rentabilidad de la inversión.
 
