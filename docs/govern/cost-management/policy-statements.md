@@ -9,20 +9,20 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: efc105298462afa9dfac76f0505854fdc157c17d
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 086740f6677896220824096a5afe66618779a2d0
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220947"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566398"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Declaraciones de directivas de ejemplo de administración de costos
 
 Las declaraciones individuales de directiva de nube son directrices para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
-- **Riesgo empresarial.** Un resumen del riesgo que esta directiva abordará.
-- **Declaración de directiva**. Una explicación clara que resuma los requisitos de la directiva.
-- **Opciones de diseño**. Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
+- **Riesgo empresarial**: Un resumen del riesgo que esta directiva abordará.
+- **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.
+- **Opciones de diseño**: Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
 
 Las siguientes declaraciones de la directiva de ejemplo abordan algunos riesgos empresariales comunes relacionados con los costos. Estas declaraciones son ejemplos a los que se puede hacer referencia al elaborar el borrador de las declaraciones de directiva para satisfacer las necesidades de su organización. Estos ejemplos no pretenden ser excluyentes y hay varias opciones posibles de directiva para solucionar cada riesgo concreto identificado. Trabaje estrechamente con los equipos de TI y de dirección para identificar las mejores directivas para su conjunto de riesgos en particular.
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 33572e5de14c4d59e6281124cf488ca0e0c36aef
-ms.sourcegitcommit: 15898374495761bfb76cee719e0f9189856884e6
+ms.openlocfilehash: bf68bc17d5e94ae4c35e0a88d3ca73bd42935a5b
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72888833"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566786"
 ---
 # <a name="cloud-governance-capabilities"></a>Funcionalidades de gobernanza de la nube
 
@@ -31,7 +31,7 @@ Según los resultados empresariales deseados, las aptitudes necesarias para prop
 - Redes
 - Identidad
 - Virtualización
-- Continuidad empresarial/recuperación ante desastres
+- Continuidad empresarial y recuperación ante desastres
 - Propietarios de aplicaciones dentro de TI
 
 La funcionalidad de gobernanza de la nube identifica los riesgos relacionados con las versiones actuales y futuras. Esta funcionalidad se puede percibir en los trabajos para evaluar el riesgo, comprender los posibles impactos y tomar decisiones respecto a la tolerancia a los riesgos. De esta forma, los planes se pueden actualizar rápidamente para reflejar las necesidades cambiantes de la [funcionalidad de adopción de la nube](./cloud-adoption.md).

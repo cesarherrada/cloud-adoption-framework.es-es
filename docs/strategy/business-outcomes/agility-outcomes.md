@@ -8,14 +8,14 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 6e1743fbac07c27bfafdf679ff7aae056545b6eb
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 79c6c10d924781d494cd8dbd7cc104d42f168083
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048070"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566647"
 ---
-# <a name="examples-of-agility-outcomes"></a>Ejemplos de resultados de agilidad 
+# <a name="examples-of-agility-outcomes"></a>Ejemplos de resultados de agilidad
 
 Como se ha tratado en la [información general sobre resultados empresariales](./index.md), varios resultados empresariales potenciales pueden servir como base para cualquier conversación de recorrido de transformación con la empresa. Este artículo se centra en la medida empresarial más oportuna: la agilidad empresarial. Comprender la posición en el mercado y el panorama competitivo de su empresa puede ayudarle a articular los resultados empresariales que son el objetivo del recorrido de transformación de la empresa.
 
@@ -37,7 +37,9 @@ En el marco de los esfuerzos de innovación compatibles con la nube, el tiempo d
 
 - **Ejemplo 2:** Una empresa de logística ha descubierto un segmento sin explotar del mercado, pero necesita una nueva versión de su aplicación estrella para captar esa cuota de mercado. Su principal competidor también ha detectado esta situación. Mediante la ejecución de un esfuerzo de innovación de la aplicación compatible con la nube, la compañía adoptó una estrategia de obsesión por el cliente y un enfoque de desarrollo basado en DevOps para adelantarse _x_ meses a su competidor más lento y obsoleto. Este impulso de entrada en el mercado le permitió lograr la base de clientes.
 
-**Aurora Health Care**: Un sistema sanitario transforma los servicios en línea en una sencilla experiencia digital. Para transformar sus servicios digitales, Aurora Health Care migró sus sitios web a la plataforma de Microsoft Azure y adoptó una estrategia de innovación continua.
+### <a name="aurora-health-care"></a>Aurora Health Care
+
+Un sistema sanitario transforma los servicios en línea en una sencilla experiencia digital. Para transformar sus servicios digitales, Aurora Health Care migró sus sitios web a la plataforma de Microsoft Azure y adoptó una estrategia de innovación continua.
 
 > "Como equipo, nos centramos en soluciones de alta calidad y en la rapidez. Elegir Azure fue un punto de inflexión para nosotros".  
 > Jamey Shiels  

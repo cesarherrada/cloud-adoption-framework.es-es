@@ -8,18 +8,18 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8ea3610ed65ae45d924ca65ef26d249ed8343d0b
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 8daab86846ef0c3dbc93a5382f76080f678c1a08
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979967"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565005"
 ---
 # <a name="apply-design-principles-and-advanced-operations"></a>Aplicación de principios de diseño y operaciones avanzadas
 
 Las tres primeras materias de administración de la nube describen una línea de base de administración. Como mínimo, una línea de base de administración debe incluir un compromiso empresarial estándar para minimizar las interrupciones del negocio y acelerar la recuperación si se interrumpe el servicio. La mayoría de las líneas de base de administración incluyen una materia centrada en el mantenimiento del "inventario y visibilidad", el "cumplimiento operativo" y la "protección y recuperación".
 
-El propósito de una línea base de administración es crear una oferta coherente que proporcione un nivel mínimo de compromiso empresarial para todas las cargas de trabajo que se admiten. Esta línea de base de ofertas de administración repetibles comunes permite al equipo ofrecer un grado de administración operativa altamente optimizado con una desviación mínima. Sin embargo, es posible que esa oferta estándar no ofrezca un compromiso suficientemente completo para la empresa. 
+El propósito de una línea base de administración es crear una oferta coherente que proporcione un nivel mínimo de compromiso empresarial para todas las cargas de trabajo que se admiten. Esta línea de base de ofertas de administración repetibles comunes permite al equipo ofrecer un grado de administración operativa altamente optimizado con una desviación mínima. Sin embargo, es posible que esa oferta estándar no ofrezca un compromiso suficientemente completo para la empresa.
 
 En el diagrama de la siguiente sección se muestran tres maneras de ampliar la línea de base de administración.
 
@@ -45,8 +45,8 @@ En el caso de las cargas de trabajo que justifican una mayor inversión para sat
 
 Hay dos áreas de especialización:
 
-- **Especialización de la plataforma**: Se invierte en las operaciones en curso de una plataforma compartida, distribuyendo la inversión entre varias cargas de trabajo.
-- **Especialización de la carga de trabajo**: Se invierte en las operaciones en curso de una carga de trabajo específica, normalmente reservada para cargas de trabajo críticas.
+- **Especialización de la plataforma:** Se invierte en las operaciones en curso de una plataforma compartida, distribuyendo la inversión entre varias cargas de trabajo.
+- **Especialización de la carga de trabajo:** Se invierte en las operaciones en curso de una carga de trabajo específica, normalmente reservada para cargas de trabajo críticas.
 
 ### <a name="central-it-or-cloud-center-of-excellence-ccoe"></a>TI centralizado o Centro de excelencia en la nube (CCoE)
 
@@ -54,12 +54,13 @@ Las decisiones entre la especialización de la plataforma y la especialización 
 
 La especialización de carga de trabajo suele desencadenar un cambio en la cultura. Ambos modelos, TI tradicional y TI centralizado, crean procesos que pueden proporcionar soporte a escala. El soporte a escala es más factible para los servicios repetibles que se encuentran en una línea de base de administración, una línea de base mejorada o incluso en operaciones de plataforma. La especialización de la carga de trabajo no suele escalarse. Esta falta de escalado dificulta que una organización de TI centralizado proporcione el soporte necesario sin alcanzar los límites organizativos de escalado.
 
-Como alternativa, el enfoque con un Centro de excelencia en la nube se escala mediante una delegación intencionada de la responsabilidad y una centralización selectiva. La especialización de la carga de trabajo tiende a alinearse mejor con el enfoque de responsabilidad delegada de un CCoE. 
+Como alternativa, el enfoque con un Centro de excelencia en la nube se escala mediante una delegación intencionada de la responsabilidad y una centralización selectiva. La especialización de la carga de trabajo tiende a alinearse mejor con el enfoque de responsabilidad delegada de un CCoE.
 
 A continuación, se describe la alineación natural de los roles de un CCoE.
-- El equipo de plataforma de la nube ayuda a crear plataformas comunes que admiten varios equipos de adopción de la nube. 
-- El equipo de automatización de la nube extiende esas plataformas a los recursos que se pueden implementar en un catálogo de servicios. 
-- La administración de la nube ofrece la base de referencia de administración de forma centralizada y ayuda a admitir el uso del catálogo de servicios. 
+
+- El equipo de plataforma de la nube ayuda a crear plataformas comunes que admiten varios equipos de adopción de la nube.
+- El equipo de automatización de la nube extiende esas plataformas a los recursos que se pueden implementar en un catálogo de servicios.
+- La administración de la nube ofrece la base de referencia de administración de forma centralizada y ayuda a admitir el uso del catálogo de servicios.
 - Sin embargo, la unidad de negocio (en forma de equipo de DevOps empresarial o equipo de adopción de la nube) mantiene la responsabilidad de las operaciones cotidianas de carga de trabajo, canalización o rendimiento.
 
 A la hora de alinear áreas de administración, los modelos de TI centralizado y de CCoE generalmente pueden ofrecer una especialización de plataforma, con un cambio cultural mínimo. Proporcionar una especialización de la carga de trabajo puede ser un poco más complejo para los equipos de TI centralizados.
@@ -68,10 +69,10 @@ A la hora de alinear áreas de administración, los modelos de TI centralizado y
 
 Dentro de cada especialización, el siguiente proceso de cuatro pasos se ofrece en un enfoque iterativo disciplinado. Este enfoque requiere la asociación con expertos de adopción de la nube, plataforma en la nube, automatización en la nube y administración de la nube para crear un bucle de comentarios práctico e informado.
 
-- **Mejora del diseño del sistema**: se mejora el diseño de sistemas comunes (plataformas) o cargas de trabajo específicas para minimizar las interrupciones de forma eficaz.
-- **Corrección automática**: algunas mejoras no son rentables. En tales casos, es posible que tenga más sentido automatizar la corrección y reducir el impacto de las interrupciones.
-- **Escalado de la solución**: a medida que se mejoran el diseño de sistemas y la corrección automatizada, los cambios se pueden escalar en el entorno mediante el catálogo de servicios.
-- **Mejora continua**: se pueden usar varias herramientas de supervisión para detectar mejoras incrementales que se pueden llevar a cabo en el siguiente paso del diseño, automatización y escalado del sistema.
+- **Mejora del diseño del sistema:** se mejora el diseño de sistemas comunes (plataformas) o cargas de trabajo específicas para minimizar las interrupciones de forma eficaz.
+- **Corrección automática:** algunas mejoras no son rentables. En tales casos, es posible que tenga más sentido automatizar la corrección y reducir el impacto de las interrupciones.
+- **Escalado de la solución:** a medida que se mejoran el diseño de sistemas y la corrección automatizada, los cambios se pueden escalar en el entorno mediante el catálogo de servicios.
+- **Mejora continua:** se pueden usar varias herramientas de supervisión para detectar mejoras incrementales que se pueden llevar a cabo en el siguiente paso del diseño, automatización y escalado del sistema.
 
 ### <a name="improve-system-design"></a>Mejora del diseño del sistema
 
@@ -79,11 +80,11 @@ La mejora del diseño del sistema es el enfoque más eficaz para mejorar las ope
 
 El marco de arquitectura de Azure se centra en la mejora de cinco pilares del diseño de sistemas:
 
-- **Escalabilidad**: escalado de los recursos comunes de la plataforma para controlar el aumento de la carga.
-- **Disponibilidad**: disminución de las interrupciones empresariales al mejorar el tiempo de actividad potencial.
-- **Resistencia**: mejora de los tiempos de recuperación para reducir la duración de las interrupciones.
-- **Seguridad**: protección de las aplicaciones y datos frente a amenazas externas.
-- **Administración**: procesos operativos específicos de los recursos comunes de la plataforma.
+- **Escalabilidad:** escalado de los recursos comunes de la plataforma para controlar el aumento de la carga.
+- **Disponibilidad:** disminución de las interrupciones empresariales al mejorar el tiempo de actividad potencial.
+- **Resistencia:** mejora de los tiempos de recuperación para reducir la duración de las interrupciones.
+- **Seguridad:** protección de las aplicaciones y datos frente a amenazas externas.
+- **Administración:** procesos operativos específicos de los recursos comunes de la plataforma.
 
 La mayoría de las interrupciones empresariales son resultado de alguna forma de deuda técnica o deficiencia en la arquitectura. En el caso de las implementaciones existentes, las mejoras en el diseño de los sistemas pueden verse como pagos de la deuda técnica existente. En el caso de las implementaciones nuevas, las mejoras en el diseño de los sistemas pueden verse como evasión de la deuda técnica. La siguiente sección, "Corrección automatizada", examina las formas de abordar la deuda técnica que no se puede o no se debe solucionar.
 
@@ -107,7 +108,7 @@ Para más información sobre cómo publicar en un catálogo de servicios, consul
 
 ### <a name="continuous-improvement"></a>Mejora continua
 
-La especialización de la plataforma y las operaciones de la misma dependen de ciclos de comentarios sólidos entre los equipos de adopción, plataforma, automatización y administración. Si esos ciclos de comentarios están basados en datos, cada equipo puede tomar decisiones acertadas. En el caso de las operaciones de plataforma para lograr compromisos empresariales a largo plazo, es importante aprovechar la información específica de la plataforma centralizada. Dado que los contenedores y SQL Server son las dos plataformas administradas centralmente más habituales, los siguientes son algunos artículos que le ayudarán a empezar a usar la recopilación de datos para mejora continua. 
+La especialización de la plataforma y las operaciones de la misma dependen de ciclos de comentarios sólidos entre los equipos de adopción, plataforma, automatización y administración. Si esos ciclos de comentarios están basados en datos, cada equipo puede tomar decisiones acertadas. En el caso de las operaciones de plataforma para lograr compromisos empresariales a largo plazo, es importante aprovechar la información específica de la plataforma centralizada. Dado que los contenedores y SQL Server son las dos plataformas administradas centralmente más habituales, los siguientes son algunos artículos que le ayudarán a empezar a usar la recopilación de datos para mejora continua.
 
 - [Rendimiento de contenedores](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)
 - [Rendimiento de bases de datos PaaS](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)

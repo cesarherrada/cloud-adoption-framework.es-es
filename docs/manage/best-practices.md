@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8e58aea5c0d3b77cd194f8bd8919f43143ab18a4
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 052c723372830791c9baaf490e43ac373ea05760
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979938"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656558"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Establecimiento de los procedimientos de administración operativa en la nube
 
@@ -32,16 +32,16 @@ Ambos procedimientos recomendados conducen hacia una metodología de estado futu
 
 ![Metodología de administración de Cloud Adoption Framework](../_images/manage/caf-manage.png)
 
-**Alineación empresarial**: En la metodología de administración todas las cargas de trabajo se clasifican por nivel de importancia y por valor empresarial. Posteriormente, esa clasificación se puede medir mediante un análisis de impacto, que calcula el valor perdido asociado con una degradación del rendimiento o con interrupciones en su negocio. Con ese impacto tangible de los ingresos, los equipos de operaciones en la nube pueden trabajar con la empresa para establecer un compromiso que equilibre el costo y el rendimiento.
+**Alineación empresarial:** En la metodología de administración todas las cargas de trabajo se clasifican por nivel de importancia y por valor empresarial. Posteriormente, esa clasificación se puede medir mediante un análisis de impacto, que calcula el valor perdido asociado con una degradación del rendimiento o con interrupciones en su negocio. Con ese impacto tangible de los ingresos, los equipos de operaciones en la nube pueden trabajar con la empresa para establecer un compromiso que equilibre el costo y el rendimiento.
 
-**Materias de operaciones en la nube**: Una vez alineado el negocio, es mucho más fácil realizar un seguimiento e informar sobre las materias adecuadas de las operaciones en la nube para cada carga de trabajo. La toma de decisiones en cada materia se puede convertir posteriormente en términos de compromiso fácilmente comprensibles para la empresa. Este enfoque de colaboración hace que las partes interesadas de la empresa se conviertan en asociados a la hora de encontrar el equilibrio adecuado entre costo y rendimiento.
+**Materias de operaciones en la nube:** Una vez alineado el negocio, es mucho más fácil realizar un seguimiento e informar sobre las materias adecuadas de las operaciones en la nube para cada carga de trabajo. La toma de decisiones en cada materia se puede convertir posteriormente en términos de compromiso fácilmente comprensibles para la empresa. Este enfoque de colaboración hace que las partes interesadas de la empresa se conviertan en asociados a la hora de encontrar el equilibrio adecuado entre costo y rendimiento.
 
-- **Inventario y visibilidad**: Como mínimo, la administración de operaciones necesita un medio para realizar un inventario de los recursos y visibilidad sobre el estado de ejecución de cada recurso.
-- **Cumplimiento operativo**: La administración frecuente de la configuración, tamaño, costo y rendimiento de los recursos es clave para mantener las expectativas de rendimiento.
-- **Protección y recuperación**: minimizar las interrupciones operativas y agilizar la recuperación ayudan a evitar pérdidas de rendimiento e impactos negativos en los ingresos. Detección y recuperación son aspectos esenciales de esta materia.
-- **Operaciones de la plataforma**: Todos los entornos de TI contienen un conjunto de plataformas que se emplean habitualmente. Estas plataformas pueden incluir almacenes de datos como SQL Server o Azure HDInsight. Otras plataformas comunes pueden incluir soluciones de contenedores como Azure Kubernetes Service (AKS). Con independencia de la plataforma, la madurez de las operaciones que se realizan en esta se centra en personalizar las operaciones en función de cómo las cargas de trabajo implementan, configuran y utilizan las plataformas habituales.
-- **Operaciones con cargas de trabajo**: en el nivel más alto de madurez operativa, los equipos de operaciones en la nube pueden optimizar las operaciones para las cargas de trabajo que son cruciales para el éxito del negocio. Para esas cargas de trabajo de gran importancia, los datos disponibles pueden ayudar a automatizar la corrección, el ajuste de tamaño o la protección de las cargas de trabajo según su uso.
+- **Inventario y visibilidad:** Como mínimo, la administración de operaciones necesita un medio para realizar un inventario de los recursos y visibilidad sobre el estado de ejecución de cada recurso.
+- **Cumplimiento operativo:** La administración frecuente de la configuración, tamaño, costo y rendimiento de los recursos es clave para mantener las expectativas de rendimiento.
+- **Protección y recuperación:** minimizar las interrupciones operativas y agilizar la recuperación ayudan a evitar pérdidas de rendimiento e impactos negativos en los ingresos. Detección y recuperación son aspectos esenciales de esta materia.
+- **Operaciones de la plataforma:** Todos los entornos de TI contienen un conjunto de plataformas que se emplean habitualmente. Estas plataformas pueden incluir almacenes de datos como SQL Server o Azure HDInsight. Otras plataformas comunes pueden incluir soluciones de contenedores como Azure Kubernetes Service (AKS). Con independencia de la plataforma, la madurez de las operaciones que se realizan en esta se centra en personalizar las operaciones en función de cómo las cargas de trabajo implementan, configuran y utilizan las plataformas habituales.
+- **Operaciones con cargas de trabajo:** en el nivel más alto de madurez operativa, los equipos de operaciones en la nube pueden optimizar las operaciones para las cargas de trabajo que son cruciales para el éxito del negocio. Para esas cargas de trabajo de gran importancia, los datos disponibles pueden ayudar a automatizar la corrección, el ajuste de tamaño o la protección de las cargas de trabajo según su uso.
 
-Instrucciones adicionales, como las que se incluyen en [Diseño de la plataforma de revisión (Nombre en clave: Principios de diseño en la nube)](https://docs.microsoft.com/azure/architecture/reliability), pueden ayudar a tomar decisiones de arquitectura detalladas en relación con cada carga de trabajo de las materias descritas anteriormente.
+Instrucciones adicionales, como las que se incluyen en [Diseño de la plataforma de revisión (Nombre en clave: Principios de diseño en la nube)](https://docs.microsoft.com/azure/architecture/framework/resiliency/overview), pueden ayudar a tomar decisiones de arquitectura detalladas en relación con cada carga de trabajo de las materias descritas anteriormente.
 
 Esta sección de Cloud Adoption Framework se creará sobre cada uno de estos temas para ayudar a promover operaciones en la nube maduras dentro de la organización.

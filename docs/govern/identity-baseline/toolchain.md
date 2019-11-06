@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 42c0d24d36785615013076b54c0ec51cc2ec4cb4
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 5c06523d2b22293463d55f05c397dd55247f4369
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047923"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566162"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Herramientas de la base de referencia de identidad en Azure
 
@@ -77,6 +77,6 @@ La siguiente tabla enumera las herramientas nativas que pueden ayudar a desarrol
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Las [notas del producto del marco de transformación digital de la identidad híbrida](https://resources.office.com/ww-landing-M365E-EMS-IDAM-Hybrid-Identity-WhitePaper.html?LCID=EN-US) describe diversas combinaciones y soluciones para elegir e integrar estos componentes.
+Las [notas del producto del marco de transformación digital de la identidad híbrida](https://resources.office.com/ww-landing-M365E-EMS-IDAM-Hybrid-Identity-WhitePaper.html) describe diversas combinaciones y soluciones para elegir e integrar estos componentes.
 
 La herramienta [Azure AD Connect](https://aka.ms/aadconnectwiz) le permite integrar sus directorios locales con Azure AD.

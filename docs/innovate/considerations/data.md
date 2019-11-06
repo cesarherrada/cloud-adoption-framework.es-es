@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 997975a01b171ca1613ace518f29047793c6d437
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: f854b103decc3b23f27a41d01a81b812d2bc3c3f
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72980070"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565704"
 ---
 # <a name="democratize-data"></a>Democratización de los datos
 
@@ -80,7 +80,7 @@ Puede integrar estas diversas formas de datos en un almacén de datos central en
 
 **Virtualización:** La integración y la ingesta de datos a veces pueden ralentizar la innovación. Si ya hay disponible una solución de virtualización de datos, podría representar un enfoque más razonable. La ingesta y la integración pueden duplicar los requisitos de almacenamiento y desarrollo, agregar latencia de datos, aumentar el área expuesta a ataques, desencadenar problemas de calidad y aumentar el trabajo de gobernanza. La virtualización de los datos es una alternativa más actual que deja los datos originales en una ubicación única y crea consultas de paso a través o almacenadas en caché de los datos de origen.
 
-SQL Server 2017 y Azure SQL Data Warehouse admiten [PolyBase](/sql/relational-databases/polybase/polybase-guide), que es el enfoque de virtualización de datos que se usa con más frecuencia en Azure.
+SQL Server 2017 y Azure SQL Data Warehouse admiten [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-guide), que es el enfoque de virtualización de datos que se usa con más frecuencia en Azure.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
