@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 8be46c21a009b7dca11cfc628476ae46315b23e5
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 79102a3664f055489da37fc3de0ec7156c1272ef
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025226"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239832"
 ---
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
@@ -40,7 +40,7 @@ Puede aplicar la configuración de administración, como directivas y controles 
 
 Normalmente, tiene sentido aplicar la configuración crítica en niveles superiores y los requisitos específicos del proyecto en niveles inferiores. Por ejemplo, quizás quiera asegurarse de que todos los recursos de su organización se implementan en determinadas regiones. Para hacerlo, aplique una directiva a la suscripción que especifique las ubicaciones permitidas. Cuando otros usuarios de su organización agreguen nuevos grupos de recursos y recursos, se aplicarán automáticamente las ubicaciones permitidas. Más información acerca de las directivas en la sección de gobernanza, seguridad y cumplimiento de esta guía.
 
-Si solo tiene algunas suscripciones, es relativamente sencillo administrarlas de forma independiente. Si el número de suscripciones que usa aumenta, considere la posibilidad de crear una jerarquía de grupos de administración para simplificar la administración de las suscripciones y los recursos. Para más información sobre cómo administrar varias suscripciones, consulte [Escalado con varias suscripciones de Azure](../considerations/scaling-subscriptions.md).
+Si solo tiene algunas suscripciones, es relativamente sencillo administrarlas de forma independiente. Si el número de suscripciones que usa aumenta, considere la posibilidad de crear una jerarquía de grupos de administración para simplificar la administración de las suscripciones y los recursos. Para más información sobre cómo administrar varias suscripciones, consulte [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md).
 
 Al planear la estrategia de cumplimiento, trabaje con personas de su organización que desempeñen estos roles: seguridad y cumplimiento, administración de TI, arquitecto empresarial, redes, finanzas y adquisiciones.
 
@@ -79,7 +79,7 @@ Cree un grupo de recursos para contener recursos como aplicaciones web, bases de
 Para obtener más información, consulte:
 
 - [Aspectos básicos de Azure](../considerations/fundamental-concepts.md)
-- [Escalado con varias suscripciones de Azure](../considerations/scaling-subscriptions.md)
+- [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
 - [Descripción de la administración del acceso a los recursos en Azure](../../govern/resource-consistency/resource-access-management.md)
 - [Organización de los recursos con grupos de administración de Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
 - [Límites del servicio de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits)
@@ -130,7 +130,7 @@ Un buen estándar de nomenclatura le ayuda a identificar los recursos de Azure P
 
 - El lado operativo debe asegurarse de que los nombres incluyan la información que necesitan los equipos de TI. Use los detalles que identifiquen la carga de trabajo, la aplicación, el entorno, la importancia y otra información que resulte útil para administrar los recursos.
 
-Los distintos tipos de recursos pueden tener distintos límites de longitud y caracteres permitidos, muchos de los cuales se enumeran en el [artículo sobre las convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) de procedimientos recomendados de Azure. Para más información y recomendaciones centradas específicamente en la compatibilidad con las labores de adopción de la nube empresarial, consulte la [guía sobre nomenclatura y etiquetado](../considerations/naming-and-tagging.md) del marco de adopción de la nube.
+Los distintos tipos de recursos pueden tener distintos límites de longitud y caracteres permitidos, muchos de los cuales se enumeran en el [artículo sobre las convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) de procedimientos recomendados de Azure. Para más información y recomendaciones centradas específicamente en la compatibilidad con las labores de adopción de la nube empresarial, consulte la [guía sobre nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md) del marco de adopción de la nube.
 
 En la tabla siguiente se incluyen patrones de nomenclatura para algunos tipos de ejemplos de recursos de Azure.
 
@@ -159,9 +159,9 @@ También puede utilizar etiquetas para muchas otras cosas. Entre los usos comune
 - **Automation:** es posible que cuente con scripts que se ejecuten regularmente y que puedan realizar una acción basada en un valor de etiqueta como "ShutdownTime" o "DeprovisionDate".
 - **Facturación:** Las etiquetas pueden aparecer en la factura. Puede usarlas para ayudar a segmentar la factura mediante etiquetas como "CostCenter" o "BillTo".
 
-Cada recurso o grupo de recursos puede tener hasta 15 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
+Cada recurso o grupo de recursos puede tener hasta 50 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
 
-Para obtener más recomendaciones y ejemplos de etiquetado, consulte la [guía sobre el etiquetado](../considerations/naming-and-tagging.md) del marco de adopción de la nube.
+Para obtener más recomendaciones y ejemplos de etiquetado, consulte la [guía sobre el etiquetado](../azure-best-practices/naming-and-tagging.md) del marco de adopción de la nube.
 
 ::: zone target="docs"
 

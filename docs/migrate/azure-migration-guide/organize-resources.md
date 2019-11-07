@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: fc0f91ac6c2a4476786935555c4c4305f33a0980
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: e47e7e5f8528580d4aa268fd90e7aa838e5f70ba
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224056"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239955"
 ---
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
@@ -151,7 +151,7 @@ También puede utilizar etiquetas para muchas otras cosas. Entre los usos comune
 
 Cada recurso o grupo de recursos puede tener un máximo de 15 pares de nombre/valor de etiqueta. No obstante, esta limitación solo afecta a las etiquetas que se aplican directamente al recurso o grupo de recursos.
 
-Para más información sobre el etiquetado, consulte las [convenciones de nomenclatura del Centro de arquitectura de Azure para los recursos de Azure](../../ready/considerations/naming-and-tagging.md#metadata-tags).
+Para más información sobre el etiquetado, consulte las [convenciones de nomenclatura del Centro de arquitectura de Azure para los recursos de Azure](../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags).
 
 ::: zone target="docs"
 

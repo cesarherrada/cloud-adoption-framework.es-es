@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 7ce8b1f8509ab0e51c94913ef010eb35b22b8978
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: dc52d39699e20a243a6d1156764e30063aea76a5
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379040"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240127"
 ---
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Administración del acceso al entorno de Azure con controles de acceso basado en rol
 
@@ -29,7 +29,7 @@ Al planear su estrategia de control de acceso, conceda a los usuarios los privil
 
 Al planear la metodología de control de acceso, le recomendamos que trabaje con personas de las organizaciones que desempeñen los roles siguientes: seguridad y cumplimiento, administración de TI y arquitecto empresarial.
 
-La Plataforma de adopción de la nube ofrece instrucciones adicionales sobre cómo [usar el control de acceso basado en rol](../azure-best-practices/roles.md) como parte de sus esfuerzos de adopción de la nube.
+La Plataforma de adopción de la nube ofrece instrucciones adicionales sobre cómo [usar el control de acceso basado en rol](../considerations/roles.md) como parte de sus esfuerzos de adopción de la nube.
 
 ::: zone target="chromeless"
 
@@ -88,6 +88,6 @@ Para otorgar a un usuario acceso a una suscripción:
 Para obtener más información, consulte:
 
 - [¿Qué es el control de acceso basado en rol (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
-- [Plataforma de adopción de la nube: Uso del control de acceso basado en rol](../azure-best-practices/roles.md)
+- [Plataforma de adopción de la nube: Uso del control de acceso basado en rol](../considerations/roles.md)
 
 ::: zone-end
