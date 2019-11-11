@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: d9e26d82dd0332c338567bf962094a39f2ef84b4
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: cbd9f8dcea85b22f68ddb0401ef5713491200fdc
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564539"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753659"
 ---
 # <a name="establish-an-operating-model-for-the-cloud"></a>Establecimiento de un modelo de funcionamiento para la nube
 
@@ -40,9 +40,9 @@ Esta sección de Cloud Adoption Framework ofrece un modelo de funcionamiento via
 
 La nube y la economía digital han sacado a la luz la necesidad de varios modelos operativos. A veces, esta necesidad viene originada por un requisito que obliga a admitir varias nubes públicas. Con frecuencia, esta necesidad destaca especialmente durante la transición desde un entorno local a la nube. En todos los escenarios, es importante alinear los modelos operativos para obtener el máximo rendimiento y la mínima redundancia.
 
-Los analistas predicen un gran aumento en la adopción de varias nubes. Muchos clientes ya están actuando en esa dirección. Lamentablemente, los clientes informan de que se encuentran con desafíos importantes a la hora de trabajar con varias nubes. La duplicación de recursos, procesos, aptitudes y tecnologías da como resultado un aumento de los costos y no el ahorro que prometían las predicciones sobre el uso de la nube. Para evitar esta tendencia, se recomienda a los clientes adoptar un modelo operativo especializado. Al alinear los modelos operativos, siempre debería haber un **modelo operativo general**. Los **modelos operativos especializados** adicionales se deberían aprovechar en escenarios específicos que admitan desviaciones del modelo estándar.
+Los analistas predicen un gran aumento en la adopción de varias nubes. Muchos clientes ya están actuando en esa dirección. Lamentablemente, los clientes informan de que se encuentran con desafíos importantes a la hora de trabajar con varias nubes. La duplicación de recursos, procesos, aptitudes y tecnologías da como resultado un aumento de los costos y no el ahorro que prometían las predicciones sobre el uso de la nube. Para evitar esta tendencia, los clientes deberían adoptar un modelo operativo especializado. Al alinear los modelos operativos, siempre debería haber un **modelo operativo general**. En escenarios concretos se usarían otros **modelos operativos especializados** para admitir las desviaciones del modelo estándar.
 
-- **Modelo operativo general:** El modelo operativo general se alinea con una única plataforma de nube pública o privada. Las operaciones de esa plataforma definen los estándares, directivas y procesos operativos. Este modelo operativo debe ser el medio principal para potenciar la estrategia de avance de la nube. En este modelo, el objetivo es sacar el máximo partido al principal proveedor de nube durante la mayor parte del proceso de adopción.
+- **Modelo operativo general:** El modelo operativo general se alinea con una única plataforma de nube pública o privada. Las operaciones de esa plataforma definen los estándares, directivas y procesos operativos. Este modelo operativo debe ser el medio principal para potenciar la estrategia de avance de la nube. En este modelo, el objetivo es usar proveedor de nube principal durante la mayor parte del proceso de adopción.
 
 - **Modelo operativo especializado:** Puede que un proveedor de nube alternativo sea la mejor opción para lograr unos resultados empresariales concretos. Cuando hay un caso empresarial importante, los estándares, las directivas y los procesos del modelo operativo general se aplican al nuevo proveedor de nube, pero después se modifican para ajustarse al caso de uso concreto.
 

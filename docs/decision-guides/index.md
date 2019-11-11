@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 1ddb65153cde9fac7426c8ef9b10f58a60918b82
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c5ffe30a66305dcff1df70a383f6716702b4a067
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223879"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753324"
 ---
 # <a name="architectural-decision-guides"></a>Guías de decisiones sobre arquitectura
 
@@ -26,7 +26,7 @@ Estas guías de decisiones complementan los recorridos de gobernanza de ejemplo,
 
 ## <a name="decision-guidance-categories"></a>Categorías de guía en la toma de decisiones
 
-Cada una de las categorías siguientes representa una tecnología fundamental de todas las implementaciones en la nube. Los procesos de gobernanza de ejemplo toman decisiones de diseño relacionadas con estas tecnologías según en las necesidades de los negocios del ejemplo y es posible que algunas de estas decisiones no coincida con las necesidades de su propia organización. En las secciones siguientes se describen opciones alternativas para cada una de estas categorías, lo que le permite elegir el patrón o modelo que mejor se adapte a sus necesidades.
+Cada una de las categorías siguientes representa una tecnología fundamental de todas las implementaciones en la nube. Los recorridos de gobernanza de ejemplo toman decisiones de diseño relacionadas con estas tecnologías en función de las necesidades de los negocios del ejemplo y es posible que algunas de estas decisiones no coincida con las de su propia organización. En las secciones siguientes se describen opciones alternativas para cada una de estas categorías, lo que le permite elegir el patrón o modelo que mejor se adapte a sus necesidades.
 
 [Suscripciones](./subscriptions/index.md): planee la estructura de cuentas y el diseño de la suscripción de la implementación en la nube para ajustarlos a la propiedad, facturación y funcionalidades de administración de su organización.
 

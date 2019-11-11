@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ceb9fb6ff6be481f665a0bb70e3afcc2eddb6e92
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b071fc546f615679bf712e9caa7725e767b73ad9
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023896"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753192"
 ---
 # <a name="identity-decision-guide"></a>Guía de decisión de identidad
 
@@ -26,9 +26,9 @@ Vaya a: [Determinación de los requisitos de integración de identidades](#deter
 
 Hay varias opciones disponibles para administrar la identidad en un entorno en la nube. Estas opciones varían en cuanto a costo y complejidad. Un factor decisivo para estructurar los servicios de identidad basados en la nube es el nivel de integración necesario con la infraestructura de identidad local existente.
 
-En Azure, Azure Active Directory (Azure AD) proporciona un nivel básico de control de acceso y administración de identidades para los recursos en la nube. Sin embargo, si la infraestructura de Active Directory local de la organización tiene una compleja estructura de bosque o unidades organizativas (OU) personalizadas, las cargas de trabajo basadas en la nube pueden requerir la sincronización de directorios con Azure AD para tener un conjunto coherente de identidades, grupos y roles entre el entorno local y en la nube. Además, la compatibilidad con aplicaciones que dependen de mecanismos de autenticación heredados podría requerir la implementación de Active Directory Domain Services (AD DS) en la nube.
+En Azure, Azure Active Directory (Azure AD) proporciona un nivel básico de control de acceso y administración de identidades para los recursos en la nube. Sin embargo, si la infraestructura de Active Directory local de la organización tiene una estructura de bosque compleja o unidades organizativas (OU) personalizadas, las cargas de trabajo de la nube pueden requerir la sincronización de directorios con Azure AD para tener un conjunto coherente de identidades, grupos y roles entre el entorno local y el de la nube. Además, la compatibilidad con aplicaciones que dependen de mecanismos de autenticación heredados podría requerir la implementación de Active Directory Domain Services (AD DS) en la nube.
 
-La administración de identidades basada en la nube es un proceso iterativo. Podría comenzar con una solución nativa en la nube con un pequeño conjunto de usuarios y roles correspondientes para una implementación inicial. A medida que madura la migración, es posible que deba integrar la solución de identidades mediante la sincronización de directorios o agregar servicios de dominios como parte de las implementaciones de nube. Vuelva a visitar su estrategia de identidad en cada iteración del proceso de migración.
+La administración de identidades basada en la nube es un proceso iterativo. Para la implementación inicial, podría comenzar con una solución nativa en la nube con un pequeño conjunto de usuarios y sus roles correspondientes. A medida que madure la migración, es posible que deba integrar la solución de identidades mediante la sincronización de directorios o agregar servicios de dominios como parte de las implementaciones de nube. Vuelva a visitar su estrategia de identidad en cada iteración del proceso de migración.
 
 ## <a name="determine-identity-integration-requirements"></a>Determinación de los requisitos de integración de identidades
 
@@ -48,12 +48,12 @@ Azure AD es el sistema de administración de identidad y acceso (IAM) nativo par
 **Suposiciones de la línea de base en la nube:** El uso de una infraestructura de identidad puramente nativo de la nube asume lo siguiente:
 
 - Los recursos basados en la nube no tendrán dependencias de servicios de directorio locales o servidores de Active Directory o las cargas de trabajo se pueden modificar para eliminar esas dependencias.
-- Las cargas de trabajo de servicio o aplicación que se están migrando admiten mecanismos de autenticación compatibles con Azure AD o se pueden modificar fácilmente para admitirlos. Azure AD se basa en mecanismos de autenticación por Internet como SAML, OAuth y OpenID Connect. Es posible que haya que refactorizar las cargas de trabajo existentes que dependen de métodos de autenticación heredados y usan protocolos como Kerberos o NTLM antes de migrarlas a la nube con el patrón de línea de base en la nube.
+- Las cargas de trabajo de servicio o aplicación que se están migrando admiten mecanismos de autenticación compatibles con Azure AD o se pueden modificar fácilmente para admitirlos. Azure AD se basa en mecanismos de autenticación por Internet como SAML, OAuth y OpenID Connect. Es posible que haya que refactorizar las cargas de trabajo existentes que dependen de métodos de autenticación heredados que usan protocolos como Kerberos o NTLM antes de migrarlas a la nube mediante el patrón de línea de base en la nube.
 
 > [!TIP]
 > Migrar completamente los servicios de identidad a Azure AD elimina la necesidad de mantener su propia infraestructura de identidades, con lo que se simplifica de manera significativa la administración de los servicios informáticos.
 >
-> Sin embargo, Azure AD no sustituye completamente una infraestructura de Active Directory local tradicional. Es posible que algunas características de directorios, como los métodos de autenticación heredados, la administración de equipos o la directiva de grupos no estén disponibles sin implementar herramientas o servicios adicionales en la nube.
+> Sin embargo, Azure AD no sustituye completamente una infraestructura de Active Directory local tradicional. Es posible que algunas características de los directorios, como los métodos de autenticación heredados, la administración de equipos o la directiva de grupos no estén disponibles si no se han implementado previamente herramientas o servicios adicionales en la nube.
 >
 > Para escenarios donde es necesario integrar las identidades locales o los servicios de dominio con las implementaciones en la nube, consulte los patrones de sincronización de directorios y de servicios de dominio hospedados en la nube que se explican a continuación.
 
@@ -61,7 +61,7 @@ Azure AD es el sistema de administración de identidad y acceso (IAM) nativo par
 
 Para organizaciones con una infraestructura de Active Directory local existente, la sincronización de directorios suele ser la mejor solución para conservar los usuarios existentes y la administración del acceso proporcionando al mismo tiempo las funcionalidades de IAM necesarias para administrar recursos en la nube. Este proceso replica continuamente la información de los directorios entre Azure AD y los servicios de directorio locales, lo que permite credenciales comunes para los usuarios y un sistema de identidades, roles y permisos coherente en toda la organización.
 
-Nota: Es posible que las organizaciones que han adoptado Office 365 ya hayan implementado la [sincronización de directorios](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) entre su infraestructura de Active Directory local y Azure Active Directory.
+Nota: Es posible que las organizaciones que han adoptado Office 365 ya hayan implementado la [sincronización de directorios](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) entre su infraestructura de Active Directory local y Azure Active Directory.
 
 **Suposiciones de sincronización de directorios:** Con el uso de una solución de identidad sincronizada se asume lo siguiente:
 
@@ -73,7 +73,7 @@ Nota: Es posible que las organizaciones que han adoptado Office 365 ya hayan imp
 
 ### <a name="cloud-hosted-domain-services"></a>Servicios de dominio hospedados en la nube
 
-Si tiene cargas de trabajo que dependen de la autenticación basada en notificaciones y que usan protocolos heredados como Kerberos o NTLM, y no se pueden refactorizar tales cargas de trabajo para que acepten protocolos de autenticación modernos, como SAML o OpenID Connect y OAuth, es posible que necesite migrar algunos de los servicios de dominio a la nube como parte de su implementación en la nube.
+Si tiene cargas de trabajo que dependan de la autenticación basada en notificaciones, que usen protocolos heredados como Kerberos o NTLM y que no se puedan refactorizar para que acepten protocolos de autenticación modernos, como SAML o OAuth y OpenID Connect, es posible que necesite migrar algunos de los servicios de dominio a la nube como parte de su implementación en la nube.
 
 Este patrón implica la implementación de máquinas virtuales que ejecutan Active Directory en las redes virtuales basadas en la nube para proporcionar Active Directory Domain Services (AD DS) para los recursos en la nube. Todas las aplicaciones y servicios existentes que se migran a la red en la nube deben ser capaces de utilizar estos servidores de directorio hospedados en la nube con modificaciones menores.
 

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7aac08981375a3fcbbd658d6e14564a07e06795e
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 6f35ca4e8420100c7455e8fa909fc8b572ee1074
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70816302"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753464"
 ---
 # <a name="assess-assets-prior-to-migration"></a>Evaluación de los recursos antes de la migración
 
@@ -56,7 +56,7 @@ Además de la responsabilidad de alto nivel, hay acciones de las que un individu
   - Para evitar sorpresas más adelante en el proceso, al menos un representante de la empresa debe participar en el proceso de aprobación.
 
 > [!CAUTION]
-> Esta lista completa de responsabilidades y acciones puede admitir migraciones grandes y complejas que implican varios roles con distintos niveles de responsabilidad y que requieren un proceso de aprobación detallado. Puede que otros esfuerzos de migración más sencillos y pequeños no necesiten todos los roles y acciones que se describen aquí. Para determinar cuál de estas actividades agrega valor y cuál es una sobrecarga innecesaria, se recomienda que el equipo de adopción de la nube y el de estrategia en la nube usen todo este proceso como parte de la migración de su primera carga de trabajo. Después de haber comprobado y probado la carga de trabajo, el equipo puede evaluar este proceso y elegir qué acciones desea usar más adelante.
+> Esta lista completa de responsabilidades y acciones puede admitir migraciones grandes y complejas que implican varios roles con distintos niveles de responsabilidad y que requieren un proceso de aprobación detallado. Puede que otros esfuerzos de migración más sencillos y pequeños no necesiten todos los roles y acciones que se describen aquí. Para determinar cuáles de estas actividades agregan valor y cuáles son innecesarias, tanto el equipo de adopción de la nube como el de estrategia en la nube deberían usar todo este proceso como parte de la migración de la primera carga de trabajo. Después de haber comprobado y probado la carga de trabajo, el equipo puede evaluar este proceso y elegir qué acciones desea usar más adelante.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

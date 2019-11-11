@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: bc9cc463c50aac532e855ebd93ef1721d9fc38a4
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7e3df166c41658b248bc7fb61067b27362a8070c
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564834"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753155"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Guía de decisiones sobre el cumplimiento de directivas
 
@@ -51,13 +51,13 @@ A medida que crece el patrimonio de la nube, hay herramientas adicionales como [
 
 En Azure, también puede aplicar opciones de configuración y reglas de creación de recursos en el nivel de grupo de administración, suscripción o grupo de recursos para ayudar a garantizar la alineación con las directivas.
 
-[Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) es un servicio de Azure para crear, asignar y administrar directivas. Dichas directivas aplican distintas reglas y efectos a los recursos, con el fin de que estos sigan siendo compatibles con los estándares corporativos y los acuerdos de nivel de servicio. Azure Policy evalúa los recursos que incumplen las directivas asignadas. Por ejemplo, puede que desee limitar el tamaño de SKU de las máquinas virtuales del entorno. Una vez que se implementa la directiva correspondiente, se evalúa el cumplimiento de los recursos nuevos y existentes. Con la directiva correcta, se puede conseguir el cumplimiento de los recursos existentes.
+[Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) es un servicio de Azure para crear, asignar y administrar directivas. Dichas directivas aplican distintas reglas y efectos a los recursos, con el fin de que estos sigan siendo compatibles con los estándares corporativos y los acuerdos de nivel de servicio. Azure Policy evalúa los recursos que incumplen las directivas asignadas. Por ejemplo, puede que desee limitar el tamaño de SKU de las máquinas virtuales del entorno. Tras implementar la directiva correspondiente, se evalúa el cumplimiento tanto de los recursos nuevos como de los existentes. Con la directiva correcta, se puede conseguir el cumplimiento de los recursos existentes.
 
 ## <a name="cross-organization-policy"></a>Directiva para toda la organización
 
-A medida que crece su entorno en la nube y este abarca muchas suscripciones que requieren cumplimiento, deberá centrarse en una estrategia de cumplimiento que abarque a todo el entorno para garantizar la coherencia de las directivas.
+A medida que crece su patrimonio en la nube y abarca muchas suscripciones que requieren cumplimiento, deberá centrarse en una estrategia de cumplimiento que abarque a todo el patrimonio para garantizar la coherencia de las directivas.
 
-El [diseño de las suscripciones](../subscriptions/index.md) deberá tener en cuenta la directiva en lo referente a la estructura organizativa. Además de ayudar a admitir una organización compleja dentro del diseño de suscripciones, los [grupos de administración de Azure](../../ready/azure-best-practices/scaling-subscriptions.md#manage-multiple-subscriptions) se pueden usar para asignar reglas de Azure Policy en varias suscripciones.
+El [diseño de las suscripciones](../subscriptions/index.md) debe tener en cuenta la directiva en relación a la estructura organizativa. Además de ayudar a admitir una organización compleja dentro del diseño de suscripciones, los [grupos de administración de Azure](../../ready/azure-best-practices/scaling-subscriptions.md#manage-multiple-subscriptions) se pueden usar para asignar reglas de Azure Policy en varias suscripciones.
 
 ## <a name="automated-enforcement"></a>Cumplimiento automatizado
 
