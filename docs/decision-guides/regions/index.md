@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 14ebb2d3f253a7cf80b005595584202537e46cc1
-ms.sourcegitcommit: 910efd3e686bd6b9bf93951d84253b43d4cc82b5
+ms.openlocfilehash: 3e43c6ac4136a2f8f89446091f9bcea005369fce
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72769401"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564828"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -29,7 +29,7 @@ Azure se compone de muchas regiones repartidas por todo el mundo. Cada una de la
     1. [Azure US Government](https://azure.microsoft.com/global-infrastructure/government)
     1. Nota: hay dos regiones en [Australia](https://azure.microsoft.com/global-infrastructure/australia) que administra Microsoft, pero que se proporcionan para el gobierno australiano y sus clientes y contratistas y, por tanto, tienen restricciones para el cliente similares a las del resto de nubes soberanas.
 
-## <a name="operating-in-multiple-geographic-regions"></a>Funcionamiento en varias regiones geográficas
+## <a name="operate-in-multiple-geographic-regions"></a>Funcionamiento en varias regiones geográficas
 
 Cuando las empresas operan en varias regiones geográficas, lo cual es importante para mejorar la resistencia, se da una mayor complejidad. Esta complejidad se manifiesta de cuatro formas principales:
 
@@ -44,17 +44,23 @@ A medida que profundicemos en estos puntos, empezará a comprender lo importante
 
 Cualquier implementación sólida en la nube requiere una red bien ponderada que tenga en cuenta las regiones de Azure. Después de reflexionar sobre las características anteriores acerca de en qué regiones realizar la implementación, se debe implementar la red. Aunque el análisis exhaustivo de las redes queda fuera del ámbito de este artículo, se deben tener en cuenta algunas consideraciones:
 
-1. Las regiones de Azure se implementan por pares. Si se produce un error grave en una región, se designa otra región dentro del mismo límite geopolítico* como su región emparejada. La implementación en regiones emparejadas debe considerarse una estrategia de resistencia principal y secundaria. *Azure Brasil es una excepción importante cuya región emparejada es Centro y Sur de EE. UU. Para más información, consulte [Regiones emparejadas de Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions).
-    1. Azure Storage admite el [almacenamiento con redundancia geográfica (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), lo que implica que se almacenan tres copias de los datos en la región primaria y tres copias adicionales en la región emparejada. En el almacenamiento con redundancia geográfica no se puede cambiar el emparejamiento del almacenamiento.
-    1. Los servicios que se basan en este tipo de almacenamiento de Azure Storage pueden sacar el máximo partido a esta funcionalidad de región emparejada. Para ello, se deben orientar las aplicaciones y la red para que admitan dicha funcionalidad.
-    1. Si no tiene previsto aprovechar GRS para apoyar sus necesidades de resistencia regional, se recomienda que _NO_ utilice la región emparejada como secundaria. En caso de error regional, los recursos de la región emparejada estarán sometidos a una gran presión mientras se migran los recursos. Realizar la recuperación en un sitio alternativo evita esa presión y proporcionar más velocidad.
-    > [!WARNING]
-    > No intente utilizar el almacenamiento con redundancia geográfica de Azure para las copias de seguridad o la recuperación de máquinas virtuales. En vez de eso, utilice [Azure Backup](https://azure.microsoft.com/services/backup) y [Azure Site Recovery](https://azure.microsoft.com/services/site-recovery), además de [Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview), para mejorar la resistencia de las cargas de trabajo de IaaS.
-2. Azure Backup y Azure Site Recovery funcionan de forma conjunta con el diseño de la red para facilitar la resistencia regional para sus necesidades de IaaS y de copia de seguridad de datos. Asegúrese de que la red está optimizada para que las transferencias de datos permanezcan en la red troncal de Microsoft y utilicen el [emparejamiento de redes virtuales](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) si es posible. En su lugar, algunas organizaciones de mayor tamaño con implementaciones globales pueden utilizar [ExpressRoute Premium](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) para enrutar el tráfico entre regiones, lo cual puede suponer un ahorro en los cargos de salida de la región.
-3. Los grupos de recursos de Azure son construcciones específicas de cada región. Sin embargo, es normal que los recursos de un grupo de recursos abarquen varias regiones. Si es así, es importante tener en cuenta que, en caso de error en una región, las operaciones del plano de control en un grupo de recursos producirán un error en la región afectada, aunque los recursos de otras regiones (dentro de ese grupo de recursos) sigan funcionando. Esto puede afectar a la red y al diseño del grupo de recursos.
-4. Muchos servicios de PaaS de Azure admiten [puntos de conexión de servicio](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) o [vínculos privados](https://docs.microsoft.com/azure/private-link/private-link-overview). Ambas soluciones afectan notablemente a aspectos como la resistencia, la migración y la gobernanza regionales.
-5. Muchos servicios de PaaS se basan en sus propias soluciones de resistencia regional. Por ejemplo, Azure SQL Database le permite replicar fácilmente en N regiones adicionales, como también hace Cosmos DB. Algunos servicios no incluyen ninguna dependencia de región como Azure DNS. A la hora de considerar qué servicios va a utilizar en el proceso de adopción, asegúrese de que comprende claramente las funcionalidades de conmutación por error y los pasos de recuperación que puede necesitar cada servicio de Azure.
-6. Además de realizar la implementación en varias regiones para dar servicio a la recuperación ante desastres, muchas organizaciones deciden implementarse en un patrón activo-activo para que no sea necesaria ninguna conmutación por error. Esto tiene la ventaja adicional de proporcionar equilibrio de carga global, una mejora de la tolerancia a errores y mejor rendimiento de red. Para sacar el máximo partido a este patrón, las aplicaciones deben admitir la ejecución activa-activa en varias regiones.
+- Las regiones de Azure se implementan por pares. Si se produce un error grave en una región, se designa otra región dentro del mismo límite geopolítico* como su región emparejada. La implementación en regiones emparejadas debe considerarse una estrategia de resistencia principal y secundaria. *Azure Brasil es una excepción importante cuya región emparejada es Centro y Sur de EE. UU. Para más información, consulte [Regiones emparejadas de Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions).
+
+  - Azure Storage admite el [almacenamiento con redundancia geográfica (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), lo que implica que se almacenan tres copias de los datos en la región primaria y tres copias adicionales en la región emparejada. En el almacenamiento con redundancia geográfica no se puede cambiar el emparejamiento del almacenamiento.
+  - Los servicios que se basan en este tipo de almacenamiento de Azure Storage pueden sacar el máximo partido a esta funcionalidad de región emparejada. Para ello, se deben orientar las aplicaciones y la red para que admitan dicha funcionalidad.
+  - Si no tiene previsto aprovechar GRS para apoyar sus necesidades de resistencia regional, se recomienda que _NO_ utilice la región emparejada como secundaria. En caso de error regional, los recursos de la región emparejada estarán sometidos a una gran presión mientras se migran los recursos. Realizar la recuperación en un sitio alternativo evita esa presión y proporcionar más velocidad.
+  > [!WARNING]
+  > No intente utilizar el almacenamiento con redundancia geográfica de Azure para las copias de seguridad o la recuperación de máquinas virtuales. En su lugar, utilice [Azure Backup](https://azure.microsoft.com/services/backup) y [Azure Site Recovery](https://azure.microsoft.com/services/site-recovery), además de [Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview), para dar soporte a la resistencia de las cargas de trabajo de IaaS.
+
+- Azure Backup y Azure Site Recovery funcionan de forma conjunta con el diseño de la red para facilitar la resistencia regional para sus necesidades de IaaS y de copia de seguridad de datos. Asegúrese de que la red está optimizada para que las transferencias de datos permanezcan en la red troncal de Microsoft y utilicen el [emparejamiento de redes virtuales](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) si es posible. En su lugar, algunas organizaciones de mayor tamaño con implementaciones globales pueden utilizar [ExpressRoute Premium](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) para enrutar el tráfico entre regiones, lo cual puede suponer un ahorro en los cargos de salida de la región.
+
+- Los grupos de recursos de Azure son construcciones específicas de cada región. Sin embargo, es normal que los recursos de un grupo de recursos abarquen varias regiones. Si es así, es importante tener en cuenta que, en caso de error en una región, las operaciones del plano de control en un grupo de recursos producirán un error en la región afectada, aunque los recursos de otras regiones (dentro de ese grupo de recursos) sigan funcionando. Esto puede afectar a la red y al diseño del grupo de recursos.
+
+- Muchos servicios de PaaS de Azure admiten [puntos de conexión de servicio](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) o [vínculos privados](https://docs.microsoft.com/azure/private-link/private-link-overview). Ambas soluciones afectan notablemente a aspectos como la resistencia, la migración y la gobernanza regionales.
+
+- Muchos servicios de PaaS se basan en sus propias soluciones de resistencia regional. Por ejemplo, Azure SQL Database le permite replicar fácilmente en N regiones adicionales, como también hace Cosmos DB. Algunos servicios no incluyen ninguna dependencia de región como Azure DNS. A la hora de considerar qué servicios va a utilizar en el proceso de adopción, asegúrese de que comprende claramente las funcionalidades de conmutación por error y los pasos de recuperación que puede necesitar cada servicio de Azure.
+
+- Además de realizar la implementación en varias regiones para dar servicio a la recuperación ante desastres, muchas organizaciones deciden implementarse en un patrón activo-activo para que no sea necesaria ninguna conmutación por error. Esto tiene la ventaja adicional de proporcionar equilibrio de carga global, una mejora de la tolerancia a errores y mejor rendimiento de red. Para sacar el máximo partido a este patrón, las aplicaciones deben admitir la ejecución activa-activa en varias regiones.
 
 > [!WARNING]
 > Las regiones de Azure son construcciones de alta disponibilidad a las que se ha aplicado un Acuerdo de Nivel de Servicio a los servicios que se ejecutan en ellas. Sin embargo, nunca debe usar una única dependencia de región en aplicaciones críticas. Disponga siempre de algún plan ante errores regionales y practique medidas de recuperación y de mitigación.
@@ -70,7 +76,7 @@ Después de reflexionar sobre la topología de red que necesita para preservar c
 
 Alinee los cambios en el proceso de migración para dirigir el inventario inicial.
 
-## <a name="documenting-complexity"></a>Documentación de la complejidad
+## <a name="document-complexity"></a>Complejidad de documentos
 
 La tabla siguiente puede ayudar a documentar los resultados de los pasos anteriores:
 
@@ -99,7 +105,7 @@ Como la empresa admite empleados, asociados y clientes en Alemania pero actualme
 
 La ubicación de los centros de datos existentes puede afectar a una estrategia de migración. A continuación, se muestran algunos de los impactos más comunes:
 
-**Decisiones sobre la arquitectura:** la ubicación o región de destino es uno de los primeros pasos que se establecen en el diseño de la estrategia de migración. Suele verse afectado por la ubicación de los recursos existentes. Además, la disponibilidad de los servicios en la nube y el costo unitario de esos servicios puede variar de una región a otra. Por lo tanto, entender la ubicación actual y futura de los recursos afecta las decisiones sobre la arquitectura y también puede afectar los cálculos de presupuesto.
+**Decisiones sobre la arquitectura:** la región de destino es uno de los primeros pasos que se incluyen en el diseño de la estrategia de migración. Suele verse afectado por la ubicación de los recursos existentes. Además, la disponibilidad de los servicios en la nube y el costo unitario de esos servicios puede variar de una región a otra. Por lo tanto, entender la ubicación actual y futura de los recursos afecta las decisiones sobre la arquitectura y también puede afectar los cálculos de presupuesto.
 
 **Dependencias de los centros de datos:** según los datos de la tabla anterior, es probable que existan dependencias entre los distintos centros de datos de todo el mundo. En muchas organizaciones que operan en este tipo de escala, es posible que esas dependencias no estén documentadas o que no se comprendan bien. Los enfoques que se usan para evaluar los perfiles de usuario ayudarán a identificar algunas de estas dependencias. Sin embargo, se sugieren pasos adicionales durante el proceso de evaluación para mitigar los riesgos asociados con esta complejidad.
 
@@ -114,7 +120,7 @@ Cuando el ámbito de una migración incluye varias regiones, el equipo de adopci
 
 Una vez que el equipo esté familiarizado con el enfoque de línea de base y que la disponibilidad está alineada, es necesario considerar algunos requisitos previos controlados por datos:
 
-- **Detección general:** complete la tabla [Documentación de la complejidad](#documenting-complexity) anterior.
+- **Detección general:** complete la tabla [Documentación de la complejidad](#document-complexity) anterior.
 - **Realice un análisis de los perfiles de usuario en cada país afectado:** es importante entender el enrutamiento del usuario final general en una etapa temprana del proceso de migración. Cambiar las líneas alquiladas globales y agregar conexiones como ExpressRoute a un centro de datos en la nube pueden requerir meses de retrasos en la red. Aborde esta complejidad tan pronto como sea posible en el proceso.
 - **Racionalización del patrimonio digital inicial:** cada vez que se introduce una complejidad en una estrategia de migración, se debe realizar una racionalización del patrimonio digital inicial. Consulte las instrucciones sobre [racionalización del patrimonio digital](../../digital-estate/index.md) para obtener ayuda.
   - **Requisitos adicionales del patrimonio digital:** establezca directivas de etiquetado para identificar todas las cargas de trabajo afectadas por los requisitos de soberanía de datos. Las etiquetas necesarias deben empezar en la racionalización del patrimonio digital y pasar a los recursos migrados.

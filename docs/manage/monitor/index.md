@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 67dbfbe48626c77303ec8626dc7889f474a28b66
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 315ba0898f6a301af6f91614290c51244fbf6eb0
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979879"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564929"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Guía sobre la supervisión en la nube: Introducción
 
@@ -34,7 +34,7 @@ El objetivo de esta guía es proporcionar una referencia detallada para ayudar a
 
 * Las plataformas de supervisión, con información general y una comparación de sus funcionalidades.
 * La solución que mejor se adapta a la supervisión de cargas de trabajo híbridas, privadas y nativas de Azure.
-* El enfoque de supervisión recomendado para la infraestructura y las aplicaciones como un conjunto, de un extremo a otro. Este enfoque incluye soluciones que se pueden implementar para migrar estas cargas de trabajo comunes a Azure.
+* El enfoque de supervisión de un extremo a otro recomendado tanto para la infraestructura como para las aplicaciones. Este enfoque incluye soluciones que se pueden implementar para migrar estas cargas de trabajo comunes a Azure.
 
 Esta no es una guía paso a paso de uso o configuración de servicios y soluciones individuales de Azure, pero hace referencia a esas fuentes si son aplicables o están disponibles. Después de leerla, comprenderá cómo usar correctamente una carga de trabajo siguiendo unos procedimientos y patrones recomendados.
 

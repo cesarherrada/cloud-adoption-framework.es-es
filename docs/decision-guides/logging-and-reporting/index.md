@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ee1006efd3a8807e294480fdea4e46b8555a0bb8
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: b772eddfce65fa7a2ce4d67e36b1cc0f82e47ac5
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73238762"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564865"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -22,13 +22,13 @@ Todas las organizaciones necesitan mecanismos para informar a los equipos de TI 
 
 ![A continuación, se presenta el trazado de opciones de registro, informes y supervisión de menos a más complejas, alineadas con vínculos](../../_images/decision-guides/decision-guide-logging-and-reporting.png)
 
-Vaya a: [Planeamiento de una infraestructura de supervisión](#planning-your-monitoring-infrastructure) | [Nativo de la nube](#cloud-native) | [Extensión local](#on-premises-extension) | [Agregación de puerta de enlace](#gateway-aggregation) | [Supervisión híbrida (local)](#hybrid-monitoring-on-premises) | [Supervisión híbrida (en la nube)](#hybrid-monitoring-cloud-based) | [Nube múltiple](#multicloud) | [Más información](#learn-more)
+Vaya a: [Planeamiento de una infraestructura de supervisión](#plan-your-monitoring-infrastructure) | [Nativo de la nube](#cloud-native) | [Extensión local](#on-premises-extension) | [Agregación de puerta de enlace](#gateway-aggregation) | [Supervisión híbrida (local)](#hybrid-monitoring-on-premises) | [Supervisión híbrida (en la nube)](#hybrid-monitoring-cloud-based) | [Nube múltiple](#multicloud) | [Más información](#learn-more)
 
 El punto de inflexión al determinar una estrategia de generación de informes y registro en la nube se basa principalmente en las inversiones que una organización haya realizado en los procesos operativos y, hasta cierto punto, en los requisitos que hay que cumplir para respaldar una estrategia de nube múltiple.
 
 Hay varias formas de registrar y notificar las actividades en la nube. El registro nativo en la nube y el centralizado son dos opciones de servicio administrado habituales basadas en el diseño de la suscripción y en el número de suscripciones.
 
-## <a name="planning-your-monitoring-infrastructure"></a>Planeamiento de la infraestructura de supervisión
+## <a name="plan-your-monitoring-infrastructure"></a>Planeamiento de una infraestructura de supervisión
 
 Al planear la implementación, debe pensar en dónde se almacenarán los datos de registro y en cómo integrará los informes basados en la nube y los servicios de supervisión con las herramientas y los procesos existentes.
 
@@ -45,9 +45,9 @@ Si una organización no dispone de sistemas de registro y generación de informe
 
 En este escenario, todos los datos del registro se graban y almacenan en la nube, mientras que las herramientas de registro y generación de informes que procesan y muestran la información al personal de TI se proporcionan por la plataforma Azure y Azure Monitor.
 
-Las soluciones de registro personalizadas basadas en Azure Monitor se pueden implementar ad hoc en cada suscripción o carga de trabajo en implementaciones experimentales o más pequeñas, y se organizan de forma centralizada para supervisar los datos de registro en todo el entorno de la nube.
+Las soluciones de registro personalizadas basadas en Azure Monitor se pueden implementar ad hoc en todas las suscripciones o cargas de trabajo en implementaciones experimentales o pequeñas, y se organizan de forma centralizada para supervisar los datos de registro en todo el entorno de la nube.
 
-**Hipótesis nativas de la nube.** Al usar un sistema de registro y generación de informes nativo de la nube, se asume lo siguiente:
+**Supuestos nativos de la nube:** Al usar un sistema de registro y generación de informes nativo de la nube, se asume lo siguiente:
 
 - No es necesario integrar los datos de registro de las cargas de trabajo de la nube en los sistemas locales existentes.
 - No usará los sistemas de informes basados en la nube para supervisar los sistemas locales.
@@ -87,7 +87,7 @@ Una solución de supervisión híbrida combina los datos de registro de los recu
 
 Si ya ha realizado una inversión en sistemas de supervisión local que le resultaría difícil o caro sustituir, puede que necesite integrar los datos de telemetría de las cargas de trabajo en la nube en las soluciones de supervisión locales preexistentes. En un sistema de supervisión local híbrida, los datos de telemetría locales siguen usando el sistema de supervisión local existente. Los datos de telemetría basados en la nube se envían directamente al sistema de supervisión en la nube, o bien los datos se envían a Azure Monitor y luego se compilan e ingieren en el sistema local a intervalos regulares.
 
-**Hipótesis para la supervisión híbrida local.** Al usar un sistema de registros e informes local para una supervisión híbrida, se da por hecho lo siguiente:
+**Supuestos de la supervisión híbrida local:** Al usar un sistema de registros e informes local para una supervisión híbrida, se da por hecho lo siguiente:
 
 - Deberá usar los sistemas de informes locales existentes para supervisar las cargas de trabajo en la nube.
 - Debe mantener la propiedad local de los datos de registro.

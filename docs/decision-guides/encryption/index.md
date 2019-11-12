@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 82ad7e2c4e7e7eac375e99daa0815c8482492e15
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 27a86947bdcf240f3ea469db10c94b3f63ccb1e8
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223902"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564893"
 ---
 # <a name="encryption-decision-guide"></a>Guía de decisiones sobre cifrado
 
@@ -103,7 +103,9 @@ El cifrado de datos en reposo también incluye técnicas de cifrado de base de d
 
 Los requisitos generales de directiva y cumplimiento, la confidencialidad de los datos almacenados y los requisitos de rendimiento de las cargas de trabajo determinarán qué recursos necesitan cifrado.
 
-**Suposiciones sobre el cifrado de datos en reposo**. Para el cifrado de datos en reposo se da por hecho lo siguiente:
+### <a name="assumptions-about-encrypting-data-at-rest"></a>Suposiciones sobre el cifrado de datos en reposo
+
+Para el cifrado de datos en reposo se da por hecho lo siguiente:
 
 - Almacena datos que no están destinados al consumo público.
 - Las cargas de trabajo pueden aceptar el costo de latencia agregada que supone el cifrado de los discos.

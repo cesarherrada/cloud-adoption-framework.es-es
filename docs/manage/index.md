@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 layout: LandingPage
-ms.openlocfilehash: 5a53b72747d20e8b7b2d3ca25a6ffc29b46e1203
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 1e54fdc30e0db1ed1cecf01156bb9c25368a8457
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979889"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565030"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Administración de la nube en Cloud Adoption Framework
 
@@ -111,7 +111,7 @@ En los pasos anteriores se crean enfoques prácticos para proporcionar la metodo
 
 ![Metodología de administración de Cloud Adoption Framework](../_images/manage/caf-manage.png)
 
-## <a name="creating-a-balanced-cloud-portfolio"></a>Creación de una cartera equilibrada en la nube
+## <a name="create-a-balanced-cloud-portfolio"></a>Creación de una cartera equilibrada en la nube
 
 Tal y como se describe en el artículo sobre [alineación empresarial](./considerations/business-alignment.md), no todas las cargas de trabajo son críticas. Dentro de toda cartera hay distintos grados de necesidades de administración operativa. Los trabajos de alineación empresarial ayudan a identificar el impacto empresarial y a negociar los costos de administración con la empresa para garantizar el uso de los procesos y herramientas de administración operativa más adecuados.
 

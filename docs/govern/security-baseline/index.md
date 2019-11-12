@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 1338fb14ed39915dc9e55c855dd5bbf00ba7a6eb
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: a0b0ed642e11fc3ffc81db7fd1095853a5458b1d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221753"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565940"
 ---
 # <a name="security-baseline-discipline-overview"></a>Información general sobre la materia de base de referencia de seguridad
 
@@ -35,7 +35,7 @@ Las declaraciones de la directiva accionable y los requisitos de arquitectura re
 > [!CAUTION]
 > Las directivas de ejemplo proceden de experiencias habituales de los clientes. Para alinear mejor estas directivas con necesidades de gobernanza en la nube específicas, ejecute los pasos siguientes para crear declaraciones de la directiva que satisfagan sus necesidades empresariales únicas.
 
-## <a name="developing-security-baseline-governance-policy-statements"></a>Desarrollo de declaraciones de directivas de gobernanza de base de referencia de seguridad
+## <a name="develop-governance-policy-statements"></a>Desarrollo de instrucciones de la directiva de gobierno
 
 Los seis pasos siguientes ofrecen ejemplos y posibles opciones que se deben tener en cuenta al desarrollar la gobernanza de base de referencia de seguridad. Use cada paso como punto de partida de análisis en el equipo de gobernanza en la nube y con los equipos de seguridad, TI y empresariales afectados de toda la organización para establecer las directivas y procesos necesarios para administrar los riesgos relacionados con la seguridad.
 

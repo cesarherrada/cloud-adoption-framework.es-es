@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: cab22f60604b2bf201f333df366c7ceca0398ffc
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: c6ad3e6b14ffde5f3c09feb6047a2d0bbe981314
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683525"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564796"
 ---
 # <a name="resource-consistency-decision-guide"></a>Guía de decisiones de la coherencia de recursos
 
@@ -32,7 +32,7 @@ Con el aumento de la importancia de estos factores, las ventajas de garantizar l
 
 En Azure, los [grupos de recursos](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups) son un mecanismo principal de organización de recursos para agrupar lógicamente los recursos dentro de una suscripción.
 
-Los grupos de recursos actúan como contenedores para los recursos con un ciclo de vida común Y restricciones de administración compartidas, como la directiva o los requisitos de control de acceso basado en rol (RBAC). Los grupos de recursos no pueden anidarse, y los recursos solo pueden pertenecer a un solo grupo de recursos. Todas las acciones del plano de control actúan sobre todos los recursos de un grupo de recursos. Por ejemplo, al eliminar un grupo de recursos, también se eliminan todos los recursos de ese grupo. El patrón preferido para la administración del grupo de recursos debe tener en cuenta lo siguiente:
+Los grupos de recursos actúan como contenedores para los recursos con un ciclo de vida común, así como restricciones de administración compartidas, como los requisitos de la directiva o del control de acceso basado en rol (RBAC). Los grupos de recursos no pueden anidarse, y los recursos solo pueden pertenecer a un solo grupo de recursos. Todas las acciones del plano de control actúan sobre todos los recursos de un grupo de recursos. Por ejemplo, al eliminar un grupo de recursos, también se eliminan todos los recursos de ese grupo. El patrón preferido para la administración del grupo de recursos debe tener en cuenta lo siguiente:
 
 1. ¿Se desarrollan los contenidos del grupo de recursos de forma conjunta?
 1. ¿Se administran, actualizan y supervisan de forma conjunta los contenidos del grupo de recursos? ¿Realizan esas operaciones las mismas personas o equipos?
@@ -41,7 +41,7 @@ Los grupos de recursos actúan como contenedores para los recursos con un ciclo 
 Si respondió _NO_ a cualquiera de las preguntas anteriores, el recurso en cuestión debe colocarse en otra parte, en otro grupo de recursos.
 
 > [!IMPORTANT]
-> Los grupos de recursos también son específicos de una región; sin embargo, es habitual que los recursos estén en regiones diferentes aunque dentro del mismo grupo de recursos, ya que se administran de forma conjunta como se describió anteriormente. Consulte [esto](../regions/index.md) para más información sobre la selección de la región.
+> Los grupos de recursos también son específicos de una región; sin embargo, es habitual que los recursos estén en regiones diferentes, aunque dentro del mismo grupo de recursos, ya que, cómo se indicó anteriormente, se administran de forma conjunta. Para más información sobre la selección de regiones, consulte la [guía para la elección de regiones](../regions/index.md).
 
 ## <a name="deployment-consistency"></a>Coherencia de implementación
 

@@ -8,12 +8,12 @@ ms.date: 12/10/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 9a5b7c3eb1a831b9bf15540550d1c2005114a820
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 3504e9107f221e71953a238b5ebd092a7531e5ae
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023467"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564742"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -27,11 +27,11 @@ La importancia de un patrimonio digital se hace más evidente durante la planeac
 
 La medición de un patrimonio digital cambia según los resultados empresariales deseados.
 
-- **Migraciones de infraestructura.** Cuando una organización mira hacia el interior y busca optimizar los costos, los procesos operativos, la agilidad u otros aspectos de las operaciones, el patrimonio digital se centra en máquinas virtuales, servidores y cargas de trabajo.
+- **Migraciones de infraestructura:** Cuando una organización mira hacia el interior y busca optimizar los costos, los procesos operativos, la agilidad u otros aspectos de las operaciones, el patrimonio digital se centra en máquinas virtuales, servidores y cargas de trabajo.
 
-- **Innovación de aplicaciones.** En las transformaciones que se centran en el cliente, el objetivo es algo diferente. El foco debe situarse en las aplicaciones, las API y los datos transaccionales que admiten los clientes. Las máquinas virtuales y los dispositivos de red reciben, a menudo, menos atención.
+- **Innovación en las aplicaciones.** En las transformaciones que se centran en el cliente, el objetivo es algo diferente. El foco debe situarse en las aplicaciones, las API y los datos transaccionales que admiten los clientes. Las máquinas virtuales y los dispositivos de red reciben, a menudo, menos atención.
 
-- **Innovación controlada por datos**. En el mercado actual controlado digitalmente, es difícil lanzar un nuevo producto o servicio sin una sólida base de datos. Durante los esfuerzos de innovación de datos habilitados para la nube, el centro de atención recae en los silos de datos de la organización.
+- **Innovación controlada por datos:** En el mercado actual controlado digitalmente, es difícil lanzar un nuevo producto o servicio sin una sólida base de datos. Durante los esfuerzos de innovación de datos habilitados para la nube, el centro de atención recae en los silos de datos de la organización.
 
 Una vez que una organización comprende la forma de transformación más importante, el planeamiento del patrimonio digital se hace mucho más fácil de administrar.
 

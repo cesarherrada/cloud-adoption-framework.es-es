@@ -8,12 +8,12 @@ layout: LandingPage
 ms.topic: landing-page
 author: BrianBlanchard
 ms.date: 10/14/2019
-ms.openlocfilehash: 72a3a5310ae0eaea52cffdec41ea2b1fb6c9a585
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 743bbb31b6bee799e18161a55b0f70c1783eaf6f
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239564"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565921"
 ---
 # <a name="microsoft-cloud-adoption-framework-for-azure"></a>Plataforma de adopción de la nube de Microsoft para Azure
 
@@ -157,7 +157,7 @@ Administración de operaciones para soluciones en la nube e híbridas.
     </li>
 </ul>
 
-## <a name="understanding-the-lifecycle"></a>Descripción del ciclo de vida
+## <a name="understand-the-lifecycle"></a>Descripción del ciclo de vida
 
 Cada una de las fases capturadas anteriormente forman parte de un amplio ciclo de vida de la adopción de la nube. La imagen siguiente une cada fase para demostrar el ciclo de vida global. Cloud Adoption Framework es un marco completo del ciclo de vida, que respalda a los clientes en cada fase.
 
