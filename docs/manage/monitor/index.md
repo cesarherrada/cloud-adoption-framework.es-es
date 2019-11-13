@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 315ba0898f6a301af6f91614290c51244fbf6eb0
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 0920e834bcec0fc5885650ba5cab7ec28eac669f
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564929"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752781"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Guía sobre la supervisión en la nube: Introducción
 
-La nube presenta un cambio fundamental en la forma en que las empresas adquieren y utilizan los recursos de tecnología. En el pasado, las empresas asumían la propiedad y responsabilidad en todos los niveles de tecnología desde la infraestructura al software. Ahora, la nube ofrece a las empresas la posibilidad de aprovisionar y consumir recursos según sea necesario.
+La nube cambia fundamentalmente el modo en que las empresas adquieren y usan los recursos tecnológicos. En el pasado, las empresas asumían la propiedad y responsabilidad en todos los niveles de tecnología desde la infraestructura al software. Ahora, la nube ofrece a las empresas la posibilidad de aprovisionar y consumir recursos según sea necesario.
 
 Aunque la nube ofrece una flexibilidad prácticamente ilimitada en términos de opciones de diseño, las empresas buscan una metodología probada y coherente para la adopción de tecnologías en la nube. Cada empresa tiene objetivos y escalas de tiempo diferentes para la adopción de la nube, lo cual hace que sea casi imposible encontrar un único enfoque de adopción.
 
