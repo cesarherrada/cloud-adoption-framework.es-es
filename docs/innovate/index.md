@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: 0d8ffd15dd0e42e7ba31760361dc970b63025eda
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 96ca8aab7a1fb1e04180f12ac1753bd1b6857e92
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565618"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752137"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Innovación en la nube en Cloud Adoption Framework
 
@@ -79,7 +79,7 @@ Azure incluye varias herramientas en la nube que pueden acelerar la implementaci
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Procedimientos recomendados</h3>
-Las decisiones arquitectónicas deberían seguir los procedimientos recomendados en todas las herramientas de la cadena. Ceñirse a esta guía facilita la aceleración del desarrollo de soluciones y el aprovisionamiento de una referencia para la creación de diseños arquitectónicos sólidos.
+Las decisiones arquitectónicas deberían seguir los procedimientos recomendados en todas las herramientas de la cadena. Si se ciñe a esta guía, acelerará más el desarrollo de soluciones y proporcionará una referencia para la creación de diseños arquitectónicos sólidos.
                         </div>
                     </div>
                 </div>

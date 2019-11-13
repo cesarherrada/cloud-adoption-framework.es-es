@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 27a86947bdcf240f3ea469db10c94b3f63ccb1e8
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: ed394c0bd1748a6e3382835cec816b552217bd01
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564893"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753358"
 ---
 # <a name="encryption-decision-guide"></a>Guía de decisiones sobre cifrado
 
@@ -63,7 +63,7 @@ Con el enfoque "Bring Your Own Key" puede generar claves en el hardware del HSM 
 
 ### <a name="on-premises-hold-your-own-key"></a>Local (mantenga su propia clave)
 
-En algunos casos, podría haber normativas, directivas o razones técnicas por las que las claves no se pueden almacenar en un sistema de administración de claves basado en la nube. En tales casos, deberá generar las claves mediante el hardware local y almacenarlas y administrarlas mediante un sistema de administración de claves local, y deberá aprovisionar un mecanismo que permita a un recurso basado en la nube acceder a estas claves con fines de cifrado. Tenga en cuenta que el enfoque "Hold Your Own Key" puede que no sea compatible con todos los servicios basados en Azure.
+Determinados escenarios pueden tener motivos técnicos, normativos o de directivas para prohibir el almacenamiento de claves en un sistema de administración de claves basado en la nube. En ese caso, deberá generar las claves mediante el hardware local, almacenarlas y administrarlas mediante un sistema de claves local y establecer una forma de que los recursos basados en la nube acceder a las claves para realizar el cifrado. Tenga en cuenta que es posible que mantener su propia clave no sea compatible con todos los servicios basados en Azure.
 
 **Suposiciones para la administración local de claves:** En el uso de un sistema de administración de claves local se da por hecho lo siguiente:
 
@@ -84,7 +84,7 @@ Tenga en cuenta los diferentes estados de los datos, con sus diferentes necesida
 
 Los datos en tránsito son aquellos que se transfieren internamente entre los recursos, entre los centros de datos o las redes externas o a través de Internet.
 
-Normalmente, para cifrar los datos en tránsito se requiere los protocolos SSL/TLS para el tráfico. Siempre se debe cifrar el tráfico en tránsito entre los recursos hospedados en la nube a la red externa o a la red de Internet pública. Recursos de PaaS generalmente también aplican cifrado SSL/TLS al tráfico de forma predeterminada. Si debe aplicar o no cifrado al tráfico entre los recursos de IaaS hospedados en sus redes virtuales es una decisión del equipo de adopción de la nube y de los propietarios de la carga de trabajo y, por lo general, se recomienda.
+Normalmente, para cifrar los datos en tránsito se requieren los protocolos SSL/TLS para el tráfico de red. Cifre siempre el tráfico entre los recursos hospedados en la nube y las redes externas o la red pública de Internet. Los recursos de PaaS normalmente aplican el cifrado SSL/TLS de forma predeterminada. Tanto los equipos de adopción de la nube como los propietarios de las cargas de trabajo deben considerar la posibilidad de aplicar el cifrado al tráfico que existe entre los recursos de IaaS hospedados en sus redes virtuales.
 
 **Suposiciones sobre el cifrado de datos en tránsito:** Al implementar una directiva de cifrado para los datos en tránsito, se da por hecho lo siguiente:
 

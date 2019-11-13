@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: abbcdd7214673fdad47946ae77f7dd0bdb7c57af
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 1b0ecb840a5378acbabaf94f11e2aa1297c35427
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565508"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751549"
 ---
 ::: zone target="docs"
 
@@ -45,7 +45,7 @@ Esta guía le enseña a establecer las herramientas necesarias para una línea d
 > - **Protección y recuperación:** asegúrese de que todos los recursos administrados están protegidos y se pueden recuperar mediante las herramientas de administración de la línea de base.
 > - **Opciones de línea de base mejorada:** evalúe las incorporaciones comunes a la línea de base que puedan satisfacer las necesidades empresariales.
 > - **Operaciones de la plataforma:** amplíe la línea de base de administración con un catálogo de servicios bien definido y plataformas administradas centralmente.
-> - **Operaciones con cargas de trabajo:** extienda la línea de base de administración para incluir la posibilidad de centrarse en las cargas de trabajo críticas.
+> - **Operaciones con cargas de trabajo:** amplíe la línea de base de administración para incluir la posibilidad de centrarse en las cargas de trabajo críticas.
 
 ## <a name="management-baseline"></a>Línea de base de administración
 

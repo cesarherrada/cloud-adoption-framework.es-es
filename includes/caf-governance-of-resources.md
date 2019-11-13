@@ -5,7 +5,7 @@
 
 ### <a name="governance-of-resources"></a>Gobernanza de recursos
 
-Un conjunto de roles RBAC y directivas globales proporcionará un nivel base de referencia de cumplimiento de gobernanza. Para satisfacer los requisitos de directivas del equipo de gobernanza de la nube, la implementación del MVP de gobernanza requiere completar las tareas siguientes:
+Un conjunto de roles RBAC y directivas globales proporcionará un nivel base de referencia de cumplimiento de gobernanza. Para satisfacer los requisitos de directivas del equipo de gobernanza de la nube, la implementación del MVP de gobernanza exige completar las tareas siguientes:
 
 1. Identifique las definiciones de Azure Policy personalizadas necesarias para cumplir los requisitos empresariales. Esto puede incluir el uso de definiciones integradas y la creación de nuevas definiciones personalizadas.
 2. Cree una definición del plano técnico mediante estas directivas integradas y personalizadas y las asignaciones de roles que requiere el MVP de gobernanza.
@@ -19,7 +19,7 @@ Las definiciones de las directivas personalizadas se guardan en un grupo de admi
 
 Dado que las directivas necesarias para dar soporte al MVP de gobernanza están destinadas a aplicarse a todas las suscripciones actuales, se implementarán los siguientes requisitos empresariales mediante una combinación de definiciones integradas y personalizadas creadas en el grupo de administración raíz:
 
-1. Restrinja la lista de asignaciones de roles disponibles al conjunto de roles de Azure integrados que autorice el equipo de gobernanza de la nube. Esto requerirá una [definición de directiva personalizada](https://github.com/Azure/azure-policy/tree/master/samples/Authorization/allowed-role-definitions).
+1. Restrinja la lista de asignaciones de roles disponibles al conjunto de roles de Azure integrados que autorice el equipo de gobernanza de la nube. Esto requiere una [definición de directiva personalizada](https://github.com/Azure/azure-policy/tree/master/samples/Authorization/allowed-role-definitions).
 2. Exija el uso de las siguientes etiquetas en todos los recursos: *Departamento/unidad de facturación*, *Geografía*, *Clasificación de los datos*, *Importancia crítica*, *Acuerdo de Nivel de Servicio*, *Entorno*, *Arquetipo de aplicación*, *Aplicación* y *Propietario de aplicación*. Esto se puede controlar mediante la definición integrada de `Require specified tag`.
 3. Solicite que la etiqueta `Application` de los recursos coincida con el nombre del grupo de recursos pertinente. Esto puede controlarse mediante la definición integrada "Requerir etiqueta y su valor".
 
@@ -31,7 +31,7 @@ Las directivas de Azure se pueden asignar en el nivel de grupo de recursos, susc
 
 Azure Blueprints permiten la asignación coherente de roles y directivas, la aplicación de plantillas de Resource Manager y la implantación de grupos de recursos en varias suscripciones. Igual que sucede con las definiciones de directiva, las definiciones de plano técnico se guardan en grupos de administración o suscripciones, y están disponibles a través de la herencia para cualquier elemento secundario de la jerarquía de grupos de administración.
 
-El equipo de gobernanza en la nube ha decidido que el cumplimiento de las asignaciones de RBAC y directivas de Azure necesarias en las suscripciones se implementará a través de Azure Blueprints y los artefactos asociados:
+El equipo de gobernanza en la nube ha decidido que el cumplimiento de las asignaciones de RBAC y Azure Policy necesarias en las suscripciones se implementará a través de Azure Blueprints y los artefactos asociados:
 
 1. En el grupo de administración raíz, cree una definición de plano técnico denominada `governance-baseline`.
 2. Agregue los siguientes artefactos de plano técnico a dicha definición:
@@ -53,7 +53,7 @@ Hasta que la confianza en el entorno de nube está completamente establecida es 
     1. La [arquitectura de referencia de la VPN](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/vpn) establece un patrón y un modelo de implementación para crear una instancia de VPN Gateway en Azure.
     2. Compruebe que los mecanismos locales de seguridad y administración del tráfico traten las redes en la nube conectadas como recursos que no son de confianza. Los recursos y servicios hospedados en la nube solo deben tener acceso a los servicios locales autorizados.
     3. Valide que el dispositivo de extremo local que se encuentra en el centro de datos local es compatible con los [requisitos de Azure VPN Gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices) y está configurado para acceder a la red Internet pública.
-    4. Tenga en cuenta que los túneles de VPN no deben considerarse circuitos preparados para producción salvo para las cargas de trabajo más simples. Todo lo que vaya más allá de unas pocas cargas de trabajo sencillas que requieren conectividad local debería emplear Azure ExpressRoute.
+    4. Tenga en cuenta que los túneles de VPN no deben considerarse circuitos preparados para producción salvo para las cargas de trabajo más simples. Todo lo que vaya más allá de algunas cargas de trabajo sencillas que requieran conectividad local debería emplear Azure ExpressRoute.
 1. En el grupo de administración raíz, cree una segunda definición del plano técnico llamada `secure-hybrid-vnet`.
     1. Agregue la plantilla de Resource Manager para la instancia de VPN Gateway como un artefacto para la definición del plano técnico.
     2. Agregue la plantilla de Resource Manager para la red virtual como un artefacto para la definición del plano técnico.

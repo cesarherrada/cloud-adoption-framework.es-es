@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b772eddfce65fa7a2ce4d67e36b1cc0f82e47ac5
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 4328cdf3249b065bf20efd5858254ad9da1dc211
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564865"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753166"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -26,7 +26,7 @@ Vaya a: [Planeamiento de una infraestructura de supervisión](#plan-your-monitor
 
 El punto de inflexión al determinar una estrategia de generación de informes y registro en la nube se basa principalmente en las inversiones que una organización haya realizado en los procesos operativos y, hasta cierto punto, en los requisitos que hay que cumplir para respaldar una estrategia de nube múltiple.
 
-Hay varias formas de registrar y notificar las actividades en la nube. El registro nativo en la nube y el centralizado son dos opciones de servicio administrado habituales basadas en el diseño de la suscripción y en el número de suscripciones.
+Las actividades en la nube se pueden registrar y notificar de varias maneras. El registro nativo en la nube y el centralizado son dos opciones de servicio administrado habituales basadas en el diseño de la suscripción y en el número de suscripciones.
 
 ## <a name="plan-your-monitoring-infrastructure"></a>Planeamiento de una infraestructura de supervisión
 
@@ -54,7 +54,7 @@ Las soluciones de registro personalizadas basadas en Azure Monitor se pueden imp
 
 ### <a name="on-premises-extension"></a>Extensión local
 
-El uso de soluciones de registro y generación de informes, como Azure Monitor, puede requerir un considerable esfuerzo de desarrollo para las aplicaciones y servicios que migran a la nube. En esos casos puede tener sentido permitir que estas cargas de trabajo sigan enviando datos de telemetría a sistemas locales existentes.
+El uso de soluciones de registro y generación de informes en la nube, como Azure Monitor, puede requerir un considerable esfuerzo de desarrollo para las aplicaciones y servicios. En esos casos, plantéese la posibilidad de que estas cargas de trabajo sigan enviando datos de telemetría a los sistemas locales existentes.
 
 Para admitir este enfoque, será preciso que los recursos en la nube puedan comunicarse directamente con los sistemas locales mediante una combinación de [redes híbridas](../software-defined-network/hybrid.md) y [servicios de dominio hospedados en la nube](../identity/index.md#cloud-hosted-domain-services). Gracias a esto, la red virtual en la nube funciona como una extensión de red del entorno local. Por tanto, las cargas de trabajo hospedadas en la nube pueden comunicarse directamente con el sistema local de registros e informes.
 
@@ -69,7 +69,7 @@ Hipótesis solo&ndash;en un entorno local:
 
 ### <a name="gateway-aggregation"></a>Agregación de puerta de enlace
 
-En los escenarios en que hay gran cantidad de datos de telemetría basados en la nube o en que los sistemas de supervisión locales necesitan modificar los datos de registro para poder procesarlos, puede que sea necesario un servicio de [agregación de puerta de enlace](https://docs.microsoft.com/azure/architecture/patterns/gateway-aggregation) para datos de registro.
+En los escenarios en que haya gran cantidad de datos de telemetría basados en la nube o en que los sistemas de supervisión locales necesiten modificar los datos de registro para poder procesarlos, es posible que sea necesario un servicio de [agregación de puerta de enlace](https://docs.microsoft.com/azure/architecture/patterns/gateway-aggregation) para los datos de registro.
 
 Se implementa un servicio de puerta de enlace en el proveedor de servicios en la nube. A continuación, se configuran las aplicaciones o los servicios pertinentes para que envíen datos de telemetría a la puerta de enlace en lugar de a un sistema de registro predeterminado. A continuación, la puerta de enlace puede procesar los datos: agregarlos, combinarlos o darles formato antes de enviarlos al servicio de supervisión para su ingesta y análisis.
 
@@ -85,7 +85,7 @@ En una agregación de puerta de enlace, se da por hecho lo siguiente:
 
 Una solución de supervisión híbrida combina los datos de registro de los recursos locales y los recursos en la nube para proporcionar una visión integrada del estado operativo del entorno de TI.
 
-Si ya ha realizado una inversión en sistemas de supervisión local que le resultaría difícil o caro sustituir, puede que necesite integrar los datos de telemetría de las cargas de trabajo en la nube en las soluciones de supervisión locales preexistentes. En un sistema de supervisión local híbrida, los datos de telemetría locales siguen usando el sistema de supervisión local existente. Los datos de telemetría basados en la nube se envían directamente al sistema de supervisión en la nube, o bien los datos se envían a Azure Monitor y luego se compilan e ingieren en el sistema local a intervalos regulares.
+Si ya ha realizado una inversión en sistemas de supervisión local y le resultaría difícil o caro sustituirlos, puede que necesite integrar los datos de telemetría de las cargas de trabajo en la nube en las soluciones de supervisión locales preexistentes. En un sistema de supervisión local híbrida, los datos de telemetría locales siguen usando el sistema de supervisión local existente. Los datos de telemetría basados en la nube se envían directamente al sistema de supervisión en la nube, o bien los datos se envían a Azure Monitor y luego se compilan e ingieren en el sistema local a intervalos regulares.
 
 **Supuestos de la supervisión híbrida local:** Al usar un sistema de registros e informes local para una supervisión híbrida, se da por hecho lo siguiente:
 
