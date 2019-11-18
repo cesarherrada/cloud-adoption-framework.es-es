@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 7dcb61b24834caa1da0de414ab5eaa7291711258
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 5e88a87a141adb1170f419db5d410cc31341c230
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048433"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753097"
 ---
 # <a name="innovate-through-cloud-adoption"></a>Innovación mediante la adopción de la nube
 
@@ -21,7 +21,7 @@ La migración a nube es una opción excelente para las cargas de trabajo existen
 
 ## <a name="motivations-behind-innovation"></a>Motivaciones de la innovación
 
-La innovación no es el método de adopción adecuado para todas las cargas de trabajo. La vía de la innovación normalmente requiere una mayor inversión en código personalizado y en administración de datos que otras vías alternativas. La innovación también tiene una duración mayor que la migración o que otras formas de modernización. Se recomienda este método si los clientes tienen como destino los siguientes resultados empresariales:
+La innovación no es el método de adopción adecuado para todas las cargas de trabajo. La vía de la innovación normalmente requiere una mayor inversión en código personalizado y en administración de datos que otras vías alternativas. La innovación también tiene una duración mayor que la migración o que otras formas de modernización. Siga estos pasos si desea alcanzar los siguientes resultados empresariales:
 
 - Prepararse ante las nuevas funcionalidades técnicas.
 - Escalar para satisfacer las demandas del mercado.

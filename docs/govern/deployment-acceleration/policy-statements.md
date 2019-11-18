@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a307c29a640332fdf82a69ec06eab27589f77304
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9a879f2957f1fd7c1d92a9a01381c64cff320d27
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566346"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752673"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Declaraciones de la directiva de ejemplo de aceleración de la implementación
 
@@ -43,13 +43,13 @@ Las siguientes declaraciones de la directiva de ejemplo abordan algunos riesgos 
 - Se identificarán medidas de diagnóstico y métricas clave para todos los sistemas de producción y los componentes, y se aplicarán herramientas de supervisión y diagnóstico a estos sistemas, que el personal de operaciones se encargará de supervisar regularmente.
 - El personal de operaciones considerará la opción de usar las herramientas de supervisión y diagnóstico en entornos que no sean de producción, como ensayo y control de calidad, a fin de identificar los problemas del sistema antes de que se produzcan en el entorno de producción.
 
-**Opciones de diseño posibles:** [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor), que también incluye Log Analytics y Application Insights, proporciona herramientas para recopilar y analizar datos de telemetría para ayudarle a comprender cómo funcionan las aplicaciones e identificar proactivamente los problemas que les afectan y los recursos de los que dependen. Además, [Registro de actividad de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) notifica todos los cambios que se realizan en la plataforma y que se deben supervisar y auditar para detectar cambios no compatibles.
+**Opciones de diseño posibles:** [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor), que incluye Log Analytics y Application Insights, proporciona herramientas para recopilar y analizar datos de telemetría para ayudarle a comprender cómo funcionan las aplicaciones e identificar proactivamente los problemas que les afectan y los recursos de los que dependen. Además, [Registro de actividad de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) notifica todos los cambios que se realizan en la plataforma y que se deben supervisar y auditar para detectar cambios no compatibles.
 
 ## <a name="configuration-security-reviews"></a>Revisiones de seguridad de configuración
 
 **Riesgo técnico:** con el tiempo, los nuevos problemas y amenazas de seguridad pueden aumentar los riesgos de acceso no autorizado a recursos seguros.
 
-**Declaración de directiva**: los procesos de gobernanza en la nube deben incluir revisiones mensuales con los equipos de administración de configuración para así poder identificar usuarios malintencionados o patrones de uso que deban evitarse mediante la configuración de recursos en la nube.
+**Declaración de directiva**: los procesos de gobernanza de la nube deben incluir revisiones mensuales con los equipos de administración de configuración para así poder identificar usuarios malintencionados o patrones de uso que deban evitarse mediante la configuración de recursos en la nube.
 
 **Opciones de diseño posibles:** celebrar una reunión de revisión de seguridad mensual en la que participen los miembros del equipo de gobernanza y el personal de TI responsable de los recursos y las aplicaciones de configuración en la nube. Revisar las métricas y los datos de seguridad existentes para identificar deficiencias en las herramientas y la directiva de aceleración de la implementación y actualizar la directiva para remediar todos los nuevos riesgos.
 

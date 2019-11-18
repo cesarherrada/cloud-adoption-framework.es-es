@@ -8,18 +8,18 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: f854b103decc3b23f27a41d01a81b812d2bc3c3f
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 242985f57cc377b78328e2277ba76f15abaec8b8
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565704"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753038"
 ---
 # <a name="democratize-data"></a>Democratización de los datos
 
 El carbón, el aceite y el potencial humano eran los tres recursos más importantes durante la revolución industrial. Estos recursos creaban compañías, movían los mercados y, en última instancia, cambiaban países. En la economía digital, hay tres recursos igualmente importantes: datos, dispositivos y potencial humano. Cada uno de estos recursos presenta un fantástico potencial de innovación. En cualquier trabajo de innovación de la era moderna, los datos son el nuevo aceite.
 
-En todas las empresas de hoy en día, hay depósitos de datos que podrían aprovecharse para buscar y satisfacer las necesidades de los clientes de manera más eficaz. Lamentablemente, el proceso de minería de datos para impulsar la innovación es muy costoso y lento. Muchas de las soluciones más valiosas para las necesidades de los clientes se desestiman porque las personas adecuadas no pueden acceder a los datos que necesitan.
+En todas las empresas de hoy en día, hay depósitos de datos que podrían emplearse para buscar y satisfacer las necesidades de los clientes de manera más eficaz. Lamentablemente, el proceso de minería de datos para impulsar la innovación es muy costoso y lento. Muchas de las soluciones más valiosas para las necesidades de los clientes se desestiman porque las personas adecuadas no pueden acceder a los datos que necesitan.
 
 La democratización de los datos es el proceso de poner estos datos en las manos adecuadas para impulsar la innovación. Este proceso puede tener varias formas, pero generalmente incluye soluciones para datos sin procesar ingeridos o integrados, centralización de datos, uso compartido de datos y protección de datos. Cuando estos métodos se ejecutan correctamente, los expertos de la empresa pueden usar los datos para probar los supuestos. En muchos casos, los equipos de adopción de la nube pueden [crear con empatía con el cliente](./build.md) usando solo datos, lo que permite satisfacer rápidamente las necesidades existentes de los clientes.
 
@@ -72,7 +72,7 @@ Cuando los datos deben centralizarse para satisfacer las necesidades de un clien
 
 **Integración:** los datos existentes que ya residen en un almacén de datos se pueden integrar en el almacén de datos centralizado mediante técnicas tradicionales de movimiento de datos. Esto es especialmente frecuente en escenarios que implican el almacenamiento de datos en varias nubes. Estas técnicas implican la extracción de los datos del almacén de datos existente y su carga posterior en el almacén de datos central. En algún momento de este proceso, los datos suelen transformarse para facilitar su uso y para que sean más pertinentes en el almacén central.
 
-Las herramientas basadas en la nube han convertido estas técnicas en herramientas de pago por uso, lo que reduce las barreras iniciales para la centralización y recopilación de los datos. Herramientas como Data Migration Service y Data Factory son dos ejemplos de Azure. La arquitectura de referencia para una [factoría de datos con un almacén de datos OLAP](https://docs.microsoft.com/azure/architecture/data-guide/relational-data/etl) es un ejemplo de este tipo de solución.
+Las herramientas basadas en la nube han convertido estas técnicas en herramientas de pago por uso, lo que reduce las barreras iniciales para la centralización y recopilación de los datos. Herramientas como Azure Database Migration Service y Azure Data Factory son dos ejemplos. La arquitectura de referencia para una [factoría de datos con un almacén de datos OLAP](https://docs.microsoft.com/azure/architecture/data-guide/relational-data/etl) es un ejemplo de este tipo de solución.
 
 **Ingesta:** algunos datos no residen en un almacén de datos existente. Cuando estos datos transitorios son una fuente principal de innovación, se deben tener en cuenta enfoques alternativos. Los datos transitorios se pueden encontrar en diversos orígenes, tales como aplicaciones, API, flujos de datos, dispositivos IoT, cadenas de bloques, caché de aplicaciones, contenido multimedia o incluso archivos planos.
 

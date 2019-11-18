@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 3d8d8007125a0ffa6268132f1d608123c25c9c22
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: bafeecd715ac2c18c9ae744165be249c2b3639e5
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058555"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751554"
 ---
 ::: zone target="docs"
 
@@ -43,14 +43,14 @@ Una de las ventajas de las soluciones basadas en la nube es la capacidad de reco
 
 Azure App Service proporciona un entorno de hospedaje para las aplicaciones que elimina la carga de administración de la infraestructura y la aplicación de revisiones del sistema operativo. Permite la automatización del escalado para satisfacer las demandas de los usuarios, pero debe cumplir con los límites que defina para mantener los costos en la comprobación.
 
-Azure App Service ofrece compatibilidad de primera clase con lenguajes de programación como ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP y Python. Si necesita hospedar otra pila en tiempo de ejecución, Web App for Containers le permite hospedar de forma rápida y sencilla un contenedor de Docker en el entorno de Azure App Service, de modo que pueda hospedar la pila de código personalizada en un entorno fuera de la empresa del servidor.
+Azure App Service ofrece compatibilidad de primera clase con lenguajes de programación como ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP y Python. Si necesita hospedar otra pila en tiempo de ejecución, Web App for Containers le permite hospedar de forma rápida y sencilla un contenedor de Docker en App Service, de modo que pueda hospedar la pila de código personalizada en un entorno fuera de la empresa del servidor.
 
 ### <a name="action"></a>.
 
 Para configurar o supervisar las implementaciones de Azure App Service:
 
 1. Vaya a **App Services**.
-2. Configuración de un nuevo servicio: Seleccione **Agregar** y siga las indicaciones.
+2. Configuración de un nuevo servicio: seleccione **Agregar** y siga las indicaciones.
 3. Administrar servicios existentes: Seleccione la aplicación que desee en la lista de aplicaciones hospedadas.
 
 ::: zone target="chromeless"
@@ -74,7 +74,7 @@ Con Azure Cognitive Services, puede incorporar la inteligencia avanzada directam
 Para configurar o supervisar las implementaciones de Azure Cognitive Services:
 
 1. Vaya a **Cognitive Services**.
-2. Configuración de un nuevo servicio: Seleccione **Agregar** y siga las indicaciones.
+2. Configuración de un nuevo servicio: seleccione **Agregar** y siga las indicaciones.
 3. Administrar servicios existentes: Seleccione el servicio que desee en la lista de servicios hospedados.
 
 ::: zone target="chromeless"
@@ -96,7 +96,7 @@ Para ampliar su aplicación estándar, Azure Bot Service agrega una interfaz de 
 Para configurar o supervisar las implementaciones de Azure Bot Services:
 
 1. Vaya a **Servicios de Bot**.
-2. Configuración de un nuevo servicio: Seleccione **Agregar** y siga las indicaciones.
+2. Configuración de un nuevo servicio: seleccione **Agregar** y siga las indicaciones.
 3. Administrar servicios existentes: Seleccione el bot que desee en la lista de servicios hospedados.
 
 ::: zone target="chromeless"
@@ -163,7 +163,7 @@ Use un servicio de Kubernetes totalmente administrado para controlar el aprovisi
 Para configurar o supervisar una instancia de Azure Kubernetes Service:
 
 1. Vaya a **Azure Kubernetes services** (Instancias de Azure Kubernetes Service).
-2. Configuración de un nuevo servicio: Seleccione **Agregar** y siga las indicaciones.
+2. Configuración de un nuevo servicio: seleccione **Agregar** y siga las indicaciones.
 3. Administrar servicios existentes: Seleccione el servicio de Kubernetes deseado de la lista.
 
 ::: zone target="chromeless"

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: f761f85fa4b21b35e8428985707176624b92a5ec
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b19357bd98858cc227426d2adb03a6e84210b9b3
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031695"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753780"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -41,7 +41,7 @@ El desafío con las métricas de comportamiento del cliente es que pueden verse 
 
 ## <a name="data-innovation"></a>Innovación en los datos
 
-Puede tardarse años en cambiar un sector, desestabilizar mercados o transformar productos o servicios. En un trabajo de innovación de datos habilitado para la nube, la experimentación es la clave para medir el éxito. Sea transparente compartiendo las métricas de predicción, como la probabilidad porcentual, el número de experimentos con errores y la cantidad de modelos entrenados. Los errores se acumularán con mayor rapidez que los éxitos. Estas mediciones pueden ser desalentadoras y es importante que el equipo ejecutivo comprenda el tiempo y la inversión que se requieren para aprovechar los datos adecuadamente.
+Puede tardarse años en cambiar un sector, transformar radicalmente los mercados o transformar productos o servicios. En un trabajo de innovación de datos habilitado para la nube, la experimentación es la clave para medir el éxito. Sea transparente compartiendo métricas de predicción, como la probabilidad porcentual, el número de experimentos con errores y la cantidad de modelos entrenados. Los errores se acumularán con mayor rapidez que los éxitos. Estas mediciones pueden ser desalentadoras y es importante que el equipo ejecutivo comprenda el tiempo y la inversión que se requieren para utilizar los datos adecuadamente.
 
 Por otro lado, algunos indicadores positivos suelen estar asociados al aprendizaje controlado por datos: centralización de conjuntos de datos heterogéneos, entrada de datos y democratización de los datos. Mientras el equipo aprende sobre el cliente del mañana, se pueden generar resultados reales hoy mismo. Entre las métricas de aprendizaje de apoyo se podrían incluir:
 

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 34d9cd3252849353b0fe765db4d84f7e9f2e5ea7
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 05b713c2f1f88f50829e38db8a0a0343d3afd32d
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549150"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753518"
 ---
 # <a name="evaluate-workload-readiness"></a>Evaluación de la disponibilidad de las cargas de trabajo
 
@@ -21,7 +21,7 @@ Esta actividad se centra en evaluar la disponibilidad de una carga de trabajo pa
 
 ## <a name="evaluation-assumptions"></a>Suposiciones de evaluación
 
-La mayor parte del contenido que describe los principios de la Plataforma de adopción de la nube está diseñada para no depender de la nube. Sin embargo, el proceso de evaluación de la disponibilidad debe ser muy específico para cada plataforma de nube específica. En la siguiente guía se presupone una intención de migrar a Azure. También se presupone el uso de Azure Migrate (también conocido como Azure Site Recovery) para las [actividades de replicación](../migrate/replicate.md). Para ver herramientas alternativas, consulte las [opciones de replicación](../migrate/replicate-options.md).
+La mayor parte del contenido que analiza los principios de Cloud Adoption Framework no depende de la nube. Sin embargo, el proceso de evaluación de la disponibilidad debe ser muy específico para cada plataforma de nube específica. En la siguiente guía se presupone una intención de migrar a Azure. También se presupone el uso de Azure Migrate (también conocido como Azure Site Recovery) para las [actividades de replicación](../migrate/replicate.md). Para ver herramientas alternativas, consulte las [opciones de replicación](../migrate/replicate-options.md).
 
 Este artículo no pretende capturar todas las actividades de evaluación posibles. Se presupone que cada entorno y resultado empresarial determinarán los requisitos específicos. Para ayudar a acelerar la creación de estos requisitos, el resto de este artículo comparte algunas actividades de evaluación comunes relacionadas con la evaluación de la [infraestructura](#common-infrastructure-evaluation-activities), la [base de datos](#common-database-evaluation-activities) y la [red](#common-network-evaluation-activities).
 

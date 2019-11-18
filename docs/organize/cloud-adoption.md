@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 7dbddb91d38a11c455e47fcd6f5a589929d8b003
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 2aeda3e6efac30e03a917e790ef619f7a6d74cde
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031662"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753403"
 ---
 # <a name="cloud-adoption-capabilities"></a>Funcionalidades de adopción de la nube
 
@@ -61,7 +61,7 @@ Es preferible que estos equipos se reúnan a diario y se organicen internamente.
 
 Las programaciones de los lanzamientos y la duración de las iteraciones son únicas para cada empresa. Sin embargo, parece que la duración media se sitúa en un intervalo de una a cuatro semanas por iteración. Con independencia de la cadencia de iteración o de lanzamiento, se recomienda que el equipo se reúna con todos los equipos auxiliares al final de cada lanzamiento para comunicar el resultado del lanzamiento y volver a establecer la prioridad de los siguientes trabajos. Del mismo modo, resulta útil reunirse como equipo al final de cada sprint, con el [centro de excelencia en la nube](./cloud-center-of-excellence.md) o con [el equipo de gobernanza de la nube](./cloud-governance.md) para mantenerse al día del trabajo común y de las necesidades de soporte.
 
-Algunas de las tareas técnicas asociadas a la adopción de la nube pueden volverse repetitivas. Se recomienda que los miembros del equipo roten cada 3&ndash;6 meses para evitar problemas de satisfacción de los empleados y mantener las aptitudes adecuadas. Un puesto rotatorio en el [centro de excelencia en la nube](./cloud-center-of-excellence.md) o en el [equipo de gobernanza de la nube](./cloud-governance.md) puede suponer una excelente oportunidad para mantener a los empleados actualizados y aprovechar las innovaciones.
+Algunas de las tareas técnicas asociadas a la adopción de la nube pueden volverse repetitivas. Los miembros del equipo deben rotar cada 3&ndash;6 meses para evitar problemas de satisfacción de los empleados y mantener las aptitudes adecuadas. Un puesto rotatorio en el [centro de excelencia en la nube](./cloud-center-of-excellence.md) o en el [equipo de gobernanza de la nube](./cloud-governance.md) puede suponer una excelente oportunidad para mantener a los empleados actualizados y aprovechar las innovaciones.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

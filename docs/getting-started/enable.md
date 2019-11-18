@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: f2892dbfab86da07db2441aea7757846903ff7e9
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: cb5ba007c18643efe3b0c83b8ff247844cbbe7b2
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656586"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753292"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 
@@ -32,7 +32,7 @@ A lo largo de este marco, la habilitación es un tema básico. En la siguiente l
 
 ## <a name="additional-tools"></a>Herramientas adicionales
 
-Además de Cloud Adoption Framework, Microsoft cubre temas adicionales que pueden habilitar el éxito. En este artículo se resaltan algunas herramientas comunes que pueden mejorar significativamente el éxito más allá del ámbito de Cloud Adoption Framework. El establecimiento de la gobernanza de la nube, las arquitecturas resistentes, las aptitudes técnicas y un enfoque de DevOps son importantes para el éxito de cualquier trabajo de adopción de la nube. Se recomienda que el lector marque esta página como un recurso que se volverá a visitar en cualquier recorrido de adopción de la nube.
+Además de Cloud Adoption Framework, Microsoft cubre temas adicionales que pueden habilitar el éxito. En este artículo se resaltan algunas herramientas comunes que pueden mejorar significativamente el éxito más allá del ámbito de Cloud Adoption Framework. El establecimiento de la gobernanza de la nube, las arquitecturas resistentes, las aptitudes técnicas y un enfoque de DevOps son importantes para el éxito de cualquier trabajo de adopción de la nube. Marque esta página como un recurso que se volverá a visitar en cualquier recorrido de adopción de la nube.
 
 <!-- markdownlint-disable MD033 -->
 

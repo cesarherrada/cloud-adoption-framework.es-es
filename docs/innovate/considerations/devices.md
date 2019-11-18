@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 309ea099eee5fcec5700a48afc4376dbc30805f9
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 4a1b96a5f29ebac9fd228ab1603d12e08b38ba63
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565646"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752089"
 ---
 # <a name="ambient-experiences-interact-with-devices"></a>Experiencias ambientales: Interacción con dispositivos
 
@@ -55,7 +55,7 @@ Las soluciones de realidad mixta representan el siguiente nivel de consolidació
 > [!IMPORTANT]
 > Si se requiere un dispositivo de realidad virtual y *todavía no forma parte de los comportamientos naturales o circundantes inmediatos de un cliente*, la realidad virtual o aumentada es más una experiencia alternativa y menos una experiencia ambiental.
 
-Las experiencias de realidad mixta son cada vez más habituales entre los empleados remotos. Su uso está creciendo aún más rápido en sectores que requieren conocimientos de colaboración o especializados que no están disponibles en el mercado local. Las situaciones que requieren la implementación centralizada de un producto complejo para un grupo de empleados remotos son un terreno especialmente adecuado para la realidad aumentada. En esos casos, el equipo de soporte técnico central y los empleados remotos pueden aprovechar la realidad aumentada para solucionar problemas, instalar el producto o trabajar con él.
+Las experiencias de realidad mixta son cada vez más habituales entre los empleados remotos. Su uso está creciendo aún más rápido en sectores que requieren conocimientos de colaboración o especializados que no están disponibles en el mercado local. Las situaciones que requieren la implementación centralizada de un producto complejo para un grupo de empleados remotos son un terreno especialmente adecuado para la realidad aumentada. En esos casos, el equipo de soporte técnico central y los empleados remotos pueden usar la realidad aumentada para solucionar problemas, instalar el producto o trabajar con él.
 
 Por ejemplo, considere el caso de los anclajes espaciales. Los anclajes espaciales le permiten crear experiencias de realidad mixta con objetos cuyas ubicaciones correspondientes persisten en todos los dispositivos a lo largo del tiempo. Los anclajes espaciales se usan para capturar, grabar y conservar un comportamiento específico, que proporcionará una experiencia ambiental la próxima vez que el usuario trabaje dentro de ese entorno aumentado. [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors/overview) es un servicio que pasa esta lógica a la nube, lo que permite compartir experiencias entre dispositivos e incluso entre soluciones.
 

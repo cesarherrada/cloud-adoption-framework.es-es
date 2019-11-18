@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 575eace59b33163c1f0020b005bda2ceeb14dc9b
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: dc026ec6fc1a82db3c5c025becd31cd5cf2e7d8d
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220966"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752701"
 ---
 # <a name="cost-management-metrics-indicators-and-risk-tolerance"></a>Métricas, indicadores y tolerancia al riesgo de la administración de costos
 
@@ -41,12 +41,12 @@ En las primeras fases de la adopción de la nube, trabajará con su empresa para
 
 Una vez que haya identificado los [riesgos empresariales](./business-risks.md), trabajará con su empresa para identificar las pruebas comparativas que puede usar para detectar los desencadenadores que podrían aumentar dichos riesgos. A continuación verá algunos ejemplos de la forma en que varias métricas, como las que se han mencionado, se pueden comparar con la tolerancia de la base de referencia de riesgo, con el fin de conocer el grado de necesidad que tiene su empresa en invertir más en administración de costos.
 
-- **Movido por el compromiso (más habitual).** Una empresa que tiene un compromiso de gasto de X 000 000 euros este año en un proveedor de nube. Necesita una materia sobre la administración de costos para asegurarse de que el negocio no supere sus objetivos de gasto en más del 20 % y que van a usar al menos el 90 % del gasto al que se han comprometido.
+- **Movido por el compromiso (más habitual).** Una empresa que tiene un compromiso de gasto de _x 000 000 de euros_ este año en un proveedor de nube. Necesita una materia sobre la administración de costos para asegurarse de que la empresa no supere sus objetivos de gasto en más del 20 % y que van a usar al menos el 90 % del gasto al que se han comprometido.
 - **Desencadenador por porcentaje.** Una empresa con gastos en la nube estables en sus sistemas de producción. Si esas cifras cambian más de un _x %_ , la materia de administración de costos será una inversión inteligente.
-- **Desencadenador por sobreaprovisionamiento.** Una empresa que cree que sus soluciones implementadas están sobreaprovisionadas. La administración de costos es una inversión prioritaria hasta que puedan demostrar que la relación entre aprovisionamiento y uso los recursos es adecuada.
-- **Desencadenador por gastos mensuales.** una compañía que gasta más de X 000 euros al mes se considera un costo considerable. Si los gastos superan esa cantidad en un mes dado, necesitarán invertir en la administración de costos.
-- **Desencadenador por gastos anuales.** una empresa con un presupuesto para I+D en TI que permita gastar X 000 euros al año en la experimentación en la nube. Puede ejecutar las cargas de trabajo de producción en la nube, pero seguirán considerándolas soluciones experimentales si el presupuesto no supera dicha cantidad. Una vez que las supere, tendrán que tratar el presupuesto como si fuera una inversión de producción y administrar los gastos atentamente.
-- **Gastos de explotación, adversos (no habituales):** como empresa, están en contra de los gastos de explotación y necesitarán instaurar controles de administración de costos antes de implementar una carga de trabajo de desarrollo/pruebas.
+- **Desencadenador por sobreaprovisionamiento.** Una empresa que cree que sus soluciones implementadas están sobreaprovisionadas. La administración de costos es una inversión prioritaria hasta que se demuestra que la relación entre aprovisionamiento y uso de los recursos es adecuada.
+- **Desencadenador por gastos mensuales.** Una compañía que gasta más de _X 000 euros_ al mes se considera un costo considerable. Si los gastos superan esa cantidad en un mes dado, necesitarán invertir en la administración de costos.
+- **Desencadenador por gastos anuales.** Una empresa con un presupuesto para I+D en TI que permita gastar _X 000 euros_ al año en experimentación en la nube. Pueden ejecutar las cargas de trabajo de producción en la nube, pero siguen considerándolas soluciones experimentales si el presupuesto no supera dicha cantidad. Si la supera, tendrán que tratar el presupuesto como si fuera una inversión de producción y administrar los gastos atentamente.
+- **Gastos de explotación, adversos (no habituales):** como empresa, están en contra de los gastos de explotación y necesitarán instaurar controles de administración de costos antes de implementar una carga de trabajo de desarrollo o pruebas.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
