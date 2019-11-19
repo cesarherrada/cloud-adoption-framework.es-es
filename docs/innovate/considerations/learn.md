@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 82f6ea5b422bc4d33fe898f86d003ffb2ab92422
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: b960bbd4382a14f254038397f3843d7ad7b65f8c
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565638"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753004"
 ---
 # <a name="learn-with-customers"></a>Aprendizaje con los clientes
 
@@ -56,4 +56,4 @@ Como paso siguiente para entender esta metodología, los [desafíos y factores d
 > [!div class="nextstepaction"]
 > [Explicación de los desafíos y factores de bloqueo comunes](./challenges.md)
 
-Algunos de los conceptos de este artículo se basan en temas descritos en el libro [El método Lean Startup](http://theleanstartup.com/book), escrito por Eric Ries.
+Algunos de los conceptos de este artículo se basan en temas descritos en el libro [El método Lean Startup](https://theleanstartup.com/book), escrito por Eric Ries.

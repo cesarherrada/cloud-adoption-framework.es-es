@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 6dbc0dce4e129a785ddd3ae735115a211bf04dee
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: 7ee8cab09fc5ad875240a10d7fe6f632d91432c9
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656542"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751666"
 ---
 # <a name="enable-server-management-services-on-a-single-vm-for-evaluation"></a>Habilitar los servicios de administración en una única VM para su evaluación
 
@@ -35,7 +35,7 @@ Para obtener más información sobre cómo incorporar estas soluciones a VM indi
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Aprenda a usar Azure Policy para incorporar VM de Azure a escala.
+Aprenda a usar Azure Policy para incorporar máquinas virtuales de Azure a escala.
 
 > [!div class="nextstepaction"]
 > [Configuración de servicios de administración de Azure para una suscripción](./onboard-at-scale.md)
