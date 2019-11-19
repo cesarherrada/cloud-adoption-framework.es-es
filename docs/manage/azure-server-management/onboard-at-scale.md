@@ -1,36 +1,40 @@
 ---
-title: Configuración de servicios de administración de Azure para una suscripción
+title: Configuración de servicios de administración de servidores de Azure para una suscripción
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Configuración de servicios de administración de Azure para una suscripción
+description: Configuración de servicios de administración de servidores de Azure para una suscripción
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 6f45b3d3da6a1086f77474e823a9fd573b9b9bd0
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: c4a0964ed8ec28ead844e1fd15275422adf8f081
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548261"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656649"
 ---
-# <a name="configure-azure-management-services-at-scale"></a>Configuración de servicios de administración de Azure a escala
+# <a name="configure-azure-server-management-services-at-scale"></a>Configuración de servicios de administración de servidores de Azure a escala
 
-La incorporación de los servicios de administración de Azure a los servidores implica dos tareas: la implementación de agentes de servicio en los servidores y la habilitación de las soluciones de administración. En este artículo se tratan los siguientes procesos que le permitirán realizar estas tareas:
+Debe completar estas dos tareas para incorporar los servicios de administración de servidores de Azure en sus servidores:
+- Implementar los agentes de servicio en los servidores
+- Habilitar las soluciones de administración
 
-- [Implementación de los agentes necesarios en máquinas virtuales de Azure con Azure Policy](#deploy-extensions-to-azure-vms-using-azure-policy)
-- [Implementación de los agentes necesarios en servidores locales](#install-required-agents-on-on-premises-servers)
-- [Habilitación y configuración de soluciones](#enable-and-configure-solutions)
+En este artículo se tratan los siguientes tres procesos necesarios para realizar estas tareas:
+
+1. Implementar los agentes necesarios en las VM de Azure mediante Azure Policy
+1. Implementar los agentes necesarios en servidores locales
+1. Habilitar y configurar las soluciones
 
 > [!NOTE]
-> Cree el [área de trabajo de Log Analytics y la cuenta de Azure Automation](./prerequisites.md#create-a-workspace-and-automation-account) necesarias antes de incorporar máquinas virtuales a los servicios de administración de Azure.
+> Cree el [área de trabajo de Log Analytics y la cuenta de Azure Automation](./prerequisites.md#create-a-workspace-and-automation-account) necesarias antes de incorporar máquinas virtuales a los servicios de administración de servidores de Azure.
 
-## <a name="deploy-extensions-to-azure-vms-using-azure-policy"></a>Implementación de extensiones en máquinas virtuales de Azure con Azure Policy
+## <a name="use-azure-policy-to-deploy-extensions-to-azure-vms"></a>Uso de Azure Policy para implementar extensiones en VM de Azure
 
-Todas las soluciones de administración descritas en el artículo sobre [servicios y herramientas de administración de Azure](./tools-services.md) requieren que el agente de Log Analytics se instale en máquinas virtuales (VM) de Azure y en servidores locales. Puede incorporar sus máquinas virtuales de Azure a escala mediante Azure Policy. Asigne una directiva para asegurarse de que el agente se instala en todas las máquinas virtuales de Azure y se conecta al área de trabajo de Log Analytics correcta.
+Todas las soluciones de administración descritas en el artículo sobre [servicios y herramientas de administración de Azure](./tools-services.md) requieren que el agente de Log Analytics esté instalado en las máquinas virtuales de Azure y en los servidores locales. Puede incorporar sus máquinas virtuales de Azure a escala mediante Azure Policy. Asigne una directiva para asegurarse de que el agente esté instalado en sus VM de Azure y conectado al área de trabajo de Log Analytics correcta.
 
-Azure Policy tiene una [iniciativa de directiva](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#initiatives) integrada que incluye el agente de Log Analytics y [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), que se requiere con Azure Monitor para VM.
+Azure Policy tiene una [iniciativa de directiva](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#initiatives) integrada que incluye el agente de Log Analytics y [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), que Azure Monitor para VM requiere.
 
 <!-- TODO: Add these when available.
 - [Preview]: Enable Azure Monitor for virtual machine scale sets.
@@ -42,66 +46,56 @@ Azure Policy tiene una [iniciativa de directiva](https://docs.microsoft.com/azur
 
 ### <a name="assign-policies"></a>Asignación de directivas
 
-Para asignar las directivas enumeradas en la sección anterior:
+Para asignar las directivas que se describen en la sección anterior:
 
 1. En Azure Portal, vaya a **Azure Policy** > **Asignaciones** > **Asignar iniciativa**.
 
     ![Captura de pantalla de la interfaz de directivas del portal](./media/onboarding-at-scale1.png)
 
-2. En la página **Asignar directiva**, haga clic en los puntos suspensivos (…) para seleccionar una opción de **Ámbito** y seleccione una suscripción y un grupo de administración. Opcionalmente, seleccione un grupo de recursos. Un ámbito determina los recursos o el grupo de recursos a los que se asigna la directiva. Luego elija **Seleccionar** en la parte inferior de la página **Ámbito**.
+2. En la página **Asignar directiva**, seleccione los puntos suspensivos (…) para establecer la opción de **Ámbito** y seleccione una suscripción o un grupo de administración. Opcionalmente, seleccione un grupo de recursos. Luego elija **Seleccionar** en la parte inferior de la página **Ámbito**. El ámbito determina los recursos o el grupo de recursos a los que se asigna la directiva.
 
-3. Seleccione los puntos suspensivos (…) que aparecen junto a **Definición de directiva** para abrir la lista de definiciones disponibles. Puede filtrar la definición de iniciativa escribiendo **Azure Monitor** en el cuadro de **búsqueda**:
+3. Seleccione los puntos suspensivos ( **…** ) que aparecen junto a **Definición de directiva** para abrir la lista de definiciones disponibles. Para filtrar las definiciones de iniciativa, escriba **Azure Monitor** en el cuadro de **búsqueda**:
 
     ![Captura de pantalla de la interfaz de directivas del portal](./media/onboarding-at-scale2.png)
 
-4. **Nombre de asignación** se rellena automáticamente con el nombre de directiva seleccionado, pero puede cambiarlo. También puede agregar una descripción opcional para proporcionar más información sobre esta asignación de directiva. El campo **Asignado por** se rellena automáticamente en función de quién inicie sesión. Este campo es opcional y se pueden especificar valores personalizados.
+4. **Nombre de asignación** se rellena automáticamente con el nombre de directiva seleccionado, pero puede cambiarlo. También puede agregar una descripción opcional para proporcionar más información sobre esta asignación de directiva. El campo **Asignado por** se rellena automáticamente en función de quién inicie sesión. Este campo es opcional y admite valores personalizados.
 
 5. Para esta directiva, seleccione **Área de trabajo de Log Analytics** como agente de Log Analytics que se va a asociar.
 
     ![Captura de pantalla de la interfaz de directivas del portal](./media/onboarding-at-scale3.png)
 
-6. Seleccione **Ubicación de la identidad administrada**. Si esta directiva es el tipo [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists), necesitará una identidad administrada para implementar la directiva. En el portal, la cuenta se creará como se indica con la selección de la casilla.
+6. Seleccione la casilla **Ubicación de la identidad administrada**. Si esta directiva es de tipo [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists), se necesitará una identidad administrada para implementar la directiva. En el portal, la cuenta se creará como se indica con la selección de la casilla.
 
 7. Seleccione **Asignar**.
 
-Después de completar el asistente, la asignación de directiva se implementará en el entorno. La directiva puede tardar hasta 30 minutos en surtir efecto. Para probarla, cree máquinas virtuales después de 30 minutos y compruebe si Microsoft Monitoring Agent (MMA) se habilita en la máquina virtual de forma predeterminada.
+Después de completar el asistente, la asignación de directiva se implementará en el entorno. La directiva puede tardar hasta 30 minutos en surtir efecto. Para probarla, cree VM después de 30 minutos y compruebe si Microsoft Monitoring Agent se habilita en la VM de forma predeterminada.
 
-## <a name="install-required-agents-on-on-premises-servers"></a>Instalación de los agentes necesarios en servidores locales
+## <a name="install-agents-on-on-premises-servers"></a>Instalación de los agentes en servidores locales
 
 > [!NOTE]
-> Cree el [área de trabajo de Log Analytics y la cuenta de Azure Automation](./prerequisites.md#create-a-workspace-and-automation-account) necesarias antes de incorporar servidores a los servicios de administración de Azure.
+> Cree el [área de trabajo de Log Analytics y la cuenta de Azure Automation](./prerequisites.md#create-a-workspace-and-automation-account) necesarias antes de incorporar los servicios de administración de servidores de Azure en los servidores.
 
-En el caso de los servidores locales, habrá que descargar e instalar manualmente el [agente de log Analytics y Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud) y configurarlos para que se conecten al área de trabajo correcta. Para ello, especifique el identificador del área de trabajo y la información de la clave, que puede encontrar en el área de trabajo de log Analytics de Azure Portal, y seleccione **Configuración** > **Configuración avanzada**.
+En el caso de los servidores locales, debe descargar e instalar manualmente el [agente de Log Analytics y Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud), y configurarlos para que se conecten al área de trabajo correcta. Debe especificar el identificador del área de trabajo y la información de clave. Para obtener esa información, vaya al área de trabajo de Log Analytics en Azure Portal y seleccione **Configuración** > **Configuración avanzada**.
 
 ![Captura de pantalla de Configuración avanzada del área de trabajo de Log Analytics en Azure Portal](./media/onboarding-on-premises.png)
 
 ## <a name="enable-and-configure-solutions"></a>Habilitación y configuración de soluciones
 
-Para habilitar las soluciones, tiene que configurar el área de trabajo Log Analytics. Las máquinas virtuales de Azure y los servidores locales incorporados obtendrán las soluciones de las áreas de trabajo de Log Analytics a las que se conecten.
-
-En esta sección se tratan las soluciones siguientes:
-
-- [Administración de actualizaciones](#update-management)
-- [Change Tracking e Inventario](#change-tracking-and-inventory-solutions)
-- [Registro de actividad de Azure](#azure-activity-log)
-- [Agent Health para Azure Log Analytics](#azure-log-analytics-agent-health)
-- [Evaluación de antimalware](#antimalware-assessment)
-- [Azure Monitor para VM](#azure-monitor-for-vms)
-- [Azure Security Center](#azure-security-center)
+Para habilitar las soluciones, tiene que configurar el área de trabajo Log Analytics. Las VM de Azure y los servidores locales incorporados obtendrán las soluciones de las áreas de trabajo de Log Analytics a las que se han conectado.
 
 ### <a name="update-management"></a>Administración de actualizaciones
 
-Las soluciones Update Management, Change Tracking e Inventario requieren un área de trabajo de Log Analytics y una cuenta de Automation. Para asegurarse de que estos recursos se configuran correctamente, se recomienda incorporalos a través de la cuenta de Automatización. Para obtener más información, consulte [Incorporación de las soluciones Update Management, Change Tracking e Inventario](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account).
+Las soluciones Update Management, Change Tracking e Inventario requieren un área de trabajo de Log Analytics y una cuenta de Automation. Para asegurarse de que estos recursos están configurados correctamente, se recomienda realizar la incorporación a través de la cuenta de Automation. Para obtener más información, consulte [Incorporación de las soluciones Update Management, Change Tracking e Inventario](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account).
 
-Se recomienda habilitar la solución Update Management para todos los servidores. Update Management es gratis para las máquinas virtuales de Azure y los servidores locales. Si habilita Update Management a través de su cuenta de Automation, se creará una [configuración de ámbito](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) en el área de trabajo. Tendrá que actualizar manualmente el ámbito para incluir las máquinas que cubre el servicio de actualización.
+Se recomienda habilitar la solución Update Management para todos los servidores. Update Management es gratis para las máquinas virtuales de Azure y los servidores locales. Si habilita Update Management a través de su cuenta de Automation, se creará una [configuración de ámbito](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) en el área de trabajo. Actualice manualmente el ámbito para incluir las máquinas que cubre el servicio Update Management.
 
-Para cubrir todos los servidores existentes, así como los servidores futuros, debe quitar la configuración de ámbito. Para ello, vea la cuenta de Automation en Azure Portal y seleccione **Update Management** > **Administrar máquinas** > **Habilitar en todas las máquinas disponibles y futuras**. Al habilitar esta opción, se permite que todas las máquinas virtuales de Azure conectadas al área de trabajo usen Update Management.
+Para cubrir los servidores existentes, así como los futuros, debe quitar la configuración de ámbito. Para hacerlo, consulte la cuenta de Automation en Azure Portal. Seleccione **Update Management** > **Administrar máquinas** > **Habilitar en todas las máquinas disponibles y futuras**. Es opción permite que todas las VM de Azure conectadas al área de trabajo usen Update Management.
 
 ![Captura de pantalla de Update Management en Azure Portal](./media/onboarding-configuration1.png)
 
 ### <a name="change-tracking-and-inventory-solutions"></a>Soluciones Change Tracking e Inventory
 
-Para incorporar soluciones de Change Tracking e Inventory, siga los mismos pasos que para Update Management. Para obtener más información sobre la incorporación de estas soluciones desde su cuenta de Automation, consulte [Incorporación de las soluciones Update Management, Change Tracking e Inventory](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account).
+Para incorporar soluciones de Change Tracking e Inventory, siga los mismos pasos que para Update Management. Para obtener más información sobre cómo incorporar estas soluciones desde su cuenta de Automation, consulte [Incorporación de las soluciones Update Management, Change Tracking e Inventory](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account).
 
 La solución Change Tracking es gratuita para las máquinas virtuales de Azure y cuesta 6 USD por nodo al mes para los servidores locales. Este costo cubre Change Tracking e Inventory y Desired State Configuration. Si solo quiere inscribir determinados servidores locales, puede participar en esos servidores. Se recomienda que incorpore todos los servidores de producción.
 
@@ -110,7 +104,7 @@ La solución Change Tracking es gratuita para las máquinas virtuales de Azure y
 1. Vaya a la cuenta de Automation que tiene Change Tracking e Inventory habilitada.
 2. Seleccione **Seguimiento de cambios**.
 3. Seleccione **Administrar máquinas** en el panel superior derecho.
-4. Seleccione **Habilitar en las máquinas seleccionadas** y seleccione las máquinas que quiere habilitar haciendo clic en **Agregar** junto al nombre de la máquina.
+4. Seleccione **Habilitar en las máquinas seleccionadas**. A continuación, seleccione **Agregar** junto al nombre de la máquina.
 5. Seleccione **Habilitar** para habilitar la solución para esas máquinas.
 
 ![Captura de pantalla de Change Tracking en Azure Portal](./media/onboarding-configuration2.png)
@@ -123,11 +117,11 @@ Para crear o modificar la búsqueda guardada, siga estos pasos:
 
 1. Vaya al área de trabajo de Log Analytics que está vinculada a la cuenta de Automation que configuró en los pasos anteriores.
 
-2. En **General**, seleccione **Búsquedas guardadas**.
+1. En **General**, seleccione **Búsquedas guardadas**.
 
-3. En el cuadro **Filtro**, escriba **Change Tracking** para filtrar la lista de búsquedas guardadas. En los resultados, seleccione **MicrosoftDefaultComputerGroup**.
+1. En el cuadro **Filtro**, escriba **Change Tracking** para filtrar la lista de búsquedas guardadas. En los resultados, seleccione **MicrosoftDefaultComputerGroup**.
 
-4. Escriba el VMUUID o el nombre del equipo para incluir los equipos en los que quiere participar con Change Tracking.
+1. Escriba el VMUUID o el nombre del equipo para incluir los equipos en los que quiere participar con Change Tracking.
 
     ```kusto
     Heartbeat
@@ -136,37 +130,35 @@ Para crear o modificar la búsqueda guardada, siga estos pasos:
     ```
 
     > [!NOTE]
-    > El nombre del servidor debe coincidir exactamente con el valor incluido en la expresión y no debe contener un sufijo de nombre de dominio.
+    > El nombre del servidor debe coincidir exactamente con el valor de la expresión y no debe contener ningún sufijo de nombre de dominio.
 
-5. Seleccione **Guardar**.
-
-6. De forma predeterminada, la configuración de ámbito está vinculada a la búsqueda guardada de **MicrosoftDefaultComputerGroup** y se actualizará automáticamente.
+1. Seleccione **Guardar**. De forma predeterminada, la configuración de ámbito está vinculada a la búsqueda guardada de **MicrosoftDefaultComputerGroup**. Se actualizará automáticamente.
 
 ### <a name="azure-activity-log"></a>Azure Activity Log
 
 [Registro de actividad de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) es una de las secciones de Azure Monitor. Proporciona información sobre los eventos de nivel de suscripción que se producen en Azure.
 
-Para agregar esta solución:
+Para implementar esta solución:
 
 1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
 3. Busque **Activity Log Analytics** y selecciónela.
 4. Seleccione **Crear**.
 
-Deberá especificar el **Nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
+Debe especificar el **nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
 
 ### <a name="azure-log-analytics-agent-health"></a>Agent Health para Azure Log Analytics
 
 La solución Agent Health para Azure Log Analytics ofrece información sobre el mantenimiento, el rendimiento y la disponibilidad de los servidores Windows y Linux.
 
-Para agregar esta solución:
+Para implementar esta solución:
 
 1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
 3. Busque **Agent Health para Azure Log Analytics** y selecciónela.
 4. Seleccione **Crear**.
 
-Deberá especificar el **nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
+Debe especificar el **nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
 
 Una vez completada la creación, la instancia de recurso del área de trabajo muestra **AgentHealthAssessment** al seleccionar **Vista** > **Soluciones**.
 
@@ -174,31 +166,31 @@ Una vez completada la creación, la instancia de recurso del área de trabajo mu
 
 La solución Antimalware Assessment le ayuda a identificar los servidores que están infectados o que presentan mayor riesgo de infección por malware.
 
-Para agregar esta solución:
+Para implementar esta solución:
 
 1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
-3. Busque **Antimalware Assessment** y selecciónela.
+3. Busque la opción **Antimalware Assessment** y selecciónela.
 4. Seleccione **Crear**.
 
-Deberá especificar el **nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
+Debe especificar el **nombre del área de trabajo** que creó en la sección anterior donde está habilitada la solución.
 
 Una vez completada la creación, la instancia de recurso del área de trabajo muestra **AntiMalware** al seleccionar **Vista** > **Soluciones**.
 
 ### <a name="azure-monitor-for-vms"></a>Azure Monitor para máquinas virtuales
 
-Puede habilitar [Azure Monitor para VM](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview) a través de la página de vista de la instancia de máquina virtual, tal y como se describe en el artículo anterior sobre [habilitación de los servicios de administración en una sola máquina virtual para su evaluación](./onboard-single-vm.md). No debe habilitar soluciones directamente desde la página **Soluciones** como hizo para las otras soluciones que se describen en este artículo. Para implementaciones a gran escala, puede ser más fácil usar [automatización](./onboarding-automation.md) para habilitar las soluciones correctas en el área de trabajo.
+Puede habilitar [Azure Monitor para VM](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview) a través de la página de vista de la instancia de VM, tal y como se describe en [Habilitar los servicios de administración en una única máquina virtual para su evaluación](./onboard-single-vm.md). No debe habilitar soluciones directamente desde la página **Soluciones** como hizo con las otras soluciones que se describen en este artículo. Para implementaciones a gran escala, puede ser más fácil usar [automatización](./onboarding-automation.md) para habilitar las soluciones correctas en el área de trabajo. 
 
 ### <a name="azure-security-center"></a>Azure Security Center
 
-En esta guía, se recomienda incorporar todos los servidores en el nivel *Gratis* de Azure Security Center de forma predeterminada. Esta opción le ofrece un nivel básico de evaluaciones de seguridad y recomendaciones de seguridad prácticas para su entorno. La actualización al nivel *Estándar* de Security Center ofrece ventajas adicionales, que se describen en detalle en la [página de precios de Security Center](https://docs.microsoft.com/azure/security-center/security-center-pricing).
+Se recomienda que incorpore todos los servidores como mínimo en el nivel *Gratis* de Azure Security Center. Esta opción le ofrece un nivel básico de evaluaciones de seguridad y recomendaciones de seguridad prácticas para su entorno. La actualización al nivel *Estándar* ofrece ventajas adicionales, que se describen con detalle en la [página de precios de Security Center](https://docs.microsoft.com/azure/security-center/security-center-pricing).
 
-Siga estos pasos para habilitar el nivel Gratis de Azure Security Center:
+Para habilitar el nivel Gratis de Azure Security Center, siga estos pasos:
 
 1. Vaya a la página **Security Center** del portal.
 2. En **POLICY & COMPLIANCE** (DIRECTIVA Y CUMPLIMIENTO), seleccione **Directiva de seguridad**.
 3. Busque el recurso del área de trabajo de Log Analytics que ha creado en el panel de la derecha.
-4. Seleccione **Editar configuración >** para esa área de trabajo.
+4. Seleccione **Editar configuración** para esa área de trabajo.
 5. Seleccione **Plan de tarifa**.
 6. Seleccione la opción **Gratis**.
 7. Seleccione **Guardar**.

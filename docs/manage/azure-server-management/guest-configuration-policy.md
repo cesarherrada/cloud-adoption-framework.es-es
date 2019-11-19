@@ -8,43 +8,43 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 16d67f628ff99f971d2d79127b25698987cc8977
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 741a73bacadccc0ee7b06542b86b9958aa236982
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547273"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656315"
 ---
 # <a name="guest-configuration-policy"></a>Directivas de configuración de invitado
 
-La extensión [Configuración de invitado](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) de Azure Policy permite auditar la configuración de una máquina virtual. Configuración de invitado solo se admite de momento en máquinas virtuales de Azure.
+La extensión [Configuración de invitado](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) de Azure Policy se puede usar para auditar la configuración en una máquina virtual. Configuración de invitado solo se admite de momento en máquinas virtuales de Azure.
 
-Para encontrar la lista de directivas de configuración de invitado, busque la categoría "Configuración de invitado" en la página del portal de Azure Policy. También puede buscar la lista si ejecuta este cmdlet en una ventana de PowerShell:
+Para encontrar la lista de directivas de configuración de invitado, busque la categoría "Configuración de invitado" en la página del portal de Azure Policy. También puede ejecutar este cmdlet en una ventana de PowerShell para encontrar la lista:
 
 ```powershell
 Get-AzPolicySetDefinition | where-object {$_.Properties.metadata.category -eq "Guest Configuration"}
 ```
 
 > [!NOTE]
-> La funcionalidad de configuración de invitado se actualiza periódicamente para admitir conjuntos de directivas adicionales. Compruebe periódicamente si hay nuevas directivas admitidas y evalúe si son útiles para sus necesidades.
+> La funcionalidad de configuración de invitado se actualiza periódicamente para admitir conjuntos de directivas adicionales. Compruebe periódicamente si hay nuevas directivas admitidas y evalúe si le resultarán útiles.
 
 <!-- TODO: Update these links when available. 
 
-By default, we recommend enabling the following policies:
+By default, we recommend that you enable the following policies:
 
-- [Preview]: Audit to verify password security settings are set correctly inside Linux and Windows machines.
+- [Preview]: Audit to verify that password-security settings are correct on Linux and Windows machines.
 - Audit to verify that certificates are not nearing expiration on Windows VMs.
 
 -->
 
 ## <a name="deployment"></a>Implementación
 
-Puede usar el siguiente script de ejemplo de PowerShell para implementar estas directivas:
+Utilice el siguiente script de ejemplo de PowerShell para implementar estas directivas para llevar a cabo lo siguiente:
 
 - Compruebe que la configuración de seguridad de las contraseñas en equipos Windows y Linux está establecida correctamente.
 - Compruebe que los certificados no están próximos a expirar en máquinas virtuales Windows.
 
- Antes de ejecutar este script, debe iniciar sesión con el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0). Al ejecutar el script, debe proporcionar el nombre de la suscripción a la que quiere aplicar las directivas.
+ Antes de ejecutar este script, utilice el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) para iniciar sesión. Al ejecutar el script, debe proporcionar el nombre de la suscripción a la que quiere aplicar las directivas.
 
 ```powershell
 

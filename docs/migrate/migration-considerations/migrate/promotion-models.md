@@ -1,5 +1,5 @@
 ---
-title: 'Modelos de promoción: en un solo paso, provisional y por etapas'
+title: 'Modelos de promoción: de paso único, almacenados provisionalmente o piloto'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Descripción del impacto de la promoción en las actividades de migración
 author: BrianBlanchard
@@ -8,14 +8,14 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b251e5159f6e6728e0b5a7ce807eaba0ea85696a
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 690c871ab18bef96a5a1738de90a216ca5b8df90
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548436"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564615"
 ---
-# <a name="promotion-models---single-step-staged-or-flight"></a>Modelos de promoción: de paso único, preconfigurados o piloto
+# <a name="promotion-models-single-step-staged-or-flight"></a>Modelos de promoción: de paso único, almacenados provisionalmente o piloto
 
 La migración de una carga de trabajo se suele tratar como una actividad única. En realidad, es un conjunto de actividades más pequeñas que facilitan el traslado de un recurso digital a la nube. Una de las últimas actividades de una migración es la promoción de un recurso a producción. La promoción es el punto en el que el sistema de producción cambia para los usuarios finales. A menudo, puede ser algo tan simple como cambiar el enrutamiento de red, redirigiendo a los usuarios finales al nuevo recurso en producción. La promoción es también el punto en el que las operaciones de TI o las operaciones en la nube cambian el foco de atención, pasando de los procesos de administración operativa del sistema de producción anterior a los nuevos sistemas de producción.
 

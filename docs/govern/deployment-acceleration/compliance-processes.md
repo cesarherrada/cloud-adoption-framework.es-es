@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a393791aac072cb9a135c6fc11e08fc653817742
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: de64b03c6c6113261426beed5de729eb6927a440
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222593"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566377"
 ---
 # <a name="deployment-acceleration-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de aceleración de la implementación
 
@@ -48,7 +48,7 @@ Asegúrese de que los equipos de operaciones de TI han implementado sistemas de 
 
 ## <a name="violation-triggers-and-enforcement-actions"></a>Desencadenadores de infracción y acciones de cumplimiento
 
-Dado que el incumplimiento de las directivas de configuración puede dar lugar a riesgos de interrupción de los servicios críticos, el equipo de gobernanza de la nube debe tener visibilidad sobre las infracciones graves de la directiva. Asegúrese de que el personal de TI tiene rutas de escalación claras para notificar problemas de cumplimiento de la configuración a los miembros del equipo de gobernanza más adecuados para identificar y comprobar que se han mitigado los problemas de la directiva una vez detectados.
+Dado que el incumplimiento de las directivas de configuración puede dar lugar a riesgos de interrupción de los servicios críticos, el equipo de gobernanza de la nube debe tener visibilidad sobre las infracciones graves de la directiva. Asegúrese de que el personal de TI tiene rutas de escalación claras para notificar problemas de cumplimiento de la configuración a los miembros del equipo de gobernanza más adecuados para identificar y comprobar que se han mitigado los problemas de la directiva cuando se han detectado.
 
 Cuando se detectan infracciones, debe realizar acciones para volver a alinearse con la directiva lo antes posible. El equipo de TI puede automatizar la mayoría de los desencadenadores de infracción con las herramientas descritas en [Deployment Acceleration toolchain for Azure](./toolchain.md) (Cadena de herramientas de aceleración de la implementación para Azure).
 

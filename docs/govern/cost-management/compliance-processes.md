@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6345a8cae51a6b26b7fad174113a40e9dc0dae3e
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: eb3bfc584e3c3f86e39918495fe7e0d313f13e55
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220974"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564722"
 ---
 # <a name="cost-management-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de Cost Management
 
@@ -42,7 +42,7 @@ Este proceso de planeamiento trimestral también es un buen momento para evaluar
 
 Estos procesos básicos ayudarán a alinear los gastos y establecer una base de la materia de Cost Management.
 
-## <a name="ongoing-monitoring-processes"></a>Procesos de supervisión en curso
+## <a name="processes-for-ongoing-monitoring"></a>Procesos de supervisión en curso
 
 Una estrategia de gobernanza de Cost Management correcta depende de la visibilidad de los gastos relacionados con la nube pasados, actuales y futuros planeados. Sin la capacidad para analizar las métricas pertinentes y los datos de sus costos existentes, no se pueden identificar cambios en los riesgos o detectar infracciones de las tolerancias al riesgo. Los procesos de gobernanza en curso explicados anteriormente requieren datos de calidad para asegurarse de que se puede modificar la directiva para proteger mejor la infraestructura contra requisitos empresariales en constante cambio y el uso de la nube.
 
@@ -54,8 +54,8 @@ Al detectarse las infracciones, debe tomar medidas de cumplimiento para la nueva
 
 A continuación, se muestran ejemplos de desencadenadores:
 
-- **Desviaciones de presupuesto mensuales.** debata toda desviación en los gastos mensuales que supere el 20 % de la proporción del gasto previsto frente al real con el líder de la unidad de facturación. Resoluciones de registro y cambios en la previsión.
-- **Ritmo de adopción.** toda desviación en un nivel de suscripción que supere el 20 % desencadenará una revisión con el líder de la unidad de facturación. Resoluciones de registro y cambios en la previsión.
+- **Desviaciones de presupuesto mensuales:** debata toda desviación en los gastos mensuales que supere el 20 % de la proporción del gasto previsto frente al real con el líder de la unidad de facturación. Resoluciones de registro y cambios en la previsión.
+- **Ritmo de adopción:** toda desviación en un nivel de suscripción que supere el 20 % desencadenará una revisión con el líder de la unidad de facturación. Resoluciones de registro y cambios en la previsión.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

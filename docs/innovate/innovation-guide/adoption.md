@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2b2c4768cbe74363cd50b7730c3ba6b4078db14c
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 98db83bf842fe4c293eba482572bffbdb50caed6
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058107"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565564"
 ---
 ::: zone target="docs"
 
@@ -36,7 +36,7 @@ La creación de una nueva solución innovadora no consiste en ofrecer a los usua
 - **Cuantitativas (comentarios sobre la prueba):** estos comentarios miden las acciones que esperamos ver.
 - **Cualitativas (comentarios del cliente):** estos comentarios nos indican lo que significan las métricas desde el punto de vista del cliente.
 
-Antes de integrar bucles de comentarios, debe tener un repositorio compartido para la solución. Un repositorio centralizado proporcionará una manera de registrar todos los comentarios que se emiten sobre el proyecto, así como actuar sobre estos. [GitHub](https://github.com/) es el hogar de software de código abierto. También es una de las plataformas que se usan con más frecuencia para hospedar los repositorios de código fuente para aplicaciones que se desarrollan comercialmente. El artículo sobre [creación de repositorios de GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) puede ayudarle a empezar a trabajar con su repositorio.
+Antes de integrar bucles de comentarios, debe tener un repositorio compartido para la solución. Un repositorio centralizado proporcionará una manera de registrar todos los comentarios que se emiten sobre el proyecto, así como actuar sobre estos. [GitHub](https://github.com) es el hogar de software de código abierto. También es una de las plataformas que se usan con más frecuencia para hospedar los repositorios de código fuente para aplicaciones que se desarrollan comercialmente. El artículo sobre [creación de repositorios de GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) puede ayudarle a empezar a trabajar con su repositorio.
 
 Cada una de las siguientes herramientas de Azure se integra (o es compatible) con proyectos hospedados en GitHub:
 
@@ -126,7 +126,7 @@ El trabajo pendiente (o panel) es donde se registran los comentarios como los ca
 ### <a name="action"></a>.
 
 Azure Board y Azure Pipelines requieren un portal independiente de GitHub y Azure.
-Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps](https://dev.azure.com/).
+Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps](https://dev.azure.com).
 
 ::: zone-end
 
@@ -138,11 +138,11 @@ Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps
 
 Para crear un proyecto de DevOps:
 
-1. Vaya a **Proyecto de Azure DevOps**.
+1. Vaya a **Azure DevOps Projects**.
 2. Seleccione **Crear un proyecto de DevOps**.
 3. Seleccione **Runtime, Marco y Servicio**.
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/microsoft.visualstudio%2Faccount%2Fproject]" submitText="Go to Azure DevOps Project" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/microsoft.visualstudio%2Faccount%2Fproject]" submitText="Go to Azure DevOps Projects" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -152,8 +152,8 @@ Para crear un proyecto de DevOps:
 
 Estos artículos le ayudarán a centralizar y administrar los comentarios utilizando Azure Boards junto con GitHub:
 
-- [Introducción a Azure Boards](https://docs.microsoft.com/azure/devops/boards/boards/kanban-quickstart?view=azure-devops)
-- [Azure Boards y GitHub](https://docs.microsoft.com/azure/devops/boards/boards/kanban-quickstart?view=azure-devops)
+- [Introducción a Azure Boards](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
+- [Azure Boards y GitHub](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
 
 ## <a name="close-the-loop-with-pipelinestabpipelines"></a>[Cierre del bucle con canalizaciones](#tab/pipelines)
 
@@ -163,15 +163,15 @@ Actuar de acuerdo a los comentarios no siempre significa agregar la característ
 
 Para ver las implementaciones actuales de su canalización:
 
-1. Vaya a **App Service**.
+1. Vaya a **App Services**.
 2. Seleccione la aplicación deseada de la lista.
-3. Seleccione **Centro de implementación** en la sección de **Implementación** del panel de servicios de aplicaciones.
+3. Seleccione **Centro de implementación** en la sección **Implementación** del panel de App Services.
 
 ::: zone target="chromeless"
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2Fsites]" submitText="Go to App Service" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2Fsites]" submitText="Go to App Services" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 

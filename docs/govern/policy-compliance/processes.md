@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f6104a3b2f5f2e68016623029ac0e7b71a5e35f1
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 57f94fde4e7f4863a3ddca710d523d9c027571d0
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222049"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566129"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -83,7 +83,7 @@ Algunos ejemplos de desencadenadores y acciones de infracciones:
 | Línea de base de seguridad | Detecte actividad sospechosa de inicio de sesión de usuario. | Notifique al equipo de seguridad de TI y deshabilite la cuenta de usuario sospechosa. |
 | Coherencia de recursos | La utilización de la CPU para la carga de trabajo es superior al 90 %. | Notifique al equipo de operaciones de TI y amplíe los recursos adicionales para manejar la carga. |
 
-## <a name="monitoring-and-compliance-automation"></a>Automatización de la supervisión y cumplimiento
+## <a name="automation-of-monitoring-and-compliance"></a>Automatización de la supervisión y el cumplimiento
 
 Después de haber definido los desencadenadores y las acciones de las infracciones de cumplimiento, puede empezar a planear la mejor manera de utilizar las herramientas de registro y generación de informes y otras funciones de la plataforma de nube para ayudar a automatizar la estrategia de supervisión y cumplimiento de directivas.
 

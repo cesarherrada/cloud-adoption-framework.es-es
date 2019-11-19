@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 35709a6208de54f43cdb51aadb1e32f34a0ba844
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 91ea4b076740bb745a32f2197d9ddc14970d75f0
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223874"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238807"
 ---
 # <a name="cloud-rationalization"></a>Racionalización de la nube
 
@@ -38,7 +38,7 @@ Las cinco "R" de la racionalización que se enumeran aquí describen las opcione
 
 ## <a name="rehost"></a>Rehospedaje
 
-También conocido como una migración "lift and shift", el rehospedaje cambia la ubicación del recurso de estado actual al proveedor de nube elegido, con un cambio mínimo en la arquitectura general.
+También conocido como una migración _lift and shift_, el rehospedaje cambia la ubicación del recurso de estado actual al proveedor de nube elegido, con un cambio mínimo en la arquitectura general.
 
 Estos son los principales motivos para hacer un rehospedaje:
 

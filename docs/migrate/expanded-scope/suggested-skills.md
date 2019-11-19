@@ -8,16 +8,16 @@ ms.date: 05/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d98d8ea586d76c583ab22670ac310a9f5bf36fc1
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ffef26fd2ff6261133f5b63a8c13b5f4cd4364f5
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024722"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240265"
 ---
-# <a name="skills-readiness-path-during-the-migrate-phase-of-a-migration-journey"></a>Ruta de preparación de aptitudes durante la fase de "migración" de un recorrido de migración
+# <a name="skills-readiness-for-cloud-migration"></a>Preparación de las aptitudes para la migración a la nube
 
-Durante una migración a la nube, es probable que los empleados, e incluso algunos asociados de integración de sistemas o asociados de servicios administrados, deban desarrollar nuevas aptitudes para que sean eficaces durante los esfuerzos de migración.
+Durante una migración a la nube, es probable que los empleados, así como algunos asociados de integración de sistemas o asociados de servicios administrados, deban desarrollar nuevas aptitudes para que sean eficaces durante los trabajos de migración.
 
 Hay cuatro procesos distintos que se completan de manera iterativa durante la fase de "migración" de cualquier recorrido de migración. En las secciones siguientes se alinean las aptitudes necesarias para cada uno de esos procesos con referencias a dos requisitos previos para los recursos de desarrollo de aptitudes.
 

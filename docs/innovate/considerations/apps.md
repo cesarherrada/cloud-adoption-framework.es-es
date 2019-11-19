@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5f26cf77f918c12c46c653c6fc91ebc972d0db64
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: b62dde42255d1a0e9f484e5bcfcd83bbff1ebf7e
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047553"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565768"
 ---
 # <a name="engage-through-applications"></a>Participación mediante aplicaciones
 
@@ -27,16 +27,16 @@ En algunos casos, los datos por sí mismos son suficientes para producir un camb
 
 Los equipos que responden con mayor rapidez y precisión a los comentarios de los clientes, a los cambios en el mercado y a las oportunidades de innovación normalmente liderarán sus respectivos mercados en la innovación. El primer principio de las aplicaciones innovadoras se resume en la [información general sobre la mentalidad de crecimiento](./learn.md#growth-mindset): "Compartir el código". Con el tiempo, la innovación emerge de un foco cultural. Para sostener la innovación, se necesitan diferentes perspectivas y contribuciones.
 
-Para estar preparado para la innovación, todo el desarrollo de aplicaciones debe comenzar por un repositorio de código compartido. La herramienta más adoptada para administrar los repositorios de código es [GitHub](https://guides.github.com/), que permite crear rápidamente un repositorio de código compartido. También existe [Azure Repos](/azure/devops/repos/get-started/what-is-repos?view=azure-devops), un conjunto de herramientas de control de versiones en Azure DevOps Services que se puede usar para administrar el código. Azure Repos proporciona dos tipos de control de versiones:
+Para estar preparado para la innovación, todo el desarrollo de aplicaciones debe comenzar por un repositorio de código compartido. La herramienta más adoptada para administrar los repositorios de código es [GitHub](https://guides.github.com), que permite crear rápidamente un repositorio de código compartido. También existe [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops), un conjunto de herramientas de control de versiones en Azure DevOps Services que se puede usar para administrar el código. Azure Repos proporciona dos tipos de control de versiones:
 
-- [Git](/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git): control de versiones distribuido
-- [Control de versiones de Team Foundation (TFVC)](/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc): control de versiones centralizado
+- [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git): control de versiones distribuido
+- [Control de versiones de Team Foundation (TFVC)](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc): control de versiones centralizado
 
 ## <a name="citizen-developers"></a>Desarrolladores cívicos
 
 Los desarrolladores profesionales son un componente fundamental de la innovación. Cuando una hipótesis muestra precisión a escala, los desarrolladores profesionales deben estabilizar y preparar la solución para la escala. La mayoría de los principios a los que se hace referencia en este artículo requieren soporte técnico de desarrolladores profesionales. Desafortunadamente, las tendencias actuales sugieren que hay una mayor demanda para desarrolladores profesionales que existencia de desarrolladores. Además, el costo y el ritmo de la innovación pueden ser menos favorables cuando se considera necesario el desarrollo profesional. En respuesta a estos desafíos, desarrolladores cívicos proporcionan una forma de escalar los esfuerzos de desarrollo y acelerar las primeras pruebas de hipótesis.
 
-El uso de desarrolladores cívicos puede resultar viable y efectivo cuando se pueden validar las primeras hipótesis con herramientas como [PowerApps](https://docs.microsoft.com/powerapps/powerapps-overview) para interfaces de aplicaciones, [AI Builder](https://docs.microsoft.com//powerapps/use-ai-builder) para procesos y predicciones, [Microsoft Flow](https://docs.microsoft.com/flow) para flujos de trabajo y [Power BI](https://docs.microsoft.com/power-bi) para el consumo de datos.
+El uso de desarrolladores cívicos puede resultar viable y efectivo cuando se pueden validar las primeras hipótesis con herramientas como [PowerApps](https://docs.microsoft.com/powerapps/powerapps-overview) para interfaces de aplicaciones, [AI Builder](https://docs.microsoft.com/powerapps/use-ai-builder) para procesos y predicciones, [Microsoft Flow](https://docs.microsoft.com/flow) para flujos de trabajo y [Power BI](https://docs.microsoft.com/power-bi) para el consumo de datos.
 
 > [!NOTE]
 > Cuando confía en desarrolladores cívicos para probar hipótesis, se recomienda tener a la mano algunos desarrolladores profesionales para proporcionar soporte técnico, revisión e instrucciones. Después de validar una hipótesis a escala, un proceso de transición de la aplicación a un modelo de programación más sólido acelerará los ingresos de la innovación. Al implicar a desarrolladores profesionales al principio de las definiciones de procesos, puede lograr transiciones más limpias más adelante.
@@ -83,11 +83,11 @@ La ampliación de una solución es una forma común de modernización. Este enfo
 
 - La lógica de negocios existente debe satisfacer (o casi) la necesidad existente del cliente.
 - Una experiencia mejorada satisfaría mejor las necesidades de una cohorte de clientes específica.
-- La lógica de negocios que requiere la solución de producto mínimo viable (MVP) se ha centralizado, normalmente a través de un diseño de [n niveles](/azure/architecture/guide/architecture-styles/n-tier), servicios web, API o [microservicios](/azure/architecture/guide/architecture-styles/microservices). Este enfoque consiste en encapsular la solución existente dentro de una nueva experiencia hospedada en la nube. En Azure, esta solución probablemente residiría en Azure App Services.
+- La lógica de negocios que requiere la solución de producto mínimo viable (MVP) se ha centralizado, normalmente a través de un diseño de [n niveles](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/n-tier), servicios web, API o [microservicios](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices). Este enfoque consiste en encapsular la solución existente dentro de una nueva experiencia hospedada en la nube. En Azure, esta solución probablemente residiría en Azure App Services.
 
 ### <a name="rebuild-an-existing-solution"></a>Volver a crear una solución existente
 
-Si una aplicación no se puede ampliar fácilmente, puede que sea necesario refactorizar la solución. En este enfoque, la carga de trabajo se migra a la nube. Después de migrar la aplicación, se modifican o duplican partes de ella, como servicios web o [microservicios](/azure/architecture/guide/architecture-styles/microservices), que se implementan en paralelo a la solución existente. La solución paralela basada en servicio podría tratarse como una solución ampliada. Esta solución simplemente encapsularía la solución existente con una nueva experiencia hospedada en la nube. En Azure, esta solución probablemente residiría en Azure App Services.
+Si una aplicación no se puede ampliar fácilmente, puede que sea necesario refactorizar la solución. En este enfoque, la carga de trabajo se migra a la nube. Después de migrar la aplicación, se modifican o duplican partes de esta, como servicios web o [microservicios](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices), que se implementan en paralelo a la solución existente. La solución paralela basada en servicio podría tratarse como una solución ampliada. Esta solución simplemente encapsularía la solución existente con una nueva experiencia hospedada en la nube. En Azure, esta solución probablemente residiría en Azure App Services.
 
 > [!CAUTION]
 > La refactorización o la rearquitectura de soluciones o la centralización de la lógica de negocios puede desencadenar rápidamente un [pico técnico](./build.md#reduce-complexity-and-delay-technical-spikes) prolongado, en lugar de una fuente de valor para el cliente. Es un riesgo de la innovación, especialmente en la validación de hipótesis. Con un poco de creatividad en el diseño de una solución, debe haber una ruta a MVP que no requiera la refactorización de las soluciones existentes. Es aconsejable retrasar la refactorización, hasta que se pueda validar la hipótesis inicial a escala.
@@ -98,7 +98,7 @@ Además de los enfoques modernos e innovadores para la creación de aplicaciones
 
 El tipo de modelo de administración operativa de autoservicio, que se encuentra en un centro de excelencia en la nube, permite controles más estrictos e iteraciones más rápidas dentro del entorno de la solución. Estas metas se logran mediante la transferencia del control operativo y la responsabilidad al equipo empresarial.
 
-Si su objetivo es escalar o satisfacer la demanda global de una solución existente, este enfoque puede parecerle suficiente para validar una hipótesis de cliente. Una vez que una solución se migra y se moderniza ligeramente, el equipo empresarial puede escalarla para probar una variedad de hipótesis. Normalmente implican a los cohortes de los clientes que están preocupados por el rendimiento, la distribución global y otras necesidades de los clientes que se ven entorpecidas por las operaciones de TI.
+Si intenta escalar o satisfacer la demanda global de una solución existente, este enfoque puede ser suficiente para validar una hipótesis de cliente. Una vez que una solución se migra y se moderniza ligeramente, el equipo empresarial puede escalarla para probar una variedad de hipótesis. Normalmente implican a los cohortes de los clientes que están preocupados por el rendimiento, la distribución global y otras necesidades de los clientes que se ven entorpecidas por las operaciones de TI.
 
 ## <a name="reduce-overhead-and-management"></a>Reducir la sobrecarga y la administración
 

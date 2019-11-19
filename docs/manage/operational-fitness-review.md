@@ -8,12 +8,12 @@ ms.date: 10/17/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 4fa02d8b81e4f1b0afcd5cf5fb932c52fc3c1ea6
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 122f1e451c8b83de3d020c58426d8b897013aa8d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979924"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564904"
 ---
 # <a name="establish-an-operational-fitness-review"></a>Establecimiento de una revisión de adecuación operativa
 
@@ -94,13 +94,13 @@ Este proceso es iterativo y lo ideal es que la empresa tenga un equipo destinado
 
 El equipo de revisión de la adecuación operativa se compone de los siguientes roles:
 
-- **Propietario de la empresa**: proporciona los conocimientos del negocio para identificar y clasificar por orden de prioridad cada operación empresarial crítica. Este rol también compara el costo de la solución con la repercusión para el negocio y conduce la decisión final sobre la corrección.
+- **Propietario de la empresa:** proporciona los conocimientos del negocio para identificar y clasificar por orden de prioridad cada operación empresarial crítica. Este rol también compara el costo de la solución con la repercusión para el negocio y conduce la decisión final sobre la corrección.
 
-- **Defensor del negocio.** Divide las operaciones empresariales en diferentes partes y las asigna a los servicios y la infraestructura, ya sea en el entorno local o en la nube. El rol requiere un conocimiento profundo de la tecnología asociada con cada operación empresarial.
+- **Defensor del negocio:** Divide las operaciones empresariales en diferentes partes y las asigna a los servicios y la infraestructura, ya sea en el entorno local o en la nube. El rol requiere un conocimiento profundo de la tecnología asociada con cada operación empresarial.
 
-- **Propietario de ingeniería.** Implementa los servicios asociados al funcionamiento del negocio. Estas personas pueden participar en el diseño y la implementación de posibles soluciones para resolver los problemas de requisitos no funcionales detectados por el equipo de revisión.
+- **Propietario de ingeniería:** Implementa los servicios asociados al funcionamiento del negocio. Estas personas pueden participar en el diseño y la implementación de posibles soluciones para resolver los problemas de requisitos no funcionales detectados por el equipo de revisión.
 
-- **Propietario del servicio**: Se encarga del funcionamiento de las aplicaciones y los servicios de la empresa. Estos individuos recopilan datos de registro y uso de estas aplicaciones y servicios. Estos datos se usan para identificar problemas y para comprobar las correcciones una vez que se han implementado.
+- **Propietario del servicio:** Se encarga del funcionamiento de las aplicaciones y los servicios de la empresa. Estos individuos recopilan datos de registro y uso de estas aplicaciones y servicios. Estos datos se usan para identificar problemas y para comprobar las correcciones una vez que se han implementado.
 
 ## <a name="review-meeting"></a>Reuniones de revisión
 

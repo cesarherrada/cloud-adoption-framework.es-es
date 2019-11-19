@@ -8,12 +8,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f7782aeedf794441a7ba4e1f6a97f162fa33abfb
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 34659cb5cd3a223fe084ba8975f0f7a39b2b74f6
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548558"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656710"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
 
@@ -219,7 +219,7 @@ Asegúrese de que los grupos de recursos tienen nombres descriptivos que los adm
 
 **Más información:**
 
-- [Más información](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) sobre convenciones de nomenclatura.
+- [Más información](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) sobre convenciones de nomenclatura.
 
 ## <a name="best-practice-implement-delete-locks-for-resource-groups"></a>Procedimiento recomendado: implementación de bloqueos de eliminación para grupos de recursos
 
@@ -355,7 +355,7 @@ Azure Backup crea puntos de recuperación de datos que se almacenan en Azure Sto
 
 Puede usar Azure Backup para realizar una copia de seguridad de las máquinas virtuales de varias maneras.
 
-- **Copia de seguridad directa desde la configuración de la máquina virtual**: puede realizar copias de seguridad de máquinas virtuales con Azure Backup directamente desde las opciones de la máquina virtual en Azure Portal. Puede realizar una copia de seguridad de la máquina virtual una vez al día y restaurar el disco de la máquina virtual cuando sea necesario. Azure Backup toma instantáneas de datos basadas en la aplicación (VSS) y no se instala ningún agente en la máquina virtual.
+- **Copia de seguridad directa desde la configuración de la máquina virtual**: puede realizar copias de seguridad de máquinas virtuales con Azure Backup directamente desde las opciones de la máquina virtual en Azure Portal. Puede realizar una copia de seguridad de la VM una vez al día y restaurar el disco de la VM cuando sea necesario. Azure Backup toma instantáneas de datos basadas en la aplicación (VSS) y no se instala ningún agente en la máquina virtual.
 - **Copia de seguridad directa en un almacén de Recovery Services**: puede realizar copias de seguridad de las máquinas virtuales de IaaS mediante la implementación de un almacén de Azure Backup Recovery Services. Esto proporciona una ubicación única para realizar el seguimiento y la administración de las copias de seguridad así como opciones de copia de seguridad y restauración pormenorizadas. La copia de seguridad se realiza hasta tres veces al día, en el nivel de archivo o carpeta. No son copias basadas en la aplicación y no es compatible con Linux. Instale el agente de Microsoft Azure Recovery Services (MARS) en cada máquina virtual de la que quiera realizar copias de seguridad mediante este método.
 - **Protección de la máquina virtual en Azure Backup Server.** Azure Backup Server se proporciona de forma gratuita con Azure Backup. La máquina virtual se copia en el almacenamiento de Azure Backup Server local. A continuación, se copia Azure Backup Server en Azure en un almacén. Es una copia de seguridad basada en la aplicación, con una granularidad completa en la frecuencia y la retención de la copia de seguridad. Puede realizar una copia de seguridad en el nivel de la aplicación. Por ejemplo, la copia de seguridad de SQL Server o SharePoint.
 

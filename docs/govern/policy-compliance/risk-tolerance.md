@@ -8,12 +8,12 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 61f661a167b9a38a54a51dc9612a0b17df0bd0c3
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 7a6f77bdf2cbd0d34815fc1ef659385444c95fe7
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547174"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566061"
 ---
 # <a name="evaluate-risk-tolerance"></a>Evaluación de la tolerancia al riesgo
 
@@ -38,7 +38,7 @@ Los verdaderos riesgos empresariales se basan en los detalles de las transformac
 
 Los anteriores son algunos de los riesgos más comunes que han mencionado los clientes. El equipo de gobernanza de la nube y los equipos de adopción de la nube pueden empezar a desarrollar un perfil de riesgo, a medida que las cargas de trabajo se migren y estén listas para pasar a producción. Prepárese para mantener conversaciones para definir, refinar y administrar los riesgos según los resultados de negocio deseados y el esfuerzo de transformación.
 
-## <a name="understanding-risk-tolerance"></a>Conceptos sobre la tolerancia al riesgo
+## <a name="understand-risk-tolerance"></a>Explicación de la tolerancia al riesgo
 
 La identificación de riesgos es un proceso bastante directo. Los riesgos relacionados con TI suelen ser estándar en todos los sectores. Sin embargo, la tolerancia a estos riesgos es específica de cada organización. Este es el punto donde las conversaciones entre la empresa y TI tienden a estancarse. Básicamente, cada lado habla un idioma diferente. Las comparaciones y las preguntas siguientes están diseñadas para dar pie a conversaciones que ayuden a cada parte a comprender y calcular la tolerancia al riesgo.
 

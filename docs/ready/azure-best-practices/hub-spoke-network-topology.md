@@ -1,7 +1,7 @@
 ---
-title: Topología de red de concentrador y radio
+title: Topología de red en estrella tipo hub-and-spoke
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Topología de red de concentrador y radio
+description: Obtenga información sobre las topologías de red en estrella tipo hub-and-spoke.
 author: tracsman
 ms.author: jonor
 ms.date: 05/10/2019
@@ -11,14 +11,14 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: fcbcda63ff080de234075f0a8784731e591ca0f3
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 166c45feddd1b6e1ccc17b5301b99e91a3d18e0e
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549013"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566782"
 ---
-# <a name="hub-and-spoke-network-topology"></a>Topología de red de concentrador y radio
+# <a name="hub-and-spoke-network-topology"></a>Topología de red en estrella tipo hub-and-spoke
 
 La red de *concentrador y radio* es un modelo de redes que permite la administración eficaz de los requisitos habituales de comunicación o seguridad. También ayuda a evitar las limitaciones de las suscripciones de Azure. Este modelo aborda los siguientes aspectos:
 
@@ -26,21 +26,21 @@ La red de *concentrador y radio* es un modelo de redes que permite la administra
 - **Superación de los límites de las suscripciones**. Las cargas de trabajo grandes basadas en la nube pueden requerir el uso de más recursos que los permitidos en una sola suscripción de Azure. El emparejamiento de redes virtuales de carga de trabajo de distintas suscripciones con un centro de conectividad central puede superar estos límites. Para más información, consulte [Límites de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits).
 - **Separación de cuestiones**. Puede implementar cargas de trabajo individuales entre los equipos de TI centrales y los equipos de las cargas de trabajo.
 
-Es posible que los entornos en la nube más pequeños no se beneficien de la estructura y las funcionalidades agregadas que ofrece este modelo. Pero los mayores esfuerzos de adopción en la nube deben considerar la implementación de una arquitectura de red de concentrador y radio si tienen alguna de las preocupaciones mencionadas anteriormente.
+Es posible que los entornos en la nube más pequeños no se beneficien de la estructura y las funcionalidades agregadas que ofrece este modelo. Pero los trabajos de adopción de la nube mayores deben considerar la implementación de una arquitectura de red en estrella tipo hub-and-spoke si tienen alguna de las preocupaciones mencionadas anteriormente.
 
 > [!NOTE]
-> El sitio de arquitecturas de referencia de Azure contiene plantillas de ejemplo que puede usar como base para implementar sus propias redes de concentrador y radio:
+> El sitio de arquitecturas de referencia de Azure contiene plantillas de ejemplo que puede usar como base para implementar sus propias redes en estrella tipo hub-and-spoke:
 >
-> - [Implementación de una topología de red de concentrador y radio en Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
-> - [Implementación de una topología de red de concentrador y radio con servicios compartidos en Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services)
+> - [Implementación de una topología de red en estrella tipo hub-and-spoke en Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
+> - [Implementación de una topología de red en estrella tipo hub-and-spoke con servicios compartidos en Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services)
 
 ## <a name="overview"></a>Información general
 
-![Ejemplos de una topología de red de concentrador y radio][1]
+![Ejemplos de una topología en estrella tipo hub-and-spoke][1]
 
-Como se muestra en el diagrama, Azure admite dos tipos de diseño concentrador y radio. Admite la comunicación, los recursos compartidos y la directiva de seguridad centralizada ("concentrador de VNet" en el diagrama) o un tipo de WAN virtual ("WAN virtual" en el diagrama) para comunicaciones de rama a rama y de rama a Azure a gran escala.
+Como se muestra en el diagrama, Azure admite dos tipos de diseño en estrella tipo hub-and-spoke. Admite la comunicación, los recursos compartidos y la directiva de seguridad centralizada ("concentrador de VNet" en el diagrama) o un tipo de WAN virtual ("WAN virtual" en el diagrama) para comunicaciones de rama a rama y de rama a Azure a gran escala.
 
-Un concentrador es la zona de red central que controla e inspecciona el tráfico de entrada y salida entre las diferentes zonas: Internet, local y radial. La topología de concentrador y radio ofrece al departamento de TI una manera eficaz de aplicar directivas de seguridad en una ubicación central. También reduce la posibilidad de exposición y de configuración incorrecta.
+Un concentrador es la zona de red central que controla e inspecciona el tráfico de entrada y salida entre las diferentes zonas: Internet, local y radial. La topología en estrella tipo hub-and-spoke ofrece al departamento de TI una manera eficaz de aplicar directivas de seguridad en una ubicación central. También reduce la posibilidad de exposición y de configuración incorrecta.
 
 El concentrador contiene los componentes de los servicios comunes utilizados por los radios. Los ejemplos siguientes son servicios centrales comunes:
 
@@ -61,7 +61,7 @@ Los radios también pueden segregar y habilitar varios grupos dentro de su organ
 
 En Azure, todos los componentes, de cualquier tipo, se implementan en una suscripción de Azure. El aislamiento de componentes de Azure en distintas suscripciones de Azure puede satisfacer los requisitos de diferentes líneas de negocio, como la configuración de niveles diferenciados de acceso y autorización.
 
-Una única implementación de concentrador y radio puede escalarse verticalmente a un gran número de radios. Pero, al igual que pasa con todos los sistemas de TI, hay límites en las plataformas. La implementación del centro se enlaza a una suscripción de Azure específica que tiene restricciones y límites. (Un ejemplo es un número máximo de emparejamientos de redes virtuales. Para más información, consulte [Límites, cuotas y restricciones de suscripción y servicios de Azure] y [Límites].
+Una única implementación en estrella tipo hub-and-spoke puede escalarse verticalmente a un gran número de radios. Pero, al igual que pasa con todos los sistemas de TI, hay límites en las plataformas. La implementación del centro se enlaza a una suscripción de Azure específica que tiene restricciones y límites. Un ejemplo es un número máximo de emparejamientos de redes virtuales. Para más información, consulte [Límites, cuotas y restricciones de suscripción y servicios de Microsoft Azure](https://docs.microsoft.com/azure/azure-subscription-service-limits).
 
 En los casos en los que los límites puedan ser un problema, puede escalar verticalmente la arquitectura extendiendo el modelo desde un único concentrador y radio a un clúster de concentradores y radios. Puede conectar entre sí varios concentradores en una o más regiones de Azure mediante el emparejamiento de redes virtuales, Azure ExpressRoute, una WAN virtual o una red privada virtual de sitio a sitio.
 
@@ -79,7 +79,7 @@ Un ejemplo típico de este escenario es el caso en el que los servidores de proc
 
 ![Radios que se conectan entre sí y un concentrador][3]
 
-Los radios también pueden estar conectados entre sí mediante un radio que actúa como concentrador. Este método crea una jerarquía de dos niveles: el radio del nivel superior (nivel 0) se convierten en el concentrador de radios inferiores (nivel 1) en la jerarquía. Los radios de una implementación de concentrador y radio están obligados a reenviar el tráfico al centro principal, con el fin de que pueda llegar a su destino pasando por la red local o Internet pública. Una arquitectura con dos niveles de concentradores presenta un enrutamiento complejo que anula las ventajas de una relación simple de concentrador y radio.
+Los radios también pueden estar conectados entre sí mediante un radio que actúa como concentrador. Este método crea una jerarquía de dos niveles: el radio del nivel superior (nivel 0) se convierten en el concentrador de radios inferiores (nivel 1) en la jerarquía. Los radios de una implementación en estrella tipo hub-and-spoke están obligados a reenviar el tráfico al centro principal, con el fin de que pueda llegar a su destino pasando por la red local o Internet pública. Una arquitectura con dos niveles de concentradores presenta un enrutamiento complejo que anula las ventajas de una relación en estrella tipo hub-and-spoke simple.
 
 <!-- images -->
 

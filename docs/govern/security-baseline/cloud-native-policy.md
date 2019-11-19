@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9c9676684ebec0a34fcc2dc845935c598814ea52
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 19559e34f396561a25761e2b452133f84580fe85
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047858"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565957"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 
-La [base de referencia de seguridad](./index.md) es una de las [cinco materias de gobernanza en la nube](../governance-disciplines.md). Esta materia se centra en temas de seguridad generales que incluyen la protección de la red, los recursos digitales, los datos, etc. Tal y como se describe en la [guía de revisión de directivas](../policy-compliance/cloud-policy-review.md), Cloud Adoption Framework incluye tres niveles de **directivas de ejemplo**: nativa en la nube, de empresa y conforme con los principios de diseño en la nube para cada una de las materias. En este artículo se trata la directiva de ejemplo nativa en la nube para la materia de línea de base de seguridad.
+La [base de referencia de seguridad](./index.md) es una de las [cinco materias de gobernanza en la nube](../governance-disciplines.md). Esta materia se centra en temas de seguridad generales que incluyen la protección de la red, los recursos digitales, los datos, etc. Tal y como se describe en la [guía de revisión de directivas](../policy-compliance/cloud-policy-review.md), Cloud Adoption Framework incluye tres niveles de directivas de ejemplo: nativa en la nube, de empresa y conforme con los principios de diseño en la nube para cada una de las materias. En este artículo se trata la directiva de ejemplo nativa en la nube para la materia de línea de base de seguridad.
 
 > [!NOTE]
 > Microsoft no es quien debe dictar las directivas corporativas o de TI. Este artículo le ayudará a prepararse para una revisión de directivas interna. Se supone que este ejemplo de directiva se ampliará, validará y probará con sus directivas corporativas antes de intentar utilizarla. El uso de este ejemplo de directiva tal y como está, no es recomendable.
@@ -82,7 +82,8 @@ La supervisión de seguridad es una estrategia proactiva que audita los recursos
 
 ### <a name="extending-cloud-native-policies"></a>Extensión de las directivas nativas en la nube
 
-El uso de la nube puede reducir en parte la carga de seguridad. Microsoft proporciona seguridad física para los centros de datos de Azure y ayuda a proteger la plataforma de nube frente a amenazas como un ataque de denegación de servicio distribuido. Dado que Microsoft tiene miles de especialistas en ciberseguridad que trabajan en ella a diario, los recursos para detectar, evitar o mitigar los ciberataques son considerables. De hecho, aunque en el pasado las organizaciones han estado preocupadas por la seguridad de la nube, la mayoría ahora comprende que el nivel de inversión en personal e infraestructura especializada realizado por proveedores como Microsoft convierte a la nube en un entorno más seguro que la mayoría de los centros de datos locales.
+El uso de la nube puede reducir en parte la carga de seguridad. Microsoft proporciona seguridad física para los centros de datos de Azure y ayuda a proteger la plataforma de nube frente a amenazas como un ataque de denegación de servicio distribuido. Dado que Microsoft tiene miles de especialistas en ciberseguridad que trabajan en ella a diario, los recursos para detectar, evitar o mitigar los ciberataques son considerables. De hecho, aunque las organizaciones solían preocuparse por la seguridad de la nube, la mayoría ahora comprende que el nivel de la inversión en personal e infraestructura especializada que realizan proveedores como Microsoft convierte la nube en un entorno más seguro que la mayoría de los centros de datos locales.
+El uso de la nube puede reducir en parte la carga de seguridad. Microsoft proporciona seguridad física para los centros de datos de Azure y ayuda a proteger la plataforma de nube frente a amenazas como un ataque de denegación de servicio distribuido. Dado que Microsoft tiene miles de especialistas en ciberseguridad que trabajan en ella a diario, los recursos para detectar, evitar o mitigar los ciberataques son considerables. De hecho, aunque las organizaciones solían preocuparse por la seguridad de la nube, la mayoría ahora comprende que el nivel de la inversión en personal e infraestructura especializada que realizan proveedores como Microsoft convierte la nube en un entorno más seguro que la mayoría de los centros de datos locales.
 
 Pero incluso con esta inversión en una línea de base de seguridad nativa en la nube, se recomienda que cualquier directiva de línea de base de seguridad se extienda a las directivas nativas en la nube predeterminadas. Los siguientes son ejemplos de directivas extendidas que se deben tener en cuenta incluso en un entorno nativo en la nube:
 

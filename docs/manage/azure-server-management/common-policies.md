@@ -8,19 +8,19 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 0d998f06e73c03a74cdaf5fbd75cb605fa9a2fbb
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 7008809ef2e80cd5f1c263b705b46a37b6028482
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547304"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656400"
 ---
 # <a name="common-azure-policy-examples"></a>Ejemplos comunes de Azure Policy
 
 [Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) permite aplicar la gobernanza a los recursos en la nube. Con este servicio es más fácil crear barreras que garanticen que toda la compañía cumple los requisitos de la directiva de gobierno. Para crear directivas, use los cmdlets de PowerShell o Azure Portal. En este artículo se proporcionan ejemplos de cmdlets de PowerShell.
 
 > [!NOTE]
-> Con Azure Policy, las directivas de cumplimiento (**deployIfNotExists**) no se implementan automáticamente en las máquinas virtuales existentes. Es necesario corregirlo para mantener estas máquinas virtuales en cumplimiento. Para más información, vea [Corregir los recursos no conformes con Azure Policy](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
+> Con Azure Policy, las directivas de cumplimiento (**deployIfNotExists**) no se implementan automáticamente en las máquinas virtuales existentes. Se debe corregir para mantener el cumplimiento de las VM. Para más información, vea [Corregir los recursos no conformes con Azure Policy](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
 
 ## <a name="common-policy-examples"></a>Ejemplos de directivas comunes
 
@@ -28,15 +28,15 @@ En estas secciones se describen algunas de las directivas más comunes.
 
 ### <a name="restrict-resource-regions"></a>Restricción de regiones de recursos
 
-La regulación y el cumplimiento de directivas a menudo dependerán del control de la ubicación física en la que se implementan los recursos. Puede usar una directiva integrada para permitir que los usuarios creen recursos solo en regiones de Azure de la lista blanca. Encontrará esta directiva en el portal si busca "ubicación" en la página de definición de directivas.
+La regulación y el cumplimiento de directivas a menudo dependen del control de la ubicación física en la que se implementan los recursos. Puede usar una directiva integrada para permitir que los usuarios creen recursos solo en determinadas regiones de Azure permitidas.
 
-También puede ejecutar este cmdlet para encontrar la directiva:
+Para encontrar esta directiva en el portal, busque "ubicación" en la página de definición de directivas. O bien, ejecute este cmdlet para encontrar la directiva:
 
 ```powershell
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*location*") }
 ```
 
-El siguiente script muestra cómo asignar la directiva. Para usarlo, cambie el valor `$SubscriptionID` para que apunte a la suscripción a la que quiere asignar la directiva. Antes de ejecutar el script, debe iniciar sesión con el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0).
+El siguiente script muestra cómo asignar la directiva. Cambie el valor de `$SubscriptionID` para que apunte a la suscripción a la que quiere asignar la directiva. Antes de ejecutar el script, utilice el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) para iniciar sesión.
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -55,9 +55,9 @@ Puede usar este mismo script para aplicar las otras directivas que se describen 
 
 ### <a name="block-certain-resource-types"></a>Bloquear determinados tipos de recursos
 
-Otra directiva integrada común que se usa para controlar los costos permite bloquear determinados tipos de recursos. Encontrará esta directiva en el portal si busca "tipos de recursos permitidos" en la página de definición de directivas.
+Otra directiva integrada común que se usa para controlar los costos también se puede utilizar para bloquear determinados tipos de recursos.
 
-También puede ejecutar este cmdlet para encontrar la directiva:
+Para encontrar esta directiva en el portal, busque "tipos de recursos permitidos" en la página de definición de directivas. O bien, ejecute este cmdlet para encontrar la directiva:
 
 ```powershell
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*allowed resource types") }
@@ -67,15 +67,15 @@ Después de identificar la directiva que quiere usar, puede modificar el ejemplo
 
 ### <a name="restrict-vm-size"></a>Restringir tamaño de máquina virtual
 
-Azure ofrece una amplia gama de tamaños de máquina virtual para admitir varios tipos de cargas de trabajo. Para controlar el presupuesto, puede crear una directiva que permita solamente un subconjunto de tamaños de máquina virtual en las suscripciones.
+Azure ofrece una amplia gama de tamaños de VM para admitir distintas cargas de trabajo. Para controlar el presupuesto, puede crear una directiva que permita solamente un subconjunto de tamaños de máquina virtual en las suscripciones.
 
 ### <a name="deploy-antimalware"></a>Implementar antimalware
 
-Puede usar esta directiva para implementar una extensión de Microsoft IaaSAntimalware con una configuración predeterminada en las máquinas virtuales que no están protegidas por antimalware.
+Puede usar esta directiva para implementar una extensión de Microsoft *IaaSAntimalware* con una configuración predeterminada en las VM que no están protegidas por antimalware.
 
 El GUID de la directiva es `2835b622-407b-4114-9198-6f7064cbe0dc`.
 
-El siguiente script muestra cómo asignar la directiva. Para usarlo, cambie el valor `$SubscriptionID` para que apunte a la suscripción a la que quiere asignar la directiva. Antes de ejecutar el script, debe iniciar sesión con el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0).
+El siguiente script muestra cómo asignar la directiva. Para usar el script, cambie el valor de `$SubscriptionID` para que apunte a la suscripción a la que quiere asignar la directiva. Antes de ejecutar el script, utilice el cmdlet [Connect-AzAccount](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) para iniciar sesión.
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -84,7 +84,7 @@ $scope = "/subscriptions/$SubscriptionID"
 
 $AntimalwarePolicy = Get-AzPolicyDefinition -Name "2835b622-407b-4114-9198-6f7064cbe0dc"
 
-#Replace location “eastus” with the value you want to use.
+#Replace location “eastus” with the value that you want to use.
 New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default Microsoft IaaSAntimalware extension for Windows Server" -Scope $scope -PolicyDefinition $AntimalwarePolicy -Location eastus –AssignIdentity
 
 ```

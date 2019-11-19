@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2b26f8c763d477d95b21e302158c318e3ab4b101
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: a320562f97b6e3a37e0f1b4912f1401189855530
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548586"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566926"
 ---
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
@@ -23,7 +23,7 @@ La adopción de la nube es un esfuerzo de administración de carteras, disfrazad
 
 Este tema es estratégico por naturaleza. De ese modo, el enfoque que se lleva a cabo en este artículo es igualmente estratégico. Para basar la estrategia en decisiones impulsadas por los datos, en este artículo se presupone que el lector ha evaluado el [patrimonio digital](../../digital-estate/index.md) existente (o que está en proceso de hacerlo). El objetivo de este enfoque es ayudar a evaluar las cargas de trabajo para garantizar un equilibrio adecuado en toda la cartera a través de preguntas cualitativas y el perfeccionamiento de la cartera.
 
-### <a name="documenting-business-outcomes"></a>Documentación de los resultados empresariales
+### <a name="document-business-outcomes"></a>Documentar resultados empresariales
 
 Antes de equilibrar la cartera, es importante documentar y compartir los resultados empresariales que impulsan el esfuerzo de migración a la nube. Para ver algunos ejemplos de los resultados empresariales generales relativos a las migraciones a la nube, consulte el [resumen ejecutivo de la migración a la nube](../../getting-started/migrate.md).
 
@@ -47,7 +47,7 @@ Las instrucciones relacionadas con la [racionalización incremental del patrimon
 
 ### <a name="importance-of-sunset-and-retire-decisions"></a>Importancia de las decisiones sobre expiración y retirada
 
-En la tabla que aparece en la sección de [documentación de los resultados empresariales](#documenting-business-outcomes) falta un resultado clave que podría permitir el objetivo número uno de reducir los costos de TI. Cuando las reducciones de los costos de TI están en cualquier parte de la lista de resultados empresariales, resulta importante considerar el potencial para expirar o retirar cargas de trabajo. En algunos escenarios, el ahorro de costos puede provenir de NO migrar las cargas de trabajo que no garantizan una inversión a corto plazo. Algunos clientes han informado ahorros de costos superiores al 20 % de las reducciones de costos totales al retirar las cargas de trabajo infrautilizadas.
+En la tabla que aparece en la sección de [documentación de los resultados empresariales](#document-business-outcomes) falta un resultado clave que podría permitir el objetivo número uno de reducir los costos de TI. Cuando las reducciones de los costos de TI están en cualquier parte de la lista de resultados empresariales, resulta importante considerar el potencial para expirar o retirar cargas de trabajo. En algunos escenarios, el ahorro de costos puede provenir de NO migrar las cargas de trabajo que no garantizan una inversión a corto plazo. Algunos clientes han informado ahorros de costos superiores al 20 % de las reducciones de costos totales al retirar las cargas de trabajo infrautilizadas.
 
 Para equilibrar la cartera, lo que refleja mejor las decisiones sobre expiración y retirada, se recomienda que los equipos de estrategia en la nube y de adopción de la nube hagan las preguntas siguientes sobre cada carga de trabajo dentro de los procesos de evaluación y migración:
 
@@ -74,7 +74,7 @@ El equilibrio de la cartera requiere un análisis cualitativo adicional durante 
 
 ### <a name="suggested-action-during-the-assess-process"></a>Acción sugerida durante el proceso de evaluación
 
-En función de los datos de la tabla que aparece en la sección [Documentación de los resultados empresariales](#documenting-business-outcomes) anterior, hay un riesgo probable de que la cartera se incline demasiado hacia un modelo de ejecución centrado en la migración. Si la experiencia del cliente fuese una prioridad principal, sería más probable una cartera inclinada a la innovación. Ninguno de estos enfoques es correcto ni equivocado, pero inclinarse demasiado en una sola dirección habitualmente generá una disminución en las devoluciones, agrega complejidad innecesaria y aumenta el tiempo de ejecución relacionado con los esfuerzos de adopción de la nube.
+En función de los datos de la tabla que aparece en la sección [Documentación de los resultados empresariales](#document-business-outcomes) anterior, hay un riesgo probable de que la cartera se incline demasiado hacia un modelo de ejecución centrado en la migración. Si la experiencia del cliente fuese una prioridad principal, sería más probable una cartera inclinada a la innovación. Ninguno de estos enfoques es correcto ni equivocado, pero inclinarse demasiado en una sola dirección habitualmente generá una disminución en las devoluciones, agrega complejidad innecesaria y aumenta el tiempo de ejecución relacionado con los esfuerzos de adopción de la nube.
 
 Para disminuir la complejidad, se recomienda que el lector siga un enfoque tradicional con respecto a la racionalización de la cartera, pero en un modelo iterativo. Los pasos siguientes describen un modelo cualitativo para dicho tipo de enfoque:
 
@@ -113,7 +113,7 @@ Se recomienda que estos distintos esfuerzos se segmentan entre dos o más equipo
 
 **Refactorización secundaria:** algunas aplicaciones se pueden modernizar con la refactorización secundaria en el nivel de datos o el de aplicación. Este trabajo requiere que los miembros del equipo implementen datos en las plataformas de datos basadas en la nube o hagan cambios de configuración menores en la aplicación. Esto puede requerir un respaldo limitado de los expertos en el desarrollo de aplicaciones o datos. Sin embargo, este trabajo es similar al que realizan los implementadores de TI al implementar aplicaciones de terceros. Este trabajo se puede alinear fácilmente con el equipo de migración a la nube o con el de estrategia en la nube. Si bien este esfuerzo no es tan rápido como una migración de rehospedaje, demora menos en ejecutarse que los esfuerzos de refactorización.
 
-Durante la migración, se recomienda segmentar esos esfuerzos de las tres maneras ya mencionadas y que esos esfuerzos los ejecute el equipo adecuado en la iteración correspondiente. Si bien se aconseja que la cartera esté diversificada, también se aconseja que los esfuerzos se mantengna muy centrados y segregados.
+Durante la migración, los esfuerzos se deben segmentar de las tres maneras mencionadas y debe ejecutarlos el equipo adecuado en la iteración correspondiente. Aunque debe diversificar la cartera, asegúrese también de que los esfuerzos estén bien dirigidos y segregados.
 
 ## <a name="optimize-and-promote-process-changes"></a>Optimización y promoción de los cambios del proceso
 

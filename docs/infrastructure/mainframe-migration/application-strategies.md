@@ -8,12 +8,12 @@ ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ba2d68a2b382ccccf0d124a57d33d1344476c3dc
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 9eb8c85c2355ae06e63d58e3078f1101bf7e3412
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547949"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239436"
 ---
 # <a name="mainframe-application-migration"></a>Migración de aplicaciones del sistema central
 
@@ -27,7 +27,7 @@ Normalmente, la migración de aplicaciones implica una o varias de las estrategi
 
 - **Retirada:** todas las aplicaciones que ya no son necesarias deberán retirarse antes de la migración.
 
-- **Recompilación:** algunas organizaciones deciden volver a escribir los programas usando técnicas modernas. Dado el costo adicional y la complejidad de este enfoque, no es tan común como una migración mediante "lift-and-shift". Después de este tipo de migración, suele ser conveniente reemplazar los módulos y el código mediante motores de transformación de código.
+- **Recompilación:** algunas organizaciones deciden volver a escribir los programas usando técnicas modernas. Dado el costo adicional y la complejidad de este enfoque, no es tan común como una migración mediante lift-and-shift. Después de este tipo de migración, suele ser conveniente reemplazar los módulos y el código mediante motores de transformación de código.
 
 - **Reemplazo:** este método reemplaza la funcionalidad del sistema central por las características en la nube equivalentes. El software como servicio (SaaS) es una opción, que consiste en usar una solución creada específicamente para abordar una cuestión empresarial; por ejemplo, finanzas, recursos humanos, producción o planeamiento de recursos empresariales. Además, ahora hay disponibles muchas aplicaciones específicas del sector para resolver los problemas que antes solían corregir las soluciones de sistema central personalizadas.
 
@@ -57,7 +57,7 @@ Además de los entornos de emulación, Azure proporciona servicios de análisis 
 
 ## <a name="migrate-oltp-workloads-to-azure"></a>Migración de cargas de trabajo OLTP a Azure
 
-La migración mediante "lift-and-shift" permite migrar rápidamente las aplicaciones existentes a Azure sin tener que codificar. Cada aplicación se migra tal cual, lo que ofrece las ventajas de la nube sin el riesgo ni los costos que conlleva la modificación del código. Este enfoque es compatible con el uso de un emulador de supervisión de procesamiento de transacciones (TP) de sistema central en Azure.
+La migración mediante lift-and-shift permite migrar rápidamente las aplicaciones existentes a Azure sin tener que codificar. Cada aplicación se migra tal cual, lo que ofrece las ventajas de la nube sin el riesgo ni los costos que conlleva la modificación del código. Este enfoque es compatible con el uso de un emulador de supervisión de procesamiento de transacciones (TP) de sistema central en Azure.
 
 Hay disponibles monitores de procesamiento de transacciones de varios proveedores que se ejecutan en máquinas virtuales, una opción de infraestructura como servicio (IaaS) de Azure. Los siguientes diagramas de antes y después muestran la migración de una aplicación en línea basada en IBM DB2, un sistema de administración de bases de datos relacionales (DBMS), en un sistema central IBM z/OS. DB2 para z/OS usa archivos de método de acceso a almacenamiento virtual (VSAM) para almacenar los datos, y el método de acceso secuencial indexado (ISAM) para archivos planos. Esta arquitectura también utiliza CICS para la supervisión de transacciones.
 

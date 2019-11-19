@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 075d587b60b7da1748cd6d06ce01a1a5866f8304
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 99155a4dba7c51c5fc5d1888798275c47f870d5e
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058120"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566263"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -122,7 +122,7 @@ Las nuevas recomendaciones se dividen en dos categorías: TI de empresa (Hub) y 
     4. Aplique el plano técnico `corporate-it-subscription-blueprint` a cada instancia regional.
     5. Esto establecerá un centro para cada unidad de negocio de cada región. Nota: Se podrían lograr mayores ahorros de costos, pero para ello debe compartir centros en las unidades de negocio de cada región.
 6. Integre los objetos de directivas de grupo (GPO) mediante Desired State Configuration (DSC):
-    1. Convierta GPO en DSC: el [proyecto de Microsoft de administración de línea de base](https://github.com/Microsoft/BaselineManagement) en GitHub puede acelerar este proceso. * Asegúrese de guardar DSC en el repositorio en paralelo con las plantillas de Resource Manager.
+    1. Convierta GPO en DSC: el [proyecto de Microsoft de administración de línea de base](https://github.com/Microsoft/BaselineManagement) en GitHub puede acelerar este proceso. Asegúrese de guardar DSC en el repositorio en paralelo con las plantillas de Resource Manager.
     2. Implemente la configuración de estado de Azure Automation en cualquier instancia de la suscripción de TI de empresa. Azure Automation se puede usar para aplicar DSC en máquinas virtuales implementadas en las suscripciones compatibles del grupo de administración.
     3. En el plan de desarrollo actual se planea habilitar directivas personalizadas de configuración de invitados. Cuando esa característica esté disponible, ya no será necesario usar Azure Automation en este procedimiento recomendado.
 

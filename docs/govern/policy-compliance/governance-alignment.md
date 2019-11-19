@@ -8,12 +8,12 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: b1d5562b6e8248f371e01473d141aefecf1554b4
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 6b3fd0ca16bf54e5eaf026037ba1f59c2043f4e7
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223750"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566149"
 ---
 # <a name="align-your-cloud-governance-design-guide-with-corporate-policy"></a>Alineación de la guía de diseño de la gobernanza de la nube con las directivas corporativas
 
@@ -27,7 +27,7 @@ Aunque las guías de diseño de la nube deben tener en cuenta algunos de los det
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="using-the-actionable-governance-guides"></a>Uso de guías accionables de gobernanza
+## <a name="use-the-actionable-governance-guides"></a>Uso de guías accionables de gobernanza
 
 Si piensa utilizar la plataforma de Azure para su adopción de la nube, Cloud Adoption Framework proporciona [guías accionables de gobernanza](../guides/index.md) que ilustran el enfoque incremental del modelo de gobernanza de este marco. Estas guías abarcan diferentes escenarios de adopción comunes, e incluyen los riesgos empresariales, los requisitos de tolerancia y las declaraciones de directiva que se incluyeron al crear el producto viable mínimo de gobernanza. Estas guías representan una síntesis de la experiencia de los clientes en el mundo real durante el proceso de adopción de la nube en Azure.
 

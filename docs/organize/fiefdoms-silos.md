@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 170054f07cb7e8282b3abd582e484a730aca1280
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: beac1a3d459bd0f8654a9c746bc25981ad366fb0
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032052"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566754"
 ---
 # <a name="organizational-antipatterns-silos-and-fiefdoms"></a>Antipatrones de la organización: Islas y feudos
 
@@ -64,7 +64,7 @@ Es probable que los miembros del equipo de una isla de TI se definan a sí mismo
 
 Este antipatrón suele surgir de un entusiasmo común por una solución concreta. Las islas de TI se ven luego reforzadas por las aptitudes avanzadas del equipo como resultado de la inversión en esa solución específica. Esta aptitud superior puede ser un acelerador del trabajo de adopción en la nube si se puede superar la resistencia a los cambios. También puede convertirse en un bloqueador importante si las islas se dividen o si los miembros del equipo no pueden evaluar con precisión las opciones. Afortunadamente, las islas de TI a menudo se pueden solucionar sin realizar cambios importantes en el organigrama.
 
-### <a name="addressing-resistance-from-it-silos"></a>Resolución de la resistencia de islas de TI
+### <a name="address-resistance-from-it-silos"></a>Resolución de la resistencia de islas de TI
 
 Las islas de TI se pueden solucionar a través de los siguientes enfoques. El mejor enfoque dependerá de la causa raíz de la resistencia.
 
@@ -112,16 +112,18 @@ Los feudos son especialmente comunes en organizaciones que han experimentado red
 
 Por lo general, los feudos son consecuencia de un superior jerárquico que teme la pérdida del equipo y de la base de poder asociada. Estos responsables suelen tener un sentido del deber hacia su equipo y sienten la necesidad de proteger a sus subordinados de las consecuencias negativas. Frases como "proteger al equipo del cambio" y "proteger al equipo de la interrupción del proceso" pueden ser indicadores de un jefe demasiado cauteloso que puede necesitar más apoyo del liderazgo.
 
-### <a name="addressing-resistance-from-it-fiefdoms"></a>Resolución de la resistencia de feudos de TI
+### <a name="address-resistance-from-it-fiefdoms"></a>Resolución de la resistencia de feudos de TI
 
-Los feudos de TI pueden mostrar cierto crecimiento si se siguen los enfoques de [resolución de la resistencia de silos de TI](#addressing-resistance-from-it-silos). Antes de intentar resolver la resistencia de un feudo de TI, se recomienda tratar primero al equipo como una isla de TI. Si ese tipo de enfoques no produce ningún cambio significativo, el equipo resistente podría verse afectado por un antipatrón de feudo de TI. La causa raíz de los feudos de TI es un poco más compleja de resolver, ya que esa resistencia tiende a proceder del superior jerárquico directo (o un responsable superior en el organigrama). Por lo general, es más fácil superar los retos basados en islas de TI.
+Los feudos de TI pueden mostrar cierto crecimiento si se siguen los enfoques de [resolución de la resistencia de silos de TI](#address-resistance-from-it-silos). Antes de intentar resolver la resistencia de un feudo de TI, se recomienda tratar primero al equipo como una isla de TI. Si ese tipo de enfoques no produce ningún cambio significativo, el equipo resistente podría verse afectado por un antipatrón de feudo de TI. La causa raíz de los feudos de TI es un poco más compleja de resolver, ya que esa resistencia tiende a proceder del superior jerárquico directo (o un responsable superior en el organigrama). Por lo general, es más fácil superar los retos basados en islas de TI.
 
 Cuando la resistencia continua de los feudos de TI bloquea el trabajo de adopción de la nube, sería conveniente realizar un trabajo conjunto para evaluar la situación con los responsables de TI existentes. Los responsables de TI deben considerar detenidamente la información procedente del [equipo de estrategia en la nube](./cloud-strategy.md), el [centro de excelencia de la nube](./cloud-governance.md) y el [equipo de gobernanza en la nube](./cloud-center-of-excellence.md) antes de tomar decisiones.
 
 > [!NOTE]
-> Los responsables de TI no deben tomar nunca a la ligera los cambios en el organigrama. También deben validar y analizar los comentarios de cada uno de los equipos auxiliares. Aunque el trabajo de transformación, como la adopción en la nube, tiende a magnificar los problemas subyacentes que han pasado desapercibidos o llevan mucho tiempo sin abordarse antes de este trabajo. Cuando los feudos impiden el éxito de la empresa, es posible que se necesite un cambio de liderazgo.
+> Los responsables de TI no deben tomar nunca a la ligera los cambios en el organigrama. También deben validar y analizar los comentarios de cada uno de los equipos auxiliares. No obstante, el trabajo de transformación, como la adopción en la nube, tiende a magnificar los problemas subyacentes que han pasado desapercibidos o llevan mucho tiempo sin abordarse antes de este trabajo. Cuando los feudos impiden el éxito de la empresa, es posible que se necesite un cambio de liderazgo.
 >
 > Afortunadamente, quitar el responsable de un feudo no suele acabar en despido. Estos responsables fuertes y entusiastas a menudo pueden pasar a desempeñar un papel directivo después de un breve período de reflexión. Con el apoyo adecuado, este cambio puede ser recomendable para el responsable del feudo y el equipo actual.
+
+<!-- -->
 
 > [!CAUTION]
 > En el caso de los jefes de feudos de TI, proteger el equipo de riesgos es un claro valor de liderazgo. Pero hay una fina línea divisoria entre protección y aislamiento. Impedir que el equipo participe en impulsar los cambios puede tener consecuencias psicológicas y profesionales en él. La tentación de resistirse al cambio puede ser fuerte, especialmente durante los momentos de cambio visible.

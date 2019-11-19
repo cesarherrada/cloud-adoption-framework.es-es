@@ -8,28 +8,28 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 93449f754e3908e092fa64c55ad62fc604b4ba5b
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: f3faa122039097dd6f0f4df1d6f5071b77816545
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71032290"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656619"
 ---
 # <a name="enable-tracking-and-alerting-for-critical-changes"></a>Habilitar el seguimiento y las alertas de los cambios críticos
 
-Azure Change Tracking e Inventario proporciona alertas sobre el estado de configuración de su entorno híbrido y sobre los cambios que se realizan en ese entorno. Puede supervisar los cambios críticos en los archivos, los servicios, el software y el Registro que pueden afectar a los servidores implementados.
+Azure Change Tracking e Inventario proporciona alertas sobre el estado de configuración de su entorno híbrido y los cambios que se realizan en ese entorno. Puede notificar los cambios críticos en los archivos, los servicios, el software y el Registro que pueden afectar a los servidores implementados.
 
-De forma predeterminada, el servicio de inventario de Azure Automation no supervisa la configuración del Registro o los archivos. La solución proporciona una lista de las claves del Registro que se recomienda supervisar. Para ver esta lista, vaya a la cuenta de Automation en Azure Portal y seleccione **Inventario** > **Editar configuración**:
+De forma predeterminada, el servicio de inventario de Azure Automation no supervisa la configuración del Registro o los archivos. La solución proporciona una lista de las claves del Registro que se recomienda supervisar. Para ver esta lista, vaya a la cuenta de Automation en Azure Portal y seleccione **Inventario** > **Editar configuración**.
 
 ![Captura de pantalla de la vista de inventario de Azure Automation en Azure Portal](./media/change-tracking1.png)
 
-Para más información sobre cada una de las claves del Registro, consulte [Seguimiento de cambios en las claves del Registro](https://docs.microsoft.com/azure/automation/automation-change-tracking#registry-key-change-tracking). Puede evaluar y, a continuación, habilitar cada clave seleccionándola. La configuración se aplica a todas las máquinas virtuales habilitadas en el área de trabajo actual.
+Para más información sobre cada una de las claves del Registro, consulte [Seguimiento de cambios en las claves del Registro](https://docs.microsoft.com/azure/automation/automation-change-tracking#registry-key-change-tracking). Seleccione cualquier clave que desee evaluar y, a continuación, habilítela. La configuración se aplica a todas las VM que están habilitadas en el área de trabajo actual.
 
-También puede realizar un seguimiento de los cambios críticos en los archivos. Por ejemplo, puede que desee realizar el seguimiento del archivo C:\Windows\System32\Drivers\etc\hosts porque el sistema operativo lo usa para asignar nombres de host a direcciones IP. Cualquier cambio en este archivo podría provocar problemas de conectividad o redirigir el tráfico a sitios web peligrosos.
+También puede usar el servicio para realizar un seguimiento de los cambios críticos en los archivos. Por ejemplo, puede que desee realizar el seguimiento del archivo C:\Windows\System32\Drivers\etc\hosts porque el sistema operativo lo usa para asignar nombres de host a direcciones IP. Los cambios en este archivo podrían provocar problemas de conectividad o redirigir el tráfico a sitios web peligrosos.
 
-Para habilitar el seguimiento del contenido del el archivo de hosts, siga los pasos descritos en [Habilitación del seguimiento del contenido de los archivos](https://docs.microsoft.com/azure/automation/change-tracking-file-contents#enable-file-content-tracking).
+Para habilitar el seguimiento del contenido del archivo de hosts, siga los pasos descritos en [Habilitación del seguimiento del contenido de los archivos](https://docs.microsoft.com/azure/automation/change-tracking-file-contents#enable-file-content-tracking).
 
-También puede agregar una alerta para cambios realizados en los archivos de los que está realizando el seguimiento. Por ejemplo, suponga que desea establecer una alerta para los cambios realizados en el archivo de hosts. Para empezar, seleccione **Log Analytics** en la barra de comandos o abra la búsqueda de registros para el área de trabajo de Log Analytics vinculada para ir a Log Analytics. Una vez en Log Analytics, busque cambios en el contenido del archivo de hosts con la siguiente consulta:
+También puede agregar una alerta para los cambios realizados en los archivos de los que está realizando el seguimiento. Por ejemplo, suponga que desea establecer una alerta para los cambios realizados en el archivo de hosts. Seleccione **Log Analytics** en la barra de comandos o en la búsqueda de registros del área de trabajo de Log Analytics vinculada. En Log Analytics, use la siguiente consulta para buscar cambios en el archivo de hosts:
 
 ```kusto
 ConfigurationChange | where FieldsChanged contains "FileContentChecksum" and FileSystemPath contains "hosts"
@@ -51,13 +51,13 @@ Después de establecer la lógica de la condición, puede asignar grupos de acci
 
 Una vez configurados todos los parámetros y la lógica, aplique la alerta al entorno.
 
-## <a name="more-tracking-and-alerting-examples"></a>Más ejemplos de alertas y seguimiento
+## <a name="tracking-and-alerting-examples"></a>Ejemplos de alertas y seguimiento
 
-A continuación, se muestran otros escenarios habituales de seguimiento y alertas que conviene tener en cuenta:
+En esta sección se muestran otros escenarios habituales de seguimiento y alertas que puede utilizar.
 
 ### <a name="driver-file-changed"></a>Archivo de controlador modificado
 
-Detecta si se modifican, agregan o quitan archivos de controlador. Útil para el seguimiento de cambios en archivos críticos del sistema.
+Utilice la consulta siguiente para detectar si se modifican, agregan o quitan archivos de controlador. Resulta útil para el seguimiento de cambios en archivos críticos del sistema.
 
   ```kusto
   ConfigurationChange | where ConfigChangeType == "Files" and FileSystemPath contains " c:\\windows\\system32\\drivers\\"
@@ -65,7 +65,7 @@ Detecta si se modifican, agregan o quitan archivos de controlador. Útil para el
 
 ### <a name="specific-service-stopped"></a>Servicio específico detenido
 
-Útil para el seguimiento de cambios en servicios críticos del sistema.
+Utilice la consulta siguiente para realizar el seguimiento de los cambios en los servicios críticos del sistema.
 
   ```kusto
   ConfigurationChange | where SvcState == "Stopped" and SvcName contains "w3svc"
@@ -73,7 +73,7 @@ Detecta si se modifican, agregan o quitan archivos de controlador. Útil para el
 
 ### <a name="new-software-installed"></a>Nuevo software instalado
 
-Útil para entornos que necesitan bloquear configuraciones de software.
+Utilice la consulta siguiente para entornos que necesitan bloquear configuraciones de software.
 
   ```kusto
   ConfigurationChange | where ConfigChangeType == "Software" and ChangeCategory == "Added"
@@ -81,15 +81,15 @@ Detecta si se modifican, agregan o quitan archivos de controlador. Útil para el
 
 ### <a name="specific-software-version-is-or-isnt-installed-on-a-machine"></a>Una versión de software específica está o no está instalada en una máquina
 
-Útil para evaluar la seguridad. Tenga en cuenta que esta consulta hace referencia a `ConfigurationData`, que contiene los registros de Inventario e indica el último estado de configuración notificado, pero no cambios.
+Utilice la consulta siguiente para evaluar la seguridad. Esta consulta hace referencia a `ConfigurationData`, que contiene los registros del inventario e indica el último estado de configuración notificado, pero no los cambios.
 
   ```kusto
   ConfigurationData | where SoftwareName contains "Monitoring Agent" and CurrentVersion != "8.0.11081.0"
   ```
 
-### <a name="known-dll-changed-through-registry"></a>Archivo DLL conocido modificado a través del Registro
+### <a name="known-dll-changed-through-the-registry"></a>Archivo DLL conocido modificado a través del Registro
 
-Útil para detectar cambios en claves del Registro conocidas.
+Utilice la consulta siguiente para detectar los cambios en las claves del Registro conocidas.
 
   ```kusto
   ConfigurationChange | where RegistryKey == "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\KnownDlls"
@@ -97,7 +97,7 @@ Detecta si se modifican, agregan o quitan archivos de controlador. Útil para el
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Obtenga información acerca de cómo administrar las actualizaciones de los servidores mediante la [creación de programaciones de actualizaciones](./update-schedules.md) con Azure Automation.
+Obtenga información acerca de cómo usar Azure Automation para [crear programaciones de actualizaciones](./update-schedules.md) con la finalidad de administrar las actualizaciones de los servidores.
 
 > [!div class="nextstepaction"]
 > [Creación de programaciones de actualizaciones](./update-schedules.md)

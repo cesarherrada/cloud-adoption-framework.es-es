@@ -11,12 +11,12 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 3ac29e353f04370daf36e4c780fde8a14be45a37
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 95a2bf325615c7eb765ad747d0aad16f008e015d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022215"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564019"
 ---
 # <a name="perimeter-networks"></a>Redes perimetrales
 
@@ -27,9 +27,9 @@ Para que las redes perimetrales sean eficaces, los paquetes entrantes deben flui
 Las redes perimetrales usan las siguientes características y servicios de Azure:
 
 - [Redes virtuales][virtual-networks], [rutas definidas por el usuario][user-defined-routes] y [grupos de seguridad de red][network-security-groups]
-- [Aplicaciones virtuales de red][NVA] (NVA)
+- [Aplicaciones virtuales de red (NVA)][NVA]
 - [Equilibrador de carga de Azure][ALB]
-- [Azure Application Gateway][AppGW] y [firewall de aplicaciones web][AppGWWAF] (WAF)
+- [Azure Application Gateway][AppGW] y [firewall de aplicaciones web (WAF)][AppGWWAF]
 - [Direcciones IP públicas][PIP].
 - [Azure Front Door][AFD] con [firewall de aplicaciones web][AFDWAF]
 - [Azure Firewall][AzFW]
@@ -42,9 +42,9 @@ Las redes perimetrales usan las siguientes características y servicios de Azure
 
 Normalmente, los equipos de TI y de seguridad centrales son responsables de definir los requisitos para el funcionamiento de las redes perimetrales.
 
-![Ejemplo de red de concentrador y radio][7].
+![Ejemplo de una topología en estrella tipo hub-and-spoke][7]
 
-En el diagrama anterior se muestra un ejemplo de una [red de concentrador y radio](./hub-spoke-network-topology.md) que implementa la aplicación de dos perímetros con acceso a Internet y a una red local Ambos perímetros residen en el concentrador de la red perimetral. En el concentrador de DMZ, la red perimetral a Internet puede escalarse verticalmente para admitir varias líneas de negocio mediante varias granjas de firewalls de aplicaciones web que ayudan a proteger las redes virtuales radiales. El concentrador también permite la conectividad a través de VPN o Azure ExpressRoute, según sea necesario.
+En el diagrama anterior se muestra un ejemplo de [topología de red en estrella tipo hub-and-spoke](./hub-spoke-network-topology.md) que implementa la aplicación de dos perímetros con acceso a Internet y a una red local. Ambos perímetros residen en el concentrador de la red perimetral. En el concentrador de DMZ, la red perimetral a Internet puede escalarse verticalmente para admitir varias líneas de negocio mediante varias granjas de firewalls de aplicaciones web que ayudan a proteger las redes virtuales radiales. El concentrador también permite la conectividad a través de VPN o Azure ExpressRoute, según sea necesario.
 
 ## <a name="virtual-networks"></a>Redes virtuales
 
@@ -54,7 +54,7 @@ Las redes perimetrales normalmente se basan en una [red virtual][virtual-network
 
 Con las [rutas definidas por el usuario][user-defined-routes], los clientes pueden implementar firewalls, IDS o IPS y otras aplicaciones virtuales. Los clientes pueden entonces enrutar el tráfico de red a través de estas aplicaciones de seguridad para la aplicación de directivas de límites de seguridad, auditoría e inspección. Se pueden crear rutas definidas por el usuario para garantizar que el tráfico pase por las máquinas virtuales personalizadas, NVA y equilibradores de carga especificados.
 
-En un ejemplo de red de concentrador y radio, garantizar que el tráfico generado por las máquinas virtuales que residen en los radios pase a través de los dispositivos virtuales correctos en el concentrador requiere una ruta definida por el usuario definida en las subredes de los radios. Esta ruta establece la dirección IP de front-end del equilibrador de carga interno como el tipo de próximo salto. El equilibrador de carga interno distribuye el tráfico interno a las aplicaciones virtuales (grupo de back-end de equilibradores de carga).
+En un ejemplo de red en estrella tipo hub-and-spoke, garantizar que el tráfico generado por las máquinas virtuales que residen en el radio pase a través de los dispositivos virtuales correctos en el concentrador requiere una ruta definida por el usuario definida en las subredes del radio. Esta ruta establece la dirección IP de front-end del equilibrador de carga interno como el tipo de próximo salto. El equilibrador de carga interno distribuye el tráfico interno a las aplicaciones virtuales (grupo de back-end de equilibradores de carga).
 
 ## <a name="azure-firewall"></a>Azure Firewall
 
@@ -80,7 +80,7 @@ Use un conjunto de instancias de Azure Firewall (o NVA) para el tráfico que se 
 
 Azure Load Balancer también puede sondear el estado de las distintas instancias de servidor. Cuando una instancia no puede responder a un sondeo, el equilibrador de carga deja de enviar tráfico a las instancias incorrectas.
 
-Como ejemplo del uso de una red de concentrador y radio, puede implementar un equilibrador de carga externo en el concentrador y en los radios. En el concentrador, el equilibrador de carga enruta de forma eficaz el tráfico a los servicios de los radios. En los radios, los equilibradores de carga administran el tráfico de la aplicación.
+Como ejemplo del uso de una topología de red en estrella tipo hub-and-spoke, puede implementar un equilibrador de carga externo en el concentrador y en los radios. En el concentrador, el equilibrador de carga enruta de forma eficaz el tráfico a los servicios de los radios. En los radios, los equilibradores de carga administran el tráfico de la aplicación.
 
 ## <a name="azure-front-door-service"></a>Azure Front Door Service
 

@@ -47,7 +47,7 @@ La primera decisión que se deberá tomar en cuanto a la aceleración de la impl
 - Aunque se usen grupos de administración de Azure, se espera una jerarquía relativamente sencilla.
 - Azure Blueprints se usará para implementar y actualizar las suscripciones mediante la aplicación de requisitos de RBAC, plantillas de Resource Manager y Azure Policy en los grupos de administración.
 
-## <a name="applying-the-dependent-patterns"></a>Aplicación de los patrones dependientes
+## <a name="apply-the-dependent-patterns"></a>Aplicación de los patrones dependientes
 
 Las siguientes decisiones representan los patrones que se harán cumplir a través de la estrategia de cumplimiento de directivas anterior:
 

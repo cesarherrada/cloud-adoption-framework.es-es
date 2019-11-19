@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 6e02cffdbd76932e3066ed68501856aef2669b02
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 849c6eace1704cababd4fc40f7976f5e1915345e
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979912"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564970"
 ---
 # <a name="cloud-monitoring-guide-monitoring-strategy-for-cloud-deployment-models"></a>Guía sobre la supervisión en la nube: estrategia de supervisión para los modelos de implementación en la nube
 
@@ -88,7 +88,7 @@ En la tabla siguiente se resumen los requisitos que Azure Monitor y System Cente
 |Supervisión de aplicaciones web modernas | Sí | Sin |
 |Supervisión de aplicaciones web heredadas | Sí, la limitación varía según el SDK<br> Admite la supervisión de versiones anteriores de aplicaciones web de Java y .NET. | Sí, limitada |
 |Supervisión de contenedores de Azure Kubernetes Service | Sí | Sin |
-|Supervisión de contenedores de Docker y Windows | Sí | Sin |
+|Supervisión de contenedores de Docker o Windows | Sí | Sin |
 |Supervisión del rendimiento de red | Sí | Sí, limitada<br> Admite comprobaciones de disponibilidad y recopila estadísticas básicas de los dispositivos de red mediante el protocolo simple de administración de redes (SNMP) de la red corporativa.|
 |Análisis de datos interactivos | Sí | Sin<br> Se basa en informes predefinidos o personalizados de SQL Server Reporting Services, soluciones de visualización de terceros o una implementación de Power BI personalizada. Existen limitaciones de escala y rendimiento en el almacenamiento de datos de Operations Manager. Se puede integrar con los registros de Azure Monitor como alternativa para los requisitos de agregación de datos. La integración se logra configurando el conector de Log Analytics.|
 |Diagnósticos de un extremo a otro, análisis de la causa principal y solución de problemas puntuales | Sí | Sí, limitada<br> Admite los diagnósticos de un extremo a otro y la solución de problemas solo para infraestructuras y aplicaciones locales. Utiliza otros componentes de System Center o soluciones de asociados.|
@@ -131,7 +131,7 @@ Aunque Operations Manager sea capaz de supervisar los recursos hospedados en Azu
 
 #### <a name="disadvantages-of-using-operations-manager-by-itself"></a>Desventajas de usar únicamente Operations Manager
 
-- El análisis de los datos de supervisión en Operations Manager se suele realizar mediante vistas predefinidas en módulos de administración a los que se accede desde la consola, los informes de SQL Server Reporting Services (SSRS) o las vistas personalizadas que crean los usuarios finales. No es posible realizar de serie un análisis ad hoc de los datos. Los informes de Operations Manager no son flexibles. El almacenamiento de datos que proporciona la retención a largo plazo de los datos de supervisión no se escala ni funciona bien. Además, se requiere experiencia en la escritura de instrucciones de T-SQL, el desarrollo de una solución de Power BI o el uso de soluciones de terceros para el respaldo de los requisitos de los diversos roles de la organización de TI.
+- El análisis de los datos de supervisión en Operations Manager se suele realizar mediante vistas predefinidas en módulos de administración a los que se accede desde la consola, los informes de SQL Server Reporting Services (SSRS) o las vistas personalizadas que crean los usuarios finales. El análisis de datos ad hoc no es posible de forma predefinida. Los informes de Operations Manager no son flexibles. El almacenamiento de datos que proporciona la retención a largo plazo de los datos de supervisión no se escala ni funciona bien. Además, se requiere experiencia en la escritura de instrucciones de T-SQL, el desarrollo de una solución de Power BI o el uso de soluciones de terceros para el respaldo de los requisitos de los diversos roles de la organización de TI.
 
 - Las alertas de Operations Manager no admiten expresiones complejas ni incluyen lógica de correlación. Para ayudar a reducir el ruido, las alertas se agrupan para mostrar las relaciones entre ellas y para identificar sus causas.
 
@@ -165,7 +165,7 @@ Aunque una migración a la nube presenta numerosos desafíos, también incluye n
 
 - Habilite Azure Monitor para VM, Azure Monitor para contenedores y Application Insights para detectar y diagnosticar problemas entre la infraestructura y las aplicaciones. Para un análisis y una correlación más completos de los datos recopilados de los diversos componentes o dependencias compatibles con la aplicación, debe usar los registros de Azure Monitor.
 
-- Cree alertas inteligentes que se puedan aplicar a un conjunto básico de aplicaciones y componentes de servicio, ayude a reducir el ruido de las alertas con umbrales dinámicos para señales complejas y use la agregación de alertas basada en algoritmos de aprendizaje automático para ayudar a identificar rápidamente el problema.
+- Cree alertas inteligentes que se apliquen a un conjunto básico de aplicaciones y componentes de servicio, ayude a reducir el ruido de las alertas con umbrales dinámicos para señales complejas y use la agregación de alertas basada en algoritmos de aprendizaje automático para ayudar a identificar rápidamente el problema.
 
 - Defina una biblioteca de consultas y paneles para respaldar los requisitos de los diversos roles de la organización de TI.
 

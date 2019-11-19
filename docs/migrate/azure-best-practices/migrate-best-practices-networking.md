@@ -8,12 +8,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3bba3d7f028849ec3397e14dbdb0f39dfa246660
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: df31cb73ec601c52f0f925d09a56f0af7aaf1513
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058884"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565220"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
@@ -120,7 +120,7 @@ Azure agrega un servidor DNS de forma predeterminada al implementar una red virt
 **Más información:**
 
 - [Obtenga más información sobre](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure) la resolución de nombres al usar su propio servidor DNS.
-- [Obtenga más información sobre](../../ready/considerations/naming-and-tagging.md) las reglas y restricciones de nomenclatura DNS.
+- [Obtenga más información sobre](../../ready/azure-best-practices/naming-and-tagging.md) las reglas y restricciones de nomenclatura DNS.
 
 ## <a name="best-practice-set-up-availability-zones"></a>Procedimiento recomendado: Configuración de zonas de disponibilidad
 
@@ -278,7 +278,7 @@ Para optimizar el enrutamiento para los usuarios de ambas oficinas, debe saber q
 
 - [Más información sobre](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing) cómo optimizar el enrutamiento.
 
-## <a name="securing-vnets"></a>Protección de redes virtuales
+## <a name="secure-vnets"></a>VNET seguras
 
 La responsabilidad de proteger las redes virtuales se comparte entre Microsoft y usted. Microsoft facilita muchas características de red, además de servicios que ayudan a proteger los recursos. Al diseñar la seguridad de las redes virtuales, los procedimientos recomendados que debe seguir incluyen implementar una red perimetral, usar filtrado y grupos de seguridad, proteger el acceso a los recursos y las direcciones IP e implementar protección frente a ataques.
 
@@ -377,7 +377,7 @@ NIC4 | AsgDb
 **Nombre de la regla** | **Propósito** | **Detalles**
 --- | --- | ---
 Allow-HTTP-Inbound-Internet | Se permite el tráfico de Internet a los servidores web. La regla de seguridad predeterminada DenyAllInbound deniega el tráfico entrante desde Internet, por lo que no se necesita ninguna regla adicional para los grupos de seguridad de aplicaciones AsgLogic y AsgDb. | Prioridad: 100<br/><br/> Origen: Internet<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgWeb<br/><br/> Puerto de destino: 80<br/><br/> Protocolo: TCP<br/><br/> Acceso: Permitir.
-Deny-Database-All | La regla de seguridad predeterminada AllowVNetInBound permite todas las comunicaciones entre los recursos de la misma red virtual y es necesaria para denegar el tráfico desde todos los recursos. | Prioridad: 120<br/><br/> Origen: *<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: Todo<br/><br/> Acceso: Denegar.
+Deny-Database-All | La regla de seguridad predeterminada AllowVNetInBound permite todas las comunicaciones entre los recursos de la misma red virtual y es necesaria para denegar el tráfico desde todos los recursos. | Prioridad: 120<br/><br/> Origen: *<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: All<br/><br/> Acceso: Denegar.
 Allow-Database-BusinessLogic | Se permite el tráfico desde el grupo de seguridad de aplicaciones AsgLogic al grupo de seguridad de aplicaciones AsgDb. La prioridad de esta regla es superior a la de la regla Deny-Database-All y se procesará antes, por lo que se permite el tráfico del grupo de seguridad de aplicaciones AsgLogic y se bloquea el resto del tráfico. | Prioridad: 110<br/><br/> Origen: AsgLogic<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: TCP<br/><br/> Acceso: Permitir.
 
 <!--markdownlint-enable MD033 -->

@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 22fa26bdf4665584224551015cd4b3277d4755a3
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 6b92072ed182eefc596ab446638a87b4fd560080
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223766"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566215"
 ---
 # <a name="identity-baseline-policy-compliance-processes"></a>Procesos de cumplimiento de la directiva de la base de referencia de identidad
 
@@ -40,7 +40,7 @@ Este proceso de planeamiento también es un buen momento para evaluar a los miem
 
 **Auditoría mensual y revisiones de informes:** realice una auditoría mensual de todas las implementaciones de la nube para garantizar su alineación continuada con la directiva de identidad. Use este proceso de revisión para comprobar el acceso de los usuarios en relación con los cambios en la empresa para asegurarse de que los usuarios tienen el acceso correcto a los recursos en la nube, y para asegurarse de que las estrategias de acceso, como RBAC, se siguen de forma coherente. Identifique todas las cuentas con privilegios elevados y documente su finalidad. El resultado de este proceso de revisión es un informe para el equipo de estrategia de la nube y para cada equipo de adopción de la nube en el que se detalla la adhesión general a la directiva. El informe también se almacena con fines de auditoría y legales.
 
-## <a name="ongoing-monitoring-processes"></a>Procesos de supervisión en curso
+## <a name="processes-for-ongoing-monitoring"></a>Procesos de supervisión en curso
 
 La determinación de si la estrategia de gobernanza de la identidad es correcta depende de la visibilidad de los estados actual y pasado de los sistemas de identidades. Sin la capacidad para analizar las métricas pertinentes de la implementación de la nube y los datos relacionados, no se pueden identificar cambios en los riesgos ni detectar infracciones de las tolerancias al riesgo. Los procesos de gobernanza en curso que se analizaron anteriormente requieren datos de calidad para asegurarse de que se puede modificar la directiva para adaptarse a las necesidades cambiantes de su negocio.
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: f77d42b9f55e5a8585e663b416f0d354e2de78de
-ms.sourcegitcommit: d37c4443e9acaa381ea74ee3fc50e3b99f13f22a
+ms.openlocfilehash: 4e13c064cb449e3f8fca9573b44d214bb644b927
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72001859"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566669"
 ---
 # <a name="azure-virtual-datacenter"></a>Centro de datos virtual de Azure
 
@@ -44,7 +44,7 @@ ms.locfileid: "72001859"
     <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf"><img src="../_images/vdc/vdc-lift-and-shift.png" alt="Lift and Shift Guide" /></a></td>
     <td>
         <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf">Centro de datos virtual de Azure: Guía para una migración lift-and-shift</a></h3>
-        <p>En estas notas del producto se explica el proceso empresarial que el personal de TI y los responsables de decisiones pueden utilizar para identificar y planear la migración de las aplicaciones y los servidores a Azure mediante un enfoque de tipo "lift-and-shift", para minimizar los posibles costos de desarrollo adicionales y optimizar las opciones de hospedaje en la nube.</p>
+        <p>En estas notas del producto se explica el proceso empresarial que el personal de TI y los responsables de decisiones pueden utilizar para identificar y planear la migración de las aplicaciones y los servidores a Azure mediante un enfoque de tipo lift-and-shift, para minimizar los posibles costos de desarrollo adicionales y optimizar las opciones de hospedaje en la nube.</p>
     </td>
 </tr>
 </table>

@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 8d374fdc5df4589e58b890ae5c169d26d0b1f206
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: a5ccbe2f3dd754914997ccba7b49ba47505dffa3
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70839170"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564134"
 ---
 # <a name="review-rationalization-decisions"></a>Revisión de las decisiones de racionalización
 
@@ -26,7 +26,7 @@ Para validar las decisiones de racionalización, utilice las siguientes pregunta
 
 ## <a name="innovation-indicators"></a>Indicadores de innovación
 
-Si la revisión conjunta de las siguientes preguntas da como resultado una respuesta afirmativa, una carga de trabajo podría ser una buena candidata para la innovación. Este tipo de carga de trabajo no se migrará con un modelo de tipo "levantar y mover" o de modernización. En su lugar, las estructuras de datos o la lógica del negocio se volverán a crear como una aplicación nueva o rediseñada. Este enfoque puede ser más intensivo y requiere mucho tiempo. Pero para una carga de trabajo que representa retornos empresariales significativos, se justifica la inversión.
+Si la revisión conjunta de las siguientes preguntas da como resultado una respuesta afirmativa, una carga de trabajo podría ser una buena candidata para la innovación. Este tipo de carga de trabajo no se migrará con un modelo de tipo lift-and-shift o de modernización. En su lugar, las estructuras de datos o la lógica del negocio se volverán a crear como una aplicación nueva o rediseñada. Este enfoque puede ser más intensivo y requiere mucho tiempo. Pero para una carga de trabajo que representa retornos empresariales significativos, se justifica la inversión.
 
 - ¿Las aplicaciones de esta carga de trabajo crean diferenciación en el mercado?
 - ¿Hay una inversión propuesta o aprobada destinada a mejorar las experiencias asociadas a las aplicaciones de esta carga de trabajo?

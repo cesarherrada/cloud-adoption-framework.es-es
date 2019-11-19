@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, setup
-ms.openlocfilehash: 0eee9746f4d2ee5fcf078774e070ffc25d430f38
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 1e9fe49f03eb9cc0b2f53e334f649e8dea9cf2fe
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379208"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240104"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Implementación de una zona de aterrizaje para la migración
 
@@ -47,7 +47,7 @@ Se usaron las siguientes suposiciones o restricciones cuando se definió esta zo
 - **Límites de suscripción:** no se espera que este esfuerzo de adopción supere los [límites de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits). Dos indicadores comunes constituyen un exceso de 25 000 máquinas virtuales o 10 000 vCPU.
 - **Cumplimiento:** no se necesita ningún requisito de cumplimiento de terceros en esta zona de aterrizaje.
 - **Complejidad de la arquitectura:** la complejidad de la arquitectura no requiere suscripciones de producción adicionales.
-- **Servicios compartidos:** no hay servicios compartidos en Azure que requieran que esta suscripción se trate como un radio en una arquitectura de concentrador y radio.
+- **Servicios compartidos:** no hay servicios compartidos en Azure que requieran que esta suscripción se trate como un radio en una arquitectura en estrella tipo hub-and-spoke.
 
 Si estas suposiciones parecen ir acordes con su entorno actual, este plano técnico podría ser un buen punto de partida para empezar a crear la zona de aterrizaje.
 
@@ -59,17 +59,17 @@ Las siguientes decisiones se representan en el plano técnico de la zona de ater
 |---------|---------|---------|
 |Herramientas de migración|Azure Site Recovery se implementará y se creará un proyecto de Azure Migrate.|[Guía para la toma de decisiones de las herramientas de migración](../../decision-guides/migrate-decision-guide/index.md)|
 |Registro y supervisión|La cuenta de almacenamiento de diagnóstico y el área de trabajo de Operational Insights se aprovisionarán.|         |
-|Red|Se creará una red virtual con subredes para la puerta de enlace, el firewall, el jumpbox y la zona de aterrizaje.|[Decisiones respecto a las redes](../considerations/network-decisions.md)|
+|Red|Se creará una red virtual con subredes para la puerta de enlace, el firewall, el jumpbox y la zona de aterrizaje.|[Decisiones respecto a las redes](../considerations/networking-options.md)|
 |Identidad|Se da por sentado que la suscripción ya está asociada a una instancia de Azure Active Directory.|[Procedimientos recomendados de administración de identidades](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
 |Directiva|En la actualidad, en este plano técnico se da por hecho que no se aplicará ninguna directiva de Azure.|         |
-|Detalles de la suscripción|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)|
-|Grupos de administración|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)         |
-|Grupos de recursos|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../considerations/scaling-subscriptions.md)         |
+|Detalles de la suscripción|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)|
+|Grupos de administración|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)         |
+|Grupos de recursos|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)         |
 |Datos|N/D|[Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/architecture/bread/toc.json) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
-|Storage|N/D|[Guía de Azure Storage](../considerations/storage-guidance.md)         |
-|Estándares de nomenclatura y etiquetado|N/D|[Procedimientos recomendados de nomenclatura y etiquetado](../considerations/naming-and-tagging.md)         |
+|Storage|N/D|[Guía de Azure Storage](../considerations/storage-options.md)         |
+|Estándares de nomenclatura y etiquetado|N/D|[Procedimientos recomendados de nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md)         |
 |Administración de costos|N/D|[Seguimiento de costos](../azure-best-practices/track-costs.md)|
-|Proceso|N/D|[Opciones de proceso](../considerations/compute-decisions.md)|
+|Proceso|N/D|[Opciones de proceso](../considerations/compute-options.md)|
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Personalización o implementación de una zona de aterrizaje a partir de este plano técnico
 

@@ -1,21 +1,21 @@
 ---
 title: Capacidad de red superada
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Los requisitos de almacenamiento superan la capacidad de red durante un esfuerzo de migración.
+description: Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 9b1078cbb6b7ca40b7a38ea56ae803fd61e67449
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: a2afa6e7961a8cc53abb6c3dbe0d78c2251b134d
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024766"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239971"
 ---
-# <a name="storage-requirements-exceed-network-capacity-during-a-migration-effort"></a>Los requisitos de almacenamiento superan la capacidad de red durante un esfuerzo de migración
+# <a name="data-requirements-exceed-network-capacity-during-a-migration-effort"></a>Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 
 En una migración a la nube, los recursos se replican y sincronizan a través de la red entre el centro de datos existente y la nube. No es poco frecuente que los requisitos de tamaño de datos existentes de varias cargas de trabajo superen la capacidad de la red. En dicho escenario, el proceso de migración se puede ralentizar de manera considerable o, en algunos casos, se puede detener por completo. En las instrucciones siguientes se expandirá el ámbito de la [Guía de migración a Azure](../azure-migration-guide/index.md) para proporcionar una solución que funcione en torno a las limitaciones de la red.
 

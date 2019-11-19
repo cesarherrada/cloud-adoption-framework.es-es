@@ -8,12 +8,12 @@ ms.date: 5/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 9a6c007beedd06ff6e1a88cd7ccc497f58807af9
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 65ef12ca476ca624ae1e71cce2e62d41141873a9
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031659"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73561599"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -25,7 +25,7 @@ En este artículo se tratan algunas motivaciones tras la migración a la nube qu
 
 ## <a name="motivations"></a>Motivaciones
 
-Las transformaciones empresariales sustentadas por la adopción de la nube pueden impulsarse mediante varios motivos. Incluso es probable que varias motivaciones se apliquen a la vez. El objetivo de las listas de la tabla siguiente es ayudar a generar ideas sobre qué motivaciones son relevantes. A partir de ahí, puede clasificar por orden de prioridad y evaluar el posible impacto de las motivaciones. En este artículo se recomienda que el equipo de adopción de la nube se reúna con varios ejecutivos y líderes empresariales con la lista siguiente para comprender cuáles de estas motivaciones se ven afectadas por el esfuerzo de adopción de la nube.
+Las transformaciones empresariales sustentadas por la adopción de la nube pueden impulsarse mediante varios motivos. Es probable que se apliquen varias motivaciones al mismo tiempo. El objetivo de las listas de la tabla siguiente es ayudar a generar ideas sobre qué motivaciones son relevantes. A partir de ahí, puede clasificar por orden de prioridad y evaluar el posible impacto de las motivaciones. En este artículo se recomienda que el equipo de adopción de la nube se reúna con varios ejecutivos y líderes empresariales con la lista siguiente para comprender cuáles de estas motivaciones se ven afectadas por el esfuerzo de adopción de la nube.
 
 <!-- markdownlint-disable MD033 -->
 

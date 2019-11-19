@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: e7582df81e305ab602c8172b5e93531eb8112432
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 8e58c0e95517d49e9c8685539407127880b5d090
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022282"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240197"
 ---
 # <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
 
@@ -29,7 +29,7 @@ En el contexto de una adopción de la nube, una carga de trabajo es una colecci�
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Las entradas estratégicas de la lista de comprobación de requisitos previos hacen que las siguientes tareas sean mucho más fáciles de realizar. Para obtener ayuda con la recopilación de los datos que se describen en este artículo, consulte la [lista de comprobación de requisitos previos](./prerequisites.md).
+Las entradas estratégicas de la lista de requisitos previos hacen que las siguientes tareas sean mucho más fáciles de realizar. Para obtener ayuda con la recopilación de los datos que se describen en este artículo, consulte los [requisitos previos](./prerequisites.md).
 
 ## <a name="initial-workload-prioritization"></a>Clasificación por prioridades de la carga de trabajo inicial
 

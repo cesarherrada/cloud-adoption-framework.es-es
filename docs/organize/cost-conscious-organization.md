@@ -8,14 +8,14 @@ ms.date: 09/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.openlocfilehash: 52789f374b619a974181ed3dbd15e2206e9afdad
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 6c01ec344d6c02fa9c576e5e674b8fddf59849fe
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223968"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566811"
 ---
-# <a name="building-a-cost-conscious-organization"></a>Creación de una organización con control de costos
+# <a name="build-a-cost-conscious-organization"></a>Crear una organización con control de costos
 
 Tal como se señala en [Motivaciones: ¿por qué se realiza el traslado a la nube?](../strategy/motivations.md), hay muchas razones de peso para que una empresa adopte la nube. Si la reducción de costos es uno de los principales factores, es importante crear una organización con control de costos.
 

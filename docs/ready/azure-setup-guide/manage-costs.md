@@ -10,18 +10,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 20dd988f3e79c513647f74ade9edad307e01d839
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: c9a02a6d98929455d8d8f6c163825f69de7996be
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379159"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73562570"
 ---
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Administración de costos y facturación de los recursos de Azure
 
 La administración de costos es el proceso en el que se planifican y controlan eficazmente los costos implicados en su negocio. Normalmente, los equipos de finanzas, administración y aplicación realizan las tareas de administración de costos. Azure Cost Management puede ayudarle a planear teniendo en cuenta los costos. También le ayuda a analizar eficazmente los costos y a tomar medidas para optimizar el gasto en la nube.
 
-Para obtener más información sobre cómo integrar los procesos de administración de costos en la nube en toda la organización, consulte el artículo sobre Cloud Adoption Framework para Azure sobre cómo [realizar un seguimiento de los costos entre unidades de negocio, entornos o proyectos](../azure-best-practices/track-costs.md).
+Para obtener más información sobre cómo integrar los procesos de administración de costos en la nube en toda la organización, consulte el artículo de Cloud Adoption Framework sobre cómo [realizar un seguimiento de los costos entre unidades de negocio, entornos o proyectos](../azure-best-practices/track-costs.md).
 
 ## <a name="manage-your-costs-with-azure-cost-management"></a>Administración de los costos con Azure Cost Management
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 1e8b42170a4db025087acdabba14544cea9c8194
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: ab5e8cdb7058a773b4085f01a6be64b4521e6b69
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548124"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566451"
 ---
 # <a name="scale-a-migration-to-azure"></a>Escalado de una migración en Azure
 
@@ -174,7 +174,7 @@ Contoso usará Azure Migrate como se indica a continuación:
 
 #### <a name="database-tools"></a>Herramientas de base de datos
 
-Además de Azure Migrate, Contoso usará herramientas específicas para la evaluación de la base de datos. Herramientas como [Data Migration Assistant](/sql/dma/dma-overview?view=sql-server-2017) ayudarán a evaluar las bases de datos de SQL Server para la migración.
+Además de Azure Migrate, Contoso usará herramientas específicas para la evaluación de la base de datos. Herramientas como [Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview?view=sql-server-2017) ayudarán a evaluar las bases de datos de SQL Server para la migración.
 
 Data Migration Assistant (DMA) puede ayudar a Contoso para averiguar si las bases de datos locales son compatibles con las diferentes soluciones de bases de datos de Azure, como Azure SQL Database, SQL Server en ejecución en una máquina virtual de Azure IaaS e Instancia administrada de Azure SQL Database.
 
@@ -196,7 +196,7 @@ Hay cuatro estrategias de migración generales que Contoso puede considerar.
 
 **Estrategia** | **Detalles** | **Uso**
 --- | --- | ---
-**Rehospedaje** | Esta opción sin necesidad de escribir código, que a menudo se denomina "migración mediante lift and shift", permite migrar las aplicaciones actuales a Azure con rapidez.<br/><br/> Una aplicación se migra tal cual, con las ventajas que ofrece la nube, sin correr el riesgo ni incurrir en los costos asociados con los cambios de código. | Contoso puede rehospedar aplicaciones menos estratégicas, que no requieren ningún cambio de código.
+**Rehospedaje** | Esta opción sin necesidad de escribir código, que a menudo se denomina _migración mediante lift-and-shift_, permite migrar las aplicaciones existentes a Azure con rapidez.<br/><br/> Una aplicación se migra tal cual, con las ventajas que ofrece la nube, sin correr el riesgo ni incurrir en los costos asociados con los cambios de código. | Contoso puede rehospedar aplicaciones menos estratégicas, que no requieren ningún cambio de código.
 **Refactorización** | También conocida como "reempaquetado", esta estrategia requiere una mínima cantidad de cambios en el código de la aplicación o en la configuración para conectar la aplicación a Azure PaaS, y aprovechar mejor las capacidades de la nube. | Contoso puede refactorizar aplicaciones estratégicas para conservar la misma funcionalidad básica, pero moverlas para que se ejecuten en una plataforma Azure como Azure App Service.<br/><br/> Esta acción requiere cambios mínimos en el código.<br/><br/> Por otro lado, Contoso deberá mantener una plataforma de máquina virtual, ya que esta ya no la administrara Microsoft.
 **Rediseño** | Esta estrategia modifica o amplía una base de código de aplicación para optimizar la arquitectura de la aplicación para las capacidades y la escala de la nube.<br/><br/> Moderniza una aplicación para que tenga una arquitectura resistente y muy escalable que se puede implementar de forma independiente.<br/><br/> Los servicios de Azure permiten agilizar el proceso, escalar aplicaciones con confianza y administrar las aplicaciones con facilidad.
 **Recompilación** | Esta estrategia recompila una aplicación desde cero con tecnologías nativas de la nube.<br/><br/> La plataforma como servicio (PaaS) de Azure ofrece un entorno de desarrollo e implementación completo en la nube. Así mismo, elimina algunos gastos y la complejidad de las licencias de software, así como la necesidad de una infraestructura de aplicaciones subyacente, middleware y otros recursos. | Contoso puede volver a escribir aplicaciones críticas desde cero, para aprovechar las ventajas de las tecnologías de la nube, como los ordenadores sin servidor o los microservicios.<br/><br/> Contoso administrará la aplicación y los servicios que desarrolla, y Azure administrará todo lo demás.
@@ -221,9 +221,9 @@ Azure Site Recovery es el servicio principal de Azure para orquestar la recupera
 
 Contoso ya [completó una prueba de concepto](./contoso-migration-rehost-vm.md) para ver cómo puede ayudarles Site Recovery a migrar a la nube.
 
-##### <a name="using-site-recovery-at-scale"></a>Uso de Site Recovery en la escala
+##### <a name="use-site-recovery-at-scale"></a>Uso de Site Recovery a escala
 
-Contoso planea realizar múltiples migraciones mediante "lift-and-shift". Para asegurarse de que esto funciona, Site Recovery replicará lotes de aproximadamente 100 máquinas virtuales a la vez. Para averiguar cómo funcionará esto, Contoso necesita planear la capacidad para la migración de Site Recovery propuesta.
+Contoso planea realizar múltiples migraciones mediante lift-and-shift. Para asegurarse de que esto funciona, Site Recovery replicará lotes de aproximadamente 100 máquinas virtuales a la vez. Para averiguar cómo funcionará esto, Contoso necesita planear la capacidad para la migración de Site Recovery propuesta.
 
 - Contoso necesita recopilar información acerca de sus volúmenes de tráfico. En particular:
   - Contoso necesita determinar la frecuencia de cambio para las máquinas virtuales que quiere replicar.
@@ -262,8 +262,8 @@ Contoso necesita averiguar cómo implementar estos componentes, en función de l
 --- | ---
 **Frecuencia de cambio de datos diaria máx.** | Un servidor de un solo proceso puede administrar una tasa de cambio diaria de hasta 2 TB. Puesto que una máquina virtual solo puede usar un servidor de procesos, la frecuencia de cambio de datos diaria máxima que se admite para una máquina virtual replicada es de 2 TB.
 **Rendimiento máximo** | Una cuenta de almacenamiento de Azure estándar puede controlar un máximo de 20 000 solicitudes por segundo y las operaciones de entrada/salida por segundo (IOPS) en una máquina virtual de replicación no deben superar este límite. Por ejemplo, si una máquina virtual tiene 5 discos y cada disco genera 120 E/S por segundo (8 K de tamaño) en la máquina virtual, se encontrará dentro del límite de 500 de Azure por E/S por segundo por disco.<br/><br/> Tenga en cuenta que el número de cuentas de almacenamiento necesario es igual al IOPS de máquina de origen total dividido por 20 000. Una máquina replicada solo puede pertenecer a una cuenta de almacenamiento en Azure.
-**Servidor de configuración** | Según la estimación de Contoso de replicar 100-200 máquinas virtuales a la vez, y los [requisitos de configuración del tamaño de servidor](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#size-recommendations-for-the-configuration-server-and-inbuilt-process-server), Contoso calcula que necesita una máquina de servidor de configuración con las siguientes especificaciones:<br/><br/> CPU: 16 vCPUs (2 sockets * 8 núcleos @ 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> Además de los requisitos de tamaño, Contoso deberá asegurarse de que el servidor de configuración está ubicado de forma óptima, en la misma red y segmento LAN que las máquinas virtuales que se van a migrar.
-**Servidor de proceso** | Contoso implementará un servidor de procesos dedicado e independiente con capacidad para replicar entre 100 y 200 máquinas virtuales:<br/><br/> CPU: 16 vCPUs (2 sockets * 8 núcleos @ 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> El servidor de procesos trabajará duro y como tal debe estar ubicado en un host ESXi que pueda manejar la E/S del disco, el tráfico de red y la CPU requeridos para la replicación. Contoso se planteará la posibilidad de contar con un host dedicado para este fin.
+**Servidor de configuración** | Según la estimación de Contoso de replicar 100-200 máquinas virtuales a la vez, y los [requisitos de configuración del tamaño de servidor](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#size-recommendations-for-the-configuration-server-and-inbuilt-process-server), Contoso calcula que necesita una máquina de servidor de configuración con las siguientes especificaciones:<br/><br/> CPU: 16 vCPU (2 sockets x 8 núcleos a 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> Además de los requisitos de tamaño, Contoso deberá asegurarse de que el servidor de configuración está ubicado de forma óptima, en la misma red y segmento LAN que las máquinas virtuales que se van a migrar.
+**Servidor de proceso** | Contoso implementará un servidor de procesos dedicado e independiente con capacidad para replicar entre 100 y 200 máquinas virtuales:<br/><br/> CPU: 16 vCPU (2 sockets x 8 núcleos a 2,5 GHz)<br/><br/> Memoria: 32 GB<br/><br/> Disco de caché: 1 TB<br/><br/> Frecuencia de cambio de datos: 1 TB a 2 TB.<br/><br/> El servidor de procesos trabajará duro y como tal debe estar ubicado en un host ESXi que pueda manejar la E/S del disco, el tráfico de red y la CPU requeridos para la replicación. Contoso se planteará la posibilidad de contar con un host dedicado para este fin.
 **Redes** | Contoso ha revisado la infraestructura VPN de sitio a sitio actual y decidió implementar Azure ExpressRoute. La implementación es fundamental porque reducirá la latencia y mejorará el ancho de banda en la región principal Este de EE. UU. 2 de Azure de Contoso.<br/><br/> **Supervisión:** Contoso deberá supervisar cuidadosamente los datos que fluyen desde el servidor de procesos. Si los datos sobrecargan el ancho de banda, Contoso considerará [limitar el ancho de banda del servidor de procesos](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#control-network-bandwidth).
 **Almacenamiento de Azure** | Para la migración, Contoso debe identificar el tipo y el número correctos de cuentas de Azure Storage de destino. Site Recovery replica los datos de máquina virtual en Azure Storage.<br/><br/> Site Recovery puede replicar en cuentas de almacenamiento estándar o premium (SSD).<br/><br/> Para decidir sobre el almacenamiento, Contoso debe revisar [los límites de almacenamiento](https://docs.microsoft.com/azure/virtual-machines/windows/disks-types) y tener en cuenta el crecimiento esperado y el aumento del uso a lo largo del tiempo. Dada la velocidad y la prioridad de las migraciones, Contoso ha decidido usar discos SSD Premium.<br/><br/>
 Contoso ha tomado la decisión de usar discos administrados para todas las máquinas virtuales que se implementan en Azure. El número de IOPS necesario determinará si los discos serán HDD estándar, SSD estándar o Premium (SSD).<br/><br/>
@@ -281,7 +281,7 @@ Azure Database Migration Service es un servicio totalmente administrado que perm
 
 DMS no es la única herramienta de migración de base de datos de Microsoft. Consulta una [comparación de herramientas y servicios](https://blogs.msdn.microsoft.com/datamigration/2017/10/13/differentiating-microsofts-database-migration-tools-and-services).
 
-##### <a name="using-dms-at-scale"></a>Uso de DMS a escala
+##### <a name="use-dms-at-scale"></a>Uso de DMS a escala
 
 Contoso usará DMS al migrar desde SQL Server.
 
@@ -291,7 +291,7 @@ Contoso usará DMS al migrar desde SQL Server.
 
 - Otra táctica de escalado de Contoso es escalar verticalmente y de manera temporal la instancia de destino de Azure SQL o MySQL al SKU de nivel Premium durante la migración de datos. Esto minimiza la limitación de base de datos que puede afectar a las actividades de transferencia de datos al usar las SKU de nivel inferior.
 
-##### <a name="using-other-tools"></a>Uso de otras herramientas
+##### <a name="use-other-tools"></a>Uso de otras herramientas
 
 Además de DMS, Contoso puede usar otras herramientas y servicios para identificar la información de la máquina virtual.
 

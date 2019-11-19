@@ -8,12 +8,12 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: dcf717841e7ac42e0957ce540fc974c84d112a79
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 79d784b65a2006559efc9f074b319ea67de67db0
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058182"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656659"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
@@ -115,7 +115,7 @@ El primer pilar de una plantilla scaffold es un estándar de nomenclatura cohere
 > [!TIP]
 > Convenciones de nomenclatura:
 >
-> - Revise y adopte siempre que sea posible esta [guía de patrones y prácticas](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions), que lo ayudará a decidirse por un estándar de nomenclatura significativo e ilustrará ejemplos amplios.
+> - Revise y adopte siempre que sea posible esta [guía de patrones y prácticas](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming), que lo ayudará a decidirse por un estándar de nomenclatura significativo e ilustrará ejemplos amplios.
 > - Use directivas de Resource Manager para ayudar a reforzar los estándares de nomenclatura.
 >
 > Recuerde que es difícil cambiar los nombres más adelante, así que, si dedica ahora unos minutos, se ahorrará problemas más tarde.
@@ -263,7 +263,7 @@ Esta información se puede ver y examinar a varios niveles y está sujeta a mejo
 - **Service Map:** proporciona una vista gráfica de los componentes de la infraestructura y sus procesos e interdependencias de otros equipos y procesos externos. Integra eventos, datos de rendimiento y soluciones de administración en Log Analytics.
 
 > [!TIP]
-> Antes de crear alertas individuales, cree y mantenga un conjunto de grupos de acciones compartidos que se puedan usar en las alertas de Azure. Esto permitirá realizar un mantenimiento centralizado del ciclo de vida de las listas de destinatarios, los métodos de entrega de notificaciones (correo electrónico, SMS y números de teléfono) y webhooks para acciones externas (runbooks de Azure Automation, Azure Functions/Logic Apps e ITSM).
+> Antes de crear alertas individuales, cree y mantenga un conjunto de grupos de acciones compartidos que se puedan usar en las alertas de Azure. Esto permitirá realizar un mantenimiento centralizado del ciclo de vida de las listas de destinatarios, los métodos de entrega de notificaciones (correo electrónico, SMS y números de teléfono) y webhooks para acciones externas (runbooks de Azure Automation, Azure Functions y Logic Apps, e ITSM).
 
 ## <a name="cost-management"></a>Administración de costos
 
@@ -284,7 +284,7 @@ Son herramientas que ofrecen información instantánea sobre los costos y la pos
 
 - **Azure Consumption Insights para Power BI:** ¿Desea crear visualizaciones propias de la organización? En su caso, el paquete de contenido de Azure Consumption Insights para Power BI es la herramienta más adecuada. Con este paquete de contenido y Power BI puede crear visualizaciones personalizadas para representar su organización, realizar análisis más exhaustivos de los costos y agregar otros orígenes de datos para obtener información más precisa.
 
-- **API de consumo:** las [API de consumo](/rest/api/consumption) otorgan acceso mediante programación a datos de costo y uso, así como a información sobre presupuestos, instancias reservadas y cambios en Marketplace. Estas API son accesibles solo para las inscripciones Enterprise y algunas suscripciones a Web Direct; no obstante, ofrecen la posibilidad de integrar los datos de costos en almacenamiento de datos y herramientas propios. También puede [acceder a estas API mediante la CLI de Azure](/cli/azure/consumption?view=azure-cli-latest).
+- **API de consumo:** las [API de consumo](https://docs.microsoft.com/rest/api/consumption) otorgan acceso mediante programación a datos de costo y uso, así como a información sobre presupuestos, instancias reservadas y cambios en Marketplace. Estas API son accesibles solo para las inscripciones Enterprise y algunas suscripciones a Web Direct; no obstante, ofrecen la posibilidad de integrar los datos de costos en almacenamiento de datos y herramientas propios. También puede [acceder a estas API mediante la CLI de Azure](https://docs.microsoft.com/cli/azure/consumption?view=azure-cli-latest).
 
 Los clientes que son usuarios de la nube a largo plazo y consolidados siguen ciertos procedimientos recomendados:
 
@@ -303,7 +303,7 @@ Varias herramientas pueden ayudarlo a crear esta funcionalidad, desde herramient
 
 - **Azure Automation** es una funcionalidad basada en la nube que permite crear runbooks (en PowerShell o Python), así como automatizar los procesos, configurar los recursos e incluso aplicar revisiones. [Azure Automation](https://docs.microsoft.com/azure/automation/automation-intro) dispone de un conjunto amplio de funcionalidades multiplataforma que forman parte integral de la implementación, pero son demasiado extensas como para tratarlas aquí en profundidad.
 - **Event Grid** es un sistema de enrutamiento de eventos totalmente administrado que permite reaccionar a eventos dentro del entorno de Azure. Igual que Azure Automation es el tejido conectivo de organizaciones maduras en la nube, [Event Grid](https://docs.microsoft.com/azure/event-grid) es el tejido conectivo de una buena automatización. Con Event Grid, puede crear una acción sencilla y sin servidor para enviar un correo electrónico a un administrador cada vez que se crea un recurso y registrar dicho recurso en la base de datos. Esa misma acción de Event Grid puede notificar cuándo se elimina un recurso y eliminar el elemento de la base de datos.
-- **Azure Cloud Shell** es un [shell](https://docs.microsoft.com/azure/cloud-shell/overview) interactivo basado en explorador para administrar recursos en Azure. Proporciona un entorno completo de PowerShell o Bash que se inicia según sea necesario y de cuyo mantenimiento se encarga el usuario, para poder disponer de un entorno coherente desde el que ejecutar los scripts. Azure Cloud Shell proporciona acceso a herramientas clave adicionales, ya instaladas, para automatizar el entorno, como la [CLI de Azure](/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), [Terraform](https://docs.microsoft.com/azure/virtual-machines/linux/terraform-install-configure) y una lista creciente de [herramientas](https://azure.microsoft.com/updates/cloud-shell-new-cli-tools-and-font-size-selection) adicionales para administrar contenedores, bases de datos (sqlcmd) y mucho más.
+- **Azure Cloud Shell** es un [shell](https://docs.microsoft.com/azure/cloud-shell/overview) interactivo basado en explorador para administrar recursos en Azure. Proporciona un entorno completo de PowerShell o Bash que se inicia según sea necesario y de cuyo mantenimiento se encarga el usuario, para poder disponer de un entorno coherente desde el que ejecutar los scripts. Azure Cloud Shell proporciona acceso a herramientas clave adicionales, ya instaladas, para automatizar el entorno, como la [CLI de Azure](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), [Terraform](https://docs.microsoft.com/azure/virtual-machines/linux/terraform-install-configure) y una lista creciente de [herramientas](https://azure.microsoft.com/updates/cloud-shell-new-cli-tools-and-font-size-selection) adicionales para administrar contenedores, bases de datos (sqlcmd) y mucho más.
 
 La automatización es un trabajo a tiempo completo y rápidamente se convertirá en una de las tareas operativas más importantes en su equipo de la nube. Las organizaciones que adoptan el enfoque de "automatizar primero" tienen más éxito al usar Azure:
 

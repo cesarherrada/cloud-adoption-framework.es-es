@@ -10,12 +10,12 @@ ms.subservice: reference
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 718c93b560b38eaae6556e549a0c6f6bb97b807b
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: e5729e592fe0e602d24e2e37831c782fada73128
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048247"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566696"
 ---
 # <a name="virtual-datacenters-a-network-perspective"></a>Centros de datos virtuales: Una perspectiva de la red
 
@@ -35,7 +35,7 @@ En sus orígenes, la nube era básicamente una plataforma para hospedar aplicaci
 
 Las soluciones en la nube se diseñaron para hospedar aplicaciones únicas y relativamente aisladas en el espectro público. Este método funcionó bien unos años. Posteriormente, las ventajas de las soluciones en la nube se hicieron obvias y se hospedaban muchas cargas de trabajo a gran escala en la nube. Dar respuesta a los problemas de seguridad, confiabilidad, rendimiento y costo de las implementaciones de una o varias regiones resultó ser vital a lo largo del ciclo de vida del servicio en la nube.
 
-El siguiente diagrama de implementación en la nube muestra un ejemplo de una brecha de seguridad en el **recuadro rojo**. El **recuadro amarillo** muestra áreas en las que se puede optimizar las aplicaciones virtuales de red en las cargas de trabajo.
+El siguiente diagrama de implementación en la nube muestra un ejemplo de una brecha de seguridad resaltada en el recuadro rojo. El recuadro amarillo muestra áreas en las que se puede optimizar las aplicaciones virtuales de red en las cargas de trabajo.
 
 ![0][0]
 
@@ -263,7 +263,7 @@ Es recomendable que use un conjunto de instancias de Azure Firewall o de aplicac
 
 Azure Load Balancer puede sondear el estado de las diversas instancias de servidor y, si una instancia no responde a alguna sonda, el equilibrador de carga deja de enviar tráfico a la instancia incorrecta. En un centro de datos virtual se implementa un equilibrador de carga externo en el centro y en los radios. En el centro, el equilibrador de carga se usa para enrutar el tráfico de forma eficaz a los servicios en los radios, mientras que en los radios, los equilibradores de carga se utilizan para administrar el tráfico de la aplicación.
 
-[**Azure Front Door**][AFD] (AFD) es una plataforma de aceleración de aplicaciones web altamente disponible y escalable de Microsoft, con equilibrador de carga HTTP global, protección de aplicaciones y red de entrega de contenido. Al ejecutarse en más de cien ubicaciones en el perímetro de la red global de Microsoft, AFD permite crear, operar y escalar horizontalmente una aplicación web dinámica y contenido estático. AFD proporciona a la aplicación un rendimiento de usuario final de primer orden, una automatización de mantenimiento de marca/regional unificada, una automatización de BCDR, una información de cliente/usuario unificada, un almacenamiento en caché y una información detallada de servicios. La plataforma ofrece rendimiento, confiabilidad y compatibilidad con los acuerdos de nivel de servicio, certificaciones de cumplimiento y prácticas de seguridad auditables desarrolladas y operadas por Azure, y compatibles de forma nativa con Azure.
+[Azure Front Door][AFD] (AFD) es una plataforma de aceleración de aplicaciones web altamente disponible y escalable de Microsoft, con equilibrador de carga HTTP global, protección de aplicaciones y red de entrega de contenido. Al ejecutarse en más de cien ubicaciones en el perímetro de la red global de Microsoft, AFD permite crear, operar y escalar horizontalmente una aplicación web dinámica y contenido estático. AFD proporciona a la aplicación un rendimiento de usuario final de primer orden, una automatización de mantenimiento de marca/regional unificada, una automatización de BCDR, una información de cliente/usuario unificada, un almacenamiento en caché y una información detallada de servicios. La plataforma ofrece rendimiento, confiabilidad y compatibilidad con los acuerdos de nivel de servicio, certificaciones de cumplimiento y prácticas de seguridad auditables desarrolladas y operadas por Azure, y compatibles de forma nativa con Azure.
 
 [**Application Gateway**][AppGW] Microsoft Azure Application Gateway es una aplicación virtual dedicada que proporciona un controlador de entrega de aplicaciones (ADC) como servicio y ofrece varias funcionalidades de equilibrio de carga de nivel 7 para la aplicación. Le permite optimizar la productividad de las granjas de servidores web traspasando la carga de la terminación SSL con mayor actividad de la CPU a Application Gateway. Además, dispone de otras funcionalidades de enrutamiento de nivel 7, como la distribución round robin del tráfico entrante, la afinidad de sesiones basada en cookies, el enrutamiento basado en rutas de acceso URL y la capacidad de hospedar varios sitios web detrás de una única puerta de enlace de aplicaciones. También se proporciona un firewall de aplicaciones web (WAF) como parte de la SKU de WAF de Application Gateway. Esta SKU proporciona protección a las aplicaciones web frente a vulnerabilidades web y vulnerabilidades de seguridad comunes. Application Gateway puede configurarse como una puerta de enlace orientada a Internet, una puerta de enlace solo para uso interno o una combinación de las dos.
 
@@ -327,7 +327,7 @@ Las posibilidades de cargas de trabajo son infinitas. Estos son solo algunos de 
 - **Controladas por datos:** cargas de trabajo con un uso intensivo de datos y acceso frecuente a bases de datos o a otros almacenamientos de datos.
 - **Integradas:** cargas de trabajo que ofrecen integración con otros sistemas dentro o fuera de la organización.
 
-**Sitios web accesibles para clientes (accesibles desde Internet o internamente)** : La mayoría de las aplicaciones que interactúan con Internet son sitios web. Azure ofrece la funcionalidad de ejecutar un sitio web en una máquina virtual IaaS o desde un sitio de [Azure Web Apps][WebApps] (PaaS). Azure Web Apps admite la integración con redes virtuales que permiten la implementación de Web Apps en una zona de red de radios. Los sitios web a los que se accede internamente no necesitan exponer un punto de conexión de Internet público, ya que se puede acceder a los recursos a través de direcciones privadas enrutables sin conexión a Internet desde la red privada virtual.
+**Sitios web accesibles para clientes (accesibles desde Internet o internamente):** La mayoría de las aplicaciones que interactúan con Internet son sitios web. Azure ofrece la funcionalidad de ejecutar un sitio web en una máquina virtual IaaS o desde un sitio de [Azure Web Apps][WebApps] (PaaS). Azure Web Apps admite la integración con redes virtuales que permiten la implementación de Web Apps en una zona de red de radios. Los sitios web a los que se accede internamente no necesitan exponer un punto de conexión de Internet público, ya que se puede acceder a los recursos a través de direcciones privadas enrutables sin conexión a Internet desde la red privada virtual.
 
 **Macrodatos y análisis:** Cuando los datos tengan que escalarse verticalmente a volumen grande, es posible que las bases de datos no se escalen correctamente. La tecnología de Hadoop ofrece un sistema para ejecutar consultas distribuidas en paralelo en un gran número de nodos. Los clientes tienen la opción de ejecutar las cargas de trabajo de datos en máquinas virtuales IaaS, o bien en PaaS ([HDInsight][HDI]). HDInsight admite la implementación en una red virtual basada en la ubicación y se puede implementar en un clúster de un radio del centro de datos virtual.
 
@@ -337,7 +337,7 @@ Puede implementar un servicio de mensajería en la nube altamente confiable entr
 
 ![10][10]
 
-### <a name="making-a-virtual-datacenter-highly-available-multiple-virtual-datacenters"></a>Creación de un centro de datos virtual con alta disponibilidad: varios centros de datos virtuales
+### <a name="make-a-virtual-datacenter-highly-available-multiple-virtual-datacenters"></a>Creación de un centro de datos virtual con alta disponibilidad: varios centros de datos virtuales
 
 Hasta ahora, este artículo se ha centrado en el diseño de un único centro de datos virtual y en él se han descrito los componentes básicos y la arquitectura que contribuyen a su resistencia. Las características de Azure como el equilibrador de carga de Azure, las aplicaciones virtuales de red, los conjuntos de disponibilidad, los conjuntos de escalado y otros mecanismos contribuyen a formar un sistema que permite crear niveles de Acuerdo de Nivel de Servicio sólidos en los servicios de producción.
 
@@ -378,7 +378,7 @@ Al usar DNS, Traffic Manager solo se puede usar con puntos de conexión público
 
 ### <a name="summary"></a>Resumen
 
-El centro de datos virtual es un enfoque hacia la migración de centros de datos para crear una arquitectura escalable de Azure que maximiza el uso de los recursos en la nube, reduce los costos y simplifica la gobernanza del sistema. Los centros de datos virtuales se basan en una topología de red en estrella tipo hub-and-spoke que proporciona servicios compartidos comunes en el centro y permite aplicaciones y cargas de trabajo específicas en los radios. Los centros de datos virtuales también coinciden con la estructura de roles de la empresa, en la que diferentes departamentos, como TI central, DevOps, operaciones y mantenimiento, funcionan conjuntamente, aunque realicen sus roles concretos. Los centros de datos virtuales cumplen los requisitos de una migración mediante lift and shift, pero también proporciona muchas ventajas para las implementaciones nativas en la nube.
+El centro de datos virtual es un enfoque hacia la migración de centros de datos para crear una arquitectura escalable de Azure que maximiza el uso de los recursos en la nube, reduce los costos y simplifica la gobernanza del sistema. Los centros de datos virtuales se basan en una topología de red en estrella tipo hub-and-spoke que proporciona servicios compartidos comunes en el centro y permite aplicaciones y cargas de trabajo específicas en los radios. Los centros de datos virtuales también coinciden con la estructura de roles de la empresa, en la que diferentes departamentos, como TI central, DevOps, operaciones y mantenimiento, funcionan conjuntamente, aunque realicen sus roles concretos. Los centros de datos virtuales cumplen los requisitos de una migración mediante lift-and-shift, pero también proporciona muchas ventajas para las implementaciones nativas en la nube.
 
 ## <a name="references"></a>Referencias
 

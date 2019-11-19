@@ -1,27 +1,27 @@
 ---
-title: Aceleración de la migración con hosts de VMWare
+title: Aceleración de la migración con hosts de VMware
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Aceleración de la migración con hosts de VMWare
+description: Aceleración de la migración con hosts de VMware
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 66a39d53adeaf73e96cf04bdc5f80fc9574b675a
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 724a227407f431e08b5344dfd1280397bfca9b65
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72980208"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566884"
 ---
-# <a name="accelerate-migration-with-vmware-hosts"></a>Aceleración de la migración con hosts de VMWare
+# <a name="accelerate-migration-with-vmware-hosts"></a>Aceleración de la migración con hosts de VMware
 
-La migración de hosts de VMWare completos puede conllevar el traslado de varias cargas de trabajo y recursos en un solo trabajo de migración. La siguiente guía amplia el ámbito de la [guía de migración de Azure](../azure-migration-guide/index.md) con la migración de hosts de VMWare. La mayor parte del trabajo que se requiere en esta expansión del ámbito se produce durante los procesos de requisitos previos y migración.
+La migración de hosts de VMware completos puede conllevar el traslado de varias cargas de trabajo y recursos en un solo trabajo de migración. La siguiente guía amplía el ámbito de la [guía de migración de Azure](../azure-migration-guide/index.md) a través de una migración de hosts de VMware. La mayor parte del trabajo que se requiere en esta expansión del ámbito se produce durante los procesos de requisitos previos y migración.
 
 ## <a name="suggested-prerequisites"></a>Requisitos previos sugeridos
 
-Al migrar el primer host de VMWare a Azure, debe cumplir varios requisitos previos para preparar los requisitos de identidad, red y administración. Una vez que se cumplan estos requisitos previos, cada host adicional debería requerir un trabajo significativamente menor para la migración. En las siguientes secciones, se proporcionan más detalles sobre los requisitos previos.
+Al migrar el primer host de VMware a Azure, debe cumplir varios requisitos previos para preparar los requisitos de identidad, red y administración. Una vez que se cumplan estos requisitos previos, cada host adicional debería requerir un trabajo significativamente menor para la migración. En las siguientes secciones, se proporcionan más detalles sobre los requisitos previos.
 
 ### <a name="secure-your-azure-environment"></a>Protección del entorno de Azure
 
@@ -44,15 +44,15 @@ Una vez establecidos los requisitos de administración, se pueden establecer las
 
 ### <a name="integration-with-the-cloud-adoption-plan"></a>Integración con el plan de adopción de la nube
 
-Una vez cumplidos los otros requisitos previos, debería incluir cada host de VMWare en el [plan de adopción de la nube](../../plan/template.md). En el plan de adopción de la nube, agregue cada host que se va a migrar como una [carga de trabajo distinta](../../plan/workloads.md). En cada carga de trabajo, agregue las VM que se van a migrar como [recursos](../../plan/workloads.md). Para agregar cargas de trabajo y recursos de forma masiva al plan de adopción, consulte el tema sobre cómo [agregar y editar elementos de trabajo con Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
+Una vez cumplidos los otros requisitos previos, debería incluir cada host de VMware en el [plan de adopción de la nube](../../plan/template.md). En el plan de adopción de la nube, agregue cada host que se va a migrar como una [carga de trabajo distinta](../../plan/workloads.md). En cada carga de trabajo, agregue las VM que se van a migrar como [recursos](../../plan/workloads.md). Para agregar cargas de trabajo y recursos de forma masiva al plan de adopción, consulte el tema sobre cómo [agregar y editar elementos de trabajo con Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
 
 ## <a name="migrate-process-changes"></a>Cambios en el proceso de migración
 
-Durante cada iteración, el equipo de adopción analiza el trabajo pendiente para migrar las cargas de trabajo de prioridad más alta. El proceso no cambia realmente en el caso de los hosts de VMWare. Si la siguiente carga de trabajo del trabajo pendiente es un host de VMWare, el único cambio consiste en la herramienta que se emplea.
+Durante cada iteración, el equipo de adopción analiza el trabajo pendiente para migrar las cargas de trabajo de prioridad más alta. El proceso no cambia realmente en el caso de los hosts de VMware. Si la siguiente carga de trabajo del trabajo pendiente es un host de VMware, el único cambio consiste en la herramienta que se emplea.
 
 Puede usar las siguientes herramientas en el trabajo de migración:
 
-- [VMWare Tools nativo](https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
+- [Herramientas de VMware nativas](https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
 - [Azure Data Box](https://docs.microsoft.com/azure/vmware-cloudsimple/migration-using-azure-data-box?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
 
 Como alternativa, puede migrar las cargas de trabajo mediante una conmutación por error de recuperación ante desastres con las siguientes herramientas:

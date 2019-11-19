@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 78ffb3b3d91f1f00fb92d70147fd7177ffa9f1b0
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 10097c550ba160c41add31e27d0813c175f5e26a
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547505"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566226"
 ---
 # <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Guía de gobernanza para empresas estándar: Mejora de la nube múltiple
 
@@ -34,7 +34,7 @@ Desde entonces, han cambiado algunas cosas que afectarán a la gobernanza:
 
 - La identidad se controla mediante una instancia local de Active Directory. La identidad híbrida se facilita mediante la replicación a Azure Active Directory.
 - Las operaciones de TI o las operaciones en la nube se administran en gran parte en Azure Monitor y en automatizaciones relacionadas.
-- La recuperación ante desastres y la continuidad empresarial se controlan por instancias de Azure Vault.
+- La recuperación ante desastres y la continuidad empresarial se controlan mediante instancias de Azure Vault.
 - Azure Security Center se utiliza para supervisar infracciones de seguridad y ataques.
 - Tanto Azure Security Center como Azure Monitor se utilizan para supervisar la gobernanza de la nube.
 - Azure Blueprints, Azure Policy y los grupos de administración de Azure se utilizan para automatizar el cumplimiento con la directiva.

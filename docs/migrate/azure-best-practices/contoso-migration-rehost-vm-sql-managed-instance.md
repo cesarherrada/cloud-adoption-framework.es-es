@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 574fa1ede2d7ddeb0fe41f05c8519e9b16ba6c51
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 15bce39a8ffee6c3f35a8de3d205f863374ae3ff
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058494"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239177"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>rehospedar una aplicación local en una máquina virtual de Azure e Instancia administrada de Azure SQL Database
 

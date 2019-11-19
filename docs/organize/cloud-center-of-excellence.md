@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: ac1fe4cac44d4a1f830be1faba7f2d50ddbd98f0
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c1819bafaed5e75e6667754d598b075eb3204925
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224345"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564317"
 ---
 # <a name="cloud-center-of-excellence"></a>Centro de excelencia de la nube
 
@@ -92,7 +92,7 @@ Como contrapartida a estas ventajas, el equipo de TI existente puede experimenta
 
 En las mejores empresas pioneras en la implementación de la nube, este proceso de negociación es un diálogo dinámico entre colegas y los equipos de TI asociados. Los detalles técnicos pueden ser complejos, pero son fáciles de controlar cuando el equipo de TI comprende su finalidad y apoya los esfuerzos del CCoE. Si el equipo de TI no se muestra tan favorable a estos, la sección siguiente sobre cómo conseguir el éxito del CCoE puede ayudar a superar los bloqueos culturales.
 
-## <a name="enabling-ccoe-success"></a>Consecución del éxito del CCoE
+## <a name="enable-ccoe-success"></a>Consecución del éxito del CCoE
 
 Antes de continuar con este modelo, es importante comprobar la tolerancia de la empresa a una mentalidad de crecimiento y la comodidad del equipo de TI a la hora de delegar responsabilidades centrales. Como se mencionó anteriormente, el propósito de un CCoE es intercambiar control por agilidad y rapidez.
 

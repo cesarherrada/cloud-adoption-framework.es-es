@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d669d720d1bf56a5adc0df42a505608ab76b02ec
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 842143afbb042ceddee5029a3fa86d0aa8cdd997
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548264"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564546"
 ---
 # <a name="prepare-for-technical-complexity-agile-change-management"></a>Preparación para la complejidad técnica: administración de cambios ágil
 
@@ -21,7 +21,7 @@ Cuando se puede desaprovisionar y volver a crear un centro de datos entero con u
 
 Al cambiar a un modelo ágil donde se resaltan la flexibilidad y la iteración, la complejidad técnica y la administración de cambios se tratan de forma diferente a como se hace en un modelo en cascada tradicional, que se centra en una serie lineal de pasos de migración. En este artículo se describe un enfoque general para la administración de cambios en un trabajo de migración basado en el método ágil. Al final del artículo, debería tener una idea general de los niveles de administración de cambios y de la documentación que conlleva un enfoque de migración incremental. Es necesario más aprendizaje y tomar más decisiones para seleccionar e implementar prácticas ágiles basadas en esta idea. La intención de este artículo es preparar a los arquitectos de la nube para una conversación facilitada con los directores de proyectos al objeto de explicar el concepto general de administración de cambios con este enfoque.
 
-## <a name="addressing-technical-complexity"></a>Cómo solucionar la complejidad técnica
+## <a name="address-technical-complexity"></a>Solucionar la complejidad técnica
 
 Cuando se cambia cualquier sistema técnico, la complejidad y la interdependencia suponen un riesgo en los planes del proyecto. Las migraciones a la nube no son una excepción. Cuando se mueven miles &mdash;o decenas de miles&mdash; de recursos a la nube, estos riesgos se multiplican. La detección y la asignación de todas las dependencias de un patrimonio digital podría tardar años. Pocas empresas pueden tolerar un ciclo de análisis tan largo. Con el fin de equilibrar la necesidad de análisis arquitectónico y aceleración empresarial, el marco Cloud Adoption Framework se centra en un modelo INVEST para la administración del trabajo pendiente de los productos. En las secciones siguientes se resume este tipo de modelo.
 
@@ -103,7 +103,7 @@ Dentro de un solo sprint o una iteración, el equipo de adopción de la nube tra
 Para una migración pequeña con un equipo de migración independiente, un solo sprint podría incluir las cuatro fases de la migración para una sola carga de trabajo (*evaluación*, *migración*, *optimización* y *protección y administración*). Normalmente, cada uno de estos procesos se comparte entre varios equipos en elementos de trabajo diferentes en varios sprints. En función del tipo de trabajo, la escala de trabajo y los roles, estos sprints pueden tener formas diferentes.
 
 - **Factoría de migración.** A veces, las migraciones a gran escala requieren un enfoque similar al de una fábrica en el modelo de ejecución. En este modelo, se asignan varios equipos a la ejecución de un proceso (o subconjunto del proceso) de migración específico. Una vez finalizado, la salida del sprint de un equipo rellena el trabajo pendiente del equipo siguiente. Este enfoque es eficaz para migraciones de rehospedaje a gran escala de muchas cargas de trabajo posibles que implican miles de máquinas virtuales pasando por las fases de evaluación, arquitectura, corrección y migración. Sin embargo, para que este enfoque funcione, es imprescindible un entorno homogéneo con procesos optimizados de aprobación y administración de cambios.
-- **Oleadas de migración.** Otro enfoque que funciona bien para migraciones de gran envergadura es un modelo por oleadas. En este modelo, la división del trabajo no está tan clara. Los equipos se dedican a ejecutar procesos de migración de cargas de trabajo individuales. Sin embargo, la naturaleza de cada sprint cambia. En un sprint, el equipo puede completar el trabajo de evaluación y de arquitectura. En otro sprint, puede completar el trabajo de migración. En otro sprint, la atención estaría en la optimización y en la versión para producción. Este enfoque permite que un equipo central permanezca alineado con las cargas de trabajo y las vea a lo largo del proceso en su totalidad. Cuando se usa este enfoque, la diversidad de conocimientos y el cambio de contexto puede reducir la velocidad potencial del equipo y ralentizar así el trabajo de migración. Además, los obstáculos durante los ciclos de aprobación pueden dar lugar a retrasos considerables. Con este modelo, es importante mantener opciones en el trabajo pendiente de versión para que el equipo no se quede parado durante los períodos de bloqueo. También es importante el aprendizaje cruzado de los miembros del equipo y asegurarse de que los conocimientos sean los adecuados para el tema de cada sprint.
+- **Oleadas de migración.** Otro enfoque que funciona bien para migraciones de gran envergadura es un modelo por oleadas. En este modelo, la división del trabajo no está tan clara. Los equipos se dedican a ejecutar procesos de migración de cargas de trabajo individuales. Sin embargo, la naturaleza de cada sprint cambia. En un sprint, el equipo puede completar el trabajo de evaluación y de arquitectura. En otro sprint, puede completar el trabajo de migración. En otro sprint, la atención estaría en la optimización y en la versión para producción. Este enfoque permite que un equipo central permanezca alineado con las cargas de trabajo y las vea a lo largo del proceso en su totalidad. Cuando se usa este enfoque, la diversidad de conocimientos y el cambio de contexto puede reducir la velocidad potencial del equipo y ralentizar así el trabajo de migración. Además, los obstáculos durante los ciclos de aprobación pueden dar lugar a retrasos considerables. Con este modelo, es importante mantener opciones en el trabajo pendiente de versión para que el equipo no se quede parado durante los períodos de bloqueo. También es importante el aprendizaje cruzado de los miembros del equipo y asegurarse de que los conjuntos de aptitudes sean los adecuados para el tema de cada sprint.
 
 ### <a name="sprint-backlog-data-points"></a>Puntos de datos del trabajo pendiente de sprint
 

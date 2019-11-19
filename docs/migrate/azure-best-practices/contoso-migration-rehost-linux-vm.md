@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: aa7ce8c882521e9a346e3f00da8c664af7585423
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: c1d7549a820b8f830fc577ce82ebc4d2f1dbfcb2
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058224"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566543"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms"></a>Rehospedaje de una aplicación local Linux en Azure Virtual Machines
 
@@ -69,7 +69,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 
 **Consideración** | **Detalles**
 --- | ---
-**Ventajas** | Las dos máquinas virtuales de la aplicación se moverán a Azure sin cambios, de forma que se simplifica la migración.<br/><br/> Dado que Contoso usa lift-and-shift con ambas máquinas virtuales de la aplicación, no se necesitan configuraciones ni herramientas de migración especiales para la base de datos de la aplicación.<br/><br/> Contoso conservará el control total de las máquinas virtuales de la aplicación en Azure. <br/><br/> Las máquinas virtuales de la aplicación ejecutan Ubuntu 16.04-TLS, que es una distribución de Linux aprobada. [Más información](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
+**Ventajas** | Las dos máquinas virtuales de la aplicación se moverán a Azure sin cambios, de forma que se simplifica la migración.<br/><br/> Dado que Contoso usa en enfoque lift-and-shift para ambas VM de la aplicación, no se necesitan herramientas de configuración ni de migración especiales para la base de datos de la aplicación.<br/><br/> Contoso conservará el control total de las máquinas virtuales de la aplicación en Azure. <br/><br/> Las máquinas virtuales de la aplicación ejecutan Ubuntu 16.04-TLS, que es una distribución de Linux aprobada. [Más información](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
 **Desventajas** | La capa de datos y la capa web de la aplicación seguirán siendo un único punto de conmutación por error. <br/><br/> Contoso deberá seguir admitiendo la aplicación en las máquinas virtuales de Azure en lugar de moverla a un servicio administrado como Azure App Service y Azure Database for MySQL.<br/><br/> Contoso sabe que al simplificar las cosas con una migración de máquinas virtuales mediante lift-and-shift, no están aprovechando al máximo las características proporcionadas por [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/overview) (alta disponibilidad integrada, rendimiento predecible, escalado sencillo, copias de seguridad automáticas y seguridad integrada).
 
 <!-- markdownlint-enable MD033 -->
@@ -164,6 +164,7 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
     ![Replicación de máquinas virtuales](./media/contoso-migration-rehost-linux-vm/select-replicate.png)
 
 2. En **Replicar** > **Configuración de origen** >  **¿Las máquinas están virtualizadas?** , seleccione **Sí, con VMware vSphere Hypervisor**.
+
 3. En **Dispositivo local**, seleccione el nombre del dispositivo de Azure Migrate que configuró > **OK**.
 
     ![Configuración de origen](./media/contoso-migration-rehost-linux-vm/source-settings.png)
@@ -178,16 +179,17 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
 5. En **Máquinas virtuales**, busque las máquinas virtuales que necesite y compruebe todas las que desee migrar. A continuación, haga clic en **Siguiente: Configuración de destino**.
 
 6. En **Configuración de destino**, seleccione la suscripción y la región de destino a la que va a migrar, y especifique el grupo de recursos en el que residirán las máquinas virtuales de Azure después de la migración. En **Red virtual**, seleccione la red virtual o la subred de Azure a la que se unirán las máquinas virtuales de Azure después de la migración.
-7. En **Ventaja híbrida de Azure**:
+
+7. En **Ventaja híbrida de Azure**, seleccione lo siguiente:
 
     - Seleccione **No** si no desea aplicar la Ventaja híbrida de Azure. A continuación, haga clic en **Siguiente**.
     - Seleccione **Sí** si tiene equipos con Windows Server que están incluidos en suscripciones activas de Software Assurance o Windows Server y desea aplicar el beneficio a las máquinas que va a migrar. A continuación, haga clic en **Siguiente**.
 
 8. En **Proceso**, revise el nombre de la máquina virtual, el tamaño, el tipo de disco del sistema operativo y el conjunto de disponibilidad. Las máquinas virtuales deben cumplir los [requisitos de Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#agentless-migration-vmware-vm-requirements).
 
-    - **Tamaño de VM**: si usa las recomendaciones de la evaluación, el menú desplegable de tamaño de VM contendrá el tamaño recomendado. De lo contrario, Azure Migrate elige un tamaño en función de la coincidencia más cercana en la suscripción de Azure. También puede elegir un tamaño de manera manual en **Tamaño de la máquina virtual de Azure**.
+    - **Tamaño de VM:** si usa las recomendaciones de la evaluación, el menú desplegable de tamaño de VM contendrá el tamaño recomendado. De lo contrario, Azure Migrate elige un tamaño en función de la coincidencia más cercana en la suscripción de Azure. También puede elegir un tamaño de manera manual en **Tamaño de la máquina virtual de Azure**.
     - **Disco del sistema operativo**: especifique el disco del sistema operativo (arranque) de la máquina virtual. Este es el disco que tiene el cargador de arranque y el instalador del sistema operativo.
-    - **Conjunto de disponibilidad**: si la máquina virtual debe estar incluida en un conjunto de disponibilidad de Azure después de la migración, especifique el conjunto. El conjunto debe estar en el grupo de recursos de destino que especifique para la migración.
+    - **conjunto de disponibilidad:** si la máquina virtual debe estar incluida en un conjunto de disponibilidad de Azure después de la migración, especifique el conjunto. El conjunto debe estar en el grupo de recursos de destino que especifique para la migración.
 
 9. En **Discos**, especifique si los discos de la máquina virtual se deben replicar en Azure y seleccione el tipo de disco (discos SSD o HDD estándar, o bien discos administrados prémium) en Azure. A continuación, haga clic en **Siguiente**.
     - Puede excluir discos de la replicación.

@@ -8,18 +8,18 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8828b79aa27083b3b3e0a0188ac9e538089c52cf
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: ea3bcdc521a043affb71375442b9d5f6fe542fa1
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058581"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565691"
 ---
 # <a name="empower-adoption"></a>Capacitación para la adopción
 
 La prueba definitiva de la innovación es la reacción de los clientes a su invención. ¿Se ha demostrado la hipótesis? ¿Los clientes usan la solución? ¿Se puede escalar para satisfacer las necesidades del porcentaje de usuarios deseado? Lo más importante, ¿siguen volviendo? No se puede realizar ninguna de estas preguntas hasta que se haya implementado la solución de producto mínimo viable (MVP). En este artículo, nos centraremos en la materia de capacitación para la adopción.
 
-## <a name="reducing-friction-to-adoption"></a>Reducción de la fricción a la adopción
+## <a name="reduce-friction-that-affects-adoption"></a>Reducción de la fricción que afecta a la adopción
 
 Hay algunos puntos de fricción importantes en la adopción que se pueden minimizar con una combinación de tecnología y procesos. Para lectores con conocimientos de integración continua (CI) y procesos de implementación continua (CD) o DevOps, lo siguiente le resultará muy familiar. Este artículo tiene el objetivo de establecer un punto de partida para los equipos de adopción de la nube, que generará bucles de comentarios e innovación. A largo plazo, este punto de partida podría fomentar enfoques de CI/CD o DevOps más sólidos a medida que los productos y equipos se consoliden.
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: d1d59b105dd6d75b0c5b5ed12d711473fd4995c8
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: dcf98227f6464b71d0e3e3a1bc0bf505c149254b
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549119"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564273"
 ---
 # <a name="central-it-capabilities"></a>Funciones de TI centralizadas
 
@@ -93,7 +93,7 @@ Los valores para medir este riesgo son la velocidad y la flexibilidad. La nube s
 
 Muchos sectores requieren una estricta adhesión a requisitos de cumplimiento de terceros. Algunos requisitos de cumplimiento siguen demandando un control de TI centralizado. Proporcionar estas medidas de cumplimiento puede agregar tiempo a los procesos de implementación, especialmente en el caso de nuevas tecnologías que no se han usado ampliamente. En estos casos, espere retrasos en la implementación durante las primeras fases de la adopción. Pueden existir situaciones similares para las empresas que trabajan con información confidencial de los clientes, pero que no están gobernadas por un requisito de cumplimiento de terceros.
 
-### <a name="operating-within-the-exceptions"></a>Funcionamiento en las excepciones
+### <a name="operate-within-the-exceptions"></a>Funcionamiento en las excepciones
 
 Si se requieren procesos de TI centralizados y esos procesos crean puntos de control apropiados en la adopción de nuevas tecnologías, estos puntos de control de la innovación se pueden abordar con rapidez. Los requisitos de gobernanza y cumplimiento están diseñados para proteger la información confidencial, no para proteger todo tipo de información. La nube proporciona mecanismos sencillos para adquirir e implementar recursos aislados manteniendo barreras de seguridad adecuadas.
 

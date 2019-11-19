@@ -8,12 +8,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 8870f5ebeab855ec841ed00d109245a1efdeff20
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: cdfe247470626a142d31ab6357f771fb39ced55f
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048314"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564679"
 ---
 # <a name="begin-a-cloud-migration-journey-in-azure"></a>Comenzar un recorrido de migración a nube en Azure
 
@@ -36,7 +36,7 @@ Las migraciones a la nube pueden ayudar a las empresas a lograr sus resultados e
 
 |Eventos empresariales críticos | Motivaciones de migración | Motivaciones de innovación |
 |---------|---------|---------|
-| Salida del centro de datos<br/><br/>Fusiones, adquisiciones o desinversiones<br/><br/>Reducciones en gastos de capital<br/><br/>Finalización del soporte técnico de tecnologías críticas<br/><br/>Respuesta a los cambios de cumplimiento normativo<br/><br/>Satisfacer los requisitos de soberanía de los datos<br/><br/>Reducir las interrupciones y mejorar la estabilidad de TI|Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de las operaciones internas<br/><br/>Aumento de la agilidad comercial<br/><br/>Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas|Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Crear funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas<br/><br/>Mejorar las experiencias e interacciones de los clientes<br/><br/>Transformar productos o servicios<br/><br/>Sorprender al mercado con nuevos productos o servicios|
+| Salida del centro de datos<br/><br/>Fusiones, adquisiciones o desinversiones<br/><br/>Reducciones en gastos de capital<br/><br/>Finalización del soporte técnico de tecnologías críticas<br/><br/>Respuesta a los cambios de cumplimiento normativo<br/><br/>Satisfacer los requisitos de soberanía de los datos<br/><br/>Reducir las interrupciones y mejorar la estabilidad de TI|Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de las operaciones internas<br/><br/>Aumento de la agilidad comercial<br/><br/>Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas|Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Crear funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas<br/><br/>Mejorar las experiencias de los clientes y su implicación<br/><br/>Transformar productos o servicios<br/><br/>Sorprender al mercado con nuevos productos o servicios|
 
 <!-- markdownlint-enable MD033 -->
 
@@ -50,7 +50,7 @@ Preparar a todos los que van a participar en el trabajo de migración de forma q
 
 ## <a name="migration-approach"></a>Enfoque de migración
 
-Cloud Adoption Framework establece una construcción general de planeamiento, preparación y adopción para agrupar los tipos de trabajos necesarios en cualquier adopción de la nube. Este resumen ejecutivo se basa en ese flujo general para establecer procesos iterativos que puedan consolidar los trabajos de lift-and-shift y optimización, **así como** las labores de modernización, en un único enfoque para todas las actividades de migración a la nube.
+Cloud Adoption Framework establece una construcción general de planeamiento, preparación y adopción para agrupar los tipos de trabajos necesarios en cualquier adopción de la nube. Este resumen ejecutivo se basa en ese flujo general para establecer procesos iterativos que puedan consolidar los trabajos de lift-and-shift y optimización, así como las labores de modernización, en un único enfoque para todas las actividades de migración a la nube.
 
 Este enfoque se compone de dos metodologías o áreas de enfoque: estrategia y planeamiento de la nube e implementación en la nube. La [motivación](#motivations) o el resultado empresarial deseado para una migración a la nube a menudo determina cuánto debe invertir un equipo en [estrategia y planeamiento](#cloud-strategy-and-planning) y cuánto en [implementación](#cloud-implementation). Estas motivaciones también pueden influir en las decisiones para ejecutar cada fase secuencialmente o en paralelo.
 

@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9a64a069dcebb12cf550f697561b76903e6d01bf
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 116119530ba5cedcdad836b219b43f23f74d9afc
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967344"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566016"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Diseño de gobernanza para una carga de trabajo sencilla
 
@@ -25,12 +25,12 @@ En la fase de adopción de fundación, nuestro objetivo es implementar una carga
 - Administración de identidades para un solo **propietario de cargas de trabajo**, que es responsable de implementar y mantener la carga de trabajo simple. El propietario de la carga de trabajo necesita permisos para crear, leer, actualizar y eliminar recursos, así como permisos para delegar estos derechos a otros usuarios en el sistema de administración de identidades.
 - Administrar todos los recursos para la carga de trabajo simple como una unidad única de administración.
 
-## <a name="licensing-azure"></a>Licencias de Azure
+## <a name="azure-licensing"></a>Licencias de Azure
 
 Antes de comenzar el diseño de nuestro modelo de gobernanza, es importante comprender cómo se conceden las licencias de Azure. El motivo es que las cuentas administrativas asociadas con su licencia de Azure tienen el mayor nivel de acceso a los recursos de Azure. Estas cuentas administrativas forman la base de su modelo de gobernanza.
 
 > [!NOTE]
-> Si su organización ya tiene un [Contrato Enterprise de Microsoft](https://www.microsoft.com/licensing/licensing-programs/enterprise.aspx) que no incluye Azure, se puede agregar Azure mediante un compromiso monetario por adelantado. Consulte las [licencias de Azure para la empresa](https://azure.microsoft.com/pricing/enterprise-agreement) para más información.
+> Si su organización ya tiene un [Contrato Enterprise de Microsoft](https://www.microsoft.com/licensing/licensing-programs/enterprise.aspx) que no incluye Azure, se puede agregar Azure mediante un compromiso monetario por adelantado. Para obtener más información, consulte [Licencias de Azure para la empresa](https://azure.microsoft.com/pricing/enterprise-agreement).
 
 Cuando Azure se agregó al contrato Enterprise de su organización, se solicitó a su organización la creación de una **cuenta de Azure**. Durante el proceso de creación de la cuenta, se crea un **propietario de la cuenta de Azure** y un inquilino de Azure Active Directory (Azure AD) con una cuenta de **administrador global**. Un inquilino de Azure AD es una construcción lógica que representa una instancia segura y dedicada de Azure AD.
 
@@ -92,18 +92,18 @@ Para ilustrar esto, veamos lo que sucede cuando el **propietario de la carga de 
 
 De nuevo, el rol integrado **propietario** concede todos los permisos al **propietario de la carga de trabajo** en el ámbito del grupo de recursos. Tal y como se explicó anteriormente, este rol se hereda del nivel de suscripción. Si se asigna un rol diferente a este usuario en este ámbito, se aplica solo a este ámbito.
 
-El nivel del ámbito de administración más bajo es el nivel **recurso**. Las operaciones que se aplican en el nivel de recursos se aplican solo al recurso en sí. Y, de nuevo, los permisos del nivel de recurso se heredan del ámbito del grupo de recursos. Por ejemplo, veamos lo que sucede si el **propietario de la carga de trabajo** implementa una [red virtual](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview) en el grupo de recursos:
+El nivel del ámbito de administración más bajo es el nivel **recurso**. Las operaciones que se aplican en el nivel de recursos se aplican solo al recurso en sí. De nuevo, los permisos del nivel de recurso se heredan del ámbito del grupo de recursos. Por ejemplo, veamos lo que sucede si el **propietario de la carga de trabajo** implementa una [red virtual](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview) en el grupo de recursos:
 
 ![El **propietario de la carga de trabajo** crea un recurso](../../_images/govern/design/governance-1-8.png)
 *Figura 8: El propietario de la carga de trabajo crea un recurso y hereda el rol de propietario integrado en el ámbito del recurso.*
 
 El **propietario de la carga de trabajo** hereda el rol de propietario en el ámbito del recurso, lo que significa que el propietario de la carga de trabajo tiene todos los permisos para la red virtual.
 
-## <a name="implementing-the-basic-resource-access-management-model"></a>Implementación del modelo de administración de acceso a los recursos básico
+## <a name="implement-the-basic-resource-access-management-model"></a>Implementación del modelo de administración de acceso a los recursos básico
 
 Vamos a aprender a implementar el modelo de gobernanza diseñado anteriormente.
 
-Para empezar, la organización necesita una cuenta de Azure. Si su organización ya tiene un [Contrato Enterprise de Microsoft](https://www.microsoft.com/licensing/licensing-programs/enterprise.aspx) que no incluye Azure, se puede agregar Azure mediante un compromiso monetario por adelantado. Consulte las [licencias de Azure para la empresa](https://azure.microsoft.com/pricing/enterprise-agreement) para más información.
+Para empezar, la organización necesita una cuenta de Azure. Si su organización ya tiene un [Contrato Enterprise de Microsoft](https://www.microsoft.com/licensing/licensing-programs/enterprise.aspx) que no incluye Azure, se puede agregar Azure mediante un compromiso monetario por adelantado. Para obtener más información, consulte [Licencias de Azure para la empresa](https://azure.microsoft.com/pricing/enterprise-agreement).
 
 Cuando cree la cuenta de Azure, especifique el usuario de su organización que será el **propietario de la cuenta** de Azure. Después, se crea un inquilino de Azure Active Directory (Azure AD) de forma predeterminada. El **propietario de la cuenta** de Azure debe [crear la cuenta de usuario](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory) para el usuario de la organización que sea el **propietario de cargas de trabajo**.
 

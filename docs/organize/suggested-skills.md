@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 75aa65f9a39576eb807e7b147c2c4a658f693619
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c8954fbb4e5c17ec43951270ded2708cfb3432df
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224292"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564244"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration"></a>Ruta de preparación de aptitudes durante la fase de preparación de una migración
 
@@ -33,14 +33,14 @@ Durante la fase de preparación, el personal técnico tiene que crear una zona d
 
 - [Creación de una cuenta de Azure](https://docs.microsoft.com/learn/modules/create-an-azure-account): El primer paso para usar Azure es crear una cuenta. La cuenta contiene los servicios de Azure que aprovisiona y controla su configuración personal, como la identidad, la facturación y las preferencias.
 - [Portal de Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal): Pasee por las características y servicios de Azure Portal, y personalice el portal.
-- [Introducción a Azure](/learn/modules/welcome-to-azure): comience a usar Azure. Cree y configure su primera máquina virtual en la nube.
-- [Introducción a la seguridad en Azure](/learn/modules/intro-to-security-in-azure): conozca los conceptos básicos para proteger la infraestructura y los datos en la nube. Conozca cuáles son sus responsabilidades y de cuáles se encarga Azure.
-- [Administración de recursos en Azure](/learn/paths/manage-resources-in-azure): aprenda a trabajar con la CLI de Azure y el portal web para crear, administrar y controlar los recursos basados en la nube.
-- [Creación de una máquina virtual](/learn/modules/create-windows-virtual-machine-in-azure): use Azure Portal para crear una máquina virtual.
-- [Servicios de red de Azure](/learn/modules/intro-to-azure-networking): conozca los aspectos básicos de las redes de Azure y aprenda a mejorar la resistencia y a reducir la latencia.
-- [Opciones de proceso de Azure](/learn/modules/intro-to-azure-compute): Revise los servicios de proceso de Azure.
-- [Protección de los recursos con RBAC](/learn/modules/secure-azure-resources-with-rbac): use el control de acceso basado en rol (RBAC) para proteger los recursos.
-- [Opciones de almacenamiento de Azure](/learn/modules/intro-to-data-in-azure/index): conozca las ventajas del almacenamiento de datos de Azure.
+- [Introducción a Azure](https://docs.microsoft.com/learn/modules/welcome-to-azure): comience a usar Azure. Cree y configure su primera máquina virtual en la nube.
+- [Introducción a la seguridad en Azure](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure): conozca los conceptos básicos para proteger la infraestructura y los datos en la nube. Conozca cuáles son sus responsabilidades y de cuáles se encarga Azure.
+- [Administración de recursos en Azure](https://docs.microsoft.com/learn/paths/manage-resources-in-azure): aprenda a trabajar con la CLI de Azure y el portal web para crear, administrar y controlar los recursos basados en la nube.
+- [Creación de una máquina virtual](https://docs.microsoft.com/learn/modules/create-windows-virtual-machine-in-azure): use Azure Portal para crear una máquina virtual.
+- [Servicios de red de Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking): conozca los aspectos básicos de las redes de Azure y aprenda a mejorar la resistencia y a reducir la latencia.
+- [Opciones de proceso de Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-compute): Revise los servicios de proceso de Azure.
+- [Protección de los recursos con RBAC](https://docs.microsoft.com/learn/modules/secure-azure-resources-with-rbac): use el control de acceso basado en rol (RBAC) para proteger los recursos.
+- [Opciones de almacenamiento de Azure](https://docs.microsoft.com/learn/modules/intro-to-data-in-azure/index): conozca las ventajas del almacenamiento de datos de Azure.
 
 Durante la fase de preparación, los arquitectos tienen que diseñar soluciones que abarquen todos los entornos de Azure. Los siguientes recursos pueden prepararles para estas tareas:
 
@@ -67,12 +67,14 @@ Microsoft Learn es un enfoque nuevo al aprendizaje. La preparación para las nue
 
 Estos son algunos ejemplos de rutas de aprendizaje específicas de roles en Microsoft Learn:
 
-- Los [usuarios empresariales](/learn/browse/?roles=business-user) pueden enfrentarse a una ardua curva de aprendizaje cuando ayudan a planear, probar y adoptar tecnología basada en la nube. Los módulos de Microsoft Learn se centran en la adopción de modelos y herramientas de la nube para administrar mejor la empresa a través de servicios basados en la nube.
+- Los [usuarios empresariales](https://docs.microsoft.com/learn/browse/?roles=business-user) pueden enfrentarse a una ardua curva de aprendizaje cuando ayudan a planear, probar y adoptar tecnología basada en la nube. Los módulos de Microsoft Learn se centran en la adopción de modelos y herramientas de la nube para administrar mejor la empresa a través de servicios basados en la nube.
 
-- Los [arquitectos de soluciones](/learn/browse/?roles=solution-architect) pueden acceder a cientos de módulos y rutas de aprendizaje. Los temas disponibles van desde los servicios de infraestructura básica hasta la transformación avanzada de datos.
+- Los [arquitectos de soluciones](https://docs.microsoft.com/learn/browse/?roles=solution-architect) pueden acceder a cientos de módulos y rutas de aprendizaje. Los temas disponibles van desde los servicios de infraestructura básica hasta la transformación avanzada de datos.
 
-- Los [administradores](/learn/browse/?roles=administrator) tienen acceso a los módulos que se centran en los aspectos básicos de Azure, la configuración de contenedores e incluso la administración avanzada en la nube.
+- Los [administradores](https://docs.microsoft.com/learn/browse/?roles=administrator) tienen acceso a los módulos que se centran en los aspectos básicos de Azure, la configuración de contenedores e incluso la administración avanzada en la nube.
 
-- Los [desarrolladores](/learn/browse/?roles=developer&term=infrastructure) pueden usar los recursos de Learn para ayudar durante las actividades de diseño, gobernanza y modernización.
+- Los [desarrolladores](https://docs.microsoft.com/learn/browse/?roles=developer&term=infrastructure) pueden usar los recursos de Learn para ayudar durante las actividades de diseño, gobernanza y modernización.
 
-Para más información sobre las rutas de aprendizaje, examine el [catálogo de Microsoft Learn](/learn/browse). Use el filtro Roles para alinear las rutas de aprendizaje con su rol.
+## <a name="learn-more"></a>Más información
+
+Para conocer más rutas de aprendizaje, eche un vistazo al [catálogo de Microsoft Learn](https://docs.microsoft.com/learn/browse). Use el filtro Roles para alinear las rutas de aprendizaje con su rol.

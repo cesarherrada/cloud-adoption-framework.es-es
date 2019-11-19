@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 8f0f2ed925432badf22de70dfa87aa3528738842
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: efbb3b677f2349f0d2e8c240c42c75d75cf849f1
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979859"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564997"
 ---
 # <a name="cloud-monitoring-guide-alerting"></a>Guía sobre la supervisión en la nube: Alertas
 
@@ -47,17 +47,17 @@ Si usa Azure Monitor exclusivamente, siga estas instrucciones a medida que se pl
 
 En función de la característica y configuración que use, puede almacenar los datos de supervisión en cualquiera de los siguientes seis repositorios:
 
-- **Base de datos de métricas de Azure Monitor**: Una base de datos de serie temporal usada principalmente para las métricas de la plataforma de Azure Monitor, pero también tiene los datos de métricas de Application Insights reflejados en ella. La información que entra en esta base de datos tiene los tiempos de alerta más rápidos.
+- **Base de datos de métricas de Azure Monitor:** Una base de datos de serie temporal usada principalmente para las métricas de la plataforma de Azure Monitor, pero también tiene los datos de métricas de Application Insights reflejados en ella. La información que entra en esta base de datos tiene los tiempos de alerta más rápidos.
 
-- **Almacén de registros de Application Insights**: Una base de datos que almacena la mayor parte de la telemetría de Application Insights en forma de registros.
+- **Almacén de registros de Application Insights:** Una base de datos que almacena la mayor parte de la telemetría de Application Insights en forma de registros.
 
-- **Almacén de registros de Azure Monitor**: El almacén principal de los datos de registro de Azure. Otras herramientas pueden enrutar los datos a él y se pueden analizar en registros de Azure Monitor. Debido a la ingesta e indexación, las consultas de alertas de registro tienen una latencia mayor. Esta latencia suele ser de entre 5 y 10 minutos, aunque puede ser mayor en determinadas circunstancias.
+- **Almacén de registros de Azure Monitor:** El almacén principal de los datos de registro de Azure. Otras herramientas pueden enrutar los datos a él y se pueden analizar en registros de Azure Monitor. Debido a la ingesta e indexación, las consultas de alertas de registro tienen una latencia mayor. Esta latencia suele ser de entre 5 y 10 minutos, aunque puede ser mayor en determinadas circunstancias.
 
-- **Almacén del registro de actividad**: Se usa en todos los eventos de estado del servicio y registro de actividad. Es posible crear alertas dedicadas. Contiene los eventos de nivel de suscripción que se producen en objetos de la suscripción, tal como se ha ve desde fuera de esos objetos. Un posible ejemplo es cuando se establece una directiva o se accede a un recurso o se elimina.
+- **Almacén del registro de actividad:** Se usa en todos los eventos de estado del servicio y registro de actividad. Es posible crear alertas dedicadas. Contiene los eventos de nivel de suscripción que se producen en objetos de la suscripción, tal como se ha ve desde fuera de esos objetos. Un posible ejemplo es cuando se establece una directiva o se accede a un recurso o se elimina.
 
-- **Azure Storage**: Almacenamiento de uso general que está respaldado por Azure Diagnostics y otras herramientas de supervisión. Se trata de una opción de bajo costo para la retención de la telemetría de supervisión a largo plazo. No se admiten las alertas de datos que están almacenados en este servicio.
+- **Azure Storage:** Almacenamiento de uso general que está respaldado por Azure Diagnostics y otras herramientas de supervisión. Se trata de una opción de bajo costo para la retención de la telemetría de supervisión a largo plazo. No se admiten las alertas de datos que están almacenados en este servicio.
 
-- **Event Hubs**: Se suele usar para transmitir datos al entorno local o a otras herramientas de supervisión o ITSM de los asociados.
+- **Event Hubs:** Se suele usar para transmitir datos al entorno local o a otras herramientas de supervisión o ITSM de los asociados.
 
 Azure Monitor tiene cuatro tipos de alertas, cada una está vinculada en cierto modo al repositorio en el que se almacenan los datos:
 
@@ -69,7 +69,7 @@ Azure Monitor tiene cuatro tipos de alertas, cada una está vinculada en cierto 
 
 - [Alerta de Service Health](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications?toc=%2fazure%2fservice-health%2ftoc.json): Un tipo especial de alerta, solo para problemas de Service Health que proceden del almacén de registro de actividad.
 
-### <a name="alerting-through-partner-tools"></a>Alertas a través de herramientas de asociados
+### <a name="enable-alerting-through-partner-tools"></a>Habilitar las alertas a través de herramientas de asociados
 
 Si usa una solución de alertas externa, enrútelas lo más posible por Azure Event Hubs, que es la ruta más rápida de Azure Monitor. Tendrá que pagar por la ingesta en Event Hubs. Si el costo es un problema y la velocidad no, puede usar Azure Storage como alternativa de menor costo. Solo tiene que asegurarse de que las herramientas de supervisión o ITSM puedan leer Azure Storage para extraer los datos.
 
@@ -100,7 +100,7 @@ La **telemetría del sistema operativo invitado** tiene una serie de rutas de ac
 
 - Puede enviarlas a ambos almacenes mediante la ejecución de la extensión y del agente en la misma máquina virtual. Después puede generar alertas rápidamente, pero también puede usar los datos del sistema operativo invitado como parte de búsquedas más complejas cuando se combinan con otros datos de telemetría.
 
-**Importar los datos del entorno local**: Si intenta consultar y supervisar datos en máquinas que se ejecutan en Azure y en el entorno local, puede usar el agente de Log Analytics para recopilar datos del sistema operativo invitado. Después puede usar una característica denominada [registros en métricas](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs) para simplificar las métricas en el almacén de métricas. Este método omite parte del proceso de ingesta en el almacén de registros de Azure y, por tanto, los datos están disponibles antes en la base de datos de métricas.
+**Importar los datos del entorno local:** Si intenta consultar y supervisar datos en máquinas que se ejecutan en Azure y en el entorno local, puede usar el agente de Log Analytics para recopilar datos del sistema operativo invitado. Después puede usar una característica denominada [registros en métricas](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs) para simplificar las métricas en el almacén de métricas. Este método omite parte del proceso de ingesta en el almacén de registros de Azure y, por tanto, los datos están disponibles antes en la base de datos de métricas.
 
 ### <a name="minimize-alerts"></a>Minimizar las alertas
 

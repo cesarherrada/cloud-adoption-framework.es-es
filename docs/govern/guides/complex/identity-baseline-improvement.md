@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7decae6a0b9e0c8b41d30f5f3ccac2fdeab41feb
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 8c64507c03a99ef771f7885dc8fbde960c570e4d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547734"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566324"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-identity-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de línea de base de identidad
 
@@ -31,7 +31,7 @@ El director financiero aprobó la justificación empresarial para la migración 
 
 Los dos primeros obstáculos se están administrando en paralelo. En este artículo se abordará la resolución del tercer y cuarto obstáculos.
 
-### <a name="expanding-the-cloud-governance-team"></a>Expansión del equipo de gobernanza de la nube
+### <a name="expand-the-cloud-governance-team"></a>Expansión del equipo de gobernanza de la nube
 
 El equipo de gobernanza de la nube se está expandiendo. Dada la necesidad de soporte adicional con respecto a la administración de identidades, un administrador del sistema del equipo de línea de base de identidad ahora participa en una reunión semanal para mantener a los miembros del equipo existente al tanto de los cambios.
 

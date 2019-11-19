@@ -8,52 +8,52 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4cfa45e24f608c4ff29e83c0425b08f7578a4ee5
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 82f6ea5b422bc4d33fe898f86d003ffb2ab92422
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72682615"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565638"
 ---
-# <a name="learning-with-customers"></a>Aprendizaje con clientes
+# <a name="learn-with-customers"></a>Aprendizaje con los clientes
 
-Los clientes actuales son la mejor fuente de aprendizaje. Nos ayudan a [crear con empatía con el cliente](./build.md) y a asociar la mejor solución con sus necesidades. También usan la solución MVP para crear métricas, de modo que podamos [medir el impacto en el cliente](./measure.md). En este artículo, se describirá un enfoque para aprender con esos asociados clientes.
+Nuestros clientes actuales representan nuestro mejor recurso de aprendizaje. Al asociarse con nosotros, nos ayudan a [crear con la empatía de los clientes](./build.md) y a encontrar la mejor solución para sus necesidades. También ayudan a crear una solución de producto mínimo viable (MVP) mediante la generación de métricas con las que [medir el impacto para los clientes](./measure.md). En este artículo, describiremos cómo aprender con y de nuestros asociados clientes.
 
 ## <a name="continuous-learning"></a>Aprendizaje continuo
 
-Al final de cada iteración, tenemos la oportunidad de aprender de los ciclos de creación y medida. Este proceso de aprendizaje continuo es bastante sencillo. Consulte la imagen siguiente para obtener información general sobre el flujo del proceso.
+Al final de cada iteración, tenemos la oportunidad de aprender de los ciclos de creación y medida. Este proceso de aprendizaje continuo es bastante sencillo. La imagen siguiente ofrece información general del flujo de proceso.
 
 ![Árbol de decisión de aprendizaje continuo](../../_images/innovate/continuous-learning.png)
 
-En su forma más sencilla, el aprendizaje continuo es un proceso para responder a las métricas de aprendizaje y su impacto en las necesidades de los clientes. Este proceso consta de tres decisiones principales que deben realizarse al final de cada iteración:
+En su forma más básica, el aprendizaje continuo es un método para responder a las métricas de aprendizaje y evaluar su impacto en las necesidades de los clientes. Este proceso consta de tres decisiones principales que deben realizarse al final de cada iteración:
 
-- **¿Se ha demostrado la hipótesis?** Cuando la respuesta sea afirmativa, celébrelo un momento y luego continúe. Siempre hay más cosas que aprender, más supuestos para probar y más formas de ayudar al cliente en la siguiente iteración. Cuando una hipótesis es verdadera, suele ser un buen momento para que los equipos decidan una nueva característica que permita ampliar la capacidad de la solución para satisfacer mejor las necesidades del cliente.
-- **¿Puede aproximarse más a una hipótesis validada mediante la iteración en la solución actual?** Esta respuesta suele ser sí. Las métricas de aprendizaje sugerirán puntos del proceso que conducen a la desviación de los clientes. Use estos puntos de datos para buscar la raíz de una hipótesis con errores. En ocasiones, las métricas también pueden sugerir una solución.
-- **¿Es necesario restablecer la hipótesis?** Lo peor que se puede aprender en cualquier iteración es que la hipótesis o la necesidad subyacente eran erróneas. Cuando esto sucede, una iteración por sí sola no es necesariamente la respuesta correcta. Si es necesario restablecer, se debe volver a escribir la hipótesis y revisar la solución a la luz de la nueva hipótesis. Cuanto antes pueda producirse este tipo de aprendizaje, más fácil será dinamizar el proceso. La hipótesis temprana debe centrarse en probar los aspectos más arriesgados de la solución, en un intento de evitar dinamizaciones más adelante en el desarrollo.
-- **¿No está seguro?** La segunda respuesta más común después de "iterar" es "no estamos seguros". No rechace estas respuestas. Dan la oportunidad de invitar al cliente a mirar más allá de los datos.
+- **¿Se ha demostrado la hipótesis?** Cuando la respuesta sea afirmativa, celébrelo un momento y luego continúe. Siempre hay más cosas que aprender, más supuestos para probar y más formas de ayudar al cliente en la siguiente iteración. Cuando una hipótesis es verdadera, suele ser un buen momento para que los equipos tomen una decisión sobre una nueva característica que mejorará la utilidad de la solución para el cliente.
+- **¿Puede aproximarse más a una hipótesis validada mediante la iteración en la solución actual?** Esta respuesta suele ser sí. Las métricas de aprendizaje suelen sugerir puntos del proceso que conducen a la desviación de los clientes. Use estos puntos de datos para buscar la raíz de una hipótesis con errores. En ocasiones, las métricas también pueden sugerir una solución.
+- **¿Es necesario restablecer la hipótesis?** Lo peor que se puede aprender en cualquier iteración es que la hipótesis o la necesidad subyacente eran erróneas. Cuando esto sucede, una iteración por sí sola no es necesariamente la respuesta correcta. Si es necesario restablecer, se debe volver a escribir la hipótesis y revisar la solución a la luz de la nueva hipótesis. Cuanto antes se produzca este tipo de aprendizaje, más fácil será dinamizar el proceso. La hipótesis temprana debe centrarse en probar los aspectos más arriesgados de la solución para evitar dinamizaciones más adelante en el desarrollo.
+- **¿No está seguro?** La segunda respuesta más común después de "iterar" es "no estamos seguros". Adopte esta respuesta. Representa una oportunidad para implicar al cliente y mirar más allá de los datos.
 
 Las respuestas a estas preguntas formarán la iteración que se va a seguir. Las compañías que tienen la capacidad de aplicar el aprendizaje continuo y la valentía de tomar las decisiones adecuadas para sus clientes tienen más probabilidad de convertirse en líderes de su mercado.
 
-Lamentablemente, la práctica del aprendizaje continuo es un arte que requiere una gran cantidad de pruebas y errores. Además de la técnica, requiere un poco de ciencia y la toma de decisiones controladas por datos. Quizás la parte más difícil de la adopción del aprendizaje continuo son los requisitos culturales. Para adoptar de forma eficaz el aprendizaje continuo dentro de cualquier metodología de adopción, la cultura debe estar abierta a un enfoque centrado en el cliente y a que primero se produzcan errores. En la siguiente sección se describe la visión cultural de Microsoft, que se conoce como mentalidad de crecimiento.
+Para bien o para mal, la práctica del aprendizaje continuo es un arte que requiere una gran cantidad de pruebas y errores. También requiere la toma de algunas decisiones basadas en la ciencia y en los datos. Quizás la parte más difícil de la adopción del aprendizaje continuo está relacionada con los requisitos culturales. Para adoptar de forma eficaz el aprendizaje continuo, la cultura empresarial debe estar abierta a un enfoque centrado en el cliente y a que primero se produzcan errores. En la sección siguiente se proporcionan más detalles acerca de este enfoque.
 
 ## <a name="growth-mindset"></a>Mentalidad de crecimiento
 
-Pocos podrán negar la transformación radical que se ha producido en Microsoft en los últimos años. Financiera, cultural y globalmente, la transformación, dirigida por Satya Nadella, se ha convertido en un referente de una sorprendente historia de éxito empresarial. En el corazón de esta historia hay una sencilla creencia denominada mentalidad de crecimiento. Podríamos dedicar una sección completa de este marco a la adopción de una mentalidad de crecimiento. Sin embargo, para simplificar esta guía, nos centraremos en unos cuantos puntos clave que le guiarán en el proceso de aprendizaje con los clientes:
+Pocos podrán negar la transformación radical que se ha producido en la cultura de Microsoft en los últimos años. Esta transformación multifaceta dirigida por Satya Nadella se considera una sorprendente historia de éxito empresarial. En el corazón de esta historia hay una sencilla creencia denominada mentalidad de crecimiento. Podríamos dedicar una sección completa de este marco a la adopción de una mentalidad de crecimiento. Sin embargo, para simplificar esta guía, nos centraremos en unos cuantos puntos clave que fundamentarán el proceso de aprendizaje con los clientes:
 
-- **El cliente primero:** si una hipótesis está diseñada para mejorar la experiencia de los clientes reales, reúnase con los clientes reales en el entorno real. No confíe solo en métricas. Compare y analice las métricas basándose en una observación de primera mano de las experiencias de los clientes.
-- **Aprendizaje continuo:** centrarse en el cliente y tener empatía con el cliente derivan de una mentalidad de aprendizaje. Innovar con una actitud de aprenderlo todo en oposición a la actitud de saberlo todo.
-- **Mentalidad de principiante:** demuestre empatía y enfoque todas las conversaciones con una mentalidad de principiante. Independientemente de que no esté familiarizado con su campo o tenga una experiencia de 30 años, suponga que no sabe nada y aprenderá mucho.
-- **Escuche más:** los clientes desean colaborar con usted. Lamentablemente, el deseo de hacerlo bien bloquea esa asociación. Céntrese en hablar menos y escuche más para aprender más allá de las métricas.
-- **Anime a otros:** no solo tiene que escuchar; use lo que dice para animar a otros. En todas las reuniones, busque formas de extraer distintas perspectivas de aquellas personas que no pueden compartir rápidamente.
-- **Comparta el código:** cuando creemos que nuestra obligación es tener la propiedad de una base de código, perdemos de vista el verdadero poder de la innovación. Céntrese en poseer y promover resultados para los clientes. Comparta su código (públicamente con el mundo o de forma privada con su empresa) para invitar a distintas perspectivas a participar en la solución y el código base.
-- **Desafío qué funciona:** tener éxito no significa que esté experimentando una verdadera empatía con los clientes. Evite una mentalidad fija o reforzar la tendencia a seguir haciendo lo que funciona o lo que siempre ha hecho. Implique a sus clientes y busque el aprendizaje en las métricas positivas y negativas.
-- **Sea inclusivo:** esfuércese por invitar a distintas perspectivas a participar de forma equitativa. Hay muchas cosas que pueden dividir a los seres humanos en distintos grupos. Normativas culturales, comportamientos anteriores, sexo, religión, orientación sexual e incluso capacidades físicas. La verdadera innovación se produce cuando nos desafiamos a ver más allá de las diferencias y a incluir a todos los clientes, asociados y compañeros de trabajo.
+- **El cliente primero:** si una hipótesis está diseñada para mejorar la experiencia de los clientes reales, debe reunirse con los clientes reales en el entorno real. No confíe solo en métricas. Compare y analice las métricas basándose en una observación de primera mano de las experiencias de los clientes.
+- **Aprendizaje continuo:** centrarse en el cliente y tener empatía con el cliente derivan de una mentalidad de aprendizaje. Innovar pretende ser un método centrado en aprenderlo todo, no en saberlo todo.
+- **Mentalidad de principiante:** demuestre empatía y enfoque todas las conversaciones con una mentalidad de principiante. Tanto si no está familiarizado con su campo como si tiene una experiencia de 30 años, suponga que no sabe nada y aprenderá mucho.
+- **Escuche más:** los clientes desean colaborar con usted. Lamentablemente, la necesidad ególatra de hacerlo bien bloquea esa asociación. Para aprender más allá de las métricas, hable menos y escuche más.
+- **Anime a otros:** no solo tiene que escuchar; use lo que *dice* para animar a otros. En todas las reuniones, busque formas de extraer distintas perspectivas de aquellas personas que no pueden compartir rápidamente.
+- **Comparta el código:** cuando creemos que nuestra obligación es tener la propiedad de una base de código, perdemos de vista el verdadero poder de la innovación. Céntrese en poseer y promover resultados para sus clientes. Comparta su código (públicamente con el mundo o de forma privada con su empresa) para incluir distintas perspectivas en la solución y el código base.
+- **Desafío qué funciona:** el éxito no significa necesariamente que se muestre verdadera empatía con el cliente. Evite tener una mentalidad cerrada y una inclinación por repetir aquello que ha funcionado antes. Implique a sus clientes y busque el aprendizaje en las métricas positivas y negativas.
+- **Sea inclusivo:** trabaje duro para incluir distintas perspectivas en la combinación. Hay muchas variables que pueden dividir a los seres humanos en distintos grupos. Normativas culturales, comportamientos anteriores, sexo, religión, orientación sexual e incluso capacidades físicas. La verdadera innovación se produce cuando nos desafiamos a ver más allá de las diferencias y trabajamos a conciencia para incluir a todos los clientes, asociados y compañeros de trabajo.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Como paso siguiente para entender esta metodología, los [desafíos y factores de bloqueo comunes](./challenges.md) pueden prepararle para los cambios que le esperan.
+Como paso siguiente para entender esta metodología, los [desafíos y factores de bloqueo comunes para la innovación](./challenges.md) pueden prepararle para los cambios que le esperan.
 
 > [!div class="nextstepaction"]
-> [Descripción de los desafíos y factores de bloqueo comunes](./challenges.md)
+> [Explicación de los desafíos y factores de bloqueo comunes](./challenges.md)
 
 Algunos de los conceptos de este artículo se basan en temas descritos en el libro [El método Lean Startup](http://theleanstartup.com/book), escrito por Eric Ries.

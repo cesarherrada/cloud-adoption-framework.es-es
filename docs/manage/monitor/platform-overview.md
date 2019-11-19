@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 973bb0e86d3c60e1514061ed7d2aa7ccb787cef6
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 4d50025ee6030e07ccb2979fff89ebb6569e0aed
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979985"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564950"
 ---
 # <a name="cloud-monitoring-guide-monitoring-platforms-overview"></a>Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión
 
@@ -78,7 +78,7 @@ Azure Monitor es un servicio SaaS (software como servicio), en el que toda la in
 
 #### <a name="agents"></a>Agentes
 
-Operations Manager solo recopila datos directamente de los agentes instalados en [equipos Windows](https://docs.microsoft.com//system-center/scom/plan-planning-agent-deployment?view=sc-om-1807#windows-agent). Puede aceptar datos del SDK de Operations Manager, pero este enfoque se utiliza habitualmente para los asociados que amplían el producto con aplicaciones personalizadas, no para recopilar datos de supervisión. Puede recopilar datos de otros orígenes, como [equipos Linux](https://docs.microsoft.com/system-center/scom/plan-planning-agent-deployment?view=sc-om-1807#linuxunix-agent) y dispositivos de red, mediante módulos especiales que se ejecutan en el agente de Windows, que accede de forma remota a estos otros dispositivos.
+Operations Manager solo recopila datos directamente de los agentes instalados en [equipos Windows](https://docs.microsoft.com/system-center/scom/plan-planning-agent-deployment?view=sc-om-1807#windows-agent). Puede aceptar datos del SDK de Operations Manager, pero este enfoque se utiliza habitualmente para los asociados que amplían el producto con aplicaciones personalizadas, no para recopilar datos de supervisión. Puede recopilar datos de otros orígenes, como [equipos Linux](https://docs.microsoft.com/system-center/scom/plan-planning-agent-deployment?view=sc-om-1807#linuxunix-agent) y dispositivos de red, mediante módulos especiales que se ejecutan en el agente de Windows, que accede de forma remota a estos otros dispositivos.
 
 ![Diagrama del agente de Operations Manager](./media/monitoring-management-guidance-cloud-and-on-premises/data-collection-opsman-agents-optimized.svg)
 
@@ -128,25 +128,25 @@ Los módulos de administración de Operations Manager incluyen un modelo de serv
 
 Azure Monitor no ofrece un método definible por el usuario para implementar un modelo de servicio ni monitores que indiquen el estado de mantenimiento actual de los componentes del servicio. Dado que las soluciones de supervisión se basan en las características estándar de Azure Monitor, no proporcionan supervisión de estado. Las siguientes características de Azure Monitor pueden resultar útiles:
 
-- **Application Insights**: crea un mapa compuesto de la aplicación web y proporciona el estado de mantenimiento de cada componente o dependencia de la aplicación. Esto incluye el estado de las alertas y la exploración en profundidad de diagnósticos más detallados de la aplicación.
+- **Application Insights:** crea un mapa compuesto de la aplicación web y proporciona el estado de mantenimiento de cada componente o dependencia de la aplicación. Esto incluye el estado de las alertas y la exploración en profundidad de diagnósticos más detallados de la aplicación.
 
-- **Azure Monitor para VM**: ofrece una experiencia de supervisión de estado para las VM invitadas de Azure, similar a la de Operations Manager, al supervisar máquinas virtuales Windows y Linux. Evalúa el estado de componentes clave del sistema operativo desde la perspectiva de la disponibilidad y el rendimiento, para determinar el estado de mantenimiento actual. Cuando determina que la VM invitada está experimentando problemas de uso sostenido de los recursos, capacidad de espacio en disco o relacionados con la funcionalidad básica del sistema operativo, genera una alerta para llamar la atención sobre este estado.
+- **Azure Monitor para VM:** ofrece una experiencia de supervisión de estado para las VM invitadas de Azure, similar a la de Operations Manager, al supervisar máquinas virtuales Windows y Linux. Evalúa el estado de componentes clave del sistema operativo desde la perspectiva de la disponibilidad y el rendimiento, para determinar el estado de mantenimiento actual. Cuando determina que la VM invitada está experimentando problemas de uso sostenido de los recursos, capacidad de espacio en disco o relacionados con la funcionalidad básica del sistema operativo, genera una alerta para llamar la atención sobre este estado.
 
-- **Azure Monitor para contenedores**: supervisa el rendimiento y el estado de Azure Kubernetes Service o Azure Container Instances. Dicha característica recopila métricas del procesador y de la memoria procedentes de los controladores, los nodos y los contenedores disponibles en Kubernetes mediante Metrics API. También recopila los registros de contenedor y los datos de inventario sobre los contenedores y sus imágenes. Los criterios de mantenimiento predefinidos basados en los datos de rendimiento recopilados ayudan a identificar si existe un problema de capacidad o un cuello de botella en los recursos. También se puede comprender el rendimiento global o el rendimiento de un tipo de objeto Kubernetes específico (pod, nodo, controlador o contenedor).
+- **Azure Monitor para contenedores:** supervisa el rendimiento y el estado de Azure Kubernetes Service o Azure Container Instances. Dicha característica recopila métricas del procesador y de la memoria procedentes de los controladores, los nodos y los contenedores disponibles en Kubernetes mediante Metrics API. También recopila los registros de contenedor y los datos de inventario sobre los contenedores y sus imágenes. Los criterios de mantenimiento predefinidos basados en los datos de rendimiento recopilados ayudan a identificar si existe un problema de capacidad o un cuello de botella en los recursos. También se puede comprender el rendimiento global o el rendimiento de un tipo de objeto Kubernetes específico (pod, nodo, controlador o contenedor).
 
-## <a name="analyzing-data"></a>Análisis de datos
+## <a name="analyze-data"></a>Análisis de datos
 
 ### <a name="operations-manager"></a>Operations Manager
 
 Operations Manager proporciona cuatro formas básicas de analizar los datos después de su recopilación:
 
-- **Explorador de estado**: ayuda a descubrir qué monitores identifican un problema de estado de mantenimiento, así como a revisar la información acerca del monitor y las posibles causas de las acciones relacionadas con él.
+- **Explorador de estado:** ayuda a descubrir qué monitores identifican un problema de estado de mantenimiento, así como a revisar la información acerca del monitor y las posibles causas de las acciones relacionadas con él.
 
-- **Vistas**: ofrece visualizaciones predefinidas de los datos recopilados, como, por ejemplo, un gráfico de datos de rendimiento o una lista de los componentes supervisados y su estado de mantenimiento actual. Las vistas de diagrama presentan visualmente el modelo de servicio de una aplicación.
+- **Vistas:** ofrece visualizaciones predefinidas de los datos recopilados, como, por ejemplo, un gráfico de datos de rendimiento o una lista de los componentes supervisados y su estado de mantenimiento actual. Las vistas de diagrama presentan visualmente el modelo de servicio de una aplicación.
 
-- **Informes**: permiten resumir los datos históricos guardados en el almacenamiento de datos de Operations Manager. Se pueden personalizar los datos en los que se basan las vistas y los informes. Sin embargo, no hay ninguna característica que permita el análisis complejo o interactivo de los datos recopilados.
+- **Informes:** permiten resumir los datos históricos guardados en el almacenamiento de datos de Operations Manager. Se pueden personalizar los datos en los que se basan las vistas y los informes. Sin embargo, no hay ninguna característica que permita el análisis complejo o interactivo de los datos recopilados.
 
-- **Shell de comandos de Operations Manager**: amplía Windows PowerShell con un conjunto adicional de cmdlets, puede consultar y visualizar los datos recopilados. Esto incluye gráficos y otras visualizaciones, de forma nativa con PowerShell o mediante la consola web basada en HTML de Operations Manager.
+- **Shell de comandos de Operations Manager:** amplía Windows PowerShell con un conjunto adicional de cmdlets, puede consultar y visualizar los datos recopilados. Esto incluye gráficos y otras visualizaciones, de forma nativa con PowerShell o mediante la consola web basada en HTML de Operations Manager.
 
 ### <a name="azure-monitor"></a>Azure Monitor
 
@@ -178,7 +178,7 @@ Los flujos de trabajo de Operations Manager son independientes entre sí, por lo
 
 Azure Monitor separa la recopilación de datos de las acciones y los análisis efectuados a partir de estos datos. Los agentes y otros orígenes de datos escriben datos de registro en un área de trabajo de Log Analytics y datos de métricas en la base de datos de métricas, sin ningún análisis de esos datos ni conocimientos de cómo podrían usarse. El monitor genera las alertas y realizar otras acciones a partir de los datos almacenados, lo que permite realizar análisis con datos de todos los orígenes.
 
-## <a name="extending-base-platform"></a>Ampliación de la plataforma base
+## <a name="extend-the-base-platform"></a>Ampliación de la plataforma base
 
 ### <a name="operations-manager"></a>Operations Manager
 

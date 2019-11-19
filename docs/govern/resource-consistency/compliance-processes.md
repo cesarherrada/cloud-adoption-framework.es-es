@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fd44ae6fcdc84efd42ea3f79719475a32ead3111
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: ebff4e0bbeb7f74a61b81527e0dbc62874ffbe6c
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223706"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566039"
 ---
 # <a name="resource-consistency-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de coherencia de recursos
 
@@ -50,7 +50,7 @@ Asegúrese de que los equipos de TI han implementado sistemas de supervisión au
 
 ## <a name="violation-triggers-and-enforcement-actions"></a>Desencadenadores de infracción y acciones de cumplimiento
 
-Como el cumplimiento de las directivas de coherencia de recursos puede provocar interrupciones de servicio críticas o riesgos importantes de sobrecostos, el equipo de gobernanza de la nube debe tener visibilidad sobre los incidentes de incumplimiento. Asegúrese de que el personal de TI tiene rutas de escalado claras para notificar estos problemas a los miembros del equipo de gobernanza más adecuados para identificar y comprobar que se han corregido los problemas de directivas una vez detectados.
+Como el cumplimiento de las directivas de coherencia de recursos puede provocar interrupciones de servicio críticas o riesgos importantes de sobrecostos, el equipo de gobernanza de la nube debe tener visibilidad sobre los incidentes de incumplimiento. Asegúrese de que el personal de TI tiene rutas de escalado claras para notificar estos problemas a los miembros del equipo de gobernanza más adecuados para identificar y comprobar que se han corregido los problemas de directivas cuando se han detectado.
 
 Cuando se detectan infracciones, debe realizar acciones para volver a alinearse con la directiva lo antes posible. El equipo de TI puede automatizar la mayoría de los desencadenadores de infracción con las herramientas descritas en [Resource Consistency toolchain for Azure](./toolchain.md) (Cadena de herramientas de coherencia de recursos para Azure).
 

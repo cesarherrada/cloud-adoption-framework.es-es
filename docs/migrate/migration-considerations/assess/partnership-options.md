@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5eabc654c174ac3eff895e6b2ff94700789f5de5
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 60f622411a71284fa8e97f457da2461ec6e02ac3
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549163"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564655"
 ---
 # <a name="understand-partnership-options"></a>Descripción de las opciones de colaboración
 
@@ -82,7 +82,7 @@ Las principales fases de una interacción típica de FastTrack for Azure son:
 
 **Adopción:** a través de [Azure Cloud Foundation](https://download.microsoft.com/download/D/8/7/D872DFD0-1C46-4145-95E4-B5EAB2958B96/Hybrid_Cloud_Foundation_Datasheet_EN_US.pdf) de los Servicios de Microsoft, establezca sus diseños, patrones y arquitectura de gobernanza principales de Azure mediante la asignación de sus requisitos a la arquitectura de referencia más adecuada y planee, diseñe e implemente la infraestructura, la administración, la seguridad y la identidad necesarias para las cargas de trabajo.
 
-**Migración/optimización:** la [solución de modernización de la nube](https://download.microsoft.com/download/3/7/3/373F90E3-8568-44F3-B096-CD9C1CD28AB7/Cloud_Modernization_Datasheet_EN_US.pdf) de los Servicios de Microsoft ofrece un enfoque integral para trasladar aplicaciones e infraestructura a Azure, así como para optimizar y modernizar una vez en la nube con el respaldo de una migración simplificada.
+**Migración/optimización:** la [solución de modernización de la nube](https://download.microsoft.com/download/3/7/3/373F90E3-8568-44F3-B096-CD9C1CD28AB7/Cloud_Modernization_Datasheet_EN_US.pdf) de los Servicios de Microsoft ofrece un enfoque integral para trasladar aplicaciones e infraestructura a Azure, así como para optimizar y modernizar después de la implementación en la nube con el respaldo de una migración simplificada.
 
 **Innovación:** la solución [Centro de excelencia en la nube (CCoE)](https://download.microsoft.com/download/F/8/B/F8BBE4BD-E5F8-4DFB-82F7-C0A4E17051BB/Cloud_Center_of_Excellence_Datasheet_EN_US.pdf) de los Servicios de Microsoft ofrece un compromiso de preparación para DevOps y usa principios de DevOps combinados con controles prescriptivos de seguridad y administración de servicios nativos de la nube para ayudar a impulsar la innovación empresarial, aumentar la agilidad y reducir el tiempo de amortización dentro de una funcionalidad de administración de operaciones y entrega de servicios segura, predecible y flexible.
 

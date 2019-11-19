@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3bfb26e97d35bc3ace4b150045633ac2773d647f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 2050c210bad9434e688ec4ef7c2e700cccf39f2c
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025462"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564594"
 ---
 # <a name="business-change-plan"></a>Plan de cambio de negocio
 
@@ -31,7 +31,7 @@ Aunque los enfoques pueden variar, los temas generales están presentes en la ma
 
 Estos temas suelen basarse en la suposición de que la introducción de nuevas soluciones para los usuarios debe centrarse en gran medida en el control de riesgos y en facilitar el cambio. Además, el equipo de TI se suele centrar principalmente en el riesgo de ese cambio tecnológico y en facilitar dicho cambio.
 
-## <a name="creating-business-change-plans"></a>Creación de planes de cambio empresarial
+## <a name="create-business-change-plans"></a>Creación de planes de cambio empresariales
 
 Un plan de cambio empresarial va más allá del cambio técnico y presupone que cada fase de un esfuerzo de migración promueve un cierto grado de cambio en el proceso empresarial. Analiza la situación previa y posterior de los cambios técnicos. Las siguientes preguntas ayudan a los participantes a pensar en el proceso de adopción por parte de los usuarios desde una perspectiva de cambio empresarial para maximizar el impacto en la empresa:
 

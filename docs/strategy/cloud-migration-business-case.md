@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: d545b977a4c98692ba8503d5512b8cb0d0b7dd0d
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 629b882c993e85dbb85b04cc9568491bd6e2036d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224197"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566617"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Compilación de una justificación comercial para la migración a la nube
 
@@ -22,7 +22,7 @@ Las migraciones a la nube pueden generar una rápida rentabilidad de la inversi�
 
 ## <a name="dispelling-cloud-migration-myths"></a>Acabar con los mitos de la migración a la nube
 
-**Mito: la nube es siempre más barata.** Es una creencia común que tener un centro de datos en la nube es más barato que operarlo en el entorno local. Aunque generalmente esta suposición puede ser cierta, no siempre es el caso. A veces, los costos operativos en la nube son superiores. Estos costos más altos suelen deberse a un deficiente control de los costos, a arquitecturas de sistema desajustadas, a la duplicación de procesos, a configuraciones de sistema atípicas o a costos de personal más elevados. Afortunadamente, puede mitigar muchos de estos problemas para crear una rentabilidad de la inversión temprana. Siga las instrucciones que se indican en [Creación de la justificación empresarial](#building-the-business-justification), que le ayudarán a detectar y evitar estos desajustes. También puede ayudarle la información que aquí se describe sobre cómo acabar con los otros mitos.
+**Mito: la nube es siempre más barata.** Es una creencia común que tener un centro de datos en la nube es más barato que operarlo en el entorno local. Aunque generalmente esta suposición puede ser cierta, no siempre es el caso. A veces, los costos operativos en la nube son superiores. Estos costos más altos suelen deberse a un deficiente control de los costos, a arquitecturas de sistema desajustadas, a la duplicación de procesos, a configuraciones de sistema atípicas o a costos de personal más elevados. Afortunadamente, puede mitigar muchos de estos problemas para crear una rentabilidad de la inversión temprana. Siga las instrucciones que se indican en [Crear la justificación empresarial](#build-the-business-justification), que le ayudarán a detectar y evitar estos desajustes. También puede ayudarle la información que aquí se describe sobre cómo acabar con los otros mitos.
 
 **Mito: todo debe introducirse en la nube.** De hecho, es posible que algunos impulsores del negocio le lleven a elegir una solución híbrida. Antes de finalizar un modelo de negocio, es aconsejable realizar una primera ronda de análisis cuantitativo, como se describe en los [artículos sobre el patrimonio digital](../digital-estate/5-rs-of-rationalization.md). Para más información sobre los factores cuantitativos individuales implicados en la racionalización, consulte [Las 5 R de la racionalización](../digital-estate/5-rs-of-rationalization.md). En cualquiera de los enfoques se usarán datos de inventario obtenidos fácilmente y un breve análisis cuantitativo para identificar cargas de trabajo o aplicaciones que podrían dar lugar a costos más elevados en la nube. Estos enfoques podrían identificar también dependencias o patrones de tráfico que necesitarían una solución híbrida.
 
@@ -57,7 +57,7 @@ Impedimentos técnicos y culturales pueden ralentizar la adopción de la nube. C
 
 Para aumentar la buena disposición y reducir los riesgos para los plazos, prepare a las partes interesadas para conseguir una fuerte alineación del valor y los resultados empresariales. Ayude a esas partes interesadas a comprender los cambios que acompañan a la transformación. Sea claro y establezca expectativas realistas desde el principio. Cuando las personas o las tecnologías ralenticen el proceso, será más fácil conseguir el apoyo ejecutivo.
 
-## <a name="building-the-business-justification"></a>Creación de la justificación empresarial
+## <a name="build-the-business-justification"></a>Crear la justificación empresarial
 
 El proceso siguiente define un enfoque para desarrollar la justificación empresarial para las migraciones a la nube. Para más información sobre los cálculos y los términos financieros, consulte el artículo sobre [modelos financieros](./financial-models.md).
 
@@ -73,7 +73,7 @@ Podemos desempaquetar esta ecuación para obtener una vista de las fórmulas esp
 - Algunos proveedores de nube también proporcionan calculadoras de costo diferencial. La [Calculadora de costo total de propiedad (TCO) de Azure](https://azure.com/tco) es un ejemplo.
 - Para estructuras de costo más refinadas, considere un ejercicio de [planeamiento del patrimonio digital](../digital-estate/index.md).
 - Estime el costo de la migración.
-- Estime el costo de las oportunidades de aprendizaje esperadas. [Microsoft Learn](/learn) puede ayudarle a reducir esos costos.
+- Estime el costo de las oportunidades de aprendizaje esperadas. [Microsoft Learn](https://docs.microsoft.com/learn) puede ayudarle a reducir esos costos.
 - En algunas compañías, puede ser necesario incluir en los costos iniciales el tiempo invertido por los miembros del personal existentes. Para más información, consulte con la administración de hacienda.
 - Valide con ellos los costos adicionales o costos de cargas.
 

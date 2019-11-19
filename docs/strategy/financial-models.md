@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 75f19fcdc9f23066d5a6471cd79c0a6a00869554
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: cb5653de592fb92fa9ad9f5866997703a928ee4e
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031627"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566587"
 ---
 # <a name="create-a-financial-model-for-cloud-transformation"></a>Creación de un modelo financiero para la transformación en la nube
 
@@ -28,13 +28,13 @@ La rentabilidad de la inversión (ROI) suele ser un criterio importante para los
 
 En las secciones siguientes, se le guía por los datos necesarios para calcular la inversión inicial y la ganancia de la inversión (beneficios).
 
-## <a name="calculating-initial-investment"></a>Cálculo de la inversión inicial
+## <a name="calculate-initial-investment"></a>Cálculo de la inversión inicial
 
 La inversión inicial es el gasto de capital y el gasto operativo necesarios para llevar a cabo una transformación. La clasificación de los costos puede variar según los modelos de contabilidad y las preferencias del CFO. En esta categoría se incluirían elementos como servicios profesionales para transformar, licencias de software que se usan únicamente durante la transformación, costo de los servicios en la nube durante la transformación y, posiblemente, el costo de los empleados asalariados durante la transformación.
 
 Sume estos costos para crear una estimación de la inversión inicial.
 
-## <a name="calculating-the-gain-from-investment"></a>Cálculo de la ganancia de la inversión
+## <a name="calculate-the-gain-from-investment"></a>Cálculo de la ganancia de la inversión
 
 El cálculo de la ganancia de la inversión requiere con frecuencia una segunda fórmula, que es específica de los resultados empresariales y los cambios técnicos asociados. Calcular los beneficios es más difícil que calcular las reducciones de costos.
 

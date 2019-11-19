@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5459d775051b831112029fe1502a62a13c21e1c2
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: caa9d3ced70ce15eacf37b4bcbb653efae9da1ef
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058775"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656685"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
@@ -225,7 +225,7 @@ Este modelo de administración tiene las ventajas del segundo ejemplo anterior. 
 
 Por lo tanto, puede seleccionar cualquiera de estos dos ejemplos de modelos de administración de recursos según la prioridad de sus requisitos. Si prevé que su organización no llegará a los límites de servicio para una sola suscripción, puede utilizar una sola suscripción con varios grupos de recursos. Por el contrario, si su organización anticipa muchas cargas de trabajo, puede ser mejor tener varias suscripciones para cada entorno.
 
-## <a name="implementing-the-resource-management-model"></a>Implementación del modelo de administración de recursos
+## <a name="implement-the-resource-management-model"></a>Implementación del modelo de administración de recursos
 
 Ha aprendido varios modelos diferentes para gobernar el acceso a los recursos de Azure. Ahora veremos los pasos necesarios para implementar el modelo de administración de recursos con una suscripción para cada uno de los entornos de **infraestructura compartida**, **producción** y **desarrollo** con la guía de diseño. Tendremos un **propietario de la suscripción** para los tres entornos. Cada carga de trabajo se aislará en un **grupo de recursos** y se agregará **propietario de carga de trabajo** con el rol de **colaborador**.
 
@@ -259,7 +259,7 @@ Siga estos pasos:
 6. Cree un proceso de aprobación para que **propietarios de cargas de trabajo** soliciten la creación de grupos de recursos. El proceso de aprobación se puede implementar de muchas maneras, por ejemplo, por correo electrónico, o bien puede usar una herramienta de administración de procesos como [flujos de trabajo de Sharepoint](https://support.office.com/article/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3). El proceso de aprobación puede seguir estos pasos:
     - El **propietario de la carga de trabajo** prepara una lista de materiales de los recursos de Azure que necesita en el entorno de **desarrollo**, de **producción** o ambos, y la envía al **propietario de la suscripción**.
     - El **propietario de la suscripción** revisa la lista de materiales y valida los recursos solicitados para asegurarse de que son los adecuados para el uso previsto; por ejemplo, comprueba que los [ tamaños de máquina virtual](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) solicitados son los correctos.
-    - Si no se aprueba la solicitud, el **propietario de la carga de trabajo** recibe una notificación. Si se aprueba la solicitud, el **propietario de la suscripción** [crea el grupo de recursos solicitado](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups) según las [convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) de la organización, [agrega el **propietario de carga de trabajo**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) con el rol de [**colaborador**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) y notifica al **propietario de carga de trabajo** que se ha creado el grupo de recursos.
+    - Si no se aprueba la solicitud, el **propietario de la carga de trabajo** recibe una notificación. Si se aprueba la solicitud, el **propietario de la suscripción** [crea el grupo de recursos solicitado](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups) según las [convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) de la organización, [agrega el **propietario de carga de trabajo**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) con el rol de [**colaborador**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) y notifica al **propietario de carga de trabajo** que se ha creado el grupo de recursos.
 7. Crear un proceso de aprobación para que los propietarios de cargas de trabajo soliciten una conexión de emparejamiento de red virtual desde el propietario de la infraestructura compartida. Al igual que con el paso anterior, este proceso de aprobación se puede implementar mediante correo electrónico o con una herramienta de administración de procesos.
 
 Ahora que ha implementado el modelo de gobernanza, puede implementar los servicios de infraestructura compartida.

@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 39c756c1d90cc9baf7927b2a0ba02814a82f6031
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: a2acba3f9aa06298922d2cc95d298d3792a9ada9
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058797"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240010"
 ---
 # <a name="assess-the-digital-estate"></a>Evaluación del patrimonio digital
 
@@ -31,7 +31,7 @@ Las herramientas siguientes lo ayudarán a evaluar su entorno para determinar la
 
 ## <a name="azure-migrate"></a>Azure Migrate
 
-El servicio Azure Migrate evalúa la infraestructura, las aplicaciones y los datos locales para su migración a Azure. El servicio evalúa la idoneidad de la migración de los recursos locales, realiza el ajuste de tamaño basado en el rendimiento, y proporciona estimaciones del costo que supone la ejecución de recursos locales en Azure. Si considera migrar mediante lift-and-shift o se encuentra en las primeras fases de la evaluación de la migración, este es el servicio que debe elegir. Después de completar la evaluación, se pueden usar Azure Migrate para ejecutar la migración.
+El servicio Azure Migrate evalúa la infraestructura, las aplicaciones y los datos locales para su migración a Azure. El servicio evalúa la idoneidad de la migración de los recursos locales, realiza el ajuste de tamaño basado en el rendimiento, y proporciona estimaciones del costo que supone la ejecución de recursos locales en Azure. Si está considerando realizar la migración mediante lift-and-shift o se encuentra en las primeras fases de la evaluación de la migración, este es el servicio que debe elegir. Después de completar la evaluación, se pueden usar Azure Migrate para ejecutar la migración.
 
 ![Información general de Azure Migrate](./media/assess/azuremigrate-overview-1.png)
 
