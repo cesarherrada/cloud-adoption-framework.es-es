@@ -1239,8 +1239,6 @@
       href: reference/cloud-operating-model.md
     - name: Scaffold de Azure Enterprise
       href: reference/azure-scaffold.md
-    - name: Implementación de plantillas scaffold de Azure Enterprise
-      href: reference/azure-scaffold-examples.md
     - name: Centro de datos virtual (VDC)
       href: reference/vdc.md
     - name: ¿Cómo funciona Azure?

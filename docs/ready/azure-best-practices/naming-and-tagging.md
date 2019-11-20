@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: bc568602c283fab5abba1d6ad91197e9f0f9ce8e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9caeca52ba0ab3a909b0f42ac6f016d44033a4ee
+ms.sourcegitcommit: 617c3f12a3657a8a1393fd08d261dd98eb81b65c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564044"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "74086796"
 ---
 # <a name="ready-recommended-naming-and-tagging-conventions"></a>Párese: Convenciones recomendadas de nomenclatura y etiquetado
 
@@ -52,7 +52,7 @@ Por ejemplo, una red virtual tiene un ámbito de grupo de recursos, lo que signi
 
 Algunos nombres de recursos, como los servicios PaaS con puntos de conexión públicos o etiquetas DNS de máquina virtual, tienen ámbitos globales, lo que significa que deben ser únicos en toda la plataforma de Azure.
 
-Los nombres de los recursos tienen límites de longitud. Equilibrar el contexto insertado en un nombre con su ámbito y longitud es importante al desarrollar las convenciones de nomenclatura. Para más información sobre las reglas de nomenclatura de los caracteres, los ámbitos y las longitudes de nombres permitidos para los tipos de recursos, consulte [Convenciones de nomenclatura para los recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions).
+Los nombres de los recursos tienen límites de longitud. Equilibrar el contexto insertado en un nombre con su ámbito y longitud es importante al desarrollar las convenciones de nomenclatura. Para más información sobre las reglas de nomenclatura de los caracteres, los ámbitos y las longitudes de nombres permitidos para los tipos de recursos, consulte [Convenciones de nomenclatura para los recursos de Azure](/azure/architecture/best-practices/resource-naming).
 
 #### <a name="recommended-naming-components"></a>Componentes de nomenclatura recomendados
 

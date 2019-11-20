@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c623d7c537d19f700fed4d28523f60c4fd03d4ea
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: a2a695af758ae7e99a7c2257f3adf4ce5058ae3d
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058628"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160328"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms-and-azure-database-for-mysql"></a>Rehospedaje de una aplicación Linux local en máquinas virtuales de Azure y en Azure Database for MySQL
 
@@ -250,7 +250,7 @@ Los administradores de Contoso lo hacen como sigue:
 10. En el asistente, selecciona la NIC para recibir tráfico de replicación. Una vez configurada, esta opción no se puede cambiar.
 11. Selecciona la suscripción, el grupo de recursos y el almacén en el que se va a registrar el servidor de configuración.
 
-    ![almacén](./media/contoso-migration-rehost-linux-vm-mysql/cswiz1.png)
+    ![Selección del almacén de Recovery Services](./media/contoso-migration-rehost-linux-vm-mysql/cswiz1.png)
 
 12. Ahora, descargan e instalan MySQL Server y VMware PowerCLI.
 13. Después de la validación, especifica la dirección IP o el FQDN del host de vSphere o vCenter Server. Deja el puerto predeterminado y especifica un nombre descriptivo para vCenter Server.

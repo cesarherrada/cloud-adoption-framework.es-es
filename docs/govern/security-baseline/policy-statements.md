@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f92f3846f0282123fab8049dd47227db0843d955
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 312a3f4e6577b0a0db525e6428bf7e1b2616b625
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221659"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160532"
 ---
 # <a name="security-baseline-sample-policy-statements"></a>Declaraciones de directiva de ejemplo de la base de referencia de la seguridad
 
@@ -56,7 +56,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 **Declaración de directiva**: no se podrá acceder directamente desde Internet a ninguna subred que contenga datos protegidos, ni desde un centro de datos a otro. El acceso a esas subredes debe enrutarse a través de subredes intermedias. Todo el acceso a esas subredes debe realizarse a través de una solución de firewall que pueda realizar funciones de análisis y bloqueo de paquetes.
 
-**Opción de diseño posible**: en Azure, proteja los puntos de conexión públicos mediante la implementación de una [red perimetral entre la red pública de Internet y su red en la nube](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz). Considere la posibilidad de realizar la implementación, configuración y automatización de [Azure Firewall](https://docs.microsoft.com/azure/firewall).
+**Opción de diseño posible**: en Azure, proteja los puntos de conexión públicos mediante la implementación de una [red perimetral entre la red pública de Internet y su red en la nube](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Considere la posibilidad de realizar la implementación, configuración y automatización de [Azure Firewall](https://docs.microsoft.com/azure/firewall).
 
 ## <a name="ddos-protection"></a>Protección contra DDOS
 

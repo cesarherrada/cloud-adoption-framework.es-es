@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 507801a0332058917b585d335f859c1b41d48ce1
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: bee593827b58f1ccca6e82a3ae36d2b6352f0754
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565532"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160400"
 ---
 ::: zone target="docs"
 
@@ -33,7 +33,7 @@ Como innovador, su empresa tiene información sobre los datos, el comportamiento
 
 La tabla siguiente puede ayudarle a encontrar la mejor solución en función de sus necesidades de implementación.
 
-|Servicio  |Modelos pregenerados  |Compilación y experimento  |Entrenamiento y compilación con Python|Aptitudes necesarias|
+|Servicio  |Modelos creados previamente  |Compilación y experimento  |Entrenamiento y compilación con Python|Aptitudes necesarias|
 |---------|---------|---------|---------|---------|
 |Azure Cognitive Services|Sí|No|Sin|Aptitudes de API y desarrolladores|
 |Azure Machine Learning Studio|Sí|Sí|Sin|Descripción general de los algoritmos de predicción|

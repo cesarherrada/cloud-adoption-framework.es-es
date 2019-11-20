@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: d9dda8b5cb91b97da2da50bc747cb3bd6b31947e
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: bf585f923a4c8abddeeb56bab4a3a4b8eb370f8d
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023590"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160206"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Red definida por software: Nativo de la nube
 
@@ -42,4 +42,4 @@ Entre los temas adicionales que el equipo de adopción de la nube debe tener en 
 Para más información sobre las redes virtuales nativas en la nube en Azure, consulte:
 
 - [Red virtual de Azure: Guías de procedimientos](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm). De forma predeterminada las redes virtuales de Azure que se acaban de crear son nativas para la nube. Use estas guías para ayudar a planear el diseño e implementación de las redes virtuales.
-- [Límites de suscripción: Redes](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=%2fazure%2fvirtual-network%2ftoc.json#networking-limits). Cualquier red virtual y recursos conectados solo pueden existir dentro de una sola suscripción y están sujetos a límites de suscripción.
+- [Límites de suscripción: Redes](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Cualquier red virtual y recursos conectados solo pueden existir dentro de una sola suscripción y están sujetos a límites de suscripción.
