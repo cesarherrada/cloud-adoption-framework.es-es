@@ -5,16 +5,16 @@ description: Aprenda a implementar una zona de aterrizaje de migración en Azure
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: f5869cd688984946ec55266dca3754547f950017
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 8c54ebc4c279493089c82a6d9f28c5e35dc3dd7e
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159634"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251444"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Implementación de una zona de aterrizaje para la migración
 

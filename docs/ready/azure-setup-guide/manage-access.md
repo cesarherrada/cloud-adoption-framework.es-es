@@ -5,17 +5,17 @@ description: Aprenda a configurar el control de acceso para el entorno de Azure 
 author: LijuKodicheraJayadevan
 ms.author: kfollis
 ms.date: 04/09/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: dc52d39699e20a243a6d1156764e30063aea76a5
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 033d9b254523562c30022a75a97dc10e649a45df
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240127"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251373"
 ---
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Administración del acceso al entorno de Azure con controles de acceso basado en rol
 
