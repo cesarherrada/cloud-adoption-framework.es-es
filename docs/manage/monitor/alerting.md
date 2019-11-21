@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: b605aad4400ef531022392ceb786ab5467812f5f
-ms.sourcegitcommit: 5d865c3a3f105986bda83ff84f8cc29def030334
+ms.openlocfilehash: d3c3021c75c39b5ae712f9945afd937d4472ecb8
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "73912503"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160282"
 ---
 # <a name="cloud-monitoring-guide-alerting"></a>Guía sobre la supervisión en la nube: Alertas
 
@@ -67,7 +67,7 @@ Azure Monitor tiene cuatro tipos de alertas, cada una está vinculada en cierto 
 
 - [Alerta de registro de actividad](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log): Alertas sobre los elementos del almacén de registro de actividad, a excepción de los datos de Service Health.
 
-- [Alerta de Service Health](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications?toc=%2fazure%2fservice-health%2ftoc.json): Un tipo especial de alerta que se usa solo con problemas de Service Health que proceden del almacén del registro de actividad como, por ejemplo, interrupciones y un mantenimiento planeado próximo. Tenga en cuenta que este tipo de alerta se configura mediante [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), un servicio complementario de Azure Monitor.
+- [Alerta de Service Health](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications): Un tipo especial de alerta que se usa solo con problemas de Service Health que proceden del almacén del registro de actividad como, por ejemplo, interrupciones y un mantenimiento planeado próximo. Tenga en cuenta que este tipo de alerta se configura mediante [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), un servicio complementario de Azure Monitor.
 
 ### <a name="enable-alerting-through-partner-tools"></a>Habilitar las alertas a través de herramientas de asociados
 
