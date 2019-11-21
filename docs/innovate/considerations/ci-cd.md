@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: ea3bcdc521a043affb71375442b9d5f6fe542fa1
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: e4c09cb67872cec6fca8ab395f7ab88e2e0f2064
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565691"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752106"
 ---
 # <a name="empower-adoption"></a>Capacitación para la adopción
 
@@ -21,7 +21,7 @@ La prueba definitiva de la innovación es la reacción de los clientes a su inve
 
 ## <a name="reduce-friction-that-affects-adoption"></a>Reducción de la fricción que afecta a la adopción
 
-Hay algunos puntos de fricción importantes en la adopción que se pueden minimizar con una combinación de tecnología y procesos. Para lectores con conocimientos de integración continua (CI) y procesos de implementación continua (CD) o DevOps, lo siguiente le resultará muy familiar. Este artículo tiene el objetivo de establecer un punto de partida para los equipos de adopción de la nube, que generará bucles de comentarios e innovación. A largo plazo, este punto de partida podría fomentar enfoques de CI/CD o DevOps más sólidos a medida que los productos y equipos se consoliden.
+Hay algunos puntos de fricción importantes en la adopción que se pueden minimizar con una combinación de tecnología y procesos. Para lectores con conocimientos de integración continua (CI) y procesos de implementación continua (CD) o DevOps, lo siguiente le resultará familiar. En este artículo se establece un punto de partida para los equipos de adopción de la nube que ayuda con los bucles de innovación y comentarios. En el futuro, este punto de partida podría fomentar enfoques de CI/CD o DevOps más sólidos a medida que los productos y equipos se consoliden.
 
 Tal y como se describe en [Medida del impacto en los clientes](./measure.md), una validación positiva de cualquier hipótesis requiere iteración y determinación. Experimentará muchos más errores que aciertos durante los ciclos de innovación. Se espera que esto sea así. Sin embargo, cuando se alinean a escala la necesidad del cliente, la hipótesis y la solución, todo cambia rápidamente. El objetivo de este artículo es minimizar la [demanda técnica](./build.md#reduce-complexity-and-delay-technical-spikes) que ralentiza la innovación y, al mismo tiempo, asegurarse de implementar algunos procedimientos recomendados sólidos. Si lo hace, ayudará a que el diseño del equipo tenga éxito en el futuro, al mismo tiempo que satisface las necesidades actuales de los clientes.
 
@@ -69,7 +69,7 @@ Obtenga más información acerca de la [integración continua](https://docs.micr
 
 Los defectos de cualquier solución pueden crear falsos positivos o falsos negativos. Los errores inesperados pueden dar lugar a una interpretación incorrecta de las métricas de adopción de los usuarios. También pueden generar comentarios negativos de los clientes que no representen con precisión la demostración de su hipótesis.
 
-Durante las iteraciones en las fases tempranas de una solución mínima viable, se esperan defectos; los primeros en adoptarla podrían incluso encontrarlos simpáticos. En las primeras versiones, no suelen existir pruebas de aceptación. Sin embargo, uno de los aspectos de la creación con empatía está relacionado con la validación de la necesidad y la hipótesis. Ambas se pueden realizar mediante pruebas unitarias en el nivel de código y pruebas de aceptación manuales antes de la implementación. En conjunto, proporcionan medios para confiar en las pruebas. A largo plazo, debe procurar automatizar una serie bien definida de pruebas de compilación, unitarias y de aceptación. Esto garantizará métricas confiables relacionadas con ajustes más pormenorizados de la hipótesis y la solución resultante.
+Durante las iteraciones en las fases tempranas de una solución mínima viable, se esperan defectos; los primeros en adoptarla podrían incluso encontrarlos simpáticos. En las primeras versiones, no suelen existir pruebas de aceptación. Sin embargo, uno de los aspectos de la creación con empatía está relacionado con la validación de la necesidad y la hipótesis. Ambas se pueden realizar mediante pruebas unitarias en el nivel de código y pruebas de aceptación manuales antes de la implementación. En conjunto, proporcionan medios para confiar en las pruebas. Debe procurar automatizar una serie bien definida de pruebas de compilación, unitarias y de aceptación. Esto garantizará métricas confiables relacionadas con ajustes más pormenorizados de la hipótesis y la solución resultante.
 
 La característica [Azure Test Plans](https://docs.microsoft.com/azure/devops/test/track-test-status?view=azure-devops) proporciona herramientas para desarrollar y utilizar planes de pruebas durante la ejecución de pruebas manuales o automatizadas.
 

@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 19559e34f396561a25761e2b452133f84580fe85
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9d11dff3ce8900d3dc95e1061af87313eae47a1b
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565957"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752544"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 
@@ -90,7 +90,7 @@ Pero incluso con esta inversión en una línea de base de seguridad nativa en la
 - **Proteger las máquinas virtuales.** La seguridad debería ser la prioridad principal de todas las organizaciones, y lograr que esta sea eficaz requiere varias cosas. Debe evaluar el estado de la seguridad, protegerse contra amenazas de seguridad y, posteriormente, detectar y responder rápidamente a las amenazas que ya se están produciendo.
 - **Proteger los contenidos de las máquinas virtuales.** La configuración de copias de seguridad automatizadas regulares es fundamental para protegerse frente a errores del usuario. Sin embargo, esto no es suficiente. También hay que asegurarse de que las copias de seguridad están protegidas frente a ciberataques y que están disponibles cuando las necesita.
 - **Supervisión de aplicaciones.** Este patrón abarca varias tareas, entre las que se incluye la obtención de información sobre el estado de las máquinas virtuales, la descripción de las interacciones entre ellas y el establecimiento de maneras de supervisar las aplicaciones que estas máquinas virtuales ejecutan. Todas estas tareas son fundamentales para mantener sus aplicaciones en ejecución ininterrumpidamente.
-- **Protección y auditoría del acceso a los datos.** Las organizaciones deben auditar todos los accesos a los datos y aprovechar las funcionalidades avanzadas de aprendizaje automático para resaltar las desviaciones de los patrones de acceso normales.
+- **Protección y auditoría del acceso a los datos.** Las organizaciones deben auditar todos los accesos a los datos y usar las funcionalidades avanzadas de aprendizaje automático para resaltar las desviaciones de los patrones de acceso normales.
 - **Procedimiento de conmutación por error.** Las operaciones en la nube que tienen baja tolerancia a errores deben ser capaces de realizar una conmutación por error o una recuperación después de un incidente de ciberseguridad o de la plataforma. Estos procedimientos no solo se deben documentar sino que también se deben practicar con carácter trimestral.
 
 ## <a name="next-steps"></a>Pasos siguientes

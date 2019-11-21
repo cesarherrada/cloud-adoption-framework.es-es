@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f5461ea659ae2363e98ddf45d8623e21f1ce0d90
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 29acef56de414d1a98e5fe11e5e396922b84392d
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565193"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752876"
 ---
 # <a name="business-commitment-in-cloud-management"></a>Compromiso empresarial en la administración de la nube
 
@@ -42,7 +42,7 @@ Para ayudar en el proceso de toma de decisiones, en el resto de este artículo s
 
 ## <a name="it-operations-prerequisites"></a>Requisitos previos de las operaciones de TI
 
-En la [Guía de administración de Azure](../azure-management-guide/index.md) se describen las herramientas de administración disponibles en Azure. Antes de llegar a un compromiso con la empresa, el departamento de TI debe determinar una base de referencia de administración estándar que se aplique a todas las cargas de trabajo administradas. Después, debe calcular los costos de administración estándares para cada una de las cargas de trabajo administradas en la cartera de TI en función de la cantidad de núcleos de CPU, del espacio en disco y de otras variables relacionadas con los recursos. También estimará un Acuerdo de Nivel de Servicio compuesto para cada carga de trabajo en función de la arquitectura.
+En la [Guía de administración de Azure](../azure-management-guide/index.md) se describen las herramientas de administración disponibles en Azure. Antes de llegar a un compromiso con la empresa, el departamento de TI debe determinar una línea de base de administración estándar que se aplique a todas las cargas de trabajo administradas. Después, debe calcular los costos de administración estándares para cada una de las cargas de trabajo administradas en la cartera de TI en función de la cantidad de núcleos de CPU, del espacio en disco y de otras variables relacionadas con los recursos. También estimará un Acuerdo de Nivel de Servicio compuesto para cada carga de trabajo en función de la arquitectura.
 
 > [!TIP]
 > Los equipos de operaciones de TI a menudo usan un tiempo de actividad mínimo predeterminado del 99,9 % para el Acuerdo de Nivel de Servicio compuesto inicial. También pueden optar por normalizar los costos de administración en función de la carga de trabajo media, especialmente en el caso de las soluciones con requisitos mínimos de registro y almacenamiento. Calcular el promedio de los costos de algunas cargas de trabajo de importancia intermedia puede ser un buen punto de partida para las conversaciones iniciales.

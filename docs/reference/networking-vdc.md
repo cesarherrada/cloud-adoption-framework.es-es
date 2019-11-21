@@ -10,12 +10,12 @@ ms.subservice: reference
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: e5729e592fe0e602d24e2e37831c782fada73128
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 526c7846de947b9098f7d9d0b7458a314177a9c8
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566696"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753733"
 ---
 # <a name="virtual-datacenters-a-network-perspective"></a>Centros de datos virtuales: Una perspectiva de la red
 
@@ -194,7 +194,7 @@ El diagrama anterior muestra la relación entre los proyectos de una organizaci�
 
 Normalmente, en TI, un entorno (o nivel) es un sistema en el que se implementan y ejecutan varias aplicaciones. Las empresas grandes usan un entorno de desarrollo (en el que se realizan y se prueban los cambios) y un entorno de producción (el que utilizan los usuarios finales). Dichos entornos están separados y a menudo hay varios entornos de ensayo entre ellos para permitir la implementación por fases (lanzamiento), la realización de pruebas y la reversión si surgen problemas. Las arquitecturas de implementación varían considerablemente, aunque normalmente siguen el proceso básico de comenzar en un desarrollo (DEV) y terminar en producción (PROD).
 
-Una arquitectura común para estos tipos de entornos de varios niveles consta de Azure DevOps para el desarrollo y las pruebas, UAT para el almacenamiento provisional y entornos de producción. Las organizaciones pueden aprovechar uno o varios inquilinos de Azure AD para definir el acceso y los derechos para estos entornos. El diagrama anterior muestra un caso en el que se usan dos inquilinos diferentes de Azure AD: uno para Azure DevOps y UAT y otro exclusivamente para producción.
+Una arquitectura común para estos tipos de entornos de varios niveles consta de Azure DevOps para el desarrollo y las pruebas, UAT para el almacenamiento provisional y entornos de producción. Las organizaciones pueden usar uno o varios inquilinos de Azure AD para definir el acceso y los derechos para estos entornos. El diagrama anterior muestra un caso en el que se usan dos inquilinos diferentes de Azure AD: uno para Azure DevOps y UAT y otro exclusivamente para producción.
 
 La presencia de inquilinos de Azure AD diferentes refuerza la separación entre entornos. El mismo grupo de usuarios, por ejemplo, TI central, debe autenticarse con un identificador URI diferente para acceder a un inquilino de Azure AD diferente y modificar los roles o permisos de los entornos de Azure DevOps o de producción de un proyecto. La presencia de una autenticación de usuario diferente para acceder a diferentes entornos reduce posibles interrupciones y otros problemas causados por errores humanos.
 

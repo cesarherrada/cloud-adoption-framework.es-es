@@ -8,12 +8,12 @@ ms.date: 10/16/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: deebe6db08d573872f67d79f734d1f65a85c6904
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 62f6f8f52d669c2822b822218612986be4503378
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73561698"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753754"
 ---
 # <a name="use-terraform-to-build-your-landing-zones"></a>Uso de Terraform para crear zonas de aterrizaje
 
@@ -200,9 +200,9 @@ La zona de aterrizaje básica establece la base para un entorno complejo de form
 - Agregando otros módulos al plano técnico.
 - Distribuyendo capas de zonas de aterrizaje adicionales encima suyo.
 
-La distribución en capas de las zonas de aterrizaje es una buena práctica para desacoplar sistemas, realizar el control de versiones de cada componente que utiliza, y permitir la innovación y la estabilidad rápidas para su implementación de infraestructura como código.
+La distribución en capas de las zonas de aterrizaje es un buen procedimiento para desacoplar sistemas, realizar el control de versiones de cada componente que utiliza, y permitir la innovación y la estabilidad rápidas para su implementación de infraestructura como código.
 
-Las arquitecturas de referencia futuras mostrarán este concepto para una topología en estrella tipo hub-and-spoke.
+Las arquitecturas de referencia futuras mostrarán este concepto para una topología de concentrador y radio.
 
 > [!div class="nextstepaction"]
 > [Revisar el ejemplo de la zona de aterrizaje de Terraform básica](https://github.com/microsoft/CloudAdoptionFramework/tree/master/ready)

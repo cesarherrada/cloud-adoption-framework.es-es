@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 10097c550ba160c41add31e27d0813c175f5e26a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 29f45afcb10b7d12df8392a8dd9d0d577414e59b
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566226"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753069"
 ---
 # <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Guía de gobernanza para empresas estándar: Mejora de la nube múltiple
 
@@ -85,4 +85,4 @@ La adopción de varias nubes se debe implementar donde sea necesaria en función
 
 ## <a name="conclusion"></a>Conclusión
 
-En esta serie de artículos se describe el desarrollo incremental de los procedimientos recomendados de gobernanza, alineados con las experiencias de esta empresa ficticia. Al comenzar con una base pequeña, pero con los cimientos adecuados, la empresa podría moverse rápidamente y aún así aplicar la cantidad adecuada de gobernanza en el momento adecuado. El producto mínimo viable por sí mismo no ha protegido al cliente. En cambio, ha creado las bases para administrar los riesgos y agregar protecciones. A partir de ahí, se aplicaron capas de gobernanza para corregir los riesgos tangibles. El recorrido exacto que aquí se ha presentado no se alinea al 100 % con las experiencias de ningún lector. Más bien, sirve como patrón para la gobernanza incremental. Se aconseja al lector moldear estos procedimientos recomendados para que se ajusten a sus propias limitaciones y requisitos de gobernanza.
+En esta serie de artículos se describe el desarrollo incremental de los procedimientos recomendados de gobernanza, alineados con las experiencias de esta empresa ficticia. Al comenzar con una base pequeña, pero con los cimientos adecuados, la empresa podría moverse rápidamente y aún así aplicar la cantidad adecuada de gobernanza en el momento adecuado. El producto mínimo viable por sí mismo no ha protegido al cliente. En cambio, ha creado las bases para administrar los riesgos y agregar protecciones. A partir de ahí, se aplicaron capas de gobernanza para corregir los riesgos tangibles. El recorrido exacto que aquí se ha presentado no se alinea al 100 % con las experiencias de ningún lector. Más bien, sirve como patrón para la gobernanza incremental. Debe adaptar estos procedimientos recomendados para que se ajusten a sus propias limitaciones y requisitos de gobernanza.

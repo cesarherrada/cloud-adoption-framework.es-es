@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 4d50025ee6030e07ccb2979fff89ebb6569e0aed
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: d7ff166733f0d4544cb229207278f724ca947319
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564950"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751678"
 ---
 # <a name="cloud-monitoring-guide-monitoring-platforms-overview"></a>Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión
 
@@ -74,6 +74,8 @@ Azure Monitor es un servicio SaaS (software como servicio), en el que toda la in
 
 ## <a name="data-collection"></a>Colección de datos
 
+<!-- markdownlint-disable MD024 -->
+
 ### <a name="operations-manager"></a>Operations Manager
 
 #### <a name="agents"></a>Agentes
@@ -114,7 +116,7 @@ Las soluciones de información, como Azure Monitor para contenedores y Azure Mon
 
 Azure Monitor separa la recopilación de datos de las acciones realizadas en ellos, lo que aporta compatibilidad con microservicios distribuidos en un entorno en la nube. Consolida los datos de varios orígenes en una plataforma de datos común y proporciona funcionalidad de análisis, visualización y alerta basadas en los datos recopilados.
 
-Todos los datos recopilados por Azure Monitor se almacenan como registros o como métricas, y las distintas características de Monitor se basan en uno de ambos. Las métricas contienen valores numéricos en una serie temporal que resultan adecuados para alertas casi en tiempo real y la detección rápida de problemas. Los registros contienen texto o datos numéricos, y son compatibles con un potente lenguaje de consulta que los hace especialmente útiles para realizar análisis complejos.
+Todos los datos recopilados por Azure Monitor se almacenan como registros o como métricas, y las distintas características de Monitor se basan en uno de ambos. Las métricas contienen valores numéricos en una serie temporal lo cual resulta adecuado para disponer de alertas casi en tiempo real y para la detección rápida de problemas. Los registros contienen texto o datos numéricos, y son compatibles con un potente lenguaje de consulta que los hace especialmente útiles para realizar análisis complejos.
 
 Dado que Monitor separa la recopilación de datos de las acciones que se realizan en estos, es posible que no pueda proporcionar alertas casi en tiempo real en muchos casos. Para generar alertar sobre los datos del registro, se ejecutan consultas según una programación periódica definida en la alerta. Este comportamiento permite a Azure Monitor correlacionar fácilmente los datos de todos los orígenes supervisados, lo que a su vez permite analizar interactivamente los datos de diversas maneras. Esto resulta especialmente útil para realizar análisis de la causa principal e identificar en qué otras circunstancias puede producirse un problema.
 

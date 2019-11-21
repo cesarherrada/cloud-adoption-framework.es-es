@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 842143afbb042ceddee5029a3fa86d0aa8cdd997
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 415e7b456cc342f7a749cd98a55e573a46563bf4
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564546"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753685"
 ---
 # <a name="prepare-for-technical-complexity-agile-change-management"></a>Preparación para la complejidad técnica: administración de cambios ágil
 
@@ -50,7 +50,7 @@ Al principio, es poco probable que las cargas de trabajo pendientes de migració
 
 *Los trabajos pendientes de migración, versión e iteración realizan un seguimiento de los distintos niveles de actividad durante los procesos de migración.*
 
-En cualquier trabajo pendiente de una migración, el equipo de administración de cambios debe procurar obtener la siguiente información para cualquier carga de trabajo del plan. Como mínimo, deben estar disponibles estos datos para cualquier carga de trabajo prioritaria para la migración en las dos o tres versiones siguientes.
+En cualquier trabajo pendiente de una migración, el equipo de administración de cambios debe procurar obtener la siguiente información para cualquier carga de trabajo del plan. Como mínimo, estos datos deben estar disponibles para cualquier carga de trabajo prioritaria para la migración en las dos o tres versiones siguientes.
 
 ### <a name="migration-backlog-data-points"></a>Puntos de datos del trabajo pendiente de migración
 

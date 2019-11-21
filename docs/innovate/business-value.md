@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c57152b92826539a236227636ee115c19bd70e7a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 8085a87f114011ce9a1089c0427ff9c592b33d15
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565749"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752021"
 ---
 # <a name="build-consensus-on-the-business-value-of-innovation"></a>Creación de consenso sobre el valor empresarial de la innovación
 
@@ -74,6 +74,7 @@ El seguimiento de la metodología y las herramientas de administración del trab
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Cuando la propuesta de valor empresarial está bien alineada y comunicada, está a punto para empezar a compilar la solución.
+Una vez que la propuesta de valor empresarial esté bien alineada y la haya comunicado, está listo para empezar a compilar la solución.
+
 > [!div class="nextstepaction"]
 > [Volver a los ejercicios de innovación para los pasos siguientes](./index.md)

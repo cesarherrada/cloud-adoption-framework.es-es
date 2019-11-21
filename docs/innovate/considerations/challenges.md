@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: fe10230be2c71942fa411389b99e00811e008fbc
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 85b02e488476960a50112c1b5ebd7380a873a3f8
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565721"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751996"
 ---
 # <a name="common-blockers-and-challenges-to-innovation"></a>Desafíos y factores de bloqueo comunes para la innovación
 
@@ -45,7 +45,7 @@ La nube ha superado muchos de estos desafíos de la invención al ofrecer aprovi
 
 ### <a name="invention-challenges-in-a-digital-economy"></a>Desafíos de la invención en una economía digital
 
-Los desafíos de la invención de hoy en día son diferentes. El potencial interminable de las tecnologías en la nube también genera más opciones de implementación y consideraciones más detalladas sobre cómo se podrían aprovechar esas implementaciones.
+Los desafíos de la invención de hoy en día son diferentes. El potencial interminable de las tecnologías en la nube también genera más opciones de implementación y consideraciones más detalladas sobre cómo se podrían usar esas implementaciones.
 
 La metodología de innovación utiliza las siguientes disciplinas de innovación para ayudar a alinear las decisiones de implementación con los objetivos de invención y adopción:
 

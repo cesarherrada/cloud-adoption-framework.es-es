@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 92b9988d47dcc8ba4b7a7e3dd02a4ec9ff3ed2e9
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 2381a7579fad573abeca6afafd6f6fbaa6310ee4
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565375"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752920"
 ---
 # <a name="workload-specialization-for-cloud-management"></a>Especialización de la carga de trabajo para la administración en la nube
 
@@ -23,7 +23,7 @@ La especialización de la carga de trabajo se basa en los conceptos que se descr
 
 ![Más allá de la línea base de administración en la nube](../../_images/manage/beyond-the-baseline.png)
 
-- **Operaciones con cargas de trabajo:** mayor inversión en operaciones por carga de trabajo y mayor grado de resistencia. Las operaciones con cargas de trabajo se sugieren para aproximadamente el 20 % de las cargas de trabajo que impulsan el valor empresarial. Esta especialización suele reservase para cargas de trabajo de gran importancia o críticas.
+- **Operaciones con cargas de trabajo:** mayor inversión en operaciones por carga de trabajo y mayor grado de resistencia. Las operaciones con cargas de trabajo se sugieren para aproximadamente el 20 % de las cargas de trabajo que impulsan el valor empresarial. Esta especialización suele reservarse para cargas de trabajo de gran importancia o críticas.
 - **Operaciones de la plataforma:** La inversión en operaciones se reparte entre varias cargas de trabajo. Las mejoras de resistencia afectan a todas las cargas de trabajo que usan la plataforma definida. Las operaciones de la plataforma se sugieren para aproximadamente el 20 % de las plataformas que tienen una importancia crítica. Esta especialización se suele reservar para cargas de trabajo de importancia media a crítica.
 - **Línea de base de administración mejorada:** inversión en operaciones relativamente más baja. Esta especialización mejora ligeramente los compromisos empresariales mediante herramientas y procesos de operaciones nativos de la nube.
 
@@ -44,9 +44,9 @@ Cuando se requiere la especialización de carga de trabajo, la administración o
 
 En este modelo, las tareas operativas como la supervisión, la implementación, DevOps y otras funciones centradas en la innovación se desplazan a una organización de desarrollo de aplicaciones o de unidad de negocio. La Plataforma en la nube y el equipo de supervisión de la nube principal todavía cumplen con la línea de base de administración en todo el entorno.
 
-Esos equipos centralizados también guían e instruyen a los equipos especializados en cargas de trabajo sobre las operaciones de sus cargas de trabajo. Sin embargo, la responsabilidad operativa cotidiana recae en un equipo de administración en la nube que se administra fuera de TI. Este tipo de control distribuido es uno de los indicadores principales de madurez del Centro de excelencia de la nube.
+Esos equipos centralizados también guían e instruyen a los equipos especializados en cargas de trabajo sobre las operaciones de sus cargas de trabajo. Sin embargo, la responsabilidad operativa cotidiana recae en un equipo de administración en la nube que se administra fuera de TI. Este tipo de control distribuido es uno de los indicadores principales de madurez del centro de excelencia de la nube.
 
-## <a name="beyond-platform-specialization---application-insights"></a>Más allá de la especialización de plataforma: Application Insights
+## <a name="beyond-platform-specialization-application-insights"></a>Más allá de la especialización de la plataforma: Application Insights
 
 Se requieren más detalles sobre la carga de trabajo específica para proporcionar operaciones de carga de trabajo claras. Durante la fase de mejora continua, Application Insights será una adición necesaria a la cadena de herramientas de administración en la nube.
 

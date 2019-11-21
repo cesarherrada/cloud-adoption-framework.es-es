@@ -9,18 +9,18 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: dcf98227f6464b71d0e3e3a1bc0bf505c149254b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 25e9ecd4d911766864d81a5ff34f00caf82e86bf
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564273"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753630"
 ---
 # <a name="central-it-capabilities"></a>Funciones de TI centralizadas
 
 A medida que se escala la adopción de la nube, puede que las funcionalidades de gobernanza de la nube no sean suficientes por sí solas para gobernar los esfuerzos de adopción. Si la adopción es gradual, los equipos tienden a desarrollar orgánicamente las aptitudes y los procesos necesarios para estar preparados para la nube con el tiempo.
 
-Sin embargo, cuando un equipo de adopción de la nube aprovecha la nube para lograr un resultado empresarial de alto perfil, este rara vez es el caso. El éxito llama al éxito. Esto también es cierto en la adopción de la nube, pero se produce en la escala de la nube. Cuando la adopción de la nube se amplía de un equipo a varios equipos con relativa rapidez, se necesita soporte técnico adicional por parte del personal de TI existente. Sin embargo, es posible que ese personal no tenga el entrenamiento y la experiencia necesarios para dar soporte técnico a la nube mediante herramientas de TI nativas en la nube. Esto a menudo conduce a la formación de un equipo de TI central que gobierna la nube.
+Sin embargo, cuando un equipo de adopción de la nube usa esta para lograr un resultado empresarial de alto perfil, este rara vez es el caso. El éxito llama al éxito. Esto también es cierto en la adopción de la nube, pero se produce en la escala de la nube. Cuando la adopción de la nube se amplía de un equipo a varios equipos con relativa rapidez, se necesita soporte técnico adicional por parte del personal de TI existente. Sin embargo, es posible que ese personal no tenga el entrenamiento y la experiencia necesarios para dar soporte técnico a la nube mediante herramientas de TI nativas en la nube. Esto a menudo conduce a la formación de un equipo de TI central que gobierna la nube.
 
 > [!CAUTION]
 > Aunque se trata de un paso habitual del proceso de consolidación, su adopción puede suponer un riesgo elevado y es posible que bloquee los esfuerzos de innovación y migración si no se administra correctamente. Consulte la sección sobre riesgos que aparece a continuación para aprender a mitigar el riesgo de que la centralización se convierta en un antipatrón cultural.
@@ -105,7 +105,7 @@ Este ejemplo de narrativa sirve para ilustrar el enfoque adoptado por un equipo 
 
 Contoso LLC ha adoptado un modelo de TI centralizado para dar soporte a los recursos en la nube de la empresa. Para proporcionar este modelo, han implementado controles estrictos para varios servicios compartidos, como las conexiones de red de entrada. Esta medida prudente ha reducido la exposición de su entorno en la nube y ha proporcionado un único dispositivo de "emergencia" para bloquear todo el tráfico en caso de que se produzca una infracción. Sus directivas de base de referencia de la seguridad establecen que todo el tráfico de entrada debe pasar por un dispositivo compartido que administra el equipo de TI centralizado.
 
-Sin embargo, uno de sus equipos de adopción de la nube necesita ahora un entorno con una conexión de red de entrada dedicada y configurada especialmente para aprovechar una tecnología en la nube concreta. Un equipo de TI centralizado inmaduro simplemente rechazaría la solicitud y daría prioridad a los procesos existentes en lugar de a las necesidades de adopción. El equipo de TI centralizado de Contoso es diferente. Han identificado rápidamente una solución sencilla de cuatro partes a este dilema: Clasificación, negociación, aislamiento y automatización.
+Sin embargo, uno de sus equipos de adopción de la nube necesita ahora un entorno con una conexión de red de entrada dedicada y configurada especialmente para usar una tecnología en la nube concreta. Un equipo de TI centralizado inmaduro simplemente rechazaría la solicitud y daría prioridad a los procesos existentes en lugar de a las necesidades de adopción. El equipo de TI centralizado de Contoso es diferente. Han identificado rápidamente una solución sencilla de cuatro partes a este dilema: Clasificación, negociación, aislamiento y automatización.
 
 **Clasificación:** Dado que el equipo de adopción de la nube se encontraba en las primeras fases de la creación de una nueva solución y no tenía ninguna información confidencial ni necesidades de soporte técnico críticas, los recursos del entorno se clasificaron como de bajo riesgo y no críticos. Una clasificación efectiva es un signo de madurez del equipo de TI centralizado. La clasificación de todos los recursos y entornos permite directivas más claras.
 

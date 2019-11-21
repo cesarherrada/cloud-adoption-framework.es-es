@@ -8,12 +8,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: df31cb73ec601c52f0f925d09a56f0af7aaf1513
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: a7f119dcfd2b7cdfc71b8a4c6f913448cd98e763
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565220"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753617"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
@@ -85,7 +85,7 @@ Para proporcionar aislamiento en una red virtual, ha de segmentarla en una o var
 - Las decisiones de subred se basan en los requisitos técnicos y organizativos.
 - Cree las redes con la notación CIDR.
 - Al decidir el intervalo de red para las subredes, es importante tener en cuenta que Azure conserva cinco direcciones IP de cada subred que no se pueden usar. Por ejemplo, si crea la subred más pequeña disponible de /29 (con ocho direcciones IP), Azure conservará cinco direcciones, por lo que solo quedan tres direcciones utilizables que pueden asignarse a los hosts de la subred.
-- En la mayoría de los casos, se recomienda usar /28 como subred más pequeña.
+- Para la mayoría de los casos, use /28 como la subred más pequeña.
 
 **Ejemplo:**
 
@@ -160,8 +160,8 @@ Para una migración correcta, es fundamental conectar las redes corporativas loc
 
 Para implementar una VPN de sitio a sitio, configure una instancia de VPN Gateway en Azure.
 
-- VPN Gateway es un tipo específico de puerta de enlace de red virtual que se usa para enviar tráfico cifrado entre una red virtual de Azure y una ubicación local a través de la red pública de Internet.
-- También puede usar una instancia de VPN Gateway para enviar tráfico cifrado entre las redes virtuales de Azure a través de la red de Microsoft.
+- VPN Gateway es un tipo específico de puerta de enlace de red virtual que envía tráfico cifrado entre una red virtual de Azure y una ubicación local a través de la red pública de Internet.
+- Una instancia de VPN Gateway también puede enviar tráfico cifrado entre las redes virtuales de Azure a través de la red de Microsoft.
 - Cada red virtual solo puede tener una instancia de VPN Gateway.
 - Se pueden crear varias conexiones a la misma instancia. Al crear varias conexiones a la misma instancia de VPN Gateway, todos los túneles VPN comparten el ancho de banda de puerta de enlace disponible.
 - Cada instancia de Azure VPN Gateway consta de dos instancias en una configuración activa-en espera.
@@ -175,7 +175,7 @@ Al configurar una VPN de sitio a sitio, haga lo siguiente:
 
 - Necesita una red virtual cuyo intervalo de direcciones no se superponga con la red local a la que se conectará la VPN.
 - Cree una subred de puerta de enlace en la red.
-- Cree una instancia de VPN Gateway, especifique el tipo de puerta de enlace (VPN) y si la puerta de enlace está basada en directivas o en rutas. Se recomienda una VPN de tipo RouteBased como más capaz y mejor preparada para el futuro.
+- Cree una instancia de VPN Gateway, especifique el tipo de puerta de enlace (VPN) y si la puerta de enlace está basada en directivas o en rutas. Se considera que una VPN basada en ruta es más eficaz y está mejor preparada para el futuro.
 - Cree una puerta de enlace de red local en el entorno local y configure el dispositivo VPN local.
 - Cree una conexión VPN de sitio a sitio de conmutación por error entre la puerta de enlace de red virtual y el dispositivo local. El uso de VPN basadas en rutas permite conexiones de tipo activa-pasiva o activa-activa con Azure. Las VPN basadas en rutas también admiten conexiones simultáneas de sitio a sitio (desde cualquier equipo) y de punto a sitio (desde un único equipo).
 - Especifique la SKU de la puerta de enlace que quiere utilizar. Esto dependerá de los requisitos, las unidades de rendimiento, las características y los acuerdos de nivel de servicio de la carga de trabajo.

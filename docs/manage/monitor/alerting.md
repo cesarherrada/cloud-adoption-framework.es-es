@@ -1,5 +1,5 @@
 ---
-title: 'Guía de supervisión de la nube: alertas'
+title: 'Guía sobre la supervisión en la nube: Alertas'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
 author: MGoedtel
@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: efbb3b677f2349f0d2e8c240c42c75d75cf849f1
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: b605aad4400ef531022392ceb786ab5467812f5f
+ms.sourcegitcommit: 5d865c3a3f105986bda83ff84f8cc29def030334
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564997"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "73912503"
 ---
 # <a name="cloud-monitoring-guide-alerting"></a>Guía sobre la supervisión en la nube: Alertas
 
@@ -67,7 +67,7 @@ Azure Monitor tiene cuatro tipos de alertas, cada una está vinculada en cierto 
 
 - [Alerta de registro de actividad](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log): Alertas sobre los elementos del almacén de registro de actividad, a excepción de los datos de Service Health.
 
-- [Alerta de Service Health](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications?toc=%2fazure%2fservice-health%2ftoc.json): Un tipo especial de alerta, solo para problemas de Service Health que proceden del almacén de registro de actividad.
+- [Alerta de Service Health](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications?toc=%2fazure%2fservice-health%2ftoc.json): Un tipo especial de alerta que se usa solo con problemas de Service Health que proceden del almacén del registro de actividad como, por ejemplo, interrupciones y un mantenimiento planeado próximo. Tenga en cuenta que este tipo de alerta se configura mediante [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), un servicio complementario de Azure Monitor.
 
 ### <a name="enable-alerting-through-partner-tools"></a>Habilitar las alertas a través de herramientas de asociados
 

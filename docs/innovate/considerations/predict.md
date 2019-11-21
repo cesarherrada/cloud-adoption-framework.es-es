@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8aa0e1d86bb679241bc8e769bb8a09fc436c6906
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: bcb01ada3589b733fe97de2689352ab414ef469b
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565587"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752989"
 ---
 # <a name="predict-and-influence"></a>Predicción e influencia
 
@@ -48,7 +48,7 @@ Se puede usar una variedad de orígenes de datos para proporcionar funcionalidad
 
 ## <a name="insights"></a>Información detallada
 
-Los expertos en la materia aprovechan los datos sobre las necesidades y los comportamientos de los clientes para desarrollar detalles empresariales básicos a partir de un estudio de datos sin procesar. Esta información detallada puede identificar los casos de comportamientos deseados de los clientes (o, por el contrario, los resultados no deseados). Durante las iteraciones en las predicciones, esta información detallada puede ayudar a identificar posibles correlaciones, lo que finalmente podría generar resultados positivos. Para obtener información sobre cómo permitir que los expertos en la materia elaboren conclusiones, consulte [Democratización de los datos](./data.md).
+Los expertos en la materia usan los datos sobre las necesidades y comportamientos de los clientes para desarrollar conclusiones empresariales básicas a partir de un estudio de datos sin procesar. Esta información detallada puede identificar los casos de comportamientos deseados de los clientes (o, por el contrario, los resultados no deseados). Durante las iteraciones en las predicciones, esta información detallada puede ayudar a identificar posibles correlaciones, lo que finalmente podría generar resultados positivos. Para obtener información sobre cómo permitir que los expertos en la materia elaboren conclusiones, consulte [Democratización de los datos](./data.md).
 
 ## <a name="patterns"></a>Patrones
 

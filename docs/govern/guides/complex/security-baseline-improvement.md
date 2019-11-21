@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 99155a4dba7c51c5fc5d1888798275c47f870d5e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: a8cf7c6bb09d2f4c505e3edcb97a0354a870a730
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566263"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753214"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -98,9 +98,9 @@ Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgo
 
 ## <a name="incremental-improvement-of-the-best-practices"></a>Mejoras graduales de los procedimientos recomendados
 
-En esta sección del artículo se cambiará el diseño del producto viable mínimo de gobernanza para incluir nuevas directivas de Azure y una implementación de Azure Cost Management. Juntos, estos dos cambios de diseño cumplirán con las nuevas declaraciones de directiva corporativa.
+En esta sección se modifica el diseño de un producto viable mínimo de gobernanza para incluir nuevas directivas de Azure y una implementación de Azure Cost Management. Juntos, estos dos cambios de diseño cumplirán con las nuevas declaraciones de directiva corporativa.
 
-Las nuevas recomendaciones se dividen en dos categorías: TI de empresa (Hub) y adopción de la nube (Spoke).
+Los nuevos procedimientos recomendados se dividen en dos categorías: TI corporativa (centro de conectividad) y adopción de la nube (radios).
 
 **Establecimiento de una suscripción de tipo hub-and-spoke de TI empresarial para centralizar de base de referencia de la seguridad:** En este procedimiento recomendado, la capacidad de gobernanza existente está encapsulada mediante una [topología de tipo hub-and-spoke con servicios compartidos](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services), además de algunas adiciones clave del equipo de gobernanza de la nube.
 
@@ -108,7 +108,7 @@ Las nuevas recomendaciones se dividen en dos categorías: TI de empresa (Hub) y 
 2. Plantilla de topología de red en estrella tipo hub-and-spoke:
     1. La guía de la arquitectura de referencia sobre la [topología de red en estrella tipo hub-and-spoke con servicios compartidos](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services) se puede usar para generar plantillas de Resource Manager para los recursos necesarios de un centro de TI de empresa.
     2. Gracias a esas plantillas, esta estructura puede repetirse como parte de una estrategia de gobernanza central.
-    3. Además de la arquitectura de referencia actual, le recomendamos que cree una plantilla de grupo de seguridad de red que capture los requisitos de bloqueo de puertos o listas blancas, para que la red virtual pueda hospedar el firewall. Este grupo de seguridad de red difiere de los grupos anteriores, porque será el primer grupo de seguridad de red que permita el tráfico público hacia una red virtual.
+    3. Además de la arquitectura de referencia actual, se debe crear una plantilla de grupo de seguridad de red que capture los requisitos de bloqueo de puertos o listas blancas, para que la red virtual pueda hospedar el firewall. Este grupo de seguridad de red difiere de los grupos anteriores, porque será el primer grupo de seguridad de red que permita el tráfico público hacia una red virtual.
 3. Crear directivas de Azure. Cree una directiva denominada `Hub NSG Enforcement` para aplicar la configuración del grupo de seguridad de red asignado a cualquier red virtual creada en esta suscripción. Aplique las directivas integradas para la configuración de invitado de la manera siguiente:
     1. Confirme que los servidores web de Windows usan protocolos de comunicación segura.
     2. Confirme que la configuración de seguridad de contraseñas es correcta en máquinas de Linux y Windows.
@@ -134,7 +134,7 @@ En cambios iterativos anteriores del procedimiento recomendado, se definieron gr
     1. En la arquitectura de referencia de la sección anterior, [Topología en estrella de tipo hub-and-spoke con servicios compartidos](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services) se generó una plantilla de Resource Manager para habilitar el emparejamiento de redes virtuales.
     2. Esa plantilla se puede usar como guía para modificar la plantilla de DMZ de la iteración de gobernanza anterior.
     3. Ahora estamos agregando la opción de emparejamiento de red virtual a la red virtual de DMZ que se conectó previamente al dispositivo perimetral local a través de VPN.
-    4. *** También le recomendamos que elimine la VPN de esta plantilla para garantizar que no se enrute el tráfico directamente al centro de datos local, sin pasar por la solución de Firewall y la suscripción de TI de empresa. También puede establecer esta VPN como un circuito de conmutación por error en caso de una interrupción del circuito de ExpressRoute.
+    4. *** También se debe eliminar la VPN de esta plantilla para garantizar que no se enrute el tráfico directamente al centro de datos local sin pasar por la solución de firewall y la suscripción de TI corporativa. También puede establecer esta VPN como un circuito de conmutación por error en caso de una interrupción del circuito de ExpressRoute.
     5. Azure Automation solicitará la [configuración de red](https://docs.microsoft.com/azure/automation/automation-dsc-overview#network-planning) adicional para aplicar DSC a las máquinas virtuales hospedadas.
 2. Modifique el grupo de seguridad de red. Bloquee todo el tráfico local público **y** directo en el grupo de seguridad de red. El único tráfico entrante debe venir a través del homólogo de la red virtual en la suscripción correspondiente al TI de empresa.
     1. En la iteración anterior, se creó un grupo de seguridad de red que bloqueaba todo el tráfico público y que incluía en la lista blanca todo el tráfico interno. Ahora queremos cambiar este grupo de seguridad de red un poco.

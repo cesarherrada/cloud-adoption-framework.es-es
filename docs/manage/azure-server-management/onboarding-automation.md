@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f5dd418a03dd35ebced1a9c73eb8fe6567339859
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 83e1cd80bcb821ba1b815291f7f25f875ba66284
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565406"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751589"
 ---
 # <a name="automate-onboarding"></a>Automatizar la incorporación
 
@@ -41,7 +41,7 @@ Los archivos que se describen en la tabla siguiente se usan en este ejemplo. Pue
 |-----------|-------------|
 | New-AMSDeployment.ps1 | Script de orquestación principal que automatiza la incorporación. Crea grupos de recursos, la ubicación, el área de trabajo y las cuentas de Automation, si aún no existen. Este script de PowerShell requiere una suscripción existente. |
 | Workspace-AutomationAccount.json | Plantilla de Resource Manager que implementa el área de trabajo y los recursos de la cuenta de Automation. |
-| WorkspaceSolutions.json | Plantilla de Resource Manager que habilita las soluciones que quiere en el área de trabajo de Log Analytics. |
+| WorkspaceSolutions.json | Plantilla de Resource Manager que permite habilitar las soluciones que desee en el área de trabajo de Log Analytics. |
 | ScopeConfig.json | Plantilla de Resource Manager que usa el modelo de participación para servidores locales con la solución Change Tracking. El uso del modelo de participación es opcional. |
 | Enable-VMInsightsPerfCounters.ps1 | Script de PowerShell que habilita VM Insights para los servidores y configura los contadores de rendimiento. |
 | ChangeTracking-Filelist.json | Plantilla de Resource Manager que define la lista de archivos que se supervisarán mediante Change Tracking. |

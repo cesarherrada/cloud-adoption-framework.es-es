@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5b775feb4b007629a6c93e762c8b02e5d5ef0a8a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 8c3954627ee991f43c2b8d3a94dbd77746d3d4b2
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565446"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752940"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Especialización de la plataforma para la administración en la nube
 
@@ -23,7 +23,7 @@ Al igual que la línea de base de administración mejorada, la especialización 
 
 ![Más allá de la línea base de administración en la nube](../../_images/manage/beyond-the-baseline.png)
 
-- **Operaciones con cargas de trabajo:** mayor inversión en operaciones por carga de trabajo y mayor grado de resistencia. Las operaciones con cargas de trabajo se sugieren para aproximadamente el 20 % de las cargas de trabajo que impulsan el valor empresarial. Esta especialización suele reservase para cargas de trabajo de gran importancia o críticas.
+- **Operaciones con cargas de trabajo:** mayor inversión en operaciones por carga de trabajo y mayor grado de resistencia. Las operaciones con cargas de trabajo se sugieren para aproximadamente el 20 % de las cargas de trabajo que impulsan el valor empresarial. Esta especialización suele reservarse para cargas de trabajo de gran importancia o críticas.
 - **Operaciones de la plataforma:** La inversión en operaciones se reparte entre varias cargas de trabajo. Las mejoras de resistencia afectan a todas las cargas de trabajo que usan la plataforma definida. Las operaciones de la plataforma se sugieren para aproximadamente el 20 % de las plataformas que tienen una importancia crítica. Esta especialización se suele reservar para cargas de trabajo de importancia media a crítica.
 - **Línea de base de administración mejorada:** inversión en operaciones relativamente más baja. Esta especialización mejora ligeramente los compromisos empresariales mediante herramientas y procesos de operaciones nativos de la nube.
 

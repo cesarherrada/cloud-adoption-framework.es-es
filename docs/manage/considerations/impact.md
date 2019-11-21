@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 356460b8f2952475060c857e0b7999696be0d215
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 0480a03ef488d00625115ded8f03526f959dd203
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565139"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752869"
 ---
 # <a name="business-impact-in-cloud-management"></a>Efecto empresarial en la administración de la nube
 
@@ -49,7 +49,7 @@ Antes de realizar determinadas suposiciones sobre posibles pérdidas asociadas a
 
 ## <a name="calculate-workload-impact"></a>Cálculo del impacto de la carga de trabajo
 
-Al calcular las pérdidas mediante la aplicación de datos históricos, puede tener información suficiente para determinar con claridad la contribución de cada carga de trabajo a esas pérdidas. La realización de esta evaluación es donde la asociación con la empresa es absolutamente crítica. Una vez calculado el impacto total, este debe atribuirse en cada una de las cargas de trabajo. Esa distribución del efecto debe provenir de las partes interesadas de la empresa, que deben estar de acuerdo en el efecto relativo y acumulativo de cada carga de trabajo. Con ese objetivo, el equipo debe solicitar comentarios de los ejecutivos de la empresa para validar la alineación. Estos comentarios suelen ser sentimiento y experiencia en el tema a partes iguales. Es importante que este ejercicio represente la lógica y las creencias de las partes interesadas de la empresa, quienes deben tener algo que decir sobre la asignación del presupuesto.
+Al calcular las pérdidas mediante la aplicación de datos históricos, puede tener información suficiente para determinar con claridad la contribución de cada carga de trabajo a esas pérdidas. En la realización de esta evaluación es donde las asociaciones dentro la empresa son absolutamente fundamentales. Una vez calculado el impacto total, este debe atribuirse en cada una de las cargas de trabajo. Esa distribución del efecto debe provenir de las partes interesadas de la empresa, que deben estar de acuerdo en el efecto relativo y acumulativo de cada carga de trabajo. Con ese objetivo, el equipo debe solicitar comentarios de los ejecutivos de la empresa para validar la alineación. Estos comentarios suelen ser sentimiento y experiencia en el tema a partes iguales. Es importante que este ejercicio represente la lógica y las creencias de las partes interesadas de la empresa, quienes deben tener algo que decir sobre la asignación del presupuesto.
 
 ## <a name="use-the-template"></a>Uso de la plantilla
 

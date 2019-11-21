@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7a71b5694849533b6a01b98d9e14d5022e7287f8
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 8815a9089b63fe20d2d79c5ef979ff5d41166192
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564567"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753439"
 ---
 # <a name="migration-environment-planning-checklist-validate-environmental-readiness-prior-to-migration"></a>Lista de comprobación del planeamiento del entorno de migración: validación de la preparación del entorno antes de la migración
 
@@ -27,7 +27,7 @@ En este artículo y lista de comprobación se da por hecho un enfoque de _rehosp
 
 ## <a name="governance-alignment"></a>Alineación de la gobernanza
 
-La primera decisión, y la más importante, con respecto a cualquier entorno preparado para la migración es la elección de la alineación de la gobernanza. ¿Se ha logrado un consenso con respecto a la alineación de la gobernanza con la base de la migración? Como mínimo, el equipo de adopción de la nube debe comprender si esta migración se va a realizar en un único entorno con gobernanza limitada, en una factoría con un entorno completamente regulado o en una opción entre medias. Para ver más opciones e instrucciones sobre la alineación de la gobernanza, consulte el artículo [Alineación de gobernanza y cumplimiento](../../expanded-scope/governance-or-compliance.md).
+La primera decisión, y la más importante, con respecto a cualquier entorno preparado para la migración es la elección de la alineación de la gobernanza. ¿Se ha logrado un consenso con respecto a la alineación de la gobernanza con la base de la migración? Como mínimo, el equipo de adopción de la nube debe comprender si esta migración se va a realizar en un único entorno con gobernanza limitada, en una factoría con un entorno completamente regulado o en alguna opción intermedia. Para ver más opciones e instrucciones sobre la alineación de la gobernanza, consulte el artículo [Alineación de gobernanza y cumplimiento](../../expanded-scope/governance-or-compliance.md).
 
 ## <a name="cloud-readiness-implementation"></a>Implementación de la preparación de la nube
 
@@ -52,7 +52,7 @@ Antes de la migración, se debe establecer un enfoque coherente para asignar nom
 
 ### <a name="resource-governance"></a>Gobernanza de recursos
 
-Antes de la migración, se debe tomar una decisión con respecto a las herramientas para regular los recursos. Aunque no es necesario que las herramientas estén totalmente implementadas, se deben seleccionar y probar en una dirección. Se recomienda que, antes de la migración, el equipo de gobernanza de la nube defina y exija la implementación de un producto mínimo viable (MVP) de las herramientas de gobernanza.
+Antes de la migración, se debe tomar una decisión con respecto a las herramientas para regular los recursos. Aunque no es necesario que las herramientas estén totalmente implementadas, se deben seleccionar y probar en una dirección. Antes de la migración, el equipo de gobernanza de la nube debe definir y exigir la implementación de un producto mínimo viable (MVP) para las herramientas de gobernanza.
 
 ## <a name="network"></a>Red
 

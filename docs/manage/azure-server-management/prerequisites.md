@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: dafe5f36a59d60fa91816695cae1e1f3784df046
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 20a4168f5a7650b20357de2ec2628a0edb093993
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565308"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751642"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Fase 1: Planeamiento de los requisitos previos de los servicios de administración de servidores de Azure
 
@@ -96,7 +96,7 @@ Después de elegir la mejor manera de colocar y organizar los pares de área de 
 Para crear un área de trabajo de Log Analytics mediante Azure Portal, consulte [Creación de un área de trabajo](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace#create-a-workspace). A continuación, cree la cuenta de Automation correspondiente a cada área de trabajo siguiendo los pasos descritos en [Creación de una cuenta de Azure Automation](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account).
 
 > [!NOTE]
-> Al crear una cuenta de Automation mediante Azure Portal, el portal intenta de forma predeterminada crear cuentas de ejecución para los recursos de Azure Resource Manager y del modelo de implementación clásica. Si no tiene máquinas virtuales clásicas en su entorno y no es coadministrador de la suscripción, el portal crea una cuenta de ejecución para Resource Manager, pero genera un error al implementar la cuenta de ejecución clásica. Si no desea admitir recursos clásicos, puede omitir este error.
+> Al crear una cuenta de Automation mediante Azure Portal, el portal intenta de forma predeterminada crear cuentas de ejecución para los recursos de Azure Resource Manager y del modelo de implementación clásica. Si no tiene máquinas virtuales clásicas en su entorno y no es coadministrador de la suscripción, el portal crea una cuenta de ejecución para Resource Manager pero genera un error al implementar la cuenta de ejecución clásica. Si no desea admitir recursos clásicos, puede omitir este error.
 >
 > También puede crear una cuenta de ejecución con [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#create-run-as-account-using-powershell).
 

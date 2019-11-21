@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 44e566d1f2936c51e61f8a1bd4211af2000f454b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 356d6c463e97553cb56d132c4f94e812a5b1c656
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565064"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752799"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Protección y recuperación en la administración de la nube
 
@@ -31,7 +31,7 @@ Como mínimo, cada recurso que respalda una carga de trabajo determinada debe di
 
 ### <a name="recovery-time-objectives-rto"></a>Objetivos de tiempo de recuperación (RTO)
 
-Cuando se produce un desastre, el RTO es la cantidad de tiempo que debe tardar cualquier sistema en recuperar su estado previo al desastre. Para cada carga de trabajo, esto incluye el tiempo requerido para restaurar la funcionalidad mínima necesaria de las máquinas virtuales y las aplicaciones. También incluye el tiempo necesario para restaurar los datos que requieren las aplicaciones.
+Cuando se produce un desastre, el objetivo de tiempo de recuperación es la cantidad de tiempo que debe tardar cualquier sistema en recuperar su estado previo al desastre. Para cada carga de trabajo, esto incluye el tiempo requerido para restaurar la funcionalidad mínima necesaria de las máquinas virtuales y las aplicaciones. También incluye el tiempo necesario para restaurar los datos que requieren las aplicaciones.
 
 En términos empresariales, el RTO representa la cantidad de tiempo que un proceso de negocio estará fuera de servicio. En el caso de cargas de trabajo críticas, esta variable debe ser relativamente baja para permitir que los procesos se reanuden rápidamente. Para aquellas cargas de trabajo de prioridad baja, es posible que un nivel estándar de RTO no afecte notablemente al rendimiento de la empresa.
 
@@ -49,7 +49,7 @@ Una base de referencia de administración debe concentrarse en hallar el RPO má
 
 ## <a name="protect-and-recover-workloads"></a>Protección y recuperación de cargas de trabajo
 
-La mayoría de las cargas de trabajo de un entorno de TI admiten un proceso de negocio o técnico muy pequeño. Los sistemas que no tienen un impacto sistémico en las operaciones empresariales a menudo no justifican el aumento de las inversiones que se necesita para una recuperación rápida o la reducción al mínimo de la pérdida de datos. El establecimiento de una base de referencia permite a las empresas comprender claramente qué nivel de respaldo a la recuperación se puede ofrecer a cambio de un precio concreto y asumible. Ello ayuda a las partes interesadas de la empresa a evaluar el valor de una mayor inversión en los procesos de recuperación.
+La mayoría de las cargas de trabajo de un entorno de TI respaldan un proceso empresarial o técnico concreto. Los sistemas que no tienen un impacto sistémico en las operaciones empresariales a menudo no justifican el aumento de las inversiones que se necesita para una recuperación rápida o la reducción al mínimo de la pérdida de datos. El establecimiento de una base de referencia permite a las empresas comprender claramente qué nivel de respaldo a la recuperación se puede ofrecer a cambio de un precio concreto y asumible. Ello ayuda a las partes interesadas de la empresa a evaluar el valor de una mayor inversión en los procesos de recuperación.
 
 Para la mayoría de los equipos de administración de la nube, una base de referencia mejorada con compromisos específicos de RPO/RTO para varios recursos, genera el escenario más favorable para establecer compromisos empresariales mutuos. En las secciones siguientes se describen algunas líneas de base mejoradas comunes que permiten a la empresa agregar fácilmente funcionalidades de protección y recuperación mediante un proceso repetible.
 
@@ -57,7 +57,7 @@ Para la mayoría de los equipos de administración de la nube, una base de refer
 
 Los datos son posiblemente el recurso más valioso en la economía digital. La capacidad para proteger y recuperar datos de forma más eficaz es la línea de base mejorada más común. En el caso de los datos que forman parte de una carga de trabajo de producción, la pérdida de datos se puede equiparar directamente a una pérdida de ingresos o de rentabilidad. Por lo general, se recomienda que los equipos de administración de la nube ofrezcan un nivel de base de referencia de administración mejorada que admita las plataformas de datos comunes.
 
-Antes de que los equipos de administración de la nube implementen operaciones de plataforma, es habitual que respalden las operaciones mejoradas de una plataforma de datos como servicio (PaaS). Por ejemplo, es fácil que un equipo de administración de la nube aplique una mayor frecuencia de copias de seguridad o de replicación en varias regiones para las soluciones de Azure SQL Database o Azure Cosmos DB. Esto permite que el equipo de desarrollo pueda mejorar fácilmente el RPO simplemente modernizando sus plataformas de datos.
+Antes de que los equipos de administración de la nube implementen operaciones de plataforma, es habitual que respalden las operaciones mejoradas de una plataforma de datos como servicio (PaaS). Por ejemplo, es fácil que un equipo de administración de la nube aplique una mayor frecuencia de copias de seguridad o de replicación en varias regiones para las soluciones de Azure SQL Database o Azure Cosmos DB. Esto permite que el equipo de desarrollo pueda mejorar fácilmente el RPO mediante la modernización de sus plataformas de datos.
 
 Para obtener más información acerca de este proceso de reflexión, consulte la [materia sobre operaciones de plataforma](./platform.md).
 
@@ -65,7 +65,7 @@ Para obtener más información acerca de este proceso de reflexión, consulte la
 
 La mayoría de las cargas de trabajo tienen alguna dependencia de las máquinas virtuales, que hospedan diversos aspectos de la solución. Para que la carga de trabajo apoye un proceso empresarial después de un error del sistema, es necesario recuperar rápidamente varias máquinas virtuales.
 
-Cada minuto de tiempo de inactividad de esas máquinas virtuales conlleva una pérdida de ingresos o una menor rentabilidad. Cuando el tiempo de inactividad de la VM tiene un impacto directo en el rendimiento fiscal de la empresa, el RTO pasa a ser algo muy importante. Las máquinas virtuales se pueden recuperar más rápidamente mediante la replicación en un sitio secundario y la recuperación automatizada, un modelo que se conoce como modelo de recuperación activa-semiactiva. En un estado ideal de recuperación, las máquinas virtuales se pueden replicar en un sitio secundario totalmente funcional. Este enfoque más caro se conoce como modelo de recuperación activa-activa o de alta disponibilidad.
+Cada minuto de tiempo de inactividad de esas máquinas virtuales puede provocar una pérdida de ingresos o una menor rentabilidad. Cuando el tiempo de inactividad de la VM tiene un impacto directo en el rendimiento fiscal de la empresa, el RTO pasa a ser algo muy importante. Las máquinas virtuales se pueden recuperar más rápidamente mediante la replicación en un sitio secundario y la recuperación automatizada, un modelo que se conoce como modelo de recuperación activa-semiactiva. En un estado ideal de recuperación, las máquinas virtuales se pueden replicar en un sitio secundario totalmente funcional. Este enfoque más caro se conoce como modelo de recuperación activa-activa o de alta disponibilidad.
 
 Cada uno de los modelos anteriores reduce el RTO, lo que da lugar a una restauración más rápida de las funcionalidades del proceso de negocio. Sin embargo, cada modelo también supone un aumento considerable de los costos de administración de la nube.
 
@@ -73,7 +73,7 @@ Para obtener más información acerca de este proceso de reflexión, consulte la
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez satisfecho este componente de la base de referencia de administración, el equipo puede prepararse para evitar interrupciones mediante las [operaciones de la plataforma](./platform.md) y las [operaciones con cargas de trabajo](./workload.md).
+Una vez satisfecho este componente de la línea de base de administración, el equipo puede prepararse para evitar interrupciones en las [operaciones de la plataforma](./platform.md) y las [operaciones con cargas de trabajo](./workload.md).
 
 > [!div class="nextstepaction"]
 > [Operaciones de la plataforma](./platform.md)

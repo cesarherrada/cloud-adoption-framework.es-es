@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a320562f97b6e3a37e0f1b4912f1401189855530
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7383f07f4d52cef640bcb1e617de60697a20b248
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566926"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753477"
 ---
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
@@ -76,7 +76,7 @@ El equilibrio de la cartera requiere un análisis cualitativo adicional durante 
 
 En función de los datos de la tabla que aparece en la sección [Documentación de los resultados empresariales](#document-business-outcomes) anterior, hay un riesgo probable de que la cartera se incline demasiado hacia un modelo de ejecución centrado en la migración. Si la experiencia del cliente fuese una prioridad principal, sería más probable una cartera inclinada a la innovación. Ninguno de estos enfoques es correcto ni equivocado, pero inclinarse demasiado en una sola dirección habitualmente generá una disminución en las devoluciones, agrega complejidad innecesaria y aumenta el tiempo de ejecución relacionado con los esfuerzos de adopción de la nube.
 
-Para disminuir la complejidad, se recomienda que el lector siga un enfoque tradicional con respecto a la racionalización de la cartera, pero en un modelo iterativo. Los pasos siguientes describen un modelo cualitativo para dicho tipo de enfoque:
+Para disminuir la complejidad, debe seguir un enfoque tradicional con respecto a la racionalización de la cartera, pero en un modelo iterativo. Los pasos siguientes describen un modelo cualitativo para dicho tipo de enfoque:
 
 - El equipo de estrategia en la nube mantiene un trabajo pendiente priorizados de las cargas de trabajo que se van a migrar.
 - Los equipos de estrategia en la nube y de adopción de la nube realizan una reunión de planeamiento de liberación antes de completar cada liberación.
@@ -90,7 +90,7 @@ Para disminuir la complejidad, se recomienda que el lector siga un enfoque tradi
   - ¿La carga de trabajo es compatible con plataformas de aplicaciones modernas como Azure App Service?
 - Las respuestas a las preguntas anteriores y cualquier otro análisis cualitativo necesarios podrían influir en los ajustes en el trabajo pendiente con prioridad. Estos ajustes pueden incluir:
   - Si una carga de trabajo se pudiera reemplazar por una solución de PaaS, se puede quitar totalmente del trabajo pendiente de migración. Como mínimo, la diligencia requerida adicional para decidir entre rehospedaje y reemplazo se podría agregar como tarea, lo que reduciría de manera temporal la prioridad de esa carga de trabajo del trabajo pendiente de migración.
-  - Si una carga de trabajo está en proceso de desarrollo (o debería estarlo), es posible que se ajuste mejor a un modelo de refactorización/rediseño/recompilación. Como la innovación y la migración requieren aptitudes técnicas distintas, a menudo se recomienda que las aplicaciones, que se alinean con un enfoque de refactorización/rediseño/recompilación, se administren a través de un trabajo pendiente de innovación, en lugar de un trabajo pendiente de migración.
+  - Si una carga de trabajo está en proceso de desarrollo (o debería estarlo), es posible que se ajuste mejor a un modelo de refactorización/rediseño/recompilación. Como la innovación y la migración requieren aptitudes técnicas distintas, las aplicaciones que se alinean con un enfoque de refactorización/rediseño/recompilación se deben administrar mediante un trabajo pendiente de innovación en lugar de un trabajo pendiente de migración.
   - Si una carga de trabajo forma parte de una innovación de nivel inferior, es posible que tenga sentido refactorizar la plataforma de datos, pero dejar los niveles de aplicación como candidatos a rehospedaje. A menudo, la refactorización secundaria de la plataforma de datos de una carga de trabajo se puede abordar en un trabajo pendiente de innovación o migración. Este resultado de la racionalización puede generar elementos de trabajo más detallados en el trabajo pendiente, pero ningún otro cambio en las prioridades.
   - Si una carga de trabajo no es estratégica pero es compatible con plataformas de hospedaje de aplicaciones modernas basadas en la nube, puede ser aconsejable realizar una refactorización secundaria en la aplicación para implementarla como una aplicación moderna. Esto puede contribuir al ahorro general al disminuir los requisitos de licencias del SO y de IaaS generales de la migración a la nube.
   - Si una carga de trabajo es una aplicación de terceros y no hay planes de usar los datos de esa carga de trabajo en una innovación de nivel inferior, puede ser mejor dejarla como una opción de rehospedaje en el trabajo pendiente.
@@ -105,7 +105,7 @@ Durante la migración, las actividades de equilibrio de cartera pueden tener un 
 
 La racionalización de la cartera requiere diversos esfuerzos técnicos. Para los equipos de adopción en la nube, es tentador hacer coincidir esa diversidad de la cartera dentro de los esfuerzos de migración. Las partes interesadas de la empresa piden que un solo equipo de adopción de la nube aborde todo el trabajo pendiente de la migración. Este rara vez es un enfoque aconsejable y, en muchos casos, puede ser contraproducente.
 
-Se recomienda que estos distintos esfuerzos se segmentan entre dos o más equipos de adopción de la nube. Cuando se usa un modelo de dos equipos como modo de ejecución de ejemplo, el Equipo 1 es el equipo de migración y el Equipo 2, el de innovación. En el caso de esfuerzos de mayor tamaño, estos equipos se podrían segmentar aún más para abordar otros enfoques como los esfuerzos de Reemplazo/PaaS o Refactorización secundaria. A continuación, se describen las aptitudes y los roles que se necesitan para Rehospedaje, Refactorización o Refactorización secundaria:
+Estos distintos esfuerzos se deben dividir entre dos o más equipos de adopción de la nube. Cuando se usa un modelo de dos equipos como modo de ejecución de ejemplo, el Equipo 1 es el equipo de migración y el Equipo 2, el de innovación. En el caso de esfuerzos de mayor tamaño, estos equipos se podrían segmentar aún más para abordar otros enfoques como los esfuerzos de Reemplazo/PaaS o Refactorización secundaria. A continuación, se describen las aptitudes y los roles que se necesitan para Rehospedaje, Refactorización o Refactorización secundaria:
 
 **Rehospedaje:** el rehospedaje requiere que los miembros del equipo implementen cambios centrados en la infraestructura. Por lo general, se usa una herramienta como Azure Site Recovery para migrar máquinas virtuales u otros recursos a Azure. Este trabajo se alinea correctamente con los implementadores de TI o los administradores de centros de datos. El equipo de migración a la nube está bien estructurado para entregar este trabajo a gran escala. Este es el enfoque más rápido para migrar los recursos existentes en la mayoría de los escenarios.
 

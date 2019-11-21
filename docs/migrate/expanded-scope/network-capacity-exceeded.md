@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a2afa6e7961a8cc53abb6c3dbe0d78c2251b134d
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 402628da8fb5af7526c33d6c4900298eb42bced5
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239971"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753499"
 ---
 # <a name="data-requirements-exceed-network-capacity-during-a-migration-effort"></a>Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 
@@ -39,7 +39,7 @@ También hay [soluciones de asociados de terceros](https://azuremarketplace.micr
 
 Si los requisitos de almacenamiento de una carga de trabajo (o cargas de trabajo) superan la capacidad de la red, de todos modos es posible usar Azure Data Box en una transferencia de datos sin conexión.
 
-La posición general de Microsoft es que el enfoque recomendado es la transmisión a través de la red, a menos que esta no esté disponible. Esta sugerencia es resultado de las velocidades de transferencia. La transferencia de datos a través de la red (incluso si el ancho de banda está restringido) suele ser más rápida que el envío físico de la misma cantidad de datos a través de un mecanismo de transferencia sin conexión, como Data Box.
+La transmisión a través de la red es el enfoque recomendado a menos que la red no esté disponible. La velocidad de transferencia de datos a través de la red (incluso si el ancho de banda está restringido) suele ser más rápida que el envío físico de la misma cantidad de datos a través de un mecanismo de transferencia sin conexión, como Data Box.
 
 Si hay disponible conectividad con Azure, se debe realizar un análisis antes de usar Data Box, especialmente si la migración de la carga de trabajo está sujeta a una limitación temporal. Solo se recomienda usar Data Box cuando el tiempo para transferir los datos necesarios supera el tiempo para llenar, enviar y restaurar los datos mediante Data Box.
 

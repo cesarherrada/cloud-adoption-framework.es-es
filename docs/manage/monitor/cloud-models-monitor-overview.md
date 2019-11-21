@@ -1,5 +1,5 @@
 ---
-title: 'Guía de supervisión de la nube: estrategia de supervisión para los modelos de implementación en la nube'
+title: 'Guía sobre la supervisión en la nube: estrategia de supervisión para los modelos de implementación en la nube'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
 author: MGoedtel
@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 849c6eace1704cababd4fc40f7976f5e1915345e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 98a65f0e65e8c2851a8aa97fe2f0c17ffe2359db
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564970"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752722"
 ---
 # <a name="cloud-monitoring-guide-monitoring-strategy-for-cloud-deployment-models"></a>Guía sobre la supervisión en la nube: estrategia de supervisión para los modelos de implementación en la nube
 
@@ -30,12 +30,13 @@ Nuestra estrategia incluye compatibilidad con la supervisión de los recursos de
 ## <a name="azure-cloud-monitoring"></a>Supervisión de la nube de Azure
 
 Azure Monitor es el servicio de plataforma nativo de Azure que proporciona un único origen para la supervisión de recursos de Azure. Está diseñado para soluciones en la nube que:
-* Se crean en Azure.
-* Admiten una funcionalidad empresarial basada en cargas de trabajo de máquinas virtuales o en arquitecturas complejas que usan microservicios y otros recursos de la plataforma.
 
-Supervisa todos los niveles de la pila, empezando por los servicios de inquilino como Azure Active Directory Domain Services y los eventos de suscripción y el estado del servicio de Azure. 
+- Se crean en Azure.
+- Admiten una funcionalidad empresarial basada en cargas de trabajo de máquinas virtuales o en arquitecturas complejas que usan microservicios y otros recursos de la plataforma.
 
-También supervisa los recursos de infraestructura, como las máquinas virtuales, el almacenamiento y los recursos de red. En el nivel superior, supervisa la aplicación. 
+Supervisa todos los niveles de la pila, empezando por los servicios de inquilino como Azure Active Directory Domain Services y los eventos de suscripción y el estado del servicio de Azure.
+
+También supervisa los recursos de infraestructura, como las máquinas virtuales, el almacenamiento y los recursos de red. En el nivel superior, supervisa la aplicación.
 
 La supervisión de cada una de estas dependencias y la recopilación de las señales correctas que cada una puede emitir le proporcionan la observabilidad de las aplicaciones y la infraestructura clave que necesita.
 
@@ -56,7 +57,7 @@ Inquilino de Azure | Azure Active Directory || Habilita el registro de diagnóst
 
 ## <a name="hybrid-cloud-monitoring"></a>Supervisión de la nube híbrida
 
-En muchas organizaciones, la transición a la nube se debe abordar gradualmente y el modelo de nube híbrida suele ser el primer paso del recorrido. Puede seleccionar cuidadosamente el subconjunto adecuado de aplicaciones e infraestructura para comenzar la migración, a la vez que evita la interrupción de su actividad empresarial. Sin embargo, como ofrecemos dos plataformas de supervisión que admiten este modelo de nube, los responsables de la toma de decisiones de TI pueden tener dudas sobre cuál es la mejor opción para respaldar sus objetivos de negocio y operaciones de TI. 
+En muchas organizaciones, la transición a la nube se debe abordar gradualmente y el modelo de nube híbrida suele ser el primer paso del recorrido. Puede seleccionar cuidadosamente el subconjunto adecuado de aplicaciones e infraestructura para comenzar la migración, a la vez que evita la interrupción de su actividad empresarial. Sin embargo, como ofrecemos dos plataformas de supervisión que admiten este modelo de nube, los responsables de la toma de decisiones de TI pueden tener dudas sobre cuál es la mejor opción para respaldar sus objetivos de negocio y operaciones de TI.
 
 En esta sección, vamos a intentar despejar esas dudas revisando diversos factores y proporcionándole conocimientos sobre qué plataforma debe considerar.
 
@@ -90,7 +91,7 @@ En la tabla siguiente se resumen los requisitos que Azure Monitor y System Cente
 |Supervisión de contenedores de Azure Kubernetes Service | Sí | Sin |
 |Supervisión de contenedores de Docker o Windows | Sí | Sin |
 |Supervisión del rendimiento de red | Sí | Sí, limitada<br> Admite comprobaciones de disponibilidad y recopila estadísticas básicas de los dispositivos de red mediante el protocolo simple de administración de redes (SNMP) de la red corporativa.|
-|Análisis de datos interactivos | Sí | Sin<br> Se basa en informes predefinidos o personalizados de SQL Server Reporting Services, soluciones de visualización de terceros o una implementación de Power BI personalizada. Existen limitaciones de escala y rendimiento en el almacenamiento de datos de Operations Manager. Se puede integrar con los registros de Azure Monitor como alternativa para los requisitos de agregación de datos. La integración se logra configurando el conector de Log Analytics.|
+|Análisis de datos interactivos | Sí | Sin<br> Se basa en informes definidos o personalizados de SQL Server Reporting Services, soluciones de visualización de terceros o una implementación de Power BI personalizada. Existen limitaciones de escala y rendimiento en el almacenamiento de datos de Operations Manager. Se puede integrar con los registros de Azure Monitor como alternativa para los requisitos de agregación de datos. La integración se logra configurando el conector de Log Analytics.|
 |Diagnósticos de un extremo a otro, análisis de la causa principal y solución de problemas puntuales | Sí | Sí, limitada<br> Admite los diagnósticos de un extremo a otro y la solución de problemas solo para infraestructuras y aplicaciones locales. Utiliza otros componentes de System Center o soluciones de asociados.|
 |Visualizaciones interactivas (paneles) | Sí | Sí, limitada<br> Proporciona los paneles esenciales con su consola web de HTML5 o una experiencia avanzada mediante soluciones de asociados, como Squared Up y Savision. |
 |Integración con herramientas de TI y DevOps | Sí | Sí, limitada |
@@ -115,7 +116,7 @@ Si ya ha invertido en Operations Manager, no es necesario concentrarse en planea
 
 Para supervisar las cargas de trabajo que se ejecutan en Azure, necesita:
 
-- El [módulo de administración de Azure](https://www.microsoft.com/download/details.aspx?id=50013). Este recopila las métricas de rendimiento que los servicios de Azure emiten, como los roles web y de trabajo, las pruebas de disponibilidad de Application Insights (pruebas web), Azure Service Bus, etc. El módulo de administración usa la API de REST de Azure para supervisar la disponibilidad y el rendimiento de estos recursos. Algunos tipos de servicios de Azure no tienen ninguna métrica ni supervisores predefinidos en el módulo de administración, pero se pueden supervisar a través de las relaciones definidas en el módulo de administración de Azure para los servicios detectados.
+- El [módulo de administración de Azure](https://www.microsoft.com/download/details.aspx?id=50013). Este recopila las métricas de rendimiento que los servicios de Azure emiten, como los roles web y de trabajo, las pruebas de disponibilidad de Application Insights (pruebas web), Azure Service Bus, etc. El módulo de administración usa la API de REST de Azure para supervisar la disponibilidad y el rendimiento de estos recursos. Algunos tipos de servicios de Azure no tienen ninguna métrica ni supervisores predefinidos en el módulo de administración, pero se pueden supervisar a través de las relaciones definidas en el módulo de administración de Azure de los servicios detectados.
 
 - El [módulo de administración de Azure SQL Database](https://www.microsoft.com/download/details.aspx?id=38829) para supervisar la disponibilidad y el rendimiento de las instancias de Azure SQL Database y los servidores de Azure SQL Database mediante la API REST de Azure y las consultas de T-SQL en vistas del sistema SQL Server.
 
@@ -137,7 +138,7 @@ Aunque Operations Manager sea capaz de supervisar los recursos hospedados en Azu
 
 #### <a name="advantages-of-using-operations-manager-with-azure-monitor"></a>Ventajas del uso de Operations Manager con Azure Monitor
 
-- Azure Monitor es la manera de solucionar las limitaciones de Operations Manager. Complementa la base de datos de almacenamiento de datos de Operations Manager mediante la recopilación de datos importantes de rendimiento y registro. Azure Monitor ofrece un mejor análisis, rendimiento (al consultar grandes volúmenes de datos) y retención que el almacenamiento de datos de Operations Manager. 
+- Azure Monitor es la manera de solucionar las limitaciones de Operations Manager. Complementa la base de datos de almacenamiento de datos de Operations Manager mediante la recopilación de datos importantes de rendimiento y registro. Azure Monitor ofrece un mejor análisis, rendimiento (al consultar grandes volúmenes de datos) y retención que el almacenamiento de datos de Operations Manager.
 
   Con el lenguaje de consulta de Azure Monitor, puede crear consultas mucho más complejas y sofisticadas. Puede ejecutar consultas en terabytes de datos en cuestión de segundos. Puede transformar rápidamente los datos en gráficos circulares, gráficos de tiempo y muchas otras visualizaciones. Para analizar estos datos, ya no estará limitado por el trabajo con informes de Operations Manager que se basan en SQL Server Reporting Services, consultas SQL personalizadas u otras soluciones alternativas.
 
@@ -150,12 +151,11 @@ Aunque Operations Manager sea capaz de supervisar los recursos hospedados en Azu
 - Con la característica de asignación de Azure Monitor para VM, puede supervisar las métricas de conectividad estándar de las conexiones de red entre las máquinas virtuales de Azure y las máquinas virtuales locales. Las métricas incluyen el tiempo de respuesta, las solicitudes por minuto, el rendimiento del tráfico y los vínculos. Puede identificar las conexiones con errores, solucionar problemas, realizar la validación de la migración, ejecutar el análisis de seguridad y verificar la arquitectura general del servicio. La asignación puede detectar automáticamente componentes de aplicación en sistemas Windows y Linux y asignar la comunicación entre servicios. Esta automatización le ayuda a identificar conexiones y dependencias de las que no tenía constancia, a planear y validar la migración a Azure y a minimizar la especulación durante la resolución de incidentes.
 
 - Con Network Performance Monitor, puede supervisar la conectividad de red entre:
+  - La red corporativa y Azure.
+  - Aplicaciones y microservicios críticos de varios niveles.
+  - Ubicaciones de usuario y aplicaciones basadas en web (HTTP/HTTPS).
 
-   - La red corporativa y Azure.
-   - Aplicaciones y microservicios críticos de varios niveles.
-   - Ubicaciones de usuario y aplicaciones basadas en web (HTTP/HTTPS).
-
-   Esta estrategia ofrece visibilidad del nivel de red, sin necesidad de SNMP. También puede presentarse en un mapa de topología interactivo, la topología salto a salto de rutas entre el punto de conexión de origen y de destino. Es una opción mejor que intentar lograr el mismo resultado con la supervisión de red en Operations Manager u otras herramientas de supervisión de red que se usan actualmente en su entorno.
+Esta estrategia ofrece visibilidad del nivel de red, sin necesidad de SNMP. También puede presentarse en un mapa de topología interactivo, la topología salto a salto de rutas entre el punto de conexión de origen y de destino. Es una opción mejor que intentar lograr el mismo resultado con la supervisión de red en Operations Manager u otras herramientas de supervisión de red que se usan actualmente en su entorno.
 
 ### <a name="monitor-with-azure-monitor"></a>Supervisión con Azure Monitor
 
@@ -177,7 +177,7 @@ Aunque una migración a la nube presenta numerosos desafíos, también incluye n
 
 ## <a name="private-cloud-monitoring"></a>Supervisión de la nube privada
 
-Puede lograr una supervisión holística de Azure Stack con System Center Operations Manager. En concreto, puede supervisar las cargas de trabajo que se ejecutan en el inquilino, en el nivel de recurso, en las máquinas virtuales y en la infraestructura que hospeda a Azure Stack (servidores físicos y conmutadores de red). 
+Puede lograr una supervisión holística de Azure Stack con System Center Operations Manager. En concreto, puede supervisar las cargas de trabajo que se ejecutan en el inquilino, en el nivel de recurso, en las máquinas virtuales y en la infraestructura que hospeda a Azure Stack (servidores físicos y conmutadores de red).
 
 También puede lograr una supervisión holística con una combinación de las [funcionalidades de supervisión de infraestructuras](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health) incluidas en Azure Stack. Estas funcionalidades ayudan a ver el estado y las alertas de una región de Azure Stack y el [servicio de Azure Monitor](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-azure-data) en Azure Stack, que proporciona registros y métricas de infraestructura de nivel básico para la mayoría de los servicios.
 

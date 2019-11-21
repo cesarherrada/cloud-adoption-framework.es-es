@@ -1,5 +1,5 @@
 ---
-title: 'Guía de supervisión de la nube: recopilación de los datos correctos'
+title: 'Guía sobre la supervisión en la nube: recopilación de los datos correctos'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
 author: MGoedtel
@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 05596379872fbfa9099297a55d4b75dedc0b672a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 950b767101fea9b33875f1ad0938599a4f371ba9
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564939"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751517"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Guía sobre la supervisión en la nube: recopilación de los datos correctos
 
@@ -45,7 +45,7 @@ Para impulsar una resolución más rápida del incidente, tenga en cuenta las si
 - Use las funcionalidades de exploración en profundidad del panel o respalde la personalización de la vista para mejorarla.
 - Si necesita registros detallados, las métricas deberían haber ayudado a identificar los criterios de búsqueda. Si las métricas no resultaron de ayuda, se pueden mejorar para el siguiente incidente.
 
-La adopción de este conjunto de principios guía puede ayudarle a obtener información casi en tiempo real, así como una mejor administración del servicio.
+La adopción de este conjunto de principios puede ayudarle a obtener información casi en tiempo real, así como una mejor administración del servicio.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

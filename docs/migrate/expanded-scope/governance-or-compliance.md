@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3367a76be508b61c214210e9e712c8a310932f2e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: c363f038b5fed3f2c8636b9b15a09625ca42218f
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566903"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753539"
 ---
 # <a name="governance-or-compliance-strategy"></a>Estrategia de cumplimiento o de gobernanza
 
@@ -47,7 +47,7 @@ Durante la evaluación, se necesitan decisiones adicionales para alinearse con e
 
 ### <a name="suggested-action-during-the-assess-process"></a>Acción sugerida durante el proceso de evaluación
 
-Los requisitos de evaluación de gobernanza y cumplimiento son demasiado específicos del cliente para proporcionar instrucciones generales sobre los pasos reales que se llevan a cabo durante la evaluación. Sin embargo, se recomienda que el proceso incluya tareas y asignaciones de tiempo para la "alineación con los requisitos de cumplimiento y gobernanza". Para más información sobre estos requisitos, consulte los vínculos siguientes:
+Los requisitos de evaluación de gobernanza y cumplimiento son demasiado específicos del cliente para proporcionar instrucciones generales sobre los pasos reales que se llevan a cabo durante la evaluación. Sin embargo, el proceso debe incluir tareas y asignaciones de tiempo para la "alineación con los requisitos de cumplimiento y gobernanza". Para más información sobre estos requisitos, consulte los vínculos siguientes:
 
 Para una comprensión más profunda de la gobernanza, consulte el artículo [Las cinco disciplinas de la gobernanza de la nube](../../govern/governance-disciplines.md). En esta sección de Cloud Adoption Framework también se incluyen plantillas para documentar las directivas, las instrucciones y los requisitos de cada una de las cinco secciones:
 
@@ -61,15 +61,15 @@ Para obtener instrucciones sobre el desarrollo de instrucciones de gobierno basa
 
 ## <a name="optimize-and-promote-process-changes"></a>Optimización y promoción de los cambios del proceso
 
-Durante los procesos de optimización y promoción, se recomienda que el equipo de gobernanza de la nube invierta tiempo en probar y validar si se respetan los estándares de gobernanza y cumplimiento. Además, este paso es un buen momento para insertar procesos para el equipo de gobernanza de la nube con el fin de ajustar plantillas que podrían proporcionar [aceleración de implementación](../../govern/deployment-acceleration/index.md) adicional para proyectos futuros.
+Durante los procesos de optimización y promoción, el equipo de gobernanza de la nube debe emplear tiempo en probar y validar si se respetan los estándares de gobernanza y cumplimiento. Además, este paso es un buen momento para insertar procesos para el equipo de gobernanza de la nube con el fin de ajustar plantillas que podrían proporcionar [aceleración de implementación](../../govern/deployment-acceleration/index.md) adicional para proyectos futuros.
 
 ### <a name="suggested-action-during-the-optimize-and-promote-process"></a>Acción sugerida durante el proceso de optimización y promoción
 
-Durante este proceso, se recomienda que el plan del proyecto incluya asignaciones de tiempo para que el equipo de gobernanza de la nube pueda ejecutar una revisión de cumplimiento para cada carga de trabajo planeada para la promoción de producción.
+Durante este proceso, el plan del proyecto debe incluir asignaciones de tiempo para que el equipo de gobernanza de la nube pueda ejecutar una revisión de cumplimiento para cada carga de trabajo planeada para la promoción de producción.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Como último elemento de la [lista de comprobación de ámbito expandido](./index.md), se recomienda que el lector vuelva a la lista de comprobación y vuelva a evaluar los requisitos de ámbito adicionales para el trabajo de migración.
+Como último elemento de la [lista de comprobación de ámbito expandido](./index.md), vuelva a la lista de comprobación y evalúe de nuevo los requisitos de ámbito adicionales para el trabajo de migración.
 
 > [!div class="nextstepaction"]
-> [Lista de comprobación del ámbito expandido](./index.md)
+> [Lista de comprobación del ámbito ampliado](./index.md)
