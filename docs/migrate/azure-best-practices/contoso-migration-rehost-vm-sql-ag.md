@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: fdde1d3619b8340fad31f4241bffeff9c51f0b38
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: e4d8ab371e01d98e22382a70cc9c1ea42173cf53
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566517"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160345"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms-and-sql-server-always-on-availability-groups"></a>Rehospedaje de una aplicación local en las VM de Azure y los grupos de disponibilidad Always On de SQL Server
 
@@ -214,7 +214,7 @@ Los administradores de Contoso crean una cuenta de almacenamiento de la manera s
 
 Antes de configurar el clúster, los administradores de Contoso toman una instantánea del disco del sistema operativo en cada máquina.
 
-![instantánea](media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
+![Creación de una instantánea](media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
 
 1. A continuación, ejecuta un script que ha preparado para crear el clúster de conmutación por error de Windows.
 
@@ -439,9 +439,9 @@ Los administradores de Contoso realizan estos pasos como se indica a continuaci�
 8. Vuelve a iniciar sesión en la máquina y el Asistente para administración del servidor de configuración se inicia automáticamente.
 9. En el asistente, selecciona la NIC para recibir tráfico de replicación. Una vez configurada, esta opción no se puede cambiar.
 10. Selecciona la suscripción, el grupo de recursos y el almacén en el que se va a registrar el servidor de configuración.
-        ![almacén](./media/contoso-migration-rehost-vm-sql-ag/cswiz1.png)
+        ![Selección del almacén de Recovery Services](./media/contoso-migration-rehost-vm-sql-ag/cswiz1.png)
 
-11. A continuación, se descarga e instala el Servidor MySQL y VMware PowerCLI.
+11. A continuación, descargan e instalan MySQL Server y VMWare PowerCLI.
 12. Después de la validación, especifica la dirección IP o el FQDN del host de vSphere o vCenter Server. Deja el puerto predeterminado y especifica un nombre descriptivo para vCenter Server.
 13. Especifica la cuenta que se ha creado para la detección automática, así como las credenciales que se utilizarán para instalar automáticamente Mobility Service. Para las máquinas de Windows, la cuenta necesita privilegios de administrador local en las VM.
 

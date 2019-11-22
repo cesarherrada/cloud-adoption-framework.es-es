@@ -8,12 +8,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 34659cb5cd3a223fe084ba8975f0f7a39b2b74f6
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: e2fb2587b5e6e0914c6a9facc062d817a508897e
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656710"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160056"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
 
@@ -38,10 +38,10 @@ Tras la migración, la tarea más crítica es proteger las cargas de trabajo mig
 
 Microsoft realiza un gran esfuerzo para asegurarse de que los administradores de inquilinos de Azure tengan la información necesaria para habilitar las características de seguridad que protegen las cargas de trabajo frente a los ataques. Azure Security Center proporciona administración de seguridad unificada. Desde Security Center, puede aplicar directivas de seguridad en las cargas de trabajo, limitar la exposición a amenazas y detectar y responder a los ataques. Security Center analiza configuraciones y recursos de los inquilinos de Azure y hace recomendaciones de seguridad, que incluyen:
 
-- **Administración centralizada de directivas**: garantice el cumplimiento de los requisitos de seguridad normativos o de la empresa administrando las directivas de seguridad de forma centralizada en todas las cargas de trabajo en la nube híbridas.
-- **Evaluación continua de la seguridad**: supervise la situación de seguridad de máquinas, redes, almacenamiento y servicios de datos y aplicaciones para detectar posibles problemas de seguridad.
-- **Recomendaciones prácticas**: corrija las vulnerabilidades de seguridad antes de que puedan ser usadas por los atacantes mediante recomendaciones de seguridad prácticas y clasificadas en orden de prioridad.
-- **Prioridad de alertas e incidentes**: céntrese primero en las amenazas más críticas con la clasificación en orden de prioridad de las alertas e incidentes de seguridad.
+- **Administración de directivas centralizada:** Garantice el cumplimiento de los requisitos de seguridad normativos o de la empresa administrando las directivas de seguridad de forma centralizada de las cargas de trabajo en la nube híbridas.
+- **Evaluación continua de la seguridad:** supervise la seguridad de máquinas, redes, almacenamiento y servicios de datos y aplicaciones para detectar posibles problemas de seguridad.
+- **Recomendaciones prácticas:** corrija las vulnerabilidades de seguridad antes de que puedan ser usadas por los atacantes mediante recomendaciones de seguridad prácticas y clasificadas en orden de prioridad.
+- **Alertas e incidentes clasificados por orden de prioridad:** céntrese primero en las amenazas más críticas con la clasificación en orden de prioridad de las alertas e incidentes de seguridad.
 
 Además de las valoraciones y recomendaciones, Azure Security Center proporciona otras características de seguridad que se pueden habilitar para recursos específicos.
 
@@ -135,8 +135,7 @@ Azure proporciona un par de soluciones:
   - Protege varias aplicaciones web al mismo tiempo detrás de una puerta de enlace de aplicaciones.
   - Un firewall de aplicaciones web se puede supervisar mediante Azure Monitor y se integra en Azure Security Center.
 
-![protección de aplicaciones web](./media/migrate-best-practices-security-management/web-apps.png)
-
+![Protección de aplicaciones web](./media/migrate-best-practices-security-management/web-apps.png)
 *Azure Key Vault*
 
 **Más información:**
@@ -175,8 +174,7 @@ Azure Active Directory (Azure AD) proporciona registros de actividad que aparece
 - Convierta en una práctica común la revisión de los registros o integre las herramientas de administración de eventos e información de seguridad (SIEM) para revisar automáticamente las anomalías. Si no usa Premium 1 o 2, deberá hacer una gran cantidad de análisis usted mismo o mediante el sistema SIEM. El análisis incluye la búsqueda de inicios de sesión en riesgo y eventos y otros patrones de ataque del usuario.
 
 ![Usuarios y grupos](./media/migrate-best-practices-security-management/azure-ad.png)
-
-*Usuarios y grupos de Azure AD*
+*Azure AD Users and Groups*
 
 **Más información:**
 
@@ -214,8 +212,7 @@ Asegúrese de que los grupos de recursos tienen nombres descriptivos que los adm
 - Si va a sincronizar Active Directory local con Azure AD mediante Azure AD Connect, considere la posibilidad de hacer coincidir los nombres de los grupos de seguridad locales con los nombres de los grupos de recursos de Azure.
 
 ![Nomenclatura](./media/migrate-best-practices-security-management/naming.png)
-
-*Nomenclatura del grupo de recursos*
+*Resource group naming*
 
 **Más información:**
 
@@ -225,9 +222,8 @@ Asegúrese de que los grupos de recursos tienen nombres descriptivos que los adm
 
 Lo último que necesita es que un grupo de recursos desaparezca porque se eliminó accidentalmente. Se recomienda implementar bloqueos de eliminación para que esto no suceda.
 
-![Eliminación de bloqueos](./media/migrate-best-practices-security-management/locks.png)
-
-*Eliminación de bloqueos*
+![Bloqueos de eliminación](./media/migrate-best-practices-security-management/locks.png)
+*Delete locks*
 
 **Más información:**
 
@@ -359,7 +355,7 @@ Puede usar Azure Backup para realizar una copia de seguridad de las máquinas vi
 - **Copia de seguridad directa en un almacén de Recovery Services**: puede realizar copias de seguridad de las máquinas virtuales de IaaS mediante la implementación de un almacén de Azure Backup Recovery Services. Esto proporciona una ubicación única para realizar el seguimiento y la administración de las copias de seguridad así como opciones de copia de seguridad y restauración pormenorizadas. La copia de seguridad se realiza hasta tres veces al día, en el nivel de archivo o carpeta. No son copias basadas en la aplicación y no es compatible con Linux. Instale el agente de Microsoft Azure Recovery Services (MARS) en cada máquina virtual de la que quiera realizar copias de seguridad mediante este método.
 - **Protección de la máquina virtual en Azure Backup Server.** Azure Backup Server se proporciona de forma gratuita con Azure Backup. La máquina virtual se copia en el almacenamiento de Azure Backup Server local. A continuación, se copia Azure Backup Server en Azure en un almacén. Es una copia de seguridad basada en la aplicación, con una granularidad completa en la frecuencia y la retención de la copia de seguridad. Puede realizar una copia de seguridad en el nivel de la aplicación. Por ejemplo, la copia de seguridad de SQL Server o SharePoint.
 
-Por motivos de seguridad, Azure Backup cifra los datos sobre la marcha con AES 256 y los envía mediante HTTPS a Azure. Los datos de la copia en reposo en Azure se cifran con [Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption?toc=%2fazure%2fstorage%2fqueues%2ftoc.json) y los datos de transmisión y almacenamiento.
+Por motivos de seguridad, Azure Backup cifra los datos sobre la marcha con AES 256 y los envía mediante HTTPS a Azure. Los datos de la copia en reposo en Azure se cifran con [Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption?toc=/azure/storage/queues/toc.json) y los datos de transmisión y almacenamiento.
 
 ![Azure Backup](./media/migrate-best-practices-security-management/iaas-backup.png)
 *Azure Backup*
@@ -401,8 +397,7 @@ Azure Site Recovery es el principal servicio de Azure para garantizar que las m�
 Site Recovery replica las máquinas virtuales de una región principal en la región de Azure secundaria. Cuando se produce un desastre, se realiza una conmutación por error de las máquinas virtuales de la región primaria y el acceso a las mismas se produce con normalidad en la región secundaria. Cuando las operaciones vuelven al estado normal, puede realizar una conmutación por recuperación de las máquinas virtuales a la región primaria.
 
 ![Azure Site Recovery](./media/migrate-best-practices-security-management/site-recovery.png)
-
-*Recuperación de sitios*
+*Site Recovery*
 
 **Más información:**
 
@@ -420,8 +415,7 @@ Los discos administrados de Azure simplifican la administración de discos para 
 - Debe crear las máquinas virtuales en conjuntos de disponibilidad para alta resistencia y disponibilidad. Cuando se producen errores previstos e imprevistos, los conjuntos de disponibilidad garantizan que al menos una de las máquinas virtuales del conjunto sigue estando disponible.
 
 ![Discos administrados](./media/migrate-best-practices-security-management/managed-disks.png)
-
-*Discos administrados*
+*Managed disks*
 
 **Más información:**
 

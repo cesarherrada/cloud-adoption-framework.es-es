@@ -5,17 +5,17 @@ description: Aprenda a innovar mediante la interacción con los clientes a trav�
 author: billyclaymyersmsft
 ms.author: wimyers
 ms.date: 10/17/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bafeecd715ac2c18c9ae744165be249c2b3639e5
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 09d5828e7b90a7530158b7f031e4f6f25d4b1d96
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73751554"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251918"
 ---
 ::: zone target="docs"
 
@@ -122,7 +122,7 @@ Visual Studio App Center también proporciona un servicio de notificación que p
 ### <a name="learn-more"></a>Más información
 
 - [Información general de App Service](https://docs.microsoft.com/azure/app-service/overview)
-- [Web Apps for Containers: Ejecutar un contenedor personalizado](https://docs.microsoft.com/azure/app-service/containers/quickstart-docker)
+- [Web App for Containers: Ejecutar un contenedor personalizado](https://docs.microsoft.com/azure/app-service/containers/quickstart-docker)
 - [Introducción a Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview)
 - [Azure para desarrolladores de .NET y .NET Core](https://docs.microsoft.com/dotnet/azure/?view=azure-dotnet)
 - [Azure SDK para la documentación Python](https://docs.microsoft.com/azure/python)

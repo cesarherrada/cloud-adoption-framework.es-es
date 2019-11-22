@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4bd04de2bd773e3fc02fbab5264ae60f275a8e7d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6f809003c1181c925a5b86abfb162a6032614f53
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564581"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159851"
 ---
 # <a name="decisions-that-affect-migration"></a>Decisiones que afectan a la migración
 
@@ -80,8 +80,8 @@ A menudo, las migraciones están impulsadas por un evento empresarial apremiante
 Antes de continuar, documente los siguientes supuestos y compártalos con los equipos de estrategia en la nube y adopción de la nube:
 
 - Resultados empresariales
-- Roles Este supuesto se documentará y perfeccionará para los procesos de migración *Evaluación*, *Migración*, *Optimización* y *Protección y administración*.
-- Definición de finalizado. Este supuesto se documentará y perfeccionará por separado para los procesos de migración *Evaluación*, *Migración*, *Optimización* y *Protección y administración*.
+- Roles, documentados y definidos para los procesos de migración *Evaluación*, *Migración*, *Optimización* y *Protección y administración*.
+- Definición de hecho, documentada y perfeccionada por separado para los procesos de migración *Evaluación*, *Migración*, *Optimización* y *Protección y administración*.
 - Tipo de esfuerzo
 - Escala del esfuerzo
 - Tiempo del esfuerzo

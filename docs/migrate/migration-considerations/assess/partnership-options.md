@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 60f622411a71284fa8e97f457da2461ec6e02ac3
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 70ae0b048b0cf5e3bd364f8c0cc1051c515c39ea
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564655"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159894"
 ---
 # <a name="understand-partnership-options"></a>Descripción de las opciones de colaboración
 
@@ -84,7 +84,7 @@ Las principales fases de una interacción típica de FastTrack for Azure son:
 
 **Migración/optimización:** la [solución de modernización de la nube](https://download.microsoft.com/download/3/7/3/373F90E3-8568-44F3-B096-CD9C1CD28AB7/Cloud_Modernization_Datasheet_EN_US.pdf) de los Servicios de Microsoft ofrece un enfoque integral para trasladar aplicaciones e infraestructura a Azure, así como para optimizar y modernizar después de la implementación en la nube con el respaldo de una migración simplificada.
 
-**Innovación:** la solución [Centro de excelencia en la nube (CCoE)](https://download.microsoft.com/download/F/8/B/F8BBE4BD-E5F8-4DFB-82F7-C0A4E17051BB/Cloud_Center_of_Excellence_Datasheet_EN_US.pdf) de los Servicios de Microsoft ofrece un compromiso de preparación para DevOps y usa principios de DevOps combinados con controles prescriptivos de seguridad y administración de servicios nativos de la nube para ayudar a impulsar la innovación empresarial, aumentar la agilidad y reducir el tiempo de amortización dentro de una funcionalidad de administración de operaciones y entrega de servicios segura, predecible y flexible.
+**Innovación:** la solución [Centro de excelencia en la nube (CCoE)](https://download.microsoft.com/download/F/8/B/F8BBE4BD-E5F8-4DFB-82F7-C0A4E17051BB/Cloud_Center_of_Excellence_Datasheet_EN_US.pdf) de los servicios de Microsoft ofrece un compromiso de preparación para DevOps y usa principios de DevOps combinados con controles prescriptivos de seguridad y administración de servicios nativos de la nube para ayudar a impulsar la innovación empresarial, aumentar la agilidad y reducir el tiempo de amortización, dentro de una funcionalidad de administración de operaciones y entrega de servicios segura, predecible y flexible.
 
 ## <a name="azure-support"></a>Compatibilidad para Azure
 

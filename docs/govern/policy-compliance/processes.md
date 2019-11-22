@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 57f94fde4e7f4863a3ddca710d523d9c027571d0
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6671efc087d718a44de97062dcf8c32498cfdb81
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566129"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159843"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -38,9 +38,9 @@ Antes de definir los desencadenadores para la corrección del cumplimiento de la
 
 ### <a name="assign-cloud-governance-team-members"></a>Asignación de miembros al equipo de gobernanza de la nube
 
-El equipo de gobernanza de la nube va a proporcionar orientación continua sobre el cumplimiento de las directivas y se va a ocupar de los problemas relacionados con estas que surjan durante la implementación y el funcionamiento de los recursos de la nube. Al crear este equipo, invite a personal de la organización con experiencia en áreas incluidas en las declaraciones de las directivas definidas y en los riesgos identificados.
+El equipo de gobernanza de la nube va a proporcionar orientación continua sobre el cumplimiento de las directivas y se va a ocupar de los problemas relacionados con estas que surjan durante la implementación y el funcionamiento de los recursos de la nube. Al crear este equipo, invite a miembros del personal de la organización con experiencia en áreas incluidas en las declaraciones de las directivas definidas y en los riesgos identificados.
 
-Para las implementaciones de pruebas iniciales, esto puede limitarse a unos pocos administradores de sistemas responsables de establecer las bases de la gobernanza. A medida que maduren los procesos de gobernanza, revise regularmente los miembros del equipo de gobernanza de la nube para asegurarse de que puede abordar adecuadamente los posibles nuevos riesgos y los requisitos de las directivas. Identifique a los miembros del personal de TI y empresarial con experiencia de relevancia o interés en áreas específicas de gobernanza e inclúyalos en los equipos de forma permanente o ad hoc, según sea necesario.
+Para las implementaciones de pruebas iniciales, esto puede limitarse a unos pocos administradores de sistemas responsables de establecer las bases de la gobernanza. A medida que maduren los procesos de gobernanza, revise regularmente los miembros del equipo de gobernanza de la nube para asegurarse de que puede abordar adecuadamente los posibles nuevos riesgos y los requisitos de las directivas. Identifique a los miembros del personal de TI y empresarial con experiencia de relevancia o interés en áreas específicas de gobernanza e inclúyalos en los equipos de forma permanente o temporal, según sea necesario.
 
 ### <a name="reviews-and-policy-iteration"></a>Revisiones e iteración de directivas
 
@@ -79,15 +79,15 @@ Algunos ejemplos de desencadenadores y acciones de infracciones:
 
 | Materia de gobernanza en la nube | Desencadenador de ejemplo | Acción de ejemplo |
 |-----------------------------|----------------|---------------|
-| Administración de costos | El gasto mensual en la nube es más de un 20 % mayor de lo esperado. | Notifique al responsable de la unidad de facturación quién comenzará una revisión de la utilización de los recursos. |
+| Administración de costos | El gasto mensual en la nube es más de un 20 % mayor de lo esperado. | Notifique al responsable de la unidad de facturación, quién comenzará una revisión de la utilización de los recursos. |
 | Línea de base de seguridad | Detecte actividad sospechosa de inicio de sesión de usuario. | Notifique al equipo de seguridad de TI y deshabilite la cuenta de usuario sospechosa. |
-| Coherencia de recursos | La utilización de la CPU para la carga de trabajo es superior al 90 %. | Notifique al equipo de operaciones de TI y amplíe los recursos adicionales para manejar la carga. |
+| Coherencia de recursos | La utilización de la CPU para la carga de trabajo es superior al 90 %. | Notifique al equipo de operaciones de TI y amplíe los recursos adicionales para administrar la carga. |
 
 ## <a name="automation-of-monitoring-and-compliance"></a>Automatización de la supervisión y el cumplimiento
 
 Después de haber definido los desencadenadores y las acciones de las infracciones de cumplimiento, puede empezar a planear la mejor manera de utilizar las herramientas de registro y generación de informes y otras funciones de la plataforma de nube para ayudar a automatizar la estrategia de supervisión y cumplimiento de directivas.
 
-Vea el tema [Guía de decisiones sobre registros e informes](../../decision-guides/logging-and-reporting/index.md) del Marco de adopción de la nube para obtener orientación a fin de elegir el mejor patrón de supervisión para la implementación.
+Consulte el tema [Registro e informes de la guía de decisiones](../../decision-guides/logging-and-reporting/index.md) de CAF para obtener una guía sobre cómo elegir el mejor patrón de supervisión para la implementación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

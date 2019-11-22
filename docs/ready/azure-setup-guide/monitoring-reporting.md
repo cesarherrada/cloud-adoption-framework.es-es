@@ -5,17 +5,17 @@ description: Aprenda a configurar la supervisión, los informes y las alertas pa
 author: timleyden
 ms.author: tileyden
 ms.date: 04/09/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 1be663168815af9067268cd18d9db51cfe10291c
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 0ed9f9c1739fc73f4d28bf532bd52bd0a182b2fc
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548868"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251361"
 ---
 # <a name="monitoring-and-reporting-in-azure"></a>Supervisión e informes en Azure
 
@@ -98,12 +98,13 @@ Para más información, consulte la [documentación de Azure Service Health](h
 
 # <a name="azure-advisortabazureadvisor"></a>[Azure Advisor](#tab/AzureAdvisor)
 
-Azure Advisor es un consultor gratuito y personalizado en la nube que le ayuda a seguir e implementar los procedimientos recomendados para las implementaciones de Azure. Analiza la configuración de los recursos y la telemetría de uso y luego recomienda soluciones que pueden ayudarlo a optimizar el entorno. Las recomendaciones se dividen en cuatro categorías:
+Azure Advisor es un consultor gratuito y personalizado en la nube que le ayuda a seguir e implementar los procedimientos recomendados para las implementaciones de Azure. Analiza la configuración de los recursos y la telemetría de uso y luego recomienda soluciones que pueden ayudarlo a optimizar el entorno. Las recomendaciones se dividen en las cuatro categorías siguientes:
 
 - **Alta disponibilidad:** para mejorar la continuidad de las aplicaciones críticas para la empresa. Las recomendaciones pueden incluir la adición de máquinas virtuales a un conjunto de disponibilidad o la adición de puntos de conexión con redundancia geográfica.
 - **Seguridad:** ayuda a detectar amenazas y vulnerabilidades que podrían dar lugar a infracciones de seguridad. Las recomendaciones pueden incluir la aplicación de cifrado de disco o la habilitación de grupos de seguridad de red.
 - **Rendimiento:** ayuda a mejorar la velocidad de las aplicaciones. Las recomendaciones pueden incluir el aumento del rendimiento de las consultas SQL mediante la creación de índices o la reconfiguración de los valores del administrador de tráfico.
 - **Costo:** ayuda a optimizar y reducir el gasto general de Azure. Las recomendaciones pueden incluir el cambio de tamaño o el apagado de máquinas virtuales poco usadas o el cambio a reservas de Azure para reducir el costo total de propiedad.
+- **Excelencia operativa:** mejorar la eficacia del proceso y del flujo de trabajo y la capacidad de administración. Algunas recomendaciones pueden ser configurar y aplicar reglas de Azure Policy, reparar las reglas de alertas de registro no válidas y configurar alertas de Azure Service Health.
 
 Las recomendaciones de Advisor se basan en los recursos que se implementan y en las acciones que se realizan en Azure. Puede consultar regularmente Advisor para conocer las últimas recomendaciones.
 

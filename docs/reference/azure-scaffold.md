@@ -8,12 +8,12 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 799ab1ba0d0b99ed5427d2c986c4fae9659a5b05
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 3ad84a52b35a98744f59b0d719e61f2c83a61af0
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753761"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160460"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
@@ -40,14 +40,14 @@ Al realizar una compilación, se utiliza la técnica scaffolding para crear la b
 
 Estas plantillas se basan en las prácticas que hemos recopilado de muchas interacciones con clientes de varios tamaños. Esos clientes van desde pequeñas organizaciones que desarrollan soluciones en la nube hasta grandes empresas internacionales y fabricantes de software independientes que van a migrar cargas de trabajo y a desarrollar soluciones nativas de la nube. Las plantillas scaffold empresariales se han creado con la suficiente flexibilidad como para admitir las cargas de trabajo de TI tradicionales y las del método ágil; por ejemplo, los desarrolladores que crean aplicaciones de software como servicio (SaaS) basadas en las funcionalidades de la plataforma Azure.
 
-Asimismo, están diseñadas para ser el pilar de todas las suscripciones nuevas de Azure. Estas plantillas permiten a los administradores asegurarse de que las cargas de trabajo cumplan los requisitos mínimos de gobernanza de una organización sin impedir que los grupos de negocios y los desarrolladores cumplan rápidamente sus objetivos. Nuestra experiencia demuestra que esto agiliza significativamente el crecimiento de la nube pública, en lugar de obstaculizarlo.
+También sirven como pilar de todas las suscripciones nuevas de Azure. Estas plantillas permiten a los administradores asegurarse de que las cargas de trabajo cumplan los requisitos mínimos de gobernanza de una organización sin impedir que los grupos de negocios y los desarrolladores cumplan rápidamente sus objetivos. Nuestra experiencia demuestra que esto agiliza significativamente el crecimiento de la nube pública, en lugar de obstaculizarlo.
 
 > [!NOTE]
 > Microsoft ha publicado en versión preliminar una nueva funcionalidad denominada [Azure Blueprint](https://docs.microsoft.com/azure/governance/blueprints/overview) que le permitirá empaquetar, administrar e implementar imágenes, plantillas, directivas y scripts comunes en las suscripciones y grupos de administración. Esta funcionalidad es el puente entre el propósito de la plantilla scaffold como modelo de referencia y la implementación de ese modelo en la organización.
 >
 En la imagen siguiente se muestran los componentes de la plantilla scaffold. La base se sustenta en un plan sólido para la administración de la jerarquía y las suscripciones. Los pilares constan de directivas de Resource Manager y de estándares de nomenclatura eficaces. El resto de los componentes de scaffolding son las principales funcionalidades y características de Azure que habilitan y conectan un entorno seguro y fácil de administrar.
 
-![Scaffold de Enterprise](../_images/reference/scaffoldv2.png)
+![Scaffolding empresarial](../_images/reference/scaffoldv2.png)
 
 ## <a name="define-your-hierarchy"></a>Definición de la jerarquía
 
@@ -228,7 +228,7 @@ Recopilar y analizar datos de telemetría que proporcionan una clara visión de 
 
 Esta información se puede ver y examinar a varios niveles y está sujeta a mejoras continuas. Azure ofrece funcionalidades de supervisión **compartida**, **principal** y **exhaustiva** de los recursos de Azure en los servicios descritos en el diagrama siguiente.
 
-![monitoring](../_images/reference/monitoring.png)
+![Supervisión](../_images/reference/monitoring.png)
 
 ### <a name="shared-capabilities"></a>Funcionalidades compartidas
 
@@ -344,4 +344,4 @@ Azure proporciona funcionalidades internas y de terceros mediante nuestra amplia
 
 Contar con un sistema de gobernanza es fundamental para que Azure tenga éxito. En este artículo se aborda la implementación técnica de una scaffold empresarial, pero solo se mencionan el proceso más amplio y las relaciones entre los componentes. La gobernanza de directivas es jerárquico y viene determinado por lo que la empresa desee conseguir. Naturalmente, en la creación de un modelo de gobernanza de Azure participan los representantes del departamento de TI. Sin embargo, es más importante que los líderes del grupo de negocios y los responsables de seguridad y riesgos tengan una importante representación en dicho proceso. Al final, una scaffold empresarial tiene que ver con mitigar los riesgos empresariales para facilitar la misión y los objetivos de la organización.
 
-Ahora que ha obtenido información sobre la gobernanza de suscripciones, es hora de ver estas recomendaciones en la práctica. Vea [Ejemplos de implementación de un sistema de gobernanza de suscripciones](./azure-scaffold-examples.md).
+Ahora que ha obtenido información sobre la gobernanza de suscripciones, es hora de ver estas recomendaciones en la práctica. Para más información, consulte [Procedimientos recomendados para la preparación para Azure](../ready/azure-best-practices/index.md).

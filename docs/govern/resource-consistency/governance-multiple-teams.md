@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: caa9d3ced70ce15eacf37b4bcbb653efae9da1ef
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: 59b60af79d81316726ffed1dcf326641af059cb0
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656685"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160483"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
@@ -82,21 +82,22 @@ Por lo tanto, para crear un modelo de acceso con privilegios mínimos, hay que d
 Veamos dos ejemplos de modelos de permisos para entender este concepto algo mejor. En el primer ejemplo, el modelo confía solo en el administrador de servicios para crear grupos de recursos. En el segundo ejemplo, el modelo asigna el rol de propietario integrado a cada propietario de carga de trabajo en el ámbito de la suscripción.
 
 En ambos ejemplos, hay un administrador de servicios de suscripción al que se asigna el rol de propietario integrado en el ámbito de la suscripción. Recuerde que el rol de propietario integrado concede todos los permisos, incluida la administración del acceso a los recursos.
+
 ![Administrador del servicio de suscripciones con el rol de propietario](../../_images/govern/design/governance-2-1.png)
 *Figura 3: Una suscripción con un administrador de servicios al que se le ha asignado el rol de propietario integrado.*
 
 1. En el primer ejemplo, está el **propietario de carga de trabajo A** sin ningún permiso en el ámbito de suscripción. De forma predeterminada, no tienen derechos de administración de acceso a los recursos. Este usuario quiere volver a implementar y administrar los recursos de su carga de trabajo. Debe ponerse en contacto con el **administrador de servicios** para pedir la creación de un grupo de recursos.
-    ![el propietario de la carga de trabajo solicita la creación del grupo de recursos A](../../_images/govern/design/governance-2-2.png)
+    ![El propietario de la carga de trabajo solicita la creación del grupo de recursos A](../../_images/govern/design/governance-2-2.png)
 2. El **administrador de servicios** revisa la solicitud y crea el **grupo de recursos A**. En este momento, el **propietario de carga de trabajo A** aún no tiene permiso para hacer nada.
-    ![el administrador de servicios crea el grupo de recursos A](../../_images/govern/design/governance-2-3.png)
+    ![El administrador de servicios crea el grupo de recursos A](../../_images/govern/design/governance-2-3.png)
 3. El **administrador de servicios** agrega el **propietario de carga de trabajo A** al **grupo de recursos A** y le asigna el [rol de colaborador integrado](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor). El rol de colaborador concede todos los permisos en el **grupo de recursos A** excepto la administración de los permisos de acceso.
     ![El administrador de servicios agrega el propietario de carga de trabajo A al grupo de recursos A](../../_images/govern/design/governance-2-4.png)
 4. Supongamos que el **propietario de carga de trabajo A** necesita que un par de miembros del equipo vean los datos de supervisión del tráfico de red y la CPU como parte de la planeación de la capacidad para la carga de trabajo. Dado que el **propietario de carga de trabajo A** tiene asignado el rol de colaborador, no tiene permiso para agregar un usuario al **grupo de recursos A**. Debe enviar esta solicitud al **administrador de servicios**.
-    ![el propietario de la carga de trabajo solicita que los colaboradores de carga de trabajo se añadan al grupo de recursos](../../_images/govern/design/governance-2-5.png)
+    ![El propietario de la carga de trabajo solicita que los colaboradores de carga de trabajo se añadan al grupo de recursos](../../_images/govern/design/governance-2-5.png)
 5. El **administrador de servicios** revisa la solicitud y agrega los dos usuarios **colaboradores de carga de trabajo** al **grupo de recursos A**. Ninguno de estos dos usuarios necesitan permiso para administrar los recursos, por lo que se les asigna el [rol de lector integrado](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor).
-    ![el administrador de servicios añade colaboradores de carga de trabajo al grupo de recursos A](../../_images/govern/design/governance-2-6.png)
+    ![El administrador de servicios añade colaboradores de carga de trabajo al grupo de recursos A](../../_images/govern/design/governance-2-6.png)
 6. El **propietario de carga de trabajo B** también necesita un grupo de recursos para incluir los recursos de su carga de trabajo. Al igual que con el **propietario de carga de trabajo A**, el **propietario de carga de trabajo B** inicialmente no tiene permisos para realizar ninguna acción en el ámbito de la suscripción, por lo que debe enviar una solicitud al **administrador de servicios**.
-    ![el propietario de carga de trabajo B solicita la creación del grupo de recursos B](../../_images/govern/design/governance-2-7.png)
+    ![El propietario de la carga de trabajo B solicita la creación del grupo de recursos B](../../_images/govern/design/governance-2-7.png)
 7. El **administrador de servicios** revisa la solicitud y crea el **grupo de recursos B**.  ![el administrador de servicios crea el grupo de recursos B](../../_images/govern/design/governance-2-8.png)
 8. El **administrador de servicios** agrega el **propietario de carga de trabajo B** al **grupo de recursos B** y le asigna el rol de colaborador integrado.
     ![El administrador de servicios agrega el propietario de carga de trabajo B al grupo de recursos B](../../_images/govern/design/governance-2-9.png)
@@ -104,7 +105,7 @@ En ambos ejemplos, hay un administrador de servicios de suscripción al que se a
 En este momento, cada uno de los propietarios de carga de trabajo está aislado en su propio grupo de recursos. Ninguno de los propietarios de carga de trabajo ni los miembros del equipo tienen acceso administrativo a los recursos de otros grupos de recursos.
 
 ![Suscripción con los grupos de recursos A y B](../../_images/govern/design/governance-2-10.png)
-*Figura 4: Una suscripción con dos propietarios de cargas de trabajo aisladas con su propio grupo de recursos.*
+*Figura 4: Una suscripción con dos propietarios de cargas de trabajo aislados con su propio grupo de recursos.*
 
 Este modelo es un modelo de privilegios mínimos; a cada usuario se le asignan los permisos correctos en el ámbito de administración de recursos correcto.
 

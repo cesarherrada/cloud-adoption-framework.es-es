@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 118a111ae787e58d1f50704216e921a4df43501e
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 44c0f8693362572e0faf1e39d9f2ec7ba2ff16b9
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753022"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160064"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Declaraciones de directivas de ejemplo de base de referencia de identidad
 
@@ -28,7 +28,7 @@ Las siguientes declaraciones de la directiva de ejemplo abordan algunos riesgos 
 
 ## <a name="lack-of-access-controls"></a>Falta de controles de acceso
 
-**Riesgo técnico:** una configuración de control de acceso insuficiente o ad hoc puede plantear riesgos de acceso no autorizado a recursos confidenciales o críticos.
+**Riesgo técnico:** Una configuración de control de acceso insuficiente o ad hoc puede plantear riesgos de acceso no autorizado a recursos confidenciales o críticos.
 
 **Declaración de directiva**: todos los recursos que se implementan en la nube deben controlarse mediante identidades y roles aprobados por las directivas de gobernanza actuales.
 

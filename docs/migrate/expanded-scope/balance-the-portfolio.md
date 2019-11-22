@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7383f07f4d52cef640bcb1e617de60697a20b248
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 9834778e7aaddc616d595e874459fa7bd3eb61e3
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753477"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159918"
 ---
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
@@ -95,7 +95,7 @@ Para disminuir la complejidad, debe seguir un enfoque tradicional con respecto a
   - Si una carga de trabajo no es estratégica pero es compatible con plataformas de hospedaje de aplicaciones modernas basadas en la nube, puede ser aconsejable realizar una refactorización secundaria en la aplicación para implementarla como una aplicación moderna. Esto puede contribuir al ahorro general al disminuir los requisitos de licencias del SO y de IaaS generales de la migración a la nube.
   - Si una carga de trabajo es una aplicación de terceros y no hay planes de usar los datos de esa carga de trabajo en una innovación de nivel inferior, puede ser mejor dejarla como una opción de rehospedaje en el trabajo pendiente.
 
-Estas preguntas no deben ser la extensión del análisis cualitativo que se completa para cada carga de trabajo, sino que están diseñadas para guiar una conversación que ayude a abordar la complejidad de una cartera no equilibrada.
+Estas preguntas no deben ser una extensión del análisis cualitativo realizado para cada carga de trabajo, sino que están diseñadas para guiar una conversación que ayude a abordar la complejidad de una cartera no equilibrada.
 
 ## <a name="migrate-process-changes"></a>Cambios en el proceso de migración
 

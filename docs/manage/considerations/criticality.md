@@ -8,16 +8,16 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 1742f794f12501a1506cc6228241435adc5fba52
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 219c5b402c9cdc4b6214e8a5ed38b85ba7a2e203
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565166"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160355"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Importancia crítica para la empresa en la administración de la nube
 
-En cada empresa, existe un pequeño número de cargas de trabajo que son demasiado importantes como para que produzcan errores. Se consideran críticas. Cuando esas cargas de trabajo experimentan interrupciones o una degradación del rendimiento, el impacto negativo en los ingresos y la rentabilidad se puede notar en toda la empresa.
+En cada empresa, existe un pequeño número de cargas de trabajo que son demasiado importantes como para que produzcan errores. Estas cargas de trabajo se consideran críticas. Cuando esas cargas de trabajo experimentan interrupciones o una degradación del rendimiento, el impacto negativo en los ingresos y la rentabilidad se puede notar en toda la empresa.
 
 En el otro extremo del espectro, pueden pasar meses sin que se utilicen algunas cargas de trabajo. En este caso, tampoco se quiere que experimenten un bajo rendimiento o interrupciones, aunque el efecto será aislado y limitado.
 

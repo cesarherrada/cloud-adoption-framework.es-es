@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c1819bafaed5e75e6667754d598b075eb3204925
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 1bd332898140d032525935cd8cfc96cb1d46e54e
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564317"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160495"
 ---
 # <a name="cloud-center-of-excellence"></a>Centro de excelencia de la nube
 
@@ -22,7 +22,7 @@ La agilidad técnica y empresarial son objetivos fundamentales para la mayoría 
 
 ## <a name="function-structure"></a>Estructura de la función
 
-CCoE requiere la colaboración entre cada una de las siguientes funcionalidades:
+Un modelo de CCoE requiere la colaboración entre cada una de las siguientes funcionalidades:
 
 - Adopción de la nube (concretamente, los arquitectos de soluciones)
 - Estrategia de la nube (concretamente, los jefes de proyectos y de programas)
@@ -132,7 +132,7 @@ Además, se recomienda que las partes interesadas de la empresa permanezcan info
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Un centro de excelencia de la nube requiere [funcionalidades de plataforma en la nube](./cloud-platform.md) y [funcionalidades de automatización de la nube](./cloud-automation.md). El siguiente paso consiste en alinear esas [funcionalidades de plataforma en la nube](./cloud-platform.md).
+Un modelo de CCoE requiere [funcionalidades de plataforma en la nube](./cloud-platform.md) y [funcionalidades de automatización de la nube](./cloud-automation.md). El siguiente paso consiste en alinear esas [funcionalidades de plataforma en la nube](./cloud-platform.md).
 
 > [!div class="nextstepaction"]
 > [Alineación de las funcionalidades de una plataforma en la nube](./cloud-platform.md)

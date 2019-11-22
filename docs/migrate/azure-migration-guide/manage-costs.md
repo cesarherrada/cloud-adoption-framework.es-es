@@ -5,17 +5,17 @@ description: Aprenda a configurar presupuestos y pagos, y a comprender las factu
 author: bandersmsft
 ms.author: banders
 ms.date: 08/08/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 219f5868f8fa8f3f5d26fa4c3c63db7786479a2c
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 57725e56c973a8fb094c50987d84c26a70c0ead6
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683837"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251674"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
@@ -65,8 +65,8 @@ Azure Migrate calcula los **costos mensuales estimados** en función de los dato
 
 La estimación resultante, mostrada a continuación, identifica los costos mensuales de proceso y almacenamiento, que suelen representar la parte más grande de los costos de la nube.
 
-![compute-storage-monthly-cost-estimate.png](./media/manage-costs/compute-storage-monthly-cost-estimate.png)
-*Figura 1: Imagen de la vista de detalles de costos de una evaluación en Azure Migrate.*
+![Vista de Detalles del costo](./media/manage-costs/compute-storage-monthly-cost-estimate.png)
+*Figura 1: Imagen de la vista Detalles del costo de una evaluación en Azure Migrate.*
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

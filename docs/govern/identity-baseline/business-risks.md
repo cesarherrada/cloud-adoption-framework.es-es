@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e4203944d6ab5de891f637034d60381290a31c46
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: cd8dc50480480766ec4b4413d0dddfaeafc69f7f
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222177"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160117"
 ---
 # <a name="identity-baseline-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la base de referencia de la identidad
 
@@ -24,7 +24,7 @@ En este artículo se describen las razones por las que los clientes normalmente 
 
 ## <a name="identity-baseline-relevancy"></a>Importancia de la base de referencia de identidad
 
-Los directorios locales tradicionales están diseñados para permitir a las empresas controlar estrictamente los permisos y directivas de usuarios, grupos y roles dentro de sus redes internas y centros de datos. Normalmente, esto está pensado para facilitar implementaciones de un solo inquilino, con servicios aplicables únicamente en el entorno local.
+Los directorios locales tradicionales están diseñados para permitir a las empresas controlar estrictamente los permisos y directivas de usuarios, grupos y roles dentro de sus redes internas y centros de datos. Estos directorios suelen facilitar implementaciones de un solo inquilino, con servicios aplicables únicamente en el entorno local.
 
 Los servicios de identidad de la nube amplían las funcionalidades de autenticación y control de acceso de una organización a Internet. Admiten la existencia de varios inquilinos y se pueden usar para administrar usuarios y la directiva de acceso en todas las aplicaciones en la nube y las implementaciones. Las plataformas de nube pública disponen de servicios de identidad nativos para la nube que admiten tareas de administración e implementación, y que son capaces de [variar los niveles de integración](../../decision-guides/identity/index.md) con las soluciones de identidad locales existentes. Puede que todas estas características den lugar a que la directiva de identidad de la nube sea más compleja de lo que requieren sus soluciones locales tradicionales.
 
