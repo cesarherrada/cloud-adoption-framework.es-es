@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 887d2e2ec410b761fdc81b87d83f3a471c3bf99e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3c87bfbd8fe920d0469da8b3e60da59da07158ed
+ms.sourcegitcommit: 0b6939f65a1e5653149301e9aa14db9a1f67825f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566553"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74557023"
 ---
 # <a name="refactor-a-team-foundation-server-deployment-to-azure-devops-services"></a>Refactorizar una implementación de Team Foundation Server a Azure DevOps Services
 
@@ -103,7 +103,7 @@ Así es como Azure realizará la migración:
 Los administradores de Contoso actualizan el servidor de TFS a TFS 2018 Update 2. Antes de empezar:
 
 - Contoso descarga [TFS 2018 Update 2](https://visualstudio.microsoft.com/downloads).
-- Verifica los [requisitos de hardware](https://docs.microsoft.com/tfs/server/requirements) y lee las [notas de la versión](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) y los [problemas de la actualización](https://docs.microsoft.com/tfs/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
+- Verifica los [requisitos de hardware](/azure/devops/server/requirements) y lee las [notas de la versión](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) y los [problemas de la actualización](/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
 
 Realiza la actualización como se muestra a continuación:
 
@@ -132,7 +132,7 @@ Realiza la actualización como se muestra a continuación:
 
 **¿Necesita más ayuda?**
 
-Obtenga información sobre la [actualización de TFS](https://docs.microsoft.com/tfs/server/upgrade/get-started).
+Obtenga información sobre la [actualización de TFS](/azure/devops/server/upgrade/get-started).
 
 ## <a name="step-3-validate-the-tfs-collection"></a>Paso 3: Validar la colección de TFS
 
