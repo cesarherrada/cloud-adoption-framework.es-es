@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: abfbdb31ccb9e0270f8ef93b1173726a372df53f
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 5c241ab6b5f7c9fafa13492151b0ab49a7f619e8
+ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251448"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74681713"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Manténgase al día con Microsoft Azure
 
@@ -52,6 +52,8 @@ Los recursos siguientes pueden ayudarle a mantenerse al día con Azure:
 
 Para obtener un contenido más detallado que le ayude a mantenerse al día con Azure, eche un vistazo a los recursos que se indican aquí:
 
+- [Gráficos de Azure](https://azurecharts.com/)
+  - Este recurso no oficial visualiza todas las actualizaciones de Azure que se han producido en los últimos seis meses y contiene otros gráficos y utilidades útiles que pueden ayudarle a realizar un seguimiento de los cambios en Azure.
 - [Azure Friday](https://channel9.msdn.com/Shows/Azure-Friday)
   - Vídeos semanales con los ingenieros que crean Azure. Hacen demostraciones, responden a preguntas y comparten conclusiones.
   - Suscríbase por [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
