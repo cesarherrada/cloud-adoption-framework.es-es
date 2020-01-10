@@ -8,14 +8,14 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 71632e8f3f995922f4021f216f2090b742141169
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: e499e499cf1639bf9ce1118dcb93254268e9cb54
+ms.sourcegitcommit: 3c325764ad8229b205d793593ff344dca3a0579b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753525"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "75328929"
 ---
-# <a name="accelerate-migration-by-migrating-an-instance-of-sql-server"></a>Aceleración de la migración migrando una instancia de SQL Server
+# <a name="accelerate-migration-by-migrating-multiple-databases-or-entire-sql-servers"></a>Aceleración de la migración migrando varias bases de datos o servidores SQL completos
 
 La migración de las instancias de SQL Server completas puede acelerar las labores de migración de las cargas de trabajo. La guía siguiente amplía el ámbito de la [guía de migración de Azure](../azure-migration-guide/index.md) mediante la migración de una instancia de SQL Server fuera de las labores de migración centradas en la carga de trabajo. Este enfoque puede inicializar la migración de varias cargas de trabajo con una sola migración de la plataforma de datos. La mayor parte del trabajo requerido en esta ampliación del ámbito se produce durante los procesos de requisitos previos, evaluación, migración y optimización de un trabajo de migración.
 
@@ -27,7 +27,7 @@ El enfoque recomendado descrito en la [guía de migración de Azure](../azure-mi
 
 Sin embargo, algunas estructuras de datos se pueden migrar de forma más eficaz mediante una migración de la plataforma de datos independiente. Estos son algunos ejemplos:
 
-- **Fin de servicio:** Mover rápidamente una instancia de SQL Server para evitar los desafíos del fin de servicio puede justificar el uso de esta guía fuera de los trabajos de migración estándar.
+- **Fin de servicio:** El rápido traslado de una instancia de SQL Server como una iteración aislada dentro de un esfuerzo de migración mayor puede evitar los desafíos que supone el fin de servicio. Esta guía le ayudará a integrar la migración de un servidor de SQL Server en el proceso de migración más amplio. Sin embargo, si va a migrar o actualizar un servidor de SQL Server independiente de cualquier otro esfuerzo de adopción de la nube, la [introducción sobre el fin del ciclo de vida de SQL Server](/sql/sql-server/end-of-support/sql-server-end-of-life-overview) o la [documentación sobre migración de SQL Server](/sql/sql-server/migrate/index) pueden proporcionarle instrucciones más precisas.
 - **Servicios de SQL Server:** La estructura de datos forma parte de una solución más amplia que requiere SQL Server que se ejecutan en una máquina virtual. Esto es común para las soluciones que emplean los servicios de SQL Server como SQL Server Reporting Services, SQL Server Integration Services o SQL Server Analysis Services.
 - **Bases de datos de bajo uso y alta densidad:** La instancia de SQL Server tiene una elevada densidad de bases de datos. Cada una de esas bases de datos tiene pocos volúmenes de transacciones y requiere pocos recursos de proceso. Se deben tener en cuenta otras soluciones más modernas, pero un enfoque de infraestructura como servicio (IaaS) podría dar lugar a un costo operativo significativamente menor.
 - **Costo total de propiedad:** Cuando corresponda, puede aplicar las [Ventajas híbridas de Azure](https://azure.microsoft.com/pricing/hybrid-benefit) al precio de venta para crear el costo más bajo de propiedad para las instancias de SQL Server. Esto es especialmente común para los clientes que hospedan SQL Server en escenarios de nube múltiple.
@@ -51,8 +51,8 @@ El siguiente es un ejemplo de un inventario de servidores:
 |sql-01|Aplicaciones básicas|2016|Críticas|Extremadamente confidencial|40|N/D|N/D|N/D|Sí|3|
 |sql-02|Aplicaciones básicas|2016|Críticas|Extremadamente confidencial|40|N/D|N/D|N/D|Sí|3|
 |sql-03|Aplicaciones básicas|2016|Críticas|Extremadamente confidencial|40|N/D|N/D|N/D|Sí|3|
-|sql-04|BI|2012|Alto|XX|6|N/D|Confidencial|Sí, cubo multidimensional|Sin|1|
-|sql-05|Integración|2008 R2|Bajo|General|20|Sí|N/D|N/D|Sin|1|
+|sql-04|BI|2012|Alto|XX|6|N/D|Confidential|Sí, cubo multidimensional|No|1|
+|sql-05|Integración|2008 R2|Bajo|General|20|Sí|N/D|N/D|No|1|
 
 ### <a name="database-inventory"></a>Inventario de base de datos
 
@@ -61,11 +61,11 @@ El siguiente es un ejemplo de un inventario de base de datos para uno de los ser
 |Server|Base de datos|[Importancia crítica](../../manage/considerations/criticality.md)|[Confidencialidad](../../govern/policy-compliance/data-classification.md)|Resultados de Data Migration Assistant (DMA)|Corrección de DMA|Plataforma de destino|
 |---------|---------|---------|---------|---------|---------|---------|
 |sql-01|DB-1|Críticas|Extremadamente confidencial|Compatible|N/D|Azure SQL Database|
-|sql-01|DB-2|Alto|Confidencial|Cambio de esquema requerido|Cambios implementados|Azure SQL Database|
-|sql-01|DB-1|Alto|General|Compatible|N/D|Instancia administrada de Azure SQL|
-|sql-01|DB-1|Bajo|Extremadamente confidencial|Cambio de esquema requerido|Cambios programados|Instancia administrada de Azure SQL|
-|sql-01|DB-1|Críticas|General|Compatible|N/D|Instancia administrada de Azure SQL|
-|sql-01|DB-2|Alto|Confidencial|Compatible|N/D|Azure SQL Database|
+|sql-01|DB-2|Alto|Confidential|Cambio de esquema requerido|Cambios implementados|Azure SQL Database|
+|sql-01|DB-3|Alto|General|Compatible|N/D|Instancia administrada de Azure SQL|
+|sql-01|DB-4|Bajo|Extremadamente confidencial|Cambio de esquema requerido|Cambios programados|Instancia administrada de Azure SQL|
+|sql-01|DB-5|Críticas|General|Compatible|N/D|Instancia administrada de Azure SQL|
+|sql-01|DB-6|Alto|Confidential|Compatible|N/D|Azure SQL Database|
 
 ### <a name="integration-with-the-cloud-adoption-plan"></a>Integración con el plan de adopción de la nube
 
