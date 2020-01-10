@@ -8,12 +8,12 @@ layout: LandingPage
 ms.topic: landing-page
 author: BrianBlanchard
 ms.date: 10/14/2019
-ms.openlocfilehash: 743bbb31b6bee799e18161a55b0f70c1783eaf6f
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: c945539be722db41f9e4f04813c8bf9ac93af34f
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565921"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781715"
 ---
 # <a name="microsoft-cloud-adoption-framework-for-azure"></a>Plataforma de adopción de la nube de Microsoft para Azure
 
@@ -147,7 +147,7 @@ Controle el entorno y las cargas de trabajo.
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>administración</h3>
+                            <h3>Administrar</h3>
 Administración de operaciones para soluciones en la nube e híbridas.
                         </div>
                     </div>
@@ -165,11 +165,11 @@ Cada una de las fases capturadas anteriormente forman parte de un amplio ciclo d
 
 ## <a name="intent"></a>Intención
 
-La nube cambia fundamentalmente el modo en que las empresas adquieren y usan los recursos tecnológicos. Tradicionalmente, las empresas asumían la propiedad y la responsabilidad de todos los aspectos de la tecnología, desde la infraestructura al software. Al cambiar a la nube, las empresas pueden aprovisionar y consumir recursos solo cuando es necesario. Aunque la nube ofrece una gran flexibilidad en términos de opciones de diseño, las empresas necesitan una metodología probada y coherente para la adopción de tecnologías en la nube. Microsoft Cloud Adoption Framework para Azure cumple con esa necesidad, ayudando a la guía de decisiones a lo largo de la adopción de la nube.
+La nube cambia fundamentalmente el modo en que las empresas adquieren, usan y protegen los recursos tecnológicos. Tradicionalmente, las empresas asumían la propiedad y la responsabilidad de todos los aspectos de la tecnología, desde la infraestructura al software. Al cambiar a la nube, las empresas pueden aprovisionar y consumir recursos solo cuando es necesario. Aunque la nube ofrece una gran flexibilidad en términos de opciones de diseño, las empresas necesitan una metodología probada y coherente para la adopción de tecnologías en la nube. Microsoft Cloud Adoption Framework para Azure cumple con esa necesidad, ayudando a la guía de decisiones a lo largo de la adopción de la nube.
 
 Sin embargo, la adopción de la nube es solo un medio para lograr un fin. La correcta adopción de la nube comienza mucho antes de que se seleccione un proveedor de plataforma en la nube. Comienza cuando los responsables de la toma de decisiones en TI y del negocio se dan cuenta de que la nube puede acelerar un objetivo específico de transformación del negocio. Cloud Adoption Framework puede ayudarles a alinear las estrategias del negocio, la cultura y el cambio técnico para lograr los resultados de negocio deseados.
 
-Cloud Adoption Framework proporciona orientaciones técnicas para Microsoft Azure. Dado que los clientes empresariales pueden estar todavía en el proceso de elegir un proveedor de la nube, la plataforma proporciona una guía independiente de la nube para facilitar la toma de decisiones estratégicas siempre que sea posible.
+Cloud Adoption Framework proporciona orientaciones técnicas para Microsoft Azure. Dado que los clientes empresariales pueden estar aún en el proceso de elección de un proveedor de la nube o pueden tener una estrategia de varias nubes, el marco proporciona una guía independiente de la nube para la toma de decisiones estratégicas, siempre que sea posible.
 
 ## <a name="intended-audience"></a>Destinatarios
 
@@ -184,4 +184,4 @@ Cada una de las secciones de Cloud Adoption Framework representa una especializa
 Si su empresa es nueva en Azure, comience por leer [Introducción a Cloud Adoption Framework](./getting-started/migrate.md). Esta introducción proporciona los procedimientos recomendados para la transformación digital de la empresa en cada paso del proceso.
 
 > [!div class="nextstepaction"]
-> [Primeros pasos](./getting-started/migrate.md)
+> [Introducción](./getting-started/migrate.md)

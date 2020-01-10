@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 25ccd940207e6b8d081b68b154e921c2da599147
-ms.sourcegitcommit: 57208103dd80b6b169e7144a8e55994a56184740
+ms.openlocfilehash: 86082985a252e4724f237806669814d41ac29173
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74856804"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781443"
 ---
 # <a name="landing-zone-considerations"></a>Consideraciones sobre la zona de aterrizaje
 
@@ -37,7 +37,7 @@ Todas las zonas de aterrizaje proporcionan una estructura para las opciones de h
 Cada zona de aterrizaje forma parte de una solución más amplia para organizar los recursos a través de un entorno en la nube. Los aspectos básicos de Azure constituyen los bloques de creación fundamentales para la organización.
 
 - **[Conceptos básicos de Azure](./fundamental-concepts.md)** . Conozca los conceptos y términos fundamentales que se usan para organizar los recursos en Azure y cómo los conceptos se relacionan entre sí.
-- **Guía para la toma de decisiones sobre la organización de recursos**. Una vez que comprenda cada uno de los aspectos básicos, la guía para la toma de decisiones sobre la organización de recursos puede ayudarle a tomar las decisiones que darán forma a la zona de aterrizaje.
+- **[Guía de decisiones con coherencia de recursos](../../decision-guides/resource-consistency/)** . Una vez que comprenda cada uno de los aspectos básicos, la guía para la toma de decisiones sobre la organización de recursos puede ayudarle a tomar las decisiones que darán forma a la zona de aterrizaje.
 
 ## <a name="governance-considerations"></a>Consideraciones de gobernanza
 

@@ -1,5 +1,5 @@
 ---
-title: Roadmap
+title: Plan de desarrollo
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre la hoja de ruta de Microsoft Cloud Adoption Framework para Azure.
 author: BrianBlanchard
@@ -9,30 +9,30 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 layout: LandingPage
-ms.openlocfilehash: 977a1f58d59a182df6451b27f15747477a1a1de9
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 40bce7ec1a68463c9ece51188170d94a274507c3
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683751"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781528"
 ---
-# <a name="microsoft-cloud-adoption-framework-for-azure"></a>Plataforma de adopción de la nube de Microsoft para Azure
+# <a name="cloud-adoption-framework-roadmap"></a>Hoja de ruta de Cloud Adoption Framework
 
 La nube cambia fundamentalmente el modo en que las empresas adquieren y usan los recursos tecnológicos. Tradicionalmente, las empresas asumían la propiedad y la responsabilidad en todos los aspectos de la tecnología, desde la infraestructura al software. La nube permite que las empresas aprovisionen recursos y los consuman solo cuando sea necesario. Sin embargo, la adopción de la nube es un medio para un fin. Las empresas adoptan la nube cuando saben que puede ser útil para alguna de estas oportunidades de negocio:
 
 - Las empresas pueden tener interés en **migrar** a la nube para:
-  - Optimizar las operaciones.
-  - Simplificar la tecnología.
-  - Aumentar la agilidad comercial.
-  - Reducir los costos.
-  - Prepararse ante las nuevas funcionalidades técnicas.
-  - Escalar según las demandas del mercado o las zonas geográficas.
+  - Optimización de operaciones
+  - Simplificación de tecnología
+  - Aumento de la agilidad comercial
+  - Reducir los costos
+  - Prepararse de cara a las nuevas funcionalidades técnicas
+  - Escalado en función de las demandas del mercado o a regiones geográficas nuevas
 - Las empresas pueden tener interés en **innovar** con la nube para:
-  - Mejor la experiencia del cliente.
-  - Aumentar el compromiso de los clientes.
-  - Transformar sus productos.
-  - Prepararse ante las nuevas funcionalidades técnicas y ser capaces de crearlas.
-  - Escalar según las demandas del mercado o las zonas geográficas.
+  - Mejora de la experiencia del cliente
+  - Aumento de los compromisos de los clientes
+  - Transformación de productos
+  - Preparación y creación de nuevas funcionalidades técnicas
+  - Escalado debido a las demandas del mercado o a regiones geográficas nuevas
 
 ## <a name="vision-and-objectives"></a>Visión y objetivos
 
@@ -46,7 +46,7 @@ Para eliminar los obstáculos más importantes y permitir el cambio, se requiere
 
 Cloud Adoption Framework es un marco general que abarca las fases de planeamiento, preparación y adopción de la nube según las distintas motivaciones de migración e innovación, y que cuenta con el respaldo de las guías de operaciones y gobernanza.
 
-Microsoft está creando activamente este ambicioso marco en colaboración con clientes, asociados y equipos internos. Para fomentar la cooperación, el contenido se publicará en versión preliminar pública a medida que esté disponible. Estas versiones preliminares públicas permiten probar, validar y perfeccionar la guía por fases. El marco alcanzará la fase de disponibilidad general (GA) cuando se logren los objetivos a los que se aspira.
+El marco ha alcanzado la disponibilidad general (GA). Sin embargo, vamos a crear activamente este marco en colaboración con clientes, asociados y equipos internos. Para fomentar la cooperación, el contenido se publica a medida que está disponible. Estas versiones públicas permiten probar, validar y perfeccionar la guía por fases. 
 
 Para adoptar la nube de forma correcta, los clientes deben preparar a su personal, sus tecnologías y sus procesos para esta transformación digital. Cloud Adoption Framework incluye una sección en la que se describen los procesos de adopción generales, tanto de la migración como de la innovación, a fin de aportar información general para los clientes. Esta sección se compone de las siguientes fases en el proceso de adopción:
 
