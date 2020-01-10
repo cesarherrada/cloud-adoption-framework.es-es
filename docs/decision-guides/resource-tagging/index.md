@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 1142ca43776ab9b147b23ef054d77d76d8aed212
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: c62e087372d21a3883c90425b31e1c5ff9bfd2fb
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160231"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868018"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Guía de decisiones de nomenclatura y etiquetado de recursos
 
@@ -59,7 +59,7 @@ Los patrones de etiquetado comunes que se enumeran a continuación proporcionan 
 
 <!-- markdownlint-disable MD033 -->
 
-| Tipo de etiqueta | Ejemplos | DESCRIPCIÓN |
+| Tipo de etiqueta | Ejemplos | Descripción |
 |-----|-----|-----|
 | Funcional            | app = búsquedacatálogo1 <br/>tier = web <br/>webserver = apache<br/>env = prod <br/>env = almacenamientoprovisional <br/>env = des                 | Clasifique los recursos en relación con su finalidad dentro de una carga de trabajo, el entorno en el que se implementaron u otra funcionalidad y detalle operativo.                                 |
 | clasificación        | confidentiality = privada<br/>sla = 24horas                                 | Clasifica un recurso por cómo se utiliza y qué directivas se le aplican.                               |
@@ -73,7 +73,7 @@ Los patrones de etiquetado comunes que se enumeran a continuación proporcionan 
 
 Para obtener más información sobre la nomenclatura y etiquetado en Azure, consulte:
 
-- [Convenciones de nomenclatura para los recursos de Azure](/azure/architecture/best-practices/resource-naming). Consulte esta guía para convenciones de nomenclatura recomendadas para los recursos de Azure.
+- [Convenciones de nomenclatura para los recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming). Consulte esta guía para convenciones de nomenclatura recomendadas para los recursos de Azure.
 - [Uso de etiquetas para organizar los recursos de Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags). Puede aplicar etiquetas en Azure en los niveles de grupo de recursos y de recurso individual, lo que ofrece flexibilidad en la granularidad de los informes de contabilidad en función de las etiquetas aplicadas.
 
 ## <a name="next-steps"></a>Pasos siguientes

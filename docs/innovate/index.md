@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: 758cd3285ed7f9f1b3542b54af7d275dccf1662d
-ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
+ms.openlocfilehash: 06110380d848cdab37f7bc6109869be07faa9265
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74681781"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868076"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Innovación en la nube en Cloud Adoption Framework
 
@@ -22,7 +22,7 @@ Todas las carteras de TI contienen varias cargas de trabajo e ideas que pueden m
 
 Esta sección de Cloud Adoption Framework se centra en los elementos de la que más rentabilidad de la inversión generan.
 
-## <a name="get-started"></a>Primeros pasos
+## <a name="get-started"></a>Introducción
 
 Para prepararse para esta fase del ciclo de vida de la adopción de la nube, el marco sugiere los siguientes ejercicios:
 
@@ -123,9 +123,9 @@ Microsoft Learn es un enfoque nuevo al aprendizaje. La preparación para las nue
 
 A continuación se muestran un par de ejemplos de rutas de aprendizaje específicas de roles de Microsoft Learn que se alinean con la parte de innovación de Cloud Adoption Framework.
 
-[Administración de contenedores en Azure](https://docs.microsoft.com/learn/paths/administer-containers-in-azure/): Azure Container Instances (ACI) es la forma más rápida y sencilla de ejecutar contenedores en Azure. Esta ruta de aprendizaje le enseñará no solo a crear y administrar los contenedores, sino también cómo se puede usar ACI para proporcionar una escala elástica para Kubernetes.
+[Administración de contenedores en Azure](https://docs.microsoft.com/learn/paths/administer-containers-in-azure): Azure Container Instances (ACI) es la forma más rápida y sencilla de ejecutar contenedores en Azure. Esta ruta de aprendizaje le enseñará no solo a crear y administrar los contenedores, sino también cómo se puede usar ACI para proporcionar una escala elástica para Kubernetes.
 
-[Cree aplicaciones sin servidor](https://docs.microsoft.com/learn/paths/create-serverless-applications/): Azure Functions permite la creación sistemas de proceso a petición y basados en eventos que pueden desencadenar varios eventos externos. Aprenda a aprovechar las funciones para ejecutar la lógica del servidor y crear arquitecturas sin servidor.
+[Cree aplicaciones sin servidor](https://docs.microsoft.com/learn/paths/create-serverless-applications): Azure Functions permite la creación sistemas de proceso a petición y basados en eventos que pueden desencadenar varios eventos externos. Aprenda a aprovechar las funciones para ejecutar la lógica del servidor y crear arquitecturas sin servidor.
 
 Para conocer más rutas de aprendizaje, eche un vistazo al [catálogo de Microsoft Learn](/learn/browse). Use el filtro **Roles** para alinear las rutas de aprendizaje con su rol.
 
@@ -134,4 +134,3 @@ Para conocer más rutas de aprendizaje, eche un vistazo al [catálogo de Microso
 El primer ejercicio para la innovación en la nube es:
 > [!div class="nextstepaction"]
 > [Creación de consenso sobre el valor empresarial de la innovación](./business-value.md)
-
