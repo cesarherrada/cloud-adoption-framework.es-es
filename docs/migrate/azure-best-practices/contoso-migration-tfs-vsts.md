@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3c87bfbd8fe920d0469da8b3e60da59da07158ed
-ms.sourcegitcommit: 0b6939f65a1e5653149301e9aa14db9a1f67825f
+ms.openlocfilehash: 48ceb3581f72f6fed72360ecf4e30596b4d2eb72
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74557023"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868099"
 ---
 # <a name="refactor-a-team-foundation-server-deployment-to-azure-devops-services"></a>Refactorizar una implementación de Team Foundation Server a Azure DevOps Services
 
@@ -63,7 +63,7 @@ Contoso completará el proceso de migración como se indica a continuación:
 
 ![Proceso de migración](./media/contoso-migration-tfs-vsts/migration-process.png)
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario.
 
@@ -81,10 +81,10 @@ Así es como Azure realizará la migración:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Creación de una cuenta de almacenamiento de Azure.** Esta cuenta de almacenamiento se usará durante el proceso de migración.
-> - **Paso 2: Actualización de TFS.** Contoso actualizará su implementación a TFS 2018 Upgrade 2.
-> - **Paso 3: Validación de la colección.** Contoso validará la colección de TFS para prepararla para la migración.
-> - **Paso 4: Compilación del archivo de preparación.** Contoso creará los archivos de migración mediante la herramienta de migración de TFS.
+> - **Paso 1: Creación de una cuenta de almacenamiento de Azure.** Esta cuenta de almacenamiento se usará durante el proceso de migración.
+> - **Paso 2: Actualización de TFS.** Contoso actualizará su implementación a TFS 2018 Upgrade 2.
+> - **Paso 3: Validación de la colección.** Contoso validará la colección de TFS para prepararla para la migración.
+> - **Paso 4: Compilación del archivo de preparación.** Contoso creará los archivos de migración mediante la herramienta de migración de TFS.
 
 ## <a name="step-1-create-a-storage-account"></a>Paso 1: Crear una cuenta de almacenamiento
 
@@ -102,8 +102,8 @@ Así es como Azure realizará la migración:
 
 Los administradores de Contoso actualizan el servidor de TFS a TFS 2018 Update 2. Antes de empezar:
 
-- Contoso descarga [TFS 2018 Update 2](https://visualstudio.microsoft.com/downloads).
-- Verifica los [requisitos de hardware](/azure/devops/server/requirements) y lee las [notas de la versión](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) y los [problemas de la actualización](/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
+- Contoso descarga [TFS 2018 Update 2](https://visualstudio.microsoft.com/downloads).
+- Verifica los [requisitos de hardware](https://docs.microsoft.com/azure/devops/server/requirements) y lee las [notas de la versión](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) y los [problemas de la actualización](https://docs.microsoft.com/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
 
 Realiza la actualización como se muestra a continuación:
 
@@ -132,7 +132,7 @@ Realiza la actualización como se muestra a continuación:
 
 **¿Necesita más ayuda?**
 
-Obtenga información sobre la [actualización de TFS](/azure/devops/server/upgrade/get-started).
+Obtenga información sobre la [actualización de TFS](https://docs.microsoft.com/azure/devops/server/upgrade/get-started).
 
 ## <a name="step-3-validate-the-tfs-collection"></a>Paso 3: Validar la colección de TFS
 
@@ -266,7 +266,7 @@ Antes de empezar, los administradores de Contoso realizan una copia de seguridad
 Contoso crea una copia de seguridad (DACPAC) para la importación en Azure DevOps Services.
 
 - SqlPackage.exe en SQL Server Data Tools se usa para crear el archivo DACPAC. Hay varias versiones de SqlPackage.exe que se instalan con SQL Server Data Tools, ubicadas en carpetas con nombres como 120, 130 y 140. Es importante usar la versión correcta para preparar el archivo DACPAC.
-- Las importaciones de TFS 2018 deben usar SqlPackage.exe desde la carpeta 140 o superior. Para CONTOSOTFS, este archivo se encuentra en la carpeta: **C:\Archivos de programa (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140**.
+- Las importaciones de TFS 2018 deben usar SqlPackage.exe desde la carpeta 140 o superior. Para CONTOSOTFS, este archivo se encuentra en la carpeta: `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140
 
 Los administradores de Contoso generan el archivo DACPAC como se indica a continuación:
 
