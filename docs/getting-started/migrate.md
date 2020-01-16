@@ -8,12 +8,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: cdfe247470626a142d31ab6357f771fb39ced55f
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: c902c2a3f564bd2fcc575c8eb885b52da068826e
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564679"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781688"
 ---
 # <a name="begin-a-cloud-migration-journey-in-azure"></a>Comenzar un recorrido de migración a nube en Azure
 
@@ -36,7 +36,7 @@ Las migraciones a la nube pueden ayudar a las empresas a lograr sus resultados e
 
 |Eventos empresariales críticos | Motivaciones de migración | Motivaciones de innovación |
 |---------|---------|---------|
-| Salida del centro de datos<br/><br/>Fusiones, adquisiciones o desinversiones<br/><br/>Reducciones en gastos de capital<br/><br/>Finalización del soporte técnico de tecnologías críticas<br/><br/>Respuesta a los cambios de cumplimiento normativo<br/><br/>Satisfacer los requisitos de soberanía de los datos<br/><br/>Reducir las interrupciones y mejorar la estabilidad de TI|Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de las operaciones internas<br/><br/>Aumento de la agilidad comercial<br/><br/>Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas|Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Crear funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalar para satisfacer las demandas geográficas<br/><br/>Mejorar las experiencias de los clientes y su implicación<br/><br/>Transformar productos o servicios<br/><br/>Sorprender al mercado con nuevos productos o servicios|
+| Salida del centro de datos<br/><br/>Fusiones, adquisiciones o desinversiones<br/><br/>Reducciones en gastos de capital<br/><br/>Finalización del soporte técnico de tecnologías críticas<br/><br/>Respuesta a los cambios de cumplimiento normativo<br/><br/>Satisfacer los requisitos de soberanía de los datos<br/><br/>Reducir las interrupciones y mejorar la estabilidad de TI|Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de las operaciones internas<br/><br/>Aumento de la agilidad comercial<br/><br/>Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Escalar para satisfacer las demandas del mercado<br/><br/>Escalado para satisfacer las demandas geográficas o de mercado|Prepararse de cara a las nuevas funcionalidades técnicas<br/><br/>Crear funcionalidades técnicas<br/><br/>Modernización de la posición y los controles de seguridad<br/><br/>Escalado para satisfacer las demandas geográficas o de mercado<br/><br/>Mejorar las experiencias de los clientes y su implicación<br/><br/>Transformar productos o servicios<br/><br/>Sorprender al mercado con nuevos productos o servicios|
 
 <!-- markdownlint-enable MD033 -->
 
@@ -93,13 +93,13 @@ A lo largo de esta experiencia de migración, este marco se usará para abordar 
 
 ### <a name="common-cultural-changes-resulting-from-adherence-to-this-methodology"></a>Cambios culturales comunes derivados de la adhesión a esta metodología
 
-El trabajo para alcanzar los resultados empresariales deseados puede desencadenar pequeños cambios en la cultura de TI y, hasta cierto punto, en la cultura de la empresa. A continuación se muestran algunos cambios culturales comunes que se han detectado en este proceso:
+El trabajo para alcanzar los resultados empresariales deseados puede desencadenar pequeños cambios en la cultura de TI, en seguridad y, hasta cierto punto, en la cultura de la empresa. A continuación se muestran algunos cambios culturales comunes que se han detectado en este proceso:
 
-- Es probable que el equipo de TI adopte nuevas aptitudes para admitir las cargas de trabajo en la nube.
+- Es probable que los equipos de TI y de seguridad adopten nuevas aptitudes para admitir las cargas de trabajo en la nube.
 - La ejecución de una migración a la nube promueve enfoques iterativos o ágiles.
 - La inclusión de la gobernanza de la nube también tiende a inspirar enfoques de DevOps.
 - La creación de un equipo de estrategia de la nube puede conducir a una mayor integración entre los responsables empresariales y de TI.
-- En conjunto, estos cambios suelen llevar a la agilidad de la empresa y de TI.
+- En conjunto, estos cambios suelen llevar a una mayor agilidad de la empresa y de TI.
 
 El cambio cultural no es un objetivo de la migración a la nube o de Cloud Adoption Framework, pero es un resultado que se experimenta normalmente.
 No hay una guía que dicte los cambios culturales, sino que los cambios sutiles en la cultural se van insertando en las mejoras de procesos y los enfoques sugeridos a lo largo del camino.

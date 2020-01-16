@@ -8,12 +8,12 @@ ms.date: 10/17/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 122f1e451c8b83de3d020c58426d8b897013aa8d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9607bf217d8638f2337fa337a4cb57c7ba919608
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564904"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868062"
 ---
 # <a name="establish-an-operational-fitness-review"></a>Establecimiento de una revisión de adecuación operativa
 
@@ -130,3 +130,5 @@ Adapte los detalles del proceso y las reuniones a sus necesidades específicas. 
     Esta guía comienza con una definición del término _resistencia_ y los conceptos relacionados. Después, se describe un proceso para lograr resistencia, mediante un enfoque estructurado durante la vigencia de una aplicación, desde el diseño y la puesta en marcha hasta la implementación y operaciones.
 - [Patrones de diseño en la nube](https://docs.microsoft.com/azure/architecture/patterns).
     Estos patrones de diseño son útiles para los equipos de ingeniería al compilar aplicaciones sobre los fundamentos de calidad del software.
+- [Azure Advisor](https://docs.microsoft.com/azure/advisor).
+    Advisor ofrece recomendaciones personalizadas en función del uso y la configuración para ayudarle a optimizar los recursos para obtener alta disponibilidad, seguridad, rendimiento y rentabilidad.

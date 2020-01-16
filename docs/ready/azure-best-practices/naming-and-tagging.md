@@ -1,5 +1,5 @@
 ---
-title: 'Párese: Convenciones recomendadas de nomenclatura y etiquetado'
+title: Convenciones recomendadas de nomenclatura y etiquetado
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: En este artículo se proporcionan recomendaciones detalladas sobre nomenclatura y etiquetado de recursos orientadas específicamente a la compatibilidad con las labores de adopción de la nube empresarial.
 author: BrianBlanchard
@@ -9,25 +9,25 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: 9caeca52ba0ab3a909b0f42ac6f016d44033a4ee
-ms.sourcegitcommit: 617c3f12a3657a8a1393fd08d261dd98eb81b65c
+ms.openlocfilehash: 3a99398d5ae180efe9dca4cadf0554d92c6380b2
+ms.sourcegitcommit: 91ece6ba373a4d0d573cca7e616f0b67337b0d1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "74086796"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "76023366"
 ---
-# <a name="ready-recommended-naming-and-tagging-conventions"></a>Párese: Convenciones recomendadas de nomenclatura y etiquetado
+# <a name="recommended-naming-and-tagging-conventions"></a>Convenciones recomendadas de nomenclatura y etiquetado
 
-La organización de los recursos basados en la nube de forma que ayuden a la administración operativa y admitan los requisitos de contabilidad es un desafío común que afrontan las enormes labores de adopción de la nube. Al aplicar convenciones de etiquetado de metadatos y nomenclatura bien definidas a recursos hospedados en la nube, el personal de TI puede buscar y administrar los recursos rápidamente. Los nombres y etiquetas bien definidos también ayudan a alinear los costos de uso de la nube con los equipos empresariales mediante mecanismos de contabilidad de contracargo y visualización de costos.
+La organización de los recursos basados en la nube de forma que ayuden a la administración operativa y admitan los requisitos de contabilidad es un desafío común en los grandes esfuerzos de adopción de la nube. Al aplicar convenciones de etiquetado de metadatos y nomenclatura bien definidas a recursos hospedados en la nube, el personal de TI puede buscar y administrar los recursos rápidamente. Los nombres y etiquetas bien definidos también ayudan a alinear los costos de uso de la nube con los equipos empresariales mediante mecanismos de contabilidad de contracargo y visualización de costos.
 
-En la guía de [nomenclatura y restricciones de nombres de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) del Centro de arquitectura de Azure se proporcionan recomendaciones generales y las limitaciones de plataforma. El siguiente análisis amplía esa guía genérica con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
+En la guía de [nomenclatura y restricciones de nombres de recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) del Centro de arquitectura de Azure se proporcionan recomendaciones generales y las limitaciones de plataforma. El siguiente análisis amplía esa guía con recomendaciones más detalladas dirigidas específicamente a respaldar las labores de adopción de la nube empresarial.
 
-Los nombres de los recursos pueden ser difíciles de cambiar. Antes de comenzar con una implementación de gran tamaño en la nube, su prioridad debe ser que los equipos de adopción de la nube establezcan una convención de nomenclatura completa.
+Los nombres de los recursos pueden ser difíciles de cambiar. Priorice el establecimiento de una convención de nomenclatura completa antes de comenzar cualquier implementación de nube de gran tamaño.
 
 > [!NOTE]
-> Cada empresa tiene diferentes requisitos de organización y administración. Las recomendaciones de este artículo sirven como punto de partida para los análisis dentro de los equipos de adopción de la nube.
+> Cada empresa tiene diferentes requisitos de organización y administración. Estas recomendaciones sirven como punto de partida para los análisis dentro de los equipos de adopción de la nube.
 >
-> A medida que estos análisis progresan, use la siguiente plantilla para capturar las decisiones sobre nomenclatura y etiquetado que tome al alinear estas recomendaciones con sus necesidades empresariales específicas.
+> A medida que estos análisis avanzan, use la siguiente plantilla para capturar las decisiones sobre nomenclatura y etiquetado que tome al alinear estas recomendaciones con sus necesidades empresariales específicas.
 >
 > Descargue la [plantilla de seguimiento de convención de nomenclatura y etiquetado](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/CAF%20Readiness%20Naming%20and%20Tagging%20tracking%20template.xlsx).
 
@@ -35,7 +35,7 @@ Los nombres de los recursos pueden ser difíciles de cambiar. Antes de comenzar 
 
 Una estrategia de nomenclatura y etiquetado incluye detalles empresariales y operativos como componentes de nombres de recursos y etiquetas de metadatos:
 
-- La parte relacionada con la empresa de esta estrategia garantiza que los nombres y las etiquetas de los recursos incluyen la información organizativa necesaria para identificar a los equipos. Use un recurso junto con los propietarios de la empresa responsables de los costos de los recursos.
+- La parte empresarial de esta estrategia garantiza que los nombres y las etiquetas de los recursos incluyen la información organizativa necesaria para identificar a los equipos. Use un recurso junto con los propietarios de la empresa responsables de los costos de los recursos.
 - El lado operativo garantiza que los nombres y las etiquetas incluyen información que los equipos de TI usan para identificar la carga de trabajo, la aplicación, el entorno, la importancia y otra información útil para administrar los recursos.
 
 ### <a name="resource-naming"></a>Nombres de recursos
@@ -52,7 +52,7 @@ Por ejemplo, una red virtual tiene un ámbito de grupo de recursos, lo que signi
 
 Algunos nombres de recursos, como los servicios PaaS con puntos de conexión públicos o etiquetas DNS de máquina virtual, tienen ámbitos globales, lo que significa que deben ser únicos en toda la plataforma de Azure.
 
-Los nombres de los recursos tienen límites de longitud. Equilibrar el contexto insertado en un nombre con su ámbito y longitud es importante al desarrollar las convenciones de nomenclatura. Para más información sobre las reglas de nomenclatura de los caracteres, los ámbitos y las longitudes de nombres permitidos para los tipos de recursos, consulte [Convenciones de nomenclatura para los recursos de Azure](/azure/architecture/best-practices/resource-naming).
+Los nombres de los recursos tienen límites de longitud. Equilibrar el contexto insertado en un nombre con su ámbito y longitud es importante al desarrollar las convenciones de nomenclatura. Para más información sobre las reglas de nomenclatura de los caracteres, los ámbitos y las longitudes de nombres permitidos para los tipos de recursos, consulte [Convenciones de nomenclatura para los recursos de Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming).
 
 #### <a name="recommended-naming-components"></a>Componentes de nomenclatura recomendados
 
@@ -60,7 +60,7 @@ Cuando construya su convención de nomenclatura, identifique las partes clave de
 
 Mantenga corta la longitud de los componentes de nomenclatura para evitar que se superen los límites de longitud de los nombres de recursos.
 
-| Componente de nomenclatura | DESCRIPCIÓN | Ejemplos |
+| Componente de nomenclatura | Descripción | Ejemplos |
 | --- | --- | --- |
 | Unidad de negocio | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. En organizaciones más pequeñas, este componente podría representar un único elemento organizativo de nivel superior corporativo. | *fin*, *mktg*, *product*, *it*, *corp* |
 | Tipo de suscripción | Descripción resumida del propósito de la suscripción que contiene el recurso. A menudo desglosado por tipo de entorno de implementación o cargas de trabajo específicas. | *prod,* s*hared, client* |
@@ -78,7 +78,7 @@ En la lista siguiente se proporcionan los prefijos de tipo de recurso de Azure r
 | ----------------------------------- | -------------------- |
 | Resource group                      | rg-                  |
 | Azure Virtual Network               | vnet-                |
-| Puerta de enlace de red virtual             | vnet-gw-             |
+| Puerta de enlace de red virtual             | vnetgw-              |
 | Conexión de puerta de enlace                  | cn-                  |
 | Subnet                              | snet-                |
 | Grupo de seguridad de red              | nsg-                 |
@@ -92,33 +92,37 @@ En la lista siguiente se proporcionan los prefijos de tipo de recurso de Azure r
 | Azure Kubernetes Service            | aks-                 |
 | Azure Service Bus                   | sb-                  |
 | Colas de Azure Service Bus            | sbq-                 |
-| Aplicaciones de Azure App Service              | azapp-               |
-| Aplicaciones de Azure Functions                | azfun-               |
-| Azure Cloud Services                | azcs-                |
+| Temas de Azure Service Bus            | sbt-                 |
+| Planes de Azure App Service             | plan-                |
+| Azure Web Apps                      | app-                 |
+| Azure Functions                     | func-                |
+| Azure Cloud Services                | cld-                 |
+| Servidor de Azure SQL Database           | sql-                 |
 | Azure SQL Database                  | sqldb-               |
-| Azure Cosmos DB (anteriormente Azure DocumentDB) | cosdb-               |
+| Azure Cosmos DB                     | cosmos-              |
 | Azure Cache for Redis               | redis-               |
 | Azure Database for MySQL            | mysql-               |
+| Azure Database for PostgreSQL       | psql-                |
 | Azure SQL Data Warehouse            | sqldw-               |
 | SQL Server Stretch Database         | sqlstrdb-            |
-| Azure Storage                       | stor                 |
+| Azure Storage                       | st                   |
 | Azure StorSimple                    | ssimp                |
 | Azure Search                        | srch-                |
-| Azure Cognitive Services            | cs-                  |
-| Área de trabajo de Azure Machine Learning    | aml-                 |
+| Azure Cognitive Services            | cog-                 |
+| Área de trabajo de Azure Machine Learning    | mlw-                 |
 | Azure Data Lake Storage             | dls                  |
 | Análisis con Azure Data Lake           | dla                  |
 | Azure HDInsight: Spark             | hdis-                |
 | Azure HDInsight: Hadoop            | hdihd-               |
 | Azure HDInsight: R Server          | hdir-                |
 | Azure HDInsight: HBase             | hdihb-               |
-| Power BI Embedded                   | pbiemb               |
+| Power BI Embedded                   | pbi-                 |
 | Azure Stream Analytics              | asa-                 |
-| Azure Data Factory                  | df-                  |
+| Azure Data Factory                  | adf-                 |
 | Azure Event Hubs                    | evh-                 |
-| Azure IoT Hub                       | aih-                 |
-| Azure Notification Hubs             | anh-                 |
-| Espacio de nombres de Azure Notification Hubs   | anhns-               |
+| Azure IoT Hub                       | iot-                 |
+| Azure Notification Hubs             | ntf-                 |
+| Espacio de nombres de Azure Notification Hubs   | ntfns-               |
 
 ### <a name="metadata-tags"></a>Etiquetas de metadatos
 
@@ -126,7 +130,7 @@ Al aplicar etiquetas de metadatos a los recursos en la nube, puede incluir infor
 
 Las etiquetas que se aplican a los recursos y las etiquetas que son necesarias u opcionales varían según la organización. En la lista siguiente se proporcionan ejemplos de etiquetas comunes que capturan contexto e información importantes sobre un recurso. Use esta lista como punto de partida para establecer sus propias convenciones de etiquetado.
 
-| Nombre de etiqueta                  | DESCRIPCIÓN                                                                                                                                                                                                    | Clave               | Valor de ejemplo                                   |
+| Nombre de etiqueta                  | Descripción                                                                                                                                                                                                    | Clave               | Valor de ejemplo                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------------------------------------------|
 | Nombre de la aplicación          | Nombre de la aplicación, servicio o carga de trabajo a la que está asociado el recurso.                                                                                                                                 | *ApplicationName* | *{app name}*                                    |
 | Nombre del aprobador             | Persona responsable de la aprobación de los costos relacionados con este recurso.                                                                                                                                               | *Approver*        | *{email}*                                       |
@@ -164,8 +168,8 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 | Tipo de recurso               | Ámbito           | Formato                                                                | Ejemplos                                                                                              |
 |--------------------------|-----------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Azure Virtual Network          | Resource group  | vnet-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                      | <ul><li>vnet-shared-eastus2-001 </li><li>vnet-prod-westus-001 </li><li>vnet-client-eastus2-001</li></ul>                                  |
-| Puerta de enlace virtual de red virtual     | Virtual network | vnet-gw-v-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-v-shared-eastus2-001 </li><li>vnet-gw-v-prod-westus-001 </li><li>vnet-gw-v-client-eastus2-001</li></ul>                   |
-| Puerta de enlace local de red virtual       | Puerta de enlace virtual | vnet-gw-l-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-l-shared-eastus2-001 </li><li>vnet-gw-l-prod-westus-001 </li><li>vnet-gw-l-client-eastus2-001</li></ul>                   |
+| Puerta de enlace virtual de red virtual     | Virtual network | vnetgw-v-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-v-shared-eastus2-001 </li><li>vnet-gw-v-prod-westus-001 </li><li>vnet-gw-v-client-eastus2-001</li></ul>                   |
+| Puerta de enlace local de red virtual       | Puerta de enlace virtual | vnetgw-l-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-l-shared-eastus2-001 </li><li>vnet-gw-l-prod-westus-001 </li><li>vnet-gw-l-client-eastus2-001</li></ul>                   |
 | Conexiones de sitio a sitio | Resource group  | cn-\<nombre de puerta de enlace local\>-to-\<nombre de puerta de enlace virtual\>                 | <ul><li>cn-l-gw-shared-eastus2-001-to-v-gw-shared-eastus2-001 </li><li>cn-l-gw-shared-eastus2-001-to-shared-westus-001</li></ul> |
 | Conexiones de red virtual         | Resource group  | cn-\<suscripción1\>\<región1\>-to-\<subscripción2\>\<región2\>-      | <ul><li>cn-shared-eastus2-to-shared-westus </li><li>cn-prod-eastus2-to-prod-westus</li></ul>                                     |
 | Subnet                   | Virtual network | snet-\<suscripción\>-\<subregión\>-\<\#\#\#\>                       | <ul><li>snet-shared-eastus2-001 </li><li>snet-prod-westus-001 </li><li>snet-client-eastus2-001</li></ul>                                  |
@@ -184,11 +188,11 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 
 ### <a name="paas-services"></a>Servicios de PaaS
 
-| Tipo de recurso     | Ámbito  | Formato                                                              | Ejemplos                                                                                 |
-|----------------|--------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Azure App Service    | Global | azapp-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azapp-navigator-prod-001.azurewebsites.net </li><li>azapp-accountlookup-dev-001.azurewebsites.net</li></ul> |
-| Aplicación Azure Functions   | Global | azfun-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azfun-navigator-prod-001.azurewebsites.net </li><li>azfun-accountlookup-dev-001.azurewebsites.net</li></ul> |
-| Azure Cloud Services | Global | azcs-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{cloudapp.net}]       | <ul><li>azcs-navigator-prod-001.azurewebsites.net </li><li>azcs-accountlookup-dev-001.azurewebsites.net</li></ul>   |
+| Tipo de recurso           | Ámbito  | Formato                                                              | Ejemplos                                                                                 |
+|----------------------|--------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Azure Web Apps       | Global | app-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azapp-navigator-prod-001.azurewebsites.net </li><li>app-accountlookup-dev-001.azurewebsites.net</li></ul> |
+| Azure Functions      | Global | func-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azfun-navigator-prod-001.azurewebsites.net </li><li>func-accountlookup-dev-001.azurewebsites.net</li></ul> |
+| Azure Cloud Services | Global | cld-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{cloudapp.net}]       | <ul><li>azcs-navigator-prod-001.azurewebsites.net </li><li>cld-accountlookup-dev-001.azurewebsites.net</li></ul>   |
 
 ### <a name="azure-service-bus"></a>Azure Service Bus
 
@@ -196,16 +200,19 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 |--------------------|-------------|------------------------------------------------------------|------------------------------------|
 | Azure Service Bus        | Global      | sb-\<nombre de aplicación\>-\<entorno\>.[{servicebus.windows.net}] | <ul><li>sb-navigator-prod </li><li>sb-emissions-dev</li></ul> |
 | Colas de Azure Service Bus | Azure Service Bus | sbq-\<descriptor de consulta\>                                   | <ul><li>sbq-messagequery</li></ul>                   |
+| Temas de Azure Service Bus | Azure Service Bus | sbt-\<descriptor de consulta\>                                   | <ul><li>sbt-messagequery</li></ul>                   |
 
 ### <a name="databases"></a>Bases de datos
 
 | Tipo de recurso                          | Ámbito              | Formato                                | Ejemplos                                       |
 |-------------------------------------|--------------------|---------------------------------------|------------------------------------------------|
-| Azure SQL Database                  | Global             | sqldb-\<nombre de aplicación\>-\<entorno\>    | <ul><li>sqldb-navigator-prod </li><li>sqldb-emissions-dev</li></ul>       |
-| Azure Cosmos DB (anteriormente DocumentDB) | Global             | cosdb-\<nombre de aplicación\>-\<entorno\>    | <ul><li>cosdb-navigator-prod </li><li>cosdb-emissions-dev</li></ul>       |
+| Servidor de Azure SQL Database           | Global             | sql-\<nombre de aplicación\>-\<entorno\>      | <ul><li>sql-navigator-prod </li><li>sql-emissions-dev</li></ul>           |
+| Azure SQL Database                  | Azure SQL Database | sqldb-\<nombre de base de datos>-\<entorno\>| <ul><li>sqldb-users-prod </li><li>sqldb-users-dev</li></ul>               |
+| Azure Cosmos DB                     | Global             | cosmos-\<nombre de aplicación\>-\<entorno\>   | <ul><li>cosdb-navigator-prod </li><li>cosdb-emissions-dev</li></ul>       |
 | Azure Cache for Redis               | Global             | redis-\<nombre de aplicación\>-\<entorno\>    | <ul><li>redis-navigator-prod </li><li>redis-emissions-dev</li></ul>       |
 | Azure Database for MySQL            | Global             | mysql-\<nombre de aplicación\>-\<entorno\>    | <ul><li>mysql-navigator-prod </li><li>mysql-emissions-dev</li></ul>       |
-| Azure SQL Data Warehouse                  | Global             | sqldw-\<nombre de aplicación\>-\<entorno\>    | <ul><li>sqldw-navigator-prod </li><li>sqldw-emissions-dev</li></ul>       |
+| Azure Database for PostgreSQL       | Global             | sql-\<nombre de aplicación\>-\<entorno\>     | <ul><li>psql-navigator-prod </li><li>psql-emissions-dev</li></ul>         |
+| Azure SQL Data Warehouse            | Global             | sqldw-\<nombre de aplicación\>-\<entorno\>    | <ul><li>sqldw-navigator-prod </li><li>sqldw-emissions-dev</li></ul>       |
 | SQL Server Stretch Database         | Azure SQL Database | sqlstrdb-\<nombre de aplicación\>-\<entorno\> | <ul><li>sqlstrdb-navigator-prod </li><li>sqlstrdb-emissions-dev</li></ul> |
 
 ### <a name="storage"></a>Storage
@@ -214,35 +221,35 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 |-----------------------------------------|--------|-------------------------------------------------------------------------------|--------------------------------------------|
 | Cuenta de Azure Storage: uso general     | Global | st\<nombre de almacenamiento\>\<\#\#\#\>                                                  | <ul><li>stnavigatordata001 </li><li>stemissionsoutput001</li></ul>    |
 | Cuenta de Azure Storage: registros de diagnóstico | Global | stdiag\<primeras dos letras del nombre de la suscripción y el número\>\<región\>\<\#\#\#\> | <ul><li>stdiagsh001eastus2001 </li><li>stdiagsh001westus001</li></ul> |
-| Azure StorSimple                              | Global | ssimp\<nombre de aplicación\>\<entorno\>                                              | <ul><li>ssimpnavigatorprod </li><li>ssimpemissionsdev</li></ul>       |
+| Azure StorSimple                        | Global | ssimp\<nombre de aplicación\>\<entorno\>                                              | <ul><li>ssimpnavigatorprod </li><li>ssimpemissionsdev</li></ul>       |
 
 ### <a name="ai--machine-learning"></a>AI + Aprendizaje automático
 
 | Tipo de recurso                       | Ámbito          | Formato                            | Ejemplos                               |
 |----------------------------------|----------------|-----------------------------------|----------------------------------------|
 | Azure Search                     | Global         | srch-\<nombre de aplicación\>-\<entorno\> | <ul><li>srch-navigator-prod </li><li>srch-emissions-dev</li></ul> |
-| Azure Cognitive Services               | Resource group | cs-\<nombre de aplicación\>-\<entorno\>   | <ul><li>cs-navigator-prod </li><li>cs-emissions-dev</li></ul>     |
-| Área de trabajo de Azure Machine Learning | Resource group | aml-\<nombre de aplicación\>-\<entorno\>  | <ul><li>aml-navigator-prod </li><li>aml-emissions-dev</li></ul>   |
+| Azure Cognitive Services         | Resource group | cog-\<nombre de aplicación\>-\<entorno\>   | <ul><li>cog-navigator-prod </li><li>cog-emissions-dev</li></ul>     |
+| Área de trabajo de Azure Machine Learning | Resource group | mlw-\<nombre de aplicación\>-\<entorno\>   | <ul><li>mlw-navigator-prod </li><li>mlw-emissions-dev</li></ul>     |
 
 ### <a name="analytics"></a>Análisis
 
 | Tipo de recurso                | Ámbito  | Formato                             | Ejemplos                                 |
 |---------------------------|--------|------------------------------------|------------------------------------------|
-| Azure Data Factory        | Global | df-\<nombre de aplicación\>\<entorno\>     | <ul><li>df-navigator-prod </li><li>df-emissions-dev</li></ul>       |
+| Azure Data Factory        | Global | adf-\<nombre de aplicación\>\<entorno\>    | <ul><li>adf-navigator-prod </li><li>adf-emissions-dev</li></ul>     |
 | Azure Data Lake Storage   | Global | dls\<nombre de aplicación\>\<entorno\>     | <ul><li>dlsnavigatorprod </li><li>dlsemissionsdev</li></ul>         |
 | Análisis con Azure Data Lake | Global | dla\<nombre de aplicación\>\<entorno\>     | <ul><li>dlanavigatorprod </li><li>dlaemissionsdev</li></ul>         |
-| Azure HDInsight: Spark         | Global | hdis-\<nombre de aplicación\>-\<entorno\>  | <ul><li>hdis-navigator-prod </li><li>hdis-emissions-dev </li></ul>  |
-| Azure HDInsight: Hadoop        | Global | hdihd-\<nombre de aplicación\>-\<entorno\> | <ul><li>hdihd-hadoop-prod </li><li>hdihd-emissions-dev</li></ul>    |
-| Azure HDInsight: R Server      | Global | hdir-\<nombre de aplicación\>-\<entorno\>  | <ul><li>hdir-navigator-prod </li><li>hdir-emissions-dev</li></ul>   |
-| Azure HDInsight: HBase         | Global | hdihb-\<nombre de aplicación\>-\<entorno\> | <ul><li>hdihb-navigator-prod </li><li>hdihb-emissions-dev</li></ul> |
-| Power BI Embedded         | Global | pbiemb\<nombre de aplicación\>\<entorno\>  | <ul><li>pbiem-navigator-prod </li><li>pbiem-emissions-dev</li></ul> |
+| Azure HDInsight: Spark   | Global | hdis-\<nombre de aplicación\>-\<entorno\>  | <ul><li>hdis-navigator-prod </li><li>hdis-emissions-dev </li></ul>  |
+| Azure HDInsight: Hadoop  | Global | hdihd-\<nombre de aplicación\>-\<entorno\> | <ul><li>hdihd-hadoop-prod </li><li>hdihd-emissions-dev</li></ul>    |
+| Azure HDInsight: R Server| Global | hdir-\<nombre de aplicación\>-\<entorno\>  | <ul><li>hdir-navigator-prod </li><li>hdir-emissions-dev</li></ul>   |
+| Azure HDInsight: HBase   | Global | hdihb-\<nombre de aplicación\>-\<entorno\> | <ul><li>hdihb-navigator-prod </li><li>hdihb-emissions-dev</li></ul> |
+| Power BI Embedded         | Global | pbi-\<nombre de aplicación\>\<entorno\>    | <ul><li>pbi-navigator-prod </li><li>pbi-emissions-dev</li></ul> |
 
-### <a name="internet-of-things-iot"></a>Internet de las cosas (IoT)
+### <a name="data-streams--internet-of-things-iot"></a>Flujos de datos e Internet de las cosas (IoT)
 
 | Tipo de recurso                         | Ámbito          | Formato                             | Ejemplos                                 |
 |------------------------------------|----------------|------------------------------------|------------------------------------------|
-| Azure Stream Analytics en IoT Edge | Resource group | asa-\<nombre de aplicación\>-\<entorno\>   | <ul><li>asa-navigator-prod </li><li>asa-emissions-dev</li></ul>     |
-| Azure IoT Hub                      | Global         | aih-\<nombre de aplicación\>-\<entorno\>   | <ul><li>aih-navigator-prod </li><li>aih-emissions-dev</li></ul>     |
-| Azure Event Hubs                          | Global         | evh-\<nombre de aplicación\>-\<entorno\>   | <ul><li>evh-navigator-prod </li><li>evh-emissions-dev</li></ul>     |
-| Azure Notification Hubs                   | Resource group | anh-\<nombre de aplicación\>-\<entorno\>   | <ul><li>evh-navigator-prod </li><li>evh-emissions-dev</li></ul>     |
-| Espacio de nombres de Azure Notification Hubs         | Global         | anhns-\<nombre de aplicación\>-\<entorno\> | <ul><li>anhns-navigator-prod </li><li>anhns-emissions-dev</li></ul> |
+| Azure Stream Analytics             | Resource group | asa-\<nombre de aplicación\>-\<entorno\>   | <ul><li>asa-navigator-prod </li><li>asa-emissions-dev</li></ul>     |
+| Azure IoT Hub                      | Global         | iot-\<nombre de aplicación\>-\<entorno\>   | <ul><li>iot-navigator-prod </li><li>iot-emissions-dev</li></ul>     |
+| Azure Event Hubs                   | Global         | evh-\<nombre de aplicación\>-\<entorno\>   | <ul><li>evh-navigator-prod </li><li>evh-emissions-dev</li></ul>     |
+| Azure Notification Hubs            | Resource group | ntf-\<nombre de aplicación\>-\<entorno\>   | <ul><li>ntf-navigator-prod </li><li>ntf-emissions-dev</li></ul>     |
+| Espacio de nombres de Azure Notification Hubs  | Global         | ntfns-\<nombre de aplicación\>-\<entorno\> | <ul><li>ntfns-navigator-prod </li><li>ntfns-emissions-dev</li></ul> |

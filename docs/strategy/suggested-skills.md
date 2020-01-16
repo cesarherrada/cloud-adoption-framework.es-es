@@ -1,19 +1,19 @@
 ---
-title: Ruta de preparación de aptitudes
+title: Ruta de preparación de aptitudes durante la planeación
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Información general sobre la ruta de preparación de aptitudes
+description: Información general sobre la ruta de preparación de aptitudes durante la fase de planeamiento de una migración.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: ce3949a6d778ed61eea74fbd8a1aa955a477d3d8
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 62152049578d1bd1f433cc4d2070504363cffef1
+ms.sourcegitcommit: 2efd4715294189bcea7aada8a1cbbc85c72f6264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73561637"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75943457"
 ---
 # <a name="skills-readiness-path-during-the-plan-phase-of-a-migration-journey"></a>Ruta de preparación de aptitudes durante la fase de planeamiento de un recorrido de migración
 
@@ -64,7 +64,7 @@ Durante la fase de preparación, el personal técnico crea una zona de aterrizaj
 - [Redes de Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Conozca los aspectos básicos de las redes de Azure y descubra cómo mejorar la resistencia y reducir la latencia con la red de Azure.
 - [Opciones de proceso de Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-compute). Conozca los servicios de proceso de Azure.
 - [Proteger los recursos con RGAC](https://docs.microsoft.com/learn/modules/secure-azure-resources-with-rbac). Uso de RBAC para proteger los recursos.
-- [Opciones de almacenamiento de datos](https://docs.microsoft.com/learn/modules/intro-to-data-in-azure/index). Conozca las ventajas del almacenamiento de datos de Azure.
+- [Opciones de almacenamiento de datos](https://docs.microsoft.com/learn/modules/intro-to-data-in-azure/index). conozca las ventajas del almacenamiento de datos de Azure.
 
 ## <a name="organizational-skills"></a>Aptitudes de organización
 

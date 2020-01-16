@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: bf68bc17d5e94ae4c35e0a88d3ca73bd42935a5b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 38fa6133c9a4f823d4347b3c1b4db5dd81f24ceb
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566786"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781461"
 ---
 # <a name="cloud-governance-capabilities"></a>Funcionalidades de gobernanza de la nube
 
@@ -26,6 +26,7 @@ Según los resultados empresariales deseados, las aptitudes necesarias para prop
 
 - Gobernanza de TI
 - Arquitectura empresarial
+- Seguridad
 - Operaciones de TI
 - Infraestructura de TI
 - Redes
@@ -33,6 +34,7 @@ Según los resultados empresariales deseados, las aptitudes necesarias para prop
 - Virtualización
 - Continuidad empresarial y recuperación ante desastres
 - Propietarios de aplicaciones dentro de TI
+- Propietarios de finanzas
 
 La funcionalidad de gobernanza de la nube identifica los riesgos relacionados con las versiones actuales y futuras. Esta funcionalidad se puede percibir en los trabajos para evaluar el riesgo, comprender los posibles impactos y tomar decisiones respecto a la tolerancia a los riesgos. De esta forma, los planes se pueden actualizar rápidamente para reflejar las necesidades cambiantes de la [funcionalidad de adopción de la nube](./cloud-adoption.md).
 
@@ -69,7 +71,7 @@ A continuación se representan los participantes que colaborarán con frecuencia
 
 ## <a name="maturation-of-cloud-governance-capability"></a>Madurez de la funcionalidad de gobernanza de la nube
 
-Algunas organizaciones de gran tamaño cuentan ya con equipos dedicados que se centran en la gobernanza de TI. Estos equipos se especializan en la administración de riesgos en la cartera de TI mediante metodologías como ITIL o ITSM. Cuando se tienen estos equipos, los siguientes modelos de madurez se pueden acelerar rápidamente. Sin embargo, se recomienda que el equipo de gobernanza de TI revise el modelo de gobernanza de la nube para comprender cómo la gobernanza cambia ligeramente en la nube. Los artículos principales son [Ampliación de la directiva corporativa a la nube](../govern/corporate-policy.md) y [Cinco materias sobre la gobernanza de la nube](../govern/governance-disciplines.md).
+Algunas organizaciones de gran tamaño cuentan ya con equipos dedicados que se centran en la gobernanza de TI. Estos equipos se especializan en la administración de riesgos en la cartera de TI. Cuando se tienen estos equipos, los siguientes modelos de madurez se pueden acelerar rápidamente. Sin embargo, se recomienda que el equipo de gobernanza de TI revise el modelo de gobernanza de la nube para comprender cómo la gobernanza cambia ligeramente en la nube. Los artículos principales son [Ampliación de la directiva corporativa a la nube](../govern/corporate-policy.md) y [Cinco materias sobre la gobernanza de la nube](../govern/governance-disciplines.md).
 
 **Sin gobernanza:** no es raro que las organizaciones se muevan a la nube sin planes claros de gobernanza. Enseguida, los problemas relacionadas con la seguridad, el costo, la escala y las operaciones comienzan a desencadenar conversaciones sobre la necesidad de un modelo de gobernanza y la dotación de personal para llevar a cabo los procesos asociados con ese modelo. Iniciar esas conversaciones antes de que se conviertan en problemas es siempre un buen primer paso para superar el antipatrón de "sin gobernanza". La sección sobre la [definición de la directiva corporativa](../govern/corporate-policy.md) puede ayudar a facilitar esas conversaciones.
 

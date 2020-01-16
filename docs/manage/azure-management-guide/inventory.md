@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 84efac562647d88235dbcecbb2078e632c1c0341
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 4969681cbc6fbb71da70f3ced09b5e4616c773b5
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565459"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781783"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Inventario y visibilidad en Azure
 
@@ -33,7 +33,7 @@ Para cualquier entorno de nivel empresarial, en la tabla siguiente se describen 
 |Centralización de registros|Log Analytics|Registro central para todos los fines de visibilidad|
 |Centralización de la supervisión|Azure Monitor|Supervisión central de los datos operativos y las tendencias|
 |Inventario de máquina virtual y Change Tracking|Azure Change Tracking e Inventario|Inventario de máquinas virtuales y supervisión de cambios para el nivel de SO invitado|
-|Estado del servicio|Azure Activity Log|Supervisión de los cambios en el nivel de suscripción|
+|Supervisión de la suscripción|Azure Activity Log|Supervisión de los cambios en el nivel de suscripción|
 |Supervisión del sistema operativo invitado|Azure Monitor para máquinas virtuales|Supervisión de los cambios y el rendimiento de las VM|
 |Supervisión de redes|Azure Network Watcher|Supervisión de los cambios y el rendimiento de la red|
 |Supervisión de DNS|DNS Analytics|Seguridad, rendimiento y operaciones de DNS|
@@ -63,7 +63,7 @@ Azure Service Health incluye:
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar una alerta de Service Health:
 
@@ -100,7 +100,7 @@ Un [área de trabajo de Log Analytics](https://docs.microsoft.com/azure/azure-mo
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 <!-- markdownlint-disable DOCSMD001 -->
 
@@ -135,7 +135,7 @@ Azure Monitor proporciona un único centro unificado para todos los datos de su
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 <!-- markdownlint-disable DOCSMD001 -->
 

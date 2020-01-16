@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 086740f6677896220824096a5afe66618779a2d0
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3ee38869badce877fc89784c1e90a60ed7ee04eb
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566398"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781545"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Declaraciones de directivas de ejemplo de administración de costos
 
-Las declaraciones individuales de directiva de nube son directrices para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
+Cada declaración de directiva de nube es una guía para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
 - **Riesgo empresarial**: Un resumen del riesgo que esta directiva abordará.
 - **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.

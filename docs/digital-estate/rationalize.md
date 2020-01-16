@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: fee983ba2379bb84d56f23139bba987a56e5c54d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7c733c715f636416f1a6f3f4a4cfe1d984eae73b
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564704"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781749"
 ---
 # <a name="rationalize-the-digital-estate"></a>Racionalización del patrimonio digital
 
-La racionalización de la nube es el proceso de evaluación de los recursos para determinar el mejor enfoque para hospedarlos en la nube. Una vez que haya determinado el [enfoque](./approach.md) y que haya agregado un [inventario](./inventory.md), puede comenzar la racionalización de la nube. En [Racionalización de la nube](./rationalize.md) se describen las opciones de racionalización más comunes.
+La racionalización de la nube es el proceso de evaluación de los recursos para determinar el mejor enfoque para hospedarlos en la nube. Una vez que haya determinado el [enfoque](./approach.md) y que haya agregado un [inventario](./inventory.md), puede comenzar la racionalización de la nube. En Racionalización de la nube se describen las opciones de racionalización más comunes.
 
 ## <a name="traditional-view-of-rationalization"></a>Vista tradicional de la racionalización
 

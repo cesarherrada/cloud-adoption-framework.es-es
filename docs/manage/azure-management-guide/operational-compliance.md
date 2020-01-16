@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b5a94ab41bff26371621acc5e62ae19d9fd02e5c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9109a51a85627f3c8d0cee8b72baa0936d56c98e
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565482"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781817"
 ---
 # <a name="operational-compliance-in-azure"></a>Cumplimiento operativo en Azure
 
@@ -32,6 +32,7 @@ Para cualquier entorno de nivel empresarial, en esta tabla se describen los mín
 |Administración de revisiones|Administración de actualizaciones|Administración y programación de actualizaciones|
 |Aplicación de directivas|Azure Policy|Aplicación de directivas para garantizar el cumplimiento del entorno y el invitado|
 |Configuración del entorno|Azure Blueprint|Compatibilidad automatizada para servicios principales|
+|Configuración de recurso|Configuración de estado deseado|Configuración automatizada en el sistema operativo invitado y algunos aspectos del entorno|
 
 ::: zone target="docs"
 
@@ -103,7 +104,7 @@ Actualmente, la configuración de invitado de Azure Policy solo realiza la audit
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Asigne una directiva integrada a un grupo de administración, suscripción o grupo de recursos.
 
