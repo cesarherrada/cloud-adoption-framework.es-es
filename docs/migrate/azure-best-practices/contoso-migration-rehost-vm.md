@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3de31e419ea701f8e7e7091d14db1884a4b641d2
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: f38503b0cc998721726845fc1669f40ea8c845e4
+ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566473"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76520198"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms"></a>Rehospedaje de una aplicación local en VM de Azure
 
@@ -32,7 +32,7 @@ El equipo directivo de TI ha trabajado estrechamente con sus socios comerciales 
 
 ## <a name="migration-goals"></a>Objetivos de la migración
 
-El equipo de la nube de Contoso ha marcado los objetivos de esta migración. Estos objetivos se usan para determinar el mejor método de migración:
+El equipo de la nube de Contoso ha establecido los objetivos de esta migración. Estos objetivos se utilizan para determinar el mejor método de migración:
 
 - Después de la migración, la aplicación de Azure debería tener las mismas funcionalidades de rendimiento que tiene actualmente en VMware. La aplicación seguirá siendo tan imprescindible en la nube como lo es en el entorno local.
 - Contoso no quiere invertir en esta aplicación. Es importante para la empresa, pero, en su formato actual, Contoso solo quiere moverla a la nube de modo seguro.
@@ -97,7 +97,7 @@ Contoso migrará las máquinas virtuales de front-end de aplicaciones y de base 
 --- | --- | ---
 [Azure Migrate Server Migration](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm) | El servicio orquesta y administra la migración de las aplicaciones y cargas de trabajo locales, y las instancias de máquina virtual de AWS/GCP. | Durante la replicación en Azure, se incurre en gastos de Azure Storage. Las máquinas virtuales de Azure se crean, e incurren en gastos, cuando se produce una conmutación por error. [Más información](https://azure.microsoft.com/pricing/details/azure-migrate) sobre cargos y precios.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario.
 
@@ -117,10 +117,10 @@ Los administradores de Contoso ejecutarán la migración de la forma siguiente:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Preparación de Azure para Azure Migrate Server Migration.** Se agrega la herramienta Azure Migrate Server Migration al proyecto de Azure Migrate.
-> - **Paso 2: Preparación del entorno de VMware local para Azure Migrate Server Migration.** Se preparan las cuentas para la detección de VM y se prepara la conexión a las VM de Azure tras la conmutación por error.
-> - **Paso 3: Replicación de máquinas virtuales.** Se configura la replicación y se comienzan a replicar las VM en Azure Storage.
-> - **Paso 4: Migración de las máquinas virtuales con Azure Migrate Server Migration.** se ejecuta una conmutación por error de prueba para asegurarse de que todo funciona y, luego, se ejecuta una conmutación por error completa para migrar las VM a Azure.
+> - **Paso 1: Preparación de Azure para Azure Migrate Server Migration.** Se agrega la herramienta Azure Migrate Server Migration al proyecto de Azure Migrate.
+> - **Paso 2: Preparación del entorno de VMware local para Azure Migrate Server Migration.** Se preparan las cuentas para la detección de VM y se prepara la conexión a las VM de Azure tras la conmutación por error.
+> - **Paso 3: Replicación de máquinas virtuales.** Se configura la replicación y se comienzan a replicar las VM en Azure Storage.
+> - **Paso 4: Migración de las máquinas virtuales con Azure Migrate Server Migration.** se ejecuta una conmutación por error de prueba para asegurarse de que todo funciona y, luego, se ejecuta una conmutación por error completa para migrar las VM a Azure.
 
 ## <a name="step-1-prepare-azure-for-the-azure-migrate-server-migration-tool"></a>Paso 1: Preparación de Azure para Azure Migrate Server Migration
 
@@ -162,7 +162,7 @@ Después de la conmutación por error, Contoso quiere conectarse a las VM de Azu
     - Permite RDP en **Firewall de Windows** -> **Aplicaciones y características permitidas** para las redes de **dominio y privadas**.
     - Establece la directiva SAN del sistema operativo de la VM local en **OnlineAll**.
 
-Además, cuando ejecuta una conmutación por error, Contoso debe comprobar lo siguiente:
+Además, cuando ejecuta una conmutación por error, debe comprobar lo siguiente:
 
 - No debe haber actualizaciones de Windows pendientes en la VM cuando se desencadene una conmutación por error. Si las hay, no podrá iniciar sesión en la VM hasta que se completen las actualizaciones.
 - Después de la conmutación por error, puede comprobar los **diagnósticos de arranque** para ver una captura de pantalla de la VM. Si no funciona, debe comprobar que la VM está en ejecución, así como revisar estas [sugerencias de solución de problemas](https://social.technet.microsoft.com/wiki/contents/articles/31666.troubleshooting-remote-desktop-connection-after-failover-using-asr.aspx).
@@ -203,7 +203,7 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
     - Seleccione **No** si no desea aplicar la Ventaja híbrida de Azure. A continuación, haga clic en **Siguiente**.
     - Seleccione **Sí** si tiene equipos con Windows Server que están incluidos en suscripciones activas de Software Assurance o Windows Server y desea aplicar el beneficio a las máquinas que va a migrar. A continuación, haga clic en **Siguiente**.
 
-8. En **Proceso**, revise el nombre de la máquina virtual, el tamaño, el tipo de disco del sistema operativo y el conjunto de disponibilidad. Las máquinas virtuales deben cumplir los [requisitos de Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#agentless-migration-vmware-vm-requirements).
+8. En **Proceso**, revise el nombre de la máquina virtual, su tamaño, el tipo de disco del sistema operativo y el conjunto de disponibilidad. Las máquinas virtuales deben cumplir los [requisitos de Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
     - **Tamaño de VM:** si usa las recomendaciones de la evaluación, el menú desplegable de tamaño de VM contendrá el tamaño recomendado. De lo contrario, Azure Migrate elige un tamaño en función de la coincidencia más cercana en la suscripción de Azure. También puede elegir un tamaño de manera manual en **Tamaño de la máquina virtual de Azure**.
     - **Disco del sistema operativo**: especifique el disco del sistema operativo (arranque) de la máquina virtual. Este es el disco que tiene el cargador de arranque y el instalador del sistema operativo.
@@ -211,7 +211,7 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
 
 9. En **Discos**, especifique si los discos de la máquina virtual se deben replicar en Azure y seleccione el tipo de disco (discos SSD o HDD estándar, o bien discos administrados prémium) en Azure. A continuación, haga clic en **Siguiente**.
     - Puede excluir discos de la replicación.
-    - Si excluye discos, no estarán incluidos en la máquina virtual de Azure después de la migración.
+    - Si excluye discos, no estarán presentes en la máquina virtual de Azure después de la migración.
 
 10. En **Revisar e iniciar la replicación**, revise la configuración y haga clic en **Replicar** para iniciar la replicación inicial de los servidores.
 
@@ -272,7 +272,7 @@ Ahora, Contoso debe completar estos pasos de limpieza:
 - Actualizar la documentación interna para mostrar la nueva ubicación y las direcciones IP de las VM.
 - Revisar los recursos que interactúan con las VM y actualizar las opciones de configuración pertinentes o la documentación para reflejar la nueva configuración.
 
-## <a name="review-the-deployment"></a>Revisar la implementación
+## <a name="review-the-deployment"></a>Revisión de la implementación
 
 Con la aplicación en ejecución, Contoso ahora debe ponerla totalmente en funcionamiento y protegerla en Azure.
 

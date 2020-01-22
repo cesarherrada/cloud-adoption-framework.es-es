@@ -8,12 +8,12 @@ ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 8a632f9632c1ad5bf6abbfeb60096e2cfadce141
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: b9bc3a5c2b2bf62c49726a29cedbac81d1d1a96e
+ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240141"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76520181"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Seguimiento de los costos en unidades de negocio, entornos o proyectos
 
@@ -59,7 +59,7 @@ En el diagrama se muestran los procedimientos recomendados, pero no se incluyen 
 
 En el resto de este artículo se da por hecho que se utiliza el enfoque de procedimientos recomendados del diagrama anterior. Sin embargo, los siguientes artículos pueden ayudarlo a aplicar el enfoque a una organización de recursos que se adapta mejor a su empresa:
 
-- [Escalado de varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
+- [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
 - [Implementación de un MVP de gobernanza para controlar los estándares de un entorno bien administrado](../../govern/guides/complex/index.md)
 
 ## <a name="provide-the-right-level-of-cost-access"></a>Proporcionar el nivel adecuado de acceso a los costos
@@ -126,7 +126,7 @@ Para obtener más información sobre cómo empezar a usar Azure Cost Management,
 
 ### <a name="use-azure-cost-management-to-govern-aws-costs"></a>Uso de Azure Cost Management para controlar los costos de AWS
 
-- [Integración de informes de uso y costos de AWS](https://docs.microsoft.com/azure/cost-management/aws-integration-set-up-configure)
+- [Integración de informes de uso y costos de AWS](https://docs.microsoft.com/azure/cost-management-billing/costs/aws-integration-set-up-configure)
 - [Administración de los costos de AWS](https://docs.microsoft.com/azure/cost-management/aws-integration-manage)
 
 ### <a name="establish-access-roles-and-scope"></a>Establecimiento de acceso, roles y ámbito
