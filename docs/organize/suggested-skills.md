@@ -1,7 +1,7 @@
 ---
-title: Ruta de preparación de aptitudes
+title: Desarrollo de aptitudes técnicas
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Información general sobre la ruta de preparación de aptitudes
+description: Introducción a la ruta de preparación de aptitudes durante la fase de preparación de una migración.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c8954fbb4e5c17ec43951270ded2708cfb3432df
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 21239c8fafe4ef202ec7feba054b8d176fe598ff
+ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564244"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76520164"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration"></a>Ruta de preparación de aptitudes durante la fase de preparación de una migración
 
