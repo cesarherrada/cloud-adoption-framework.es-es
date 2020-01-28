@@ -69,7 +69,7 @@
       items:
         - name: Información general
           href: plan/plan-intro.md
-        - name: Requisitos previos
+        - name: Prerequisites
           href: plan/prerequisites.md
         - name: Implementación de la plantilla en Azure DevOps
           href: plan/template.md
@@ -283,7 +283,7 @@
               items:
                 - name: Información general
                   href: migrate/azure-best-practices/vmware-host.md
-                - name: Requisitos previos
+                - name: Prerequisites
                   items:
                     - name: Protección del entorno
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/private-cloud-secure?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
@@ -387,7 +387,7 @@
                       items:
                         - name: Migración de ASE de SAP a Azure SQL Database
                           href: 'https://datamigration.microsoft.com/scenario/sybase-to-azuresqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Access
+                    - name: Acceso
                       items:
                         - name: Migración de Access a Azure SQL Database
                           href: 'https://datamigration.microsoft.com/scenario/access-to-azuresqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
@@ -471,7 +471,7 @@
           items:
             - name: Información general
               href: migrate/migration-considerations/index.md
-            - name: Requisitos previos
+            - name: Prerequisites
               items:
                 - name: Información general
                   href: migrate/migration-considerations/prerequisites/index.md
@@ -817,8 +817,8 @@
                       href: 'https://docs.microsoft.com/azure/iot-fundamentals/iot-security-architecture?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Introducción a Azure Sphere
                       href: 'https://azure.microsoft.com/services/azure-sphere/get-started/'
-                    - name: Implementación de aplicaciones de forma inalámbrica con Azure Sphere
-                      href: 'https://docs.microsoft.com/azure-sphere/deployment/application-deployment-steps?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                    - name: Creación de una implementación con Azure Sphere
+                      href: 'https://docs.microsoft.com/azure-sphere/deployment/create-a-deployment?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Introducción a Azure Kinect DK
                       href: 'https://docs.microsoft.com/azure/Kinect-dk/about-azure-kinect-dk?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Creación de la primera aplicación de Azure Kinect DK
@@ -857,8 +857,6 @@
                   items:
                     - name: 'Azure Machine Learning: del experimento a los servicios operativos'
                       href: 'https://docs.microsoft.com/azure/machine-learning/studio/model-progression-experiment-to-web-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Publicación de Azure Machine Learning en servicios web para el consumo de aplicaciones
-                      href: 'https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Puesta en funcionamiento de ML Services en Azure HDInsight
                       href: 'https://docs.microsoft.com/azure/hdinsight/r-server/r-server-operationalize?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
 - name: Control
@@ -941,7 +939,7 @@
               href: govern/policy-compliance/cloud-security-readiness.md
             - name: Revisión de la directiva en la nube
               href: govern/policy-compliance/cloud-policy-review.md
-            - name: Clasificación de los datos
+            - name: Clasificación de datos
               href: govern/policy-compliance/data-classification.md
     - name: Materias de gobernanza en la nube
       href: govern/governance-disciplines.md
@@ -1047,7 +1045,7 @@
               href: govern/deployment-acceleration/discipline-improvement.md
             - name: Herramientas de aceleración de la implementación de Azure
               href: govern/deployment-acceleration/toolchain.md
-- name: administración
+- name: Administrar
   items:
     - name: Información general
       href: manage/index.md
@@ -1107,7 +1105,7 @@
               href: manage/monitor/index.md
             - name: Supervisión de modelos en la nube
               href: manage/monitor/cloud-models-monitor-overview.md
-            - name: Colección de datos
+            - name: 'datos, recopilación'
               href: manage/monitor/data-collection.md
             - name: Alertas
               href: manage/monitor/alerting.md
@@ -1217,7 +1215,7 @@
               href: decision-guides/software-defined-network/index.md
             - name: solo PaaS
               href: decision-guides/software-defined-network/paas-only.md
-            - name: Nativas de la nube
+            - name: Nativo de la nube
               href: decision-guides/software-defined-network/cloud-native.md
             - name: Red perimetral en la nube
               href: decision-guides/software-defined-network/cloud-dmz.md
