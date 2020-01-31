@@ -1,6 +1,5 @@
 ---
 title: Servicios y herramientas de administración de servidores de Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Servicios y herramientas de administración de servidores de Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 51564add9bfe50ab494b39344eb24d3079fce000
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: dbb2d190fcbe787cd3ee26cc0803566b398e945d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565276"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807944"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Servicios y herramientas de administración de servidores de Azure
 
@@ -98,7 +97,7 @@ Para obtener información sobre los precios de los servicios de administración 
 - [Azure Security Center](https://azure.microsoft.com/pricing/details/security-center)
 
 - [Azure Automation](https://azure.microsoft.com/pricing/details/automation), que incluye:
-  - Configuración de estado deseada
+  - Configuración de estado deseado
   - Servicio Azure Update Management
   - Servicios Azure Change Tracking e Inventario
 

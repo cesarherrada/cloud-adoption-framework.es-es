@@ -1,6 +1,5 @@
 ---
 title: Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Después de migrar a Azure, consulte los procedimientos recomendados para la operación, administración y protección de las cargas de trabajo migradas.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e2fb2587b5e6e0914c6a9facc062d817a508897e
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: fd0d65910b3a62170ce1f0d50ae73af1d4c99899
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160056"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803847"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
 
@@ -194,7 +193,7 @@ Azure proporciona otras características de seguridad que ofrecen opciones avanz
 
 En esta sección se le recomiendan algunos procedimientos para la administración de Azure, incluidos:
 
-- [Administración de recursos](#best-practice-name-resource-groups): procedimientos recomendados para los grupos de recursos y los recursos de Azure, como la nomenclatura inteligente, la prevención de la eliminación accidental, la administración de los permisos de recursos y el etiquetado eficaz de los recursos.
+- [Administrar recursos](#best-practice-name-resource-groups): procedimientos recomendados para los grupos de recursos y los recursos de Azure, como la nomenclatura inteligente, la prevención de la eliminación accidental, la administración de los permisos de recursos y el etiquetado eficaz de los recursos.
 - [Uso de planos técnicos](#best-practice-implement-blueprints): obtenga una visión general rápida sobre el uso de planos técnicos para crear y administrar los entornos de implementación.
 - [Revisión de las arquitecturas](#best-practice-review-azure-reference-architectures): revise arquitecturas de Azure de ejemplo para obtener información al crear las implementaciones posteriores a la migración.
 - [Configuración de grupos de administración](#best-practice-manage-resources-with-azure-management-groups): si tiene varias suscripciones, puede reunirlas en grupos de administración y aplicar la configuración de gobernanza a esos grupos.
@@ -342,7 +341,7 @@ En la mayoría de los casos, una carga de trabajo local se retira tras la migrac
 
 Para cargas de trabajo que se ejecutan en máquinas virtuales de IaaS de Azure, tenga en cuenta estas soluciones de copia de seguridad:
 
-- **Azure Backup:** proporciona copias de seguridad coherentes con la aplicación para máquinas virtuales Windows y Linux de Azure.
+- **Azure Backup:** proporciona copias de seguridad coherentes con la aplicación para máquinas virtuales Windows y Linux de Azure.
 - **Instantáneas de almacenamiento:** tome instantáneas del almacenamiento de blobs.
 
 #### <a name="azure-backup"></a>Azure Backup

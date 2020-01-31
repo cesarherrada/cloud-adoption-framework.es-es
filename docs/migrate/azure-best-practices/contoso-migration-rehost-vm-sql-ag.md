@@ -1,6 +1,5 @@
 ---
 title: Rehospedaje de una aplicación local mediante su migración a las VM de Azure y los grupos de disponibilidad Always On de SQL Server
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre cómo Contoso rehospeda una aplicación local migrándola a las VM de Azure y a los grupos de disponibilidad AlwaysOn de SQL Server.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: e4d8ab371e01d98e22382a70cc9c1ea42173cf53
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: b5b8710c8545fa2e7c56131ed74a0ea1a3a02f8e
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160345"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807434"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms-and-sql-server-always-on-availability-groups"></a>Rehospedaje de una aplicación local en las VM de Azure y los grupos de disponibilidad Always On de SQL Server
 
@@ -114,7 +113,7 @@ Los administradores de Contoso migrarán las máquinas virtuales de la aplicaci�
 
 ![Proceso de migración](media/contoso-migration-rehost-vm-sql-ag/migration-process.png)
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que debe hacer Contoso en este escenario.
 
@@ -128,18 +127,18 @@ Esto es lo que debe hacer Contoso en este escenario.
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="scenario-steps"></a>Pasos del escenario:
+## <a name="scenario-steps"></a>Pasos del escenario
 
 Contoso ejecutará la migración de la forma siguiente:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Preparación de un clúster.** cree un clúster para implementar dos nodos de máquina virtual de SQL Server en Azure.
-> - **Paso 2: Implementación y configuración del clúster.** prepare un clúster de Azure SQL Server. Las bases de datos se migran a este clúster existente.
-> - **Paso 3: Implementación del equilibrador de carga.** implemente un equilibrador de carga para equilibrar el tráfico entre los nodos de SQL Server.
-> - **Paso 4: Preparación de Azure Site Recovery.** cree una cuenta de Azure Storage que contenga los datos replicados, así como un almacén de Recovery Services.
-> - **Paso 5: Preparación de VMware local para Site Recovery.** prepare cuentas para la instalación del agente y la detección de máquinas virtuales. Prepare las máquinas virtuales locales para que los usuarios puedan conectarse a las máquinas virtuales de Azure después de la migración.
-> - **Paso 6: Replicación de máquinas virtuales.** habilite la replicación de máquinas virtuales en Azure.
+> - **Paso 1: Preparación de un clúster.** cree un clúster para implementar dos nodos de máquina virtual de SQL Server en Azure.
+> - **Paso 2: Implementación y configuración del clúster.** prepare un clúster de Azure SQL Server. Las bases de datos se migran a este clúster existente.
+> - **Paso 3: Implementación del equilibrador de carga.** implemente un equilibrador de carga para equilibrar el tráfico entre los nodos de SQL Server.
+> - **Paso 4: Preparación de Azure Site Recovery.** cree una cuenta de Azure Storage que contenga los datos replicados, así como un almacén de Recovery Services.
+> - **Paso 5: Preparación de VMware local para Site Recovery.** prepare cuentas para la instalación del agente y la detección de máquinas virtuales. Prepare las máquinas virtuales locales para que los usuarios puedan conectarse a las máquinas virtuales de Azure después de la migración.
+> - **Paso 6: Replicación de máquinas virtuales.** habilite la replicación de máquinas virtuales en Azure.
 > - **Paso 7: Instalación de DMA.** Descargue e instale Data Migration Assistant.
 > - **Paso 8: Migración de la base de datos con DMA.** migre la base de datos en Azure.
 > - **Paso 9: Protección de la base de datos.** Cree un grupo de disponibilidad AlwaysOn para el clúster.
@@ -214,7 +213,7 @@ Los administradores de Contoso crean una cuenta de almacenamiento de la manera s
 
 Antes de configurar el clúster, los administradores de Contoso toman una instantánea del disco del sistema operativo en cada máquina.
 
-![Creación de una instantánea](media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
+![Creación de instantáneas](media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
 
 1. A continuación, ejecuta un script que ha preparado para crear el clúster de conmutación por error de Windows.
 
@@ -313,7 +312,7 @@ Crea el sondeo como se muestra a continuación:
 Estos son los componentes de Azure que Contoso necesita para implementar Site Recovery:
 
 - Una red virtual en la que ubicar las máquinas virtuales cuando se creen durante la conmutación por error.
-- Una cuenta de Azure Storage para almacenar los datos replicados.
+- Una cuenta de almacenamiento de Azure para almacenar los datos replicados.
 - Un almacén de Recovery Services en Azure.
 
 Los administradores de Contoso los configuran de la manera siguiente:
@@ -383,14 +382,14 @@ Tras la conmutación por error, Contoso quiere conectarse a las máquinas virtua
    - Permite RDP en **Firewall de Windows** -> **Aplicaciones y características permitidas** para las redes de **dominio y privadas**.
    - Establece la directiva SAN del sistema operativo de la VM local en **OnlineAll**.
 
-Además, cuando ejecuta una conmutación por error, Contoso debe comprobar lo siguiente:
+Además, cuando ejecuta una conmutación por error, debe comprobar lo siguiente:
 
 - No debe haber actualizaciones de Windows pendientes en la VM cuando se desencadene una conmutación por error. Si las hay, los usuarios no podrán iniciar sesión en la máquina virtual hasta que se completen.
 - Después de la conmutación por error, puede comprobar los **diagnósticos de arranque** para ver una captura de pantalla de la VM. Si no funciona, debe comprobar que la VM está en ejecución, así como revisar estas [sugerencias de solución de problemas](https://social.technet.microsoft.com/wiki/contents/articles/31666.troubleshooting-remote-desktop-connection-after-failover-using-asr.aspx).
 
 **¿Necesita más ayuda?**
 
-- [Averigüe](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery) cómo puede crear y asignar un rol para la detección automática.
+- [Más información](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery) sobre cómo crear y asignar un rol para la detección automática.
 - [Más información](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-mobility-service-installation) sobre cómo crear una cuenta para la instalación de inserción de Mobility Service.
 
 ## <a name="step-6-replicate-the-on-premises-vms-to-azure-with-site-recovery"></a>Paso 6: Replicación de las máquinas virtuales locales en Azure con Site Recovery

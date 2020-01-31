@@ -1,6 +1,5 @@
 ---
 title: Declaraciones de directiva de ejemplo de la base de referencia de la seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Declaraciones de directiva de ejemplo de la base de referencia de la seguridad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,26 +8,26 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 312a3f4e6577b0a0db525e6428bf7e1b2616b625
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: ba0887b93664ac77fc2933c24631110dfab14be0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160532"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808879"
 ---
 # <a name="security-baseline-sample-policy-statements"></a>Declaraciones de directiva de ejemplo de la base de referencia de la seguridad
 
 Cada declaración de directiva de nube es una guía para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
-- **Riesgo técnico**: Un resumen del riesgo que esta directiva abordará.
+- **Riesgo técnico:** Un resumen del riesgo que esta directiva abordará.
 - **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.
 - **Opciones técnicas**: Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
 
-Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos empresariales comunes relacionados con la seguridad. Estas instrucciones son ejemplos a los que se puede hacer referencia al elaborar el borrador de instrucciones de directiva para satisfacer las necesidades de su organización. Estos ejemplos no pretenden ser excluyentes y hay varias opciones posibles de directiva para solucionar cada riesgo concreto identificado. Trabaje estrechamente con los equipos de TI, seguridad y negocio para identificar las mejores directivas para su conjunto de riesgos en particular.
+Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos empresariales comunes relacionados con la seguridad. Estas declaraciones son ejemplos a los que se puede hacer referencia al elaborar el borrador de las declaraciones de directiva para satisfacer las necesidades de su organización. Estos ejemplos no pretenden ser excluyentes y hay varias opciones posibles de directiva para solucionar cada riesgo concreto identificado. Trabaje estrechamente con los equipos de TI, seguridad y negocio para identificar las mejores directivas para su conjunto de riesgos en particular.
 
 ## <a name="asset-classification"></a>Clasificación de los recursos
 
-**Riesgo técnico**: los recursos que no están identificados correctamente como críticos para la misión o que trabajan con datos confidenciales podrían no estar suficientemente protegidos, dando lugar a posibles pérdidas de datos o interrupciones de la actividad.
+**Riesgo técnico:** los recursos que no están identificados correctamente como críticos para la misión o que trabajan con datos confidenciales podrían no estar suficientemente protegidos, dando lugar a posibles pérdidas de datos o interrupciones de la actividad.
 
 **Declaración de directiva**: Todos los recursos implementados deben categorizarse por importancia y clasificación de datos. El equipo de gobernanza de la nube y el propietario de la aplicación deben revisar las clasificaciones antes de la implementación en la nube.
 
@@ -36,7 +35,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="data-encryption"></a>Cifrado de datos
 
-**Riesgo técnico**: hay un riesgo de exposición durante el almacenamiento de datos protegidos.
+**Riesgo técnico:** hay un riesgo de exposición durante el almacenamiento de datos protegidos.
 
 **Declaración de directiva**: todos los datos protegidos deben estar cifrados cuando están en reposo.
 
@@ -44,7 +43,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="network-isolation"></a>Aislamiento de red
 
-**Riesgo técnico**: la conectividad entre las redes y subredes presenta posibles vulnerabilidades que pueden dar lugar a la pérdida de datos o la interrupción de servicios críticos.
+**Riesgo técnico:** la conectividad entre las redes y subredes presenta posibles vulnerabilidades que pueden dar lugar a la pérdida de datos o la interrupción de servicios críticos.
 
 **Declaración de directiva**: las subredes que contengan datos protegidos deben aislarse de las otras subredes. El tráfico de red entre las subredes de datos protegidos se debe auditar periódicamente.
 
@@ -52,7 +51,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="secure-external-access"></a>Acceso externo seguro
 
-**Riesgo técnico**: permitir el acceso a las cargas de trabajo desde la red pública de Internet presenta un riesgo de intrusión y, como consecuencia, una exposición no autorizada de los datos o la interrupción del negocio.
+**Riesgo técnico:** permitir el acceso a las cargas de trabajo desde la red pública de Internet presenta un riesgo de intrusión y, como consecuencia, una exposición no autorizada de los datos o la interrupción del negocio.
 
 **Declaración de directiva**: no se podrá acceder directamente desde Internet a ninguna subred que contenga datos protegidos, ni desde un centro de datos a otro. El acceso a esas subredes debe enrutarse a través de subredes intermedias. Todo el acceso a esas subredes debe realizarse a través de una solución de firewall que pueda realizar funciones de análisis y bloqueo de paquetes.
 
@@ -60,7 +59,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="ddos-protection"></a>Protección contra DDOS
 
-**Riesgo técnico**: los ataques por denegación de servicio distribuido (DDoS) pueden provocar una interrupción del negocio.
+**Riesgo técnico:** los ataques por denegación de servicio distribuido (DDoS) pueden provocar una interrupción del negocio.
 
 **Declaración de directiva**: implemente mecanismos automatizados de mitigación de ataques DDoS en todos los puntos de conexión de red accesibles públicamente. No se debe exponer a Internet ningún sitio web público con respaldo de IaaS sin DDoS.
 
@@ -68,7 +67,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="secure-on-premises-connectivity"></a>Protección de la conectividad local
 
-**Riesgo técnico**: el tráfico sin cifrar que circula entre su red en la nube y el entorno local a través de la red pública de Internet puede ser interceptado, con el riesgo de que los datos queden expuestos.
+**Riesgo técnico:** el tráfico sin cifrar que circula entre su red en la nube y el entorno local a través de la red pública de Internet puede ser interceptado, con el riesgo de que los datos queden expuestos.
 
 **Declaración de directiva**: todas las conexiones entre el entorno local y las redes en la nube deben realizarse mediante una conexión de VPN cifrada segura o un vínculo WAN privado dedicado.
 
@@ -76,7 +75,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="network-monitoring-and-enforcement"></a>Supervisión de la red y cumplimiento
 
-**Riesgo técnico**: los cambios realizados en la configuración de la red pueden provocar nuevas vulnerabilidades y riesgos de exposición de los datos.
+**Riesgo técnico:** los cambios realizados en la configuración de la red pueden provocar nuevas vulnerabilidades y riesgos de exposición de los datos.
 
 **Declaración de directiva**: las herramientas de gobernanza deben auditar y aplicar los requisitos de configuración de red definidos por el equipo de la base de referencia de la seguridad.
 
@@ -84,7 +83,7 @@ Las siguientes instrucciones de directiva de ejemplo abordan algunos riesgos emp
 
 ## <a name="security-review"></a>Revisión de la seguridad
 
-**Riesgo técnico**: con el tiempo, aparecen nuevas amenazas para la seguridad y nuevos tipos de ataques, que aumentan el riesgo de exposición o la interrupción de los recursos en la nube.
+**Riesgo técnico:** con el tiempo, aparecen nuevas amenazas para la seguridad y nuevos tipos de ataques, que aumentan el riesgo de exposición o la interrupción de los recursos en la nube.
 
 **Declaración de directiva**: el equipo de seguridad debe revisar periódicamente las tendencias y vulnerabilidades que podrían afectar a las implementaciones en la nube para proporcionar actualizaciones a las herramientas de la base de referencia de la seguridad que se usan en la nube.
 
@@ -96,9 +95,9 @@ Use los ejemplos mencionados en este artículo como punto de partida para desarr
 
 Para comenzar a desarrollar sus propias declaraciones de directiva personalizadas relativas a la base de referencia de la seguridad, descargue la [plantilla de base de referencia de la seguridad](./template.md).
 
-Para acelerar la adopción de esta disciplina, elija la [guía de gobernanza accionable](../guides/index.md) que más se aproxime a su entorno. Después, modifique el diseño para incorporar las decisiones de directiva específicas de su organización.
+Para acelerar la adopción de esta materia, elija la [guía accionable de gobernanza](../guides/index.md) que más se ajuste a su entorno. Después, modifique el diseño para incorporar las decisiones de directiva específicas de su organización.
 
 A partir de los riesgos y la tolerancia, establezca un proceso para gobernar y comunicar la adhesión a la directiva de base de referencia de seguridad.
 
 > [!div class="nextstepaction"]
-> [Definición de procesos para el cumplimiento de directivas](./compliance-processes.md)
+> [Establecimiento de procesos para el cumplimiento de directivas](./compliance-processes.md)

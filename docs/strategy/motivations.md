@@ -1,6 +1,5 @@
 ---
 title: 'Motivaciones: ¿por qué se realiza el traslado a la nube?'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Justificación de la nube y traslado a ella
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 65ef12ca476ca624ae1e71cce2e62d41141873a9
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6c774da4fa90c8a6806021b96d0519edebecfc61
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73561599"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798152"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -31,7 +30,7 @@ Las transformaciones empresariales sustentadas por la adopción de la nube puede
 
 | Eventos empresariales críticos | Migración | Innovación |
 |---|---|---|
-| Salida del centro de datos<br/><br/>Fusión, adquisición o desinversión<br/><br/>Reducción de gastos de capital<br/><br/>Finalización del soporte técnico para tecnologías críticas<br/><br/>Respuesta a cambios de cumplimiento normativo<br/><br/>Nuevos requisitos de soberanía de datos<br/><br/>Reducción de interrupciones y mejora de la estabilidad de TI | Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de operaciones internas<br/><br/>Aumento de agilidad empresarial<br/><br/>Preparación para nuevas funcionalidades técnicas<br/><br/>Escalado para satisfacer demandas del mercado<br/><br/>Escalado para satisfacer demandas geográficas | Preparación para nuevas funcionalidades técnicas<br/><br/>Creación de nuevas funcionalidades técnicas<br/><br/>Escalado para satisfacer demandas del mercado<br/><br/>Escalado para satisfacer demandas geográficas<br/><br/>Experiencias de los clientes mejoradas e involucración<br/><br/>Transformación de productos o servicios<br/><br/>Perturbación del mercado con nuevos productos o servicios |
+| Salida del centro de datos<br/><br/>Fusión, adquisición o desinversión<br/><br/>Reducción de gastos de capital<br/><br/>Finalización del soporte técnico de tecnologías críticas<br/><br/>Respuesta a los cambios de cumplimiento normativo<br/><br/>Nuevos requisitos de soberanía de datos<br/><br/>Reducción de interrupciones y mejora de la estabilidad de TI | Ahorros en costos<br/><br/>Reducción de la complejidad técnica o de proveedores<br/><br/>Optimización de las operaciones internas<br/><br/>Aumento de agilidad empresarial<br/><br/>Preparación para nuevas funcionalidades técnicas<br/><br/>Escalado para satisfacer demandas del mercado<br/><br/>Escalado para satisfacer demandas geográficas | Preparación para nuevas funcionalidades técnicas<br/><br/>Creación de nuevas funcionalidades técnicas<br/><br/>Escalado para satisfacer demandas del mercado<br/><br/>Escalado para satisfacer demandas geográficas<br/><br/>Experiencias de los clientes mejoradas e involucración<br/><br/>Transformación de productos o servicios<br/><br/>Perturbación del mercado con nuevos productos o servicios |
 
 ## <a name="classify-your-motivations"></a>Clasificación de las motivaciones
 

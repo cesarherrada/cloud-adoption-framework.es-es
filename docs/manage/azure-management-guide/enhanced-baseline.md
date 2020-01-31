@@ -1,6 +1,5 @@
 ---
 title: Línea base de administración mejorada en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejoras comunes en la línea base de administración
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 8cdd9a48d8d229fdca7cba383d677a49525d06cc
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ad40011769152d906481fe8ffba5dead3f6b0ae5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752966"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808250"
 ---
 # <a name="enhanced-management-baseline-in-azure"></a>Línea base de administración mejorada en Azure
 
@@ -37,7 +36,7 @@ Sin embargo, podría ser necesario un mayor compromiso con la empresa más allá
   - Las mejoras de resistencia afectan a todas las cargas de trabajo que usan la plataforma definida.
   - Se sugieren para aproximadamente el 20 % de las plataformas que tienen una importancia crítica.
   - Normalmente se reservan para cargas de trabajo de importancia media a importancia crítica.
-- **Línea base de administración mejorada:**
+- **Línea de base de administración mejorada:**
   - Inversión más baja para operaciones relativas.
   - Se han mejorado ligeramente los compromisos empresariales mediante herramientas y procesos de operaciones nativos de la nube.
 
@@ -110,7 +109,7 @@ Azure Security Center se ofrece en dos niveles: Gratis y Estándar. Caracterí
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 #### <a name="try-standard-tier-for-free-for-your-first-30-days"></a>Probar el nivel Estándar gratis durante los primeros 30 días
 

@@ -1,6 +1,5 @@
 ---
 title: Uso de Terraform para crear zonas de aterrizaje
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre le uso de Terraform para crear zonas de aterrizaje.
 author: arnaudlh
 ms.author: arnaul
@@ -8,12 +7,12 @@ ms.date: 10/16/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 62f6f8f52d669c2822b822218612986be4503378
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 54fa496c7b97231a8ad8cc7150717bb942bf07a2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753754"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798985"
 ---
 # <a name="use-terraform-to-build-your-landing-zones"></a>Uso de Terraform para crear zonas de aterrizaje
 
@@ -73,7 +72,7 @@ Las siguientes decisiones se representan en la zona de aterrizaje de Terraform:
 |Detalles de la suscripción | N/A: diseñado para una sola suscripción de producción | [Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md) |
 | Grupos de administración | N/A: diseñado para una sola suscripción de producción |[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md) |
 | Grupos de recursos | N/A: diseñado para una sola suscripción de producción | [Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md) |
-| Datos | N/D | [Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+| data | N/D | [Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Storage|N/D|[Guía de Azure Storage](../considerations/storage-options.md) |
 | Estándares de nomenclatura | Cuando se crea el entorno, también se crea un prefijo único. Los recursos que requieren un nombre único global (como las cuentas de almacenamiento) utilizan este prefijo. El nombre personalizado se anexa con un sufijo aleatorio. El uso de etiquetas se ordena como se describe en la tabla siguiente. | [Procedimientos recomendados de nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md) |
 | Administración de costos | N/D | [Seguimiento de costos](../azure-best-practices/track-costs.md) |
@@ -83,7 +82,7 @@ Las siguientes decisiones se representan en la zona de aterrizaje de Terraform:
 
 El conjunto de etiquetas mínimas siguiente debe estar presente en todos los recursos y grupos de recursos:
 
-| Nombre de etiqueta | DESCRIPCIÓN | Clave | Valor de ejemplo |
+| Nombre de etiqueta | Descripción | Clave | Valor de ejemplo |
 |--|--|--|--|
 | Unidad de negocio | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. | BusinessUnit | FINANCE, MARKETING, {Product Name}, CORP, SHARED |
 | Centro de costo | Centro de costo de contabilidad asociado a este recurso.| CostCenter | Number |
@@ -189,7 +188,7 @@ security_center = {
 }
 ```
 
-## <a name="get-started"></a>Primeros pasos
+## <a name="get-started"></a>Introducción
 
 Una vez que haya revisado la configuración, podrá implementar la configuración como implementaría un entorno de Terraform. Sin embargo, se recomienda usar el róver, que es un contenedor de Docker que permite la implementación desde Windows, Linux o MacOS. Puede empezar a usar el [repositorio de GitHub del róver](https://github.com/aztfmod/rover).
 

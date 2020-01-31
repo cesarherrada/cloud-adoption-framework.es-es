@@ -1,6 +1,5 @@
 ---
 title: Racionalización de la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Revise las opciones disponibles para racionalizar un patrimonio digital.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 91ea4b076740bb745a32f2197d9ddc14970d75f0
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 1a74487a77388e6260c177096d9563dbe6646cf2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73238807"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806567"
 ---
 # <a name="cloud-rationalization"></a>Racionalización de la nube
 
@@ -111,7 +110,7 @@ Factores de análisis cualitativo:
 - Costos operativos
 - Posibles bucles de comentarios e inversiones en DevOps.
 
-## <a name="rebuild"></a>Recompilación
+## <a name="rebuild"></a>Volver a generar
 
 En algunos casos, los obstáculos que deben salvarse para llevar adelante una aplicación pueden ser demasiado grandes como para justificar la inversión. Esto ocurre especialmente en el caso de las aplicaciones que antes eran útiles para una empresa, pero que ya no son compatibles o no están en línea con los procesos empresariales actuales. En este caso, se crea una nueva base de código para alinearla con un enfoque [nativo de nube](https://azure.microsoft.com/overview/cloudnative).
 

@@ -1,6 +1,5 @@
 ---
 title: Configuración de servicios de administración de servidores de Azure para una suscripción
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Configuración de servicios de administración de servidores de Azure para una suscripción
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c4a0964ed8ec28ead844e1fd15275422adf8f081
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: c3c44f3c53049f29be989616e1d5af041907e497
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656649"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808097"
 ---
 # <a name="configure-azure-server-management-services-at-scale"></a>Configuración de servicios de administración de servidores de Azure a escala
 

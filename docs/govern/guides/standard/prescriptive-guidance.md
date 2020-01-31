@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas estándar: Explicación de los procedimientos recomendados'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre los procedimientos recomendados sobre gobernanza en empresas complejas.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0f7a6b76ba348414b4aed7b40aaffa4867e62c02
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 1705310a335e3fd5aab622b401a6067e8af6d133
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547466"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806805"
 ---
 # <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Guía de gobernanza para empresas estándar: Explicación de los procedimientos recomendados
 
@@ -91,7 +90,7 @@ Las decisiones sobre registro e informes determinan cómo el almacén registra l
 
 A medida que cambia la gobernanza, algunas declaraciones de las directivas no pueden o no deben controlarse mediante herramientas automatizadas. Con el tiempo, otras directivas generarán un esfuerzo por parte del equipo de seguridad de TI y el equipo de administración de identidades local. Para ayudar a administrar los nuevos riesgos que surjan, el equipo de gobernanza de la nube supervisará los procesos siguientes.
 
-**Aceleración de la adopción:** El equipo de gobernanza de la nube ha estado revisando los scripts de implementación en varios equipos. Mantienen un conjunto de scripts que actúan como plantillas de implementación. Los equipos de adopción de la nube y de DevOps usan esas plantillas para definir más rápidamente las implementaciones. Cada uno de esos scripts contiene los requisitos necesarios para hacer cumplir un conjunto de directivas de gobernanza, sin ningún esfuerzo adicional por parte de los ingenieros de adopción de la nube. Como responsables de estos scripts, el equipo de gobernanza de la nube puede implementar más rápidamente los cambios de directivas. Como resultado de la protección de los scripts, se considera al equipo de gobernanza de la nube como una fuente de aceleración de la adopción. Esto genera coherencia entre las implementaciones, sin forzar la adhesión de manera estricta.
+**Aceleración de la adopción:** El equipo de gobernanza de la nube ha estado revisando los scripts de implementación de varios equipos. Mantienen un conjunto de scripts que actúan como plantillas de implementación. Los equipos de adopción de la nube y de DevOps usan esas plantillas para definir más rápidamente las implementaciones. Cada uno de esos scripts contiene los requisitos necesarios para hacer cumplir un conjunto de directivas de gobernanza, sin ningún esfuerzo adicional por parte de los ingenieros de adopción de la nube. Como responsables de estos scripts, el equipo de gobernanza de la nube puede implementar más rápidamente los cambios de directivas. Como resultado de la protección de los scripts, se considera al equipo de gobernanza de la nube como una fuente de aceleración de la adopción. Esto genera coherencia entre las implementaciones, sin forzar la adhesión de manera estricta.
 
 **Aprendizaje para ingenieros:** El equipo de gobernanza de la nube ofrece sesiones de aprendizaje cada dos meses y ha creado dos vídeos para ingenieros. Estos materiales ayudan a los ingenieros a aprender rápidamente la cultura de gobernanza y cómo se hacen las cosas durante las implementaciones. El equipo está agregando recursos de aprendizaje para mostrar la diferencia entre las implementaciones de producción y las que no son de producción, de modo que los ingenieros comprendan cómo afectarán las nuevas directivas al proceso de adopción. Esto genera coherencia entre las implementaciones, sin forzar la adhesión de manera estricta.
 
@@ -99,7 +98,7 @@ A medida que cambia la gobernanza, algunas declaraciones de las directivas no pu
 
 **Auditoría mensual e informes:** Cada mes, el equipo de gobernanza realiza una auditoría de todas las implementaciones de la nube para validar la alineación continua con las directivas. Cuando se detectan desviaciones, se documentan y comparten con los equipos de la adopción de la nube. Cuando el cumplimiento no pone en riesgo una interrupción del negocio ni una pérdida de datos, las directivas se cumplen automáticamente. Al final de la auditoría, el equipo de gobernanza de la nube compila un informe para el equipo de estrategia de la nube y cada equipo de adopción de la nube para comunicar la adhesión general a las directivas. El informe también se almacena con fines de auditoría y legales.
 
-**Revisión trimestral de las directivas:** Cada trimestre, el equipo de gobernanza y el equipo de estrategia de la nube revisan los resultados de la auditoría y sugieren cambios relacionados con las directivas corporativas. Muchas de las sugerencias son consecuencia de mejoras continuas y de la observación de los patrones de uso. Los cambios aprobados en la directiva se integran en las herramientas de gobernanza durante los ciclos de auditoría subsiguientes.
+**Revisión trimestral de la directiva:** Cada trimestre, el equipo de gobernanza y el equipo de estrategia de la nube revisan los resultados de la auditoría y sugieren cambios relacionados con las directivas corporativas. Muchas de las sugerencias son consecuencia de mejoras continuas y de la observación de los patrones de uso. Los cambios aprobados en la directiva se integran en las herramientas de gobernanza durante los ciclos de auditoría subsiguientes.
 
 ## <a name="alternative-patterns"></a>Patrones alternativos
 

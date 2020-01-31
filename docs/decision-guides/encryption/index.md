@@ -1,6 +1,5 @@
 ---
 title: Guía de decisiones sobre cifrado
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca del cifrado como un servicio principal en las migraciones de Azure.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ed394c0bd1748a6e3382835cec816b552217bd01
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 7df170713e10460d9e928837a99287be0afd5805
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753358"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807060"
 ---
 # <a name="encryption-decision-guide"></a>Guía de decisiones sobre cifrado
 
@@ -36,13 +35,13 @@ Los sistemas de administración de claves actuales como, por ejemplo, Azure Key 
 
 Al planear una migración a la nube, la tabla siguiente puede ayudarle a decidir cómo almacenar y administrar claves de cifrado, certificados y secretos, fundamentales para crear implementaciones en la nube seguras y fáciles de administrar:
 
-| Pregunta | Nativas de la nube | Bring Your Own Key | Hold your own key |
+| Pregunta | Nativo de la nube | Bring Your Own Key | Hold your own key |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|-------------|
-| ¿Su organización carece de administración centralizada de claves y secretos?                                                                    | Sí          | No     | Sin          |
-| ¿Necesitará limitar la creación de claves y secretos para dispositivos al hardware local, pero se usarán en la nube? | Sin           | Sí    | Sin          |
-| ¿Su organización cuenta con reglas o directivas vigentes que podrían impedir que las claves se almacenen externamente?                | Sin           | No     | Sí         |
+| ¿Su organización carece de administración centralizada de claves y secretos?                                                                    | Sí          | No     | No          |
+| ¿Necesitará limitar la creación de claves y secretos para dispositivos al hardware local, pero se usarán en la nube? | No           | Sí    | No          |
+| ¿Su organización cuenta con reglas o directivas vigentes que podrían impedir que las claves se almacenen externamente?                | No           | No     | Sí         |
 
-### <a name="cloud-native"></a>Nativas de la nube
+### <a name="cloud-native"></a>Nativo de la nube
 
 Con la administración nativa de claves en la nube, todas las claves y los secretos se generan, administran y almacenan en un almacén basado en la nube como Azure Key Vault. Este enfoque simplifica muchas tareas de TI relacionadas con la administración de claves, como la copia de seguridad, el almacenamiento y la renovación de claves.
 
@@ -74,7 +73,7 @@ Determinados escenarios pueden tener motivos técnicos, normativos o de directiv
 
 Tenga en cuenta los diferentes estados de los datos, con sus diferentes necesidades de cifrado, a la hora de planear la directiva de cifrado:
 
-| Estado de los datos | Datos |
+| Estado de los datos | data |
 |-----|-----|
 | Datos en tránsito | Tráfico de red interno, conexiones a Internet, conexiones entre centros de datos o redes virtuales |
 | Datos en reposo    | Bases de datos, archivos, unidades virtuales, almacenamiento de PaaS |
@@ -129,7 +128,7 @@ Para más información acerca del cifrado y administración de claves en Azure, 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-El cifrado es solo uno de los componentes principales de infraestructura que requiere decisiones de arquitectura durante el proceso de adopción de la nube. Visite la [introducción a las guías de decisión](../index.md) para obtener información sobre los patrones alternativos o los modelos que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
+El cifrado es solo uno de los componentes principales de infraestructura que requiere decisiones de arquitectura durante el proceso de adopción de la nube. Visite la [introducción a las guías de decisión](../index.md) para obtener información sobre los patrones o los modelos alternativos que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
 
 > [!div class="nextstepaction"]
 > [Guías de decisiones sobre arquitectura](../index.md)

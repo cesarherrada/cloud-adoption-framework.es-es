@@ -1,6 +1,5 @@
 ---
 title: Motivaciones de la administración de costos y riesgos empresariales
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Motivaciones de la administración de costos y riesgos empresariales
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,16 +8,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 49fcfb3558da82e34f33f54c4e36780606b1e47d
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 16408b01e06e29fc2697dbbdd053126d026920f0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753258"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806516"
 ---
 # <a name="cost-management-motivations-and-business-risks"></a>Motivaciones de la administración de costos y riesgos empresariales
 
-En este artículo se describen las razones por las que los clientes normalmente adoptan una materia de administración de costos dentro de una estrategia de gobernanza en la nube. También se proporcionan algunos ejemplos de riesgos empresariales que impulsan las declaraciones de directivas.
+En este artículo se describen las razones por las que los clientes normalmente adoptan una materia de administración de costos dentro de una estrategia de gobernanza en la nube. También se proporcionan algunos ejemplos de riesgos empresariales que impulsan las declaraciones de directiva.
 
 <!-- markdownlint-disable MD026 -->
 
@@ -32,11 +31,11 @@ La nube ofrece capacidades de autoservicio que antes no se conocían en los cent
 
 ## <a name="business-risk"></a>Riesgo empresarial
 
-La materia de administración de costos intenta abordar los principales riesgos empresariales relacionados con los gastos que se derivan de hospedar cargas de trabajo basadas en la nube. Trabaje con su empresa para identificar estos riesgos y supervise cada uno de ellos para determinar su pertinencia a medida que planee y aplique sus implementaciones en la nube.
+La materia de Cost Management intenta abordar los principales riesgos empresariales relacionados con los gastos que se derivan de hospedar cargas de trabajo basadas en la nube. Trabaje con su empresa para identificar estos riesgos y supervise cada uno de ellos para determinar su pertinencia a medida que planee y aplique sus implementaciones en la nube.
 
 Los riesgos variarán según la organización, pero los siguientes sirven como riesgos comunes relacionados con los costos que puede usar como punto de partida para debatir en el seno de su equipo de gobernanza de la nube:
 
-- **Control del presupuesto.** No controlar el presupuesto puede llevar a un gasto excesivo con un proveedor de servicios en la nube.
+- **Control del presupuesto:** No controlar el presupuesto puede llevar a un gasto excesivo con un proveedor de servicios en la nube.
 - **Pérdida de uso.** Las compras previas o los compromisos previos que no se utilicen pueden generar inversiones perdidas.
 - **Anomalías en el gasto.** Los aumentos inesperados en cualquier dirección pueden ser indicadores de un uso inadecuado.
 - **Recursos sobreaprovisionados.** La implementación de los recursos en una configuración que supere las necesidades de una aplicación o máquina virtual (VM) puede dar lugar a un desperdicio de los recursos.

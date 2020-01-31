@@ -1,6 +1,5 @@
 ---
 title: Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Después de migrar a Azure, consulte los procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,19 +7,19 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a7f119dcfd2b7cdfc71b8a4c6f913448cd98e763
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: a8a4bc504c085f461cb70f561670fe55a20a544b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753617"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803881"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
 A la hora de planear y diseñar la migración, además de la migración propiamente dicha, uno de los pasos más importantes es el diseño y la implementación de redes de Azure. En este artículo se describen los procedimientos recomendados para las redes al migrar a implementaciones de IaaS y PaaS en Azure.
 
 > [!IMPORTANT]
-> Los procedimientos recomendados y las opiniones que se describen en este artículo se basan en la plataforma Azure y las características del servicio disponibles en el momento de redactar el artículo. Las características y funcionalidades cambian con el tiempo. Es posible que no todas las recomendaciones sean aplicables a su implementación, así que seleccione las que sean válidas en su caso.
+> Los procedimientos recomendados y las opiniones que se describen en este artículo se basan en la plataforma de Azure y las características del servicio disponibles en el momento de redactar el artículo. Las características y funcionalidades cambian con el tiempo. Es posible que no todas las recomendaciones sean aplicables a su implementación, así que seleccione las que sean válidas en su caso.
 
 ## <a name="design-virtual-networks"></a>Diseño de redes virtuales
 
@@ -87,7 +86,7 @@ Para proporcionar aislamiento en una red virtual, ha de segmentarla en una o var
 - Al decidir el intervalo de red para las subredes, es importante tener en cuenta que Azure conserva cinco direcciones IP de cada subred que no se pueden usar. Por ejemplo, si crea la subred más pequeña disponible de /29 (con ocho direcciones IP), Azure conservará cinco direcciones, por lo que solo quedan tres direcciones utilizables que pueden asignarse a los hosts de la subred.
 - Para la mayoría de los casos, use /28 como la subred más pequeña.
 
-**Ejemplo:**
+**Ejemplo**:
 
 La tabla muestra un ejemplo de una red virtual con un espacio de direcciones de 10.245.16.0/20 segmentada en subredes, para una migración planeada.
 
@@ -115,7 +114,7 @@ Azure agrega un servidor DNS de forma predeterminada al implementar una red virt
 - Los servidores DNS especificados para una interfaz de red o un servicio en la nube tienen prioridad sobre los servidores DNS especificados para la red virtual.
 - En el modelo de implementación de Azure Resource Manager, puede especificar servidores DNS para una red virtual y una interfaz de red, pero el procedimiento recomendado consiste en usar la opción solo en las redes virtuales.
 
-    ![Servidores DNS](./media/migrate-best-practices-networking/dns2.png) *servidores DNS para la red virtual*
+    ![Servidores DNS](./media/migrate-best-practices-networking/dns2.png) *Servidores DNS para la red virtual*
 
 **Más información:**
 
@@ -239,7 +238,7 @@ La implementación de conexiones ExpressRoute implica normalmente tomar contacto
 
 Cuando hay varios circuitos ExpressRoute, tiene más de una ruta de acceso para conectarse a Microsoft. Por consiguiente, puede producirse un enrutamiento no óptimo y es posible que el tráfico utilice una ruta de acceso más larga para conectarse con Microsoft y este a su vez, con su red. Cuanto más larga sea la ruta de acceso a la red, mayor será la latencia. La latencia tiene un efecto directo en la experiencia del usuario y en el rendimiento de las aplicaciones.
 
-**Ejemplo:**
+**Ejemplo**:
 
 Vamos a ver un ejemplo:
 
@@ -357,7 +356,7 @@ Los grupos de seguridad de aplicaciones permiten configurar la seguridad de red 
 - Los grupos de seguridad de aplicaciones le permiten reutilizar la directiva de seguridad a escala sin mantenimiento manual de direcciones IP explícitas.
 - Los grupos de seguridad de aplicaciones controlan la complejidad de las direcciones IP explícitas y de varios conjuntos de reglas, lo que le permite centrarse en su lógica de negocios.
 
-**Ejemplo:**
+**Ejemplo**:
 
 ![Grupo de seguridad de aplicaciones](./media/migrate-best-practices-networking/asg.png)
 *Ejemplo de grupo de seguridad de aplicaciones*

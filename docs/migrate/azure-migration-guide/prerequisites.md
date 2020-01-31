@@ -1,6 +1,5 @@
 ---
 title: Requisitos previos para la migración a Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Requisitos previos para la migración a Azure
 author: matticusau
 ms.author: mlavery
@@ -10,16 +9,16 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 93479cb16b25d40d2f49356b19c4722497bc19f4
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 9baf2c9fdd307125e80fa77d8b2be54bec15b931
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251806"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806992"
 ---
 ::: zone target="chromeless"
 
-# <a name="prerequisites"></a>Requisitos previos
+# <a name="prerequisites"></a>Prerequisites
 
 ::: zone-end
 
@@ -93,7 +92,7 @@ Supongamos que elige un enfoque de rehospedaje para la migración, en cuyo caso 
 
 > [!div class="checklist"]
 >
-> - **Alineación de gobernanza:** ¿se logró algún consenso con respecto a la alineación de gobernanza con Migration Foundation?
+> - **Alineación de gobernanza:** ¿Se ha logrado un consenso con respecto a la alineación de la gobernanza con la base de la migración?
 > - **Red:** una estrategia de red debe estar seleccionada y alineada con los requisitos de seguridad de TI.
 > - **Identidad:** una estrategia de identidad híbrida debe estar alineada para ajustarse al plan de adopción de la nube y la administración de identidades.
 
@@ -104,7 +103,7 @@ Supongamos que elige un enfoque de rehospedaje para la migración, en cuyo caso 
 ## <a name="learn-more"></a>Más información
 
 - [Las 5 "R" de la racionalización](../../digital-estate/5-rs-of-rationalization.md).
-- [Guía para la toma de decisiones de las herramientas de migración](../../decision-guides/migrate-decision-guide/index.md).
+- [Guía para la toma de decisiones de las herramientas de migración](../../decision-guides/migrate-decision-guide/index.md)
 - [Lista de comprobación del planeamiento de la Plataforma de adopción de la nube](../migration-considerations/prerequisites/planning-checklist.md).
 
 ::: zone-end

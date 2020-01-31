@@ -1,6 +1,5 @@
 ---
 title: Estrategia de cumplimiento o de gobernanza
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Estrategia de cumplimiento o de gobernanza
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c363f038b5fed3f2c8636b9b15a09625ca42218f
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 17952dc4c3ff28f2fcfe1a378a9efb969d65925b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753539"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803133"
 ---
 # <a name="governance-or-compliance-strategy"></a>Estrategia de cumplimiento o de gobernanza
 
 Cuando se requiere gobernanza o cumplimiento a lo largo de un esfuerzo de migración, se necesita un ámbito adicional. En la siguiente guía se amplía el ámbito de la [guía de migración de Azure](../azure-migration-guide/index.md) para abarcar los distintos enfoques de los requisitos de cumplimiento o de gobernanza.
 
-## <a name="general-scope-expansion"></a>Expansión del ámbito general
+## <a name="general-scope-expansion"></a>Ampliación del ámbito general
 
 La mayor parte de las actividades de requisitos previos se ven afectadas cuando están implicados la gobernanza y el cumplimiento. Pueden ser necesarios ajustes adicionales durante la evaluación, migración y optimización.
 
@@ -51,7 +50,7 @@ Los requisitos de evaluación de gobernanza y cumplimiento son demasiado especí
 
 Para una comprensión más profunda de la gobernanza, consulte el artículo [Las cinco disciplinas de la gobernanza de la nube](../../govern/governance-disciplines.md). En esta sección de Cloud Adoption Framework también se incluyen plantillas para documentar las directivas, las instrucciones y los requisitos de cada una de las cinco secciones:
 
-- [Cost Management](../../govern/cost-management/template.md)
+- [Cost Management](../../govern/cost-management/template.md)
 - [Línea de base de seguridad](../../govern/security-baseline/template.md)
 - [Coherencia de recursos]../../govern/resource-consistency/template.md)
 - [Línea de base de identidad]../../govern/identity-baseline/template.md)

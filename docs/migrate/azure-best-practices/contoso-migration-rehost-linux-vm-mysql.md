@@ -1,6 +1,5 @@
 ---
 title: Rehospedaje de una aplicación del departamento de servicios de Linux en Azure y Azure Database for MySQL
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre cómo Contoso vuelve a hospedar una aplicación de Linux local mediante la migración de VM de Azure y Azure Database for MySQL.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a2a695af758ae7e99a7c2257f3adf4ce5058ae3d
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: d6f812c8f32ec9481942f697151e7ed803654a1b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160328"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807417"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms-and-azure-database-for-mysql"></a>Rehospedaje de una aplicación Linux local en máquinas virtuales de Azure y en Azure Database for MySQL
 
@@ -82,7 +81,7 @@ Migración de la base de datos:
 [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery) | El servicio orquesta y administra la migración y la recuperación ante desastres de las máquinas virtuales de Azure, así como las máquinas virtuales y servidores físicos locales. | Durante la replicación en Azure, se incurre en gastos de Azure Storage. Las máquinas virtuales de Azure se crean, e incurren en gastos, cuando se produce una conmutación por error. [Más información](https://azure.microsoft.com/pricing/details/site-recovery) sobre cargos y precios.
 [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql) | La base de datos se basa en el motor de MySQL Server de código abierto. Proporciona una base de datos MySQL de comunidad completamente administrada y lista para la empresa como un servicio para el desarrollo e implementación de aplicaciones.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que Contoso necesita para este escenario.
 
@@ -103,12 +102,12 @@ Así es como los administradores de Contoso realizarán la migración:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Preparación de Azure Site Recovery.** se crea una cuenta de Azure Storage que contiene los datos replicados, así como un almacén de Recovery Services.
-> - **Paso 2: Preparación de VMware local para Site Recovery.** se prepararán las cuentas para la detección de VM y la instalación del agente para conectarse a las VM de Azure tras la conmutación por error.
-> - **Paso 3: Aprovisionamiento de la base de datos.** En Azure, aprovisionarán una instancia de Azure Database for MySQL.
-> - **Paso 4: Replicación de máquinas virtuales.** el entorno de origen y de destino de Site Recovery se configura, así como una directiva de replicación, y se empiezan a replicar las máquinas virtuales en Azure Storage.
-> - **Paso 5: Migración de la base de datos.** se configura la migración con herramientas de MySQL.
-> - **Paso 6: Migración de las máquinas virtuales mediante Site Recovery.** por último, se ejecuta una conmutación por error de prueba para asegurarse de que todo funciona y, luego, se ejecuta una conmutación por error completa para migrar las VM a Azure.
+> - **Paso 1: Preparación de Azure Site Recovery.** se crea una cuenta de Azure Storage que contiene los datos replicados, así como un almacén de Recovery Services.
+> - **Paso 2: Preparación de VMware local para Site Recovery.** se prepararán las cuentas para la detección de VM y la instalación del agente para conectarse a las VM de Azure tras la conmutación por error.
+> - **Paso 3: Aprovisionamiento de la base de datos.** En Azure, aprovisionarán una instancia de Azure Database for MySQL.
+> - **Paso 4: Replicación de máquinas virtuales.** el entorno de origen y de destino de Site Recovery se configura, así como una directiva de replicación, y se empiezan a replicar las máquinas virtuales en Azure Storage.
+> - **Paso 5: Migración de la base de datos.** se configura la migración con herramientas de MySQL.
+> - **Paso 6: Migrate the VMs with Site Recovery.** por último, se ejecuta una conmutación por error de prueba para asegurarse de que todo funciona y, luego, se ejecuta una conmutación por error completa para migrar las VM a Azure.
 
 ## <a name="step-1-prepare-azure-for-the-site-recovery-service"></a>Paso 1: Preparación de Azure para el servicio Site Recovery
 
@@ -174,7 +173,7 @@ Después de la conmutación por error en Azure, Contoso quiere poder conectarse 
 
 **¿Necesita más ayuda?**
 
-- [Averigüe](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery) cómo puede crear y asignar un rol para la detección automática.
+- [Más información](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery) sobre cómo crear y asignar un rol para la detección automática.
 - [Más información](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-mobility-service-installation) sobre cómo crear una cuenta para la instalación de inserción de Mobility Service.
 
 ## <a name="step-3-provision-azure-database-for-mysql"></a>Paso 3: Aprovisionamiento de Azure Database for MySQL

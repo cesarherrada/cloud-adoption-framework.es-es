@@ -1,19 +1,18 @@
 ---
-title: 'Compromiso empresarial: Administración y operaciones en la nube'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Compromiso empresarial: Administración y operaciones en la nube'
+title: 'Compromiso empresarial: administración y operaciones en la nube'
+description: 'Compromiso empresarial: administración y operaciones en la nube'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 02a4b4debf11507f557951652f362c02e4ae0ecc
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 4827ca2aac045b105beed9c15de366311092a7f2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160393"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807859"
 ---
 # <a name="business-commitment-in-cloud-management"></a>Compromiso empresarial en la administración de la nube
 

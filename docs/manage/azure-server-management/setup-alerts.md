@@ -1,19 +1,18 @@
 ---
 title: Configuración de alertas básicas
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Configuración de alertas básicas
+description: Aprenda a usar los servicios de administración de servidores de Azure para configurar alertas y notificaciones que ayuden a los equipos de TI a mantenerse informados de los problemas que se produzcan.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 5d7469f8613b38ffdaefb41410409fba0c9109fd
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: e24932b074f69f83aff583d560399d884c6c5b0e
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565296"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807961"
 ---
 # <a name="set-up-basic-alerts"></a>Configuración de alertas básicas
 

@@ -1,6 +1,5 @@
 ---
 title: Procesos de cumplimiento de directivas de aceleración de la implementación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Procesos de cumplimiento de directivas de aceleración de la implementación
 author: alexbuckgit
 ms.author: abuck
@@ -9,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: de64b03c6c6113261426beed5de729eb6927a440
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 157f43baa7de8aabfcf3d3823caf962ac6bc2306
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566377"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806380"
 ---
 # <a name="deployment-acceleration-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de aceleración de la implementación
 
 En este artículo se describe un enfoque de los procesos de cumplimiento de directivas que rigen la [aceleración de la implementación](./index.md). Una gobernanza efectiva de la configuración en la nube comienza con los procesos manuales periódicos diseñados para detectar problemas e imponer directivas para remediar los riesgos. Sin embargo, puede automatizar estos procesos y complementarlos con herramientas para reducir la sobrecarga de gobernanza y permitir una respuesta más rápida a las desviaciones.
 
-## <a name="planning-review-and-reporting-processes"></a>Procesos de planificación, revisión e informes
+## <a name="planning-review-and-reporting-processes"></a>Procesos de planeamiento, revisión y generación de informes
 
 Las mejores herramientas de aceleración de la implementación en la nube son solo tan buenas como los procesos y directivas que admiten. El siguiente es un conjunto de procesos de ejemplo que se utilizan normalmente como parte de la materia de aceleración de la implementación. Use estos ejemplos como punto de partida al planear los procesos que le permitirán continuar actualizando la directiva de implementación y configuración en función de los cambios del negocio y los comentarios de los equipos de seguridad y TI responsables de poner en práctica la guía de gobernanza.
 
@@ -62,7 +61,7 @@ Los siguientes desencadenadores y acciones de cumplimiento son ejemplos que pued
 
 Mediante la [plantilla de Cloud Management](./template.md), documente los procesos y desencadenadores que se alinean con el plan de adopción de la nube actual.
 
-Para obtener instrucciones sobre cómo ejecutar directivas de administración en la nube de conformidad con los planes de adopción, consulte el artículo sobre la mejora de la disciplina.
+Para obtener instrucciones acerca de cómo ejecutar directivas de administración en la nube de conformidad con los planes de adopción, consulte el artículo sobre la mejora de la materia.
 
 > [!div class="nextstepaction"]
 > [Mejora de la disciplina de aceleración de la implementación](./discipline-improvement.md)

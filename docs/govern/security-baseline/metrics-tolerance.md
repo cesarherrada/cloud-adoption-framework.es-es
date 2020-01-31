@@ -1,6 +1,5 @@
 ---
 title: Métricas, indicadores y tolerancia al riesgo de la base de referencia de seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Métricas, indicadores y tolerancia al riesgo de la base de referencia de seguridad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b8171839b79ffbe9e3849cf303180d1f1ee049f2
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 1075563dd4596ad6bd1b4ac202a69a1ab1251cba
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222838"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808862"
 ---
 # <a name="security-baseline-metrics-indicators-and-risk-tolerance"></a>Métricas, indicadores y tolerancia al riesgo de la base de referencia de seguridad
 
@@ -42,9 +41,9 @@ Cada organización tiene distintos entornos y requisitos de seguridad y diferent
 
 Las plataformas en la nube proporcionan un conjunto básico de características que permiten a los equipos de implementaciones pequeñas configurar las opciones básicas de seguridad sin un planeamiento adicional amplio. Como resultado, las primeras cargas de trabajo experimentales o de desarrollo/pruebas pequeñas que no incluyen información confidencial representan un nivel de riesgo relativamente bajo, y probablemente no necesitarán demasiado en relación con la directiva formal de la base de referencia de seguridad. Sin embargo, en cuanto los datos importantes o la funcionalidad crítica se transfieren a la nube, los riesgos de seguridad aumentan, mientras que la tolerancia a dichos riesgos se reduce rápidamente. Cuantos más datos y funcionalidades se implementen en la nube, más deberá invertir en la materia de la base de referencia de seguridad.
 
-En las primeras fases de adopción de la nube, trabaje con el equipo de seguridad de TI y las partes interesadas de la empresa para identificar [riesgos de negocio](./business-risks.md) relacionados con la seguridad y, luego, determine una línea de base aceptable para la tolerancia al riesgo de seguridad. En esta sección del marco de adopción de la nube se proporcionan ejemplos, pero los riesgos detallados y las bases de referencia para su empresa o sus implementaciones pueden ser diferentes.
+En las primeras fases de adopción de la nube, trabaje con el equipo de seguridad de TI y las partes interesadas de la empresa para identificar [riesgos de negocio](./business-risks.md) relacionados con la seguridad y, luego, determine una línea de base aceptable para la tolerancia al riesgo de seguridad. En esta sección de Cloud Adoption Framework se proporcionan ejemplos, pero los riesgos y las bases de referencia específicos de su empresa o sus implementaciones pueden ser diferentes.
 
-Una vez que tenga una base de referencia, establezca bancos de pruebas mínimos que representen un aumento inaceptable de los riesgos identificados. Estos bancos de pruebas actúan como desencadenadores cuando necesita tomar medidas para poner remedio a estos riesgos. En los siguientes ejemplos, se muestra cómo las métricas relacionadas con la seguridad, como las descritas anteriormente, pueden justificar una mayor inversión en la materia de la base de referencia de seguridad.
+Una vez que tenga una base de referencia, establezca bancos de pruebas mínimos que representen un aumento inaceptable de los riesgos identificados. Estos bancos de pruebas actúan como desencadenadores cuando se necesita tomar medidas para corregir estos riesgos. En los siguientes ejemplos, se muestra cómo las métricas relacionadas con la seguridad, como las descritas anteriormente, pueden justificar una mayor inversión en la materia de la base de referencia de seguridad.
 
 - **Desencadenador de cargas de trabajo críticas**. Una empresa que implementa cargas de trabajo críticas en la nube debe invertir en la materia de la base de referencia de seguridad para evitar posibles interrupciones del servicio o la exposición de información confidencial.
 - **Desencadenador de datos protegidos**. Una empresa que hospeda datos en la nube que se pueden clasificar como confidenciales, privados o sujetos a otras cuestiones legales. Necesitan una materia de base de referencia de seguridad para garantizar que estos datos no corran el peligro de pérdida, exposición o robo.

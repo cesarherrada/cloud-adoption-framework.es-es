@@ -1,6 +1,5 @@
 ---
 title: Información general de ejemplos de migración de aplicaciones para Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Brinda información general sobre los ejemplos de migración de aplicaciones que se incluyen como parte de la sección Migración de la Plataforma de adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 18b2bc641ba45c83a8ce6c5069857c398801adfd
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: c2e0a27e432141feee526d4cb5fe54380fcde583
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566441"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807383"
 ---
 # <a name="application-migration-patterns-and-examples"></a>Ejemplos y patrones de migración de aplicaciones
 

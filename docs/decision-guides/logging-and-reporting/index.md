@@ -1,6 +1,5 @@
 ---
 title: Guía de decisiones sobre registros e informes
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre registros, informes y supervisión de los servicios principales en las migraciones de Azure.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4328cdf3249b065bf20efd5858254ad9da1dc211
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 038137088abe02160fd199cef468ecc5d5756281
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753166"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806771"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -34,10 +33,10 @@ Al planear la implementación, debe pensar en dónde se almacenarán los datos d
 
 | Pregunta | Nativo de la nube | Extensión local | Supervisión híbrida | Agregación de puerta de enlace |
 |-----|-----|-----|-----|-----|
-| ¿Dispone de una infraestructura de supervisión local existente? | Sin | Sí | Sí |  Sin |
-| ¿Existen requisitos que impidan almacenar los datos de registro en ubicaciones de almacenamiento externas? | Sin | Sí | No | Sin |
-| ¿Necesita integrar la supervisión en la nube con sistemas locales? | Sin | No | Sí | Sin |
-¿Necesita procesar o filtrar datos de telemetría  antes de enviarlos a los sistemas de supervisión? | Sin | No | No | Sí |
+| ¿Dispone de una infraestructura de supervisión local existente? | No | Sí | Sí |  No |
+| ¿Existen requisitos que impidan almacenar los datos de registro en ubicaciones de almacenamiento externas? | No | Sí | No | No |
+| ¿Necesita integrar la supervisión en la nube con sistemas locales? | No | No | Sí | No |
+¿Necesita procesar o filtrar datos de telemetría  antes de enviarlos a los sistemas de supervisión? | No | No | No | Sí |
 
 ### <a name="cloud-native"></a>Nativo de la nube
 
@@ -124,7 +123,7 @@ La compatibilidad con el registro de nube múltiple requiere que el uso de servi
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-El registro y la generación de informes no es más que uno de los componentes de la infraestructura central que requieren decisiones arquitectónicas durante un proceso de adopción en la nube. Visite la [introducción a las guías de decisión](../index.md) para obtener información acerca de los patrones o modelos alternativos que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
+El registro y la generación de informes no es más que uno de los componentes de la infraestructura central que requieren decisiones arquitectónicas durante un proceso de adopción en la nube. Visite la [introducción a las guías de decisión](../index.md) para obtener información sobre los patrones o los modelos alternativos que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
 
 > [!div class="nextstepaction"]
 > [Guías de decisiones sobre arquitectura](../index.md)

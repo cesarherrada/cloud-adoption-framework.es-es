@@ -1,6 +1,5 @@
 ---
 title: Mejora de la materia sobre la base de referencia de la seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejora de la materia sobre la base de referencia de la seguridad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fc7a6bf6553ebc9679aee63a07d6ef3bca847c3a
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 316a848e0f9f3f90a2f7badde3166733dce4a4c0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221725"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808913"
 ---
 # <a name="security-baseline-discipline-improvement"></a>Mejora de la materia sobre la base de referencia de la seguridad
 
@@ -84,7 +83,7 @@ La migración es un proceso incremental que se centra en el traslado, las prueba
 
 - Migre la [cadena de herramientas de su base de referencia de la seguridad](./toolchain.md) de la fase anterior a la implementación a la fase de producción.
 - Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 
 **Posible actividades:**
 

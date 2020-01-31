@@ -1,6 +1,5 @@
 ---
 title: Descripción de las opciones de colaboración y soporte técnico
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Describe las opciones y los enfoques para brindar soporte técnico a los esfuerzos de migración
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 70ae0b048b0cf5e3bd364f8c0cc1051c515c39ea
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 9a525ab1c87f1cbb4c662c6f902e73de93c0204c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159894"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802470"
 ---
 # <a name="understand-partnership-options"></a>Descripción de las opciones de colaboración
 
@@ -94,10 +93,10 @@ Si tiene alguna pregunta o necesita ayuda, [cree una solicitud de soporte técni
 
 Los proveedores de soluciones certificados de Microsoft se especializan en brindar soluciones de cliente actualizadas basadas en la tecnología de Microsoft en todo el mundo. Optimice su negocio en la nube con la ayuda de un asociado experimentado.
 
-Obtenga ayuda de asociados que tengan soluciones de Azure personalizadas o listas para usar, así como asociados que lo puedan ayudar a implementar y administrar esas soluciones:
+Obtenga ayuda de asociados que tengan soluciones de Azure personalizadas o listas para usar, así como asociados que puedan ayudarle a implementar y administrar esas soluciones:
 
 - **[Buscar un asociado de soluciones en la nube](https://www.microsoft.com/solution-providers/home).** Un CSP certificado puede ayudarle a sacar el máximo provecho de la nube mediante la evaluación de los objetivos empresariales para la adopción de la nube, la identificación de la solución en la nube adecuada que satisface las necesidades empresariales y ayuda a la empresa a ser más ágil y eficaz.
-- **[Buscar un asociado de servicios administrados](https://www.microsoft.com/solution-providers/search?cacheId=16a3b49b-fef2-449d-bdf0-628008114cca).** Un asociado de servicios administrados (MSP) de Azure ayuda a una empresa a hacer la transición a Azure y guía todos los aspectos del recorrido en la nube. Desde la consultoría hasta la administración de operaciones y migraciones, los MSP de la nube muestran a los clientes todas las ventajas que aporta la adopción de la nube. También actúan como un lugar único donde ofrecer soporte técnico común, aprovisionamiento y la experiencia de facturación, todo ello con un modelo empresarial de pago por uso (PAYG) flexible.
+- **[Buscar un asociado de servicios administrados](https://www.microsoft.com/solution-providers/search?cacheId=16a3b49b-fef2-449d-bdf0-628008114cca).** Un asociado de servicios administrados (MSP) de Azure ayuda a una empresa a hacer la transición a Azure y guía todos los aspectos del recorrido en la nube. Desde la consultoría hasta la administración de operaciones y migraciones, estos asociados muestran a los clientes todas las ventajas que aporta la adopción de la nube. También actúan como un lugar único donde ofrecer soporte técnico común, aprovisionamiento y la experiencia de facturación, todo ello con un modelo empresarial de pago por uso (PAYG) flexible.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

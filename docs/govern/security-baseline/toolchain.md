@@ -1,6 +1,5 @@
 ---
 title: Herramientas de base de referencia de seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Explicación de las herramientas que pueden mejorar la base de referencia de seguridad en Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7f4062c08ef1c9fec72e515453e8acc8cedfc513
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 122e0774912fdc65cd9c8daff0bd48b679634868
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565908"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808811"
 ---
 # <a name="security-baseline-tools-in-azure"></a>Herramientas de base de referencia de seguridad
 
@@ -24,17 +23,17 @@ La siguiente lista de herramientas de Azure puede contribuir desarrollar las dir
 
 | Herramienta | [Azure Portal](https://azure.microsoft.com/features/azure-portal) y [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)  | [Azure Key Vault](https://docs.microsoft.com/azure/key-vault)  | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-intro) | [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) |
 |------------------------------------------------------------|---------------------------------|-----------------|----------|--------------|-----------------------|---------------|
-| Aplicación de controles de acceso a recursos y creación de recursos   | Sí                             | Sin              | Sí      | No           | No                    | Sin            |
-| Protección de redes virtuales                                    | Sí                             | No              | No       | Sí          | No                    | Sin            |
-| Cifrado de discos virtuales                                     | Sin                              | Sí             | No       | No           | No                    | Sin            |
-| Cifrado de bases de datos y almacenamiento PaaS                         | Sin                              | Sí             | No       | No           | No                    | Sin            |
-| Administración de servicios de identidad híbrida                            | Sin                              | No              | Sí      | No           | No                    | Sin            |
-| Restricción de tipos de recurso permitidos                         | Sin                              | No              | No       | Sí          | No                    | Sin            |
-| Aplicación de restricciones geográficas regionales                          | Sin                              | No              | No       | Sí          | No                    | Sin            |
-| Supervisión del estado de seguridad de redes y recursos          | Sin                              | No              | No       | No           | Sí                   | Sí           |
-| Detección de actividad malintencionada                                  | Sin                              | No              | No       | No           | Sí                   | Sí           |
-| Detección de vulnerabilidades de forma preventiva                        | Sin                              | No              | No       | No           | Sí                   | Sin            |
-| Configuración de copia de seguridad y recuperación ante desastres                     | Sí                             | No              | No       | No           | No                    | Sin            |
+| Aplicación de controles de acceso a recursos y creación de recursos   | Sí                             | No              | Sí      | No           | No                    | No            |
+| Protección de redes virtuales                                    | Sí                             | No              | No       | Sí          | No                    | No            |
+| Cifrado de discos virtuales                                     | No                              | Sí             | No       | No           | No                    | No            |
+| Cifrado de bases de datos y almacenamiento PaaS                         | No                              | Sí             | No       | No           | No                    | No            |
+| Administración de servicios de identidad híbrida                            | No                              | No              | Sí      | No           | No                    | No            |
+| Restricción de tipos de recurso permitidos                         | No                              | No              | No       | Sí          | No                    | No            |
+| Aplicación de restricciones geográficas regionales                          | No                              | No              | No       | Sí          | No                    | No            |
+| Supervisión del estado de seguridad de redes y recursos          | No                              | No              | No       | No           | Sí                   | Sí           |
+| Detección de actividad malintencionada                                  | No                              | No              | No       | No           | Sí                   | Sí           |
+| Detección de vulnerabilidades de forma preventiva                        | No                              | No              | No       | No           | Sí                   | No            |
+| Configuración de copia de seguridad y recuperación ante desastres                     | Sí                             | No              | No       | No           | No                    | No            |
 
 Para ver una lista completa de servicios y herramientas de seguridad de Azure, consulte [Servicios y tecnologías de seguridad disponibles en Azure](https://docs.microsoft.com/azure/security/azure-security-services-technologies).
 

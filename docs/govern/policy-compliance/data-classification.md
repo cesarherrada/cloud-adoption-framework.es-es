@@ -1,6 +1,5 @@
 ---
 title: ¿Qué es la clasificación de datos?
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: La clasificación de datos permite determinar y asignar valor a los datos de la organización y es un punto de partida común para la gobernanza.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 513fa8c7ea57909657584815f12b37e07c02f5d0
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 1f476aaccfc88eab4a2bea1db17e7b1d33f31ee9
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72980218"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805088"
 ---
 <!-- markdownlint-disable MD026 -->
 

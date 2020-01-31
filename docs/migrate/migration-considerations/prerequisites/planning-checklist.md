@@ -1,6 +1,5 @@
 ---
 title: Lista de comprobación del planeamiento del entorno de migración
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Validación de la preparación del entorno antes de la migración
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8815a9089b63fe20d2d79c5ef979ff5d41166192
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 2660c6f09924c907591c8c8635b943125d0ac9a1
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753439"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801416"
 ---
 # <a name="migration-environment-planning-checklist-validate-environmental-readiness-prior-to-migration"></a>Lista de comprobación del planeamiento del entorno de migración: validación de la preparación del entorno antes de la migración
 
@@ -50,7 +49,7 @@ En función de la decisión sobre la alineación de la gobernanza, se debe estab
 
 Antes de la migración, se debe establecer un enfoque coherente para asignar nombres a los recursos, junto con esquemas de nomenclatura coherentes.
 
-### <a name="resource-governance"></a>Gobernanza de recursos
+### <a name="resource-governance"></a>Regulación de recursos
 
 Antes de la migración, se debe tomar una decisión con respecto a las herramientas para regular los recursos. Aunque no es necesario que las herramientas estén totalmente implementadas, se deben seleccionar y probar en una dirección. Antes de la migración, el equipo de gobernanza de la nube debe definir y exigir la implementación de un producto mínimo viable (MVP) para las herramientas de gobernanza.
 

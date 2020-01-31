@@ -1,6 +1,5 @@
 ---
 title: Guía de seguridad de Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: ¿Qué guía de seguridad ofrece Microsoft?
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 18fce98055f72e43ea7ecc2565ab859845cea356
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: cc57de575b7ad208748595a82b9726ebf85fa3fd
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058828"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804918"
 ---
 <!-- markdownlint-disable MD026 -->
 

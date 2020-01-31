@@ -1,6 +1,5 @@
 ---
 title: Plantilla de aceleración de la implementación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Plantilla de aceleración de la implementación
 author: alexbuckgit
 ms.author: abuck
@@ -9,16 +8,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 96b10c0c5494325c2cd7b46c1415dfd544932962
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 210abd5fe90810dea0d4da65422b2db8d66b4c26
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223598"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806363"
 ---
 # <a name="deployment-acceleration-template"></a>Plantilla de aceleración de la implementación
 
-El primer paso para implementar un cambio es comunicar el cambio deseado. Lo mismo sucede cuando se cambian los procedimientos de gobernanza. La plantilla siguiente proporciona un punto de partida para documentar y comunicar las declaraciones de la directiva que rigen los problemas de configuración e implementación en la nube. La plantilla también describe los criterios empresariales que podrían haberle llevado a redactar las declaraciones de directiva documentadas.
+El primer paso para implementar un cambio es comunicarlo. Lo mismo sucede cuando se cambian los procedimientos de gobernanza. La plantilla siguiente proporciona un punto de partida para documentar y comunicar las declaraciones de la directiva que rigen los problemas de configuración e implementación en la nube. La plantilla también describe los criterios empresariales que podrían haberle llevado a redactar las declaraciones de directiva documentadas.
 
 A medida que las conversaciones avancen, use la estructura de esta plantilla como modelo para capturar los riesgos empresariales, las tolerancias a los riesgos, los procesos de cumplimiento y las herramientas necesarias para definir las declaraciones de las directivas de aceleración de la implementación de la organización.
 

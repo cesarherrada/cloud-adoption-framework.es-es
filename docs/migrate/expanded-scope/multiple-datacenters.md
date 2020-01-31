@@ -1,6 +1,5 @@
 ---
 title: Varios centros de datos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Varios centros de datos
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b2491d349628d2c9640097ddd2c94b79505a0921
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 9156df0b76f6edf1d249d5d724e0a5d0f4fd8e15
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024793"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803082"
 ---
 # <a name="multiple-datacenters"></a>Varios centros de datos
 
@@ -61,7 +60,7 @@ Durante la optimización, pueden ser necesarias pruebas adicionales.
 
 Antes de la promoción, es importante proporcionar niveles adicionales de prueba durante la expansión de este ámbito. Durante las pruebas, es importante probar el enrutamiento u otros conflictos de red. Además, es importante aislar la aplicación implementada y volver a probar para comprobar que todas las dependencias se han migrado a la nube. En este caso, el aislamiento implica separar el entorno implementado de las redes de producción. Si lo hace, puede detectar recursos que se han pasado por alto y que se están ejecutando todavía en el entorno local.
 
-## <a name="secure-and-manage-process-changes"></a>Cambios en el proceso de seguridad y administración
+## <a name="secure-and-manage-process-changes"></a>Cambios en el proceso de protección y administración
 
 La ampliación de este ámbito no debe alterar los procesos de seguridad y administración.
 

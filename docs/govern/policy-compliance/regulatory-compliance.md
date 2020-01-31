@@ -1,6 +1,5 @@
 ---
 title: Introducción al cumplimiento normativo
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Introducción al cumplimiento normativo
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b38b52fc6899000bf5f452425a8b6f26070af7dc
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: bd48f3080c1cf516121f9afe2e8c31bbc799e3a5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222033"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806125"
 ---
 # <a name="introduction-to-regulatory-compliance"></a>Introducción al cumplimiento normativo
 
@@ -46,7 +45,7 @@ Uno de los desarrollos más importantes en esta área es el Reglamento General d
 
 ## <a name="compliant-foundation-in-azure"></a>Base de cumplimiento en Azure
 
-Para ayudar a los clientes a cumplir sus propias obligaciones de cumplimiento en los sectores y mercados regulados de todo el mundo, Azure mantiene la mayor cartera de cumplimiento del sector, tanto en amplitud (número total de ofertas) como en profundidad (número de servicios orientados al cliente en el ámbito de la evaluación). Las ofertas de cumplimiento de Azure se agrupan en cuatro segmentos: aplicables globalmente, gobierno de EE. UU., específicas de un sector y específicas de un país o región.
+Para ayudar a los clientes a cumplir sus propias obligaciones de cumplimiento en los sectores y mercados regulados de todo el mundo, Azure mantiene la mayor cartera de cumplimiento del sector, tanto en amplitud (número total de ofertas) como en profundidad (número de servicios orientados al cliente en el ámbito de la evaluación). Las ofertas de cumplimiento de Azure se agrupan en cuatro segmentos: aplicables globalmente, US Gov, específicas de un sector y específicas de un país o región.
 
 Las ofertas de cumplimiento de Azure se basan en varios tipos de controles, entre los que se incluyen certificaciones oficiales, atestaciones, validaciones, autorizaciones y evaluaciones generadas por empresas de auditoría de terceros independientes, así como enmiendas contractuales, autoevaluaciones y documentos de instrucciones para el cliente generados por Microsoft. Todas las descripciones de las ofertas de este documento proporcionan declaraciones actualizadas acerca del ámbito que indican qué servicios orientados al cliente de Azure están en el ámbito de la valoración, así como vínculos a recursos descargables para ayudar a los clientes con sus propias obligaciones de cumplimiento.
 

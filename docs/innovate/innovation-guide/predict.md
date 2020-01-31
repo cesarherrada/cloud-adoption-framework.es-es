@@ -1,6 +1,5 @@
 ---
 title: 'Guía de innovación de Azure: Predicción e influencia'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a predecir e influir con Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 506387c87a714964692dde7c082fa31c981b0c6f
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 00bd41050d469c8bab6ee0c6a8c4e68facd92ca9
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251833"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808267"
 ---
 ::: zone target="docs"
 
@@ -35,8 +34,8 @@ La tabla siguiente puede ayudarle a encontrar la mejor solución en función de 
 
 |Servicio  |Modelos creados previamente  |Compilación y experimento  |Entrenamiento y compilación con Python|Aptitudes necesarias|
 |---------|---------|---------|---------|---------|
-|Azure Cognitive Services|Sí|No|Sin|Aptitudes de API y desarrolladores|
-|Azure Machine Learning Studio|Sí|Sí|Sin|Descripción general de los algoritmos de predicción|
+|Azure Cognitive Services|Sí|No|No|Aptitudes de API y desarrolladores|
+|Azure Machine Learning Studio|Sí|Sí|No|Descripción general de los algoritmos de predicción|
 |Servicio Azure Machine Learning|Sí|Sí|Sí|Científico de datos|
 
 ## <a name="azure-cognitive-servicestabcognitiveservices"></a>[Azure Cognitive Services](#tab/CognitiveServices)
@@ -45,7 +44,7 @@ La ruta más rápida y más sencilla para predecir las necesidades del cliente e
 
 Para obtener una lista de los servicios disponibles y la cantidad de entrenamiento que pueden necesitar, consulte [Cognitive Services y Machine Learning](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-and-machine-learning#service-requirements-for-the-data-model).
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para usar una API de Cognitive Services:
 
@@ -77,7 +76,7 @@ Si los modelos existentes dentro de Cognitive Services no se alinean con la pred
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Puede usar Azure Machine Learning Studio para compilar y experimentar con un modelo mediante los siguientes pasos:
 
@@ -106,7 +105,7 @@ Vaya directamente a Azure Machine Learning Studio en [Azure Portal](https://port
 
 Azure Machine Learning Service proporciona el enfoque más profundo basado en código necesario para un entrenamiento más profundo de los conjuntos de datos de los clientes. Mediante lenguajes tales como Python, los científicos de datos pueden entrenar y luego compilar un algoritmo para predecir las necesidades de los clientes.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Un científico de datos puede usar Azure Machine Learning Service para entrenar y compilar un modelo mediante lenguajes avanzados como Python:
 

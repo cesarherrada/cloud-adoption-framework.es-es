@@ -1,6 +1,5 @@
 ---
 title: Procesos de cumplimiento de directivas de coherencia de recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Procesos de cumplimiento de directivas de coherencia de recursos
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ebff4e0bbeb7f74a61b81527e0dbc62874ffbe6c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7fbb2d7b121c011005c4f900bf66cafb8977ffeb
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566039"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805989"
 ---
 # <a name="resource-consistency-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de coherencia de recursos
 
@@ -26,7 +25,7 @@ Las plataformas en la nube proporcionan una matriz de características y herrami
 
 A continuación, se presenta un conjunto de procesos de ejemplo que normalmente están implicados en la materia de la coherencia de recursos. Use estos ejemplos como punto de partida al planear los procesos que le permitirán continuar actualizando la directiva de coherencia de recursos en función de los cambios que se produzcan en la empresa y los comentarios de los equipos de seguridad y TI cuya tarea es poner en práctica las instrucciones.
 
-**Evaluación de riesgos y planeamiento iniciales:** como parte de su adopción inicial de la materia de coherencia de recursos, identifique sus principales riesgos empresariales y tolerancias relacionadas con las operaciones y la administración de TI. Esta información se usa para hablar de riesgos técnicos concretos con los miembros de los equipos de TI y los propietarios de cargas de trabajo a fin de desarrollar un conjunto de referencia de directivas de coherencia de recursos diseñado para corregir dichos riesgos, con el establecimiento de la estrategia de gobernanza inicial.
+**Planeamiento y evaluación inicial de los riesgos:** como parte de su adopción inicial de la materia de coherencia de recursos, identifique sus principales riesgos empresariales y tolerancias relacionadas con las operaciones y la administración de TI. Esta información se usa para hablar de riesgos técnicos concretos con los miembros de los equipos de TI y los propietarios de cargas de trabajo a fin de desarrollar un conjunto de referencia de directivas de coherencia de recursos diseñado para corregir dichos riesgos, con el establecimiento de la estrategia de gobernanza inicial.
 
 **Planeación de la implementación:** antes de implementar cualquier recurso, realice una revisión para identificar los nuevos riesgos operativos. Establezca requisitos de recursos y los patrones de demanda esperada e identifique las necesidades de escalabilidad y posibles oportunidades de optimización del uso. Asegúrese también de que existan planes de copia de seguridad y recuperación.
 
@@ -66,7 +65,7 @@ Los siguientes desencadenadores y acciones de cumplimiento son ejemplos que pued
 
 Mediante la [plantilla de Cloud Management](./template.md), documente los procesos y desencadenadores que se alinean con el plan de adopción de la nube actual.
 
-Para obtener instrucciones sobre cómo ejecutar directivas de administración en la nube de conformidad con los planes de adopción, consulte el artículo sobre la mejora de la materia.
+Para obtener instrucciones acerca de cómo ejecutar directivas de administración en la nube de conformidad con los planes de adopción, consulte el artículo sobre la mejora de la materia.
 
 > [!div class="nextstepaction"]
 > [Mejora de la materia de coherencia de recursos](./discipline-improvement.md)

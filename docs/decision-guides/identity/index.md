@@ -1,6 +1,5 @@
 ---
 title: Guía de decisión de identidad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de la identidad como un servicio principal en las migraciones de Azure.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b071fc546f615679bf712e9caa7725e767b73ad9
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: b447330368823947bfe027036b14c3a6c1fb94f1
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753192"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807111"
 ---
 # <a name="identity-decision-guide"></a>Guía de decisión de identidad
 
@@ -34,10 +33,10 @@ La administración de identidades basada en la nube es un proceso iterativo. Par
 
 | Pregunta | Línea base en la nube | Sincronización de directorios | Servicios de dominio hospedados en la nube | Servicios de federación de Active Directory |
 |------|------|------|------|------|
-| ¿Actualmente carece de un servicio de directorios local? | Sí | No | No | Sin |
-| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | Sin | Sí | No | Sin |
-| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | Sin | No | Sí | Sí |
-| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | Sin | No | No | Sí |
+| ¿Actualmente carece de un servicio de directorios local? | Sí | No | No | No |
+| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | No | Sí | No | No |
+| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | No | No | Sí | Sí |
+| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | No | No | No | Sí |
 
 Como parte del planeamiento de la migración a Azure, deberá determinar la mejor manera de integrar sus servicios actuales de administración de identidad y de identidad en la nube. A continuación presentamos escenarios de integración comunes.
 

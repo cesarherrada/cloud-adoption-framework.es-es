@@ -1,6 +1,5 @@
 ---
 title: Pruebas comparativas y ajuste del tamaño de los recursos de la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Pruebas comparativas y ajuste del tamaño de los recursos de la nube
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 53ff6f0d32b80ef9c89d4ebd0234dd3442412907
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 7198bdc1332a9d55bca68a04fe1384727dc7284a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548428"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801841"
 ---
 # <a name="benchmark-and-resize-cloud-assets"></a>Pruebas comparativas y ajuste del tamaño de los recursos de la nube
 

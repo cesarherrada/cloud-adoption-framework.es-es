@@ -1,6 +1,5 @@
 ---
 title: Migración de recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Migración de recursos
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2f00fca7cc5d21221faed2a56d0a25dba2e82258
-ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
+ms.openlocfilehash: 81c55ee4ac3605c04d583df21182c4d5c44f8380
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74681760"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807026"
 ---
 # <a name="migrate-assets-infrastructure-apps-and-data"></a>Migración de recursos (infraestructura, aplicaciones y datos)
 
@@ -162,7 +161,7 @@ Para empezar a trabajar con Data Migration Assistant, siga estos pasos.
 
 1. Descargue e instale Data Migration Assistant desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53595).
 1. Para crear una evaluación, haga clic en el icono **Nuevo (+)** y seleccione el tipo de proyecto **Evaluación**.
-1. Establezca el tipo de servidor de origen y de destino. Haga clic en **Create**(Crear).
+1. Establezca el tipo de servidor de origen y de destino. Haga clic en **Crear**.
 1. Configure las opciones de evaluación según sea necesario (se recomiendan todos los valores predeterminados).
 1. Agregue las bases de datos que se van a evaluar.
 1. Haga clic en **Siguiente** para iniciar la evaluación.
@@ -222,7 +221,7 @@ Cloudamize es un servicio de ISV que abarca todas las fases de la estrategia de 
 
 Zerto proporciona la replicación virtual que controla tanto entornos de Microsoft Hyper-V como de VMware vSphere.
 
-[Más información](https://www.zerto.com/solutions/use-cases/data-center-migration-software)
+[Más información](https://www.zerto.com/modernize)
 
 ## <a name="carbonite"></a>Carbonite
 
@@ -271,9 +270,9 @@ Azure DevOps brinda toda la funcionalidad e integración requerida con Azure, en
 
 Microsoft Learn es un enfoque nuevo al aprendizaje. La preparación para las nuevas aptitudes y responsabilidades que acompañan a la adopción de la nube no es fácil. Microsoft Learn proporciona un enfoque más gratificante para el aprendizaje práctico que le ayuda a lograr sus objetivos con más rapidez. Gane puntos y niveles y consiga más.
 
-Este es un ejemplo de ruta de aprendizaje adaptada de Microsoft Learn que complementa la configuración de la guía de DevOps en Cloud Adoption Framework. 
+Este es un ejemplo de ruta de aprendizaje adaptada de Microsoft Learn que complementa la configuración de la guía de DevOps en Cloud Adoption Framework.
 
-[Creación de aplicaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops/): Colabore con otros usuarios para crear aplicaciones con Azure Pipelines y GitHub. Ejecute pruebas automatizadas en la canalización para validar la calidad del código. Examine el código fuente y los componentes de terceros para detectar posibles puntos vulnerables. Defina varias canalizaciones que funcionen conjuntamente para crear la aplicación. Cree aplicaciones mediante agentes hospedados de Microsoft y sus propios agentes de compilación. 
+[Creación de aplicaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops/): Colabore con otros usuarios para crear aplicaciones con Azure Pipelines y GitHub. Ejecute pruebas automatizadas en la canalización para validar la calidad del código. Examine el código fuente y los componentes de terceros para detectar posibles puntos vulnerables. Defina varias canalizaciones que funcionen conjuntamente para crear la aplicación. Cree aplicaciones mediante agentes hospedados de Microsoft y sus propios agentes de compilación.
 
 # <a name="cost-managementtabmanagecost"></a>[Administración de costos](#tab/ManageCost)
 

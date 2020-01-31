@@ -1,6 +1,5 @@
 ---
 title: 'Innovación en la nube: Herramientas para predecir e influir en Azure'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Herramientas para predecir e influir en Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9bb5f837ce3a7bb07fb108f48229f488df1b9dc7
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 656074ea65f490dea1345c2e00742846323cf6db
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565783"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808624"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Herramientas para predecir datos e influir en ellos en Azure
 
@@ -42,7 +41,7 @@ En Azure, las siguientes herramientas se suelen aprovechar para acelerar la inve
 
 La forma en que cada herramienta ayuda con cada fase de predicción e influencia se refleja en la guía de la tabla de contenido de la izquierda de esta página.
 
-## <a name="get-started"></a>Primeros pasos
+## <a name="get-started"></a>Introducción
 
 En la tabla de contenido del lado izquierdo de esta página se describen muchos artículos. Estos artículos ayudan a empezar a trabajar con cada una de las herramientas de esta cadena de herramientas.
 

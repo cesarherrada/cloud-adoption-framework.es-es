@@ -1,6 +1,5 @@
 ---
 title: Establecimiento de iteraciones y planes de versiones
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Establecimiento de iteraciones y planes de versiones
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 0dbef36d3909f11c1616d2e44c63227959c4ff56
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: bdd0150aef6c04b43121b5bef1224bea93191e2c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70839178"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800345"
 ---
 # <a name="establish-iterations-and-release-plans"></a>Establecimiento de iteraciones y planes de versiones
 
@@ -31,7 +30,7 @@ La alineación de trabajos con iteraciones y versiones requiere un conocimiento 
 
 Puede medir la velocidad en términos abstractos como el grado de dificultad del caso. También puede medirla en términos más tangibles; por ejemplo, horas. En la mayoría de los marcos iterativos, se recomienda usar medidas abstractas para evitar desafíos en la precisión y la percepción. Los ejemplos de este artículo representan la velocidad en horas por sprint. Esta representación hace que el tema se entienda más universalmente.
 
-**Ejemplo:** un equipo de adopción de la nube de cinco personas se ha comprometido a realizar sprints de dos semanas. Dadas las obligaciones actuales, como las reuniones y el soporte técnico de otros procesos, cada miembro del equipo puede colaborar de forma coherente 20 horas por semana con el trabajo de adopción. Para este equipo, la estimación de velocidad inicial es de 100 horas por sprint.
+**Ejemplo**: un equipo de adopción de la nube de cinco personas se ha comprometido a realizar sprints de dos semanas. Dadas las obligaciones actuales, como las reuniones y el soporte técnico de otros procesos, cada miembro del equipo puede colaborar de forma coherente 20 horas por semana con el trabajo de adopción. Para este equipo, la estimación de velocidad inicial es de 100 horas por sprint.
 
 ## <a name="iteration-planning"></a>Planeamiento de las iteraciones
 
@@ -43,7 +42,7 @@ En este proceso, el equipo valida las tareas asignadas al siguiente sprint. El e
 
 El proceso anterior continúa hasta que todas las tareas se asignan a una iteración.
 
-**Ejemplo:** sigamos a partir del ejemplo anterior. Supongamos que cada migración de carga de trabajo requiere 40 tareas. Supongamos también que calcula que cada tarea tardará un promedio de una hora. La estimación combinada es de aproximadamente 40 horas por cada migración de carga de trabajo. Si estas estimaciones se mantienen coherentes para las 10 cargas de trabajo prioritarias, esas cargas de trabajo tardarán 400 horas.
+**Ejemplo**: sigamos a partir del ejemplo anterior. Supongamos que cada migración de carga de trabajo requiere 40 tareas. Supongamos también que calcula que cada tarea tardará un promedio de una hora. La estimación combinada es de aproximadamente 40 horas por cada migración de carga de trabajo. Si estas estimaciones se mantienen coherentes para las 10 cargas de trabajo prioritarias, esas cargas de trabajo tardarán 400 horas.
 
 La velocidad definida en el ejemplo anterior sugiere que la migración de las 10 primeras cargas de trabajo llevará cuatro iteraciones, lo que significa dos meses de tiempo de calendario. La primera iteración constará de 100 tareas que dan como resultado la migración de dos cargas de trabajo. En la siguiente iteración, una colección similar de 100 tareas dará como resultado la migración de tres cargas de trabajo.
 
@@ -58,7 +57,7 @@ El lanzamiento de una versión de cualquier cambio relacionado con la carga de t
 
 Para asegurarse de que un cambio está justificado por su retorno potencial, el equipo de estrategia de la nube debe participar en el planeamiento de la versión. Una vez que las tareas están alineadas con los sprints, el equipo puede determinar una escala de tiempo aproximada de cuándo estará preparada para la versión de producción cada carga de trabajo. El equipo de estrategia de la nube revisaría la temporización de cada versión. El equipo identificaría entonces el punto de inflexión entre el riesgo y el valor empresarial.
 
-**Ejemplo:** siguiendo con el ejemplo anterior, el equipo de estrategia de la nube ha revisado el plan de iteraciones. La revisión identificó dos puntos de versión. Durante la segunda iteración, estarán listas para la migración un total de cinco cargas de trabajo. Esas cinco cargas de trabajo proporcionarán un valor empresarial significativo y desencadenarán la primera versión. La siguiente versión vendrá dos iteraciones más adelante, cuando las cinco cargas de trabajo siguientes estén listas para su lanzamiento.
+**Ejemplo**: siguiendo con el ejemplo anterior, el equipo de estrategia de la nube ha revisado el plan de iteraciones. La revisión identificó dos puntos de versión. Durante la segunda iteración, estarán listas para la migración un total de cinco cargas de trabajo. Esas cinco cargas de trabajo proporcionarán un valor empresarial significativo y desencadenarán la primera versión. La siguiente versión vendrá dos iteraciones más adelante, cuando las cinco cargas de trabajo siguientes estén listas para su lanzamiento.
 
 ## <a name="assign-iteration-paths-and-tags"></a>Asignación de rutas de iteración y etiquetas
 

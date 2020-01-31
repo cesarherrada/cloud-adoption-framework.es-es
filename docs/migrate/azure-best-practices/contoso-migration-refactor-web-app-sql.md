@@ -1,6 +1,5 @@
 ---
 title: Refactorización de una aplicación mediante su migración a Azure App Service y Azure SQL Database
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Averigüe cómo Contoso rehospeda una aplicación local al migrarla a una aplicación web de Azure App Service y una base de datos de Azure SQL Server.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: d0d0fa87d424cbdf33e2b8516dd43b5156b55756
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 35a64b9f42df3737e186d25a43ecad457010607d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566570"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807451"
 ---
 # <a name="refactor-an-on-premises-app-to-an-azure-app-service-web-app-and-azure-sql-database"></a>Refactorización de una aplicación local a una aplicación web de Azure App Service y a una base de datos de Azure SQL
 
@@ -42,7 +41,7 @@ El equipo de la nube de Contoso ha establecido los objetivos de esta migración.
 --- | ---
 **Aplicación** | La aplicación de Azure seguirá siendo tan importante como lo es hoy en día.<br/><br/> Debe tener las mismas funcionalidades de rendimiento que las que tiene actualmente en VMware.<br/><br/> El equipo no quiere invertir en la aplicación. Por ahora, los administradores simplemente moverán la aplicación de forma segura a la nube.<br/><br/> El equipo quiere finalizar la compatibilidad con Windows Server 2008 R2, donde se ejecuta actualmente la aplicación.<br/><br/> El equipo también quiere abandonar SQL Server 2008 R2 y pasar a una plataforma de base de datos PaaS moderna, lo que minimizará la necesidad de administración.<br/><br/> Contoso quiere aprovechar su inversión en licencias de SQL Server y Software Assurance, tanto como que sea posible.<br/><br/> Además, Contoso quiere mitigar el único punto de error en el nivel web.
 **Limitaciones** | La aplicación está formada por una aplicación de ASP.NET y un servicio WCF que se ejecutan en la misma máquina virtual. Contoso quiere dividirlos en dos aplicaciones web con Azure App Service.
-**Las tablas de Azure** | Contoso quiere mover la aplicación a Azure, pero no quiere que se ejecute en VM. Quiere usar los servicios de PaaS de Azure para los niveles web y de datos.
+**Azure** | Contoso quiere mover la aplicación a Azure, pero no quiere que se ejecute en VM. Quiere usar los servicios de PaaS de Azure para los niveles web y de datos.
 **DevOps** | Contoso quiere migrar a un modelo DevOps, con Azure DevOps para las compilaciones y la canalización de versión.
 
 <!-- markdownlint-enable MD033 -->
@@ -102,7 +101,7 @@ Contoso evalúa el diseño propuesto creando una lista de ventajas y desventajas
 [Azure App Service](https://docs.microsoft.com/azure/app-service/overview) | Permite crear. aplicaciones de nube eficaces mediante una plataforma totalmente administrada | Costo según la duración de uso, la ubicación y el tamaño. [Más información](https://azure.microsoft.com/pricing/details/app-service/windows).
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Ofrece integración continua y la canalización de implementación continua (CI/CD) para el desarrollo de aplicaciones. La canalización comienza con un repositorio de Git para administrar código de aplicaciones, un sistema de compilación para producir paquetes y otros artefactos de compilación, y un sistema Release Management para implementar cambios en entornos de desarrollo, prueba y producción.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario:
 
@@ -121,12 +120,12 @@ Contoso ejecutará la migración de la forma siguiente:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Aprovisionamiento de una instancia de SQL Database en Azure.** Contoso proporciona una instancia de SQL en Azure. Después de migrar el sitio web de la aplicación a Azure, la aplicación web del servicio WCF apuntará a esta instancia.
-> - **Paso 2: Migración de la base de datos con DMA.** Contoso migra la base de datos de la aplicación con Data Migration Assistant.
-> - **Paso 3: Aprovisionamiento de aplicaciones web.** Contoso aprovisiona las dos aplicaciones web.
-> - **Paso 4: Configuración de Azure DevOps.** Contoso crea un proyecto de Azure DevOps e importa el repositorio de Git.
-> - **Paso 5: Configuración de cadenas de conexión.** Contoso configura las cadenas de conexión para que la instancia de SQL, la aplicación web del servicio WCF y la aplicación web de nivel de web puedan comunicarse.
-> - **Paso 6: Configuración de las canalizaciones de compilación y versión.** Como último paso, Contoso configura las canalizaciones de compilación y versión para crear la aplicación y las implementa en dos aplicaciones web independientes.
+> - **Paso 1: Aprovisionamiento de una instancia de SQL Database en Azure.** Contoso proporciona una instancia de SQL en Azure. Después de migrar el sitio web de la aplicación a Azure, la aplicación web del servicio WCF apuntará a esta instancia.
+> - **Paso 2: Migración de la base de datos con DMA.** Contoso migra la base de datos de la aplicación con Data Migration Assistant.
+> - **Paso 3: Aprovisionamiento de aplicaciones web.** Contoso aprovisiona las dos aplicaciones web.
+> - **Paso 4: Configuración de Azure DevOps.** Contoso crea un proyecto de Azure DevOps e importa el repositorio de Git.
+> - **Paso 5: Configuración de cadenas de conexión.** Contoso configura las cadenas de conexión para que la instancia de SQL, la aplicación web del servicio WCF y la aplicación web de nivel de web puedan comunicarse.
+> - **Paso 6: Configuración de las canalizaciones de compilación y versión.** Como último paso, Contoso configura las canalizaciones de compilación y versión para crear la aplicación y las implementa en dos aplicaciones web independientes.
 
 ## <a name="step-1-provision-an-azure-sql-database"></a>Paso 1: Aprovisionar una base de datos de Azure SQL
 
@@ -288,7 +287,7 @@ Los administradores de Contoso configuran ahora Azure DevOps para ejecutar el pr
 
 5. Así se inicia la primera compilación. Seleccionan el número de compilación para ver el proceso. Cuando terminan, pueden ver los comentarios del proceso y seleccionar **Artifacts** para revisar los resultados de la compilación.
 
-    ![Revisión](./media/contoso-migration-refactor-web-app-sql/pipeline5.png)
+    ![Revisar](./media/contoso-migration-refactor-web-app-sql/pipeline5.png)
 
 6. La carpeta de **entrega** contiene los resultados de la compilación.
 
@@ -319,7 +318,7 @@ Los administradores de Contoso configuran ahora Azure DevOps para ejecutar el pr
 
 12. En la compilación > **Artifacts**, seleccionan **+Add an artifact** (+Agregar un artefacto) y optan por compilar con la canalización **ContosoSmarthotel360Refactor**.
 
-     ![Compilación](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
+     ![Build](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
 
 13. Seleccionan el icono de rayo en el artefacto para habilitar el desencadenador de implementación continua.
 
@@ -376,7 +375,7 @@ Después de la migración, Contoso debe completar estos pasos de limpieza:
 - Actualizar la documentación interna para que muestre las nuevas ubicaciones para la aplicación SmartHotel360. Mostrar la base de datos en ejecución en Azure SQL Database y el front-end en ejecución en dos aplicaciones web.
 - Revisar los recursos que interactúan con las VM retiradas y actualizar los valores de configuración pertinentes o la documentación para reflejar la nueva configuración.
 
-## <a name="review-the-deployment"></a>Revisar la implementación
+## <a name="review-the-deployment"></a>Revisión de la implementación
 
 Con los recursos migrados de Azure, Contoso debe proteger la infraestructura nueva y ponerla totalmente en marcha.
 

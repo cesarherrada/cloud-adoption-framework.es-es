@@ -1,6 +1,5 @@
 ---
 title: Introducción a la guía de migración a Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda cómo migrar eficazmente los servicios de la organización a Azure con una guía paso a paso.
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9f27c7fca9a9a5bd2f5c38f78b8db2092b24d014
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 6f5592c93bb78b14a85e37ffa67ffea697a12345
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251486"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807043"
 ---
 ::: zone target="docs"
 
@@ -58,7 +57,7 @@ Esta guía le ayuda a responder a estas preguntas. Sugiere las tareas y caracter
 >
 > - **Configuración de los requisitos previos.** Planee y prepárese para la migración.
 > - **Evaluación de la adecuación técnica.** Valide la preparación técnica y la idoneidad para la migración.
-> - **Administración de costos y facturación.** Examine los costos de los recursos.
+> - **Administrar costos y facturación**: Examine los costos de los recursos.
 > - **Migración de los servicios.** Realice la migración real.
 > - **Organización de los recursos.** Bloquee los recursos críticos para el sistema y etiquete los recursos para realizar un seguimiento de los mismos.
 > - **Optimización y transformación.** Aproveche la oportunidad posterior a la migración para revisar los recursos.
