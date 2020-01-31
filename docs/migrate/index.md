@@ -1,6 +1,5 @@
 ---
 title: Migración a la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Migración a la nube en Cloud Adoption Framework
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: a6e7cb52fdac7607765b32c5355c0f2df066538a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 90a9c69b311f1d4687d2691af13c3b51a7b6f813
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566858"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802963"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Migración a la nube en Cloud Adoption Framework
 
@@ -209,7 +208,7 @@ El enfoque de migración incremental de Cloud Adoption Framework ayuda a crear u
 
 <!-- markdownlint-enable MD033 -->
 
-Estos dos recorridos representan dos extremos de la experiencia para los clientes que invierten en la migración a la nube. La mayoría de las compañías reflejan una combinación de los dos escenarios anteriores. Después de revisar el recorrido, utilice el modelo de migración de Cloud Adoption Framework para iniciar la conversación de migración y modificar los recorridos de línea de base para satisfacer mejor sus necesidades.
+Estos dos recorridos representan dos extremos de la experiencia para los clientes que invierten en la migración a la nube. La mayoría de las compañías reflejan una combinación de los dos escenarios anteriores. Después de revisar el recorrido, utilice el modelo de migración de Cloud Adoption Frameworkpara iniciar la conversación de migración y modificar los recorridos de línea de base para satisfacer mejor sus necesidades.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

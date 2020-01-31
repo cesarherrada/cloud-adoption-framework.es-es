@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 66b1d5e414ecf7b1512cb408947bc519e460c471
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 35a77b0837da1b3364516a95b2baaa32e4e2fe6f
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683540"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805547"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-resource-consistency-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos
 
@@ -50,7 +49,7 @@ Este riesgo empresarial puede ampliarse a algunos riesgos técnicos:
 7. Las directivas de recuperación podrían dar error o tardar más de lo esperado.
 8. Unos procesos de implementación incoherentes podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
 9. El desfase de configuración o la falta de revisiones podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
-10. La configuración podría no aplicar los requisitos del Acuerdo de Nivel de Servicio definidos o los requisitos de recuperación confirmados.
+10. La configuración podría no aplicar los requisitos de los Acuerdos de Nivel de Servicio definidos o los requisitos de recuperación confirmados.
 11. Los sistemas operativos o aplicaciones implementados podrían no cumplir con los requisitos de protección de la aplicación y el sistema operativo.
 12. Existe un riesgo de incoherencia porque hay varios equipos que trabajan en la nube.
 
@@ -97,8 +96,8 @@ Después de la experiencia de este ejemplo ficticio, se supone que ya se han pro
 1. Azure Policy para nodos críticos:
     1. Audite y aplique solo el uso de roles estándar.
     2. Audite y aplique la aplicación de cifrado para todas las cuentas de almacenamiento.
-    3. Audite y aplique el uso de la subred de red aprobada y red virtual por interfaz de red.
-    4. Audite y aplique la limitación de las tablas de enrutamiento definidas por el usuario.
+    3. Audite y exija el uso de la subred de red aprobada y la red virtual por interfaz de red.
+    4. Audite y exija que se aplique la limitación de las tablas de enrutamiento que defina el usuario.
     5. Audite y aplique la implementación de agentes de Log Analytics para máquinas virtuales Windows y Linux.
 2. Plano técnico de Azure:
     1. Cree un plano técnico denominado `mission-critical-workloads-and-protected-data`. Este plano técnico aplicará recursos además del plano técnico de datos protegidos.

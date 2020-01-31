@@ -1,6 +1,5 @@
 ---
 title: Ejemplos de resultados fiscales
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Ejemplos de resultados fiscales
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 350b13e993d2130dc72482cbe7cafb3823b6a4d8
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 43cd9dd0d155849c8ed5dda277252e445507f6d8
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048365"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806856"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Ejemplos de resultados fiscales
 
@@ -35,13 +34,13 @@ En el resto de este artículo se explican estos resultados fiscales en el contex
 
 La nube ayuda a crear oportunidades de entrega de nuevos productos a los clientes o de entrega de productos ya existentes de nuevas maneras. Los nuevos canales de ingresos son innovadores, emprendedores y emocionantes para muchas personas del mundo empresarial. Pero también son propensos a errores y en muchas compañías se consideran de alto riesgo. Cuando el equipo de TI propone resultados relacionados con los ingresos, es probable que haya resistencia. Para dar mayor credibilidad a estos resultados, colabore con líderes empresariales que hayan demostrado ser innovadores. La validación de la fuente de ingresos al principio del proceso le ayudará a evitar los escollos del negocio.
 
-- **Ejemplo:** Una compañía lleva más de 100 años vendiendo libros. Un empleado de la empresa se da cuenta de que el contenido se puede enviar electrónicamente. Este empleado crea un dispositivo que se puede vender en la librería, que permite descargar los mismos libros directamente. Esto supone un aumento de X euros en la venta de libros.
+- **Ejemplo**: Una compañía lleva más de 100 años vendiendo libros. Un empleado de la empresa se da cuenta de que el contenido se puede enviar electrónicamente. Este empleado crea un dispositivo que se puede vender en la librería, que permite descargar los mismos libros directamente. Esto supone un aumento de X euros en la venta de libros.
 
 ### <a name="revenue-increases"></a>Aumento de ingresos
 
 Gracias a la escala global y a la presencia digital, la nube ayuda a las empresas a aumentar los ingresos procedentes de los canales de ingresos existentes. Con frecuencia, este tipo de resultado procede de una alineación con la dirección de marketing o ventas.
 
-- **Ejemplo:** Una compañía que vende widgets podría vender más si los vendedores pudieran acceder de forma segura al catálogo digital y los niveles de existencias de la compañía. Por desgracia, esos datos solo se encuentran en el sistema ERP de la compañía, al que solo se puede acceder mediante un dispositivo conectado a la red. La creación de una fachada de servicio que sirva de interfaz con ERP, de forma que se exponga el catálogo y los niveles de existencias no confidenciales en una aplicación en la nube, permitiría al personal de ventas acceder a los datos que necesitan mientras se encuentran en las instalaciones de un cliente. La extensión de Active Directory con Azure Active Directory (Azure AD) y la integración del acceso basado en rol en la aplicación permitirían a la compañía garantizar la seguridad de los datos. Este sencillo proyecto podría afectar un _X %_ a los ingresos de una línea de productos existente.
+- **Ejemplo**: Una compañía que vende widgets podría vender más si los vendedores pudieran acceder de forma segura al catálogo digital y los niveles de existencias de la compañía. Por desgracia, esos datos solo se encuentran en el sistema ERP de la compañía, al que solo se puede acceder mediante un dispositivo conectado a la red. La creación de una fachada de servicio que sirva de interfaz con ERP, de forma que se exponga el catálogo y los niveles de existencias no confidenciales en una aplicación en la nube, permitiría al personal de ventas acceder a los datos que necesitan mientras se encuentran en las instalaciones de un cliente. La extensión de Active Directory con Azure Active Directory (Azure AD) y la integración del acceso basado en rol en la aplicación permitirían a la compañía garantizar la seguridad de los datos. Este sencillo proyecto podría afectar un _X %_ a los ingresos de una línea de productos existente.
 
 ### <a name="profit-increases"></a>Aumento de beneficios
 
@@ -70,7 +69,7 @@ Coverdell moderniza su infraestructura para impulsar el ahorro en los costos de 
 
 La terminación de los centros de datos también proporciona prevención de costos al impedir futuros ciclos de actualizaciones. Un ciclo de actualización es el proceso de comprar nuevo hardware y software para reemplazar los sistemas antiguos locales. En Azure, el hardware y el sistema operativo reciben habitualmente mantenimiento, revisiones y actualizaciones sin costo adicional para los clientes. De esta manera, el director financiero puede eliminar los gastos futuros planeados de las previsiones financieras a largo plazo. La prevención de costos se mide en dólares. Se diferencia de la reducción de costos en que normalmente se centra en un presupuesto futuro que aún no se ha aprobado completamente.
 
-- **Ejemplo:** El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría prevenir costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
+- **Ejemplo**: El centro de datos de una compañía está pendiente de una renovación del alquiler en 6 meses. El centro de datos ha estado en servicio durante ocho años. Hace 4 años, todos los servidores se actualizaron y virtualizaron, lo que supuso un costo para la compañía de millones de dólares. El próximo año, la compañía planea actualizar de nuevo el hardware y el software. La migración de los recursos de ese centro de datos, como parte de una migración a la nube, permitiría prevenir costos al eliminar la actualización planeada del presupuesto previsto para el próximo año. También podría generar una reducción de los costos, ya que se reducen o eliminan los costos de arrendamiento de bienes inmuebles.
 
 ### <a name="capital-expenses-vs-operating-expenses"></a>Gastos de capital en comparación con los gastos operativos
 
@@ -91,7 +90,7 @@ Sin embargo, antes de asociar cualquier proceso de transformación con este tipo
 
 Si el modelo de gastos operativos es deseable, el ejemplo siguiente podría ser un resultado empresarial viable:
 
-- **Ejemplo:** El centro de datos de la compañía se está depreciando actualmente a _x USD_ al año durante los 3 años siguientes. Se espera que se necesiten _Y dólares USD_ adicionales para actualizar el hardware el próximo año. Se pueden convertir todos esos gastos de capital en un modelo de gastos operativos con un índice constante de _Z dólares USD_ al mes, lo que permite una mejor administración y contabilidad de los costos de funcionamiento de la tecnología.
+- **Ejemplo**: El centro de datos de la compañía se está depreciando actualmente a _x USD_ al año durante los 3 años siguientes. Se espera que se necesiten _Y dólares USD_ adicionales para actualizar el hardware el próximo año. Se pueden convertir todos esos gastos de capital en un modelo de gastos operativos con un índice constante de _Z dólares USD_ al mes, lo que permite una mejor administración y contabilidad de los costos de funcionamiento de la tecnología.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

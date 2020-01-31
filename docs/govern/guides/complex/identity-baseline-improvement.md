@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas complejas: Mejora de la materia de línea de base de identidad'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas complejas: Mejora de la materia de línea de base de identidad'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8c64507c03a99ef771f7885dc8fbde960c570e4d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7f975f948bc078a80ead4207d755ff67cd5e4f2f
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566324"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806295"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-identity-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de línea de base de identidad
 

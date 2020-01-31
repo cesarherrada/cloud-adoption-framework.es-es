@@ -1,6 +1,5 @@
 ---
 title: Evaluación de la directiva corporativa
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Evalúe la directiva corporativa como parte de la estrategia de gobernanza de la nube.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: e4f9258095fa0002848bfe88ae43195c369221cc
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 59c4ac9c637d0c243d58cb93866ddfa8b9986de5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221187"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804357"
 ---
 # <a name="evaluate-corporate-policy"></a>Evaluación de la directiva corporativa
 

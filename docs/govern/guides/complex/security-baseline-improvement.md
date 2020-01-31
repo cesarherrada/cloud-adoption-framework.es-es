@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a8cf7c6bb09d2f4c505e3edcb97a0354a870a730
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 41fba8029eabb570a40d5692374f1cb7e7d7c9b5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753214"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806244"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -64,8 +63,8 @@ Este riesgo empresarial puede ampliarse a algunos riesgos técnicos:
 5. Las intrusiones externas o ataques por denegación de servicio podrían provocar una interrupción del negocio.
 6. Los cambios de la organización o empleo podrían permitir el acceso no autorizado a los datos protegidos.
 7. Las nuevas vulnerabilidades de seguridad podrían crear oportunidades para la intrusión o el acceso no autorizado.
-8. Los procesos incoherentes de implementación podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
-9. El desfase de la configuración o la falta revisiones podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
+8. Unos procesos de implementación incoherentes podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
+9. El desfase de configuración o la falta de revisiones podrían dar lugar a brechas de seguridad y estas, a su vez, a pérdidas de datos o interrupciones.
 10. Diversos dispositivos perimetrales podrían aumentar los costos de operación de la red.
 11. Diversas opciones de configuración de dispositivos podrían provocar negligencias en la configuración y la seguridad podría verse comprometida.
 12. El equipo de ciberseguridad insiste en que existe el riesgo de que un proveedor no genere claves de cifrado en la plataforma de un solo proveedor de nube. Si bien esta afirmación no está demostrada, el equipo la acepta por el momento.
@@ -76,7 +75,7 @@ Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgo
 
 1. Todos los recursos implementados deben categorizarse por importancia y clasificación de datos. Asimismo, el equipo de gobernanza de la nube y el propietario de la aplicación deben revisar las clasificaciones antes de realizar la implementación en la nube.
 2. Las aplicaciones que almacenan o acceden a datos protegidos se deben administrar de manera diferente de las demás. Como mínimo, deben segmentarse para evitar el acceso no intencionado de los datos protegidos.
-3. Todos los datos protegidos deben estar cifrados cuando están en reposo.
+3. todos los datos protegidos deben estar cifrados cuando están en reposo.
 4. Los permisos elevados en los segmentos que contienen datos protegidos deben ser una excepción. Estas excepciones se registrarán con el equipo de gobernanza de la nube y se auditarán periódicamente.
 5. las subredes que contengan datos protegidos deben aislarse de las otras subredes. El tráfico de red entre subredes de datos protegidos se auditará periódicamente.
 6. No se podrá tener acceso a ninguna subred que contenga datos protegidos directamente a través de Internet o entre centros de datos. El acceso a estas subredes debe enrutarse a través de subredes intermedias. Todo acceso a estas subredes debe realizarse a través de una solución de firewall que pueda realizar funciones de análisis y bloqueo de paquetes.
@@ -93,7 +92,7 @@ Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgo
 17. El equipo de gobernanza de la nube debe aprobar las herramientas de implementación para garantizar la gobernanza en curso de los recursos implementados.
 18. Los scripts de implementación deben conservarse en un repositorio central accesible para el equipo de gobernanza de la nube, y que así se puedan revisar y se realicen auditorías periódicas.
 19. Los procesos de gobernanza deben incluir auditorías en el punto de implementación y en ciclos regulares para garantizar la coherencia entre todos los recursos.
-20. La implementación de las aplicaciones que requieren autenticación de cliente debe usar un proveedor de identidades aprobado que sea compatible con el proveedor de identidades principal para usuarios internos.
+20. la implementación de las aplicaciones que requieren autenticación de cliente debe usar un proveedor de identidades aprobado que sea compatible con el proveedor de identidades principal para usuarios internos.
 21. Los procesos de gobernanza en la nube deben incluir revisiones trimestrales con los equipos de línea de base de identidad para así poder identificar usuarios malintencionados o patrones de uso que deban evitarse mediante la configuración de recursos en la nube.
 
 ## <a name="incremental-improvement-of-the-best-practices"></a>Mejoras graduales de los procedimientos recomendados

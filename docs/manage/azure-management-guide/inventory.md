@@ -1,6 +1,5 @@
 ---
 title: Inventario y visibilidad en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a configurar el inventario, la supervisión, los informes y las alertas para el entorno de administración de Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 4969681cbc6fbb71da70f3ced09b5e4616c773b5
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: 42c7ea0b9647015f8ac049710905c8349d073093
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781783"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808216"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Inventario y visibilidad en Azure
 

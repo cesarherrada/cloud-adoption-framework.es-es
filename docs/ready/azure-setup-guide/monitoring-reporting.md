@@ -1,6 +1,5 @@
 ---
 title: Supervisión e informes en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a configurar la supervisión, los informes y las alertas para el entorno de administración de Azure.
 author: timleyden
 ms.author: tileyden
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0ed9f9c1739fc73f4d28bf532bd52bd0a182b2fc
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 0b37500652606e3a1018b3b93c03aae546827eff
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251361"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799410"
 ---
 # <a name="monitoring-and-reporting-in-azure"></a>Supervisión e informes en Azure
 
@@ -52,7 +51,7 @@ Para más información, consulte [Documentación sobre Azure Monitor](https://d
 
 ::: zone target="chromeless"
 
-## <a name="action"></a>.
+## <a name="action"></a>Acción
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview]" submitText="Explore Azure Monitor" :::
 
@@ -74,7 +73,7 @@ Azure Service Health incluye:
 
 <!-- markdownlint-disable MD024 -->
 
-## <a name="action"></a>.
+## <a name="action"></a>Acción
 
 Para configurar una alerta de Service Health:
 
@@ -110,7 +109,7 @@ Las recomendaciones de Advisor se basan en los recursos que se implementan y en 
 
 ::: zone target="chromeless"
 
-## <a name="action"></a>.
+## <a name="action"></a>Acción
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Expert/AdvisorBlade]" submitText="Explore Azure Advisor" :::
 
@@ -136,7 +135,7 @@ Azure Security Center se ofrece en dos niveles: gratis y estándar. Característ
 
 ::: zone target="chromeless"
 
-## <a name="action"></a>.
+## <a name="action"></a>Acción
 
 **Pruebe el nivel estándar gratis durante los primeros 30 días.**
 

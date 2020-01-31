@@ -1,6 +1,5 @@
 ---
 title: 'Inventario y visibilidad: administración y operaciones en la nube'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Inventario y visibilidad: administración y operaciones en la nube'
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 5b38b5d52ee5151a2ccd696f0049a9feea0d21a0
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 29085f6ce1324f9f22acd0dc674c382163426233
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752819"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807774"
 ---
 # <a name="inventory-and-visibility-in-cloud-management"></a>Inventario y visibilidad de la administración en la nube
 
@@ -50,7 +49,7 @@ La creación de visibilidad en cualquier plataforma de nube requiere algunos com
 - Responsabilidad y visibilidad
 - Inventario
 - Registro central
-- Seguimiento de cambios
+- seguimiento de cambios
 - Telemetría de rendimiento
 
 ### <a name="responsibility-and-visibility"></a>Responsabilidad y visibilidad
@@ -67,7 +66,7 @@ Tener un registro central es fundamental para dar a los equipos de administraci�
 
 Realizar un uso coherente del registro central es el primer paso para establecer operaciones repetibles. La aplicación se puede realizar mediante directivas corporativas. Sin embargo, cuando sea posible, la aplicación se debe automatizar para garantizar la coherencia.
 
-### <a name="change-tracking"></a>Seguimiento de cambios
+### <a name="change-tracking"></a>seguimiento de cambios
 
 Los cambios son una constante en los entornos tecnológicos. Conocer y comprender los cambios en las distintas cargas de trabajo es esencial para contar con operaciones confiables. Cualquier solución de administración en la nube debe incluir un medio para comprender el cuándo, cómo y por qué de un cambio técnico. Sin esos datos, las labores de corrección resultan mucho más difíciles.
 

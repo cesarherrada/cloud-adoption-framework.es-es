@@ -1,6 +1,5 @@
 ---
 title: 'Guía de innovación de Azure: Democratización de los datos'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda cómo llevar a cabo la democratización de datos con Azure
 author: absheik
 ms.author: absheik
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5203ae99a7cf3c5e78f72edf020234f3ea703d36
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 481430ca45d2d4a63f4d1777bd2c34409a2e7851
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251865"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808301"
 ---
 ::: zone target="docs"
 
@@ -53,7 +52,7 @@ Azure Data Catalog aborda los desafíos de detección de los consumidores de dat
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Solo se admite una instancia de Azure Data Catalog por organización. Si su organización ya cuenta con una instancia de Data Catalog, no podrá agregar más catálogos.
 
@@ -92,7 +91,7 @@ Lograr el equilibrio entre compartir datos abiertamente y ejercer control sobre 
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear un recurso compartido de datos:
 
@@ -128,7 +127,7 @@ Las capacidades de innovación de datos de Azure Time Series Insights son interm
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear un entorno de Azure Time Series Insights:
 

@@ -1,6 +1,5 @@
 ---
 title: Guía de decisiones de la coherencia de recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de la coherencia de recursos al planear una migración de Azure.
 author: doodlemania2
 ms.author: dermar
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c6ad3e6b14ffde5f3c09feb6047a2d0bbe981314
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6f995a3f6ffb26f408a45610d7d0674e02bf6a31
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564796"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806703"
 ---
 # <a name="resource-consistency-decision-guide"></a>Guía de decisiones de la coherencia de recursos
 
@@ -22,7 +21,7 @@ El [diseño de suscripciones](../subscriptions/index.md) de Azure define cómo o
 
 ![Trazado de opciones de coherencia de recursos de menos a más complejas, alineadas con vínculos](../../_images/decision-guides/decision-guide-resource-consistency.png)
 
-Vaya a: [Agrupación básica](#basic-grouping) | [Coherencia de implementación](#deployment-consistency) | [Coherencia de directivas](#policy-consistency) | [Coherencia jerárquica](#hierarchical-consistency)  |  [Coherencia automatizada](#automated-consistency)
+Vaya a: [Agrupación básica](#basic-grouping) | [Coherencia de implementación](#deployment-consistency) | [Coherencia de directivas](#policy-consistency) | [Coherencia jerárquica](#hierarchical-consistency) | [Coherencia automatizada](#automated-consistency)
 
 Las decisiones relativas al nivel de los requisitos de coherencia de los recursos del entorno en la nube se rigen principalmente por estos factores: el tamaño del patrimonio digital posterior a la migración, los requisitos del entorno o del negocio que no encajan claramente dentro de los enfoques de diseño de suscripción existentes o la necesidad de aplicar gobernanza a lo largo del tiempo una vez implementados los recursos.
 

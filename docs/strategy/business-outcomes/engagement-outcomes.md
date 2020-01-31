@@ -1,6 +1,5 @@
 ---
 title: Ejemplos de resultados de la involucración del cliente
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Ejemplos de resultados de la involucración del cliente
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 45c4f22613a559add109c1fbfd608452911d0c86
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 5ad76f9d1b5b34772396f28cd5c5ba829785f76c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047944"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798373"
 ---
 # <a name="examples-of-customer-engagement-outcomes"></a>Ejemplos de resultados de la involucración del cliente
 
@@ -29,7 +28,7 @@ A continuación se muestran ejemplos y resultados relacionados con la interacci�
 
 Durante las transformaciones que se centran en los clientes como, por ejemplo, en un esfuerzo de innovación de aplicaciones habilitadas para la nube, los clientes responden ante una involucración directa y ante la posibilidad de ver sus necesidades rápidamente satisfechas por parte del equipo de desarrollo. El tiempo de ciclo es un término de Six Sigma que hace referencia a la duración desde el principio hasta el final de una función. Para los directivos de la empresa, centrados en los clientes y que invierten en mejorar la involucración de estos, el tiempo de ciclo puede ser un resultado empresarial muy deseable.
 
-- **Ejemplo:** Una empresa de servicios que proporciona servicios de negocio a negocio está intentando mantener la cuota de mercado en un mercado competitivo. Los clientes que han abandonado la empresa por un proveedor de servicios de la competencia han afirmado que su solución técnica es demasiado compleja e interfiere con sus procesos empresariales y este es el principal motivo de su marcha. En este caso, el tiempo de ciclo es fundamental. En la actualidad, una característica tarda 12 meses en pasar de ser una solicitud a su lanzamiento. Si el equipo directivo le da prioridad, ese ciclo se puede reducir a seis o nueve meses. Mediante un esfuerzo de innovación de aplicaciones habilitadas para la nube, modelos de aplicaciones nativas en la nube y la integración de Azure DevOps, el equipo pudo reducir el tiempo de ciclo a un mes, permitiendo a los equipos empresariales y de desarrollo de aplicaciones interactuar más directamente con los clientes.
+- **Ejemplo**: Una empresa de servicios que proporciona servicios de negocio a negocio está intentando mantener la cuota de mercado en un mercado competitivo. Los clientes que han abandonado la empresa por un proveedor de servicios de la competencia han afirmado que su solución técnica es demasiado compleja e interfiere con sus procesos empresariales y este es el principal motivo de su marcha. En este caso, el tiempo de ciclo es fundamental. En la actualidad, una característica tarda 12 meses en pasar de ser una solicitud a su lanzamiento. Si el equipo directivo le da prioridad, ese ciclo se puede reducir a seis o nueve meses. Mediante un esfuerzo de innovación de aplicaciones habilitadas para la nube, modelos de aplicaciones nativas en la nube y la integración de Azure DevOps, el equipo pudo reducir el tiempo de ciclo a un mes, permitiendo a los equipos empresariales y de desarrollo de aplicaciones interactuar más directamente con los clientes.
 
 > **ExakTime**
 >

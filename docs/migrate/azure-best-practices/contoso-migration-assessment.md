@@ -1,6 +1,5 @@
 ---
 title: Valoración de cargas de trabajo locales para migrarlas a Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre cómo Contoso valora sus máquinas locales para la migración a Azure con Azure Migrate y Data Migration Assistant.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3fe54994ac99a86bcb0a6c84c37b7b8612a129fa
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 051e52bee9b83160860234f953b19439b64eed97
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566487"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807485"
 ---
 # <a name="assess-on-premises-workloads-for-migration-to-azure"></a>Valoración de cargas de trabajo locales para migrarlas a Azure
 
@@ -71,7 +70,7 @@ El equipo de la nube de Contoso ha establecido los objetivos de estas valoracion
 
 Contoso usa las herramientas de Microsoft para su valoración de la migración. Estas herramientas se alinean con los objetivos de la compañía y ofrecen a Contoso toda la información que necesita.
 
-Technology | DESCRIPCIÓN | Coste
+Technology | Descripción | Coste
 --- | --- | ---
 [Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview?view=ssdt-18vs2017) | Contoso usa Data Migration Assistant para valorar y detectar problemas de compatibilidad que podrían afectar a la funcionalidad de su base de datos en Azure. Data Migration Assistant valora la paridad de características entre los orígenes y los destinos SQL. Recomienda mejoras de rendimiento y confiabilidad. | Data Migration Assistant es una herramienta gratuita y descargable.
 [Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-overview) | Contoso usa el servicio Azure Migrate para valorar sus máquinas virtuales de VMware. Azure Migrate valora la idoneidad de las máquinas para la migración. Proporciona estimaciones de tamaño y costos para su ejecución en Azure. | A partir de mayo de 2018, Azure Migrate es un servicio gratuito.
@@ -98,7 +97,7 @@ En este escenario, Contoso descarga y ejecuta Data Migration Assistant para valo
   - **OSTICKETWEB** ejecuta Apache 2 y PHP 7.0.
   - **OSTICKETMYSQL** ejecuta MySQL 5.7.22.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Contoso y otros usuarios deben cumplir los siguientes requisitos previos para la valoración:
 
@@ -121,12 +120,12 @@ Le mostramos cómo realiza Contoso la valoración:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Descarga e instalación de Data Migration Assistant.** Contoso prepara Data Migration Assistant para la valoración de la base de datos de SQL Server local.
-> - **Paso 2: Valoración de la base de datos mediante Data Migration Assistant.** Contoso ejecuta y analiza la valoración de la base de datos.
-> - **Paso 3: Preparación de la valoración de las máquinas virtuales con Azure Migrate.** Contoso configura las cuentas locales y ajusta la configuración de VMware.
-> - **Paso 4: Detección de máquinas virtuales locales con Azure Migrate.** Contoso crea una máquina virtual de Azure Migrate Collector. Después, ejecuta el recopilador para detectar las máquinas virtuales que se valorarán.
-> - **Paso 5: Preparación del análisis de dependencias con Azure Migrate.** Contoso instala los agentes de Azure Migrate en las máquinas virtuales para que la compañía pueda ver la asignación de dependencias entre las máquinas virtuales.
-> - **Paso 6: Valoración de las máquinas virtuales con Azure Migrate.** Contoso comprueba las dependencias, agrupa las máquinas virtuales y ejecuta la valoración. Una vez lista la valoración, Contoso la analiza para preparar la migración.
+> - **Paso 1: Descarga e instalación de Data Migration Assistant.** Contoso prepara Data Migration Assistant para la valoración de la base de datos de SQL Server local.
+> - **Paso 2: Valoración de la base de datos mediante Data Migration Assistant.** Contoso ejecuta y analiza la valoración de la base de datos.
+> - **Paso 3: Preparación de la valoración de las máquinas virtuales con Azure Migrate.** Contoso configura las cuentas locales y ajusta la configuración de VMware.
+> - **Paso 4: Detección de máquinas virtuales locales con Azure Migrate.** Contoso crea una máquina virtual de Azure Migrate Collector. Después, ejecuta el recopilador para detectar las máquinas virtuales que se valorarán.
+> - **Paso 5: Preparación del análisis de dependencias con Azure Migrate.** Contoso instala los agentes de Azure Migrate en las máquinas virtuales para que la compañía pueda ver la asignación de dependencias entre las máquinas virtuales.
+> - **Paso 6: Valoración de las máquinas virtuales con Azure Migrate.** Contoso comprueba las dependencias, agrupa las máquinas virtuales y ejecuta la valoración. Una vez lista la valoración, Contoso la analiza para preparar la migración.
 
     > [!NOTE]
     > Assessments shouldn't just be limited to using tooling to discover information about your environment, you should schedule in time to speak to business owners, end users, other members within the IT department, etc in order to get a full picture of what is happening within the environment and understand things tooling cannot tell you. 
@@ -276,7 +275,7 @@ Antes de implementar la máquina virtual, Contoso comprueba que el archivo OVA s
 
     ```C:\>CertUtil -HashFile <file_location> [Hashing Algorithm]```
 
-    **Ejemplo:**
+    **Ejemplo**:
 
     ```C:\>CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256```
 3. El hash generado debe coincidir con los valores hash que se enumeran en la sección [Comprobación de la seguridad](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#verify-security) del tutorial [Evaluación de las máquinas virtuales de VMware para la migración](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware).

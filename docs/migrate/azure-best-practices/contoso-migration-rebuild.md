@@ -1,6 +1,5 @@
 ---
 title: Recompilación de una aplicación local en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de cómo Contoso recompila una aplicación en Azure con Azure App Service, Azure Kubernetes Service, Cosmos DB, Azure Functions y Azure Cognitive Services.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: b00b007f9fb223312aa7baf99f54d32a8a08ce70
-ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
+ms.openlocfilehash: e2904356871eec65b516b7a02c356c679ab86b33
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74681826"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807502"
 ---
 # <a name="rebuild-an-on-premises-app-on-azure"></a>Recompilación de una aplicación local en Azure
 
@@ -41,7 +40,7 @@ El equipo de la nube de Contoso ha establecido los requisitos de la aplicación 
 - El servicio de API utilizado para las fotos de mascotas debe ser preciso y fiable en el mundo real, ya que las decisiones que toma la aplicación deben cumplirse en los hoteles. Cualquier mascota con acceso autorizado podrá permanecer en los hoteles.
 - Para cumplir los requisitos de una canalización de DevOps, Contoso usará Azure DevOps para la administración de código fuente (SCM), con repositorios de Git. Se usarán compilaciones y versiones automatizadas para compilar el código e implementarlo en Azure App Service, Azure Functions y AKS.
 - Se requieren distintas canalizaciones de CI/CD para los microservicios en el back-end y para el sitio web en el front-end.
-- Los servicios de back-end tienen un ciclo de lanzamiento diferente al de la aplicación web de front-end. Para satisfacer este requisito, se implementarán dos canalizaciones distintas de DevOps.
+- Los servicios de back-end tienen un ciclo de lanzamiento diferente al de la aplicación web de front-end. Para satisfacer este requisito, se implementarán dos canalizaciones distintas.
 - Contoso necesita la aprobación de administración en todas las implementaciones de sitio web de front-end y la canalización de CI/CD debe facilitarlo.
 
 ## <a name="solution-design"></a>Diseño de la solución
@@ -58,7 +57,7 @@ Después de fijar los objetivos y requisitos, Contoso diseña y revisa una soluc
 
 ### <a name="proposed-architecture"></a>Arquitectura propuesta
 
-- El front-end de la aplicación se implementa como una aplicación web de Azure App Service, en la región primaria de Azure.
+- El front-end de la aplicación se implementa como una aplicación web de Azure App Service en la región primaria de Azure.
 - Una función de Azure proporciona las cargas de las fotos de mascotas y el sitio interactúa con esta funcionalidad.
 - La función de fotos de mascotas aprovecha Azure Cognitive Services Vision API y Cosmos DB.
 - El back-end del sitio se ha compilado con microservicios. Estos se implementarán en contenedores administrados en Azure Kubernetes Service (AKS).
@@ -96,11 +95,11 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 **Servicio** | **Descripción** | **Costee**
 --- | --- | ---
 [AKS](https://docs.microsoft.com/sql/dma/dma-overview?view=ssdt-18vs2017) | Simplifica las operaciones, la implementación y la administración de Kubernetes. Proporciona un servicio de orquestación de contenedores de Kubernetes totalmente administrado. | AKS es un servicio gratuito. Solo debe pagar por las máquinas virtuales y el almacenamiento y los recursos de red asociados que utilice. [Más información](https://azure.microsoft.com/pricing/details/kubernetes-service).
-[Azure Functions](https://azure.microsoft.com/services/functions) | Acelera el proceso de desarrollo con una experiencia de proceso sin servidor controlada por eventos. Escalado a petición. | Solo debe pagar solo por los recursos consumidos. El plan se factura en función del consumo de recursos y las ejecuciones por segundo. [Más información](https://azure.microsoft.com/pricing/details/functions).
+[Funciones de Azure](https://azure.microsoft.com/services/functions) | Acelera el proceso de desarrollo con una experiencia de proceso sin servidor controlada por eventos. Escalado a petición. | Solo debe pagar solo por los recursos consumidos. El plan se factura en función del consumo de recursos y las ejecuciones por segundo. [Más información](https://azure.microsoft.com/pricing/details/functions).
 [Azure Container Registry](https://azure.microsoft.com/services/container-registry) | Almacena imágenes para todos los tipos de implementaciones de contenedor. | Costo basado en características, almacenamiento y duración de la utilización. [Más información](https://azure.microsoft.com/pricing/details/container-registry).
 [Azure App Service](https://azure.microsoft.com/services/app-service/containers) | Compile, implemente y escale con rapidez aplicaciones web, móviles y de API de naturaleza empresarial que se puedan ejecutar en cualquier plataforma. | Los planes de App Service se facturan por segundo. [Más información](https://azure.microsoft.com/pricing/details/app-service/windows).
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que Contoso requiere en este escenario:
 
@@ -120,12 +119,12 @@ Contoso ejecutará la migración de la forma siguiente:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Aprovisionar AKS y ACR.** Contoso aprovisiona el clúster de AKS administrado y el registro de contenedores de Azure mediante PowerShell.
-> - **Paso 2: Compilar contenedores de Docker.** configura la integración continua para contenedores de Docker mediante Azure DevOps y los inserta en ACR.
-> - **Paso 3: Implementar microservicios de back-end.** Implementan el resto de la infraestructura que aprovecharán los microservicios de back-end.
-> - **Paso 4: Implementar la infraestructura de front-end.** implementa la infraestructura de front-end, lo que incluye el almacenamiento de blobs para los teléfonos de mascota, Cosmos DB y Vision API.
-> - **Paso 5: Migrar el back-end.** implementa los microservicios y se ejecuta en AKS, para migrar el back-end.
-> - **Paso 6: Publicar el front-end.** Publican la aplicación SmartHotel360 en App Service y la instancia de Function App a la que llamará el servicio de mascotas.
+> - **Paso 1: Aprovisionar AKS y ACR.** Contoso aprovisiona el clúster de AKS administrado y el registro de contenedores de Azure mediante PowerShell.
+> - **Paso 2: Compilar contenedores de Docker.** configura la integración continua para contenedores de Docker mediante Azure DevOps y los inserta en ACR.
+> - **Paso 3: Implementar microservicios de back-end.** Implementan el resto de la infraestructura que aprovecharán los microservicios de back-end.
+> - **Paso 4: Implementar la infraestructura de front-end.** implementa la infraestructura de front-end, lo que incluye el almacenamiento de blobs para los teléfonos de mascota, Cosmos DB y Vision API.
+> - **Paso 5: Migrar el back-end.** implementa los microservicios y se ejecuta en AKS, para migrar el back-end.
+> - **Paso 6: Publicar el front-end.** Publican la aplicación SmartHotel360 en App Service y la instancia de Function App a la que llamará el servicio de mascotas.
 
 ## <a name="step-1-provision-back-end-resources"></a>Paso 1: Aprovisionar recursos de back-end
 
@@ -134,7 +133,7 @@ Contoso ejecuta un script de implementación para crear el clúster de Kubernete
 - Las instrucciones de esta sección usan el repositorio **SmartHotel360-Azure-backend**.
 - El repositorio **SmartHotel360-Azure-backend** de GitHub contiene todo el software para esta parte de la implementación.  
 
-### <a name="prerequisites"></a>Requisitos previos
+### <a name="ensure-prerequisites"></a>Garantía de requisitos previos
 
 1. Antes de empezar, los administradores de Contoso se aseguran de que todo el software necesario está instalado en la máquina de desarrollo que se utiliza para la implementación.
 2. Clonan el repositorio localmente en la máquina de desarrollo con Git: `git clone https://github.com/Microsoft/SmartHotel360-Azure-backend.git`
@@ -445,7 +444,7 @@ Los administradores de Contoso crean dos proyectos distintos en el sitio de fron
 
 2. Importan el repositorio de Git del [front-end de SmartHotel360](https://github.com/Microsoft/SmartHotel360-public-web.git) al nuevo proyecto.
 
-3. En Function App, crean otro proyecto de Azure DevOps (SmartHotelPetChecker) e importan el repositorio de Git de [PetChecker](https://github.com/Microsoft/SmartHotel360-PetCheckerFunction ) a este proyecto.
+3. En Function App, crean otro proyecto de Azure DevOps (SmartHotelPetChecker) e importan el repositorio de Git de [PetChecker](https://github.com/sonahander/SmartHotel360-PetCheckerFunction) a este proyecto.
 
 ### <a name="configure-the-web-app"></a>Configuración de la aplicación web
 
@@ -584,21 +583,20 @@ Los administradores de Contoso implementan la aplicación de la manera siguiente
 14. Una vez implementada la función, aparece en Azure Portal, con el estado **En ejecución**.
 
     ![Implementación de la función](./media/contoso-migration-rebuild/function6.png)
-    
+
 15. Contoso va a la aplicación para probar si la aplicación Pet Checker funciona según lo previsto, en [http://smarthotel360public.azurewebsites.net/Pets](http://smarthotel360public.azurewebsites.net/Pets).
 
 16. Seleccionan el avatar para cargar una imagen.
 
     ![Implementación de la función](./media/contoso-migration-rebuild/function7.png)
-    
+
 17. La primera foto que quiere comprobar es la de un perro pequeño.
 
     ![Implementación de la función](./media/contoso-migration-rebuild/function8.png)
-    
+
 18. La aplicación devuelve un mensaje de aceptación.
 
     ![Implementación de la función](./media/contoso-migration-rebuild/function9.png)
-    
 
 ## <a name="review-the-deployment"></a>Revisión de la implementación
 
@@ -636,4 +634,3 @@ A continuación se muestran un par de ejemplos de rutas de aprendizaje adaptadas
 [Implementación de un sitio web en Azure con Azure App Service](https://docs.microsoft.com/learn/paths/deploy-a-website-with-azure-app-service/): Las aplicaciones web en Azure le permiten publicar y administrar el sitio web fácilmente sin tener que trabajar con los servidores, almacenamiento o recursos de red subyacentes. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar un acceso seguro al sitio.
 
 [Procese y clasifique las imágenes con Azure Cognitive Vision Services](https://docs.microsoft.com/learn/paths/classify-images-with-vision-services/): Azure Cognitive Services ofrece una funcionalidad pregenerada para habilitar la funcionalidad de Computer Vision en las aplicaciones. Aprenda a usar Cognitive Vision Services para detectar rostros, etiquetar y clasificar imágenes e identificar objetos.
-

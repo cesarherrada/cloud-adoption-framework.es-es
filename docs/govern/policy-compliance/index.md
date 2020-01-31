@@ -1,6 +1,5 @@
 ---
 title: Preparación de la directiva de TI corporativa para la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Explicación del concepto de directivas corporativas en relación con la gobernanza en la nube.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2c8907d3b80d6638ed7330063b231f22ae93943a
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: b2a260868a873828a1bc47584f479f129b6b255a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223681"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806091"
 ---
 <!-- markdownlint-disable MD026 -->
 

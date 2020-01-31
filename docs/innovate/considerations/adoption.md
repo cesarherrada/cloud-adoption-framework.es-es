@@ -1,6 +1,5 @@
 ---
 title: Crear asociaciones con los clientes mediante el bucle de comentarios crear-medir-aprender
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a crear asociaciones con los clientes a través del bucle de comentarios crear-medir-aprender.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 75590b73aff96e3d90ca5103e0ec15e6ad0f0a1e
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 6dc67f308ea257500e71661585b172f7d3deb61a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047740"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808607"
 ---
 # <a name="create-customer-partnerships-through-the-build-measure-learn-feedback-loop"></a>Crear asociaciones con los clientes a través del bucle de comentarios crear-medir-aprender
 
@@ -32,7 +31,7 @@ Tal y como se describe en [Innovación en la economía digital](./index.md), la 
 Este proceso de administración de asociaciones con los clientes y su integración en los esfuerzos de innovación incluye tres fases de desarrollo:
 
 - [Crear con la empatía de los clientes](./build.md)
-- [Medir el impacto en los clientes](./measure.md)
+- [Medida del impacto en los clientes](./measure.md)
 - [Aprender con los clientes](./learn.md)
 
 Cada fase del proceso le ayuda a crear mejores soluciones con sus clientes.

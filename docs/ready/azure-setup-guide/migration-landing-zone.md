@@ -1,6 +1,5 @@
 ---
 title: Implementación de una zona de aterrizaje de migración en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a implementar una zona de aterrizaje de migración en Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, setup
-ms.openlocfilehash: 59b57467eeae47b73fa24ce672d9e7e4f0ed4478
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 42e7064a6d3b125a01f6fca9ce041b473fb1b7f6
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251706"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799495"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Implementación de una zona de aterrizaje para la migración
 
@@ -65,7 +64,7 @@ Las siguientes decisiones se representan en el plano técnico de la zona de ater
 |Detalles de la suscripción|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)|
 |Grupos de administración|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)         |
 |Grupos de recursos|N/A: diseñado para una sola suscripción de producción|[Escalado de suscripciones](../azure-best-practices/scaling-subscriptions.md)         |
-|Datos|N/D|[Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+|data|N/D|[Elección de la opción correcta de SQL Server en Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) y [Guía sobre Azure Data Lake Store](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Storage|N/D|[Guía de Azure Storage](../considerations/storage-options.md)         |
 |Estándares de nomenclatura y etiquetado|N/D|[Procedimientos recomendados de nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md)         |
 |Administración de costos|N/D|[Seguimiento de costos](../azure-best-practices/track-costs.md)|

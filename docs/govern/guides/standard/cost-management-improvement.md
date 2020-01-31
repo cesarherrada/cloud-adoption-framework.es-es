@@ -1,6 +1,5 @@
 ---
 title: 'Guía para empresa estándar: Mejora de la materia de administración de costos'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía para empresa estándar: Mejora de la materia de administración de costos'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b4ff2db2b8d7009eb9d5a50dee630c1a8a60723c
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: 83fe35135b37fe96a95f7335639aec65538ee829
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967592"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806210"
 ---
 # <a name="standard-enterprise-guide-improve-the-cost-management-discipline"></a>Guía para empresa estándar: Mejora de la materia de administración de costos
 

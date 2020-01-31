@@ -1,6 +1,5 @@
 ---
 title: Guía de decisiones sobre redes definidas por software
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre las redes definidas por software como un servicio principal en las migraciones de Azure.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 46d01d6685b4cac55db7ed313b70891b4f9c029f
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7eb03b01dfab3627117b4d07727f09669e6b0924
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564783"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806601"
 ---
 # <a name="software-defined-networking-decision-guide"></a>Guía de decisiones sobre redes definidas por software
 
@@ -24,7 +23,7 @@ Redes definidas por software (SDN) es una arquitectura de red diseñada para per
 
 ![Esquema de las opciones de red, de las menos a las más complejas, con sus hipervínculos](../../_images/decision-guides/decision-guide-software-defined-network.png)
 
-Vaya a: [Solo PaaS](./paas-only.md) | [Nativa de la nube](./cloud-native.md) | [Red perimetral en la nube](./cloud-dmz.md) [Híbrida](./hybrid.md) | [Modelo en estrella tipo hub-and-spoke](./hub-spoke.md) | [Más información](#learn-more)
+Vaya a: [Solo PaaS](./paas-only.md) | [Nativo de la nube](./cloud-native.md) | [Red perimetral en la nube](./cloud-dmz.md)[Híbrida](./hybrid.md) | [Modelo en estrella tipo hub-and-spoke](./hub-spoke.md) | [Más información](#learn-more)
 
 SDN proporciona varias opciones con diversos grados de complejidad y precios. La guía de detección anterior proporciona una referencia para personalizar rápidamente dichas opciones, con el fin de ajustarlas lo mejor posible a estrategias empresariales y tecnológicas concretas.
 
@@ -40,14 +39,14 @@ Hay muchas maneras de implementar tecnologías de SDN para crear redes virtuales
 
 Al planear la arquitectura de red virtual o la combinación de arquitecturas que hay que tomar en consideración al planear una migración a la nube, tenga en cuenta las siguientes preguntas, ya que ello le ayudará a determinar lo que es más apropiado para su organización:
 
-| Pregunta | solo PaaS | Nativas de la nube | Red perimetral en la nube | Híbrido | En estrella tipo hub-and-spoke |
+| Pregunta | solo PaaS | Nativo de la nube | Red perimetral en la nube | Híbrido | En estrella tipo hub-and-spoke |
 |-----|-----|-----|-----|-----|-----|
-| ¿Va a usar la carga de trabajo solo los servicios de PaaS y no va a requerir funcionalidades de red que vayan más allá de las proporcionados por los propios servicios? | Sí | No | No | No | Sin |
-| ¿Requiere la carga de trabajo integración con las aplicaciones locales? | Sin | No | Sí | Sí | Sí |
-| ¿Se han establecido directivas de seguridad maduras y una conectividad segura entre las redes local y en la nube? | Sin | No | No | Sí | Sí |
-| ¿Requiere la carga de trabajo servicios de autenticación que no se admite a través de servicios de identidad en la nube o se necesita acceso directo a controladores de dominio locales? | Sin | No | No | Sí | Sí |
-| ¿Va a ser preciso implementar y administrar un gran número de máquinas virtuales y cargas de trabajo? | Sin | No | No | No | Sí |
-| ¿Se va a necesitar proporcionar administración centralizada y conectividad local al delegar el control sobre los recursos a los equipos de las cargas de trabajo individuales? | Sin | No | No | No | Sí |
+| ¿Va a usar la carga de trabajo solo los servicios de PaaS y no va a requerir funcionalidades de red que vayan más allá de las proporcionados por los propios servicios? | Sí | No | No | No | No |
+| ¿Requiere la carga de trabajo integración con las aplicaciones locales? | No | No | Sí | Sí | Sí |
+| ¿Se han establecido directivas de seguridad maduras y una conectividad segura entre las redes local y en la nube? | No | No | No | Sí | Sí |
+| ¿Requiere la carga de trabajo servicios de autenticación que no se admite a través de servicios de identidad en la nube o se necesita acceso directo a controladores de dominio locales? | No | No | No | Sí | Sí |
+| ¿Va a ser preciso implementar y administrar un gran número de máquinas virtuales y cargas de trabajo? | No | No | No | No | Sí |
+| ¿Se va a necesitar proporcionar administración centralizada y conectividad local al delegar el control sobre los recursos a los equipos de las cargas de trabajo individuales? | No | No | No | No | Sí |
 
 ## <a name="virtual-networking-architectures"></a>Arquitecturas de red virtual
 

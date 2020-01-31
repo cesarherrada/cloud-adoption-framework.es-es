@@ -1,6 +1,5 @@
 ---
 title: Diseño de gobernanza en Azure para varios equipos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Guía para configurar controles de gobernanza de Azure para varios equipos, varias cargas de trabajo y varios entornos.
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 59b60af79d81316726ffed1dcf326641af059cb0
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 7bfceb1a7fe68869dabec7eda813cd3fdc121b49
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160483"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804306"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
@@ -260,7 +259,7 @@ Siga estos pasos:
 6. Cree un proceso de aprobación para que **propietarios de cargas de trabajo** soliciten la creación de grupos de recursos. El proceso de aprobación se puede implementar de muchas maneras, por ejemplo, por correo electrónico, o bien puede usar una herramienta de administración de procesos como [flujos de trabajo de Sharepoint](https://support.office.com/article/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3). El proceso de aprobación puede seguir estos pasos:
     - El **propietario de la carga de trabajo** prepara una lista de materiales de los recursos de Azure que necesita en el entorno de **desarrollo**, de **producción** o ambos, y la envía al **propietario de la suscripción**.
     - El **propietario de la suscripción** revisa la lista de materiales y valida los recursos solicitados para asegurarse de que son los adecuados para el uso previsto; por ejemplo, comprueba que los [ tamaños de máquina virtual](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) solicitados son los correctos.
-    - Si no se aprueba la solicitud, el **propietario de la carga de trabajo** recibe una notificación. Si se aprueba la solicitud, el **propietario de la suscripción** [crea el grupo de recursos solicitado](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups) según las [convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) de la organización, [agrega el **propietario de carga de trabajo**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) con el rol de [**colaborador**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) y notifica al **propietario de carga de trabajo** que se ha creado el grupo de recursos.
+    - Si no se aprueba la solicitud, el **propietario de la carga de trabajo** recibe una notificación. Si se aprueba la solicitud, el **propietario de la suscripción** [crea el grupo de recursos solicitado](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups) según las [convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) de la organización, [agrega el **propietario de carga de trabajo**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) con el rol de [**colaborador**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) y notifica al **propietario de la carga de trabajo** que se ha creado el grupo de recursos.
 7. Crear un proceso de aprobación para que los propietarios de cargas de trabajo soliciten una conexión de emparejamiento de red virtual desde el propietario de la infraestructura compartida. Al igual que con el paso anterior, este proceso de aprobación se puede implementar mediante correo electrónico o con una herramienta de administración de procesos.
 
 Ahora que ha implementado el modelo de gobernanza, puede implementar los servicios de infraestructura compartida.

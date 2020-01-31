@@ -1,6 +1,5 @@
 ---
 title: 'Innovación en la nube: Herramientas para la democratización de los datos en Azure'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Herramientas para la democratización de los datos en Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d86bebc3a993443c4dded4b1a0f23ff518147bd4
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3fed47eb3a5bb7a3b51f19f2d103395ede848e9d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565837"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808692"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Herramientas para la democratización de los datos en Azure
 
@@ -63,7 +62,7 @@ En Azure, las siguientes herramientas se suelen usar para acelerar la invención
 
 A medida que la invención se aproxima a la adopción a escala, los aspectos de cada solución requieren una fase de refinamiento y maduración técnica. A medida que eso vaya sucediendo, es probable que se requieran más servicios de los mencionados. Use la tabla de contenido de la izquierda de esta página para obtener la guía de herramientas de Azure correspondiente a su proceso de prueba de hipótesis.
 
-## <a name="get-started"></a>Primeros pasos
+## <a name="get-started"></a>Introducción
 
 En la tabla de contenido del lado izquierdo de esta página se describen muchos artículos. Estos artículos ayudan a empezar a trabajar con cada una de las herramientas de esta cadena de herramientas.
 

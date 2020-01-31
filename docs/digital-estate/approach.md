@@ -1,6 +1,5 @@
 ---
 title: Enfoques de planeamiento del patrimonio digital
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre los distintos enfoques del planeamiento del patrimonio digital.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 6a9d82e0211b36a2d34b54deca50227a62d7298e
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 453ac12e8c86aed46675c710395101ff3a121195
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753125"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806550"
 ---
 # <a name="approaches-to-digital-estate-planning"></a>Enfoques de planeamiento del patrimonio digital
 

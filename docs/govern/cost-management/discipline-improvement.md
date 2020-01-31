@@ -1,6 +1,5 @@
 ---
 title: Mejora de la materia de Cost Management
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejora de la materia de Cost Management
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1b59121bc0679475079dc1a7b5d3770cc87d7523
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ebd297f4fbebd451f47bbb6b88be56e1ccc489be
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753091"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806482"
 ---
 # <a name="cost-management-discipline-improvement"></a>Mejora de la materia de Cost Management
 
@@ -38,10 +37,10 @@ Esta fase del desarrollo de la gobernanza permite salvar las diferencias entre l
 **Actividades mínimas sugeridas:**
 
 - Evalúe las opciones de la [cadena de herramientas de Cost Management](./toolchain.md).
-- Desarrolle un borrador con las directrices de arquitectura y distribúyalo a las partes interesadas clave.
+- Elabore un borrador con las directrices de arquitectura y distribúyalo a las principales partes interesadas.
 - Eduque e implique a las personas y equipos que se vean afectados por el desarrollo de las directrices de arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Asegúrese de tomar decisiones presupuestarias que respalden la justificación comercial de su estrategia en la nube.
 - Valide las métricas de aprendizaje que usa para informar sobre la asignación exitosa de fondos.
@@ -59,10 +58,10 @@ Se necesitan varios requisitos técnicos y no técnicos para migrar correctament
 
 - Para implementar su [cadena de herramientas de administración de costos](./toolchain.md), agréguela en una fase anterior a la implementación.
 - Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 - Determine si sus requisitos de compra se alinean con sus presupuestos y objetivos.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Alinee sus planes presupuestarios con la [Estrategia de suscripción](../../decision-guides/subscriptions/index.md) que defina su modelo de propiedad principal.
 - Use la [estrategia de coherencia de los recursos](../../decision-guides/resource-consistency/index.md) para aplicar las instrucciones de arquitectura y costos con el tiempo.
@@ -76,7 +75,7 @@ La migración es un proceso incremental que se centra en el traslado, las prueba
 
 - Migre su [cadena de herramientas de administración de costos](./toolchain.md) de la fase anterior a la implementación a la fase de producción.
 - Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 
 **Posible actividades:**
 
@@ -96,7 +95,7 @@ Una vez completada la transformación, la gobernanza y las operaciones deben est
 - Refina las directrices de arquitectura para guiar los procesos de adopción futuros.
 - Ofrezca cursos a los equipos afectados de forma periódica para garantizar que se cumplan las directrices de arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Ejecute una revisión trimestral del negocio en la nube para saber el valor entregado al negocio y los costos asociados.
 - Ajuste los planes trimestralmente para reflejar los cambios en los gastos reales.

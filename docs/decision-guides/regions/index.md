@@ -1,6 +1,5 @@
 ---
 title: Guía de decisiones sobre regiones
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre la selección de regiones en la plataforma de nube.
 author: doodlemania2
 ms.author: dermar
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 981752b1e1963dd4f8a646ccc087d445669e6cd3
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: aff6a3129bd93df434737a861f0b5f0daad24bcc
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753302"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806720"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -82,10 +81,10 @@ La tabla siguiente puede ayudar a documentar los resultados de los pasos anterio
 
 | Region        | Country     | Empleados locales | Usuarios externos locales   | Centros de datos o recursos locales | Requisitos de soberanía de datos |
 |---------------|-------------|-----------------|------------------------|-----------------------------|-------------------------------|
-| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | Sin                            |
-| Norteamérica | Canadá      | Sin              | Clientes              | Sí                         | Sí                           |
+| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | No                            |
+| Norteamérica | Canadá      | No              | Clientes              | Sí                         | Sí                           |
 | Europa        | Alemania     | Sí             | Asociados y clientes | No, solo red           | Sí                           |
-| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | Sin                            |
+| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | No                            |
 
 <!-- markdownlint-disable MD026 -->
 
@@ -167,7 +166,7 @@ Al migrar una aplicación que se debe implementar en varias regiones, el equipo 
 > [!NOTE]
 > Este enfoque puede aumentar el costo de la migración a corto plazo, porque podría generar cargos adicionales por el ancho de banda de salida.
 
-## <a name="optimize-and-promote-process-changes"></a>Cambios en los procesos de optimización y promoción
+## <a name="optimize-and-promote-process-changes"></a>Optimización y promoción de los cambios del proceso
 
 Abordar la complejidad global durante la optimización y promoción podría requerir trabajos duplicados en cada una de las regiones adicionales. Cuando es aceptable una implementación única, puede que todavía se requiera la duplicación de las pruebas empresariales y de los planes de cambios empresariales.
 

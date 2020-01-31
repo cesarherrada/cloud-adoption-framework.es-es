@@ -1,6 +1,5 @@
 ---
 title: Ejemplos de resultados de agilidad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Ejemplos de resultados de agilidad
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 79c6c10d924781d494cd8dbd7cc104d42f168083
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6f865eb0a5f81aa005239dbafd5437dc93797f94
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566647"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798509"
 ---
 # <a name="examples-of-agility-outcomes"></a>Ejemplos de resultados de agilidad
 
@@ -50,7 +49,7 @@ Un sistema sanitario transforma los servicios en línea en una sencilla experien
 
 Cuando el negocio exige nuevos servicios de TI o escalar a servicios existentes, la adquisición y el aprovisionamiento de nuevos recursos virtuales o de hardware pueden tardar semanas. Después de la migración a la nube, TI puede habilitar el autoservicio de aprovisionamiento más fácilmente, lo que permite a la empresa escalar sus servicios en horas.
 
-- **Ejemplo:** Una empresa de bienes de consumo envasados requiere la creación y anulación de cientos de clústeres de bases de datos cada año para satisfacer las demandas operativas de la empresa. Los hosts virtuales locales se pueden aprovisionar rápidamente, pero el proceso de recuperación de los recursos virtuales es lento y ocupa un tiempo significativo del equipo. Por lo tanto, el entorno local heredado se ve sobrecargado y apenas puede mantener el ritmo de la demanda. Después de la migración a la nube, TI puede proporcionar más fácilmente aprovisionamiento automático de recursos con scripts, con un enfoque de anulación para la facturación. En conjunto, esto permite a la empresa moverse tan rápidamente como sea necesario, al tiempo que sigue asumiendo la responsabilidad del costo de los recursos que se demandan. Al hacer esto en la nube, se limitan las implementaciones exclusivamente al presupuesto de la empresa.
+- **Ejemplo**: Una empresa de bienes de consumo envasados requiere la creación y anulación de cientos de clústeres de bases de datos cada año para satisfacer las demandas operativas de la empresa. Los hosts virtuales locales se pueden aprovisionar rápidamente, pero el proceso de recuperación de los recursos virtuales es lento y ocupa un tiempo significativo del equipo. Por lo tanto, el entorno local heredado se ve sobrecargado y apenas puede mantener el ritmo de la demanda. Después de la migración a la nube, TI puede proporcionar más fácilmente aprovisionamiento automático de recursos con scripts, con un enfoque de anulación para la facturación. En conjunto, esto permite a la empresa moverse tan rápidamente como sea necesario, al tiempo que sigue asumiendo la responsabilidad del costo de los recursos que se demandan. Al hacer esto en la nube, se limitan las implementaciones exclusivamente al presupuesto de la empresa.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

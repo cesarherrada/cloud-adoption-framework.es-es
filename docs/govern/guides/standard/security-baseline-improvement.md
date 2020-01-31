@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas estándar: Mejora de la materia de base de referencia de la seguridad'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas estándar: Mejora de la materia de base de referencia de la seguridad'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0875442331a5da3c53c5d6c713c3bdbfcfab6cbf
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ef4d58cb871ea290f8489e806a4b78f32a9d8b3d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753045"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807128"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas estándar: Mejora de la materia de base de referencia de la seguridad
 
@@ -37,7 +36,7 @@ Al principio de esta narración, los equipos de desarrollo de aplicaciones aún 
 Desde entonces, han cambiado algunas cosas que afectarán a la gobernanza:
 
 - El equipo de desarrollo de aplicaciones ha implementado una canalización de CI/CD para implementar una aplicación nativa en la nube con una experiencia de usuario mejorada. La aplicación aún no interactúa con los datos protegidos, por lo que no está lista para producción.
-- El equipo de inteligencia empresarial de TI mantiene activamente los datos en la nube de terceros, inventario y logística. Estos datos se emplean para impulsar nuevas predicciones, que podrían dar forma a procesos empresariales. Sin embargo, no se puede actuar sobre las predicciones y conclusiones hasta que los datos del cliente y financieros puedan integrarse en la plataforma de datos.
+- El equipo de inteligencia empresarial de TI mantiene activamente los datos en la nube de terceros, inventario y logística. Estos datos se emplean para impulsar nuevas predicciones, que podrían dar forma a procesos empresariales. Sin embargo, no se puede actuar sobre las predicciones y conclusiones hasta que los datos de cliente y financieros puedan integrarse en la plataforma de datos.
 - El equipo de TI hace progresos en los planes del CIO y del director financiero para retirar el centro de datos de DR. Se han retirado o migrado más de 1000 de los 2000 recursos del centro de datos de DR.
 - Las directivas definidas de forma flexible con respecto a la información personal y datos financieros se han modernizado. Sin embargo, las nuevas directivas corporativas están supeditadas a la implementación de directivas de seguridad y de gobernanza relacionadas. Así que los equipos siguen estancados.
 
@@ -74,10 +73,10 @@ Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgo
 3. todos los datos protegidos deben estar cifrados cuando están en reposo. Aunque este es el valor predeterminado para todas las cuentas de Azure Storage, es posible que se necesiten estrategias de cifrado adicionales, incluido el cifrado de los datos de la cuenta de almacenamiento, el cifrado de las máquinas virtuales y el cifrado en el nivel de bases de datos cuando se usa SQL en una máquina virtual (cifrado de datos transparente y de columnas).
 4. Los permisos elevados en los segmentos que contienen datos protegidos deben ser una excepción. Estas excepciones se registrarán con el equipo de gobernanza de la nube y se auditarán periódicamente.
 5. las subredes que contengan datos protegidos deben aislarse de las otras subredes. El tráfico de red entre subredes de datos protegidos se auditará periódicamente.
-6. No se podrá tener acceso a ninguna subred que contenga datos protegidos directamente a través de Internet o centros de datos. El acceso a esas subredes debe enrutarse a través de subredes intermedias. Todo acceso a esas subredes debe realizarse a través de una solución de firewall que pueda realizar funciones de análisis y bloqueo de paquetes.
+6. No se podrá tener acceso a ninguna subred que contenga datos protegidos directamente a través de Internet o entre centros de datos. El acceso a esas subredes debe enrutarse a través de subredes intermedias. Todo acceso a esas subredes debe realizarse a través de una solución de firewall que pueda realizar funciones de análisis y bloqueo de paquetes.
 7. Las herramientas de gobernanza deben auditar y aplicar los requisitos de configuración de red definidos por el equipo de administración de seguridad.
 8. Las herramientas de gobernanza deben limitar la implementación de máquina virtual a solo las imágenes aprobadas.
-9. Siempre que sea posible, la administración de la configuración de nodos debe aplicar los requisitos de directiva a la configuración de cualquier sistema operativo invitado.
+9. Siempre que sea posible, la administración de configuración de nodos debe aplicar los requisitos de directiva a la configuración de cualquier sistema operativo invitado.
 10. Las herramientas de gobernanza deben exigir que las actualizaciones automáticas estén habilitadas en todos los recursos implementados. Las infracciones deben revisarse con los equipos de administración de operaciones y corregirse de acuerdo con las directivas de operaciones. Los recursos que no se actualicen automáticamente deben incluirse en procesos que sean propiedad del departamento de operaciones de TI.
 11. La creación de nuevas suscripciones o grupos de administración para las aplicaciones críticas o datos protegidos requiere una revisión del equipo de gobernanza de la nube para garantizar que se ha asignado el plano técnico correcto.
 12. Un modelo de acceso con privilegios mínimos se aplicará a cualquier grupo de administración o suscripción que contenga aplicaciones críticas o datos protegidos.
@@ -85,7 +84,7 @@ Los siguientes cambios en la directiva le ayudarán a corregir los nuevos riesgo
 14. El equipo de gobernanza de la nube debe aprobar las herramientas de implementación para garantizar la gobernanza en curso de los recursos implementados.
 15. Los scripts de implementación deben conservarse en un repositorio central accesible para el equipo de gobernanza de la nube, y que así se puedan revisar y se realicen auditorías periódicas.
 16. Los procesos de gobernanza deben incluir auditorías en el punto de implementación y en ciclos regulares para garantizar la coherencia entre todos los recursos.
-17. La implementación de las aplicaciones que requieren autenticación de cliente debe usar un proveedor de identidades aprobado que sea compatible con el proveedor de identidades principal para usuarios internos.
+17. la implementación de las aplicaciones que requieren autenticación de cliente debe usar un proveedor de identidades aprobado que sea compatible con el proveedor de identidades principal para usuarios internos.
 18. Los procesos de gobernanza en la nube deben incluir revisiones trimestrales con equipos de administración de identidades. Estas revisiones pueden ayudar a identificar actores malintencionados o patrones de uso que deben evitarse en la configuración de recursos en la nube.
 
 ## <a name="incremental-improvement-of-governance-practices"></a>Mejora incremental de las prácticas de gobernanza
@@ -109,14 +108,14 @@ El diseño de un producto viable mínimo de gobernanza cambiará para incluir nu
     2. Audite y exija el cifrado para todas las cuentas de almacenamiento y los archivos en reposo en nodos individuales.
     3. Audite y exija la aplicación de un NSG a todos los NIC y subredes. Los equipos de redes y seguridad de TI definirán los NSG.
     4. Audite y exija el uso de la subred de red aprobada y vNet por interfaz de red.
-    5. Audite y exija la limitación de las tablas de enrutamiento definidas por el usuario.
+    5. Audite y exija que se aplique la limitación de las tablas de enrutamiento que defina el usuario.
     6. Aplique las directivas integradas para la configuración de invitado de la manera siguiente:
         1. Confirme que los servidores web de Windows usan protocolos de comunicación segura.
         2. Confirme que la configuración de seguridad de contraseñas es correcta en máquinas de Linux y Windows.
 7. Configuración del firewall:
     1. Identifique una configuración de Azure Firewall que cumpla los requisitos de seguridad necesarios. También puede identificar un dispositivo de terceros compatible, que sea compatible con Azure.
     2. Cree una plantilla de Resource Manager para implementar el firewall con las configuraciones necesarias.
-8. Azure Blueprint
+8. Plano técnico de Azure:
     1. Cree un nuevo plano técnico denominado `protected-data`.
     2. Agregue el firewall y las plantillas de Azure Security Center al plano técnico.
     3. Agregue las nuevas directivas para suscripciones de datos protegidos.

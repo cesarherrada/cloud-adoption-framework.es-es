@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas complejas: Narrativa de apoyo'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Este artículo establece un caso de uso de gobernanza durante el recorrido de adopción de la nube de una empresa compleja.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: acc82a629adf32cd9a7bfe638b0ad176f1de7933
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: fae1940c1cc522cd917b2b0293d60b630007537c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967671"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805564"
 ---
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Guía de gobernanza para empresas complejas: Narrativa de apoyo
 
@@ -34,7 +33,7 @@ La empresa tiene el siguiente perfil de negocio:
 
 - Las ventas y operaciones abarcan varias áreas geográficas con clientes globales en múltiples mercados.
 - El negocio ha crecido mediante adquisiciones y opera en tres unidades de negocio basadas en la base de clientes objetivo. La realización de presupuestos es una matriz compleja que abarca todas las unidades de negocio y funciones.
-- La empresa considera la mayor parte de la TI como una fuga de capital o un centro de coste.
+- La empresa considera la mayor parte del departamento de TI como una fuga de capital o un centro de coste.
 
 ## <a name="current-state"></a>Estado actual
 
@@ -43,7 +42,7 @@ A continuación se muestra el estado actual de las operaciones de TI y de la nub
 - TI opera más de 20 centros de datos privados en todo el mundo.
 - Debido al crecimiento orgánico y a varias zonas geográficas, hay algunos equipos de TI que tienen requisitos únicos de soberanía de datos y cumplimiento que afectan a una sola unidad de negocio que funciona dentro de una zona geográfica específica.
 - Cada centro de datos está conectado por una serie de líneas regionales alquiladas, que crean una WAN global sin conexión directa.
-- El departamento de TI entró en la nube al migrar todas las cuentas de correo electrónico de los usuarios finales a Office 365. Esta migración se completó hace más de seis meses. Desde entonces, solo se han implementado unos pocos recursos de TI en la nube.
+- Asimismo, el departamento de TI entró en la nube al migrar todas las cuentas de correo electrónico de los usuarios finales a Office 365. Esta migración se completó hace más de seis meses. Desde entonces, solo se han implementado unos pocos recursos de TI en la nube.
 - El equipo de desarrollo principal del CDO está trabajando en una capacidad de desarrollo y pruebas para aprender sobre las funcionalidades nativas en la nube.
 - Una unidad de negocio está experimentando con grandes cantidades de datos en la nube. El equipo de la unidad de negocio dentro de TI participa en ese esfuerzo.
 - La actual directiva de gobernanza de TI establece que la información personal del cliente y los datos financieros se deben hospedar en recursos que pertenecen directamente a la empresa. Esta directiva bloquea la adopción de la nube para cualquier aplicación crítica o con datos protegidos.

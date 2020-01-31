@@ -1,6 +1,5 @@
 ---
 title: Evaluación de la tolerancia al riesgo
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Explicación de los riesgos empresariales asociados con una transformación a la nube
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 7a6f77bdf2cbd0d34815fc1ef659385444c95fe7
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 06f8229ab38134ac4d51a4f0cef212ebc864bbdb
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566061"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806023"
 ---
 # <a name="evaluate-risk-tolerance"></a>Evaluación de la tolerancia al riesgo
 
@@ -34,7 +33,7 @@ Los verdaderos riesgos empresariales se basan en los detalles de las transformac
 
 - **Interrupción del servicio.** Las operaciones empresariales y las experiencias de los clientes dependen en gran medida de las operaciones técnicas. Las transformaciones a la nube generarán cambios en las operaciones de TI. En algunas organizaciones, el cambio es pequeño y se ajusta fácilmente. En otras organizaciones, estos cambios podrían requerir nuevas herramientas, nuevos conocimientos o nuevos enfoques para admitir las operaciones en la nube. Cuanto mayor sea el cambio, mayor será el impacto potencial en las operaciones empresariales y en las experiencias de los clientes. Administrar este riesgo requerirá la participación de la empresa en el planeamiento de la transformación. El planeamiento de la versión y la selección de la primera carga de trabajo que se describen en el artículo de [racionalización incremental](../../digital-estate/rationalize.md#incremental-rationalization) describen maneras de elegir las cargas de trabajo para los proyectos de transformación. El rol de la empresa en esa actividad es comunicar el riesgo para las operaciones empresariales de cambiar las cargas de trabajo prioritarias. Ayudar al departamento de TI a elegir cargas de trabajo con un menor impacto en las operaciones reducirá el riesgo general.
 
-- **Control del presupuesto.** Los modelos de costos cambian en la nube. Este cambio puede generar riesgos asociados con sobrecostos o aumentos en el costo de los bienes vendidos (COGS), en especial directamente atribuidos a los gastos operativos. Cuando la empresa trabaja en estrecha colaboración con TI, es posible crear la transparencia relativa a los costos y los servicios usados por varias unidades de negocio, programas o proyectos. En [Administración de costos](../cost-management/index.md) se proporcionan ejemplos de cómo pueden asociarse las empresas y los departamentos de TI en este tema.
+- **Control del presupuesto:** Los modelos de costos cambian en la nube. Este cambio puede generar riesgos asociados con sobrecostos o aumentos en el costo de los bienes vendidos (COGS), en especial directamente atribuidos a los gastos operativos. Cuando la empresa trabaja en estrecha colaboración con TI, es posible crear la transparencia relativa a los costos y los servicios usados por varias unidades de negocio, programas o proyectos. En [Administración de costos](../cost-management/index.md) se proporcionan ejemplos de cómo pueden asociarse las empresas y los departamentos de TI en este tema.
 
 Los anteriores son algunos de los riesgos más comunes que han mencionado los clientes. El equipo de gobernanza de la nube y los equipos de adopción de la nube pueden empezar a desarrollar un perfil de riesgo, a medida que las cargas de trabajo se migren y estén listas para pasar a producción. Prepárese para mantener conversaciones para definir, refinar y administrar los riesgos según los resultados de negocio deseados y el esfuerzo de transformación.
 

@@ -1,6 +1,5 @@
 ---
 title: Establecimiento de estructuras de equipo
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Establecimiento de estructuras de equipo
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 8000847a46082be6116abb22e52def03243c69b0
-ms.sourcegitcommit: 1dccf1aed8e98aa0f58c4f86d90c65f5fa5ac84d
+ms.openlocfilehash: 1d4cb3873767988fc7f5538e2023a6b2ca0a6586
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71811085"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800923"
 ---
 # <a name="establish-team-structures"></a>Establecimiento de estructuras de equipo
 
@@ -46,7 +45,7 @@ En los esfuerzos de adopción de pequeña escala o de fase temprana, este equipo
 > [!WARNING]
 > Trabajar *solo* con un equipo de adopción de la nube (o varios equipos de adopción de la nube) se considera un *antipatrón* y debe evitarse. Como mínimo, considere el [procedimiento recomendado de MVP](#best-practice-minimum-viable-product-mvp).
 
-## <a name="best-practice-minimum-viable-product-mvp"></a>Procedimiento recomendado: producto viable mínimo (MVP)
+## <a name="best-practice-minimum-viable-product-mvp"></a>Procedimiento recomendado: producto viable mínimo
 
 Se recomienda contar con dos equipos para crear equilibrio entre los esfuerzos de adopción de la nube. Estos dos equipos son responsables de diversas funcionalidades a lo largo del esfuerzo de adopción.
 

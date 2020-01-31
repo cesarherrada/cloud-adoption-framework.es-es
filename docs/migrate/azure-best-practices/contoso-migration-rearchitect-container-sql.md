@@ -1,6 +1,5 @@
 ---
 title: Rediseño de una aplicación en un contenedor de Azure y Azure SQL Database
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información de cómo Contoso rediseña la arquitectura de una aplicación en contenedores Windows de Azure y Azure SQL Database.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 2487b7c213c45b0dcc78ffd4c12b1acae67aa429
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3727c6bac138dae12ec976683ba2b5954bbd9163
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566657"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807553"
 ---
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Rediseño de la arquitectura de una aplicación local en un contenedor de Azure y Azure SQL Database
 
@@ -82,7 +81,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 **Consideración** | **Detalles**
 --- | ---
 **Ventajas** | No será necesario modificar el código de la aplicación SmartHotel360 para la migración a Azure Service Fabric. Sin embargo, el esfuerzo es mínimo, si se usa SDK Tools de Service Fabric para los cambios.<br/><br/> Con el paso a Service Fabric, Contoso puede empezar a desarrollar microservicios para agregarlos a la aplicación rápidamente a lo largo del tiempo, sin riesgo para el código base original.<br/><br/> Los contenedores de Windows ofrecen las mismas ventajas que los contenedores en general. Mejoran la agilidad, la portabilidad y el control.<br/><br/> Contoso puede aprovechar su inversión en Software Assurance con la Ventaja híbrida de Azure para SQL Server y Windows Server.<br/><br/> Después de la migración ya no necesitarán la compatibilidad con Windows Server 2008 R2. [Más información](https://support.microsoft.com/lifecycle).<br/><br/> Puede configurar la capa web de la aplicación con varias instancias, para que no haya un único punto de error.<br/><br/> Ya no se dependerá de la antigüedad de SQL Server 2008 R2.<br/><br/> SQL Database es compatible con los requisitos técnicos de Contoso. Los administradores de Contoso evaluaron la base de datos local con Data Migration Assistant y descubrieron que es compatible.<br/><br/> SQL Database cuenta con tolerancia a errores integrada que no es necesario que Contoso configure. Esto garantiza que la capa de datos ya no sea un único punto de conmutación por error.
-**Desventajas** | Los contenedores son más complejos que otras opciones de migración. La curva de aprendizaje de los contenedores podría ser un problema para Contoso. Introducen un nuevo nivel de complejidad que proporciona un gran valor a pesar de la curva.<br/><br/> El equipo de operaciones de Contoso deberá esforzarse para comprender y ofrecer soporte técnico de Azure, los contenedores y los microservicios de la aplicación.<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar la base de datos, no tendrá la infraestructura preparada para migrar bases de datos a escala.
+**Desventajas** | Los contenedores son más complejos que otras opciones de migración. La curva de aprendizaje de los contenedores podría ser un problema para Contoso. Contoso introduce un nuevo nivel de complejidad que proporciona un gran valor a pesar de la curva.<br/><br/> El equipo de operaciones de Contoso deberá esforzarse para comprender y ofrecer soporte técnico de Azure, los contenedores y los microservicios de la aplicación.<br/><br/> Si Contoso usa Data Migration Assistant en lugar de Azure Database Migration Service para migrar la base de datos, no tendrá la infraestructura preparada para migrar bases de datos a escala.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -105,7 +104,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Compila y usa aplicaciones escalables y distribuidas que estén siempre disponibles. | Costo basado en tamaño, ubicación y duración de los nodos de proceso. [Más información](https://azure.microsoft.com/pricing/details/service-fabric).
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Ofrece integración continua y la canalización de implementación continua (CI/CD) para el desarrollo de aplicaciones. La canalización comienza con un repositorio de Git para administrar código de aplicaciones, un sistema de compilación para producir paquetes y otros artefactos de compilación, y un sistema Release Management para implementar cambios en entornos de desarrollo, prueba y producción.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario:
 
@@ -125,12 +124,12 @@ Así es cómo Contoso ejecuta la migración:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Aprovisionamiento de una instancia de SQL Database en Azure.** Contoso proporciona una instancia de SQL en Azure. Después de migrar la máquina virtual web de front-end a un contenedor de Azure, la instancia de contenedor con el front-end web de la aplicación apuntará a esta base de datos.
-> - **Paso 2: Crear una instancia de Azure Container Registry (ACR).** Contoso aprovisiona un registro de contenedor empresarial para las imágenes de contenedor de Docker.
-> - **Paso 3: Aprovisionar Azure Service Fabric.** Aprovisiona un clúster de Service Fabric.
-> - **Paso 4: Administrar los certificados de Service Fabric.** Contoso configura los certificados para el acceso de Azure DevOps Services al clúster.
-> - **Paso 5: Migración de la base de datos con DMA.** Migra la base de datos de la aplicación con Data Migration Assistant.
-> - **Paso 6: Configurar Azure DevOps Services.** Contoso configura un nuevo proyecto en Azure DevOps Services e importa el código al repositorio de Git.
+> - **Paso 1: Aprovisionamiento de una instancia de SQL Database en Azure.** Contoso proporciona una instancia de SQL en Azure. Después de migrar la máquina virtual web de front-end a un contenedor de Azure, la instancia de contenedor con el front-end web de la aplicación apuntará a esta base de datos.
+> - **Paso 2: Crear una instancia de Azure Container Registry (ACR).** Contoso aprovisiona un registro de contenedor empresarial para las imágenes de contenedor de Docker.
+> - **Paso 3: Aprovisionar Azure Service Fabric.** Aprovisiona un clúster de Service Fabric.
+> - **Paso 4: Administrar los certificados de Service Fabric.** Contoso configura los certificados para el acceso de Azure DevOps Services al clúster.
+> - **Paso 5: Migración de la base de datos con DMA.** Migra la base de datos de la aplicación con Data Migration Assistant.
+> - **Paso 6: Configurar Azure DevOps Services.** Contoso configura un nuevo proyecto en Azure DevOps Services e importa el código al repositorio de Git.
 > - **Paso 7: Convertir la aplicación.** Contoso convierte la aplicación en un contenedor con Azure DevOps Services y SDK Tools.
 > - **Paso 8: Configurar la compilación y la versión.** Contoso configura las canalizaciones de compilación y versión para crear y publicar la aplicación en el ACR y un clúster de Service Fabric.
 > - **Paso 9: Extensión de la aplicación.** Después de que la aplicación es pública, Contoso la extiende para aprovechar las funcionalidades de Azure y la vuelve a publicar en Azure mediante la canalización.
@@ -354,7 +353,7 @@ Contoso necesita compilar la infraestructura y las canalizaciones de DevOps para
 
 3. Una vez importado el código, conecta Visual Studio al repositorio y clona el código mediante Team Explorer.
 
-4. Después de clonar el repositorio en la máquina del desarrollador, abre el archivo de la solución para la aplicación. La aplicación web y el servicio WCF tienen cada uno proyectos separados dentro del archivo.
+4. Después de clonar el repositorio en la máquina del desarrollador, abren el archivo de la solución para la aplicación. La aplicación web y el servicio WCF tienen cada uno proyectos separados dentro del archivo.
 
     ![Archivo de soluciones](./media/contoso-migration-rearchitect-container-sql/vsts4.png)
 
@@ -403,7 +402,7 @@ Los administradores de Contoso convertirán la aplicación en un contenedor con 
 
 10. Confirman el código actualizado y lo insertan en Azure DevOps Services.
 
-    ![Confirmación](./media/contoso-migration-rearchitect-container-sql/container9.png)
+    ![Commit](./media/contoso-migration-rearchitect-container-sql/container9.png)
 
 ## <a name="step-8-build-and-release-pipelines-in-azure-devops-services"></a>Paso 8: Canalizaciones de compilación y versión en Azure DevOps Services
 
@@ -451,7 +450,7 @@ Los administradores de Contoso configuran ahora Azure DevOps Services para reali
 
 13. La información del certificado que recopilan se introduce en **Huella digital de certificado de servidor** y **Certificado de cliente**.
 
-    ![Certificate](./media/contoso-migration-rearchitect-container-sql/pipeline10.png)
+    ![Certificado](./media/contoso-migration-rearchitect-container-sql/pipeline10.png)
 
 14. Seleccionan la canalización > **Agregar un artefacto**.
 
@@ -459,7 +458,7 @@ Los administradores de Contoso configuran ahora Azure DevOps Services para reali
 
 15. Seleccionan el proyecto y la canalización de compilación, usando la versión más reciente.
 
-     ![Compilación](./media/contoso-migration-rearchitect-container-sql/pipeline12.png)
+     ![Build](./media/contoso-migration-rearchitect-container-sql/pipeline12.png)
 
 16. Observe que se marca el rayo en el artefacto.
 
@@ -576,7 +575,7 @@ Después de la migración, Contoso debe completar estos pasos de limpieza:
 - Actualizar la documentación interna para que muestre las nuevas ubicaciones para la aplicación SmartHotel360. Mostrar la base de datos en ejecución en Azure SQL Database y el front-end en ejecución en Service Fabric.
 - Revisar los recursos que interactúan con las VM retiradas y actualizar los valores de configuración pertinentes o la documentación para reflejar la nueva configuración.
 
-## <a name="review-the-deployment"></a>Revisar la implementación
+## <a name="review-the-deployment"></a>Revisión de la implementación
 
 Con los recursos migrados de Azure, Contoso debe proteger la infraestructura nueva y ponerla totalmente en marcha.
 

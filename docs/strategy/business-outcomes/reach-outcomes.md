@@ -1,6 +1,5 @@
 ---
 title: Ejemplos de resultados de alcance global
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Ejemplos de resultados de alcance global
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: b8c28314037e023423d48c604a1dd9bd6c4ad381
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 6e9a791507a67ddbd53988f1adadd46c4689cd00
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047912"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798356"
 ---
 # <a name="examples-of-global-reach-outcomes"></a>Ejemplos de resultados de alcance global
 
@@ -27,13 +26,13 @@ Las soluciones en la nube trasladan el costo de la globalización al proveedor d
 
 Expandirse en un nuevo mercado puede ser uno de los resultados empresariales más valiosos durante una transformación. La capacidad para implementar rápidamente los recursos en el mercado sin un compromiso a largo plazo permite a los responsables de ventas y operaciones explorar opciones que no habrían considerado en el pasado.
 
-- **Ejemplo:** Un fabricante de cosméticos ha identificado una tendencia. Se están enviando algunos productos a la región de Asia Pacífico, aunque no hay ningún equipo de ventas que opere en esa región. Los sistemas mínimos requeridos por un equipo de ventas remoto son pequeños, pero la latencia impide una solución de acceso remoto. Para aprovechar esta tendencia, al vicepresidente de ventas le gustaría probar con equipos de ventas en Japón y Corea. Como la empresa ha realizado una migración a la nube, ha podido implementar los sistemas necesarios en Japón y Corea en tan solo unos días. Esto ha permitido al vicepresidente de ventas aumentar los ingresos de la región en un _x %_ en un plazo de tres meses. Estos dos mercados continúan superando a otras partes del mundo y generando operaciones de ventas en toda la región.
+- **Ejemplo**: Un fabricante de cosméticos ha identificado una tendencia. Se están enviando algunos productos a la región de Asia Pacífico, aunque no hay ningún equipo de ventas que opere en esa región. Los sistemas mínimos requeridos por un equipo de ventas remoto son pequeños, pero la latencia impide una solución de acceso remoto. Para aprovechar esta tendencia, al vicepresidente de ventas le gustaría probar con equipos de ventas en Japón y Corea. Como la empresa ha realizado una migración a la nube, ha podido implementar los sistemas necesarios en Japón y Corea en tan solo unos días. Esto ha permitido al vicepresidente de ventas aumentar los ingresos de la región en un _x %_ en un plazo de tres meses. Estos dos mercados continúan superando a otras partes del mundo y generando operaciones de ventas en toda la región.
 
 ## <a name="data-sovereignty"></a>Soberanía de los datos
 
 Operar en nuevos mercados presenta algunas restricciones adicionales de gobernanza. El RGPD es un ejemplo de un criterio de gobernanza que podría suponer un importante recurso financiero. Las ofertas de Azure cumplen las normas, lo que ayuda a los clientes a satisfacer sus obligaciones de cumplimiento en los sectores regulados y en los mercados internacionales. Para más información, consulte [Introducción al cumplimiento de Microsoft Azure](https://aka.ms/AzureCompliance).
 
-- **Ejemplo:** Un proveedor de servicios públicos con sede en Estados Unidos ganó un contrato para prestar servicios públicos en Canadá. La ley de soberanía de datos canadiense requiere que los datos canadienses permanezcan en Canadá. Esta compañía había realizado durante años un esfuerzo de innovación en aplicaciones habilitadas para la nube. Como resultado, su software se pudo implementar mediante procesos de DevOps totalmente automatizados con scripts. Con unos cambios menores en el código, pudieron implementar una copia funcional del código en un centro de datos de Azure en Canadá, con lo que se cumplían los requisitos de soberanía de datos y se pudo conservar el cliente.
+- **Ejemplo**: Un proveedor de servicios públicos con sede en Estados Unidos ganó un contrato para prestar servicios públicos en Canadá. La ley de soberanía de datos canadiense requiere que los datos canadienses permanezcan en Canadá. Esta compañía había realizado durante años un esfuerzo de innovación en aplicaciones habilitadas para la nube. Como resultado, su software se pudo implementar mediante procesos de DevOps totalmente automatizados con scripts. Con unos cambios menores en el código, pudieron implementar una copia funcional del código en un centro de datos de Azure en Canadá, con lo que se cumplían los requisitos de soberanía de datos y se pudo conservar el cliente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

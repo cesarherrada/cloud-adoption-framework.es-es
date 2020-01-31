@@ -1,6 +1,5 @@
 ---
 title: Implementación de una infraestructura de migración
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de cómo Contoso puede configurar una infraestructura de Azure para la migración a Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 44fb2e8d7fc71dfa676f5711ab50c2201d67f260
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 4d8a7b53722de4b356753626d0cc695fa1a77596
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160369"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807519"
 ---
 # <a name="deploy-a-migration-infrastructure"></a>Implementación de una infraestructura de migración
 
@@ -29,12 +28,12 @@ Antes de poder migrar Contoso a Azure, es fundamental preparar una infraestructu
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Suscripciones de Azure.** ¿Cómo compra Contoso Azure y cómo interactúa con la plataforma y los servicios de Azure?
-> - **Paso 2: Identidad híbrida.** ¿Cómo administra y controla el acceso a recursos de Azure y locales después de la migración? ¿Cómo Contoso amplía o mueve la administración de identidades a la nube?
-> - **Paso 3: Recuperación ante desastres y resistencia.** ¿Cómo garantiza Contoso que las aplicaciones y las infraestructuras son resilientes si se producen interrupciones y desastres?
-> - **Paso 4: Redes.** ¿Cómo debe diseñar Contoso la infraestructura de red y establecer la conectividad entre el centro de datos local y Azure?
-> - **Paso 5: Seguridad.** ¿Cómo protege Contoso la implementación híbrida o de Azure?
-> - **Paso 6: Gobernanza.** ¿Cómo mantiene Contoso alineada la implementación con los requisitos de seguridad y gobernanza?
+> - **Paso 1: Suscripciones de Azure.** ¿Cómo compra Contoso Azure y cómo interactúa con la plataforma y los servicios de Azure?
+> - **Paso 2: Identidad híbrida.** ¿Cómo administra y controla el acceso a recursos de Azure y locales después de la migración? ¿Cómo Contoso amplía o mueve la administración de identidades a la nube?
+> - **Paso 3: Recuperación ante desastres y resistencia.** ¿Cómo garantiza Contoso que las aplicaciones y las infraestructuras son resilientes si se producen interrupciones y desastres?
+> - **Paso 4: Redes.** ¿Cómo debe diseñar Contoso la infraestructura de red y establecer la conectividad entre el centro de datos local y Azure?
+> - **Paso 5: Seguridad.** ¿Cómo protege Contoso la implementación híbrida o de Azure?
+> - **Paso 6: Gobernanza.** ¿Cómo mantiene Contoso alineada la implementación con los requisitos de seguridad y gobernanza?
 
 ## <a name="before-you-start"></a>Antes de comenzar
 
@@ -586,7 +585,7 @@ Después de actualizar la configuración de red, los administradores de Contoso 
     - Asegúrese de que el tejido de Azure separa las VM en infraestructuras diferentes en la región de Azure.
     - Permite que Contoso sea apto para el SLA de 99,95 % para las VM de Azure. [Más información](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets).
 
-    ![Grupo de disponibilidad](./media/contoso-migration-infrastructure/availability-group.png)
+    ![grupo de disponibilidad](./media/contoso-migration-infrastructure/availability-group.png)
 
 3. Una vez implementada la VM, hay que encargarse de la interfaz de red de la VM. Establecen la dirección IP privada en estático y especifican una dirección válida.
 

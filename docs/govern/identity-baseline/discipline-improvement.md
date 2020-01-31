@@ -1,6 +1,5 @@
 ---
 title: Mejora de la materia sobre la base de referencia de la identidad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejora de la materia sobre la base de referencia de la identidad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1a1f7d21d1291b567d1ec1b1a2d4305bcb202b99
-ms.sourcegitcommit: f7ec7828687f433ff8b69b91817cbec7b074662c
+ms.openlocfilehash: 6adb2e0d6edaacd45e41b8ac3eadb57969cad160
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72915047"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807196"
 ---
 # <a name="identity-baseline-discipline-improvement"></a>Mejora de la materia sobre la base de referencia de la identidad
 
@@ -38,10 +37,10 @@ Esta fase del desarrollo de la gobernanza permite salvar las diferencias entre l
 **Actividades mínimas sugeridas:**
 
 - Evalúe las opciones de su [cadena de herramientas de identidad](./toolchain.md) e implemente una estrategia híbrida que sea adecuada para su organización.
-- Desarrolle un borrador de las directrices de arquitectura y distribúyalo a las partes interesadas clave.
-- Eduque e implique a las personas y equipos afectados por el desarrollo de las directrices de arquitectura.
+- Elabore un borrador con las directrices de arquitectura y distribúyalo a las principales partes interesadas.
+- Eduque e implique a las personas y equipos a los que afectará el desarrollo de las directrices de arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Defina los roles y asignaciones que gobernarán la administración de la identidad y el acceso en la nube.
 - Defina los grupos locales y asígnelos a los roles correspondientes basados en la nube.
@@ -62,7 +61,7 @@ Se necesitan varios requisitos técnicos y no técnicos para migrar correctament
 - Evalúe la posibilidad de establecer un programa para usuarios pioneros y extiéndalo a un número limitado de usuarios.
 - A continuación, eduque a los usuarios y equipos a los que más afecten las directrices de la arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Evalúe la arquitectura lógica y física y determine una [estrategia de identidad híbrida](../../decision-guides/identity/index.md).
 - Asigne directivas de administración de acceso de las identidades como, por ejemplo, asignaciones de id. de inicio de sesión, y elija el método de autenticación adecuado para Azure AD.
@@ -89,8 +88,8 @@ La migración es un proceso incremental que se centra en el traslado, las prueba
 **Actividades mínimas sugeridas:**
 
 - Migre la [cadena de herramientas de identidad](./toolchain.md) desde el entorno de desarrollo al de producción.
-- Actualice el documento de las directrices de arquitectura y distribúyalo a las partes interesadas clave.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 
 **Posible actividades:**
 
@@ -113,11 +112,11 @@ Una vez completada la transformación, la gobernanza y las operaciones deben est
 - Personalice la [cadena de herramientas de la base de referencia de identidad](./toolchain.md) según los cambios en las necesidades de identidades de la organización.
 - Automatice notificaciones e informes para que le avisen de posibles amenazas malintencionadas.
 - Supervise e informe sobre el uso del sistema y el progreso del proceso de adopción por parte del usuario.
-- Informe sobre las métricas posteriores a la implementación y distribuya a las partes interesadas.
+- Informe sobre las métricas posteriores a la implementación y distribúyalas a las partes interesadas.
 - Refine las directrices de arquitectura para guiar los procesos de adopción futuros.
 - Comunique y eduque constantemente a los equipos implicados de forma periódica para garantizar el cumplimiento continuo de las directrices de arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Realice auditorías periódicas de las directivas de identidad y de los procedimientos de cumplimiento.
 - Asegúrese de que las cuentas de usuario confidenciales (CEO, CFO, VP, etc.) estén siempre habilitadas para la autenticación multifactor y la detección de inicios de sesión anómalos.

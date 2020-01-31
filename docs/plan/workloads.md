@@ -1,6 +1,5 @@
 ---
 title: Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 8e58c0e95517d49e9c8685539407127880b5d090
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 78abd15ae06918e913f520d96b29e29f1a253856
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240197"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799988"
 ---
 # <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
 
@@ -27,7 +26,7 @@ Limitar el plan a 10 cargas de trabajo fomenta la agilidad y la alineación de l
 
 En el contexto de una adopción de la nube, una carga de trabajo es una colección de recursos de TI (servidores, máquinas virtuales, aplicaciones, datos o dispositivos) que posibilitan colectivamente un proceso definido. Las cargas de trabajo pueden posibilitar más de un proceso. Las cargas de trabajo también pueden depender de otros activos compartidos o plataformas más grandes. Sin embargo, una carga de trabajo debe tener límites definidos con respecto a los recursos dependientes y los procesos que dependen de la carga de trabajo. A menudo, las cargas de trabajo se pueden visualizar mediante la supervisión del tráfico de red entre los recursos de TI.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Las entradas estratégicas de la lista de requisitos previos hacen que las siguientes tareas sean mucho más fáciles de realizar. Para obtener ayuda con la recopilación de los datos que se describen en este artículo, consulte los [requisitos previos](./prerequisites.md).
 
@@ -64,7 +63,7 @@ Una vez que se han definido las prioridades iniciales y se han agregado cargas d
 
 ### <a name="business-inputs"></a>Entradas de negocio
 
-| Punto de datos | DESCRIPCIÓN | Entrada |
+| Punto de datos | Descripción | Entrada |
 |---|---|---|
 | Nombre de la carga de trabajo | ¿Cómo se llama esta carga de trabajo? |         |
 | Descripción de la carga de trabajo | En una sola frase, ¿qué hace esta carga de trabajo? |         |
@@ -83,18 +82,18 @@ Una vez que se han definido las prioridades iniciales y se han agregado cargas d
 
 ### <a name="technical-inputs"></a>Entradas técnicas
 
-| Punto de datos | DESCRIPCIÓN | Entrada |
+| Punto de datos | Descripción | Entrada |
 |---|---|---|
 | Enfoque de la adopción | ¿Esta adopción es candidata para la migración o la innovación? |         |
 | Responsable de operaciones de la aplicación | Enumere las partes responsables del rendimiento y la disponibilidad de esta carga de trabajo. |         |
 | SLA | Enumere los contratos de nivel de servicio (requisitos de RTO y RPO). |         |
 | Grado de importancia | Enumere la importancia crítica actual de la aplicación. |         |
-| Clasificación de los datos | Enumere la clasificación de la confidencialidad de los datos. |         |
+| Clasificación de datos | Enumere la clasificación de la confidencialidad de los datos. |         |
 | Zonas geográficas en funcionamiento | Enumere las zonas geográficas en las que la carga de trabajo está o debe hospedarse. |         |
 | APLICACIONES | Especifique una lista o un recuento inicial de las aplicaciones incluidas en esta carga de trabajo. |         |
 | Máquinas virtuales | Especifique una lista o un recuento inicial de las máquinas virtuales o servidores incluidos en la carga de trabajo. |         |
 | Orígenes de datos | Especifique una lista o un recuento inicial de los orígenes de datos incluidos en la carga de trabajo. |         |
-| Dependencias | Enumere las dependencias de recursos no incluidas en la carga de trabajo. |         |
+| Dependencias | enumere las dependencias de recursos no incluidas en la carga de trabajo. |         |
 | Zonas geográficas de tráfico de usuario | Enumere las zonas geográficas que tienen una colección significativa de tráfico de usuario. |         |
 
 ## <a name="confirm-priorities"></a>Confirmación de prioridades

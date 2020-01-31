@@ -1,19 +1,18 @@
 ---
 title: 'Migración del sistema central: Mitos y verdades'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Migre aplicaciones desde entornos de sistema central a Azure, una infraestructura que se ha probado de alta disponibilidad y escalable para los sistemas que se ejecutan actualmente en sistemas centrales.
+description: Migre aplicaciones desde entornos del sistema central a Azure, una infraestructura que se ha probado de alta disponibilidad y escalable para los sistemas que se ejecutan actualmente en sistemas centrales.
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4adf229b1ffca1d1360d197ab09a04f0d9584ef8
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: e3e14bca45f8e5531e663c76b346f295ccb64319
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547922"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808760"
 ---
 # <a name="mainframe-myths-and-facts"></a>Mitos y verdades del sistema central
 

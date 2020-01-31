@@ -1,6 +1,5 @@
 ---
 title: 'Innovación en la nube: Herramientas que posibilitan la adopción en Azure'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Herramientas que posibilitan la adopción en Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 203bd84154b038939b29cb42b53bfbac2b4d2360
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 01961b514f5640d73150504ea65ee9af2fec17b2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565886"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808709"
 ---
 # <a name="tools-to-empower-adoption-in-azure"></a>Herramientas que posibilitan la adopción en Azure
 
@@ -45,7 +44,7 @@ A medida que crezcan sus necesidades, puede ampliar esta base para usar otras ca
 
 En la tabla de contenido de la izquierda de esta página se muestra las guías de cada herramienta, que se alinean con el modelo de madurez descrito anteriormente.
 
-## <a name="get-started"></a>Primeros pasos
+## <a name="get-started"></a>Introducción
 
 En la tabla de contenido del lado izquierdo de esta página se describen muchos artículos. Estos artículos ayudan a empezar a trabajar con cada una de las herramientas de esta cadena de herramientas.
 

@@ -1,6 +1,5 @@
 ---
 title: Funcionalidades de estrategia de la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Se describe la formación de funcionalidades de estrategia de la nube.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 022afb976a807d1e178bcc5788885bcabc3f1b59
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 17ef8a6b84e16b2baf7a69918051c7f6a8257396
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031863"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800855"
 ---
 # <a name="cloud-strategy-capabilities"></a>Funcionalidades de estrategia de la nube
 

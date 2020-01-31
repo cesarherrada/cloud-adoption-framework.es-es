@@ -1,6 +1,5 @@
 ---
 title: Escalado de una migración en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información acerca de cómo Contoso administra una migración con escala a Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: ab5e8cdb7058a773b4085f01a6be64b4521e6b69
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 8a807bfc20289339221056b9b0798260aaddbfd8
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566451"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807315"
 ---
 # <a name="scale-a-migration-to-azure"></a>Escalado de una migración en Azure
 
@@ -69,7 +68,7 @@ Ahora que Contoso ha precisado las claves del negocio y los objetivos de la migr
 
 Estas fases no son consecutivas en toda la organización. Cada parte del proyecto de migración de Contoso estará en una fase diferente del proceso de evaluación y migración. La optimización, la seguridad y la administración serán continuas a lo largo del tiempo.
 
-## <a name="phase-1-assess"></a>Fase 1: Evaluación
+## <a name="phase-1-assess"></a>Fase 1: Evaluar
 
 Contoso inicia el proceso con la detección y evaluación de las aplicaciones, la infraestructura y los datos locales. Esto es lo que Contoso hará:
 
@@ -225,7 +224,7 @@ Contoso ya [completó una prueba de concepto](./contoso-migration-rehost-vm.md) 
 
 Contoso planea realizar múltiples migraciones mediante lift-and-shift. Para asegurarse de que esto funciona, Site Recovery replicará lotes de aproximadamente 100 máquinas virtuales a la vez. Para averiguar cómo funcionará esto, Contoso necesita planear la capacidad para la migración de Site Recovery propuesta.
 
-- Contoso necesita recopilar información acerca de sus volúmenes de tráfico. En particular:
+- Contoso necesita recopilar información acerca de sus volúmenes de tráfico. En concreto:
   - Contoso necesita determinar la frecuencia de cambio para las máquinas virtuales que quiere replicar.
   - Contoso también debe tener en cuenta la conectividad de red desde el sitio local a Azure.
 - En respuesta a los requisitos de capacidad y volumen, Contoso deberá asignar un ancho de banda suficiente basado en la frecuencia de cambio diaria de las máquinas virtuales necesarias, para así cumplir con el objetivo del punto de recuperación (RPO).
@@ -298,7 +297,7 @@ Además de DMS, Contoso puede usar otras herramientas y servicios para identific
 - Cuentan con los scripts para ayudarle con las migraciones manuales. Estos se encuentran disponibles en el repositorio de GitHub.
 - También hay diferentes [herramientas de asociados](https://azure.microsoft.com/migration/partners) que pueden usarse para la migración.
 
-## <a name="phase-3-optimize"></a>Fase 3: Optimizar
+## <a name="phase-3-optimize"></a>Fase 3: Optimización
 
 Una vez que Contoso traslada los recursos a Azure, necesita agilizarlos para mejorar el rendimiento y maximizar el ROI con herramientas de administración de costos. Dado que Azure es un servicio de pago por uso, es fundamental que Contoso comprenda cómo funcionan los sistemas y se asegure de que cuentan con el tamaño correcto.
 

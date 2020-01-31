@@ -1,6 +1,5 @@
 ---
 title: 'Innovación en la nube: Predicción e influencia'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Introducción a la innovación en la nube: Predicción e influencia'
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bcb01ada3589b733fe97de2689352ab414ef469b
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: f55325b46ee9b2e45dd539c08f426d49357f5ba3
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752989"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808403"
 ---
 # <a name="predict-and-influence"></a>Predicción e influencia
 
@@ -40,7 +39,7 @@ Las soluciones que proporcionan constantemente funcionalidades de predicción pr
 > [!CAUTION]
 > Si la hipótesis del cliente desarrollada en [Creación con la empatía de los clientes](./build.md) incluye funcionalidades predictivas, puede que se apliquen los principios descritos. Sin embargo, las funcionalidades predictivas requieren una gran inversión de tiempo y energía. Cuando las funcionalidades predictivas constituyen [demandas técnicas](./build.md#reduce-complexity-and-delay-technical-spikes) en lugar de una posible fuente de valor para el cliente, se recomienda retrasar las predicciones hasta que se hayan comprobado las hipótesis de los clientes a escala.
 
-## <a name="data"></a>Datos
+## <a name="data"></a>data
 
 Los datos son el componente más elemental de las características mencionadas anteriormente. Cada una de las materias para desarrollar invenciones digitales genera datos. Ciertamente, esos datos contribuyen al desarrollo de predicciones. Para más información sobre las formas de obtener datos en una solución predictiva, consulte [Democratización de los datos](./data.md) e [Interacción con dispositivos](./devices.md).
 

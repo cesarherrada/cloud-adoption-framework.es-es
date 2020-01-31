@@ -1,6 +1,5 @@
 ---
 title: Directivas de línea de base de seguridad nativas en la nube
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Directiva de base de referencia de seguridad nativa para la nube
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9d11dff3ce8900d3dc95e1061af87313eae47a1b
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 9921e04f0b066023842c2ff9009d9e159b759315
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752544"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808947"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 
@@ -59,7 +58,7 @@ Una directiva nativa en la nube para los controles de red puede incluir requisit
 - Windows Azure Firewall nativo protege los hosts de tráfico malintencionado limitando el acceso a los puertos. Un buen ejemplo de esta directiva es un requisito para bloquear (o no habilitar) el tráfico directo a una máquina virtual a través de SSH/RDP.
 - Servicios como el firewall de aplicaciones web (WAF) Azure Application Gateway y Azure DDoS Protection protegen las aplicaciones y garantizan la disponibilidad de las máquinas virtuales que se ejecutan en Azure. No se deberían deshabilitar estas características.
 
-### <a name="data-protection"></a>Protección de datos
+### <a name="data-protection"></a>Protección de los datos
 
 Uno de los elementos clave para la protección de datos en la nube consiste en tener en cuenta los posibles estados en que se pueden producir datos y qué controles hay disponibles para cada estado. Como parte de los procedimientos recomendados de cifrado y seguridad de datos en Azure, se ofrecen recomendaciones centradas en los estados de datos siguientes:
 

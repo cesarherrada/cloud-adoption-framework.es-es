@@ -1,6 +1,5 @@
 ---
 title: Trabajo pendiente de iteración y liberación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Creación de un trabajo pendiente de iteración y liberación
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d2dddb4893a2781da38969949972fa516e32b46c
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 604ce189a1518f87660d8f29d33413581e9b00f6
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025403"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802453"
 ---
 # <a name="manage-change-in-an-incremental-migration-effort"></a>Administración de los cambios en un esfuerzo de migración incremental
 

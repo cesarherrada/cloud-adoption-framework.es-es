@@ -1,6 +1,5 @@
 ---
 title: Evaluación del patrimonio digital
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Evaluación del patrimonio digital
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 31e76ec1f81bc38b03e8f1e480d083983dc85b14
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 298cfc866e770e2dcd33a22d6cd4713e4053de25
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251422"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807077"
 ---
 # <a name="assess-the-digital-estate"></a>Evaluación del patrimonio digital
 
@@ -118,7 +117,7 @@ Algunos de los factores que se deben tener en cuenta al evaluar la escala de tie
 - **La administración de cambios:** ¿su empresa tiene requisitos específicos relacionados con la implementación y la aprobación de los cambios?
 - **Las normativas relacionadas con los segmentos:** ¿tiene que cumplir con la normativa del segmento o del sector?
 
-# <a name="cost-managementtabmanagecost"></a>[Administración de costos](#tab/ManageCost)
+# <a name="cost-managementtabmanagecost"></a>[Cost Management](#tab/ManageCost)
 
 A medida que evalúa su entorno, se presenta una oportunidad perfecta para incluir un paso de análisis de costos. Con los datos recopilados por las actividades de evaluación, debería poder analizar y predecir los costos. Esta predicción de costos debe factorizar los costos de servicios de consumo, además de los costos de un solo uso (como una mayor entrada de datos).
 
@@ -131,6 +130,6 @@ Durante la migración, hay algunos factores que afectan a las actividades de dec
 
 En los recursos siguientes se proporciona información relacionada:
 
-- [Estimación del costo de la nube](../migration-considerations/assess/estimate.md).
+- [Estimación del costo de la nube](../migration-considerations/assess/estimate.md)
 
 ::: zone-end

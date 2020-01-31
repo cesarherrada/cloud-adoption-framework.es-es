@@ -1,6 +1,5 @@
 ---
 title: Refactorización de una aplicación del departamento de servicios de Linux a Azure App Service y Azure Database for MySQL
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre cómo Contoso refactoriza la aplicación Linux local mediante la migración a Azure App Service usando GitHub para el nivel web y Azure SQL Database.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e504d4032fc019af43ec7cb1e8513504196559a2
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 2e47647b06da12b9b595f4330767f629121e00a0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024212"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807468"
 ---
 # <a name="refactor-a-linux-app-to-multiple-regions-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Refactorización de una aplicación de Linux a varias regiones con Azure App Service, Traffic Manager y Azure Database for MySQL
 
@@ -45,7 +44,7 @@ Después de fijar sus objetivos y requisitos, Contoso diseña y revisa una soluc
 ## <a name="current-architecture"></a>Arquitectura actual
 
 - La aplicación se divide en capas entre dos VM (OSTICKETWEB y OSTICKETMYSQL).
-- Las VM están ubicadas en el host de VMware ESXi **contosohost1.contoso.com** (versión 6.5).
+- Las VM se encuentran en el host de VMware ESXi **contosohost1.contoso.com** (versión 6.5).
 - El entorno de VMware lo administra vCenter Server 6.5 (**vcenter.contoso.com**), que se ejecuta en una VM.
 - Contoso tiene un centro de datos local (contoso-datacenter), con un controlador de dominio local (**contosodc1**).
 
@@ -89,7 +88,7 @@ Contoso completará el proceso de migración como se indica a continuación:
 [Traffic Manager](https://azure.microsoft.com/services/traffic-manager) | Un equilibrador de carga que usa DNS para dirigir los usuarios a Azure o a sitios web y servicios externos. | Los precios se basan en el número de consultas de DNS recibidas y el número de puntos de conexión supervisados. | [Más información](https://azure.microsoft.com/pricing/details/traffic-manager).
 [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql) | La base de datos se basa en el motor de MySQL Server de código abierto. Proporciona una base de datos MySQL de comunidad completamente administrada y lista para la empresa como un servicio para el desarrollo e implementación de aplicaciones. | Los precios se basan en los requisitos de proceso, almacenamiento y copia de seguridad. [Más información](https://azure.microsoft.com/pricing/details/mysql).
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Prerequisites
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario.
 
@@ -108,12 +107,12 @@ Así es como Azure realizará la migración:
 
 > [!div class="checklist"]
 >
-> - **Paso 1: Aprovisionamiento de Azure App Service.** Los administradores de Contoso aprovisionarán aplicaciones web en las regiones primarias y secundarias.
-> - **Paso 2: Configuración de Traffic Manager.** Configurarán Traffic Manager delante de las aplicaciones web para el enrutamiento y el equilibrio de carga del tráfico.
-> - **Paso 3: Aprovisionamiento de MySQL.** En Azure, aprovisionarán una instancia de Azure Database for MySQL.
-> - **Paso 4: Migración de la base de datos**. migrarán la base de datos mediante MySQL Workbench.
-> - **Paso 5: Configuración de GitHub**. configurarán un repositorio de GitHub local para los sitios web y el código de la aplicación.
-> - **Paso 6: Implementación de las aplicaciones web**. implementarán las aplicaciones web desde GitHub.
+> - **Paso 1: Aprovisionamiento de Azure App Service.** Los administradores de Contoso aprovisionarán aplicaciones web en las regiones primarias y secundarias.
+> - **Paso 2: Configuración de Traffic Manager.** Configurarán Traffic Manager delante de las aplicaciones web para el enrutamiento y el equilibrio de carga del tráfico.
+> - **Paso 3: Aprovisionamiento de MySQL.** En Azure, aprovisionarán una instancia de Azure Database for MySQL.
+> - **Paso 4: Migración de la base de datos.** migrarán la base de datos mediante MySQL Workbench.
+> - **Paso 5: Configuración de GitHub**. configurarán un repositorio de GitHub local para los sitios web y el código de la aplicación.
+> - **Paso 6: Implementación de las aplicaciones web**. implementarán las aplicaciones web desde GitHub.
 
 ## <a name="step-1-provision-azure-app-service"></a>Paso 1: Aprovisionamiento de Azure App Service.
 

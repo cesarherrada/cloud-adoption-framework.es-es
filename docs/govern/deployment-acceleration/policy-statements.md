@@ -1,6 +1,5 @@
 ---
 title: Declaraciones de la directiva de ejemplo de aceleración de la implementación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Declaraciones de la directiva de ejemplo de aceleración de la implementación
 author: alexbuckgit
 ms.author: abuck
@@ -9,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9a879f2957f1fd7c1d92a9a01381c64cff320d27
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: c582b0a6e836f5198724e5675840f3f8085f55dc
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752673"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803949"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Declaraciones de la directiva de ejemplo de aceleración de la implementación
 
-Las declaraciones individuales de directiva de nube son directrices para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
+Cada declaración de directiva de nube es una guía para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
-- **Riesgo técnico**: Un resumen del riesgo que esta directiva abordará.
+- **Riesgo técnico:** Un resumen del riesgo que esta directiva abordará.
 - **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.
 - **Opciones de diseño**: Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
 

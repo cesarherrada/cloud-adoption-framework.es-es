@@ -1,6 +1,5 @@
 ---
 title: 'Red definida por software: Red perimetral en la nube'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Esta arquitectura de red permite un acceso limitado entre la red local y las redes basadas en la nube.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 6b96fbae9c3e31fc4c133ce6a19589324a86dd83
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: eee22d6a0322a94ef0968c901642700fdc6247ee
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160035"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806669"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Red definida por software: Red perimetral en la nube
 

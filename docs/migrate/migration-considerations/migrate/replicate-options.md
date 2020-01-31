@@ -1,6 +1,5 @@
 ---
 title: Opciones de replicación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Un proceso de la migración a la nube que se centra en las tareas de migración de cargas de trabajo.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7433ddd9a1c3bb6bd62f9d065c79bbb0b1f52f1b
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: bf798a816d799ba856d8ea20b999de1240ac5284
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022701"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802147"
 ---
 # <a name="replication-options"></a>Opciones de replicación
 

@@ -1,6 +1,5 @@
 ---
 title: Herramientas de Cost Management en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Herramientas de Cost Management en Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3b301f8dfcc50539f4325901cd32553368a0da55
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: e35530fbf3a858c000cb78c0c076d7d56d5fbd86
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222634"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806414"
 ---
 # <a name="cost-management-tools-in-azure"></a>Herramientas de Cost Management en Azure
 
@@ -24,13 +23,13 @@ A continuación, se muestra una lista de herramientas nativas de Azure que puede
 
 | Herramienta | [Azure Portal](https://azure.microsoft.com/features/azure-portal)  | [Azure Cost Management](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)  | [Paquete de contenido de Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
-|¿Es necesario el Contrato Enterprise?     | Sin         | No         | Sí         | Sin         |
-|Control del presupuesto     | Sin         | Sí         | Sin         | Sí         |
-|Supervisión del gasto en un único recurso    | Sí         | Sí         | Sí         | Sin         |
-|Supervisión del gasto en varios recursos    | Sin         | Sí        | Sí         | Sin         |
-|Control del gasto en un único recurso     | Sí: ajuste de tamaño manual         | Sí         | Sin         | Sí         |
-|Aplicación del gasto en varios recursos    | Sin         | Sí         | Sin         | Sí         |
-|Aplicar los metadatos de contabilidad a los recursos    | Sin         | No         | No         | Sí         |
-|Supervisión y detección de tendencias     | Sí          | Sí        | Sí         | Sin         |
-|Detección de anomalías en el gasto     | Sin         | Sí        | Sí         | Sin        |
-|Socialización de desviaciones     | Sin        | Sí        | Sí        | Sin        |
+|¿Es necesario el Contrato Enterprise?     | No         | No         | Sí         | No         |
+|Control del presupuesto     | No         | Sí         | No         | Sí         |
+|Supervisión del gasto en un único recurso    | Sí         | Sí         | Sí         | No         |
+|Supervisión del gasto en varios recursos    | No         | Sí        | Sí         | No         |
+|Control del gasto en un único recurso     | Sí: ajuste de tamaño manual         | Sí         | No         | Sí         |
+|Aplicación del gasto en varios recursos    | No         | Sí         | No         | Sí         |
+|Aplicar los metadatos de contabilidad a los recursos    | No         | No         | No         | Sí         |
+|Supervisión y detección de tendencias     | Sí          | Sí        | Sí         | No         |
+|Detección de anomalías en el gasto     | No         | Sí        | Sí         | No        |
+|Socialización de desviaciones     | No        | Sí        | Sí        | No        |

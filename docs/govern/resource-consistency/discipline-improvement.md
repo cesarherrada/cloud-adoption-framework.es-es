@@ -1,6 +1,5 @@
 ---
 title: Mejora de la materia de coherencia de recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejora de la materia de coherencia de recursos
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9d465716784d125edebaf44d8a1bae2f369b9d5a
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 0113c37aaca23374021d6790bcbb1db751ffcf4a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548085"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807247"
 ---
 # <a name="resource-consistency-discipline-improvement"></a>Mejora de la materia de coherencia de recursos
 
@@ -39,9 +38,9 @@ Esta fase del desarrollo de la gobernanza permite salvar las diferencias entre l
 
 - evalúe sus opciones de la [cadena de herramientas de coherencia de recursos](./toolchain.md).
 - Conozca los requisitos de licencia para su estrategia en la nube.
-- Desarrolle un borrador de las directrices de arquitectura y distribúyalo a las partes interesadas clave.
+- Elabore un borrador con las directrices de arquitectura y distribúyalo a las principales partes interesadas.
 - Familiarícese con el administrador de recursos que use para implementar, administrar y supervisar todos los recursos para su solución como grupo.
-- Eduque e implique a las personas y equipos afectados por el desarrollo de las directrices de arquitectura.
+- Eduque e implique a las personas y equipos a los que afectará el desarrollo de las directrices de arquitectura.
 - Agregue tareas de implementación de recursos priorizadas a su trabajo pendiente de migración.
 
 **Posible actividades:**
@@ -61,9 +60,9 @@ Se necesitan varios requisitos técnicos y no técnicos para migrar correctament
 - Para implementar su [cadena de herramientas de coherencia de los recursos](./toolchain.md), agréguela en una fase anterior a la implementación.
 - Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
 - Implemente tareas de implementación de recursos en su trabajo pendiente de migración priorizado.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - decida sobre una [estrategia de diseño de la suscripción](../../decision-guides/subscriptions/index.md), eligiendo los patrones de suscripción que mejor se adapten a las necesidades de su organización y carga de trabajo.
 - Use una estrategia de [coherencia de recursos](../../decision-guides/resource-consistency/index.md) para aplicar las instrucciones de arquitectura con el tiempo.
@@ -76,7 +75,7 @@ Se necesitan varios requisitos técnicos y no técnicos para migrar correctament
 - Gestione el rendimiento de acceso para medir la calidad de los servicios recibidos.
 - Considere la posibilidad de implementar la [directiva](https://docs.microsoft.com/azure/governance/policy/overview) para administrar la aplicación del Acuerdo de Nivel de Servicio mediante reglas de creación de recursos y valores de configuración.
 
-## <a name="adopt-and-migrate"></a>Adoptar y migrar
+## <a name="adopt-and-migrate"></a>Adopción y migración
 
 La migración es un proceso incremental que se centra en el traslado, las pruebas y la adopción de las aplicaciones o cargas de trabajo de un patrimonio digital existente.
 
@@ -84,7 +83,7 @@ La migración es un proceso incremental que se centra en el traslado, las prueba
 
 - migre su [cadena de herramientas de coherencia de los recursos](./toolchain.md) desde la fase anterior a la implementación a la de producción.
 - Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
-- Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción del usuario.
+- Desarrolle materiales y documentación educativos, comunicaciones de concienciación, incentivos y otros programas para ayudar a impulsar la adopción por parte de los usuarios.
 - Migre las herramientas o scripts de corrección automatizados existentes para admitir los requisitos del Acuerdo de Nivel de Servicio definidos.
 
 **Posible actividades:**
@@ -111,10 +110,10 @@ Una vez completada la transformación, la gobernanza y las operaciones deben est
 
 - personalice su [cadena de herramientas de coherencia de recursos](./toolchain.md) en función de las actualizaciones a las necesidades de Cost Management en constante cambio de su organización.
 - Considere la posibilidad de automatizar cualquier notificación e informe para reflejar el uso de recursos real.
-- Refine las directrices de arquitectura para guiar los procesos de adopción futuros.
+- Refina las directrices de arquitectura para guiar los procesos de adopción futuros.
 - Ofrezca cursos a los equipos afectados de forma periódica para garantizar la adhesión en curso a las directrices de arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - ajuste los planes trimestralmente para reflejar los cambios en los recursos reales.
 - Aplique automáticamente los requisitos de gobernanza durante las implementaciones futuras.

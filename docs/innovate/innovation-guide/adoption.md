@@ -1,6 +1,5 @@
 ---
 title: 'Guía de innovación de Azure: Preparación para los comentarios de los clientes'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Preparación para los comentarios de los clientes
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7bf52b9be08ae2122b6a7f20a19d99f5621fb0e4
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: c78eae75bca30cac541a997fa9d4901b03b277c0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251938"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808369"
 ---
 ::: zone target="docs"
 
@@ -44,7 +43,7 @@ Cada una de las siguientes herramientas de Azure se integra (o es compatible) co
 
 Application Insights es una herramienta de supervisión que proporciona comentarios cuantitativos casi en tiempo real sobre el uso de su aplicación. Estos comentarios pueden ayudarle a probar y validar la hipótesis actual para dar forma a la siguiente característica o caso de usuario en el trabajo pendiente.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para ver los datos cuantitativos en las aplicaciones:
 
@@ -83,7 +82,7 @@ Las empresas usan las API externamente para cambiar el modo en que interactúan 
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para registrar datos cuantitativos de las API:
 
@@ -123,7 +122,7 @@ El trabajo pendiente (o panel) es donde se registran los comentarios como los ca
 
 ::: zone target="docs"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Azure Board y Azure Pipelines requieren un portal independiente de GitHub y Azure.
 Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps](https://dev.azure.com).
@@ -134,7 +133,7 @@ Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear un proyecto de DevOps:
 
@@ -159,7 +158,7 @@ Estos artículos le ayudarán a centralizar y administrar los comentarios utiliz
 
 Actuar de acuerdo a los comentarios no siempre significa agregar la característica que solicita el cliente. Sin embargo, cada punto de datos debe producir algún cambio. Ese cambio puede estar en su manera de pensar en las cosas. También puede ser un cambio técnico totalmente diferente del solicitado. En cualquier caso, las canalizaciones y herramientas de implementación como Azure Pipelines permiten publicar rápidamente esos cambios para que se puedan compartir con el cliente con frecuencia.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para ver las implementaciones actuales de su canalización:
 

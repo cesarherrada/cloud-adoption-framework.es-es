@@ -1,6 +1,5 @@
 ---
 title: Revisión de las opciones de proceso
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Revise las opciones de proceso para las cargas de trabajo de Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: dbdabb6edc425ea3c70706313d2357323d2a523c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: d4b1d5728a8cba06900bfe67e288f15b042b8106
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73561874"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799190"
 ---
 # <a name="review-your-compute-options"></a>Revisión de las opciones de proceso
 
@@ -54,7 +53,7 @@ En la tabla siguiente se muestran algunos escenarios de uso comunes y los servic
 | Necesito aprovisionar máquinas virtuales Linux y Windows en cuestión de segundos con las configuraciones de mi elección. | [Azure Virtual Machines](https://azure.microsoft.com/services/virtual-machines) |
 | Necesito conseguir alta disponibilidad con la escalabilidad automática para crear miles de máquinas virtuales en cuestión de minutos. | [Conjuntos de escalado de máquinas virtuales](https://azure.microsoft.com/services/virtual-machine-scale-sets) |
 | Quiero simplificar la implementación, la administración y las operaciones de Kubernetes. | [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/services/kubernetes-service) |
-| Necesito acelerar el desarrollo de aplicaciones con una arquitectura sin servidor basada en eventos. | [Azure Functions](https://azure.microsoft.com/services/functions) |
+| Necesito acelerar el desarrollo de aplicaciones con una arquitectura sin servidor basada en eventos. | [Funciones de Azure](https://azure.microsoft.com/services/functions) |
 | Necesito desarrollar microservicios y organizar los contenedores en Windows y Linux. | [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) |
 | Quiero crear rápidamente aplicaciones en la nube para web y móviles mediante una plataforma totalmente administrada. | [Azure App Service](https://azure.microsoft.com/services/app-service) |
 | Quiero incluir aplicaciones en contenedores y ejecutar fácilmente contenedores con un solo comando. | [Azure Container Instances](https://azure.microsoft.com/services/container-instances) |
@@ -71,9 +70,9 @@ Para más información sobre la infraestructura global de Azure, consulte la  [
 
 ## <a name="data-residency-and-compliance-requirements"></a>Requisitos de cumplimiento y residencia de datos
 
-Con frecuencia, se aplicarán a las cargas de trabajo los requisitos legales y contractuales que están relacionados con el almacenamiento de datos. Estos requisitos pueden variar en función de la ubicación de la organización, la jurisdicción en la que se almacenan y procesan los archivos y los datos y el sector empresarial aplicable. Entre los componentes de las obligaciones de datos que deben tenerse en cuenta se incluyen la clasificación de los datos, la ubicación de los datos y las responsabilidades correspondientes relativas a la protección de datos en el modelo de responsabilidad compartida. Muchas soluciones de proceso dependen de recursos de almacenamiento vinculados. Este requisito también podría influir en las decisiones de proceso. Para obtener ayuda con la comprensión de estos requisitos, consulte las notas del producto  [Consecución de la seguridad y la residencia de datos compatibles con Azure](https://azure.microsoft.com/resources/achieving-compliant-data-residency-and-security-with-azure).
+Con frecuencia, se aplicarán a las cargas de trabajo los requisitos legales y contractuales que están relacionados con el almacenamiento de datos. Estos requisitos pueden variar en función de la ubicación de la organización, la jurisdicción en la que se almacenan y procesan los archivos y los datos y el sector empresarial aplicable. Entre los componentes de las obligaciones de datos que deben tenerse en cuenta se incluyen la clasificación de datos, la ubicación de los datos y las responsabilidades correspondientes relativas a la protección de datos en el modelo de responsabilidad compartida. Muchas soluciones de proceso dependen de recursos de almacenamiento vinculados. Este requisito también podría influir en las decisiones de proceso. Para obtener ayuda con la comprensión de estos requisitos, consulte las notas del producto  [Consecución de la seguridad y la residencia de datos compatibles con Azure](https://azure.microsoft.com/resources/achieving-compliant-data-residency-and-security-with-azure).
 
-Parte de sus esfuerzos de cumplimiento puede incluir el control del lugar donde sus recursos de base de datos se encuentran físicamente. Las regiones de Azure se organizan en grupos llamados zonas geográficas. Una  [zona geográfica de Azure](https://azure.microsoft.com/global-infrastructure/geographies)  garantiza que se cumplan los requisitos de residencia, soberanía, cumplimiento normativo y resistencia de los datos dentro de las fronteras geográficas y políticas. Si sus cargas de trabajo están sujetas a la soberanía de datos u otros requisitos de cumplimiento, debe implementar sus recursos de almacenamiento en regiones que se encuentren en una zona geográfica de Azure compatible.
+Parte de sus esfuerzos de cumplimiento puede incluir el control del lugar donde sus recursos de base de datos se encuentran físicamente. Las regiones de Azure se organizan por grupos llamados zonas geográficas. Una  [zona geográfica de Azure](https://azure.microsoft.com/global-infrastructure/geographies)  garantiza que se cumplan los requisitos de residencia, soberanía, cumplimiento normativo y resistencia de los datos dentro de las fronteras geográficas y políticas. Si sus cargas de trabajo están sujetas a la soberanía de datos u otros requisitos de cumplimiento, debe implementar sus recursos de almacenamiento en regiones que se encuentren en una zona geográfica de Azure compatible.
 
 ## <a name="establish-controls-for-compute-services"></a>Establecimiento de controles para servicios de proceso
 

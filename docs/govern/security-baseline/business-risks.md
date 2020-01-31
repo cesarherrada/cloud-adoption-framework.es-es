@@ -1,6 +1,5 @@
 ---
 title: Motivaciones y riesgos empresariales de la base de referencia de la seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Motivaciones y riesgos empresariales de la base de referencia de la seguridad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 937eb35c07996e57bc51f85090f8e1fd136848f8
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 9d1bf5ef10ec3acd936ba4e66cca374e8365018a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222283"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808964"
 ---
 # <a name="security-baseline-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la base de referencia de la seguridad
 
@@ -41,8 +40,8 @@ La materia sobre la base de referencia de la seguridad intenta abordar los riesg
 
 Los riesgos variarán según la organización, pero los siguientes son algunos riesgos comunes relacionados con la seguridad que puede usar como punto de partida para debatir en el seno de su equipo de gobernanza de la nube:
 
-- **Vulneración de los datos:** La exposición accidental o la pérdida de información confidencial hospedada en la nube puede provocar la pérdida de clientes, problemas contractuales o consecuencias legales.
-- **Interrupción del servicio:** Las interrupciones y otros problemas de rendimiento debidos a una infraestructura no segura interrumpe las operaciones normales y puede dar lugar a la pérdida de productividad o la pérdida de negocio.
+- **Vulneración de datos:** La exposición accidental o la pérdida de información confidencial hospedada en la nube puede provocar la pérdida de clientes, problemas contractuales o consecuencias legales.
+- **Interrupción del servicio.** Las interrupciones y otros problemas de rendimiento debidos a una infraestructura no segura interrumpe las operaciones normales y puede dar lugar a la pérdida de productividad o la pérdida de negocio.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

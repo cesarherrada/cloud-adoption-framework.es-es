@@ -1,6 +1,5 @@
 ---
 title: 'Guía de innovación de Azure: Interacción con los clientes mediante aplicaciones'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Aprenda a innovar mediante la interacción con los clientes a través de aplicaciones con Azure
 author: billyclaymyersmsft
 ms.author: wimyers
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 09d5828e7b90a7530158b7f031e4f6f25d4b1d96
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 7b6a94830f35f7dde577ba4b7122cdec7e4a711d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251918"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808352"
 ---
 ::: zone target="docs"
 
@@ -45,7 +44,7 @@ Azure App Service proporciona un entorno de hospedaje para las aplicaciones que 
 
 Azure App Service ofrece compatibilidad de primera clase con lenguajes de programación como ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP y Python. Si necesita hospedar otra pila en tiempo de ejecución, Web App for Containers le permite hospedar de forma rápida y sencilla un contenedor de Docker en App Service, de modo que pueda hospedar la pila de código personalizada en un entorno fuera de la empresa del servidor.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar las implementaciones de Azure App Service:
 
@@ -69,7 +68,7 @@ Con Azure Cognitive Services, puede incorporar la inteligencia avanzada directam
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar las implementaciones de Azure Cognitive Services:
 
@@ -91,7 +90,7 @@ Para configurar o supervisar las implementaciones de Azure Cognitive Services:
 
 Para ampliar su aplicación estándar, Azure Bot Service agrega una interfaz de bot natural que usa IA y Machine Learning para crear una nueva manera de interactuar con sus clientes.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar las implementaciones de Azure Bot Services:
 
@@ -158,7 +157,7 @@ Los microservicios son un estilo de arquitectura de software en que las aplicaci
 
 Use un servicio de Kubernetes totalmente administrado para controlar el aprovisionamiento, la actualización y el escalado de recursos de clúster a petición. AKS facilita la implementación y administración de aplicaciones en contenedores. Ofrece Kubernetes sin servidor, una experiencia de integración y entrega continuas (CI/CD) integrada y seguridad y gobernanza de nivel empresarial. Una a sus equipos de desarrollo y de operaciones en una sola plataforma para crear, entregar y escalar aplicaciones con confianza.
 
-#### <a name="action"></a>.
+#### <a name="action"></a>Acción
 
 Para configurar o supervisar una instancia de Azure Kubernetes Service:
 
@@ -186,7 +185,7 @@ El tiempo de ejecución de Azure Functions admite muchos lenguajes, como C#, Jav
 
 Otra ventaja de las funciones es la posibilidad de que se desencadenen mediante acciones y eventos diferentes, como HTTPTriggers, TimerTriggers y desencadenadores de otros servicios de Azure, como Blob Storage, Event Grid y Service Bus. Para más información sobre los desencadenadores y los enlaces, consulte [Conceptos básicos sobre los enlaces y desencadenadores de Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings).
 
-#### <a name="action"></a>.
+#### <a name="action"></a>Acción
 
 Para configurar o supervisar las implementaciones de Azure Functions:
 
@@ -216,7 +215,7 @@ Compile aplicaciones nativas de la nube sin tener que aprovisionar ni administra
 
 Integre datos y aplicaciones en lugar de escribir complejo código de adherencia entre sistemas dispares. Cree flujos de trabajo sin servidor de manera visual con Azure Logic Apps y use sus propias API, funciones sin servidor o conectores de software como servicio (SaaS) listos para usar, incluidos Salesforce, Microsoft Office 365 y Dropbox.
 
-#### <a name="action"></a>.
+#### <a name="action"></a>Acción
 
 Para configurar o supervisar Azure Logic Apps:
 
@@ -238,7 +237,7 @@ Para configurar o supervisar Azure Logic Apps:
 
 Publique, proteja, transforme, mantenga y supervise las API con Azure API Management, un servicio totalmente administrado que ofrece un modelo de uso diseñado e implementado para ser parte integral de las aplicaciones sin servidor.
 
-#### <a name="action"></a>.
+#### <a name="action"></a>Acción
 
 Para configurar o supervisar servicios de API Management:
 
@@ -264,7 +263,7 @@ Para modernizar la cartera de aplicaciones, Azure proporciona diversos servicios
 
 Ejecute contenedores de Docker a petición en un entorno de Azure administrado y sin servidor. Azure Container Instances es una solución para cualquier escenario, que puede funcionar en contenedores aislados sin orquestación. Si ejecuta las cargas de trabajo en Container Instances, puede dedicarse al diseño y la compilación de aplicaciones, en lugar de centrarse en la administración de la infraestructura en la que se ejecutan.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar instancias de contenedor:
 
@@ -296,7 +295,7 @@ Cuando empiece a realizar la transición desde la fase de pruebas inicial, eval�
 
 Azure Front Door Service proporciona un punto de entrada seguro y escalable que puede utilizar para entregar su aplicación en todo el mundo. Azure Front Door Service combina la optimización del tráfico para lograr un rendimiento óptimo y una conmutación por error global instantánea. Debe utilizar Azure Front Door Service en lugar de Azure Traffic Manager si necesita la terminación del protocolo de seguridad de la capa de transporte (TLS) (descarga SSL) o el procesamiento de capas de aplicación por solicitud HTTP/HTTPS.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar instancias de Front Door:
 
@@ -318,7 +317,7 @@ Para configurar o supervisar instancias de Front Door:
 
 Traffic Manager proporciona equilibrio de carga basado en DNS que se puede enrutar en función de diferentes reglas. Esta funcionalidad ayuda a garantizar la resistencia si se produce un error en cualquier servicio implementado. También puede apilar Traffic Manager para usar el enrutamiento basado en errores y el enrutamiento basado en el rendimiento, lo que proporciona la mejor experiencia posible en función de la geografía.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar perfiles de Traffic Manager:
 
@@ -340,7 +339,7 @@ Para configurar o supervisar perfiles de Traffic Manager:
 
 Azure ofrece una red de entrega de contenido (CDN) distribuida que permite garantizar la entrega puntual de los recursos, mediante el almacenamiento en caché cerca de los usuarios. Este almacenamiento en caché ayuda a mejorar las experiencias de los clientes. Durante la descarga de contenido, también evita incidentes causados por problemas de red que se producen entre el punto de conexión de CDN y el centro de datos que hospeda la aplicación. Las aplicaciones que no se hospedan en Azure también pueden usar Content Delivery Network.
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para configurar o supervisar perfiles de Content Delivery Network:
 

@@ -1,6 +1,5 @@
 ---
 title: Convenciones recomendadas de nomenclatura y etiquetado
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: En este artículo se proporcionan recomendaciones detalladas sobre nomenclatura y etiquetado de recursos orientadas específicamente a la compatibilidad con las labores de adopción de la nube empresarial.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: 3a99398d5ae180efe9dca4cadf0554d92c6380b2
-ms.sourcegitcommit: 91ece6ba373a4d0d573cca7e616f0b67337b0d1b
+ms.openlocfilehash: b61c9a9ffd778e657854b4da1269eebdb762c73b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "76023366"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799852"
 ---
 # <a name="recommended-naming-and-tagging-conventions"></a>Convenciones recomendadas de nomenclatura y etiquetado
 
@@ -40,7 +39,7 @@ Una estrategia de nomenclatura y etiquetado incluye detalles empresariales y ope
 
 ### <a name="resource-naming"></a>Nombres de recursos
 
-Una convención de nomenclatura efectiva ensambla los nombres de recursos usando información importante del recursos como parte de su nombre. Por ejemplo, mediante las convenciones de nomenclatura recomendadas que se analizan [más adelante en este artículo](#sample-naming-convention), un recurso de IP pública para una carga de trabajo de producción de SharePoint se denomina así: `pip-sharepoint-prod-westus-001`.
+Una convención de nomenclatura efectiva ensambla los nombres de recursos usando información importante del recursos como parte de su nombre. Por ejemplo, mediante las [convenciones de nomenclatura recomendadas](#sample-naming-convention), un recurso de IP pública para una carga de trabajo de producción de SharePoint se denomina así: `pip-sharepoint-prod-westus-001`.
 
 A partir del nombre, puede identificar rápidamente el tipo del recurso, su carga de trabajo asociada, su entorno de implementación y la región de Azure que lo hospeda.
 
@@ -62,11 +61,11 @@ Mantenga corta la longitud de los componentes de nomenclatura para evitar que se
 
 | Componente de nomenclatura | Descripción | Ejemplos |
 | --- | --- | --- |
-| Unidad de negocio | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. En organizaciones más pequeñas, este componente podría representar un único elemento organizativo de nivel superior corporativo. | *fin*, *mktg*, *product*, *it*, *corp* |
-| Tipo de suscripción | Descripción resumida del propósito de la suscripción que contiene el recurso. A menudo desglosado por tipo de entorno de implementación o cargas de trabajo específicas. | *prod,* s*hared, client* |
-| Nombre de aplicación o servicio | Nombre de la aplicación, carga de trabajo o servicio del que forma parte el recurso. | *navigator*, *emissions*, *sharepoint*, *hadoop* |
-| Entorno de implementación | Fase del ciclo de vida de desarrollo de la carga de trabajo que admite el recurso. | *prod, dev, qa, stage, test* |
-| Region | La región de Azure en la que se implementa el recurso. | *westus, eastus2, westeurope, usgovia* |
+| Unidad de negocio | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. En organizaciones más pequeñas, este componente podría representar un único elemento organizativo de nivel superior corporativo. | _fin_, _mktg_, _product_, _it_, _corp_ |
+| Tipo de suscripción | Descripción resumida del propósito de la suscripción que contiene el recurso. A menudo desglosado por tipo de entorno de implementación o cargas de trabajo específicas. | _prod_, _shared_, _client_ |
+| Nombre de aplicación o servicio | Nombre de la aplicación, carga de trabajo o servicio del que forma parte el recurso. | _navigator_, _emissions_, _sharepoint_, _hadoop_ |
+| Entorno de implementación | Fase del ciclo de vida de desarrollo de la carga de trabajo que admite el recurso. | _prod_, _dev_, _qa_, _stage_, _test_ |
+| Region | La región de Azure en la que se implementa el recurso. | _westus_, _eastus2_, _westeurope_, _usgovia_ |
 
 #### <a name="recommended-resource-type-prefixes"></a>Prefijos de tipo de recurso recomendados
 
@@ -77,35 +76,38 @@ En la lista siguiente se proporcionan los prefijos de tipo de recurso de Azure r
 | Tipo de recurso                       | Prefijo de nombre de recurso |
 | ----------------------------------- | -------------------- |
 | Resource group                      | rg-                  |
-| Azure Virtual Network               | vnet-                |
+| Conjunto de disponibilidad                    | avail-               |
+| Servicio API Management              | api-                 |
+| Virtual network                     | vnet-                |
 | Puerta de enlace de red virtual             | vnetgw-              |
 | Conexión de puerta de enlace                  | cn-                  |
 | Subnet                              | snet-                |
 | Grupo de seguridad de red              | nsg-                 |
 | Tabla de rutas                         | route-               |
-| Azure Virtual Machines              | vm-                  |
+| Máquina virtual                     | vm                   |
 | Cuenta de almacenamiento de máquina virtual                  | stvm                 |
 | Dirección IP pública                           | pip-                 |
-| Azure Load Balancer                 | lb-                  |
+| Equilibrador de carga                       | lb-                  |
 | NIC                                 | nic-                 |
-| Azure Key Vault                     | kv-                  |
-| Azure Kubernetes Service            | aks-                 |
-| Azure Service Bus                   | sb-                  |
-| Colas de Azure Service Bus            | sbq-                 |
-| Temas de Azure Service Bus            | sbt-                 |
-| Planes de Azure App Service             | plan-                |
-| Azure Web Apps                      | app-                 |
-| Azure Functions                     | func-                |
-| Azure Cloud Services                | cld-                 |
-| Servidor de Azure SQL Database           | sql-                 |
+| Almacén de claves                           | kv-                  |
+| Clúster de AKS                         | aks-                 |
+| Contenedor de AKS                       | con-                 |
+| Azure Service Bus                         | sb-                  |
+| Cola de Service Bus                   | sbq-                 |
+| Tema de Service Bus                   | sbt-                 |
+| Plan de App Service                    | plan-                |
+| Aplicación web                             | app-                 |
+| Aplicación de función                        | func-                |
+| servicio en la nube                       | cld-                 |
+| Servidor de Azure SQL Database           | sql-                 |
 | Azure SQL Database                  | sqldb-               |
-| Azure Cosmos DB                     | cosmos-              |
-| Azure Cache for Redis               | redis-               |
-| Azure Database for MySQL            | mysql-               |
-| Azure Database for PostgreSQL       | psql-                |
+| Base de datos de Cosmos DB                  | cosmos-              |
+| Caché de Azure Cache for Redis         | redis-               |
+| Base de datos de MySQL                      | mysql-               |
+| Base de datos de PostgreSQL                 | psql-                |
 | Azure SQL Data Warehouse            | sqldw-               |
 | SQL Server Stretch Database         | sqlstrdb-            |
-| Azure Storage                       | st                   |
+| Cuenta de almacenamiento                     | st                   |
 | Azure StorSimple                    | ssimp                |
 | Azure Search                        | srch-                |
 | Azure Cognitive Services            | cog-                 |
@@ -119,10 +121,10 @@ En la lista siguiente se proporcionan los prefijos de tipo de recurso de Azure r
 | Power BI Embedded                   | pbi-                 |
 | Azure Stream Analytics              | asa-                 |
 | Azure Data Factory                  | adf-                 |
-| Azure Event Hubs                    | evh-                 |
-| Azure IoT Hub                       | iot-                 |
-| Azure Notification Hubs             | ntf-                 |
-| Espacio de nombres de Azure Notification Hubs   | ntfns-               |
+| Centro de eventos                           | evh-                 |
+| centro de IoT                             | iot-                 |
+| Notification Hubs                   | ntf-                 |
+| Espacio de nombres de Notification Hubs         | ntfns-               |
 
 ### <a name="metadata-tags"></a>Etiquetas de metadatos
 
@@ -132,18 +134,18 @@ Las etiquetas que se aplican a los recursos y las etiquetas que son necesarias u
 
 | Nombre de etiqueta                  | Descripción                                                                                                                                                                                                    | Clave               | Valor de ejemplo                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------------------------------------------|
-| Nombre de la aplicación          | Nombre de la aplicación, servicio o carga de trabajo a la que está asociado el recurso.                                                                                                                                 | *ApplicationName* | *{app name}*                                    |
-| Nombre del aprobador             | Persona responsable de la aprobación de los costos relacionados con este recurso.                                                                                                                                               | *Approver*        | *{email}*                                       |
-| Presupuesto requerido o aprobado  | Dinero asignado para esta aplicación, servicio o carga de trabajo.                                                                                                                                                    | *BudgetAmount*    | *{\$}*                                          |
-| Unidad de negocio             | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. En organizaciones más pequeñas, esta etiqueta puede representar un solo elemento organizativo de nivel superior corporativo o compartido. | *BusinessUnit*    | *FINANCE, MARKETING,{Product Name}, CORP, SHARED* |
-| Centro de costos               | Centro de costo de contabilidad asociado a este recurso.                                                                                                                                                          | *CostCenter*      | *{number}*                                      |
-| Recuperación ante desastres         | Importancia empresarial de la aplicación, la carga de trabajo o el servicio.                                                                                                                                                | *DR*              | *Mission-critical, Critical, Essential*         |
-| Fecha de finalización del proyecto   | Fecha en la que la aplicación, la carga de trabajo o el servicio están programados para su retirada.                                                                                                                                  | *EndDate*         | *{date}*                                        |
-| Entorno               | Entorno de implementación de la aplicación, la carga de trabajo o el servicio.                                                                                                                                              | *Env*             | *Prod, Dev, QA, Stage, Test*                    |
-| Nombre del propietario                | Propietario de la aplicación, la carga de trabajo o el servicio.                                                                                                                                                                | *Propietario*           | *{email}*                                       |
-| Nombre del solicitante            | Usuario que solicitó la creación de esta aplicación.                                                                                                                                                          | *Requestor*       | *{email}*                                       |
-| Clase de servicio             | Nivel de contrato de nivel de servicio de la aplicación, la carga de trabajo o el servicio.                                                                                                                                       | *ServiceClass*    | *Dev, Bronze, Silver, Gold*                     |
-| Fecha de inicio del proyecto | Fecha en que se implementó por primera vez la aplicación, la carga de trabajo o el servicio.                                                                                                                                           | *StartDate*       | *{date}*                                        |
+| Nombre de la aplicación          | Nombre de la aplicación, servicio o carga de trabajo a la que está asociado el recurso.                                                                                                                                 | _ApplicationName_ | _{app name}_                                    |
+| Nombre del aprobador             | Persona responsable de la aprobación de los costos relacionados con este recurso.                                                                                                                                               | _Approver_        | _{email}_                                       |
+| Presupuesto requerido o aprobado  | Dinero asignado para esta aplicación, servicio o carga de trabajo.                                                                                                                                                    | _BudgetAmount_    | _{\$}_                                          |
+| Unidad de negocio             | División de nivel superior de la empresa que posee la suscripción o la carga de trabajo a la que pertenece el recurso. En organizaciones más pequeñas, esta etiqueta puede representar un solo elemento organizativo de nivel superior corporativo o compartido. | _BusinessUnit_    | _FINANCE_, _MARKETING_, _{Product Name}_ , _CORP_, _SHARED_ |
+| Centro de costos               | Centro de costo de contabilidad asociado a este recurso.                                                                                                                                                          | _CostCenter_      | _{number}_                                      |
+| Recuperación ante desastres         | Importancia empresarial de la aplicación, la carga de trabajo o el servicio.                                                                                                                                                | _DR_              | _Mission-critical_, _Critical_, _Essential_         |
+| Fecha de finalización del proyecto   | Fecha en la que la aplicación, la carga de trabajo o el servicio están programados para su retirada.                                                                                                                                  | _EndDate_         | _{date}_                                        |
+| Entorno               | Entorno de implementación de la aplicación, la carga de trabajo o el servicio.                                                                                                                                              | _Env_             | _Prod_, _Dev_, _QA_, _Stage_, _Test_                    |
+| Nombre del propietario                | Propietario de la aplicación, la carga de trabajo o el servicio.                                                                                                                                                                | _Propietario_           | _{email}_                                       |
+| Nombre del solicitante            | Usuario que solicitó la creación de esta aplicación.                                                                                                                                                          | _Requestor_       | _{email}_                                       |
+| Clase de servicio             | Nivel de contrato de nivel de servicio de la aplicación, la carga de trabajo o el servicio.                                                                                                                                       | _ServiceClass_    | _Dev_, _Bronze_, _Silver_, _Gold_                     |
+| Fecha de inicio del proyecto | Fecha en que se implementó por primera vez la aplicación, la carga de trabajo o el servicio.                                                                                                                                           | _StartDate_       | _{date}_                                        |
 
 ## <a name="sample-naming-convention"></a>Ejemplo de convención de nomenclatura
 
@@ -168,8 +170,8 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 | Tipo de recurso               | Ámbito           | Formato                                                                | Ejemplos                                                                                              |
 |--------------------------|-----------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Azure Virtual Network          | Resource group  | vnet-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                      | <ul><li>vnet-shared-eastus2-001 </li><li>vnet-prod-westus-001 </li><li>vnet-client-eastus2-001</li></ul>                                  |
-| Puerta de enlace virtual de red virtual     | Virtual network | vnetgw-v-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-v-shared-eastus2-001 </li><li>vnet-gw-v-prod-westus-001 </li><li>vnet-gw-v-client-eastus2-001</li></ul>                   |
-| Puerta de enlace local de red virtual       | Puerta de enlace virtual | vnetgw-l-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnet-gw-l-shared-eastus2-001 </li><li>vnet-gw-l-prod-westus-001 </li><li>vnet-gw-l-client-eastus2-001</li></ul>                   |
+| Puerta de enlace virtual de red virtual     | Virtual network | vnetgw-v-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnetgw-v-shared-eastus2-001 </li><li>vnetgw-v-prod-westus-001 </li><li>vnetgw-v-client-eastus2-001</li></ul>                   |
+| Puerta de enlace local de red virtual       | Puerta de enlace virtual | vnetgw-l-\<tipo de suscripción\>-\<región\>-\<\#\#\#\>                 | <ul><li>vnetgw-l-shared-eastus2-001 </li><li>vnetgw-l-prod-westus-001 </li><li>vnetgw-l-client-eastus2-001</li></ul>                   |
 | Conexiones de sitio a sitio | Resource group  | cn-\<nombre de puerta de enlace local\>-to-\<nombre de puerta de enlace virtual\>                 | <ul><li>cn-l-gw-shared-eastus2-001-to-v-gw-shared-eastus2-001 </li><li>cn-l-gw-shared-eastus2-001-to-shared-westus-001</li></ul> |
 | Conexiones de red virtual         | Resource group  | cn-\<suscripción1\>\<región1\>-to-\<subscripción2\>\<región2\>-      | <ul><li>cn-shared-eastus2-to-shared-westus </li><li>cn-prod-eastus2-to-prod-westus</li></ul>                                     |
 | Subnet                   | Virtual network | snet-\<suscripción\>-\<subregión\>-\<\#\#\#\>                       | <ul><li>snet-shared-eastus2-001 </li><li>snet-prod-westus-001 </li><li>snet-client-eastus2-001</li></ul>                                  |
@@ -190,9 +192,9 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 
 | Tipo de recurso           | Ámbito  | Formato                                                              | Ejemplos                                                                                 |
 |----------------------|--------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Azure Web Apps       | Global | app-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azapp-navigator-prod-001.azurewebsites.net </li><li>app-accountlookup-dev-001.azurewebsites.net</li></ul> |
-| Azure Functions      | Global | func-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>azfun-navigator-prod-001.azurewebsites.net </li><li>func-accountlookup-dev-001.azurewebsites.net</li></ul> |
-| Azure Cloud Services | Global | cld-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{cloudapp.net}]       | <ul><li>azcs-navigator-prod-001.azurewebsites.net </li><li>cld-accountlookup-dev-001.azurewebsites.net</li></ul>   |
+| Azure Web Apps       | Global | app-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>app-navigator-prod-001.azurewebsites.net </li><li>app-accountlookup-dev-001.azurewebsites.net</li></ul> |
+| Azure Functions      | Global | func-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{azurewebsites.net}] | <ul><li>func-navigator-prod-001.azurewebsites.net </li><li>func-accountlookup-dev-001.azurewebsites.net</li></ul> |
+| Azure Cloud Services | Global | cld-\<nombre de aplicación\>-\<entorno\>-\<\#\#\#\>.[{cloudapp.net}]       | <ul><li>cld-navigator-prod-001.azurewebsites.net </li><li>cld-accountlookup-dev-001.azurewebsites.net</li></ul>   |
 
 ### <a name="azure-service-bus"></a>Azure Service Bus
 
@@ -208,7 +210,7 @@ En la siguiente sección se proporcionan ejemplos de esquemas de nomenclatura pa
 |-------------------------------------|--------------------|---------------------------------------|------------------------------------------------|
 | Servidor de Azure SQL Database           | Global             | sql-\<nombre de aplicación\>-\<entorno\>      | <ul><li>sql-navigator-prod </li><li>sql-emissions-dev</li></ul>           |
 | Azure SQL Database                  | Azure SQL Database | sqldb-\<nombre de base de datos>-\<entorno\>| <ul><li>sqldb-users-prod </li><li>sqldb-users-dev</li></ul>               |
-| Azure Cosmos DB                     | Global             | cosmos-\<nombre de aplicación\>-\<entorno\>   | <ul><li>cosdb-navigator-prod </li><li>cosdb-emissions-dev</li></ul>       |
+| Azure Cosmos DB                     | Global             | cosmos-\<nombre de aplicación\>-\<entorno\>   | <ul><li>cosmos-navigator-prod </li><li>cosmos-emissions-dev</li></ul>       |
 | Azure Cache for Redis               | Global             | redis-\<nombre de aplicación\>-\<entorno\>    | <ul><li>redis-navigator-prod </li><li>redis-emissions-dev</li></ul>       |
 | Azure Database for MySQL            | Global             | mysql-\<nombre de aplicación\>-\<entorno\>    | <ul><li>mysql-navigator-prod </li><li>mysql-emissions-dev</li></ul>       |
 | Azure Database for PostgreSQL       | Global             | sql-\<nombre de aplicación\>-\<entorno\>     | <ul><li>psql-navigator-prod </li><li>psql-emissions-dev</li></ul>         |

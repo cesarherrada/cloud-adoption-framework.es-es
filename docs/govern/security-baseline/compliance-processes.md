@@ -1,6 +1,5 @@
 ---
 title: Procesos de cumplimiento de la directiva de la base de referencia de seguridad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Procesos de cumplimiento de la directiva de la base de referencia de seguridad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5f5de9c25574e36648930ce6de835d73eb0685fa
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: b725a4867ec7e55f6b9d53cdba31c0874d61c80c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221789"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808930"
 ---
 # <a name="security-baseline-policy-compliance-processes"></a>Procesos de cumplimiento de la directiva de la base de referencia de seguridad
 
 En este artículo se describe un enfoque de los procesos de cumplimiento de directivas que rigen la directiva de la [base de referencia de seguridad](./index.md). La gobernanza efectiva de la seguridad de la nube comienza con procesos manuales periódicos diseñados para detectar vulnerabilidades e imponer directivas para remediar los riesgos para la seguridad. Esto requiere la participación regular del equipo de gobernanza de la nube y las partes interesadas de TI y de la empresa para revisar y actualizar la directiva y garantizar el cumplimiento de esta. Además, muchos procesos de aplicación y supervisión en curso se pueden automatizar o complementar con herramientas para reducir la sobrecarga de la gobernanza y permitir una respuesta más rápida a la desviación de directivas.
 
-## <a name="planning-review-and-reporting-processes"></a>Procesos de planeación, revisión y generación de informes
+## <a name="planning-review-and-reporting-processes"></a>Procesos de planeamiento, revisión y generación de informes
 
 Las mejores herramientas de la base de referencia de seguridad en la nube están limitadas a los procesos y directivas que admiten. El siguiente es un conjunto de procesos de ejemplo que normalmente están incluidos en la materia sobre la base de referencia de la seguridad. Use estos ejemplos como punto de partida al planear los procesos que le permitirán continuar actualizando la directiva de seguridad en función de los cambios que se produzcan en la empresa y los comentarios de los equipos de seguridad y TI cuya tarea es la activación de la guía de gobernanza.
 

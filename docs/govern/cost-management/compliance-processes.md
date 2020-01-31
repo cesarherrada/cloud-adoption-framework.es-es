@@ -1,6 +1,5 @@
 ---
 title: Procesos de cumplimiento de directivas de Cost Management
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Procesos de cumplimiento de directivas de Cost Management
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: eb3bfc584e3c3f86e39918495fe7e0d313f13e55
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6a6f5c5d13a98b6c210fececb2d6372e7f95626b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564722"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804153"
 ---
 # <a name="cost-management-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de Cost Management
 
 En este artículo se explica un enfoque de creación de procesos que admiten una materia de gobernanza de [Cost Management](./index.md). Una gobernanza eficaz de los costos de la nube empieza con procesos manuales periódicos diseñados para admitir el cumplimiento de directivas. Esto requiere la participación regular del equipo de gobernanza de la nube y las partes interesadas de la empresa para revisar y actualizar la directiva y garantizar el cumplimiento de las directivas. Además, muchos procesos de aplicación y supervisión en curso se pueden automatizar o complementar con herramientas para reducir la sobrecarga de la gobernanza y permitir una respuesta más rápida a la desviación de directivas.
 
-## <a name="planning-review-and-reporting-processes"></a>Procesos de planeación, revisión y creación de informes
+## <a name="planning-review-and-reporting-processes"></a>Procesos de planeamiento, revisión y generación de informes
 
 Las mejores herramientas de Cost Management en la nube son solo tan buenas como los procesos y directivas que admiten. A continuación se muestra un conjunto de procesos de ejemplo habitualmente implicados en la materia de Cost Management. Use estos ejemplos como punto de partida al planear los procesos que le permitirán continuar actualizando la directiva de costos según los cambios del negocio y los comentarios de los equipos empresariales sujetos a la guía de gobernanza de costos.
 
@@ -59,7 +58,7 @@ A continuación, se muestran ejemplos de desencadenadores:
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Mediante la [plantilla de Cloud Management](./template.md), documente los procesos y desencadenadores que se alineen con el plan de adopción de la nube actual.
+Mediante la [plantilla de Cloud Management](./template.md), documente los procesos y desencadenadores que se alinean con el plan de adopción de la nube actual.
 
 Para obtener instrucciones sobre cómo ejecutar directivas de administración en la nube de conformidad con los planes de adopción, consulte el artículo sobre la mejora de la materia de Cost Management.
 

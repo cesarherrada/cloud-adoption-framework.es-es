@@ -1,6 +1,5 @@
 ---
 title: Decisiones que afectan a la migración
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Decisiones importantes que se deben tomar en relación con el proceso de migración.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6f809003c1181c925a5b86abfb162a6032614f53
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: aee856c1e9c0a509aecda8ad4d6cf642de0e0fe2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159851"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801484"
 ---
 # <a name="decisions-that-affect-migration"></a>Decisiones que afectan a la migración
 

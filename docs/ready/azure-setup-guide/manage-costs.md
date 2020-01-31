@@ -1,6 +1,5 @@
 ---
 title: Administración de costos y facturación de los recursos de Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Comprenda los presupuestos y aprenda a configurar presupuestos y pagos para los recursos de Azure.
 author: dchimes
 ms.author: kfollis
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 51d2ae124089ee1afa07e64b2e72bb1eb608bebb
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 4f0f0d900f75338a33b1873b8d0eac6d91835256
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251683"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799529"
 ---
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Administración de costos y facturación de los recursos de Azure
 
@@ -68,8 +67,8 @@ Para ver las solicitudes de soporte técnico y su estado:
 Para obtener más información, consulte:
 
 - [Documentación de la administración de costos y facturación de Azure](https://docs.microsoft.com/azure/billing)
-- [Cloud Adoption Framework: Seguimiento de los costos en unidades de negocio, entornos o proyectos](../azure-best-practices/track-costs.md)
-- [Cloud Adoption Framework: Disciplina de gobernanza de la administración de costos](../../govern/cost-management/index.md)
+- [Plataforma de adopción de la nube: Seguimiento de los costos en unidades de negocio, entornos o proyectos](../azure-best-practices/track-costs.md)
+- [Plataforma de adopción de la nube: Disciplina de gobernanza de la administración de costos](../../govern/cost-management/index.md)
 
 ::: zone-end
 

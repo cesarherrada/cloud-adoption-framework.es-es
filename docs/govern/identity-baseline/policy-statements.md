@@ -1,6 +1,5 @@
 ---
 title: Declaraciones de directivas de ejemplo de base de referencia de identidad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Declaraciones de directivas de ejemplo de base de referencia de identidad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 44c0f8693362572e0faf1e39d9f2ec7ba2ff16b9
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: c3804f24db454e4c198494e0024632efdc7d0d53
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160064"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805054"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Declaraciones de directivas de ejemplo de base de referencia de identidad
 
-Las declaraciones individuales de directiva de nube son directrices para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
+Cada declaración de directiva de nube es una guía para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
-- **Riesgo técnico**: Un resumen del riesgo que esta directiva abordará.
+- **Riesgo técnico:** Un resumen del riesgo que esta directiva abordará.
 - **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.
 - **Opciones de diseño**: Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
 

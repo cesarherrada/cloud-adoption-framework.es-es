@@ -1,6 +1,5 @@
 ---
 title: Ejemplos de resultados de rendimiento
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Ejemplos de resultados de rendimiento
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,16 +7,16 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: d772f7c8a2e7c76770a6496bb85acbac54debfe4
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 8a8c3b471787e1bc189a0d1f0abe2e2d84447e7c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048346"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806839"
 ---
 # <a name="examples-of-performance-outcomes"></a>Ejemplos de resultados de rendimiento
 
-Como se ha tratado en los [resultados empresariales](./index.md), varios resultados empresariales potenciales pueden servir como base para cualquier conversación de recorrido de transformación con la empresa. Este artículo se centra en una medida empresarial común: el rendimiento.
+Como ya se ha tratado en los [resultados empresariales](./index.md), varios posibles resultados empresariales pueden servir como base en las conversaciones con la empresa acerca del recorrido de transformación. Este artículo se centra en una medida empresarial común: el rendimiento.
 
 En la sociedad tecnológica de hoy en día, los clientes asumen que las aplicaciones van a funcionar bien y siempre van a estar disponibles. Cuando no se cumple esta expectativa, se produce un daño en la reputación que puede ser costoso y duradero.
 
@@ -41,7 +40,7 @@ Azure Backup es una solución sencilla que reduce los costos de infraestructura 
 
 Azure Site Recovery facilita la prueba de la recuperación ante desastres mediante la replicación de aplicaciones entre regiones de Azure. También puede replicar máquinas virtuales locales de VMware e Hyper-V y servidores físicos en Azure para que estén disponibles si el sitio principal deja de funcionar. Además, puede recuperar las cargas de trabajo en el sitio principal una vez que vuelva a estar en funcionamiento.
 
-- **Ejemplo:** una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (DRBC) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
+- **Ejemplo**: una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (DRBC) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -1,6 +1,5 @@
 ---
 title: Métricas, indicadores y tolerancia al riesgo de la coherencia de los recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Métricas, indicadores y tolerancia al riesgo de la coherencia de los recursos
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2a6f59c09533fc400871d549e32c9b7d56024551
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: e6947ce39cc713f969ee658f7c0d0c269fb358d7
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548069"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805156"
 ---
 # <a name="resource-consistency-metrics-indicators-and-risk-tolerance"></a>Métricas, indicadores y tolerancia al riesgo de la coherencia de los recursos
 
@@ -51,9 +50,9 @@ Las plataformas de nube ofrecen un conjunto básico de características que perm
 
 Sin embargo, a medida que crezca el tamaño de su patrimonio en la nube, la administración de los recursos se volverá más compleja. Al haber más recursos en la nube, es fundamental poder identificar quién es el propietario y controlar los recursos de forma útil. A medida que se implementan en la nube más cargas de trabajo críticas para la misión, el tiempo de actividad del servicio pasa a ser más importante y tolerancia a los posibles sobrecostos producidos por interrupciones del servicio disminuye rápidamente.
 
-En las primeras fases de adopción de la nube, trabaje con el equipo de seguridad de TI y las partes interesadas de la empresa para identificar los [riesgos empresariales](./business-risks.md) relativos a la coherencia de los recursos y, después, determine una base de referencia aceptable para la tolerancia al riesgo. En esta sección del Marco de adopción de la nube se proporcionan ejemplos, pero los riesgos detallados y las bases de referencia de su empresa o sus implementaciones pueden ser diferentes.
+En las primeras fases de adopción de la nube, trabaje con el equipo de seguridad de TI y las partes interesadas de la empresa para identificar los [riesgos empresariales](./business-risks.md) relativos a la coherencia de los recursos y, después, determine una base de referencia aceptable para la tolerancia al riesgo. En esta sección de Cloud Adoption Framework se proporcionan ejemplos, pero los riesgos y las bases de referencia específicos de su empresa o sus implementaciones pueden ser diferentes.
 
-Una vez que tenga una base de referencia, establezca bancos de pruebas mínimos que representen un aumento inaceptable de los riesgos identificados. Estos bancos de pruebas actúan como desencadenadores cuando necesita tomar medidas para corregir estos riesgos. En los siguientes ejemplos, se muestra cómo las métricas operativas, como las descritas anteriormente, pueden justificar una mayor inversión en la materia sobre la coherencia de los recursos.
+Una vez que tenga una base de referencia, establezca bancos de pruebas mínimos que representen un aumento inaceptable de los riesgos identificados. Estos bancos de pruebas actúan como desencadenadores cuando se necesita tomar medidas para corregir estos riesgos. En los siguientes ejemplos, se muestra cómo las métricas operativas, como las descritas anteriormente, pueden justificar una mayor inversión en la materia sobre la coherencia de los recursos.
 
 - **Desencadenador de etiquetado y nomenclatura.** Una empresa con más de _x_ recursos que carecen de la información necesaria de etiquetado o que no cumplen los estándares de nomenclatura debe plantearse invertir en la materia de coherencia de los recursos para ayudar a pulir estos estándares y garantizar su aplicación coherente a los recursos implementados en la nube.
 - **Desencadenador de recursos sobreaprovisionados.** Si una empresa tiene más de un _x %_ de recursos que usan regularmente pequeñas cantidades de sus capacidades disponibles de memoria, CPU o red, se recomienda invertir en la materia de coherencia de los recursos para ayudar a optimizar el uso que hacen de estos elementos.
@@ -75,4 +74,4 @@ Use la [plantilla de administración de la nube](./template.md) para documentar 
 Revise las directivas de coherencia de los recursos como punto de partida para desarrollar directivas que aborden riesgos de negocio específicos que se alineen con los planes de adopción de la nube.
 
 > [!div class="nextstepaction"]
-> [Revise las directivas de ejemplo](./policy-statements.md)
+> [Revisión de las directivas de ejemplo](./policy-statements.md)

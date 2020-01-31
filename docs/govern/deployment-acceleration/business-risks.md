@@ -1,6 +1,5 @@
 ---
 title: Motivaciones y riesgos empresariales que impulsan la aceleración de la implementación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga más información acerca de la materia sobre la aceleración de la implementación como parte de una estrategia de gobernanza de la nube.
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d827b4de1c938180579303e60c6808d65fcd14a8
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c9bdb912311aac6c926402753a678b9f191594c9
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220725"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806397"
 ---
 # <a name="deployment-acceleration-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la aceleración de la implementación
 

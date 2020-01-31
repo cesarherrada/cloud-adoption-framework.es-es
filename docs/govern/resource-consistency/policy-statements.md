@@ -1,6 +1,5 @@
 ---
 title: Instrucciones de directiva de ejemplo de coherencia de recursos
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Instrucciones de directiva de ejemplo de coherencia de recursos
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,22 +8,22 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f2e15ad1640bec4e289c49a1f9dcf83de7c04ec3
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 5e997dee318d0d6799167de4f4c61a93c814c548
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221974"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807264"
 ---
 # <a name="resource-consistency-sample-policy-statements"></a>Instrucciones de directiva de ejemplo de coherencia de recursos
 
-Las instrucciones individuales de directiva de nube son directrices para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
+Cada declaración de directiva de nube es una guía para abordar los riesgos específicos identificados durante el proceso de evaluación de riesgos. Estas declaraciones deben proporcionar un breve resumen de los riesgos y los planes para resolverlos. La definición de cada declaración debe incluir estos fragmentos de información:
 
-- **Riesgo técnico**: Un resumen del riesgo que esta directiva abordará.
+- **Riesgo técnico:** Un resumen del riesgo que esta directiva abordará.
 - **Declaración de directiva**: Una explicación clara que resuma los requisitos de la directiva.
 - **Opciones de diseño**: Recomendaciones que requieren acción, especificaciones u otras instrucciones que los equipos de TI y los desarrolladores pueden usar al implementar la directiva.
 
-Las siguientes declaraciones de directiva de ejemplo abordan riesgos empresariales comunes relacionados con la coherencia de recursos. Estas declaraciones son ejemplos a los que se puede hacer referencia al elaborar el borrador de declaraciones de directiva para satisfacer las necesidades de su organización. Estos ejemplos no pretenden ser excluyentes y hay varias opciones posibles de directiva para solucionar cada riesgo concreto identificado. Trabaje estrechamente con los equipos de TI y negocio para identificar las mejores directivas para su conjunto de riesgos en particular.
+Las siguientes declaraciones de directiva de ejemplo abordan riesgos empresariales comunes relacionados con la coherencia de recursos. Estas declaraciones son ejemplos a los que se puede hacer referencia al elaborar el borrador de las declaraciones de directiva para satisfacer las necesidades de su organización. Estos ejemplos no pretenden ser excluyentes y hay varias opciones posibles de directiva para solucionar cada riesgo concreto identificado. Trabaje estrechamente con los equipos de TI y de dirección para identificar las mejores directivas para su conjunto de riesgos en particular.
 
 ## <a name="tagging"></a>Etiquetado
 
@@ -34,7 +33,7 @@ Las siguientes declaraciones de directiva de ejemplo abordan riesgos empresarial
 
 - Los recursos implementados se deben etiquetar con los valores siguientes:
   - Coste
-  - Importancia crítica
+  - Grado de importancia
   - Contrato de nivel de servicio
   - Entorno
 - Las herramientas de gobernanza deben validar el etiquetado relacionado con el costo, la importancia, el SLA, la aplicación y el entorno. Todos los valores deben alinearse con valores predefinidos, administrados por el equipo de gobernanza.
@@ -63,8 +62,8 @@ Las siguientes declaraciones de directiva de ejemplo abordan riesgos empresarial
 
 **Declaración de directiva**: se implementarán las siguientes directivas:
 
-- El equipo de gobernanza en la nube debe aprobar las herramientas de implementación para garantizar la gobernanza en curso de los recursos implementados.
-- Los scripts de implementación deben conservarse en el repositorio central accesible para el equipo de gobernanza en la nube para su revisión y auditoría periódicas.
+- El equipo de gobernanza de la nube debe aprobar las herramientas de implementación para garantizar la gobernanza en curso de los recursos implementados.
+- Los scripts de implementación deben conservarse en un repositorio central accesible para el equipo de gobernanza de la nube para su revisión y auditoría periódicas.
 
 **Opciones de diseño posibles:** Un uso coherente de [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints) para administrar implementaciones automatizadas permite implementaciones coherentes de los recursos de Azure que cumplan con los estándares de gobernanza y las directivas de la organización.
 
@@ -93,7 +92,7 @@ Use los ejemplos mencionados en este artículo como punto de partida para desarr
 
 Para comenzar a desarrollar sus propias instrucciones de directivas personalizadas relacionadas con la coherencia de recursos, descargue la [plantilla de coherencia recursos](./template.md).
 
-Para acelerar la adopción de esta disciplina, elija la [guía práctica de gobernanza](../guides/index.md) que más se ajuste a su entorno. Después, modifique el diseño para incorporar las decisiones de directiva específicas de su organización.
+Para acelerar la adopción de esta materia, elija la [guía accionable de gobernanza](../guides/index.md) que más se ajuste a su entorno. Después, modifique el diseño para incorporar las decisiones de directiva específicas de su organización.
 
 A partir de los riesgos y la tolerancia, establezca un proceso para gobernar y comunicar la adhesión a la directiva de coherencia de los recursos.
 

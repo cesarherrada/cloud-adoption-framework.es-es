@@ -1,6 +1,5 @@
 ---
 title: Capacidad de red superada
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 402628da8fb5af7526c33d6c4900298eb42bced5
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 2d7ae4989251c0c3022c1044280d433e4dc920ad
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753499"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803099"
 ---
 # <a name="data-requirements-exceed-network-capacity-during-a-migration-effort"></a>Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 
 En una migración a la nube, los recursos se replican y sincronizan a través de la red entre el centro de datos existente y la nube. No es poco frecuente que los requisitos de tamaño de datos existentes de varias cargas de trabajo superen la capacidad de la red. En dicho escenario, el proceso de migración se puede ralentizar de manera considerable o, en algunos casos, se puede detener por completo. En las instrucciones siguientes se expandirá el ámbito de la [Guía de migración a Azure](../azure-migration-guide/index.md) para proporcionar una solución que funcione en torno a las limitaciones de la red.
 
-## <a name="general-scope-expansion"></a>Expansión del ámbito general
+## <a name="general-scope-expansion"></a>Ampliación del ámbito general
 
 La mayor parte de este esfuerzo requerido en esta expansión del ámbito se producirá durante los procesos de requisitos previos, evaluación y migración de una migración.
 
@@ -29,13 +28,13 @@ La mayor parte de este esfuerzo requerido en esta expansión del ámbito se prod
 
 **Transferencia sin conexión de almacenes de datos independientes:** en el diagrama siguiente se muestran ejemplos de transferencias de datos en línea y sin conexión con Azure Data Box. Estos enfoques se pueden usar para enviar grandes volúmenes de datos a la nube antes de la migración de las cargas de trabajo. En una transferencia de datos sin conexión, los datos de origen se copian a Azure Data Box, el que se envía físicamente a Microsoft para su transferencia a una cuenta de almacenamiento de Azure como archivo o blob. Este proceso se puede usar para enviar datos que no estén vinculados directamente a una carga de trabajo específica, antes de los demás esfuerzos de migración. Esto reduce la cantidad de datos que se deben enviar a través de la red, en un esfuerzo por completar una migración dentro de las restricciones de la red.
 
-Este enfoque se podría usar para transferir HDFS de datos, copias de seguridad, archivos, servidores de archivos, aplicaciones, etc. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
+este enfoque se podría usar para transferir HDFS de datos, copias de seguridad, archivos, servidores de archivos, aplicaciones, etc. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
 
 También hay [soluciones de asociados de terceros](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box) que usan Azure Data Box para una migración de tipo "inicialización y fuente", donde un gran volumen de datos se mueve a través de una transferencia sin conexión pero que más adelante se sincroniza a una escala inferior a través de la red.
 
 ![Transferencia de datos en línea y sin conexión con Azure Data Box](../../_images/migrate/databox.png)
 
-## <a name="assess-process-changes"></a>Evaluación de los cambios del proceso
+## <a name="assess-process-changes"></a>Evaluación de los cambios en el proceso
 
 Si los requisitos de almacenamiento de una carga de trabajo (o cargas de trabajo) superan la capacidad de la red, de todos modos es posible usar Azure Data Box en una transferencia de datos sin conexión.
 
@@ -68,7 +67,7 @@ También hay [soluciones de asociados de terceros](https://azuremarketplace.micr
 
 **Sincronización:** si la sincronización de la desviación es requisito para un recurso migrado, una de las [soluciones de asociados de terceros](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box) se podría usar para sincronizar los archivos hasta que se restaure el recurso.
 
-## <a name="optimize-and-promote-process-changes"></a>Cambios en los procesos de optimización y promoción
+## <a name="optimize-and-promote-process-changes"></a>Optimización y promoción de los cambios del proceso
 
 Este cambio del ámbito probablemente no afecte a las actividades de optimización.
 

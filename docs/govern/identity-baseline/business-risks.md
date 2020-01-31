@@ -1,6 +1,5 @@
 ---
 title: Motivaciones y riesgos empresariales de la base de referencia de la identidad
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Motivaciones y riesgos empresariales de la base de referencia de la identidad
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: cd8dc50480480766ec4b4413d0dddfaeafc69f7f
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 13aedd3ef5a596547a6a7bb33102182504bde86f
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160117"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807145"
 ---
 # <a name="identity-baseline-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la base de referencia de la identidad
 

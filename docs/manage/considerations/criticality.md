@@ -1,6 +1,5 @@
 ---
 title: 'Importancia crítica para la empresa: administración y operaciones en la nube'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Importancia crítica para la empresa: administración y operaciones en la nube'
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 219c5b402c9cdc4b6214e8a5ed38b85ba7a2e203
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 3232d0544f0382c6277e3a2898a95aa0c2f11ddd
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160355"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807842"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Importancia crítica para la empresa en la administración de la nube
 
@@ -35,7 +34,7 @@ El primer paso en cualquier trabajo de alineación de la importancia crítica pa
 | Críticas |  Afecta a la misión de la empresa y puede afectar notablemente a los balances corporativos de pérdidas y ganancias. |
 | Crítico para la unidad | Afecta a la misión de una unidad de negocio específica y a sus balances de pérdidas y ganancias. |
 | Alto | Aunque puede que no entorpezca la misión, afecta a los procesos de importancia alta. En el caso de las interrupciones, las pérdidas mensurables se pueden cuantificar. |
-| Mediano | Es problema que se produzca un impacto en los procesos. Las pérdidas son bajas o imperceptibles, pero pueden producirse daños en la marca o pérdidas en la etapa inicial de la producción. |
+| Media | Es problema que se produzca un impacto en los procesos. Las pérdidas son bajas o imperceptibles, pero pueden producirse daños en la marca o pérdidas en la etapa inicial de la producción. |
 | Bajo | El impacto en los procesos empresariales es imperceptible. No es probable que se produzcan daños en la marca ni pérdidas en la etapa inicial de producción. Lo más probable es que se produzca un impacto localizado en un solo equipo. |
 | No compatible | Ningún propietario, equipo o proceso de negocio asociado a esta carga de trabajo puede justificar una inversión en la administración continua de la carga de trabajo. |
 

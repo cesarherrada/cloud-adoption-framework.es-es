@@ -1,7 +1,6 @@
 ---
-title: 'Redes definidas por software: En estrella tipo hub-and-spoke'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Descripción de los servicios de redes virtuales nativas para la nube.
+title: 'Red definida por software: En estrella tipo hub-and-spoke'
+description: Descripción de los servicios de red virtual nativa en la nube.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -9,14 +8,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: d2337ea5fdcd18fc2f56c60c64a35ee878710e65
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: a24ccb7f382e03b3eb0138e94e6b02954c36bd87
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023565"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806635"
 ---
-# <a name="software-defined-networking-hub-and-spoke"></a>Redes definidas por software: En estrella tipo hub-and-spoke
+# <a name="software-defined-networking-hub-and-spoke"></a>Red definida por software: En estrella tipo hub-and-spoke
 
 El modelo de redes en estrella tipo hub-and-spoke organiza la infraestructura de la red en la nube basada en Azure en varias redes virtuales conectadas. Este modelo le permite administrar los requisitos comunes de comunicación o seguridad de manera más eficaz, así como gestionar las posibles limitaciones de suscripción.
 

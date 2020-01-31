@@ -1,6 +1,5 @@
 ---
 title: Herramientas de la base de referencia de identidad en Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Herramientas de la base de referencia de identidad en Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5c06523d2b22293463d55f05c397dd55247f4369
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: d145d08aa4cf2b386c3ee1f0df403f684b27c2a2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566162"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806074"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Herramientas de la base de referencia de identidad en Azure
 
@@ -58,7 +57,7 @@ La siguiente tabla enumera las herramientas nativas que pueden ayudar a desarrol
 |¿Dónde se realiza la autenticación?|En la nube|En la nube, después de un intercambio de comprobación de contraseña segura con el agente de autenticación local|Local|
 |¿Cuáles son los requisitos de servidor local más allá del sistema de aprovisionamiento (Azure AD Connect)?|None|Un servidor para cada agente de autenticación adicional|Dos o más servidores de AD FS<br><br>Dos o más servidores WAP en la red perimetral o DMZ|
 |¿Cuáles son los requisitos de redes e Internet locales más allá del sistema de aprovisionamiento?|None|[Acceso saliente a Internet](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) desde los servidores que ejecutan los agentes de autenticación|[Acceso entrante a Internet](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) para los servidores WAP del perímetro<br><br>Acceso entrante de red para los servidores de AD FS desde los servidores WAP del perímetro<br><br>Equilibrio de carga de red|
-|¿Hay algún requisito de certificado SSL?|Sin|No|Sí|
+|¿Hay algún requisito de certificado SSL?|No|No|Sí|
 |¿Hay alguna solución de supervisión de estado?|No se requiere|El estado del agente lo proporciona el [Centro de administración de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication)|[Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)|
 |¿Los usuarios realizan el inicio de sesión único en los recursos de nube desde dispositivos unidos a un dominio de la red de la empresa?|Sí, con [SSO de conexión directa](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|Sí, con [SSO de conexión directa](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|Sí|
 |¿Qué tipos de inicio de sesión se admiten?|UserPrincipalName + contraseña<br><br>Autenticación integrada de Windows con [SSO de conexión directa](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)<br><br>[Identificador de inicio de sesión alternativo](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)|UserPrincipalName + contraseña<br><br>Autenticación integrada de Windows con [SSO de conexión directa](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)<br><br>[Identificador de inicio de sesión alternativo](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-faq)|UserPrincipalName + contraseña<br><br>sAMAccountName + contraseña<br><br>Autenticación integrada de Windows<br><br>[Autenticación de certificados y tarjetas inteligentes](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication)<br><br>[Identificador de inicio de sesión alternativo](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configuring-alternate-login-id)|

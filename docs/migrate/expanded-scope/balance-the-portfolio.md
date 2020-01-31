@@ -1,6 +1,5 @@
 ---
 title: Conciliar la cartera
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Obtenga información sobre cómo conciliar su cartera en la nube.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 9834778e7aaddc616d595e874459fa7bd3eb61e3
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: e93d5144a361aa3d6fb328c1d6f47eb3c069e11c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159918"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803303"
 ---
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
 La adopción de la nube es un esfuerzo de administración de carteras, disfrazado de manera inteligente como una implementación técnica. Al igual que cualquier ejercicio de administración de carteras, el equilibrio de una cartera es crítico. En un nivel estratégico, esto significa equilibrar la migración, innovación y experimentación para aprovechar la nube al máximo. Cuando el esfuerzo de adopción de la nube se inclina demasiado en una dirección o en la otra, la complejidad se abre camino en el esfuerzo de migración. En este artículo se le guiará al lector a través de los enfoques para alcanzar el equilibrio de la cartera.
 
-## <a name="general-scope-expansion"></a>Expansión del ámbito general
+## <a name="general-scope-expansion"></a>Ampliación del ámbito general
 
 Este tema es estratégico por naturaleza. De ese modo, el enfoque que se lleva a cabo en este artículo es igualmente estratégico. Para basar la estrategia en decisiones impulsadas por los datos, en este artículo se presupone que el lector ha evaluado el [patrimonio digital](../../digital-estate/index.md) existente (o que está en proceso de hacerlo). El objetivo de este enfoque es ayudar a evaluar las cargas de trabajo para garantizar un equilibrio adecuado en toda la cartera a través de preguntas cualitativas y el perfeccionamiento de la cartera.
 

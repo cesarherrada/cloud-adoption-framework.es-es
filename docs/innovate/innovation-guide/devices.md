@@ -1,6 +1,5 @@
 ---
 title: 'Guía de innovación de Azure: Interacción a través de dispositivos'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de innovación de Azure: interacción a través de dispositivos'
 author: umarmohamedusman
 ms.author: umarm
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: cf0671d4ea4c8d008010d43379cd782ff58e38ed
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 4744a1a019a8454f9a454c5eb75192a6d97b6998
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251881"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808318"
 ---
 ::: zone target="docs"
 
@@ -68,7 +67,7 @@ Estas son algunas de las características que encontrará:
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear un centro de IoT:
 
@@ -85,7 +84,7 @@ El IoT Hub Device Provisioning es un servicio auxiliar de IoT Hub que permite un
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear servicios de IoT Hub Device Provisioning Service:
 
@@ -118,7 +117,7 @@ Cree experiencias reutilizables, muy escalables y con reconocimiento del espacio
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para crear Azure Digital Twins:
 
@@ -155,7 +154,7 @@ Además de las funcionalidades de ubicación tradicionales, tales como proximida
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para usar la inteligencia de ubicación:
 
@@ -190,7 +189,7 @@ Azure Spatial Anchors está compuesto por un servicio administrado y el SDK de c
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para usar las experiencias espaciales:
 
@@ -221,7 +220,7 @@ El proceso de representación es intensivo computacionalmente. Puede haber mucho
 
 ::: zone target="chromeless"
 
-### <a name="action"></a>.
+### <a name="action"></a>Acción
 
 Para usar Remote Rendering:
 

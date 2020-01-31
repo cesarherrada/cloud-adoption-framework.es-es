@@ -1,6 +1,5 @@
 ---
 title: Mejora de la disciplina de aceleración de la implementación
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Mejora de la disciplina de aceleración de la implementación
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b1b4395efd909a0f4456a39a6b2b933d25e4f002
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: c5f07137ac1ca8c3ddbc4717dba5622096551862
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547784"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805938"
 ---
 # <a name="deployment-acceleration-discipline-improvement"></a>Mejora de la disciplina de aceleración de la implementación
 
@@ -38,11 +37,11 @@ Esta fase del desarrollo de la gobernanza permite salvar las diferencias entre l
 **Actividades mínimas sugeridas:**
 
 - Evalúe las opciones de su [cadena de herramientas de aceleración de la implementación](./toolchain.md), e implemente una estrategia híbrida que sea adecuada para su organización.
-- Desarrolle un borrador con las directrices de arquitectura y distribúyalo a las partes interesadas clave.
+- Elabore un borrador con las directrices de arquitectura y distribúyalo a las principales partes interesadas.
 - Eduque e implique a las personas y equipos que se vean afectados por el desarrollo de las directrices de arquitectura.
 - Entrene a los equipos de desarrollo y al personal de TI para que comprendan los principios y estrategias de DevSecOps y la importancia de las implementaciones totalmente automatizadas de la Disciplina de aceleración de la implementación.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Defina los roles y asignaciones que regirán la aceleración de la implementación en la nube.
 
@@ -58,18 +57,18 @@ Esta fase del desarrollo de la gobernanza permite salvar las diferencias entre l
 - Actualice el documento de directrices de arquitectura para que incluya los planes de implementación y adopción por parte del usuario, y distribúyalo a las partes interesadas clave.
 - A continuación, eduque a los usuarios y equipos a los que más afecten las directrices de la arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Defina una canalización de integración e implementación continua (CI/CD) para administrar completamente las actualizaciones de versión de la aplicación a través de los entornos de desarrollo, el control de calidad y la producción.
 
-## <a name="adopt-and-migrate"></a>Adoptar y migrar
+## <a name="adopt-and-migrate"></a>Adopción y migración
 
 La migración es un proceso incremental que se centra en el traslado, las pruebas y la adopción de las aplicaciones o cargas de trabajo de un patrimonio digital existente.
 
 **Actividades mínimas sugeridas:**
 
 - Migre la [cadena de herramientas para la aceleración de la implementación](./toolchain.md) desde el entorno de desarrollo al de producción.
-- Actualice el documento de las directrices de arquitectura y distribúyalo a las partes interesadas clave.
+- Actualice el documento de directrices de arquitectura y distribúyalo a las principales partes interesadas.
 - Desarrolle materiales y documentación educativos, comunicaciones de reconocimiento, incentivos y otros programas para ayudar a impulsar la adopción de TI y a los desarrolladores.
 
 **Posible actividades:**
@@ -90,7 +89,7 @@ Una vez completada la transformación, la gobernanza y las operaciones deben est
 - Revise las directrices de arquitectura para guiar los procesos de adopción futuros.
 - Continue comunicándose y capacitando a las personas y equipos afectados de manera regular para garantizar el cumplimiento continuo de las Pautas de Arquitectura.
 
-**Actividades potenciales:**
+**Posible actividades:**
 
 - Configure una herramienta de supervisión e información de la configuración de estado que quiera establecer.
 - Revise periódicamente las herramientas de configuración y los scripts para mejorar los procesos e identificar problemas comunes.

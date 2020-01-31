@@ -1,6 +1,5 @@
 ---
 title: 'Guía de gobernanza para empresas estándar: Mejora de la coherencia de los recursos'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Guía de gobernanza para empresas estándar: Mejora de la coherencia de los recursos'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d501f976613eae869228dfd75e4612f974997558
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: aa752e83dd5e83da101600c756fe7b878015c1db
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967445"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806006"
 ---
 # <a name="standard-enterprise-governance-guide-improving-resource-consistency"></a>Guía de gobernanza para empresas estándar: Mejora de la coherencia de los recursos
 
