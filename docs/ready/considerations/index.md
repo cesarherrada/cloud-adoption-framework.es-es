@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 152f8c13184ae367f982b6188d21f3dca2849cd1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5eb0dc016bcfe7778727b5a61e392e3dd3581539
+ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799087"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77173365"
 ---
 # <a name="landing-zone-considerations"></a>Consideraciones sobre la zona de aterrizaje
 
@@ -28,19 +28,19 @@ Todas las zonas de aterrizaje proporcionan una estructura para las opciones de h
 
 - **[Decisiones de proceso](./compute-options.md)** . Para minimizar la complejidad operativa, adapte las opciones de proceso a la finalidad de la zona de aterrizaje. Esta decisión se puede llevar a la práctica mediante cadenas de herramientas de automatización, como las iniciativas de Azure Policy y los planos técnicos de la zona de aterrizaje.
 - **[Decisiones sobre el almacenamiento](./storage-options.md)** . Seleccione la solución de Azure Storage adecuada que cumpla los requisitos de las cargas de trabajo.
-- **[Decisiones respecto a las redes](./networking-options.md)** . Elija los servicios, las herramientas y las arquitecturas de redes que satisfagan los requisitos de carga de trabajo, gobernanza y conectividad de la organización.
+- **[Decisiones respecto a las redes](./networking-options.md)** . Elija los servicios, las herramientas y las arquitecturas de red que cumplan los requisitos de carga de trabajo, gobernanza y conectividad de su organización.
 - **[Decisiones respecto a las bases de datos](./data-options.md)** . Determinar qué tecnología de base de datos es la más adecuada para sus requisitos de cargas de trabajo.
 
 ## <a name="azure-fundamentals"></a>Aspectos básicos de Azure
 
-Cada zona de aterrizaje forma parte de una solución más amplia para organizar los recursos a través de un entorno en la nube. Los aspectos básicos de Azure constituyen los bloques de creación fundamentales para la organización.
+Cada zona de aterrizaje forma parte de una solución más amplia para organizar los recursos a través de un entorno en la nube. Los aspectos básicos de Azure constituyen los bloques de creación fundamentales de cualquier organización.
 
 - **[Conceptos básicos de Azure](./fundamental-concepts.md)** . Conozca los conceptos y términos fundamentales que se usan para organizar los recursos en Azure y cómo los conceptos se relacionan entre sí.
 - **[Guía de decisiones con coherencia de recursos](../../decision-guides/resource-consistency/index.md)** . Una vez que comprenda cada uno de los aspectos básicos, la guía para la toma de decisiones sobre la organización de recursos puede ayudarle a tomar las decisiones que darán forma a la zona de aterrizaje.
 
 ## <a name="governance-considerations"></a>Consideraciones de gobernanza
 
-Las metodologías de gobierno de Cloud Adoption Framework establecen un proceso que permite gobernar el entorno en su conjunto. Sin embargo, hay muchos casos de uso que pueden requerir que tome decisiones de gobernanza según la zona de aterrizaje. En muchos escenarios, las líneas de base de gobernanza se aplican por zona de aterrizaje, incluso aunque se hayan establecido holísticamente. Esto es aplicable a las primeras zonas de aterrizaje que una organización implementa.
+Las metodologías de gobierno de Cloud Adoption Framework establecen un proceso que permite gobernar el entorno en su conjunto. Sin embargo, hay muchos casos de uso que pueden requerir que se tomen decisiones de gobernanza al respecto de cada zona de aterrizaje. En muchos escenarios, las líneas de base de gobernanza se aplican por zona de aterrizaje, aunque se hayan establecido de manera holística. Esto es aplicable a las primeras zonas de aterrizaje que una organización implementa.
 
 Los artículos siguientes pueden ayudarle a tomar decisiones relacionadas con la gobernanza respecto a su zona de aterrizaje. Puede tener en cuenta cada decisión en las líneas de base de gobernanza.
 

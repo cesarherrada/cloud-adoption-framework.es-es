@@ -1,6 +1,6 @@
 ---
 title: Establecimiento de estructuras de equipo
-description: Establecimiento de estructuras de equipo
+description: Use estos ejemplos de estructuras de equipo habituales para encontrar la estructura organizativa que mejor se adapte a sus necesidades operativas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 1d4cb3873767988fc7f5538e2023a6b2ca0a6586
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 326ffa486c07da907ad9e532d5794545ef2dbd9f
+ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800923"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77173408"
 ---
 # <a name="establish-team-structures"></a>Establecimiento de estructuras de equipo
 

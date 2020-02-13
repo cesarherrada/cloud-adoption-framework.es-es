@@ -1,18 +1,18 @@
 ---
 title: Creación de programaciones de actualizaciones
-description: Creación de programaciones de actualizaciones
+description: Use Azure Portal o los nuevos módulos de cmdlet de PowerShell para administrar las programaciones de las actualizaciones.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 67e66c62d6d35d7eab94f9a7c1fb5e743f6f9feb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 2f049fce8c109c3028fa84c5822c0eb1053023bb
+ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807927"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77173354"
 ---
 # <a name="create-update-schedules"></a>Creación de programaciones de actualizaciones
 
