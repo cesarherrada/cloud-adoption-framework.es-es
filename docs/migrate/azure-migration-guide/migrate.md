@@ -254,7 +254,7 @@ Azure DevOps es la herramienta sugerida para la administración de proyectos du
 Microsoft ofrece también las siguientes herramientas de administración de proyectos que pueden funcionar de forma conjunta para brindar funcionalidades más amplias:
 
 - [Microsoft Planner](https://tasks.office.com): una manera visual sencilla para organizar el trabajo en equipo.
-- [Microsoft Project](https://products.office.com/project/project-and-portfolio-management-software): Project and Portfolio Management, Resource Capacity Management, Financial Management, Timesheet and Schedule Management.
+- [Microsoft Project](https://products.office.com/project/project-and-portfolio-management-software): administración de proyectos y carteras, administración de la capacidad de recursos, administración financiera, administración de horarios y programaciones.
 - [Microsoft Teams](https://products.office.com/microsoft-teams): herramienta de comunicación y colaboración en equipo. Teams también integra Planner y otras herramientas para mejorar la colaboración.
 - [Azure DevOps](https://dev.azure.com): La plantilla de planeación de Cloud Adoption Framework no es necesaria para usar Azure DevOps. Puede usar este servicio sin la plantilla para administrar la infraestructura como código o usar los elementos de trabajo y paneles para realizar la administración de proyectos. A medida que madura, su organización puede aprovechar las funcionalidades de CI/CD.
 
