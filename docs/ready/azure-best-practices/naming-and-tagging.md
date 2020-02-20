@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: b61c9a9ffd778e657854b4da1269eebdb762c73b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c85f4423ea61346e8692fd19ced0d53242733284
+ms.sourcegitcommit: 35d01bccc8ecbec38f6247a065a309ec691ca810
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799852"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77213599"
 ---
 # <a name="recommended-naming-and-tagging-conventions"></a>Convenciones recomendadas de nomenclatura y etiquetado
 
@@ -144,7 +144,7 @@ Las etiquetas que se aplican a los recursos y las etiquetas que son necesarias u
 | Entorno               | Entorno de implementación de la aplicación, la carga de trabajo o el servicio.                                                                                                                                              | _Env_             | _Prod_, _Dev_, _QA_, _Stage_, _Test_                    |
 | Nombre del propietario                | Propietario de la aplicación, la carga de trabajo o el servicio.                                                                                                                                                                | _Propietario_           | _{email}_                                       |
 | Nombre del solicitante            | Usuario que solicitó la creación de esta aplicación.                                                                                                                                                          | _Requestor_       | _{email}_                                       |
-| Clase de servicio             | Nivel de contrato de nivel de servicio de la aplicación, la carga de trabajo o el servicio.                                                                                                                                       | _ServiceClass_    | _Dev_, _Bronze_, _Silver_, _Gold_                     |
+| Clase de servicio             | Nivel de contrato de nivel de servicio de la aplicación, la carga de trabajo o el servicio.                                                                                                                                       | _ServiceClass_    | _Dev_, _Bronze_, _Silver_, git _Gold_                     |
 | Fecha de inicio del proyecto | Fecha en que se implementó por primera vez la aplicación, la carga de trabajo o el servicio.                                                                                                                                           | _StartDate_       | _{date}_                                        |
 
 ## <a name="sample-naming-convention"></a>Ejemplo de convención de nomenclatura

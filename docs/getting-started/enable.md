@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 603e26d5fc8405e29d163bc0585bc0ce3cd5093f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 34b67422ad8f32cf8d6bae141db05956a1b41e22
+ms.sourcegitcommit: 6a22ac00549eb9964f25d3dfd63730e17f7eefe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804493"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77413199"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 
@@ -69,7 +69,7 @@ Además de Cloud Adoption Framework, Microsoft cubre temas adicionales que puede
                     </div>
                     <div class="cardText">
                         <h3>Arquitectura confiable (resistencia)</h3>
-                        <p>La compilación de una aplicación confiable en la nube es diferente al desarrollo de aplicaciones tradicionales. Si bien históricamente puede haber adquirido hardware de gama superior para escalar verticalmente, en un entorno de nube debe escalar horizontalmente en lugar de verticalmente. En lugar de intentar evitar todos los errores, el objetivo es minimizar los efectos que pueden provocar los errores de un único componente.</p>
+                        <p>La compilación de una aplicación confiable en la nube es diferente al desarrollo de aplicaciones tradicionales. Aunque tradicionalmente puede que haya adquirido niveles de hardware redundante de gama alta para reducir al mínimo la probabilidad de que se produzca un error en toda una plataforma de aplicaciones, en la nube somos conscientes de antemano de que se producirán errores. En lugar de intentar evitar todos los errores, el objetivo es minimizar los efectos que pueden provocar los errores de un único componente.</p>
                     </div>
                 </div>
             </div>
