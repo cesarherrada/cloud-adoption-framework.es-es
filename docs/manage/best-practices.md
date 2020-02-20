@@ -4,15 +4,15 @@ description: Descripción de la administración operativa dentro de Cloud Adopti
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 0e6e788e11ae965c821ef1f3ee1e87ed3add029d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9fbdeccc3ed1c1acb516f9aceadc3d8dc8732030
+ms.sourcegitcommit: 35d01bccc8ecbec38f6247a065a309ec691ca810
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807910"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77213616"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Establecimiento de los procedimientos de administración operativa en la nube
 
