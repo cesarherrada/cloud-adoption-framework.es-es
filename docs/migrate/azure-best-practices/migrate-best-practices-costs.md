@@ -7,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 03fb8ab37657ea500c342884e2ae2ca1c1290fca
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 30783e760f85324116e0a9a968a1c5aa486eb6f7
+ms.sourcegitcommit: 41cb36f58cc48950da1a2aa2032cc34ba5b16a0b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803728"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77599972"
 ---
 # <a name="best-practices-for-costing-and-sizing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la gestión de los costos y los ajustes de tamaño de las cargas de trabajo migradas a Azure
 
@@ -152,7 +152,7 @@ Las cuentas de almacenamiento pueden usar diferentes tipos de redundancia para l
 - [Compare](https://docs.microsoft.com/azure/storage/common/storage-decide-blobs-files-disks?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) blobs, archivos y tipos de datos de almacenamiento de disco.
 - [Obtenga más información](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers) sobre los niveles de acceso.
 - [Revise](https://docs.microsoft.com/azure/storage/common/storage-account-overview?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) los diferentes tipos de cuentas de almacenamiento.
-- Obtenga información sobre [redundancia de almacenamiento](https://docs.microsoft.com/azure/storage/common/storage-redundancy), [LRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-lrs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json), [ZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json), [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json) y [GRS de solo lectura](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json#read-access-geo-redundant-storage).
+- Obtenga información sobre [redundancia de almacenamiento](https://docs.microsoft.com/azure/storage/common/storage-redundancy), [LRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-lrs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json), [ZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json), [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json) y [GRS de solo lectura](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs?toc=%2fazure%2fstorage%2fqueues%2ftoc.json#read-access-to-data-in-the-secondary-region).
 - [Obtenga más información](https://docs.microsoft.com/azure/storage/files/storage-files-introduction) sobre Azure Files.
 
 ## <a name="best-practice-take-advantage-of-azure-hybrid-benefits"></a>Procedimiento recomendado: Aproveche las ventajas de Azure Hybrid
