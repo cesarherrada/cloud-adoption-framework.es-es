@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9c4d5bac8046cc27399b2be7bc0b8ce82ea65769
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: 20f71083a7a200fd4b45fbdda24ad6bbd24a397a
+ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173380"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567748"
 ---
 # <a name="assess-the-digital-estate"></a>Evaluación del patrimonio digital
 
@@ -24,7 +24,7 @@ Los recursos que aparecen en esta sección lo ayudarán a evaluar su entorno par
 
 <!-- markdownlint-disable MD025 -->
 
-# <a name="toolstabtools"></a>[Herramientas](#tab/Tools)
+# <a name="tools"></a>[Herramientas](#tab/Tools)
 
 Las herramientas siguientes lo ayudarán a evaluar su entorno para determinar la idoneidad de la migración y el mejor enfoque a usar. Para información útil sobre cómo elegir las herramientas adecuadas para admitir los esfuerzos de migración, consulte la [Guía para la toma de decisiones de las herramientas de migración de la Plataforma de adopción de la nube](../../decision-guides/migrate-decision-guide/index.md).
 
@@ -51,7 +51,7 @@ Para iniciar una evaluación de migración de servidor mediante Azure Migrate, s
 
 ::: zone target="chromeless"
 
-::: form action="Blade[#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview]" submitText="Assess and migrate servers" :::
+::: form action="OpenBlade[#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview]" submitText="Assess and migrate servers" :::
 
 ::: zone-end
 
@@ -86,7 +86,7 @@ Para usar la visualización de dependencias, debe descargar e instalar agentes e
 - [Uso de la solución Service Map en Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
 - [Azure Migrate y Service Map: Visualización de dependencias](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
 
-# <a name="scenarios-and-stakeholderstabscenarios"></a>[Escenarios y partes interesadas](#tab/Scenarios)
+# <a name="scenarios-and-stakeholders"></a>[Escenarios y partes interesadas](#tab/Scenarios)
 
 ## <a name="scenarios"></a>Escenarios
 
@@ -105,7 +105,7 @@ Establecer un equipo de estrategia de la nube principal, basado en estas partes 
 
 Para obtener más información sobre cómo preparar su organización para los esfuerzos de migración a la nube, consulte el artículo de la Plataforma de adopción de la nube sobre la [alineación inicial de la organización](../../plan/initial-org-alignment.md).
 
-# <a name="timelinestabtimelines"></a>[Escalas de tiempo](#tab/Timelines)
+# <a name="timelines"></a>[Escalas de tiempo](#tab/Timelines)
 
 Como afirmación general, los clientes consideran que el escenario de migración que se trata en esta guía se puede completar en un plazo que va de uno a seis meses.
 
@@ -117,7 +117,7 @@ Algunos de los factores que se deben tener en cuenta al evaluar la escala de tie
 - **La administración de cambios:** ¿su empresa tiene requisitos específicos relacionados con la implementación y la aprobación de los cambios?
 - **Las normativas relacionadas con los segmentos:** ¿tiene que cumplir con la normativa del segmento o del sector?
 
-# <a name="cost-managementtabmanagecost"></a>[Cost Management](#tab/ManageCost)
+# <a name="cost-management"></a>[Cost Management](#tab/ManageCost)
 
 A medida que evalúa su entorno, se presenta una oportunidad perfecta para incluir un paso de análisis de costos. Con los datos recopilados por las actividades de evaluación, debería poder analizar y predecir los costos. Esta predicción de costos debe factorizar los costos de servicios de consumo, además de los costos de un solo uso (como una mayor entrada de datos).
 
