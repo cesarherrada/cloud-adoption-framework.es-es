@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 790bb68a862343452aa5481e20596a839bb7b93c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: eb2564239548f77084fbc38d93003346a07e8e84
+ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799342"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567765"
 ---
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
@@ -22,7 +22,7 @@ La organización de los recursos basados en la nube es fundamental para proteger
 
 <!-- markdownlint-disable MD024 MD025 -->
 
-# <a name="azure-management-groups-and-hierarchytabazuremanagmentgroupsandhierarchy"></a>[Jerarquía y grupos de administración de Azure](#tab/AzureManagmentGroupsAndHierarchy)
+# <a name="azure-management-groups-and-hierarchy"></a>[Jerarquía y grupos de administración de Azure](#tab/AzureManagmentGroupsAndHierarchy)
 
 Azure proporciona cuatro niveles de ámbito administración: grupo de administración, suscripciones, grupos de recursos y recursos. La imagen siguiente muestra la relación de estos niveles.
 
@@ -121,7 +121,7 @@ Cree un grupo de recursos para contener recursos como aplicaciones web, bases de
 
 ::: zone-end
 
-# <a name="naming-standardstabnamingstandards"></a>[Estándares de nomenclatura](#tab/NamingStandards)
+# <a name="naming-standards"></a>[Estándares de nomenclatura](#tab/NamingStandards)
 
 Un buen estándar de nomenclatura le ayuda a identificar los recursos de Azure Portal, en una factura y en los scripts. La estrategia de nomenclatura debe incluir detalles empresariales y operativos como componentes de los nombres de recursos:
 
@@ -146,7 +146,7 @@ En la tabla siguiente se incluyen patrones de nomenclatura para algunos tipos de
 |Conjunto de disponibilidad |Resource group |1-80 |No distingue mayúsculas de minúsculas |Alfanuméricos, carácter de subrayado y guión |`<service-short-name>-<context>-as` |`profx-sql-as` |
 |Etiqueta |Entidad asociada |512 (nombre), 256 (valor) |No distingue mayúsculas de minúsculas |Alfanuméricas |`"key" : "value"` |`"department" : "Central IT"` |
 
-# <a name="resource-tagstabresourcetags"></a>[Etiquetas del recurso](#tab/ResourceTags)
+# <a name="resource-tags"></a>[Etiquetas del recurso](#tab/ResourceTags)
 
 Las etiquetas son útiles para identificar rápidamente los recursos y grupos de recursos. Se aplican etiquetas a los recursos de Azure para organizarlos de forma lógica por categorías. Cada etiqueta consta de un nombre y un valor. Por ejemplo, puede aplicar el nombre "Environment" y el valor "Production" a todos los recursos en producción. Las etiquetas deben incluir contexto sobre la carga de trabajo o aplicación asociada del recurso, los requisitos operativos y la información de propiedad.
 
@@ -156,7 +156,7 @@ También puede utilizar etiquetas para muchas otras cosas. Entre los usos comune
 
 - **Metadatos y documentación:** los administradores pueden ver fácilmente detalles sobre los recursos en los que están trabajando mediante la aplicación de una etiqueta, como "ProjectOwner".
 - **Automation:** es posible que cuente con scripts que se ejecuten regularmente y que puedan realizar una acción basada en un valor de etiqueta como "ShutdownTime" o "DeprovisionDate".
-- **Facturación:** Las etiquetas pueden aparecer en la factura. Puede usarlas para ayudar a segmentar la factura mediante etiquetas como "CostCenter" o "BillTo".
+- **Optimización de costos:** Puede asignar recursos a los equipos y recursos responsables del costo. En Azure Cost Management, puede aplicar la etiqueta del centro de costo como filtro para informar de los cargos en función del uso de un equipo o departamento.
 
 Cada recurso o grupo de recursos puede tener hasta 50 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
 

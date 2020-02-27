@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: 4e13c064cb449e3f8fca9573b44d214bb644b927
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: bc20624beb0d3a088d119bf0f75c1e1881d37fce
+ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566669"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77629222"
 ---
 # <a name="azure-virtual-datacenter"></a>Centro de datos virtual de Azure
 
@@ -36,8 +36,8 @@ ms.locfileid: "73566669"
 <tr>
     <td style="width: 64px; vertical-align: middle;"><a href="./networking-vdc.md"><img src="../_images/vdc/vdc-network.png" alt="Network Perspective" /></a></td>
     <td>
-        <h3><a href="./networking-vdc.md">Centro de datos virtual de Azure: Una perspectiva de la red</a></h3>
-        <p>Este artículo en línea proporciona información general sobre patrones y diseños de red que pueden utilizarse para resolver los conceptos de arquitectura de escala, rendimiento y seguridad que muchos clientes abordan al pensar en moverse masivamente a la nube.</p>
+        <h3><a href="./networking-vdc.md">Centro de datos virtual: Una perspectiva de la red</a></h3>
+        <p>En esta introducción a los diseños y patrones de redes se abordan los problemas de escalado, rendimiento y seguridad de la arquitectura con los que se encuentran los clientes al planear una migración a la nube a gran escala.</p>
     </td>
 </tr>
 <tr>

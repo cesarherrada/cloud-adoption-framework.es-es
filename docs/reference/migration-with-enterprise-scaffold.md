@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: 3cbce52809c191ec6bacf30454bd2e9a48d57c1b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: dd4f60eafed3281d5d4e67285c413b9f969793e3
+ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798798"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77629256"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
@@ -338,7 +338,7 @@ El componente definitivo del modelo de referencia de las plantillas scaffold de 
 
 ### <a name="azure-virtual-datacenter"></a>Centro de datos virtual de Azure
 
-Azure proporciona funcionalidades internas y de terceros mediante nuestra amplia red de asociados que permite disponer de una postura de seguridad eficaz. Más importante aún, Microsoft proporciona procedimientos recomendados y guía en el [centro de datos virtual (VDC) de Azure](./networking-vdc.md). A medida que pasa de una a varias cargas de trabajo que usan funcionalidades híbridas, la guía de VDC le proporcionará "recetas" para permitir una red flexible que crecerá al mismo ritmo que las cargas de trabajo de Azure.
+Azure ofrece funcionalidades internas y de terceros mediante nuestra amplia red de asociados que le proporciona una posición de seguridad eficaz. Más importante aún, Microsoft proporciona procedimientos recomendados y guía en el [centro de datos virtual (VDC) de Azure](./networking-vdc.md). A medida que pasa de una a varias cargas de trabajo que usan funcionalidades híbridas, la guía de VDC le proporcionará "recetas" para permitir una red flexible que crecerá al mismo ritmo que las cargas de trabajo de Azure.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

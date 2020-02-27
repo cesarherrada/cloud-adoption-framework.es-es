@@ -1,6 +1,6 @@
 ---
-title: Métricas de aceleración de la implementación, indicadores y tolerancia al riesgo
-description: Métricas de aceleración de la implementación, indicadores y tolerancia al riesgo
+title: Métricas e indicadores de la tolerancia al riesgo de aceleración de la implementación
+description: Calcule la tolerancia al riesgo empresarial relacionado con la aceleración de la implementación en la plataforma Microsoft Cloud Adoption Framework de Azure.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 26bbcd201d699c8f58d51bb4f83582417127fcbb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 18efcb5d46041a0fa87327832c0a4d819d0917b5
+ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804034"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567714"
 ---
 # <a name="deployment-acceleration-metrics-indicators-and-risk-tolerance"></a>Métricas de aceleración de la implementación, indicadores y tolerancia al riesgo
 

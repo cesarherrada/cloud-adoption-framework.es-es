@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: a04be99cfa3a37c9627b4384f240dac865d63da3
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 093f404ce4e8a5a9c5f60b5ee3bb81064ba5b3f8
+ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806958"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77629290"
 ---
 # <a name="establish-an-operating-model-for-the-cloud"></a>Establecimiento de un modelo de funcionamiento para la nube
 
@@ -23,7 +23,7 @@ Se puede realizar con relativa facilidad el seguimiento y medición de los esfue
 
 **Si la adopción describe lo que está haciendo, el modelo operativo define quién está detrás de la adopción y cómo este la habilita.**
 
-Satya Nadella dijo **"La cultura se come la estrategia para desayunar"** . El modelo operativo es la encarnación de la cultura de TI, capturada en varios procesos medibles. Cuando la nube está basada en un sólido modelo operativo, la referencia cultural conducirá a la estrategia, lo que acelerará la adopción y los valores empresariales. Por el contrario, si la adopción es correcta, pero no hay ningún modelo operativo, los beneficios que se obtienen a cambio pueden ser impresionantes pero de muy corta duración. Para conseguir un éxito a largo plazo, es fundamental que la adopción y los modelos operativos avancen en paralelo.
+"La cultura se come la estrategia para desayunar". El modelo operativo es la encarnación de la cultura de TI, capturada en varios procesos medibles. Cuando la nube está basada en un sólido modelo operativo, la referencia cultural conducirá a la estrategia, lo que acelerará la adopción y los valores empresariales. Por el contrario, si la adopción es correcta, pero no hay ningún modelo operativo, los beneficios que se obtienen a cambio pueden ser impresionantes pero de muy corta duración. Para conseguir un éxito a largo plazo, es fundamental que la adopción y los modelos operativos avancen en paralelo.
 
 ## <a name="establish-your-operating-model"></a>Establecimiento del modelo de funcionamiento
 
