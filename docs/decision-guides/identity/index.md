@@ -1,6 +1,6 @@
 ---
 title: Guía de decisión de identidad
-description: Obtenga información acerca de la identidad como un servicio principal en las migraciones de Azure.
+description: Aprenda la forma en que los servicios de Administración de identidad y acceso (IAM) permiten administrar el control de acceso en la nube.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b447330368823947bfe027036b14c3a6c1fb94f1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 67e1b0fefeeab9e95fb001b162efaa5c0f247c59
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807111"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708009"
 ---
 # <a name="identity-decision-guide"></a>Guía de decisión de identidad
 
@@ -33,10 +33,10 @@ La administración de identidades basada en la nube es un proceso iterativo. Par
 
 | Pregunta | Línea base en la nube | Sincronización de directorios | Servicios de dominio hospedados en la nube | Servicios de federación de Active Directory |
 |------|------|------|------|------|
-| ¿Actualmente carece de un servicio de directorios local? | Sí | No | No | No |
-| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | No | Sí | No | No |
-| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | No | No | Sí | Sí |
-| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | No | No | No | Sí |
+| ¿Actualmente carece de un servicio de directorios local? | Sí | Sin | Sin | Sin |
+| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | Sin | Sí | Sin | Sin |
+| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | Sin | Sin | Sí | Sí |
+| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | Sin | Sin | Sin | Sí |
 
 Como parte del planeamiento de la migración a Azure, deberá determinar la mejor manera de integrar sus servicios actuales de administración de identidad y de identidad en la nube. A continuación presentamos escenarios de integración comunes.
 

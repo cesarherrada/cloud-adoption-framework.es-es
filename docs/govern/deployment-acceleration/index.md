@@ -1,6 +1,6 @@
 ---
 title: Introducción a la materia de aceleración de la implementación
-description: Explicación de la aceleración de la implementación con respecto a la gobernanza de la nube.
+description: Use Cloud Adoption Framework para Azure para conocer la relación de la aceleración de las implementaciones con la gobernanza en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 02741fdaeab54267fbb54fcfaa0c65a3f1207045
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3c83e40ab6d08b461095385ac58cf64d74da86a9
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804187"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708978"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Introducción a la materia de aceleración de la implementación
 

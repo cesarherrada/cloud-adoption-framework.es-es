@@ -1,6 +1,6 @@
 ---
 title: Guía de decisiones de nomenclatura y etiquetado de recursos
-description: Obtenga información acerca de la organización y el etiquetado de recursos como servicio principal en las migraciones de Azure.
+description: Obtenga información sobre los métodos y las opciones de nomenclatura y etiquetado que se usan al organizar recursos basados en la nube, como parte de Cloud Adoption Framework para Azure.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4a4b283fa447b296d429f037f12bbf3b2bfcf0fb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 90b69a21f1643d4545b2ea5bce46d0c3c499d9a3
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806686"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708689"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Guía de decisiones de nomenclatura y etiquetado de recursos
 

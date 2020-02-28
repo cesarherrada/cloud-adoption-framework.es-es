@@ -1,6 +1,6 @@
 ---
 title: Guía de gobernanza para empresas complejas
-description: Guía de gobernanza para empresas complejas
+description: Siga a una empresa ficticia compleja a través de las distintas fases de la madurez de la gobernanza, cuando define un producto mínimo viable (MVP) en función de procedimientos recomendados.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2485aa48a8af05fdf945f39523439743f30977c6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 99f4a240f186af763c64f06aab580e5aecc4acc4
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805751"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709148"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 

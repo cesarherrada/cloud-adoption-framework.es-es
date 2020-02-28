@@ -1,6 +1,6 @@
 ---
 title: Guía de decisiones sobre regiones
-description: Más información sobre la selección de regiones en la plataforma de nube.
+description: Obtenga información acerca de las regiones de la plataforma de la nube, así como los factores y características que pueden afectar a las regiones que se seleccionen en Azure.
 author: doodlemania2
 ms.author: dermar
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: aff6a3129bd93df434737a861f0b5f0daad24bcc
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d8545d000d817aa8d6bcaa40a67a157ca5e57669
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806720"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708502"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -81,10 +81,10 @@ La tabla siguiente puede ayudar a documentar los resultados de los pasos anterio
 
 | Region        | Country     | Empleados locales | Usuarios externos locales   | Centros de datos o recursos locales | Requisitos de soberanía de datos |
 |---------------|-------------|-----------------|------------------------|-----------------------------|-------------------------------|
-| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | No                            |
-| Norteamérica | Canadá      | No              | Clientes              | Sí                         | Sí                           |
+| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | Sin                            |
+| Norteamérica | Canadá      | Sin              | Clientes              | Sí                         | Sí                           |
 | Europa        | Alemania     | Sí             | Asociados y clientes | No, solo red           | Sí                           |
-| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | No                            |
+| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | Sin                            |
 
 <!-- markdownlint-disable MD026 -->
 
