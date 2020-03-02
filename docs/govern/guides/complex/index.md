@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 99f4a240f186af763c64f06aab580e5aecc4acc4
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 4729e8e82cfa6674586cbeb8577fe8c3316423f0
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709148"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223952"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 
@@ -39,10 +39,14 @@ En el siguiente diagrama se muestra la jerarquía de MVP de gobernanza para orga
 Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía de grupos de recursos, suscripción y grupos de administración. Durante el planeamiento de la implementación, el equipo de gobernanza en la nube creará los nodos necesarios en la jerarquía para capacitar a los equipos de adopción de la nube.
 
 1. Defina un grupo de administración para cada unidad de negocio con una jerarquía detallada que refleje primero la zona geográfica y, después, el tipo de entorno (por ejemplo, los entornos de producción o de no producción).
-2. Cree una suscripción de producción y otra de no producción para cada combinación única de unidad de negocio o zona geográfica discretas. La creación de varias suscripciones requiere extremar la atención. Para más información, consulte la [Guía de decisiones de suscripción](../../../decision-guides/subscriptions/index.md).
-3. Aplique una [nomenclatura coherente](../../../ready/azure-best-practices/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
-4. Los grupos de recursos se deben implementar de forma que tengan en cuenta el ciclo de vida de su contenido. Los recursos que se desarrollan, se administran y se retiran juntos pertenecen al mismo grupo. Para más información sobre los procedimientos recomendados para usar grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
-5. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
+
+1. Cree una suscripción de producción y otra de no producción para cada combinación única de unidad de negocio o zona geográfica discretas. La creación de varias suscripciones requiere extremar la atención. Para más información, consulte la [Guía de decisiones de suscripción](../../../decision-guides/subscriptions/index.md).
+
+1. Aplique una [nomenclatura coherente](../../../ready/azure-best-practices/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
+
+1. Los grupos de recursos se deben implementar de forma que tengan en cuenta el ciclo de vida de su contenido. Los recursos que se desarrollan, se administran y se retiran juntos pertenecen al mismo grupo. Para más información sobre los procedimientos recomendados para usar grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
+
+1. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
 
 ![Diagrama de organización de recursos de grandes empresas](../../../_images/govern/large-enterprise-resource-organization.png)
 
