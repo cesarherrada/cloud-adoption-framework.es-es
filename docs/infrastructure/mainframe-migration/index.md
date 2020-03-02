@@ -1,18 +1,18 @@
 ---
 title: Información general sobre la migración del sistema central
-description: Migre aplicaciones desde entornos del sistema central a Azure, una infraestructura que se ha probado de alta disponibilidad y escalable para los sistemas que se ejecutan actualmente en sistemas centrales.
+description: Migre las cargas de trabajo, las aplicaciones y las bases de datos del sistema central a Azure para obtener una infraestructura probada, de alta disponibilidad y escalable sin la mayoría de los inconvenientes de los grandes sistemas.
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 899e1575fa4e8c3bd83ebec38f0a38cb1e02d314
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 04058077ed9fc739a063e75d0da4effb4c784436
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808794"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171385"
 ---
 # <a name="mainframe-migration-overview"></a>Información general sobre la migración del sistema central
 

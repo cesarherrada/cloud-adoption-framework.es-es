@@ -1,6 +1,6 @@
 ---
-title: Innovación en la nube en Cloud Adoption Framework
-description: Más información acerca de la innovación en la nube en Cloud Adoption Framework.
+title: Innovación relacionada con la adopción de la nube
+description: Conozca cómo la innovación relacionada con la adopción de la nube puede proporcionar valor empresarial mediante el desbloqueo de nuevas aptitudes técnicas y mayores funcionalidades empresariales.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/14/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: c4acca0cc71a149f6cb7ab5ecd058a833967c7e1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4b596fc83cf3d0b9a951287e052215622f6ee6b2
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808386"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171130"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Innovación en la nube en Cloud Adoption Framework
 
