@@ -1,20 +1,20 @@
 ---
-title: Evaluación de los recursos antes de la migración
-description: Evaluación de los recursos antes de la migración
+title: Validación de las suposiciones de evaluación antes de la migración
+description: Validación de las suposiciones de evaluación antes de la migración
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 76862bfbc4a88d34edb3dddb6281b5c435e6be73
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e370ef47b27449a3a46965dc309403a09fb3829d
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802504"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222284"
 ---
-# <a name="assess-assets-prior-to-migration"></a>Evaluación de los recursos antes de la migración
+# <a name="validate-assessment-assumptions-before-migration"></a>Validación de las suposiciones de evaluación antes de la migración
 
 Muchas de sus cargas de trabajo ya existentes son candidatas ideales para la migración a la nube, pero no todos los recursos son compatibles con plataformas en la nube y no todas las cargas de trabajo se pueden beneficiar del hospedaje en la nube. El [planeamiento del patrimonio digital](../../../digital-estate/index.md) le permite generar un completo [trabajo pendiente de migración](../prerequisites/technical-complexity.md#migration-backlog-aligning-business-priorities-and-timing) con posibles cargas de trabajo que se pueden migrar. Sin embargo, este esfuerzo de planeamiento es de alto nivel. Se basa en suposiciones realizadas por el equipo de estrategia en la nube y no analiza en profundidad las consideraciones técnicas.
 
@@ -44,11 +44,14 @@ Además de la responsabilidad de alto nivel, hay acciones de las que un individu
 - **Prioridad empresarial.** El equipo comprende perfectamente la finalidad de la migración de esta carga de trabajo, incluyendo cualquier impacto previsto en la empresa.
   - Un miembro del equipo de estrategia en la nube se debe hacer cargo de la responsabilidad final de esta actividad, bajo la dirección del equipo de adopción de la nube.
 - **Acuerdo con las partes interesadas.** El equipo ha acordado las expectativas y prioridades con las partes interesadas internas identificando los factores para lograr el éxito de la migración. ¿Cómo identificar el éxito después de la migración?
+- **Racionalización perfeccionada.** Evalúe las suposiciones iniciales en relación con la racionalización. ¿Se debe usar un [enfoque de racionalización](../../../digital-estate/rationalize.md) diferente para migrar esta carga de trabajo específica?
+- **Decisiones de modernización.** Independientemente de la decisión sobre la racionalización, ¿se deben modernizar varios recursos de la carga de trabajo para aprovechar las soluciones basadas en PaaS?
 - **Costo.** Se ha estimado el costo de la arquitectura de destino y se ha ajustado el presupuesto total.
 - **Compatibilidad con la migración.** El equipo ha decidido cómo se llevará a cabo el trabajo técnico de la migración, incluidas las decisiones relacionadas con el soporte de los asociados o de Microsoft.
 - **Evaluación.** Se evalúa la compatibilidad y las dependencias de la carga de trabajo.
   - Esta actividad debe asignarse a un experto en la materia que esté familiarizado con la arquitectura y las operaciones de la carga de trabajo candidata.
 - **Arquitecto.** El equipo ha acordado la arquitectura final de la carga de trabajo migrada.
+- **Herramientas de migración.** Según los enfoques de modernización y arquitectura, se podrían usar varias herramientas de migración para automatizar la migración. Según la arquitectura propuesta, ¿aprovechará esta migración las mejores [herramientas de migración](../../../decision-guides/migrate-decision-guide/index.md)?
 - **Acuerdo sobre el trabajo pendiente.** El equipo de adopción de la nube revisa los requisitos y se compromete a la migración de la carga de trabajo candidata. Después de este compromiso, se debe actualizar el trabajo pendiente de publicación y el de iteración según corresponda.
 - **Estructura de descomposición del trabajo o programación del trabajo.** El equipo define una programación con los hitos más importantes identificando los objetivos que determinan cuándo finalizar los procesos de planeamiento, implementación y revisión.
 - **Aprobación final.** Todos los aprobadores necesarios han revisado el plan y han aprobado el enfoque para migrar el recurso.

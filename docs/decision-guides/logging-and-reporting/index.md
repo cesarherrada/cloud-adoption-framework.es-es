@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: e87c64be282f91716bdb8d803681c1f0f8a1f722
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: a6229013dcbc56ff39fd4d41a5b81f13b446e625
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707669"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222784"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -44,7 +44,7 @@ Si una organización no dispone de sistemas de registro y generación de informe
 
 En este escenario, todos los datos del registro se graban y almacenan en la nube, mientras que las herramientas de registro y generación de informes que procesan y muestran la información al personal de TI se proporcionan por la plataforma Azure y Azure Monitor.
 
-Las soluciones de registro personalizadas basadas en Azure Monitor se pueden implementar ad hoc en todas las suscripciones o cargas de trabajo en implementaciones experimentales o pequeñas, y se organizan de forma centralizada para supervisar los datos de registro en todo el entorno de la nube.
+Las soluciones de registro personalizadas basadas en Azure Monitor se pueden implementar según sea necesario para cada suscripción o carga de trabajo en implementaciones más pequeñas o experimentales. Estas soluciones se organizan de forma centralizada para supervisar los datos de registro en todos los recursos de la nube.
 
 **Supuestos nativos de la nube:** Al usar un sistema de registro y generación de informes nativo de la nube, se asume lo siguiente:
 

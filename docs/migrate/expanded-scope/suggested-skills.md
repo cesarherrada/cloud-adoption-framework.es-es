@@ -3,16 +3,16 @@ title: Preparación de las aptitudes para la migración a la nube
 description: Preparación de las aptitudes para la migración a la nube
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 05/19/2019
+ms.date: 02/25/2020
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d6768f3944699fdde483fb25f47bcb22be2484f1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f24d619106674cedf12bc650cd0807e0f766e3c6
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802946"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222318"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Preparación de las aptitudes para la migración a la nube
 
@@ -28,7 +28,7 @@ La implementación de procesos de "migración" se basará en las aptitudes adqui
 
 Las siguientes herramientas pueden ayudar al equipo a ejecutar las actividades de evaluación:
 
-- [Equilibrar la cartera](./balance-the-portfolio.md): garantice el equilibrio y las asignaciones de inversión adecuadas en una cartera de aplicaciones.
+- [Equilibrar la cartera](../../strategy/balance-the-portfolio.md): garantice el equilibrio y las asignaciones de inversión adecuadas en una cartera de aplicaciones.
 - [Elaboración de una justificación comercial](../../strategy/cloud-migration-business-case.md): elabore y comprenda la justificación comercial que impulsa el esfuerzo de migración a la nube.
 - [Racionalización del patrimonio digital](../../digital-estate/rationalize.md): racionalice los recursos del patrimonio digital.
 - [Evaluación de la cartera de aplicaciones](https://docs.microsoft.com/learn/modules/app-and-infra-migration-and-modernization): criterios para tomar decisiones relacionadas con las opciones de migración o innovación dentro de la cartera de aplicaciones.

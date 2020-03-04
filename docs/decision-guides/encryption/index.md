@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c81096576934aa55bd0381e7ac26dd8666b827ea
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: bc80c33569cdb0980885ebba9c87d52e0aa87b7d
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707992"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222592"
 ---
 # <a name="encryption-decision-guide"></a>Guía de decisiones sobre cifrado
 
@@ -54,7 +54,7 @@ En el uso de un sistema de administración nativa de claves en la nube se da por
 
 Con el enfoque "Bring Your Own Key" puede generar claves en el hardware del HSM dedicado en el entorno local para transferirlas, posteriormente, a un sistema de administración basado en la nube, como Azure Key Vault, para el uso de los recursos hospedados en la nube.
 
-**Suposiciones del enfoque "Bring Your Own Key":** La generación de claves en el entorno local y su uso con un sistema de administración de claves basado en la nube incluye estas suposiciones:
+**Supuestos del enfoque "Bring Your Own Key":** La generación de claves en el entorno local y su uso con un sistema de administración de claves basado en la nube incluye estas suposiciones:
 
 - Confía en la infraestructura subyacente de seguridad y control de acceso de la plataforma de nube para hospedar y usar sus claves y secretos.
 - Las aplicaciones y servicios hospedados en la nube pueden acceder y utilizar claves y secretos de una manera sólida y segura.

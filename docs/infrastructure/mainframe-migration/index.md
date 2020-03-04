@@ -7,13 +7,15 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 04058077ed9fc739a063e75d0da4effb4c784436
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: b38408033231a4ac1d8debe889117c2f5220c676
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171385"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223657"
 ---
+<!-- cspell:ignore nanra njray dbspaces dbextents VSAM RACF LPARS ASSGN DLBL EXTENT LIBDEF EXEC IPLs -->
+
 # <a name="mainframe-migration-overview"></a>Información general sobre la migración del sistema central
 
 Muchas empresas y organizaciones se benefician del traslado de algunas o todas sus bases de datos, aplicaciones y cargas de trabajo de sistema central a la nube. Azure proporciona características similares al sistema central en el escalado de la nube sin muchos de los inconvenientes asociados a los sistemas centrales.
@@ -34,13 +36,13 @@ Ayuda a las organizaciones de TI a iniciar la conversación sobre la migración.
 
 En los últimos años de la década de los 50, los sistemas centrales se diseñaron como servidores de escalabilidad vertical para ejecutar transacciones en línea de gran volumen y procesamiento por lotes. Por ello, los sistemas centrales tienen software para formularios de transacciones en línea (a veces llamados pantallas verdes) y sistemas de E/S de alto rendimiento para procesar ejecuciones por lotes.
 
-Los sistemas centrales tienen una reputación de alta confiabilidad y disponibilidad, y se les conoce por su capacidad de ejecución de grandes transacciones en línea y trabajos por lotes. Una transacción deriva de un componente del procesamiento iniciado por una sola solicitud, normalmente de un usuario en un terminal. Las transacciones también pueden proceder de varios orígenes distintos, incluidas páginas web, estaciones de trabajo y aplicaciones de otros sistemas de información. Una transacción también se puede desencadenar automáticamente en un tiempo predefinido como se muestra en la figura siguiente.
+Los sistemas centrales son conocidos por su alta confiabilidad y disponibilidad, así como por su capacidad de ejecución de grandes transacciones en línea y trabajos por lotes. Una transacción deriva de un componente del procesamiento iniciado por una sola solicitud, normalmente de un usuario en un terminal. Las transacciones también pueden proceder de varios orígenes distintos, incluidas páginas web, estaciones de trabajo y aplicaciones de otros sistemas de información. Una transacción también se puede desencadenar automáticamente en un tiempo predefinido como se muestra en la figura siguiente.
 
 ![Componentes en una arquitectura de sistema central IBM típica](../../_images/mainframe-migration/mainframe-architecture.png)
 
 Una arquitectura de sistema central IBM típica incluye estos componentes comunes:
 
-- **Sistemas de front-end:** los usuarios pueden iniciar las transacciones desde terminales, páginas web o estaciones de trabajo remotas. Las aplicaciones de sistema central suelen tener interfaces de usuario personalizadas que se pueden conservar tras la migración a Azure. Los emuladores de terminal se siguen usando para obtener acceso a las aplicaciones de sistema central y también se les llama terminales de pantalla verde.
+- **Sistemas de front-end:** los usuarios pueden iniciar las transacciones desde terminales, páginas web o estaciones de trabajo remotas. Las aplicaciones de sistema central suelen tener interfaces de usuario personalizadas que se pueden conservar tras la migración a Azure. Los emuladores de terminal (también se les llama terminales de pantalla verde) se siguen usando para acceder a las aplicaciones de sistema central.
 
 - **Capa de aplicación:** los sistemas centrales suelen incluir un sistema de control de información del cliente (CICS), un conjunto de administración de transacciones inicial para el sistema central z/OS de IBM que a menudo se usa con Information Management System (IMS) de IBM, un administrador de transacciones basado en mensajes. Los sistemas de lotes controlan actualizaciones de datos de alto rendimiento para grandes volúmenes de registros de cuenta.
 
