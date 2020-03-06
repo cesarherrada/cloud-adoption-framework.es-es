@@ -1,18 +1,18 @@
 ---
-title: ¿Qué resultados empresariales se asocian con procesos de transformación?
-description: Explicación de los resultados empresariales asociados con transformaciones en la nube.
+title: Resultados empresariales de recorridos de transformación
+description: Use Cloud Adoption Framework para Azure para conocer los resultados empresariales asociados a las transformaciones en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 333e3f2e3be6db16cc8bd6f81360bc5b15f4725e
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1b0104767c58e31f6ae31cae511d2aa1dc60dd73
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798526"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337943"
 ---
 <!-- markdownlint-disable MD026 -->
 

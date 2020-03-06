@@ -1,6 +1,6 @@
 ---
-title: 'Guía de administración de Azure: Antes de comenzar'
-description: Aprenda a administrar las operaciones de Azure con una guía detallada.
+title: Introducción a la administración de Azure
+description: Conozca mejor Cloud Adoption Framework para Azure con esta información sobre las herramientas básicas necesarias para administrar entornos de producción de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -9,16 +9,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a6f136f3a9aeae8b9ffe6f7e51dbb65da04e81ea
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 37d49948772ca0912dc574ccb299c050eae4aeb4
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223468"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341766"
 ---
+# <a name="azure-management-guide-before-you-start"></a>Guía de administración de Azure: Antes de comenzar
+
+
 ::: zone target="docs"
 
-# <a name="azure-management-guide-before-you-start"></a>Guía de administración de Azure: Antes de comenzar
 
 > [!NOTE]
 > Esta guía supone un punto de partida para la guía de innovación en Cloud Adoption Framework. También está disponible en el Centro de inicio rápido de Azure. En este mismo artículo encontrará un vínculo al Centro de inicio rápido de Azure.
