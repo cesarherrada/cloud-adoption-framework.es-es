@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 481a617d3a09ae1f81fe313dd557314aed8f4f29
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 2ab2fa1cce7e779538137302a326ca49a291ad28
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706853"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892111"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Guía de gobernanza para empresas estándar
 
@@ -42,7 +42,7 @@ Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía
 2. Dos suscripciones, una para cargas de trabajo de producción y otra para cargas de trabajo que no sean de producción.
 3. Debe aplicarse una [nomenclatura coherente](../../../ready/azure-best-practices/naming-and-tagging.md) en cada nivel de esta jerarquía de agrupación.
 4. Los grupos de recursos se deben implementar de forma que se tenga en cuenta el ciclo de vida de su contenido: todo lo que se desarrolla conjuntamente, se administra conjuntamente y se retira conjuntamente. Para más información sobre los procedimientos recomendados de los grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
-5. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
+5. La [selección de región](../../../migrate/azure-best-practices/multiple-regions.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
 
 A continuación, se indica un ejemplo de este patrón de uso:
 

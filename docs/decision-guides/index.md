@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 6fcd5892eb9d13b61cbaa697731718e1ca8ce3eb
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 66ff53f203a07f5f61ae2ba448f56d6531ffaa94
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708162"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892453"
 ---
 # <a name="architectural-decision-guides"></a>Guías de decisiones sobre arquitectura
 
@@ -42,8 +42,6 @@ Cada una de las categorías siguientes representa una tecnología fundamental de
 [Cifrado](./encryption/index.md): proteja la información confidencial para adecuarse a los requisitos de la directiva de seguridad y cumplimiento de su organización.
 
 [Registro e informes](./logging-and-reporting/index.md): supervise los datos de registro generados por los recursos en la nube. El análisis de los datos, proporciona información relacionada con el estado de las operaciones, el mantenimiento y el estado de cumplimiento de las cargas de trabajo.
-
-[Orientación sobre las regiones](./regions/index.md): Un análisis de los criterios de decisión adecuados para la colocación regional de los recursos dentro de la plataforma Azure.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

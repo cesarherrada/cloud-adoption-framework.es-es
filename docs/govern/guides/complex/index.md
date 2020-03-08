@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4729e8e82cfa6674586cbeb8577fe8c3316423f0
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 04f8c5e53eea03c0a25c84c03a09c4fa0ec60bff
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223952"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892105"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Guía de gobernanza para empresas complejas
 
@@ -46,7 +46,7 @@ Todas las aplicaciones deben implementarse en el área adecuada de la jerarquía
 
 1. Los grupos de recursos se deben implementar de forma que tengan en cuenta el ciclo de vida de su contenido. Los recursos que se desarrollan, se administran y se retiran juntos pertenecen al mismo grupo. Para más información sobre los procedimientos recomendados para usar grupos de recursos, [consulte esto](../../../decision-guides/resource-consistency/index.md).
 
-1. La [selección de región](../../../decision-guides/regions/index.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
+1. La [selección de región](../../../migrate/azure-best-practices/multiple-regions.md) es sumamente importante y se debe tener muy en cuenta para que las redes, la supervisión y la auditoría estén en vigor para la conmutación por error o la conmutación por recuperación así como para la confirmación de que las [SKU necesarias están disponibles en las regiones preferidas](https://azure.microsoft.com/global-infrastructure/services).
 
 ![Diagrama de organización de recursos de grandes empresas](../../../_images/govern/large-enterprise-resource-organization.png)
 
