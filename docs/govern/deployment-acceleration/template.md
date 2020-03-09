@@ -1,6 +1,6 @@
 ---
 title: Plantilla de aceleración de la implementación
-description: Plantilla de aceleración de la implementación
+description: Use esta plantilla para documentar y comunicar las instrucciones de la directiva para gobernar problemas de configuración e implementación en la nube.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 210abd5fe90810dea0d4da65422b2db8d66b4c26
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1a6b859de12681e93912f934f6aa5e55c42fcfb9
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806363"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171402"
 ---
 # <a name="deployment-acceleration-template"></a>Plantilla de aceleración de la implementación
 

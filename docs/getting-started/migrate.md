@@ -1,18 +1,18 @@
 ---
 title: Comenzar un recorrido de migración a nube en Azure
-description: Comience un recorrido de migración a nube en Azure.
+description: Obtenga una guía completa para la transición de las cargas de trabajo de aplicaciones heredadas a la nube mediante innovadoras tecnologías basadas en la nube.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/10/2019
+ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: e5ef9aecfe30cc9b401e9b4ffabe56e50f3afad2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ef04a867614c6597268269421ef1d341f5252f3b
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804459"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223977"
 ---
 # <a name="begin-a-cloud-migration-journey-in-azure"></a>Comenzar un recorrido de migración a nube en Azure
 
@@ -55,7 +55,7 @@ Este enfoque se compone de dos metodologías o áreas de enfoque: estrategia y p
 
 ## <a name="cloud-implementation"></a>Implementación en la nube
 
-La implementación en la nube es un proceso iterativo para migrar y modernizar la información digital en consonancia con los resultados empresariales fijados y los controles de administración de cambios. Durante cada iteración, las cargas de trabajo se migran o modernizan en consonancia con la estrategia y el plan. Las decisiones relacionadas con las aplicaciones IaaS, PaaS o híbridas se realizan durante la fase de evaluación para optimizar el control y la ejecución. Estas decisiones determinarán las herramientas usadas durante la fase de migración. Este modelo se puede usar con unas dosis mínimas de estrategia y planeamiento. Sin embargo, para garantizar la máxima rentabilidad empresarial, es muy recomendable que tanto el departamento de TI como la empresa se vinculen a una estrategia y un plan claros que guíen las actividades de implementación.
+La implementación en la nube es un proceso iterativo para migrar y modernizar el patrimonio digital en consonancia con los resultados empresariales fijados y los controles de administración de cambios. Durante cada iteración, las cargas de trabajo se migran o modernizan en consonancia con la estrategia y el plan. Las decisiones relacionadas con las aplicaciones IaaS, PaaS o híbridas se realizan durante la fase de evaluación del [plan metodológico](../migrate/index.md) para optimizar el control y la ejecución. Esas decisiones dirigirán las herramientas que se emplean durante cada iteración de la fase de migración con la misma metodología. Este modelo se puede usar con unas dosis mínimas de estrategia y planeamiento. Sin embargo, para garantizar la máxima rentabilidad empresarial, el departamento de TI y la empresa se deben adaptar a una estrategia y un plan claros que guíen las actividades de implementación.
 
 ![Metodología de implementación en la nube de Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
 
@@ -124,7 +124,7 @@ Las tecnologías migradas a la nube se expanden constantemente a medida que los 
 
 - Windows y SQL Server
 - Bases de datos Linux y de código abierto (OSS)
-- Bases de datos no estructuradas/NoSQL
+- Bases de datos no estructuradas y NoSQL
 - SAP en Azure
 - Analytics (Data Warehouse, Data Lake)
 

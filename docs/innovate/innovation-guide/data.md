@@ -1,6 +1,6 @@
 ---
-title: 'Guía de innovación de Azure: Democratización de los datos'
-description: Aprenda cómo llevar a cabo la democratización de datos con Azure
+title: 'Innovación de Azure: Democratización de los datos'
+description: Más información sobre Azure Data Catalog, Azure Data Share y otras herramientas que mejoran la detección y comprensión de los datos.
 author: absheik
 ms.author: absheik
 ms.date: 10/17/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 481430ca45d2d4a63f4d1777bd2c34409a2e7851
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f7f3ca7d99d4a1d553c888a8d3fd58a2616b64e8
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808301"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223449"
 ---
+<!-- cspell:ignore Fcatalogs Faccounts FEnvironments -->
+
 ::: zone target="docs"
 
 # <a name="azure-innovation-guide-democratize-data"></a>Guía de innovación de Azure: Democratización de los datos
@@ -32,7 +34,7 @@ Uno de los primeros pasos para la democratización de datos es mejorar la detect
 
 Los servicios de Azure que proporcionan procesamiento de datos como Azure Time Series Insights y Stream Analytics son otras funcionalidades que los clientes y asociados usan correctamente en sus necesidades de innovación.
 
-# <a name="catalogtabcatalog"></a>[Catálogo](#tab/Catalog)
+# <a name="catalog"></a>[Catálogo](#tab/Catalog)
 
 ## <a name="azure-data-catalog"></a>Azure Data Catalog
 
@@ -69,11 +71,11 @@ Para crear una instancia de Azure Data Catalog para su organización:
 
 ::: zone-end
 
-# <a name="sharetabshare"></a>[Compartir](#tab/Share)
+# <a name="share"></a>[Compartir](#tab/Share)
 
 ## <a name="azure-data-share"></a>Azure Data Share
 
-Lograr el equilibrio entre compartir datos abiertamente y ejercer control sobre los datos que se comparten y con quién es un impulsor clave de la innovación. Al intentar realizar la democratización de los datos, las organizaciones pueden saturarse fácilmente por el enorme volumen, el ritmo y el ciclo de vida de dichos datos. Azure Data Share garantiza que los proveedores puedan controlar cómo se gestionan sus datos. Para ello, deben especificar las condiciones de uso del recurso compartido de datos. Quien consuma estos datos debe aceptar dichas condiciones para poder recibirlos. Los proveedores de datos pueden especificar la frecuencia con la que los consumidores de sus datos reciben actualizaciones. El proveedor de datos puede revocar el acceso a las nuevas actualizaciones en cualquier momento.
+Lograr el equilibrio entre compartir datos abiertamente y ejercer control sobre los datos que se comparten y con quién es un impulsor clave de la innovación. Al intentar realizar la democratización de los datos, las organizaciones pueden saturarse fácilmente por el enorme volumen, el ritmo y el ciclo de vida de dichos datos. Azure Data Share garantiza que los proveedores puedan controlar cómo se gestionan sus datos. Para ello, deben especificar las condiciones de uso del recurso compartido de datos. Quien consuma estos datos debe aceptar esas condiciones para poder recibirlos. Los proveedores de datos pueden especificar la frecuencia con la que los consumidores de sus datos reciben actualizaciones. El proveedor de datos puede revocar el acceso a las nuevas actualizaciones en cualquier momento.
 
 > [!div class="checklist"]
 >
@@ -106,7 +108,7 @@ Para crear un recurso compartido de datos:
 
 ::: zone-end
 
-# <a name="insightstabinsights"></a>[Insights](#tab/Insights)
+# <a name="insights"></a>[Insights](#tab/Insights)
 
 ## <a name="azure-time-series-insights"></a>Azure Time Series Insights
 

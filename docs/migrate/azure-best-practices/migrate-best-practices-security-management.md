@@ -7,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: fd0d65910b3a62170ce1f0d50ae73af1d4c99899
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: cef5746f8ab3368150ddcc328a8d929853dfb253
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803847"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222693"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
 
@@ -405,13 +405,13 @@ Site Recovery replica las máquinas virtuales de una región principal en la reg
 
 ## <a name="best-practice-use-managed-disks-and-availability-sets"></a>Procedimiento recomendado: uso de discos administrados y conjuntos de disponibilidad
 
-Azure usa conjuntos de disponibilidad para agrupar lógicamente las máquinas virtuales y para aislar las máquinas virtuales de un conjunto de otros recursos. Las máquinas virtuales de un conjunto de disponibilidad están repartidas entre varios dominios de error con subsistemas independientes para protegerse contra errores locales y también están repartidas entre varios dominios de actualización para que no se reinicien todas las máquinas virtuales de un conjunto al mismo tiempo.
+Azure usa conjuntos de disponibilidad para agrupar lógicamente las máquinas virtuales y para aislar las máquinas virtuales de un conjunto de otros recursos. Las máquinas virtuales de un conjunto de disponibilidad se distribuyen entre varios dominios de error con subsistemas independientes, lo cual protege frente a errores locales. Las máquinas virtuales también se distribuyen entre varios dominios de actualización y esto impide el reinicio simultáneo de todas las máquinas virtuales del conjunto.
 
-Los discos administrados de Azure simplifican la administración de discos para las máquinas virtuales de IaaS de Azure, ya que administran las cuentas de almacenamiento asociadas a los discos de la máquina virtual.
+Los discos administrados de Azure simplifican la administración de discos para las máquinas virtuales de Azure, ya que administran las cuentas de almacenamiento asociadas a los discos de las máquinas virtuales.
 
-- Se recomienda usar discos administrados siempre que sea posible. Solo tiene que especificar el tipo de almacenamiento que desea usar y el tamaño del disco que necesita y Azure crea y administra el disco automáticamente.
-- Puede convertir discos existentes en administrados.
-- Debe crear las máquinas virtuales en conjuntos de disponibilidad para alta resistencia y disponibilidad. Cuando se producen errores previstos e imprevistos, los conjuntos de disponibilidad garantizan que al menos una de las máquinas virtuales del conjunto sigue estando disponible.
+- Use discos administrados siempre que sea posible. Solo tiene que especificar el tipo de almacenamiento que desea usar y el tamaño del disco que necesita y Azure crea y administra el disco automáticamente.
+- Puede convertir los discos existentes en discos administrados.
+- Debe crear las máquinas virtuales en conjuntos de disponibilidad para alta resistencia y disponibilidad. Cuando se producen errores previstos e imprevistos, los conjuntos de disponibilidad garantizan que al menos una de las máquinas virtuales del conjunto permanece disponible.
 
 ![Discos administrados](./media/migrate-best-practices-security-management/managed-disks.png)
 *Managed disks*

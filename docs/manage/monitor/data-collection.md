@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 7ecf2ed4b9d66f6f1ccc7d65c1c0e9146a4046da
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a406d0c05594cff736265b0b69e24dcc8bc0f695
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807621"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223251"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Guía sobre la supervisión en la nube: recopilación de los datos correctos
 
@@ -23,7 +23,7 @@ Para observar el estado y la disponibilidad de la solución en la nube, debe con
 
 Planee cuidadosamente la supervisión y la migración. Para empezar, incluya al propietario del servicio de supervisión, al administrador de las operaciones y a otro personal relacionado durante la fase de planeamiento y continúe contando con ellos en todo el ciclo de desarrollo y lanzamiento. Su enfoque será desarrollar una configuración de supervisión basada en los criterios siguientes:
 
-- ¿Cuál es la composición del servicio y son esas las dependencias supervisadas hoy? Si es así, ¿hay varias herramientas implicadas? ¿Hay alguna oportunidad de consolidarla, sin introducir riesgos?
+- ¿Cuál es la composición del servicio? ¿Se supervisan las dependencias actualmente? Si es así, ¿hay varias herramientas implicadas? ¿Hay alguna oportunidad de consolidarla, sin introducir riesgos?
 - ¿Cuál es el Acuerdo de Nivel de Servicio y cómo se mide y se notifica?
 - ¿Qué aspecto debería tener el panel de servicio cuando se produce un incidente? ¿Qué aspecto debería tener el panel para el propietario del servicio y el equipo que respalda el servicio?
 - ¿Qué métricas genera el recurso que se debe supervisar?  

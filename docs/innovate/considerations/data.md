@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Democratización de los datos'
-description: 'Introducción a la innovación en la nube: democratización de los datos'
+title: Democratización de datos con la invención digital
+description: Más información sobre la democratización, el proceso que consiste en poner los datos en las manos adecuadas para probar las hipótesis e impulsar la innovación.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 158c3e25bac2124312a8ceaf3ac5500a58246f48
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1ee86c13d94f62770e21e3a8208e9c0695725ba5
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808505"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170229"
 ---
 # <a name="democratize-data"></a>Democratización de los datos
 

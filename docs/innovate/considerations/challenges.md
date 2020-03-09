@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Desafíos y factores de bloqueo'
-description: 'Introducción a la innovación en la nube: desafíos y factores de bloqueo'
+title: Desafíos y factores de bloqueo en el proceso de adopción por parte de los clientes
+description: Use Cloud Adoption Framework de Azure para conocer los desafíos habituales para la innovación relacionados con la adopción e invención.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3ab4311ca8d5ccaf6cdf7b9bcf91e55d2a7d5929
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5fa02af8464a63488e77b69226cb02d38ceca5d7
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808539"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170620"
 ---
 # <a name="common-blockers-and-challenges-to-innovation"></a>Desafíos y factores de bloqueo comunes para la innovación
 

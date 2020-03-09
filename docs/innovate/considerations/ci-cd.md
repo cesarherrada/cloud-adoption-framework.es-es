@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Capacitación para la adopción'
-description: 'Introducción a la innovación en la nube: capacitación para la adopción'
+title: Capacitación de la adopción con invención digital
+description: Use el modelo de madurez de la metodología de innovación para reducir los problemas que ralentizan la adopción al tiempo que se mantienen los procedimientos recomendados en marcha.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a3c726443e62140dba997ae4a1ff89593f72e6e6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 59ef9ad61c9e3545fbcdbd62e05711e20de38a29
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808522"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223479"
 ---
 # <a name="empower-adoption"></a>Capacitación para la adopción
 
@@ -45,7 +45,7 @@ Tal y como se describe en [Medida del impacto en los clientes](./measure.md), un
 
 Al escalar la innovación, la herramienta más valiosa es una base de código compartida para la solución. Lamentablemente, no hay ninguna manera confiable de predecir qué iteración o producto viable mínimo será la combinación ganadora. Esta es la razón por la que nunca es demasiado pronto para establecer una base de código base o un repositorio compartido. Esta es la única [demanda técnica](./build.md#reduce-complexity-and-delay-technical-spikes) que nunca se debe retrasar. A medida que el equipo itera por las distintas soluciones de producto viable mínimo, un repositorio compartido facilita colaboración y acelera el desarrollo. Cuando los cambios en la solución minan las métricas de aprendizaje, el control de versiones le permite revertir a una versión anterior y más efectiva de la solución.
 
-La herramienta más adoptada para administrar los repositorios de código es [GitHub](https://guides.github.com), que permite la creación de un repositorio de código compartido con unos pocos clics. Como alternativa, se puede usar la característica [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops) de Azure DevOps para crear un [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git) o repositorio de [Team Foundation](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc).
+La herramienta más adoptada para administrar los repositorios de código es [GitHub](https://guides.github.com), que permite la creación de un repositorio de código compartido en tan solo unos pasos. Como alternativa, se puede usar la característica [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops) de Azure DevOps para crear un [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git) o repositorio de [Team Foundation](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc).
 
 ## <a name="feedback-loops"></a>Bucles de comentarios
 
@@ -61,7 +61,7 @@ A medida que la adopción escala y la hipótesis se aproxima a una verdadera inn
 
 En la integración continua, los cambios de código se combinan con frecuencia en la rama principal. Los procesos automatizados de compilación y pruebas garantizan que el código de la rama principal siempre tenga una calidad de producción. Esto permite que los desarrolladores trabajen juntos para desarrollar soluciones compartidas que proporcionen bucles de comentarios precisos y confiables.
 
-Azure DevOps y [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines) proporcionan funcionalidades de integración continua con unos pocos clics en GitHub o en otros repositorios.
+Azure DevOps y [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines) proporcionan funcionalidades de integración continua con unos pocos pasos en GitHub o en otros repositorios.
 Obtenga más información acerca de la [integración continua](https://docs.microsoft.com/azure/devops/learn/what-is-continuous-integration) o consulte el [laboratorio práctico](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration) para obtener más información. También hay arquitecturas de soluciones para acelerar la creación de sus [canalizaciones de CI/CD a través de Azure DevOps](https://azure.microsoft.com/solutions/devops).
 
 ## <a name="reliable-testing"></a>Pruebas confiables

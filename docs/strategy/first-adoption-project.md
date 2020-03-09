@@ -7,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: c374ef690a28e1b7e0e8fd6f7fff3106c35e543f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 90e21047f8d64f15ef3c94ebe82e31ba615c4d38
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798186"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225261"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -54,7 +54,7 @@ Para respaldar los criterios anteriores, esta lista proporciona un ejemplo de un
 
 A continuación se incluyen otros ejemplos de proyectos de primera adopción:
 
-- **Recuperación ante desastres y continuidad empresarial (DRBC):** además de Azure Site Recovery, puede implementar varias estrategias de recuperación ante desastres y continuidad empresarial como primer proyecto.
+- **Continuidad empresarial y recuperación ante desastres (BCDR):** además de Azure Site Recovery, puede implementar varias estrategias de recuperación ante desastres y continuidad empresarial como primer proyecto.
 - **No producción:** implemente una instancia de no producción de una carga de trabajo.
 - **Archivo:** el almacenamiento en frío puede suponer una carga excesiva para los recursos de los centros de datos. Trasladar los datos a la nube es una solución eficaz rápida.
 - **Finalización del soporte técnico:** la migración de los recursos que han alcanzado la finalización del soporte técnico es otra ventaja rápida que genera conocimientos técnicos. También puede prevenir algunos costos de licencias o de contratos de soporte técnico costosos.

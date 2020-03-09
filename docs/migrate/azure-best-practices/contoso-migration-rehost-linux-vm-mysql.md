@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d6f812c8f32ec9481942f697151e7ed803654a1b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a5043e3d42b843cfb714823fcb476e7bfdc0a2fd
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807417"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223004"
 ---
+<!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost contosodc contosovmsacc contosoosticket vcenter cswiz osticket NSGs systemctl -->
+
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms-and-azure-database-for-mysql"></a>Rehospedaje de una aplicación Linux local en máquinas virtuales de Azure y en Azure Database for MySQL
 
 En este artículo se muestra cómo la empresa ficticia Contoso rehospeda una aplicación de Apache MySQL PHP (LAMP) basada en Linux de dos niveles y la migra de una ubicación local a Azure mediante máquinas virtuales de Azure y Azure Database for MySQL.
@@ -81,7 +83,7 @@ Migración de la base de datos:
 [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery) | El servicio orquesta y administra la migración y la recuperación ante desastres de las máquinas virtuales de Azure, así como las máquinas virtuales y servidores físicos locales. | Durante la replicación en Azure, se incurre en gastos de Azure Storage. Las máquinas virtuales de Azure se crean, e incurren en gastos, cuando se produce una conmutación por error. [Más información](https://azure.microsoft.com/pricing/details/site-recovery) sobre cargos y precios.
 [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql) | La base de datos se basa en el motor de MySQL Server de código abierto. Proporciona una base de datos MySQL de comunidad completamente administrada y lista para la empresa como un servicio para el desarrollo e implementación de aplicaciones.
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Esto es lo que Contoso necesita para este escenario.
 
@@ -165,7 +167,7 @@ Mobility Service debe instalarse en todas las VM que Contoso quiera migrar.
 
 ### <a name="prepare-to-connect-to-azure-vms-after-failover"></a>Preparación para la conexión a las máquinas virtuales de Azure después de la conmutación por error
 
-Después de la conmutación por error en Azure, Contoso quiere poder conectarse a las VM de Azure. Para ello, los administradores de Contoso deben realizar lo siguiente:
+Después de la conmutación por error en Azure, Contoso quiere poder conectarse a las máquinas virtuales de Azure. Para ello, los administradores de Contoso deben realizar lo siguiente:
 
 - Para obtener acceso a través de Internet, habilita SSH en la VM Linux local antes de la migración. En el caso de Ubuntu, puede realizarse mediante el siguiente comando: **Sudo apt-get ssh install -y**.
 - Después de la conmutación por error, comprueba los **Diagnósticos de arranque** para ver una captura de pantalla de la VM.
@@ -214,7 +216,7 @@ Para poder migrar la máquina virtual web a Azure, los administradores de Contos
 
 ### <a name="confirm-deployment-planning"></a>Confirmación del planeamiento de la implementación
 
-Para continuar, confirma que se ha completado la planificación de implementación mediante la selección de la opción **Sí, ya lo hice**. Contoso solo va a migrar una única VM en este escenario, por lo que no es necesario planear la implementación.
+Para continuar, confirma la finalización mediante la selección de **Sí, ya lo hice**. Contoso va a migrar solo una máquina virtual en este escenario por lo que no requiere planear la implementación.
 
 ### <a name="set-up-the-source-environment"></a>Configuración del entorno de origen
 
@@ -311,7 +313,7 @@ Los administradores de Contoso ya pueden empezar a replicar la máquina virtual 
 
      ![Mobility Service](./media/contoso-migration-rehost-linux-vm-mysql/linux-mobility.png)
 
-6. En **Configuración de la replicación** > **Establecer configuración de replicación**, comprueban que se haya aplicado la directiva de replicación correcta y seleccionan **Habilitar replicación**. Mobility Service se instalará automáticamente.
+6. En **Configuración de la replicación** > **Establecer configuración de replicación**, comprueban que se haya aplicado la directiva de replicación correcta y, a continuación, seleccionan **Habilitar replicación**. Mobility Service se instalará automáticamente.
 7. Realiza un seguimiento del progreso de la replicación en **Trabajos**. La máquina estará preparada para la conmutación por error después de que finalice el trabajo **Finalizar la protección**.
 
 **¿Necesita más ayuda?**

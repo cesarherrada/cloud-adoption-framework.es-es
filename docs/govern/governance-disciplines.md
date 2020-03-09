@@ -1,6 +1,6 @@
 ---
 title: Las cinco disciplinas de la gobernanza de la nube
-description: Obtenga información sobre las cinco materias de gobernanza de la nube del Marco de adopción de la nube.
+description: Use Cloud Adoption Framework de Azure para más información sobre la administración de costos, la aceleración de la implementación, la línea de base de identidad, la coherencia de recursos y la línea de base de seguridad.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 022fafd48ae9c03ef8c2b19f7b966a73cab70081
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d50364a621e57b95e26f5686f4d470984530e161
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806346"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707686"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Las cinco disciplinas de la gobernanza de la nube
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 5850b9d3da33babd4c44145fbca8f81da7dd8ff5
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7ec95c75d81b93852a59ef137a02cc35d83a1cd3
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807366"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223083"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>rehospedar una aplicación local en una máquina virtual de Azure e Instancia administrada de Azure SQL Database
 
@@ -111,7 +111,7 @@ Servicio | Descripción | Coste
 [Instancia administrada de Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | Instancia administrada es un servicio de base de datos administrada que representa una instancia de SQL Server completamente administrada en la nube de Azure. Usa el mismo código que la versión más reciente del motor de base de datos de SQL Server y tiene las características, mejoras de rendimiento y revisiones de seguridad más recientes. | El uso de una instancia administrada de Azure SQL Database en Azure conlleva unos gastos basados en la capacidad. Más información sobre los [precios de Instancia administrada](https://azure.microsoft.com/pricing/details/sql-database/managed).
 [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery) | El servicio Site Recovery orquesta y administra la migración y la recuperación ante desastres de las máquinas virtuales de Azure y de las máquinas virtuales locales y los servidores físicos. | Durante la replicación en Azure, se incurre en gastos de Azure Storage. Las máquinas virtuales de Azure se crean, y generan gastos, cuando se produce una conmutación por error. Más información sobre las [tarifas y precios de Site Recovery](https://azure.microsoft.com/pricing/details/site-recovery).
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Contoso y otros usuarios deben cumplir los siguientes requisitos previos en este escenario:
 
@@ -331,7 +331,7 @@ Más información sobre cómo [crear una cuenta para la instalación de inserci�
 
 ### <a name="prepare-to-connect-to-azure-vms-after-failover"></a>Preparación para la conexión a las máquinas virtuales de Azure después de la conmutación por error
 
-Después de la conmutación por error en Azure, Contoso quiere poder conectarse a las VM replicadas de Azure. Para conectarse a las máquinas virtuales replicadas en Azure, los administradores de Contoso debe realizar algunas tareas en la máquina virtual local antes de la migración:
+Después de la conmutación por error en Azure, Contoso quiere conectarse a las máquinas virtuales replicadas de Azure. Para ello, los administradores de Contoso deben realizar algunas tareas en la máquina virtual local antes de la migración:
 
 1. Para acceder a través de Internet, habilitan RDP en la máquina virtual local antes de la conmutación por error. Se aseguran de que se han agregado las reglas de TCP y UDP para el perfil **Público** y que RDP se permite en **Firewall de Windows** > **Aplicaciones permitidas** para todos los perfiles.
 2. Para acceder a través de la VPN de sitio a sitio de Contoso, habilitan RDP en el equipo local. Permiten RDP en **Firewall de Windows** > **Aplicaciones y características permitidas** para las redes de **dominio y privadas**.

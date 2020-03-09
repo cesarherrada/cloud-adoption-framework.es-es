@@ -7,12 +7,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a8a4bc504c085f461cb70f561670fe55a20a544b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 66694a9e1781f7d12d74e767b812b0831a371377
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803881"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225584"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
@@ -377,7 +377,7 @@ NIC4 | AsgDb
 --- | --- | ---
 Allow-HTTP-Inbound-Internet | Se permite el tráfico de Internet a los servidores web. La regla de seguridad predeterminada DenyAllInbound deniega el tráfico entrante desde Internet, por lo que no se necesita ninguna regla adicional para los grupos de seguridad de aplicaciones AsgLogic y AsgDb. | Prioridad: 100<br/><br/> Origen: Internet<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgWeb<br/><br/> Puerto de destino: 80<br/><br/> Protocolo: TCP<br/><br/> Acceso: Permitir.
 Deny-Database-All | La regla de seguridad predeterminada AllowVNetInBound permite todas las comunicaciones entre los recursos de la misma red virtual y es necesaria para denegar el tráfico desde todos los recursos. | Prioridad: 120<br/><br/> Origen: *<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: All<br/><br/> Acceso: Denegar.
-Allow-Database-BusinessLogic | Se permite el tráfico desde el grupo de seguridad de aplicaciones AsgLogic al grupo de seguridad de aplicaciones AsgDb. La prioridad de esta regla es superior a la de la regla Deny-Database-All y se procesará antes, por lo que se permite el tráfico del grupo de seguridad de aplicaciones AsgLogic y se bloquea el resto del tráfico. | Prioridad: 110<br/><br/> Origen: AsgLogic<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: TCP<br/><br/> Acceso: Permitir.
+Allow-Database-BusinessLogic | Se permite el tráfico desde el grupo de seguridad de aplicaciones AsgLogic al grupo de seguridad de aplicaciones AsgDb. La prioridad de esta regla es mayor que la prioridad de la regla Deny-Database-All, por lo que esta regla se procesará en primer lugar. Por tanto, se permite el grupo de seguridad de la aplicación AsgLogic y el resto del tráfico se bloquea. | Prioridad: 110<br/><br/> Origen: AsgLogic<br/><br/> Puerto de origen: *<br/><br/> Destino: AsgDb<br/><br/> Puerto de destino: 1433<br/><br/> Protocolo: TCP<br/><br/> Acceso: Permitir.
 
 <!--markdownlint-enable MD033 -->
 

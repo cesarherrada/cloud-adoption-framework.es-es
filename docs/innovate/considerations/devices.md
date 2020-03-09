@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Interacción con dispositivos'
-description: 'Introducción a la innovación en la nube: interacción con dispositivos'
+title: Interacción con dispositivos mediante la invención digital
+description: Más información sobre enfoques avanzados que reduzcan el esfuerzo de innovación mediante la interacción de los clientes con experiencias y dispositivos ambientales en lugar de aplicaciones.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8b39362f2e0e21431e5d04ef05e2676094bca9bc
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 05fc3e3b4ddb0ae630feaee57a345aec8870ea08
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808488"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171232"
 ---
 # <a name="ambient-experiences-interact-with-devices"></a>Experiencias ambientales: Interacción con dispositivos
 

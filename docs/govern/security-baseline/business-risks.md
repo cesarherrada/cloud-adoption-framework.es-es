@@ -1,6 +1,6 @@
 ---
-title: Motivaciones y riesgos empresariales de la base de referencia de la seguridad
-description: Motivaciones y riesgos empresariales de la base de referencia de la seguridad
+title: Riesgos empresariales de la línea de base de seguridad
+description: Comprenda y consulte ejemplos de un proceso de adopción normal por parte de un cliente de una materia de línea de base de seguridad en una estrategia de gobernanza de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9d1bf5ef10ec3acd936ba4e66cca374e8365018a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3bef524646e6be5ca6cd0b638b9614af389972f9
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808964"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709029"
 ---
 # <a name="security-baseline-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la base de referencia de la seguridad
 

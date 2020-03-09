@@ -1,6 +1,6 @@
 ---
-title: Diseño de gobernanza en Azure para varios equipos
-description: Guía para configurar controles de gobernanza de Azure para varios equipos, varias cargas de trabajo y varios entornos.
+title: Diseño de gobernanza para varios equipos en Azure
+description: Obtenga instrucciones para configurar controles de gobernanza de Azure para varios equipos, varias cargas de trabajo y varios entornos.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7bfceb1a7fe68869dabec7eda813cd3fdc121b49
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 62c47f8d4b3c386129c6a6a9eeb966393573ea16
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804306"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223895"
 ---
+<!-- cSpell:ignore netops -->
+
 # <a name="governance-design-for-multiple-teams"></a>Diseño de gobernanza para varios equipos
 
 El objetivo de esta guía es ayudarle a obtener información sobre el proceso de diseño de un modelo de gobernanza de recursos en Azure que admita varios equipos, varias cargas de trabajo y varios entornos. Primero, veremos un conjunto de requisitos de gobernanza hipotéticos y, después, describiremos varias implementaciones de ejemplo que cumplen dichos requisitos.
@@ -127,7 +129,7 @@ Tenga en cuenta que, en este modelo, el **administrador de servicios** realizó 
 ![Suscripción con los grupos de recursos A y B](../../_images/govern/design/governance-2-16.png)
 *Figura 5: Una suscripción con un administrador de servicios y dos propietarios de cargas de trabajo, todos ellos con el rol de propietario integrado asignado.*
 
-Sin embargo, como el **propietario de carga de trabajo A** y el **propietario de carga de trabajo B** tienen asignado el rol de propietario integrado en el ámbito de la suscripción, han heredado el rol de propietario integrado del grupo de recursos del otro. Esto significa que no solo tienen acceso total a los recursos del otro, también pueden delegar el acceso administrativo a los grupos de recursos del otro. Por ejemplo, el **propietario de carga de trabajo B** tiene derechos para agregar otros usuarios al **grupo de recursos A** y puede asignarles cualquier rol, como el rol de propietario integrado.
+Sin embargo, como el **propietario de carga de trabajo A** y el **propietario de carga de trabajo B** tienen asignado el rol de propietario integrado en el ámbito de la suscripción, han heredado el rol de propietario integrado del grupo de recursos del otro. Esto significa que no solo tienen acceso total a los recursos mutuos sino que también pueden delegar el acceso administrativo a los grupos de recursos mutuos. Por ejemplo, el **propietario de carga de trabajo B** tiene derechos para agregar otros usuarios al **grupo de recursos A** y puede asignarles cualquier rol, como el rol de propietario integrado.
 
 Si comparamos cada ejemplo con los requisitos, vemos que ambos ejemplos admiten un único usuario de confianza en el ámbito de la suscripción con permisos para conceder derechos de acceso a los recursos a los dos propietarios de carga de trabajo. Ninguno de los dos propietarios de carga de trabajo tenía acceso a la administración de recursos de forma predeterminada y necesitaron que el **administrador de servicios** les asignara los permisos explícitamente. Sin embargo, solo el primer ejemplo admite que los recursos asociados a cada carga de trabajo estén aislados entre sí de manera que ningún propietario de carga de trabajo tenga acceso a los recursos de otras cargas de trabajo.
 
@@ -185,7 +187,7 @@ Comencemos evaluando la primera opción. Vamos a usar el modelo de permisos que 
 10. El segundo **propietario de carga de trabajo** crea una subred en la red virtual **prod-vnet** y luego agrega dos máquinas virtuales. El segundo **propietario de carga de trabajo** aplica las etiquetas *environment* y *managedBy* a todos los recursos.
     ![Creación de subredes](../../_images/govern/design/governance-3-8.png)
 
-Este modelo de administración de recursos de ejemplo permite administrar los recursos en los tres entornos necesarios. Los recursos de la infraestructura compartida están protegidos porque hay un único usuario en la suscripción con permisos para acceder a esos recursos. Cada uno de los propietarios de cargas de trabajo puede utilizar los recursos de la infraestructura compartida sin tener permisos en los recursos compartidos en sí. Sin embargo, este modelo de administración no cumple el requisito de aislamiento de las cargas de trabajo; los dos **propietarios de cargas de trabajo** pueden acceder a los recursos de la otra carga de trabajo.
+Este modelo de administración de recursos de ejemplo permite administrar los recursos en los tres entornos necesarios. Los recursos de la infraestructura compartida están protegidos porque hay un único usuario en la suscripción con permisos para acceder a esos recursos. Cada uno de los propietarios de cargas de trabajo puede utilizar los recursos de la infraestructura compartida sin tener permisos en los recursos compartidos en sí. Sin embargo, este modelo de administración no cumple el requisito de aislamiento de las cargas de trabajo; los dos **propietarios de cargas de trabajo** pueden acceder a los recursos de la carga de trabajo del otro.
 
 Hay otra consideración importante con este modelo puede no resultar obvio a simple vista. En el ejemplo, el **propietario de carga de trabajo app1** solicitó la conexión de emparejamiento de red con la red virtual **hub-vnet** para proporcionar conectividad al entorno local. El usuario de **operaciones de red** evaluó la solicitud según los recursos implementados con esa carga de trabajo. Cuando el **propietario de la suscripción** agregó al **propietario de carga de trabajo app2** con el rol de **colaborador**, ese usuario tenía derechos de acceso de administración a todos los recursos del grupo de recursos **prod-rg**.
 

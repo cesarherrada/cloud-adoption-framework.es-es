@@ -1,18 +1,18 @@
 ---
 title: Evaluación de la tolerancia al riesgo
-description: Explicación de los riesgos empresariales asociados con una transformación a la nube
+description: Descripción de los riesgos empresariales asociados con las diversas formas de transformación de la nube y modos de evaluar la tolerancia al riesgo de una empresa.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 06f8229ab38134ac4d51a4f0cef212ebc864bbdb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: cbde932d0e4a91a80c4bde6a5b9604b43ee30441
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806023"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709505"
 ---
 # <a name="evaluate-risk-tolerance"></a>Evaluación de la tolerancia al riesgo
 

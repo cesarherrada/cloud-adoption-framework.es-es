@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: e2904356871eec65b516b7a02c356c679ab86b33
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1b8afc8da78d171d0d420730f05d5583b231ddd1
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807502"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223092"
 ---
+<!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel smarthotelcontoso smarthotelakseus smarthotelacreus smarthotelpets smarthotelpetchecker smarthotelsettingsurl vcenter WEBVM SQLVM eastus kubectl contosodevops visualstudio azuredeploy cloudapp publishfront petchecker appsettings -->
+
 # <a name="rebuild-an-on-premises-app-on-azure"></a>Recompilación de una aplicación local en Azure
 
 En este artículo se muestra cómo la compañía ficticia Contoso recompila una aplicación de Windows .NET de dos niveles que se ejecuta en máquinas virtuales de VMware como parte de una migración a Azure. Contoso migra la máquina virtual de front-end de la aplicación a una aplicación web de Azure App Service. El back-end de la aplicación se compila con microservicios implementados en contenedores administrados por Azure Kubernetes Service (AKS). El sitio interactúa con Azure Functions para ofrecer la funcionalidad de fotos de mascotas.
@@ -99,7 +101,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 [Azure Container Registry](https://azure.microsoft.com/services/container-registry) | Almacena imágenes para todos los tipos de implementaciones de contenedor. | Costo basado en características, almacenamiento y duración de la utilización. [Más información](https://azure.microsoft.com/pricing/details/container-registry).
 [Azure App Service](https://azure.microsoft.com/services/app-service/containers) | Compile, implemente y escale con rapidez aplicaciones web, móviles y de API de naturaleza empresarial que se puedan ejecutar en cualquier plataforma. | Los planes de App Service se facturan por segundo. [Más información](https://azure.microsoft.com/pricing/details/app-service/windows).
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Esto es lo que Contoso requiere en este escenario:
 
@@ -178,7 +180,7 @@ Los administradores de Contoso aprovisionan de la manera siguiente:
 
 9. Una vez finalizada la implementación, se instala la herramienta de línea de comandos **kubectl**. La herramienta ya está instalada en Azure CloudShell.
 
-   ```console
+   ```azurecli
    az aks install-cli
    ```
 
@@ -188,7 +190,7 @@ Los administradores de Contoso aprovisionan de la manera siguiente:
 
 11. Ejecutan el comando siguiente para iniciar el panel de Kubernetes:
 
-    ```console
+    ```azurecli
     az aks browse --resource-group ContosoRG --name smarthotelakseus2
     ```
 
@@ -269,10 +271,11 @@ Con el clúster de AKS creado y las imágenes de Docker compiladas, los administ
 
 La implementación se realiza de la manera siguiente:
 
-1. Los administradores abren un símbolo del sistema para desarrolladores y utilizan el comando az login con la suscripción de Azure.
+1. Los administradores abren un símbolo del sistema para desarrolladores y utilizan el comando `az login` con la suscripción de Azure.
+
 2. Usan el archivo deploy.cmd para implementar los recursos de Azure en el grupo de recursos ContosoRG y la región EUS2, escribiendo el comando siguiente:
 
-    ```console
+    ```azurecli
     .\deploy.cmd azuredeploy ContosoRG -c eastus2
     ```
 
@@ -374,7 +377,7 @@ Los administradores de Contoso aprovisionan una base de datos de Cosmos que se u
 
     ![Cosmos DB](./media/contoso-migration-rebuild/cosmos1.png)
 
-2. Especifica un nombre (**contosomarthotel**), selecciona la API de SQL y la coloca en el grupo de recursos de producción ContosoRG, en la región Este de EE. UU. 2 principal.
+2. Especifica un nombre (**contososmarthotel**), selecciona la API de SQL y la coloca en el grupo de recursos de producción ContosoRG, en la región Este de EE. UU. 2 principal.
 
     ![Cosmos DB](./media/contoso-migration-rebuild/cosmos2.png)
 
@@ -520,7 +523,7 @@ Los administradores de Contoso ahora pueden publicar el sitio web.
     ![Nuevo entorno](./media/contoso-migration-rebuild/vsts-publishfront8.png)
 
 14. Seleccionan **Implementación de Azure App Service con espacio** y asignan el nombre **Prod** al entorno.
-15. Seleccionan **1 job, 2 tasks** (1 trabajo, 2 tareas) y seleccionan la suscripción, el nombre de App Service y el espacio de **ensayo**.
+15. Seleccionan **1 job, 2 tasks** (1 trabajo, 2 tareas) y, a continuación, seleccionan la suscripción, el nombre de App Service y el espacio de **ensayo**.
 
     ![Nombre del entorno](./media/contoso-migration-rebuild/vsts-publishfront10.png)
 
@@ -565,12 +568,12 @@ Los administradores de Contoso implementan la aplicación de la manera siguiente
     ![Implementación de la función](./media/contoso-migration-rebuild/function5.png)
 
 4. Confirman el código y lo sincronizan con Azure DevOps, lo que inserta los cambios.
-5. Agregan una nueva canalización de compilación y seleccionan **Git de Azure DevOps** como origen.
+5. Agregan una nueva canalización de compilación y, a continuación, seleccionan **Git de Azure DevOps** como origen.
 6. Seleccionan la plantilla **ASP.NET Core (.NET Framework)** .
 7. Aceptan los valores predeterminados de la plantilla.
-8. En **Desencadenadores**, seleccionan **Habilitar la integración continua** y seleccionan **Guardar y poner en cola** para iniciar una compilación.
+8. En **Desencadenadores**, seleccionan **Habilitar la integración continua** y, a continuación, seleccionan **Guardar y poner en cola** para iniciar una compilación.
 9. Una vez iniciada la compilación, compilan una canalización de versión, lo que agrega **Implementación de Azure App Service con espacio**.
-10. Asignan el nombre **Producción** al entorno y seleccionan la suscripción. Establecen el **Tipo de aplicación** en **Function App** y el nombre del servicio como **smarthotelpetchecker**.
+10. Asignan el nombre **Producción** al entorno y, a continuación, seleccionan la suscripción. Establecen el **Tipo de aplicación** en **Function App** y el nombre del servicio como **smarthotelpetchecker**.
 
     ![Aplicación de función](./media/contoso-migration-rebuild/petchecker2.png)
 
@@ -578,7 +581,7 @@ Los administradores de Contoso implementan la aplicación de la manera siguiente
 
     ![Artefacto](./media/contoso-migration-rebuild/petchecker3.png)
 
-12. Habilitan la opción **Desencadenador de implementación continua** y seleccionan **Guardar**.
+12. Habilitan la opción **Desencadenador de implementación continua** y, a continuación, seleccionan **Guardar**.
 13. Seleccionan **Poner nueva compilación en cola** para ejecutar la canalización de CI/CD completa.
 14. Una vez implementada la función, aparece en Azure Portal, con el estado **En ejecución**.
 

@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 4d8a7b53722de4b356753626d0cc695fa1a77596
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 314cd954332907f9bf1bf63eb52ed5d88cfab121
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807519"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223125"
 ---
+<!-- cspell:ignore CSPs domainname IPAM CIDR Untrust RRAS CONTOSODC sysvol ITIL NSGs ASGs -->
+
 # <a name="deploy-a-migration-infrastructure"></a>Implementación de una infraestructura de migración
 
 En este artículo se muestra cómo la empresa ficticia Contoso prepara su infraestructura local para la migración, configura una infraestructura de Azure como preparación para la migración a Azure y dirige el negocio en un entorno híbrido. Cuando usa este ejemplo para ayudar a planear su propios esfuerzos de migración de infraestructura, tenga en cuenta lo siguiente:
@@ -56,7 +58,7 @@ Aquí se muestra un diagrama de la infraestructura local de Contoso en la actual
 - Cada una de las sucursales está conectada localmente a Internet con conexiones de categoría empresarial, y con túneles VPN con IPSec hacia el centro de datos principal. Esto permite que toda la red esté conectada de forma permanente, así como optimizar la conectividad a Internet.
 - El centro de datos principal está completamente virtualizado con VMware. Contoso tiene dos hosts de virtualización de ESXi 6.5, que administra vCenter Server 6.5.
 - Contoso usa Active Directory para la administración de identidades y servidores DNS en la red interna.
-- Los controladores de dominio del centro de datos se ejecutan en VM de VMware. Los controladores de dominio de las sucursales locales se ejecutan en servidores físicos.
+- Los controladores de dominio del centro de datos se ejecutan en máquinas virtuales de VMware. Los controladores de dominio de las sucursales locales se ejecutan en servidores físicos.
 
 ## <a name="step-1-buy-and-subscribe-to-azure"></a>Paso 1: Compra y suscripción a Azure
 
@@ -76,7 +78,7 @@ Contoso va a elegir un [contrato Enterprise (EA)](https://azure.microsoft.com/pr
 Después de pagar Azure, Contoso debe averiguar cómo administrar las suscripciones de Azure. Contoso tiene un EA y, por tanto, no hay límite en el número de suscripciones a Azure que puede configurar.
 
 - Una inscripción Azure Enterprise define cómo una empresa da forma y usa los servicios de Azure y cómo define una estructura de gobernanza básica.
-- Como primer paso, Contoso ha definido una estructura (conocida como un scaffold empresarial para la inscripción Enterprise). Usó [este artículo](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-subscription-governance) para comprender y diseñar un scaffold.
+- Como primer paso, Contoso ha definido una estructura (conocida como un scaffold empresarial para la inscripción Enterprise). Contoso usó la [guía de scaffold de Azure Enterprise](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-subscription-governance) para ayudar a comprender y diseñar un scaffold.
 - Por ahora, Contoso ha decidido usar un enfoque funcional para administrar sus suscripciones.
   - Dentro de la empresa, tendrá un solo departamento de TI que controlará el presupuesto de Azure. Este es el único grupo con suscripciones.
   - En el futuro, Contoso podrá ampliar este modelo para que otros grupos corporativos puedan unirse como departamentos en la inscripción Enterprise.
@@ -348,16 +350,16 @@ Aquí se muestra cómo Contoso decidió implementar conectividad híbrida:
 
 ### <a name="design-the-azure-network-infrastructure"></a>Diseño de la infraestructura de red de Azure
 
-Es fundamental que Contoso cree redes de forma que su implementación híbrida sea segura y escalable. Para ello, Contoso adoptará un enfoque a largo plazo y diseñará redes virtuales resistentes y listas para la empresa. [Obtener más información](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm) acerca de cómo planear las redes virtuales.
+La configuración de la red de Contoso debe hacer que implementación híbrida sea segura y escalable. Para ello, Contoso adoptará un enfoque a largo plazo y diseñará redes virtuales resistentes y listas para la empresa. [Obtener más información](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm) acerca de cómo planear las redes virtuales.
 
-Para conectar sus dos regiones, Contoso ha decidido implementar un modelo de red de concentrador a concentrador:
+Para conectar sus dos regiones, Contoso implementará un modelo de red de centro a centro:
 
 - En cada región, Contoso utilizará un modelo radial.
 - Para conectar redes y concentradores, Contoso usará el emparejamiento de redes de Azure.
 
 #### <a name="network-peering"></a>Emparejamiento de redes
 
-Azure proporciona la opción de emparejamiento de redes para conectar redes virtuales y concentradores. El emparejamiento global permite realizar conexiones entre redes virtuales y los concentradores de regiones diferentes. El emparejamiento local conecta redes virtuales en la misma región. El emparejamiento de VNet proporciona varias ventajas:
+El emparejamiento de redes de Azure conecta las redes virtuales y los centros. El emparejamiento global permite realizar conexiones entre redes virtuales o centros de regiones diferentes. El emparejamiento local conecta redes virtuales en la misma región. El emparejamiento de redes virtuales proporciona varias ventajas:
 
 - El tráfico de red entre redes virtuales emparejadas es privado.
 - El tráfico entre redes virtuales se mantiene en la red troncal de Microsoft. No se requiere ninguna red pública de Internet, puertas de enlace ni cifrado en la comunicación entre redes virtuales.
@@ -471,7 +473,7 @@ El Centro de EE. UU. es la región secundaria de Contoso. Así es como Contoso d
   - VNET-PROD-CUS. Esta red virtual es una red de producción, similar a VNET-PROD_EUS2.
   - VNET-ASR-CUS. Esta red virtual actuará como una ubicación en la que las VM se crean después de la conmutación por error desde el entorno local, o como una ubicación para las VM de Azure que se conmuten por error desde el servidor principal en la región secundaria. Esta red es similar a las redes de producción, pero sin ningún controlador de dominio.
   - Cada red virtual de la región tendrá su propio espacio de dirección, sin superposición. Contoso configurará el enrutamiento sin NAT.
-- **Subredes:** as subredes se diseñarán de una manera similar a las del Este de EE. UU. 2. La excepción es que Contoso no se necesita ninguna subred para los controladores de dominio.
+- **Subredes:** las subredes se diseñarán de una manera similar a las del Este de EE. UU. 2. La excepción es que Contoso no se necesita ninguna subred para los controladores de dominio.
 
 Las redes virtuales del Centro de EE. UU. se resumen en la tabla siguiente.
 
@@ -557,14 +559,14 @@ Al implementar recursos en redes virtuales, tiene un par de opciones para la res
 
 Los administradores de Contoso han decidido que el servicio Azure DNS no es una buena opción en su entorno híbrido. En su lugar, se usarán los servidores DNS locales.
 
-- Puesto que se trata de una red híbrida, todas las VM locales y en Azure deben ser capaces de resolver nombres para funcionar correctamente. Esto significa que la configuración personalizada de DNS debe aplicarse a todas las redes virtuales.
+- Puesto que se trata de una red híbrida, todas las máquinas virtuales locales y en Azure deben ser capaces de resolver nombres para funcionar correctamente. Esto significa que la configuración personalizada de DNS debe aplicarse a todas las redes virtuales.
 - Contoso actualmente tiene controladores de dominio implementados en el centro de datos de Contoso y en las sucursales. Sus servidores DNS principales son CONTOSODC1(172.16.0.10) y CONTOSODC2(172.16.0.1)
 - Cuando se implementan las redes virtuales, los controladores de dominio locales se establecen para usarse como servidores DNS en las redes.
 - Para configurar esto, al usar un DNS personalizado en la red virtual, es necesario agregar la dirección IP de las resoluciones recursivas de Azure (por ejemplo, 168.63.129.16) a la lista de DNS. Para ello, Contoso configura el servidor DNS en cada red virtual. Por ejemplo, la configuración personalizada de DNS para la red VNET-HUB-EUS2 sería como sigue:
 
     ![DNS personalizado](./media/contoso-migration-infrastructure/custom-dns.png)
 
-Además de sus controladores de dominio local, Contoso va a implementar cuatro más para dar apoyo a sus redes de Azure, dos para cada región. Esto es lo que Contoso implementará en Azure.
+Además de sus controladores de dominio local, Contoso implementará cuatro más para dar apoyo a sus redes de Azure, dos para cada región. Esto es lo que Contoso implementará en Azure.
 
 **Región** | **DC** | **Red virtual** | **Subred** | **Dirección IP**
 --- | --- | --- | --- | ---
@@ -795,9 +797,9 @@ Azure Disk Encryption se integra con Azure Key Vault para controlar y administra
 
 En este artículo, Contoso configuró su infraestructura y directiva para la suscripción a Azure, la identificación híbrida, la recuperación ante desastres, las redes, la gobernanza y la seguridad.
 
-No todos los pasos que Contoso llevó a cabo aquí son necesarios para realizar una migración a la nube. En este caso, quería planear una infraestructura de red que pudiera usarse para todos los tipos de migraciones y que fuera segura, resistente y escalable.
+No es necesario realizar todos los pasos que se indican aquí en una migración a la nube. En este caso, Contoso ha planeado una infraestructura de red que permite controlar todos los tipos de migraciones y que es segura, resistente y escalable.
 
-Con esta infraestructura lista, Contoso ya puede continuar y probar la migración.
+Con esta infraestructura, Contoso ya puede continuar y probar la migración.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

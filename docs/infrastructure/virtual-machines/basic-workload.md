@@ -1,18 +1,18 @@
 ---
-title: Implementación de una carga de trabajo básica
-description: Describe cómo implementar una carga de trabajo básica en Azure
+title: Implementación de una carga de trabajo básica en Azure
+description: Conozca más información sobre los componentes principales de la infraestructura en la nube y las cargas de trabajo básicas como aplicaciones web básicas, máquinas virtuales únicas y redes virtuales.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 12/31/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b4d5821e7ed29efeea5dd7e6a59b7e4afd86f0e0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e720fb698e0eecb53942bb5d7be99df5e923451e
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808743"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170705"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Implementación de una carga de trabajo básica en Azure
 

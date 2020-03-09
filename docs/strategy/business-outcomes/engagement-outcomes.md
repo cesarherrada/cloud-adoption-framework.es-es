@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 5ad76f9d1b5b34772396f28cd5c5ba829785f76c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1c2bab06607147f5d0fe40ff714e6adb81e2a013
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798373"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225124"
 ---
+<!-- cSpell:ignore Exak -->
+
 # <a name="examples-of-customer-engagement-outcomes"></a>Ejemplos de resultados de la involucración del cliente
 
 Como se ha tratado en la [información general sobre resultados empresariales](./index.md), varios resultados empresariales potenciales pueden servir como base para cualquier conversación de recorrido de transformación con la empresa. Este artículo se centra en una medida empresarial común: la involucración del cliente. Comprender las necesidades de los clientes y el ecosistema en torno a estos ayuda a articular los resultados empresariales que constituyen el objetivo del recorrido de transformación de una empresa.

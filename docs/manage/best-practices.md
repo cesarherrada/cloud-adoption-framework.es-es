@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9fbdeccc3ed1c1acb516f9aceadc3d8dc8732030
-ms.sourcegitcommit: 35d01bccc8ecbec38f6247a065a309ec691ca810
+ms.openlocfilehash: b426acdc4ae88a88acd295758be4e2d4a6b85dc0
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77213616"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223262"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Establecimiento de los procedimientos de administración operativa en la nube
 
@@ -39,7 +39,7 @@ Ambos procedimientos recomendados conducen hacia una metodología de estado futu
 - **Cumplimiento operativo:** La administración frecuente de la configuración, tamaño, costo y rendimiento de los recursos es clave para mantener las expectativas de rendimiento.
 - **Protección y recuperación:** minimizar las interrupciones operativas y agilizar la recuperación ayudan a evitar pérdidas de rendimiento e impactos negativos en los ingresos. Detección y recuperación son aspectos esenciales de esta materia.
 - **Operaciones de la plataforma:** Todos los entornos de TI contienen un conjunto de plataformas que se emplean habitualmente. Estas plataformas pueden incluir almacenes de datos como SQL Server o Azure HDInsight. Otras plataformas comunes pueden incluir soluciones de contenedores como Azure Kubernetes Service (AKS). Con independencia de la plataforma, la madurez de las operaciones que se realizan en esta se centra en personalizar las operaciones en función de cómo las cargas de trabajo implementan, configuran y utilizan las plataformas habituales.
-- **Operaciones con cargas de trabajo:** en el nivel más alto de madurez operativa, los equipos de operaciones en la nube pueden optimizar las operaciones para las cargas de trabajo que son cruciales para el éxito del negocio. Para esas cargas de trabajo de gran importancia, los datos disponibles pueden ayudar a automatizar la corrección, el ajuste de tamaño o la protección de las cargas de trabajo según su uso.
+- **Operaciones con cargas de trabajo:** En el nivel más alto de madurez operativa, los equipos de operaciones en la nube pueden optimizar las operaciones de las cargas de trabajo críticas. Para esas cargas de trabajo, los datos disponibles pueden ayudar a automatizar la corrección, el ajuste de tamaño o la protección de las cargas de trabajo según su uso.
 
 Instrucciones adicionales, como las que se incluyen en [Diseño de la plataforma de revisión (Nombre en clave: Principios de diseño en la nube)](https://docs.microsoft.com/azure/architecture/framework/resiliency/overview), pueden ayudar a tomar decisiones de arquitectura detalladas en relación con cada carga de trabajo de las materias descritas anteriormente.
 

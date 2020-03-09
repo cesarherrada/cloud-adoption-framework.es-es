@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 8a807bfc20289339221056b9b0798260aaddbfd8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c4d5e151d5ea4badd3c6c5fab25f4a6be9ee60c5
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807315"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222832"
 ---
 # <a name="scale-a-migration-to-azure"></a>Escalado de una migración en Azure
 
@@ -102,7 +102,7 @@ Problemas de seguridad | S/N | ¿Se conoce algún problema de seguridad en la ap
 Como parte del proceso de evaluación, Contoso debe identificar dónde se ejecutan las aplicaciones y averiguar las dependencias y las conexiones entre los servidores de aplicaciones. Contoso asigna el entorno en diferentes pasos.
 
 1. Como primer paso, Contoso detecta cómo los servidores y los equipos se asignan a aplicaciones individuales, ubicaciones de red y grupos.
-2. Con esta información, Contoso puede identificar claramente las aplicaciones que tienen pocas dependencias y que, por tanto, son adecuadas para una migración rápida.
+2. Con esta información, Contoso puede identificar claramente las aplicaciones que tienen pocas dependencias y que son adecuadas para una migración rápida.
 3. Contoso puede usar la asignación para identificar las dependencias y las comunicaciones más complejas entre servidores de aplicaciones. A continuación, Contoso podrá agrupar los servidores lógicamente para representar las aplicaciones y planear una estrategia de migración en función de estos grupos.
 
 Una vez concluida la asignación, Contoso puede garantizar que todos los componentes de la aplicación se identifican y se tienen en cuenta al crear el plan de migración.

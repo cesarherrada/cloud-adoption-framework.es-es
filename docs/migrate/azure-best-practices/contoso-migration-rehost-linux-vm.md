@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: b629cc932b54b7ef7c633cefc847ac3263477674
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 12d69eee9fa52d6c7aef4b7b71b654808928ace4
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807349"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222985"
 ---
+<!-- cSpell:ignore SQLVM OSTICKETWEB OSTICKETMYSQL contosohost contosodc vcenter WEBVM systemctl NSGs -->
+
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms"></a>Rehospedaje de una aplicación local Linux en Azure Virtual Machines
 
 En este artículo se muestra cómo la empresa ficticia Contoso rehospeda una aplicación de Apache MySQL PHP (LAMP) basada en Linux y de dos niveles mediante máquinas virtuales de IaaS de Azure.
@@ -90,7 +92,7 @@ Contoso realizará la migración como se indica a continuación:
 --- | --- | ---
 [Azure Migrate Server Migration](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-linux-vm) | El servicio orquesta y administra la migración de las aplicaciones y cargas de trabajo locales, y las instancias de máquina virtual de AWS/GCP. | Durante la replicación en Azure, se incurre en gastos de Azure Storage. Las máquinas virtuales de Azure se crean, e incurren en gastos, cuando se produce una conmutación por error. [Más información](https://azure.microsoft.com/pricing/details/azure-migrate) sobre cargos y precios.
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Esto es lo que Contoso necesita para este escenario.
 
@@ -142,7 +144,7 @@ Se deben configurar como se muestra a continuación:
 
 ### <a name="prepare-to-connect-to-azure-vms-after-failover"></a>Preparación para la conexión a las máquinas virtuales de Azure después de la conmutación por error
 
-Después de la conmutación por error en Azure, Contoso quiere poder conectarse a las VM replicadas de Azure. Para ello, hay un par de cosas que los administradores de Contoso deben hacer:
+Después de la conmutación por error en Azure, Contoso quiere conectarse a las máquinas virtuales replicadas de Azure. Para ello, los administradores de Contoso deben seguir estos pasos:
 
 - Para acceder a las máquinas virtuales de Azure a través de Internet, habilitan SSH en la máquina virtual Linux local antes de la migración. En el caso de Ubuntu, puede realizarse mediante el siguiente comando: **Sudo apt-get ssh install -y**.
 - Después de ejecutar la migración (conmutación por error), pueden comprobar los **diagnósticos de arranque** para ver una captura de pantalla de la máquina virtual.
@@ -158,7 +160,7 @@ Para que los administradores de Contoso puedan ejecutar una migración a Azure, 
 
 Una vez finalizada la detección, puede comenzar la replicación de máquinas virtuales de VMware en Azure.
 
-1. En el proyecto de Azure Migrate > **Servidores**, **Azure Migrate: Migración del servidor**, haga clic en **Replicar**.
+1. En el proyecto de Azure Migrate > **Servidores**, **Azure Migrate: Migración del servidor**, seleccione **Replicar**.
 
     ![Replicación de máquinas virtuales](./media/contoso-migration-rehost-linux-vm/select-replicate.png)
 
@@ -175,14 +177,14 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
 
     ![Seleccionar evaluación](./media/contoso-migration-rehost-linux-vm/select-assessment.png)
 
-5. En **Máquinas virtuales**, busque las máquinas virtuales que necesite y compruebe todas las que desee migrar. A continuación, haga clic en **Siguiente: Configuración de destino**.
+5. En **Máquinas virtuales**, busque las máquinas virtuales que necesite y compruebe todas las que desee migrar. Después, seleccione **Next: Configuración de destino**.
 
 6. En **Configuración de destino**, seleccione la suscripción y la región de destino a la que va a migrar, y especifique el grupo de recursos en el que residirán las máquinas virtuales de Azure después de la migración. En **Red virtual**, seleccione la red virtual o la subred de Azure a la que se unirán las máquinas virtuales de Azure después de la migración.
 
 7. En **Ventaja híbrida de Azure**, seleccione lo siguiente:
 
-    - Seleccione **No** si no desea aplicar la Ventaja híbrida de Azure. A continuación, haga clic en **Siguiente**.
-    - Seleccione **Sí** si tiene equipos con Windows Server que están incluidos en suscripciones activas de Software Assurance o Windows Server y desea aplicar el beneficio a las máquinas que va a migrar. A continuación, haga clic en **Siguiente**.
+    - Seleccione **No** si no desea aplicar la Ventaja híbrida de Azure. Luego, seleccione **Siguiente**.
+    - Seleccione **Sí** si tiene equipos con Windows Server que están incluidos en suscripciones activas de Software Assurance o Windows Server y desea aplicar el beneficio a las máquinas que va a migrar. Luego, seleccione **Siguiente**.
 
 8. En **Proceso**, revise el nombre de la máquina virtual, su tamaño, el tipo de disco del sistema operativo y el conjunto de disponibilidad. Las máquinas virtuales deben cumplir los [requisitos de Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
@@ -190,11 +192,11 @@ Una vez finalizada la detección, puede comenzar la replicación de máquinas vi
     - **Disco del sistema operativo**: especifique el disco del sistema operativo (arranque) de la máquina virtual. Este es el disco que tiene el cargador de arranque y el instalador del sistema operativo.
     - **conjunto de disponibilidad:** si la máquina virtual debe estar incluida en un conjunto de disponibilidad de Azure después de la migración, especifique el conjunto. El conjunto debe estar en el grupo de recursos de destino que especifique para la migración.
 
-9. En **Discos**, especifique si los discos de la máquina virtual se deben replicar en Azure y seleccione el tipo de disco (discos SSD o HDD estándar, o bien discos administrados prémium) en Azure. A continuación, haga clic en **Siguiente**.
+9. En **Discos**, especifique si los discos de la máquina virtual se deben replicar en Azure y seleccione el tipo de disco (discos SSD o HDD estándar, o bien discos administrados prémium) en Azure. Luego, seleccione **Siguiente**.
     - Puede excluir discos de la replicación.
     - Si excluye discos, no estarán presentes en la máquina virtual de Azure después de la migración.
 
-10. En **Revisar e iniciar la replicación**, revise la configuración y haga clic en **Replicar** para iniciar la replicación inicial de los servidores.
+10. En **Revisar e iniciar la replicación**, revise la configuración y, a continuación, seleccione **Replicar** para iniciar la replicación inicial de los servidores.
 
 > [!NOTE]
 > Puede actualizar la configuración de replicación en cualquier momento antes de que esta comience; para ello, vaya a **Administrar** > **Replicación de máquinas**. Una vez iniciada la replicación, su configuración no se puede cambiar.
@@ -205,18 +207,18 @@ Los administradores de Contoso ejecutan una conmutación por error de prueba rá
 
 ### <a name="run-a-test-failover"></a>Ejecución de una conmutación por error de prueba
 
-1. En **Objetivos de migración** > **Servidores** > **Azure Migrate: Server Migration**, haga clic en **Probar servidores migrados**.
+1. En **Objetivos de migración** > **Servidores** > **Azure Migrate: Server Migration**, seleccione **Probar servidores migrados**.
 
      ![Probar servidores migrados](./media/contoso-migration-rehost-linux-vm/test-migrated-servers.png)
 
-2. Haga clic con el botón derecho en la máquina virtual que va a probar y haga clic en **Migración de prueba**.
+2. Haga clic con el botón derecho en la máquina virtual que va a probar y, a continuación, seleccione **Migración de prueba**.
 
     ![Migración de prueba](./media/contoso-migration-rehost-linux-vm/test-migrate.png)
 
 3. En **Migración de prueba**, seleccione la red virtual de Azure en la que se ubicará la máquina virtual de Azure después de la migración. Se recomienda usar una red virtual que no sea de producción.
 4. Comienza el trabajo de **Migración de prueba**. Supervise el trabajo en las notificaciones del portal.
 5. Una vez finalizada la migración, la máquina virtual de Azure migrada se puede ver en **Máquinas virtuales** en Azure Portal. El nombre de la máquina tiene el sufijo **-Test**.
-6. Una vez finalizada la prueba, haga clic con el botón derecho en la máquina virtual de Azure, en **Replicación de máquinas**, y haga clic en **Limpiar la migración de prueba**.
+6. Una vez finalizada la prueba, haga clic con el botón derecho en la máquina virtual de Azure, en **Replicación de máquinas** y, a continuación, seleccione **Limpiar la migración de prueba**.
 
     ![Limpiar la migración](./media/contoso-migration-rehost-linux-vm/clean-up.png)
 
@@ -224,7 +226,7 @@ Los administradores de Contoso ejecutan una conmutación por error de prueba rá
 
 Ahora, los administradores de Contoso ejecutan una conmutación por error completa para completar la migración.
 
-1. En el proyecto de Azure Migrate > **Servidores** > **Azure Migrate: Server Migration**, haga clic en **Replicando servidores**.
+1. En el proyecto de Azure Migrate > **Servidores** > **Azure Migrate: Server Migration**, seleccione **Replicando servidores**.
 
     ![Replicando servidores](./media/contoso-migration-rehost-linux-vm/replicating-servers.png)
 

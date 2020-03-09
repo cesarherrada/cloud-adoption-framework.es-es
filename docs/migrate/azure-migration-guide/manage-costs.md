@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 8486d4de8b6055d6d0741d008c10a405c27b8f92
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 82c801abee32e0399eb124440868bc455034a018
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803524"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222648"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
@@ -34,7 +34,7 @@ También es posible que los procesos descritos en este artículo requieran una a
 
 <!-- markdownlint-disable MD024 MD025 -->
 
-# <a name="estimate-vm-costs-prior-to-migrationtabestimatevmcosts"></a>[Estimación de costos de máquina virtual antes de la migración](#tab/EstimateVMCosts)
+# <a name="estimate-vm-costs-prior-to-migration"></a>[Estimación de costos de máquina virtual antes de la migración](#tab/EstimateVMCosts)
 
 Antes de la migración de cualquier recurso (infraestructura, aplicación o datos), hay una oportunidad de estimar los costos y refinar el ajuste de tamaño en función de los criterios de rendimiento observados para esos recursos. La estimación de costos cumple dos propósitos: permite el control de costos y proporciona un punto de control para garantizar que los presupuestos actuales tengan en cuenta los requisitos de rendimiento necesarios.
 
@@ -54,13 +54,13 @@ Estas calculadoras de costos manuales se pueden usar por su cuenta para prever l
 Azure Migrate calcula los **costos mensuales estimados** en función de los datos capturados por el recopilador y el mapa de servicio. Los siguientes pasos cargarán las estimaciones del costo:
 
 1. Vaya a Evaluación de Azure Migrate en el portal.
-2. En la página **Introducción** del proyecto, seleccione **+Crear evaluación**.
-3. Haga clic en **View all** (Ver todo) para revisar la configuración de la valoración.
-4. Cree el grupo y especifique un nombre para él.
-5. Seleccione las máquinas que desee agregar al grupo.
-6. Haga clic en **Crear evaluación** para crear el grupo y la evaluación.
-7. Una vez creada la evaluación, puede verla en Introducción > Panel.
-8. En la sección Detalles de la evaluación de la navegación del portal, seleccione **Detalles del costo**.
+1. En la página **Introducción** del proyecto, seleccione **+Crear evaluación**.
+1. Seleccione **View all** (Ver todo) para revisar la configuración de la evaluación.
+1. Cree el grupo y especifique un nombre para él.
+1. Seleccione las máquinas que desee agregar al grupo.
+1. Seleccione **Crear evaluación** para crear el grupo y la evaluación.
+1. Una vez creada la evaluación, puede verla en Introducción > Panel.
+1. En la sección Detalles de la evaluación de la navegación del portal, seleccione **Detalles del costo**.
 
 La estimación resultante, mostrada a continuación, identifica los costos mensuales de proceso y almacenamiento, que suelen representar la parte más grande de los costos de la nube.
 
@@ -72,7 +72,7 @@ La estimación resultante, mostrada a continuación, identifica los costos mensu
 - [Configuración y revisión de una evaluación con Azure Migrate](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#set-up-an-assessment)
 - Para obtener un plan más completo sobre la administración de costos en números más grandes de recursos (infraestructura, aplicaciones y datos), consulte el artículo sobre el [modelo de gobernanza de la Plataforma de adopción de la nube](../../govern/guides/index.md). En concreto, las instrucciones sobre la [materia de Cost Management](../../govern/cost-management/index.md) y la [Guía de gobernanza para empresas complejas: Mejora de la materia de administración de costos](../../govern/guides/complex/cost-management-improvement.md).
 
-# <a name="estimate-and-optimize-vm-costs-during-and-after-migrationtabestimateoptimize"></a>[Estimación y optimización de costos de máquina virtual durante y después de la migración](#tab/EstimateOptimize)
+# <a name="estimate-and-optimize-vm-costs-during-and-after-migration"></a>[Estimación y optimización de costos de máquina virtual durante y después de la migración](#tab/EstimateOptimize)
 
 La estimación del costo antes de la migración proporciona un destino sólido para las expectativas en cuanto al costo. También proporciona oportunidades para tener en cuenta las necesidades de costo y rendimiento de cada uno de los recursos (infraestructura, aplicaciones y datos) que se van a migrar. Sin embargo, sigue siendo una estimación. Una vez que el recurso se migra y está con carga, se pueden realizar cálculos de costos precisos, en función de la carga real o sintetizada.
 
@@ -94,7 +94,7 @@ Requisitos previos: el recordatorio de esta pestaña da por supuesto que el lect
 
 Los siguientes pasos cargarán los datos de análisis de costos de Azure Cost Management para sus suscripciones:
 
-1. Vaya a **Cost Management + facturación** en el portal. Si no ve Cost Management + facturación en el panel izquierdo, haga clic en **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, haga clic en **Cost Management + facturación**.
+1. Vaya a **Cost Management + facturación** en el portal. Si no ve Cost Management + facturación en el panel izquierdo, seleccione **Todos los servicios**. En el panel de menú de servicio, en **Supervisión y administración**, seleccione **Cost Management + facturación**.
 2. En Cost Management + facturación, seleccione **Cost Management** en el panel de navegación izquierdo para empezar a analizar y optimizar los costos de la nube.
 3. En Cost Management, seleccione **Análisis de costos**.
     a. Use la píldora **Ámbito** para cambiar a un ámbito diferente en el análisis de costos.
@@ -107,7 +107,7 @@ Este análisis le permitirá revisar los costos totales, el presupuesto (si esta
 - Para obtener más información sobre Azure Advisor, consulte [Reducción de los costos de servicio con Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
 - Para obtener más información sobre Azure Cost Management, consulte [Descripción y uso de ámbitos](https://docs.microsoft.com/azure/cost-management/understand-work-scopes) y [Explore y analice los costos con Análisis de costos](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis).
 
-# <a name="tips-and-tricks-to-optimize-coststabtipstricks"></a>[Trucos y sugerencias para optimizar los costos](#tab/TipsTricks)
+# <a name="tips-and-tricks-to-optimize-costs"></a>[Trucos y sugerencias para optimizar los costos](#tab/TipsTricks)
 
 Además de las herramientas mencionadas en este artículo, hay algunos trucos y sugerencias que pueden ayudar a reducir rápidamente los costos de la nube generales. A continuación se muestran algunas sugerencias de alto nivel para tener en cuenta lo siguiente:
 

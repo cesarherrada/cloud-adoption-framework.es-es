@@ -7,13 +7,15 @@ ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b4450f3f1e151e8234c7b2b5f91c2709270cbcdc
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 199eedb6c9365f273588fae79b134298e8b60c6e
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799138"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225375"
 ---
+<!-- cSpell:ignore paas NVAs VPNs -->
+
 # <a name="review-your-network-options"></a>Revisión de las opciones de red
 
 El diseño y la implementación de las funcionalidades de redes de Azure es una parte fundamental de las labores de adopción de la nube. Deberá tomar decisiones sobre el diseño de redes para acomodar correctamente las cargas de trabajo y los servicios que se hospedarán en la nube. Los servicios y productos de redes de Azure admiten una amplia variedad de funcionalidades de red. La forma de estructurar estos servicios y las arquitecturas de red que elija depende de los requisitos de carga de trabajo, gobernanza y conectividad de su organización.
@@ -72,14 +74,14 @@ Después de identificar los servicios de red de Azure que necesita para admitir 
 
 En la tabla siguiente se resumen los escenarios principales que admiten estos patrones:
 
-| **Escenario** | **Arquitectura de red sugerida**
-| --- | --- |
-| Todas las cargas de trabajo hospedadas en Azure implementadas en la zona de aterrizaje se basarán por completo en PaaS, no requerirán una red virtual y no formarán parte de una labor mayor de adopción de la nube que incluirá los recursos de IaaS. | [Solo PaaS](../../decision-guides/software-defined-network/paas-only.md) |
-| Las cargas de trabajo hospedadas en Azure implementarán recursos basados en IaaS, como máquinas virtuales, o requerirán una red virtual, pero no requieren conectividad con el entorno local. | [Nativo de la nube](../../decision-guides/software-defined-network/cloud-native.md) |
-| Las cargas de trabajo hospedadas en Azure requieren acceso limitado a los recursos locales, pero es necesario tratar las conexiones de la nube como que no son de confianza. | [Red perimetral en la nube](../../decision-guides/software-defined-network/cloud-dmz.md) |
-| Las cargas de trabajo hospedadas en Azure requieren acceso limitado a los recursos locales, y tiene pensado implementar directivas de seguridad maduras y proteger la conectividad entre la nube y el entorno local. | [Híbrido](../../decision-guides/software-defined-network/hybrid.md) |
-| Necesita implementar y administrar un gran número de máquinas virtuales y cargas de trabajo, lo que puede superar posiblemente los [límites de suscripción de Azure](https://docs.microsoft.com/azure/azure-subscription-service-limits), debe compartir los servicios entre las suscripciones, o necesita una estructura más segmentada para la segregación de roles, aplicaciones o permisos. | [Concentrador y radio](../../decision-guides/software-defined-network/hub-spoke.md) |
-| Tiene muchas sucursales que necesitan conectarse entre sí y con Azure. | [Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about) |
+| **Escenario**                                                                                                                                                                                                                                                                                                                        | **Arquitectura de red sugerida**                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Todas las cargas de trabajo hospedadas en Azure e implementadas en la zona de aterrizaje se basarán por completo en PaaS, no requerirán una red virtual y no formarán parte de un esfuerzo mayor de adopción de la nube que incluya los recursos de IaaS.                                                                                                                        | [Solo PaaS](../../decision-guides/software-defined-network/paas-only.md)            |
+| Las cargas de trabajo hospedadas en Azure implementarán recursos basados en IaaS, como máquinas virtuales, o requerirán una red virtual, pero no requieren conectividad con el entorno local.                                                                                                                                          | [Nativo de la nube](../../decision-guides/software-defined-network/cloud-native.md)      |
+| Las cargas de trabajo hospedadas en Azure requieren acceso limitado a los recursos locales, pero es necesario tratar las conexiones de la nube como que no son de confianza.                                                                                                                                                                                           | [Red perimetral en la nube](../../decision-guides/software-defined-network/cloud-dmz.md)            |
+| Las cargas de trabajo hospedadas en Azure requieren acceso limitado a los recursos locales, y tiene pensado implementar directivas de seguridad maduras y proteger la conectividad entre la nube y el entorno local.                                                                                                                         | [Híbrido](../../decision-guides/software-defined-network/hybrid.md)                  |
+| Necesita implementar y administrar un gran número de máquinas virtuales y cargas de trabajo, lo que puede superar posiblemente los [límites de suscripción de Azure](https://docs.microsoft.com/azure/azure-subscription-service-limits), debe compartir los servicios entre las suscripciones, o necesita una estructura más segmentada para la segregación de roles, aplicaciones o permisos. | [Concentrador y radio](../../decision-guides/software-defined-network/hub-spoke.md)        |
+| Tiene muchas sucursales que necesitan conectarse entre sí y con Azure.                                                                                                                                                                                                                                                       | [Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about) |
 
 ### <a name="azure-virtual-datacenter"></a>Centro de datos virtual de Azure
 

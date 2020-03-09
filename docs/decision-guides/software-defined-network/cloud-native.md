@@ -1,6 +1,6 @@
 ---
 title: 'Red definida por software: Nativo de la nube'
-description: Descripción de los servicios de red virtual nativa en la nube.
+description: Use Cloud Adoption Framework de Azure para más información sobre las redes virtuales nativas en la nube que son necesarias para la implementación de máquinas virtuales en la nube.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,16 +8,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 8b5983ace8d56fa219d88e921fa6da7263d486fb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 250f78bb0287e30615aee4b2cfb1234823197f56
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806652"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222673"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Red definida por software: Nativo de la nube
 
-Se requiere una red virtual nativa en la nube para implementar recursos de IaaS, como las máquinas virtuales, en una plataforma de nube. El acceso a redes virtuales de orígenes externos, similares a la web, se debe proporcionar explícitamente. Este tipo de redes virtuales admiten la creación de subredes y reglas de enrutamiento, así como firewalls virtuales y dispositivos de administración de tráfico.
+Se requiere una red virtual nativa en la nube para implementar recursos de IaaS, como las máquinas virtuales, en una plataforma en la nube. El acceso a redes virtuales de orígenes externos, similares a la web, se debe proporcionar explícitamente. Este tipo de redes virtuales admiten la creación de subredes y reglas de enrutamiento, así como firewalls virtuales y dispositivos de administración de tráfico.
 
 Una red virtual nativa en la nube no depende de los recursos locales de la organización ni de otros recursos que no estén en la nube para admitir las cargas de trabajo hospedadas en la nube. Todos los recursos necesarios se aprovisionan en la propia red virtual o mediante ofertas PaaS administradas.
 
@@ -41,4 +41,4 @@ Entre los temas adicionales que el equipo de adopción de la nube debe tener en 
 Para más información sobre las redes virtuales nativas en la nube en Azure, consulte:
 
 - [Red virtual de Azure: Guías de procedimientos](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm). De forma predeterminada las redes virtuales de Azure que se acaban de crear son nativas para la nube. Use estas guías para ayudar a planear el diseño e implementación de las redes virtuales.
-- [Límites de suscripción: Redes](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Cualquier red virtual y recursos conectados solo pueden existir dentro de una sola suscripción y están sujetos a límites de suscripción.
+- [Límites de suscripción: Redes](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Cada red virtual y sus recursos conectados existen en una suscripción única. Estos recursos están limitados por los límites de la suscripción.

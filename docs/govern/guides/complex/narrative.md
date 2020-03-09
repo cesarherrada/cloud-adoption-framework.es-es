@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas complejas: Narrativa de apoyo'
-description: Este artículo establece un caso de uso de gobernanza durante el recorrido de adopción de la nube de una empresa compleja.
+title: 'Gobernanza empresarial compleja: Narrativa de apoyo'
+description: Use Cloud Adoption Framework de Azure para establecer un caso de uso de gobernanza durante un recorrido de adopción de la nube en una empresa compleja.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fae1940c1cc522cd917b2b0293d60b630007537c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7c2cfcc76153e999b2ca9d50b63cf0a72cfb2c14
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805564"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706921"
 ---
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Guía de gobernanza para empresas complejas: Narrativa de apoyo
 

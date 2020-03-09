@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9c4f18c4c81dce2caa41b1dab5dddc394042f390
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 91d800c3f3575cc16d239106805fdfaef8a29e14
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808182"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223512"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Especialización de la plataforma para la administración en la nube
 
@@ -55,7 +55,7 @@ La especialización de la plataforma consta de una ejecución disciplinada de lo
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="improve-system-designtabsystemsdesign"></a>[Mejora del diseño del sistema](#tab/SystemsDesign)
+## <a name="improve-system-design"></a>[Mejora del diseño del sistema](#tab/SystemsDesign)
 
 ::: zone-end
 
@@ -86,7 +86,7 @@ A medida que el diseño del sistema mejora, vuelva a consultar este artículo pa
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="automated-remediationtabautomatedremediation"></a>[Corrección automatizada](#tab/AutomatedRemediation)
+## <a name="automated-remediation"></a>[Corrección automatizada](#tab/AutomatedRemediation)
 
 ::: zone-end
 
@@ -103,7 +103,7 @@ Para obtener instrucciones sobre la corrección automatizada, consulte [Azure Au
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="scale-the-solution-with-a-service-catalogtabservicecatalog"></a>[Escalado de la solución con un catálogo de servicios](#tab/ServiceCatalog)
+## <a name="scale-the-solution-with-a-service-catalog"></a>[Escalado de la solución con un catálogo de servicios](#tab/ServiceCatalog)
 
 ::: zone-end
 
@@ -119,7 +119,7 @@ Para obtener instrucciones sobre cómo publicar en un catálogo de servicios, co
 
 1. En Azure Portal, busque **Centro de Managed Applications (versión preliminar)** .
 2. En el panel **Examinar**, seleccione **Aplicaciones del catálogo de servicios**.
-3. Haga clic en **+ Agregar** para seleccionar una definición de aplicación del catálogo de servicios de su empresa.
+3. Seleccione **+ Agregar** para seleccionar una definición de aplicación del catálogo de servicios de su empresa.
 
 Se muestran las aplicaciones administradas a las que presta mantenimiento.
 
@@ -153,7 +153,7 @@ Se muestran las aplicaciones administradas a las que presta mantenimiento.
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="continuous-improvementtabcontinuousimprovement"></a>[Mejora continua](#tab/ContinuousImprovement)
+## <a name="continuous-improvement"></a>[Mejora continua](#tab/ContinuousImprovement)
 
 ::: zone-end
 

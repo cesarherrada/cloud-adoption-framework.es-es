@@ -1,6 +1,6 @@
 ---
-title: Métricas, indicadores y tolerancia al riesgo de la línea de base de identidad
-description: Métricas, indicadores y tolerancia al riesgo de la línea de base de identidad
+title: Métricas e indicadores de tolerancia al riesgo de la línea de base de identidad.
+description: Use Cloud Adoption Framework de Azure para aprender a cuantificar la tolerancia al riesgo empresarial relacionada con la línea de base de identidad.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f5002d278e833873a2077538c848bc5e7f47131d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9d50e40ba5877eab0f2aa904f2bcc1e984c309ca
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806040"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223876"
 ---
 # <a name="identity-baseline-metrics-indicators-and-risk-tolerance"></a>Métricas, indicadores y tolerancia al riesgo de la línea de base de identidad
 
@@ -53,7 +53,7 @@ Una vez que tenga una base de referencia, establezca bancos de pruebas mínimos 
 - **Desencadenador de federación.** Una empresa que implementa la federación de identidades con _x_ sistemas de línea de base de identidad externos puede beneficiarse de la inversión en la materia de línea de base de identidad para garantizar una directiva de la organización coherente entre los miembros de la federación.
 - **Desencadenador de acceso con privilegios elevados.** Una empresa con más del _x %_ de los usuarios con permisos elevados administrar herramientas y recursos debería plantearse invertir en la materia de línea de base de identidad para minimizar el riesgo de sobreaprovisionamiento involuntario del acceso a los usuarios.
 - **Desencadenador de RBAC.** Una empresa con menos del _x %_ de los recursos con métodos de control de acceso basado en roles debería plantearse invertir en la materia de línea de base de identidad para identificar maneras optimizadas de asignar el acceso de los usuarios a los recursos.
-- **Desencadenador de errores de autenticación.** Una empresa donde los errores de autenticación representan más del _x %_ de los intentos debe invertir en la materia de línea de base de identidad para asegurarse de que los métodos de autenticación no estén bajo un ataque externo, y de que los usuarios puedan usar los métodos de autenticación correctamente.
+- **Desencadenador de errores de autenticación.** Una empresa donde los errores de autenticación representan más del _x %_ de los intentos debe invertir en la materia de línea de base de identidad para asegurarse de que los métodos de autenticación no estén bajo un ataque externo, y de que los usuarios puedan autenticarse correctamente.
 - **Desencadenador de errores de autorización.** Una empresa donde los intentos de acceso se rechazan más del _x %_ de las veces debe invertir en la materia de línea de base de identidad para mejorar la aplicación y la actualización de los controles de acceso, e identificar intentos de acceso potencialmente malintencionados.
 - **Desencadenador de cuentas en peligro.** Una empresa con más de 1 cuenta en peligro debe invertir en la materia de línea de base de identidad para mejorar la eficacia y la seguridad de los mecanismos de autenticación, y mejorar los mecanismos para remediar los riesgos relacionados con las cuentas en peligro.
 

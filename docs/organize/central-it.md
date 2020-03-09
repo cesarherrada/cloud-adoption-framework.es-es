@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 17f2395a435d8a29202595caec17932b406a1303
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c5dc7212fc20914fddaa7bd8777a5fec5f49e811
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806941"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225404"
 ---
 # <a name="central-it-capabilities"></a>Funciones de TI centralizadas
 

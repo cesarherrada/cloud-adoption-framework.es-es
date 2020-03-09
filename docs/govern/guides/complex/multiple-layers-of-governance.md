@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas complejas: Varias capas de gobernanza'
-description: 'Guía de gobernanza para empresas complejas: Varias capas de gobernanza'
+title: 'Gobernanza empresarial compleja: Varias capas de gobernanza'
+description: Use Cloud Adoption Framework de Azure para más información sobre niveles superiores de complejidad con varias capas de gobernanza en grandes empresas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5aa48d6561f6d6122c74dcb60e82425b64071304
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5d7dc2163777cb931d6c4c57eb7b1fb276e6a0fd
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806261"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709199"
 ---
 # <a name="governance-guide-for-complex-enterprises-multiple-layers-of-governance"></a>Guía de gobernanza para empresas complejas: Varias capas de gobernanza
 

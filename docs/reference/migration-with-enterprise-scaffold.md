@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: dd4f60eafed3281d5d4e67285c413b9f969793e3
-ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
+ms.openlocfilehash: d94db62c907599720c8f29408c6b3e5ee5cfde5e
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77629256"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225266"
 ---
+<!-- cSpell:ignore rodend subscope ITSM -->
+
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
 > [!NOTE]
@@ -47,7 +49,7 @@ También sirven como pilar de todas las suscripciones nuevas de Azure. Estas pla
 >
 En la imagen siguiente se muestran los componentes de la plantilla scaffold. La base se sustenta en un plan sólido para la administración de la jerarquía y las suscripciones. Los pilares constan de directivas de Resource Manager y de estándares de nomenclatura eficaces. El resto de los componentes de scaffolding son las principales funcionalidades y características de Azure que habilitan y conectan un entorno seguro y fácil de administrar.
 
-![Scaffolding empresarial](../_images/reference/scaffoldv2.png)
+![Scaffolding empresarial](../_images/reference/scaffold-v2.png)
 
 ## <a name="define-your-hierarchy"></a>Definición de la jerarquía
 
@@ -269,7 +271,7 @@ Esta información se puede ver y examinar a varios niveles y está sujeta a mejo
 
 Uno de los cambios más importantes al que se enfrentará al realizar la migración de la nube local a la nube pública es el cambio del gasto de capital (comprar hardware) al gasto operativo (pagar por el servicio a medida que lo usa). Este modificador también requiere una administración más minuciosa de los costos. La ventaja de la nube es que puede reducir de forma significativa y positiva el costo de un servicio con tan solo desactivarlo o cambiarlo de tamaño cuando no lo necesite. La administración minuciosa de los costos en la nube es un procedimiento recomendado que los clientes consolidados aplican a diario.
 
-Microsoft ofrece varias herramientas para poder visualizar, controlar y administrar los costos. También proporcionamos un conjunto completo de API para que pueda personalizar e integrar la administración de costos en sus propias herramientas y paneles. Estas herramientas pueden clasificarse a nivel general en: funcionalidades de Azure Portal y funcionalidades externas.
+Microsoft ofrece varias herramientas que le ayudarán a visualizar, controlar y administrar los costos. También proporcionamos un conjunto completo de API para que pueda personalizar e integrar la administración de costos en sus propias herramientas y paneles. Estas herramientas pueden clasificarse a nivel general en: funcionalidades de Azure Portal y funcionalidades externas.
 
 ### <a name="azure-portal-capabilities"></a>Funcionalidades de Azure Portal
 

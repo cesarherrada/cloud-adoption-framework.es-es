@@ -1,6 +1,6 @@
 ---
 title: Diseño de gobernanza para una carga de trabajo sencilla
-description: Instrucciones para configurar los controles de gobernanza de Azure para que un usuario pueda implementar una carga de trabajo simple.
+description: Obtenga información sobre el proceso para diseñar un modelo de gobernanza de recursos en Azure que admita un único equipo y una carga de trabajo simple. 
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a1edb7395751f8a91899fc8ef88f53bc056914ac
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: efdca4c5848e8815166fd2ddf308d40ae62f75a1
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803864"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223724"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Diseño de gobernanza para una carga de trabajo sencilla
 
@@ -47,7 +47,7 @@ Nuestro administrador global de Azure AD creará la cuenta de **propietario de 
 ![El administrador global de Azure AD crea la cuenta de propietario de carga de trabajo](../../_images/govern/design/governance-1-2.png)
 *Figura 2: El administrador global de Azure AD crea la cuenta de usuario propietario de carga de trabajo.*
 
-No podemos asignar permiso de acceso a los recursos hasta que este usuario se agregue a una **suscripción**, lo que haremos en las dos secciones siguientes.
+No puede asignar permiso de acceso a los recursos hasta que este usuario se agregue a una **suscripción**, lo que haremos en las dos secciones siguientes.
 
 ## <a name="resource-management-scope"></a>Ámbito de la administración de recursos
 

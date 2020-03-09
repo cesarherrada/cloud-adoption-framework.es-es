@@ -1,6 +1,6 @@
 ---
 title: Declaraciones de directivas de ejemplo de base de referencia de identidad
-description: Declaraciones de directivas de ejemplo de base de referencia de identidad
+description: Use Cloud Adoption Framework de Azure para obtener instrucciones de ejemplo de la directiva de la línea de base de identidad que puedan ayudarle a realizar un borrador de dicha directiva.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c3804f24db454e4c198494e0024632efdc7d0d53
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d4c69bafe9bf0dc0bfdb060455c82d3b3a638a47
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805054"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223842"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Declaraciones de directivas de ejemplo de base de referencia de identidad
 

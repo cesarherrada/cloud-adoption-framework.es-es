@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 3e9eadbd246ba38f496d8c74b7bcd3e6ade03685
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 908b2c8b07f66d53264e78432e07736a426d1be9
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808165"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223541"
 ---
 # <a name="protect-and-recover-in-azure"></a>Protección y recuperación en Azure
 
@@ -38,7 +38,7 @@ Para cualquier entorno de nivel empresarial, en esta tabla se describen los mín
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-backuptabupdbackupatemanagement"></a>[Azure Backup](#tab/UpdbackupateManagement)
+## <a name="azure-backup"></a>[Azure Backup](#tab/UpdbackupateManagement)
 
 ::: zone-end
 
@@ -46,7 +46,7 @@ Con Azure Backup puede crear copias de seguridad de sus datos, así como protege
 
 ### <a name="enable-backup-for-an-azure-vm"></a>Habilitación de la copia de seguridad de una máquina virtual de Azure
 
-1. En Azure Portal, seleccione **Máquinas virtuales** y la máquina virtual que desea replicar.
+1. En Azure Portal, seleccione **Máquinas virtuales** y, después, la máquina virtual que desea replicar.
 1. En el panel **Operaciones**, seleccione **Copia de seguridad**.
 1. Cree un almacén de Azure Recovery Services o seleccione uno existente.
 1. Seleccione **Crear una nueva directiva (o editar una)** .
@@ -69,7 +69,7 @@ Con Azure Backup puede crear copias de seguridad de sus datos, así como protege
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-site-recoverytabsiterecovery"></a>[Azure Site Recovery](#tab/siterecovery)
+## <a name="azure-site-recovery"></a>[Azure Site Recovery](#tab/siterecovery)
 
 ::: zone-end
 
@@ -87,7 +87,7 @@ En los pasos siguientes se describe el proceso para usar Site Recovery servicio 
 
 ### <a name="enable-replication-for-the-azure-vm"></a>Habilitación de la replicación para la máquina virtual de Azure
 
-1. En Azure Portal, seleccione **Máquinas virtuales** y la máquina virtual que desea replicar.
+1. En Azure Portal, seleccione **Máquinas virtuales** y, después, la máquina virtual que desea replicar.
 1. En el panel **Operaciones**, seleccione **Recuperación ante desastres**.
 1. Seleccione **Configurar la recuperación ante desastres** > **Región de destino** y elija la región de destino en la que quiere realizar la replicación.
 1. Para esta guía de inicio rápido, acepte los valores predeterminados de todas las demás opciones.

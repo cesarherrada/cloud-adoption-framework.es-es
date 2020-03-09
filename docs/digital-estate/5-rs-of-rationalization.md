@@ -1,6 +1,6 @@
 ---
 title: Racionalización de la nube
-description: Revise las opciones disponibles para racionalizar un patrimonio digital.
+description: Más información sobre la racionalización de la nube, es decir, el proceso de evaluar los recursos para determinar la mejor manera de migrar o modernizar cada recurso en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/16/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 1a74487a77388e6260c177096d9563dbe6646cf2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 74a384cd3bf5688979a848423e0740ff15f08a34
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806567"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170161"
 ---
 # <a name="cloud-rationalization"></a>Racionalización de la nube
 

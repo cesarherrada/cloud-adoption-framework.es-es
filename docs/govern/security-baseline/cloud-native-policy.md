@@ -1,6 +1,6 @@
 ---
 title: Directivas de línea de base de seguridad nativas en la nube
-description: Directiva de base de referencia de seguridad nativa para la nube
+description: Consulte una directiva de ejemplo nativa en la nube para la materia de línea de base de seguridad, en la que las plataformas y herramientas de Azure son suficientes para administrar los riesgos empresariales.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9921e04f0b066023842c2ff9009d9e159b759315
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ce5b1a77396479b2621afab5cac025b983f14469
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808947"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223748"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Directivas de línea de base de seguridad nativas en la nube
 

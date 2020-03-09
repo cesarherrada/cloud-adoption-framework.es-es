@@ -1,6 +1,6 @@
 ---
 title: Procesos de cumplimiento de directivas de aceleración de la implementación
-description: Procesos de cumplimiento de directivas de aceleración de la implementación
+description: Use Cloud Adoption Framework de Azure para conocer un enfoque sobre los procesos de creación que prestan apoyo a la materia de gobernanza de administración de la implementación.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 157f43baa7de8aabfcf3d3823caf962ac6bc2306
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 149fe69eaa89fcc1b0ee7715dad8e4c46dadc963
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806380"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708774"
 ---
 # <a name="deployment-acceleration-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de aceleración de la implementación
 

@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9df0d1e36cbd926725ec5622087b57a2b8eae9ce
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 991c0f8423053b1a79f437b452b64c789c867c3e
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808199"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223552"
 ---
+<!-- cSpell:ignore WSUS -->
+
 # <a name="operational-compliance-in-azure"></a>Cumplimiento operativo en Azure
 
 El _cumplimiento operativo_ es la segunda materia en cualquier línea de referencia de administración en la nube.
@@ -40,7 +42,7 @@ Para cualquier entorno de nivel empresarial, en esta tabla se describen los mín
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="update-managementtabupdatemanagement"></a>[Administración de actualizaciones](#tab/UpdateManagement)
+## <a name="update-management"></a>[Administración de actualizaciones](#tab/UpdateManagement)
 
 ::: zone-end
 
@@ -89,7 +91,7 @@ Para aplicar una directiva a un grupo de recursos:
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-policytabazurepolicy"></a>[Azure Policy](#tab/AzurePolicy)
+## <a name="azure-policy"></a>[Azure Policy](#tab/AzurePolicy)
 
 ::: zone-end
 
@@ -133,7 +135,7 @@ Para obtener más información, consulte:
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-blueprintstabazureblueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
+## <a name="azure-blueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
 
 ::: zone-end
 
@@ -188,7 +190,7 @@ Para publicar artefactos de plano técnico en su suscripción, haga lo siguiente
 
 1. Vaya a **Planos técnicos - Definiciones del plano técnico**.
 1. Seleccione el plano técnico que creó en los pasos anteriores.
-1. Revise la definición del plano técnico y seleccione **Publicar plano técnico**.
+1. Revise la definición del plano técnico y, a continuación, seleccione **Publicar plano técnico**.
 1. En el cuadro **Versión**, escriba una versión, como "1.0".
 1. En el cuadro **Notas de cambios**, introduzca sus notas.
 1. Seleccione **Publicar**.
@@ -201,7 +203,7 @@ Para publicar artefactos de plano técnico en su suscripción, haga lo siguiente
 
 1. Vaya a [Planos técnicos - Definiciones del plano técnico](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Seleccione el plano técnico que creó en los pasos anteriores.
-1. Revise la definición del plano técnico y seleccione **Publicar plano técnico**.
+1. Revise la definición del plano técnico y, a continuación, seleccione **Publicar plano técnico**.
 1. En el cuadro **Versión**, escriba una versión, como "1.0".
 1. En el cuadro **Notas de cambios**, introduzca sus notas.
 1. Seleccione **Publicar**.

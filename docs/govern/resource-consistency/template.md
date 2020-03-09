@@ -1,6 +1,6 @@
 ---
 title: Plantilla de coherencia de los recursos
-description: Plantilla de coherencia de los recursos
+description: Use esta plantilla como punto de partida para documentar y comunicar las declaraciones de directiva que rigen la administración y las operaciones de TI en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f500245b80b0100f075e11b6a796d9acb05458ce
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 72e4de691e083aad1df53f6a13e46c2c7fb907e4
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805122"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709556"
 ---
 # <a name="resource-consistency-template"></a>Plantilla de coherencia de los recursos
 

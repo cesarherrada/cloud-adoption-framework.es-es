@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 41f23244119358a3356f65f6050572e4a8c787c1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a430f988282a89bb4aea7e07689310309d5b971c
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800821"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222301"
 ---
 # <a name="organizational-antipatterns-silos-and-fiefdoms"></a>Antipatrones de la organización: Islas y feudos
 
@@ -59,7 +59,7 @@ Incluso en las culturas tóxicas, el trabajo del CCoE y el equipo de gobernanza 
 
 ## <a name="it-silos"></a>Islas de TI
 
-Es probable que los miembros del equipo de una isla de TI se definan a sí mismos a través de su alineación con un pequeño número de proveedores de TI o un área de especialización técnica. Aunque no deben confundirse las islas de TI con los feudos de TI. Las islas de TI suelen estar determinadas por la comodidad y el entusiasmo y, por lo general, son más fáciles de superar que los motivos basados en el miedo que subyacen en los feudos.
+Es probable que los miembros del equipo de una isla de TI se definan a sí mismos a través de su alineación con un pequeño número de proveedores de TI o un área de especialización técnica. Aunque no deben confundirse las islas de TI con los feudos de TI. Las islas de TI suelen estar determinadas por la comodidad y el entusiasmo y, a menudo, son más fáciles de superar que los motivos basados en el miedo que subyacen en los feudos.
 
 Este antipatrón suele surgir de un entusiasmo común por una solución concreta. Las islas de TI se ven luego reforzadas por las aptitudes avanzadas del equipo como resultado de la inversión en esa solución específica. Esta aptitud superior puede ser un acelerador del trabajo de adopción en la nube si se puede superar la resistencia a los cambios. También puede convertirse en un bloqueador importante si las islas se dividen o si los miembros del equipo no pueden evaluar con precisión las opciones. Afortunadamente, las islas de TI a menudo se pueden solucionar sin realizar cambios importantes en el organigrama.
 

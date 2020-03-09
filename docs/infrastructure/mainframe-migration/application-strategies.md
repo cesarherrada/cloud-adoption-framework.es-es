@@ -1,18 +1,18 @@
 ---
-title: 'Migración del sistema central: Migración de aplicaciones del sistema central'
-description: Migre aplicaciones desde entornos del sistema central a Azure, una infraestructura que se ha probado de alta disponibilidad y escalable para los sistemas que se ejecutan actualmente en sistemas centrales.
+title: Estrategias de migración de aplicaciones del sistema central
+description: Conozca estrategias como el rehospedaje, la retirada, la recompilación o sustitución de aplicaciones para migrar desde entornos del sistema central a Azure.
 author: njray
 ms.author: v-nanra
 ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a662edd4ae7c6a854014b37cac2ccb0fab4c474e
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 52dbbd594a95f86c1bdb49ac76a7b178d8a71b13
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808828"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171419"
 ---
 # <a name="mainframe-application-migration"></a>Migración de aplicaciones del sistema central
 

@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3727c6bac138dae12ec976683ba2b5954bbd9163
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d41c63d9876a5ead14acee9b39542ab256144920
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807553"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223114"
 ---
+<!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel vcenter WEBVM SQLVM -->
+
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Rediseño de la arquitectura de una aplicación local en un contenedor de Azure y Azure SQL Database
 
 En este artículo se muestra cómo la compañía ficticia Contoso rediseña una aplicación de Windows .NET de dos niveles que se ejecuta en máquinas virtuales de VMware como parte de una migración a Azure. Contoso migra la máquina virtual de front-end de la aplicación a un contenedor Windows de Azure, y la base de datos de la aplicación a una base de datos de Azure SQL.
@@ -28,7 +30,7 @@ El equipo directivo de TI de Contoso ha trabajado estrechamente con sus socios c
 - **Abordar el crecimiento del negocio.** Contoso está creciendo y, como resultado, sus sistemas locales e infraestructura están bajo presión.
 - **Aumentar la eficacia.** Contoso debe quitar procedimientos innecesarios y optimizar los procesos para sus desarrolladores y usuarios. La empresa necesita que el departamento de TI sea rápido y no malgaste tiempo ni dinero a fin de satisfacer más rápidamente los requisitos del cliente.
 - **Aumentar la agilidad.** el equipo de TI de Contoso necesita más capacidad de respuesta a las necesidades de la empresa. Debe poder reaccionar con más rapidez que los cambios del mercado para facilitar el éxito en una economía global. No se debe interponer en el camino ni bloquear el negocio.
-- **Escala.** a medida que el negocio crece satisfactoriamente, el equipo de TI de Contoso debe proporcionar sistemas que puedan crecer al mismo ritmo.
+- **Escala.** A medida que el negocio crece satisfactoriamente, el equipo de TI de Contoso debe proporcionar sistemas que puedan crecer al mismo ritmo.
 - **Reducir los costos.** Contoso quiere minimizar los costos de licencia.
 
 ## <a name="migration-goals"></a>Objetivos de la migración
@@ -39,7 +41,7 @@ El equipo de la nube de Contoso ha establecido los objetivos de esta migración.
 
 **Objetivos** | **Detalles**
 --- | ---
-**Solicitudes de aplicación** | La aplicación de Azure seguirá siendo tan importante como lo es hoy en día.<br/><br/> Debe tener las mismas funcionalidades de rendimiento que las que tiene actualmente en VMware.<br/><br/> Contoso quiere detener la compatibilidad con Windows Server 2008 R2, donde se ejecuta actualmente la aplicación, para invertir en dicha aplicación.<br/><br/> También quiere abandonar SQL Server 2008 R2 y pasar a una plataforma de base de datos PaaS moderna, lo que minimizará la necesidad de administración.<br/><br/> Contoso quiere aprovechar su inversión en licencias de SQL Server y Software Assurance, tanto como que sea posible.<br/><br/> Contoso quiere poder escalar verticalmente la capa de aplicación web.
+**Solicitudes de aplicación** | La aplicación de Azure seguirá siendo tan importante como lo es hoy en día.<br/><br/> Debe tener las mismas funcionalidades de rendimiento que las que tiene actualmente en VMware.<br/><br/> Contoso quiere dejar de usar Windows Server 2008 R2, donde se ejecuta actualmente la aplicación, y desea invertir en esa aplicación.<br/><br/> También quiere abandonar SQL Server 2008 R2 y pasar a una plataforma de base de datos administrada y moderna para minimizar la necesidad de administración.<br/><br/> Contoso quiere aprovechar su inversión en licencias de SQL Server y Software Assurance, tanto como que sea posible.<br/><br/> Contoso quiere poder escalar verticalmente el nivel web de aplicación según sea necesario.
 **Limitaciones** | La aplicación está formada por una aplicación de ASP.NET y un servicio WCF que se ejecutan en la misma máquina virtual. Contoso quiere dividirlos en dos aplicaciones web con Azure App Service.
 **Solicitudes de Azure** | Contoso quiere mover la aplicación a Azure y ejecutarla en un contenedor para prolongar su duración. No quiere empezar a implementar la aplicación en Azure completamente desde cero.
 **DevOps** | Contoso quiere migrar a un modelo de DevOps con Azure DevOps Services para las compilaciones de código y la canalización de versión.
@@ -88,9 +90,12 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 ### <a name="migration-process"></a>Proceso de migración
 
 1. Contoso aprovisiona el clúster de Azure Service Fabric para Windows.
-2. Aprovisiona una instancia de Azure SQL y migra a ella la base de datos de SmartHotel360.
-3. Contoso convierte la máquina virtual de capa web en un contenedor de Docker con las herramientas del SDK de Service Fabric.
-4. Conecta el clúster de Service Fabric y el ACR, e implementa la aplicación con Azure Service Fabric.
+
+1. Aprovisiona una instancia de Azure SQL y migra a ella la base de datos de SmartHotel360.
+
+1. Contoso convierte la máquina virtual de capa web en un contenedor de Docker con las herramientas del SDK de Service Fabric.
+
+1. Conecta el clúster de Service Fabric y el ACR, e implementa la aplicación con Azure Service Fabric.
 
     ![Proceso de migración](./media/contoso-migration-rearchitect-container-sql/migration-process.png)
 
@@ -104,7 +109,7 @@ Contoso evalúa el diseño propuesto y crea una lista de ventajas y desventajas.
 [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Compila y usa aplicaciones escalables y distribuidas que estén siempre disponibles. | Costo basado en tamaño, ubicación y duración de los nodos de proceso. [Más información](https://azure.microsoft.com/pricing/details/service-fabric).
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Ofrece integración continua y la canalización de implementación continua (CI/CD) para el desarrollo de aplicaciones. La canalización comienza con un repositorio de Git para administrar código de aplicaciones, un sistema de compilación para producir paquetes y otros artefactos de compilación, y un sistema Release Management para implementar cambios en entornos de desarrollo, prueba y producción.
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario:
 
@@ -142,24 +147,25 @@ Los administradores de Contoso aprovisionan una base de datos de Azure SQL.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql1.png)
 
-2. Especifican un nombre de base de datos para que coincida con la base de datos que se ejecuta en la máquina virtual local (**SmartHotel.Registration**). Coloca la base de datos en el grupo de recursos ContosoRG. Este es el grupo de recursos que usa para los recursos de producción en Azure.
+1. Especifican un nombre de base de datos para que coincida con la base de datos que se ejecuta en la máquina virtual local (**SmartHotel.Registration**). Coloca la base de datos en el grupo de recursos ContosoRG. Este es el grupo de recursos que usa para los recursos de producción en Azure.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql2.png)
 
-3. Configura una nueva instancia de SQL Server (**sql-smarthotel-eus2**) en la región primaria.
+1. Configura una nueva instancia de SQL Server (**sql-smarthotel-eus2**) en la región primaria.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql3.png)
 
-4. Establecen el plan de tarifa que mejor se adapta a las necesidades de su servidor y base de datos. Así mismo, selecciona esta opción para ahorrar dinero con la Ventaja híbrida de Azure, porque ya tiene una licencia de SQL Server.
-5. Para ajustar el tamaño, realizan compras basadas en el núcleo virtual y establecen los límites para los requisitos esperados.
+1. Establecen el plan de tarifa que mejor se adapta a las necesidades de su servidor y base de datos. Así mismo, selecciona esta opción para ahorrar dinero con la Ventaja híbrida de Azure, porque ya tiene una licencia de SQL Server.
+
+1. Para ajustar el tamaño, realizan compras basadas en el núcleo virtual y establecen los límites para los requisitos esperados.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql4.png)
 
-6. A continuación, Contoso crea la instancia de la base de datos.
+1. A continuación, Contoso crea la instancia de la base de datos.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql5.png)
 
-7. Una vez creada la instancia, abren la base de datos y anotan los detalles que necesitarán cuando usen Data Migration Assistant para la migración.
+1. Una vez creada la instancia, abren la base de datos y anotan los detalles que necesitarán cuando usen Data Migration Assistant para la migración.
 
     ![Aprovisionar SQL](./media/contoso-migration-rearchitect-container-sql/provision-sql6.png)
 
@@ -176,7 +182,7 @@ El contenedor de Azure se crea con los archivos exportados de la máquina virtua
 
      ![Container Registry](./media/contoso-migration-rearchitect-container-sql/container-registry1.png)
 
-2. Proporcionan un nombre para el registro (**contosoacreus2**) y lo colocan en la región primaria, en el grupo de recursos que usan para sus recursos de infraestructura. Habilitan el acceso de usuarios administradores y lo establecen como SKU premium para que puedan usar la replicación geográfica.
+1. Proporcionan un nombre para el registro (**contosoacreus2**) y lo colocan en la región primaria, en el grupo de recursos que usan para sus recursos de infraestructura. Habilitan el acceso de usuarios administradores y lo establecen como SKU premium para que puedan usar la replicación geográfica.
 
     ![Container Registry](./media/contoso-migration-rearchitect-container-sql/container-registry2.png)
 
@@ -188,49 +194,49 @@ El contenedor SmartHotel360 se ejecutará en el clúster de Azure Service Fabric
 
      ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric1.png)
 
-2. En **Básico**, especifican un nombre único de DS para el clúster y las credenciales para obtener acceso a la máquina virtual local. Colocan el recurso en el grupo de recursos de producción (**ContosoRG**) en la región primaria Este de EE.UU. 2.
+1. En **Básico**, especifican un nombre único de DS para el clúster y las credenciales para obtener acceso a la máquina virtual local. Colocan el recurso en el grupo de recursos de producción (**ContosoRG**) en la región primaria Este de EE.UU. 2.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric2.png)
 
-3. En **Configuración del tipo de nodo**, especifican un nombre de tipo de nodo, la configuración de durabilidad, el tamaño de máquina virtual y los puntos de conexión de la aplicación.
+1. En **Configuración del tipo de nodo**, especifican un nombre de tipo de nodo, la configuración de durabilidad, el tamaño de máquina virtual y los puntos de conexión de la aplicación.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric3.png)
 
-4. En **Crear Key Vault**, crean un nuevo almacén de claves en su grupo de recursos de infraestructura, para alojar el certificado.
+1. En **Crear Key Vault**, crean un nuevo almacén de claves en su grupo de recursos de infraestructura, para alojar el certificado.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric4.png)
 
-5. En **Directivas de acceso**, habilitan el acceso a las máquinas virtuales para implementar el almacén de claves.
+1. En **Directivas de acceso**, habilitan el acceso a las máquinas virtuales para implementar el almacén de claves.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric5.png)
 
-6. Especifican un nombre para el certificado.
+1. Especifican un nombre para el certificado.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric6.png)
 
-7. En la página de resumen, copian el vínculo que se usa para descargar el certificado. Lo necesitan para conectarse al clúster de Service Fabric.
+1. En la página de resumen, copian el vínculo que se usa para descargar el certificado. Lo necesitan para conectarse al clúster de Service Fabric.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric7.png)
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric8.png)
 
-8. Después de la validación correcta, aprovisionan el clúster.
+1. Después de la validación correcta, aprovisionan el clúster.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric9.png)
 
-9. En el Asistente para importar certificados, importan el certificado descargado a equipos de desarrollo. El certificado se usa para autenticarse en el clúster.
+1. En el Asistente para importar certificados, importan el certificado descargado a equipos de desarrollo. El certificado se usa para autenticarse en el clúster.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric10.png)
 
-10. Después de aprovisionar el clúster, se conectan al explorador de clúster de Service Fabric.
+1. Después de aprovisionar el clúster, se conectan al explorador de clúster de Service Fabric.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric11.png)
 
-11. Deben seleccionar el certificado correcto.
+1. Deben seleccionar el certificado correcto.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric12.png)
 
-12. Se carga la instancia de Service Fabric Explorer y el administrador de Contoso puede administrar el clúster.
+1. Se carga la instancia de Service Fabric Explorer y el administrador de Contoso puede administrar el clúster.
 
     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric13.png)
 
@@ -239,28 +245,30 @@ El contenedor SmartHotel360 se ejecutará en el clúster de Azure Service Fabric
 Contoso necesita certificados de clúster para permitir el acceso de Azure DevOps Services al clúster. Los administradores de Contoso se encargan de su configuración.
 
 1. Abren Azure Portal y van hasta Key Vault.
-2. Abren los certificados y copian la huella digital del certificado que se creó durante el proceso de aprovisionamiento.
+
+1. Abren los certificados y copian la huella digital del certificado que se creó durante el proceso de aprovisionamiento.
 
     ![Copia de la huella digital](./media/contoso-migration-rearchitect-container-sql/cert1.png)
 
-3. La copian en un archivo de texto para consultarla más adelante.
-4. Ahora, agregan un certificado de cliente que se convertirá en un certificado de cliente de administrador en el clúster. Esto permite a Azure DevOps Services conectarse al clúster para la implementación de la aplicación en la canalización de versión. Para ello, abren Key Vault en el portal y seleccionan **Certificados** > **Generar/Importar**.
+1. La copian en un archivo de texto para consultarla más adelante.
+
+1. Ahora, agregan un certificado de cliente que se convertirá en un certificado de cliente de administrador en el clúster. Esto permite a Azure DevOps Services conectarse al clúster para la implementación de la aplicación en la canalización de versión. Para ello, abren Key Vault en el portal y, después, seleccionan **Certificados** > **Generar/Importar**.
 
     ![Generación del certificado de cliente](./media/contoso-migration-rearchitect-container-sql/cert2.png)
 
-5. Escriben el nombre del certificado y proporcionan un nombre distintivo de X.509 en **Subject** (Asunto).
+1. Escriben el nombre del certificado y proporcionan un nombre distintivo de X.509 en **Subject** (Asunto).
 
      ![Nombre del certificado](./media/contoso-migration-rearchitect-container-sql/cert3.png)
 
-6. Una vez creado el certificado, lo descargan localmente en formato PFX.
+1. Una vez creado el certificado, lo descargan localmente en formato PFX.
 
      ![Descarga del certificado](./media/contoso-migration-rearchitect-container-sql/cert4.png)
 
-7. Ahora, vuelven a la lista de certificados en el almacén de claves y copian la huella digital del certificado de cliente que se acaba de crear. Esta huella digital la guardan en el archivo de texto.
+1. Ahora, vuelven a la lista de certificados en el almacén de claves y copian la huella digital del certificado de cliente que se acaba de crear. Esta huella digital la guardan en el archivo de texto.
 
      ![Huella digital del certificado de cliente](./media/contoso-migration-rearchitect-container-sql/cert5.png)
 
-8. Para la implementación de Azure DevOps Services, han de determinar el valor Base64 del certificado. Esto lo hacen en la estación de trabajo de desarrollador local mediante PowerShell. Pegan la salida en un archivo de texto para usarla en otro momento.
+1. Para la implementación de Azure DevOps Services, han de determinar el valor Base64 del certificado. Esto lo hacen en la estación de trabajo de desarrollador local mediante PowerShell. Pegan la salida en un archivo de texto para usarla en otro momento.
 
     ```powershell
     [System.Convert]::ToBase64String([System.IO.File]::ReadAllBytes("C:\path\to\certificate.pfx"))
@@ -268,11 +276,11 @@ Contoso necesita certificados de clúster para permitir el acceso de Azure DevOp
 
      ![Valor de Base64](./media/contoso-migration-rearchitect-container-sql/cert6.png)
 
-9. Por último, agregan el nuevo certificado al clúster de Service Fabric. Para ello, en el portal, abren el clúster y seleccionan **Seguridad**.
+1. Por último, agregan el nuevo certificado al clúster de Service Fabric. Para ello, en el portal, abren el clúster y, después, seleccionan **Seguridad**.
 
      ![Incorporación del certificado de cliente](./media/contoso-migration-rearchitect-container-sql/cert7.png)
 
-10. Seleccionan **Agregar** > **Cliente de administración** y pegan la huella digital del nuevo certificado de cliente. Luego, seleccionan **Agregar**. Esta operación puede tardar hasta 15 minutos.
+1. Seleccionan **Agregar** > **Cliente de administración** y pegan la huella digital del nuevo certificado de cliente. Luego, seleccionan **Agregar**. Esta operación puede tardar hasta 15 minutos.
 
      ![Incorporación del certificado de cliente](./media/contoso-migration-rearchitect-container-sql/cert8.png)
 
@@ -283,15 +291,18 @@ Los administradores de Contoso ahora pueden migrar la base de datos SmartHotel36
 ### <a name="install-dma"></a>Instalar DMA
 
 1. Descarga la herramienta desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53595) en la VM local de SQL Server (**SQLVM**).
-2. Ejecuta el programa de instalación (DownloadMigrationAssistant.msi) en la VM.
-3. En la página **Finalizar**, selecciona **Launch Microsoft Data Migration Assistant** (Iniciar Microsoft Data Migration Assistant) antes de finalizar el asistente.
+
+1. Ejecuta el programa de instalación (DownloadMigrationAssistant.msi) en la VM.
+
+1. En la página **Finalizar**, selecciona **Launch Microsoft Data Migration Assistant** (Iniciar Microsoft Data Migration Assistant) antes de finalizar el asistente.
 
 ### <a name="configure-the-firewall"></a>Configuración del firewall
 
 Para conectarse a Azure SQL Database, los administradores de Contoso configuran una regla de firewall para permitir el acceso.
 
 1. En las propiedades de **Firewall y redes virtuales** para la base de datos, permiten el acceso a servicios de Azure y agregan una regla para la dirección IP del cliente de la máquina virtual de SQL Server local.
-2. Se crea una regla de firewall de nivel de servidor.
+
+1. Se crea una regla de firewall de nivel de servidor.
 
     ![Firewall](./media/contoso-migration-rearchitect-container-sql/sql-firewall.png)
 
@@ -303,40 +314,41 @@ Para conectarse a Azure SQL Database, los administradores de Contoso configuran 
 
 Los administradores de Contoso ahora migran la base de datos.
 
-1. En DMA, crea un nuevo proyecto (**SmartHotelDB**) y selecciona **Migración**.
-2. Contoso selecciona el tipo de servidor de origen como **SQL Server** y el destino como instancia de **Azure SQL Database**.
+1. En Data Migration Assistant, crean un nuevo proyecto (**SmartHotelDB**) y, a continuación, seleccionan **Migración**.
+
+1. Contoso selecciona el tipo de servidor de origen como **SQL Server** y el destino como instancia de **Azure SQL Database**.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-1.png)
 
-3. En los detalles de la migración, agrega **SQLVM** como servidor de origen y la base de datos **SmartHotel.Registration**.
+1. En los detalles de la migración, agrega **SQLVM** como servidor de origen y la base de datos **SmartHotel.Registration**.
 
      ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-2.png)
 
-4. Recibe un error que parece que se asociará con la autenticación. Sin embargo, después de investigar, el problema es el punto (.) en el nombre de la base de datos. Como alternativa, decide aprovisionar una nueva base de datos SQL con el nombre **SmartHotel-Registration**, para resolver el problema. Cuando vuelve a ejecutar DMA, puede seleccionar **SmartHotel-Registration** y continuar con el asistente.
+1. Recibe un error que parece que se asociará con la autenticación. Sin embargo, después de investigar, el problema es el punto (.) en el nombre de la base de datos. Como alternativa, decide aprovisionar una nueva base de datos SQL con el nombre **SmartHotel-Registration**, para resolver el problema. Cuando vuelve a ejecutar Data Migration Assistant, pueden seleccionar **SmartHotel-Registration** y continuar con el asistente.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-3.png)
 
-5. En **Seleccionar objetos**, selecciona las tablas de la base de datos y genera un script de SQL.
+1. En **Seleccionar objetos**, selecciona las tablas de la base de datos y genera un script de SQL.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-4.png)
 
-6. Una vez que DMA crea el script, seleccionan **Implementar esquema**.
+1. Una vez que DMA crea el script, seleccionan **Implementar esquema**.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-5.png)
 
-7. DMA confirma que la implementación se realizó correctamente.
+1. DMA confirma que la implementación se realizó correctamente.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-6.png)
 
-8. Luego, se inicia la migración.
+1. Luego, se inicia la migración.
 
     ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-7.png)
 
-9. Una vez finalizada la migración, Contoso puede comprobar que la base de datos se ejecuta en la instancia de SQL Azure.
+1. Una vez finalizada la migración, Contoso puede comprobar que la base de datos se ejecuta en la instancia de SQL Azure.
 
      ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-8.png)
 
-10. Elimina la base de datos SQL adicional **SmartHotel.Registration** de Azure Portal.
+1. Elimina la base de datos SQL adicional **SmartHotel.Registration** de Azure Portal.
 
      ![DMA](./media/contoso-migration-rearchitect-container-sql/dma-9.png)
 
@@ -344,16 +356,16 @@ Los administradores de Contoso ahora migran la base de datos.
 
 Contoso necesita compilar la infraestructura y las canalizaciones de DevOps para la aplicación. Para ello, los administradores de Contoso crean un proyecto de Azure DevOps, importan el código y luego las canalizaciones de compilación y versión.
 
-1. En la cuenta de Azure DevOps de Contoso, crean un proyecto (**ContosoSmartHotelRearchitect**) y seleccionan **Git** como control de versiones.
+1. En la cuenta de Azure DevOps de Contoso, crean un proyecto (**ContosoSmartHotelRearchitect**) y, a continuación, seleccionan **Git** como control de versiones.
 ![Nuevo proyecto](./media/contoso-migration-rearchitect-container-sql/vsts1.png)
 
-2. Importa el repositorio de Git que actualmente contiene su código de la aplicación. Se encuentra en un [repositorio público](https://github.com/Microsoft/SmartHotel360-internal-booking-apps) y puede descargarlo.
+1. Importa el repositorio de Git que actualmente contiene su código de la aplicación. Se encuentra en un [repositorio público](https://github.com/Microsoft/SmartHotel360-internal-booking-apps) y puede descargarlo.
 
     ![Descarga del código de la aplicación](./media/contoso-migration-rearchitect-container-sql/vsts2.png)
 
-3. Una vez importado el código, conecta Visual Studio al repositorio y clona el código mediante Team Explorer.
+1. Una vez importado el código, conecta Visual Studio al repositorio y clona el código mediante Team Explorer.
 
-4. Después de clonar el repositorio en la máquina del desarrollador, abren el archivo de la solución para la aplicación. La aplicación web y el servicio WCF tienen cada uno proyectos separados dentro del archivo.
+1. Después de clonar el repositorio en la máquina del desarrollador, abren el archivo de la solución para la aplicación. La aplicación web y el servicio WCF tienen cada uno proyectos separados dentro del archivo.
 
     ![Archivo de soluciones](./media/contoso-migration-rearchitect-container-sql/vsts4.png)
 
@@ -371,36 +383,38 @@ Los administradores de Contoso convertirán la aplicación en un contenedor con 
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container2.png)
 
-2. Hacen clic con el botón derecho en la aplicación web > **Agregar** > **Container Orchestrator Support** (Compatibilidad con el orquestador de contenedores).
-3. En **Add Container Orchestra Support** (Agregar compatibilidad con el orquestador de contenedores), seleccionan **Service Fabric**.
+1. Hacen clic con el botón derecho en la aplicación web > **Agregar** > **Container Orchestrator Support** (Compatibilidad con el orquestador de contenedores).
+
+1. En **Add Container Orchestra Support** (Agregar compatibilidad con el orquestador de contenedores), seleccionan **Service Fabric**.
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container3.png)
 
-4. Repiten el proceso para la aplicación SmartHotel.Registration.WCF.
-5. Ahora, comprueban cómo ha cambiado la solución.
+1. Repiten el proceso para la aplicación SmartHotel.Registration.WCF.
+
+1. Ahora, comprueban cómo ha cambiado la solución.
 
     - La nueva aplicación es **SmartHotel.RegistrationApplication/**
     - Contiene dos servicios: **SmartHotel.Registration.WCF** y **SmartHotel.Registration.Web**.
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container4.png)
 
-6. Visual Studio creó el archivo de Docker y extrajo localmente las imágenes necesarias en el equipo del desarrollador.
+1. Visual Studio creó el archivo de Docker y extrajo localmente las imágenes necesarias en el equipo del desarrollador.
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container5.png)
 
-7. Visual Studio crea y abre un archivo de manifiesto (**ServiceManifest.xml**). Este archivo indica a Service Fabric cómo configurar el contenedor cuando se implementa en Azure.
+1. Visual Studio crea y abre un archivo de manifiesto (**ServiceManifest.xml**). Este archivo indica a Service Fabric cómo configurar el contenedor cuando se implementa en Azure.
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container6.png)
 
-8. Otro archivo de manifiesto (**ApplicationManifest.xml) contiene las aplicaciones de configuración para los contenedores.
+1. Otro archivo de manifiesto (**ApplicationManifest.xml) contiene las aplicaciones de configuración para los contenedores.
 
     ![Contenedor](./media/contoso-migration-rearchitect-container-sql/container7.png)
 
-9. Abren el archivo **ApplicationParameters/Cloud.xml** y actualizan la cadena de conexión para conectar la aplicación a la base de datos de Azure SQL. La cadena de conexión puede encontrarse en la base de datos en Azure Portal.
+1. Abren el archivo **ApplicationParameters/Cloud.xml** y actualizan la cadena de conexión para conectar la aplicación a la base de datos de Azure SQL. La cadena de conexión puede encontrarse en la base de datos en Azure Portal.
 
     ![Cadena de conexión](./media/contoso-migration-rearchitect-container-sql/container8.png)
 
-10. Confirman el código actualizado y lo insertan en Azure DevOps Services.
+1. Confirman el código actualizado y lo insertan en Azure DevOps Services.
 
     ![Commit](./media/contoso-migration-rearchitect-container-sql/container9.png)
 
@@ -412,70 +426,72 @@ Los administradores de Contoso configuran ahora Azure DevOps Services para reali
 
     ![Nueva canalización](./media/contoso-migration-rearchitect-container-sql/pipeline1.png)
 
-2. Seleccione **Azure DevOps Services Git** (Git de Azure DevOps Services) y el repositorio correspondiente.
+1. Seleccione **Azure DevOps Services Git** (Git de Azure DevOps Services) y el repositorio correspondiente.
 
     ![GIT y el repositorio](./media/contoso-migration-rearchitect-container-sql/pipeline2.png)
 
-3. En **Seleccionar una plantilla**, seleccionan Fabric con compatibilidad con Docker.
+1. En **Seleccionar una plantilla**, seleccionan Fabric con compatibilidad con Docker.
 
      ![Fabric y Docker](./media/contoso-migration-rearchitect-container-sql/pipeline3.png)
 
-4. Cambian las imágenes de etiqueta de acción a **Build an image** (Compilar una imagen) y configuran la tarea para usar el ACR aprovisionado.
+1. Cambian las imágenes de etiqueta de acción a **Build an image** (Compilar una imagen) y configuran la tarea para usar el ACR aprovisionado.
 
      ![Registro](./media/contoso-migration-rearchitect-container-sql/pipeline4.png)
 
-5. En la tarea **Insertar imágenes**, configuran la imagen para insertarla en el ACR y seleccionan incluir la etiqueta más reciente.
-6. En **Desencadenadores**, habilitan la integración continua y agregan la rama maestra.
+1. En la tarea **Insertar imágenes**, configuran la imagen para insertarla en el ACR y seleccionan incluir la etiqueta más reciente.
+
+1. En **Desencadenadores**, habilitan la integración continua y agregan la rama maestra.
 
     ![Desencadenadores](./media/contoso-migration-rearchitect-container-sql/pipeline5.png)
 
-7. Seleccionan **Guardar y poner en cola** para iniciar una compilación.
-8. Después de que la compilación se ha realizado correctamente, siguen con la canalización de versión. En Azure DevOps Services, seleccionan **Versiones** > **Nueva canalización**.
+1. Seleccionan **Guardar y poner en cola** para iniciar una compilación.
+
+1. Después de que la compilación se ha realizado correctamente, siguen con la canalización de versión. En Azure DevOps Services, seleccionan **Versiones** > **Nueva canalización**.
 
     ![Canalización de versión](./media/contoso-migration-rearchitect-container-sql/pipeline6.png)
 
-9. Seleccionan la plantilla **Implementación de Azure Service Fabric** y asignan nombre (**SmartHotelSF**) a la fase.
+1. Seleccionan la plantilla **Implementación de Azure Service Fabric** y asignan nombre (**SmartHotelSF**) a la fase.
 
     ![Entorno](./media/contoso-migration-rearchitect-container-sql/pipeline7.png)
 
-10. Especifican un nombre de canalización (**ContosoSmartHotel360Rearchitect**). En la fase, seleccionan **1 job, 1 task** (1 trabajo, 1 tarea) para configurar la implementación de Service Fabric.
+1. Especifican un nombre de canalización (**ContosoSmartHotel360Rearchitect**). En la fase, seleccionan **1 job, 1 task** (1 trabajo, 1 tarea) para configurar la implementación de Service Fabric.
 
     ![Fase y tarea](./media/contoso-migration-rearchitect-container-sql/pipeline8.png)
 
-11. Ahora, seleccionan **Nuevo** para agregar una nueva conexión de clúster.
+1. Ahora, seleccionan **Nuevo** para agregar una nueva conexión de clúster.
 
     ![Nueva conexión](./media/contoso-migration-rearchitect-container-sql/pipeline9.png)
 
-12. En **Add Service Fabric service connection** (Agregar conexión del servicio Service Fabric), configuran la conexión y las opciones de autenticación que se usarán en Azure DevOps Services para implementar la aplicación. El punto de conexión del clúster puede encontrarse en Azure Portal. Los administradores agregan **tcp://** como prefijo.
+1. En **Add Service Fabric service connection** (Agregar conexión del servicio Service Fabric), configuran la conexión y las opciones de autenticación que se usarán en Azure DevOps Services para implementar la aplicación. El punto de conexión del clúster puede encontrarse en Azure Portal. Los administradores agregan **tcp://** como prefijo.
 
-13. La información del certificado que recopilan se introduce en **Huella digital de certificado de servidor** y **Certificado de cliente**.
+1. La información del certificado que recopilan se introduce en **Huella digital de certificado de servidor** y **Certificado de cliente**.
 
     ![Certificado](./media/contoso-migration-rearchitect-container-sql/pipeline10.png)
 
-14. Seleccionan la canalización > **Agregar un artefacto**.
+1. Seleccionan la canalización > **Agregar un artefacto**.
 
      ![Artefacto](./media/contoso-migration-rearchitect-container-sql/pipeline11.png)
 
-15. Seleccionan el proyecto y la canalización de compilación, usando la versión más reciente.
+1. Seleccionan el proyecto y la canalización de compilación, usando la versión más reciente.
 
      ![Build](./media/contoso-migration-rearchitect-container-sql/pipeline12.png)
 
-16. Observe que se marca el rayo en el artefacto.
+1. Observe que se marca el rayo en el artefacto.
 
      ![Estado del artefacto](./media/contoso-migration-rearchitect-container-sql/pipeline13.png)
 
-17. Además, observe que se habilita el desencadenador de implementación continua.
+1. Además, observe que se habilita el desencadenador de implementación continua.
    ![Implementación continua habilitada](./media/contoso-migration-rearchitect-container-sql/pipeline14.png)
 
-18. Seleccionan **Guardar** > **Crear una versión**.
+1. Seleccionan **Guardar** > **Crear una versión**.
 
     ![Release](./media/contoso-migration-rearchitect-container-sql/pipeline15.png)
 
-19. Una vez finalizada la implementación, SmartHotel360 ejecutará Service Fabric.
+1. Una vez finalizada la implementación, SmartHotel360 ejecutará Service Fabric.
 
     ![Publicar](./media/contoso-migration-rearchitect-container-sql/publish4.png)
 
-20. Para conectarse a la aplicación, dirigen el tráfico a la dirección IP pública del equilibrador de carga de Azure delante de los nodos de Service Fabric.
+1. Para conectarse a la aplicación, dirigen el tráfico a la dirección IP pública del equilibrador de carga de Azure delante de los nodos de Service Fabric.
 
     ![Publicar](./media/contoso-migration-rearchitect-container-sql/publish5.png)
 
@@ -495,17 +511,19 @@ En primer lugar, los administradores de Contoso aprovisionan una base de datos d
 
     ![Extend](./media/contoso-migration-rearchitect-container-sql/extend1.png)
 
-2. Proporcionan un nombre de base de datos (**contososmarthotel**), seleccionan la API de SQL y colocan el recurso en el grupo de recursos de producción, en la región primaria Este de EE.UU. 2.
+1. Proporcionan un nombre de base de datos (**contososmarthotel**), seleccionan la API de SQL y colocan el recurso en el grupo de recursos de producción, en la región primaria Este de EE.UU. 2.
 
     ![Extend](./media/contoso-migration-rearchitect-container-sql/extend2.png)
 
-3. En **Introducción**, seleccionan **Explorador de datos** y agregan una nueva colección.
-4. En **Agregar colección** proporcionan identificadores y establecen la capacidad de almacenamiento y rendimiento.
+1. En **Introducción**, seleccionan **Explorador de datos** y agregan una nueva colección.
+
+1. En **Agregar colección** proporcionan identificadores y establecen la capacidad de almacenamiento y rendimiento.
 
     ![Extend](./media/contoso-migration-rearchitect-container-sql/extend3.png)
 
-5. En el portal, abren la nueva base de datos > **Colección** > **Documentos** y seleccionan **Nuevo documento**.
-6. Pegan el siguiente código JSON en la ventana de documento. Se trata de datos de ejemplo en forma de un tweet único.
+1. En el portal, abren la nueva base de datos > **Colección** > **Documentos** y, a continuación, seleccionan **Nuevo documento**.
+
+1. Pegan el siguiente código JSON en la ventana de documento. Se trata de datos de ejemplo en forma de un tweet único.
 
     ```json
     {
@@ -528,7 +546,7 @@ En primer lugar, los administradores de Contoso aprovisionan una base de datos d
 
     ![Extend](./media/contoso-migration-rearchitect-container-sql/extend4.png)
 
-7. Localizan el punto de conexión de Cosmos DB y la clave de autenticación. Se usan en la aplicación para conectarse a la colección. En la base de datos, seleccionan **Claves** y copian el URI y la clave principal en el Bloc de notas.
+1. Localizan el punto de conexión de Cosmos DB y la clave de autenticación. Se usan en la aplicación para conectarse a la colección. En la base de datos, seleccionan **Claves** y copian el URI y la clave principal en el Bloc de notas.
 
     ![Extend](./media/contoso-migration-rearchitect-container-sql/extend5.png)
 
@@ -540,7 +558,7 @@ Después de aprovisionar Cosmos DB, los administradores de Contoso pueden config
 
     ![Aplicación de opiniones](./media/contoso-migration-rearchitect-container-sql/sentiment1.png)
 
-2. Rellenan los dos parámetros siguientes:
+1. Rellenan los dos parámetros siguientes:
 
    ```xml
    <Parameter Name="SentimentIntegration.CosmosDBEndpoint" Value="[URI]" />
@@ -558,11 +576,11 @@ Después de extender la aplicación, los administradores de Contoso vuelven a pu
 
 1. Confirman el código y lo insertan en Azure DevOps Services. Esto inicia las canalizaciones de compilación y versión.
 
-2. Una vez finalizada la implementación y la compilación, SmartHotel360 ejecutará Service Fabric. La consola de administración de Service Fabric muestra ahora tres servicios.
+1. Una vez finalizada la implementación y la compilación, SmartHotel360 ejecutará Service Fabric. La consola de administración de Service Fabric muestra ahora tres servicios.
 
     ![Volver a publicar](./media/contoso-migration-rearchitect-container-sql/republish3.png)
 
-3. Los administradores de Contoso pueden hacer clic para recorrer los servicios y ver que la aplicación SentimentIntegration está en funcionamiento.
+1. Los administradores de Contoso pueden hacer clic para recorrer los servicios y ver que la aplicación SentimentIntegration está en funcionamiento.
 
     ![Volver a publicar](./media/contoso-migration-rearchitect-container-sql/republish4.png)
 

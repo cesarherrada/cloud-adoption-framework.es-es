@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Desarrollo de invenciones digitales'
-description: 'Introducción a la innovación en la nube: desarrollo de invenciones digitales'
+title: Desarrollo de invenciones digitales innovadoras
+description: Equilibre los procesos de invención y adopción para desarrollar invenciones digitales mientras se tiene presente la adopción y la empatía con el cliente.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4011f34f61ec41d4ec30be8b9ee8c5cb203f930a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4ddc8c0e479aaf0feee928249919edf9899ce40f
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808454"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171198"
 ---
 # <a name="develop-digital-inventions"></a>Desarrollo de invenciones digitales
 

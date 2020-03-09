@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos'
-description: 'Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos'
+title: 'Gobernanza empresarial compleja: Mejora de la materia de coherencia de recursos'
+description: Use Cloud Adoption Framework de Azure para más información sobre los controles de recuperación, ajuste de tamaño y supervisión para mejorar la línea de base de gobernanza y corregir los riesgos.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 35a77b0837da1b3364516a95b2baaa32e4e2fe6f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d7148df4bb06a0dc4ca035b89f7077888fb7306c
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805547"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708944"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-resource-consistency-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de coherencia de los recursos
 

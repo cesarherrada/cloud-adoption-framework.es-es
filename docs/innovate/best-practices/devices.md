@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Herramientas para interactuar con dispositivos en Azure'
-description: Herramientas para interactuar con dispositivos en Azure
+title: Herramientas de innovación para la interacción con dispositivos
+description: Más información sobre las herramientas de Azure para interactuar mediante dispositivos y experiencias ambientales que mejoran el entorno natural de los clientes y los comportamientos.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 83aa06b897c510b90993d77a119063c3fe5f1af1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c8fa6bb33a6f65052b5cbc4ad159490ff9a5ad23
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808658"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171249"
 ---
 # <a name="tools-to-interact-with-devices-in-azure"></a>Herramientas para interactuar con dispositivos en Azure
 

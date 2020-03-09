@@ -1,6 +1,6 @@
 ---
-title: Motivaciones de la administración de costos y riesgos empresariales
-description: Motivaciones de la administración de costos y riesgos empresariales
+title: Riesgos empresariales de Cost Management
+description: Comprenda y consulte ejemplos de un proceso de adopción normal por parte de un cliente de una materia de administración de costos en una estrategia de gobernanza de la nube. 
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 16408b01e06e29fc2697dbbdd053126d026920f0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 544c425e94e9fa2cc4a687608f0dece80b3e9251
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806516"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707890"
 ---
 # <a name="cost-management-motivations-and-business-risks"></a>Motivaciones de la administración de costos y riesgos empresariales
 

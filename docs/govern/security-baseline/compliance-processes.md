@@ -1,6 +1,6 @@
 ---
 title: Procesos de cumplimiento de la directiva de la base de referencia de seguridad
-description: Procesos de cumplimiento de la directiva de la base de referencia de seguridad
+description: Use Cloud Adoption Framework de Azure para conocer un enfoque sobre los procesos de creación que prestan apoyo a la materia de gobernanza de la línea de base de seguridad.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b725a4867ec7e55f6b9d53cdba31c0874d61c80c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 85286fd741cfdc1201eb436f3327993ac0337875
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808930"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707449"
 ---
 # <a name="security-baseline-policy-compliance-processes"></a>Procesos de cumplimiento de la directiva de la base de referencia de seguridad
 

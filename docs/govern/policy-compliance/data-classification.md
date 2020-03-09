@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es la clasificación de datos?
-description: La clasificación de datos permite determinar y asignar valor a los datos de la organización y es un punto de partida común para la gobernanza.
+description: La clasificación de datos permite determinar y asignar valor a los datos de la organización y proporciona un punto de partida común para la gobernanza.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1f476aaccfc88eab4a2bea1db17e7b1d33f31ee9
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1680a78af449731ea7e15525d3e276998a73c0d4
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805088"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223798"
 ---
 <!-- markdownlint-disable MD026 -->
 
 # <a name="what-is-data-classification"></a>¿Qué es la clasificación de datos?
 
-La clasificación de datos permite determinar y asignar valor a los datos de la organización y es un punto de partida común para la gobernanza. El proceso de clasificación de datos clasifica los datos por confidencialidad e impacto empresarial a fin de identificar los riesgos. Cuando los datos están clasificados, se pueden administrar de formas que protegen aquellos confidenciales o importantes frente al robo o la pérdida.
+La clasificación de datos permite determinar y asignar valor a los datos de la organización y proporciona un punto de partida común para la gobernanza. El proceso de clasificación de datos clasifica los datos por confidencialidad e impacto empresarial a fin de identificar los riesgos. Cuando los datos están clasificados, se pueden administrar de formas que protegen aquellos confidenciales o importantes frente al robo o la pérdida.
 
 ## <a name="understand-data-risks-then-manage-them"></a>Comprender los riesgos de los datos y administrarlos
 

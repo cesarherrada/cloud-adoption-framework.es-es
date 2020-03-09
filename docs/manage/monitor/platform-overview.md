@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: ea8317bb7490ef7e8aa69950232191f123da4dd8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 99faaa30d67b404e9a9aa1a45d434fd7ec3f2c31
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807604"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223027"
 ---
+<!-- cspell:ignore opsman ITSM -->
+
 # <a name="cloud-monitoring-guide-monitoring-platforms-overview"></a>Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión
 
 Microsoft ofrece una gama de funcionalidades de supervisión en dos productos: System Center Operations Manager, diseñado para el entorno local y después ampliado a la nube, y Azure Monitor, diseñado para la nube, pero que también puede supervisar sistemas locales. Estas dos ofertas proporcionan servicios de supervisión principales, como alertas, seguimiento del tiempo de actividad del servicio, supervisión del estado de la aplicación y la infraestructura, diagnóstico y análisis.
@@ -67,7 +69,7 @@ Operations Manager requiere una infraestructura y un mantenimiento importantes p
 
 ### <a name="azure-monitor"></a>Azure Monitor
 
-Azure Monitor es un servicio SaaS (software como servicio), en el que toda la infraestructura subyacente se ejecuta en Azure, bajo la administración de Microsoft. Se ha diseñado para realizar la supervisión, el análisis y el diagnóstico a escala, y está disponible en todas las nubes nacionales. Microsoft mantiene las partes principales de la infraestructura (recopiladores, almacén de métricas y registros, y análisis) necesarias para la compatibilidad con Azure Monitor.  
+Azure Monitor es una oferta de software como servicio (SaaS), en el que toda la infraestructura subyacente se ejecuta en Azure, bajo la administración de Microsoft. Lleva a cabo tareas de supervisión, análisis y diagnóstico a escala. Está disponible en todas las nubes nacionales. Microsoft mantiene las partes principales de la infraestructura (recopiladores, almacén de métricas y registros, y análisis) que dan apoyo a Azure Monitor.  
 
 ![Diagrama de Azure Monitor](./media/monitoring-management-guidance-cloud-and-on-premises/azure-monitor-greyed-optimized.svg)
 
@@ -115,9 +117,9 @@ Las soluciones de información, como Azure Monitor para contenedores y Azure Mon
 
 Azure Monitor separa la recopilación de datos de las acciones realizadas en ellos, lo que aporta compatibilidad con microservicios distribuidos en un entorno en la nube. Consolida los datos de varios orígenes en una plataforma de datos común y proporciona funcionalidad de análisis, visualización y alerta basadas en los datos recopilados.
 
-Todos los datos recopilados por Azure Monitor se almacenan como registros o como métricas, y las distintas características de Monitor se basan en uno de ambos. Las métricas contienen valores numéricos en una serie temporal lo cual resulta adecuado para disponer de alertas casi en tiempo real y para la detección rápida de problemas. Los registros contienen texto o datos numéricos, y son compatibles con un potente lenguaje de consulta que los hace especialmente útiles para realizar análisis complejos.
+Todos los datos recopilados por Azure Monitor se almacenan como registros o como métricas, y las distintas características de Azure Monitor se basan en ambos. Las métricas contienen valores numéricos en una serie temporal lo cual resulta adecuado para disponer de alertas casi en tiempo real y para la detección rápida de problemas. Los registros contienen texto o datos numéricos, y se pueden consultar mediante un lenguaje potente que los hace especialmente útiles para realizar análisis complejos.
 
-Dado que Monitor separa la recopilación de datos de las acciones que se realizan en estos, es posible que no pueda proporcionar alertas casi en tiempo real en muchos casos. Para generar alertar sobre los datos del registro, se ejecutan consultas según una programación periódica definida en la alerta. Este comportamiento permite a Azure Monitor correlacionar fácilmente los datos de todos los orígenes supervisados, lo que a su vez permite analizar interactivamente los datos de diversas maneras. Esto resulta especialmente útil para realizar análisis de la causa principal e identificar en qué otras circunstancias puede producirse un problema.
+Dado que Azure Monitor separa la recopilación de datos de las acciones que se realizan en estos, es posible que no pueda proporcionar alertas casi en tiempo real en muchos casos. Para generar alertar sobre los datos del registro, se ejecutan consultas según una programación periódica definida en la alerta. Este comportamiento permite a Azure Monitor correlacionar fácilmente los datos de todos los orígenes supervisados, lo que a su vez permite analizar interactivamente los datos de diversas maneras. Esto resulta especialmente útil para realizar análisis de la causa principal e identificar en qué otras circunstancias puede producirse un problema.
 
 ## <a name="health-monitoring"></a>Supervisión del estado
 

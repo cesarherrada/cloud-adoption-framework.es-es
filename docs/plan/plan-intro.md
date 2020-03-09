@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a900ca61f957f941728829208cf72bc8f2aba601
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 36d87caae344414e7bb311fb032d28f58bc5ea6c
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800328"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222165"
 ---
 # <a name="plan-for-cloud-adoption"></a>Plan para la adopción de la nube
 
@@ -22,7 +22,7 @@ Un plan es un requisito esencial para una adopción de la nube correcta. Un plan
 
 Los planes de adopción de la nube comienzan con una estrategia bien definida. Como mínimo, la estrategia debe describir las motivaciones, los resultados empresariales y las justificaciones empresariales para la adopción de la nube. A continuación, esos retornos positivos se equilibran con el trabajo necesario para su realización.
 
-El trabajo comienza con el patrimonio digital (propuesto o existente), lo que traduce la estrategia en cargas de trabajo y recursos más tangibles. A continuación, puede asignar estos elementos tangibles al trabajo técnico. A partir de ahí, las personas cualificadas de una estructura organizativa adecuada pueden ejecutar el trabajo técnico. El plan de adopción de la nube combina todos estos temas en un plan que se puede predecir, presupuestar, implementar y administrar mediante prácticas de administración de proyectos ágiles. Esta serie de artículos le ayuda a crear el plan y proporciona algunas plantillas para facilitar el trabajo.
+El trabajo comienza con el patrimonio digital (propuesto o existente), lo que traduce la estrategia en cargas de trabajo y recursos más tangibles. A continuación, puede asignar estos elementos tangibles al trabajo técnico. A partir de ahí, las personas cualificadas de una estructura organizativa adecuada pueden ejecutar el trabajo técnico. El plan de adopción de la nube combina estos temas en un plan que se puede predecir, presupuestar, implementar y administrar mediante prácticas de administración de proyectos ágiles. Esta serie de artículos le ayuda a crear el plan y proporciona algunas plantillas para facilitar el trabajo.
 
 ## <a name="transition-from-sequential-to-iterative-planning"></a>Transición del planeamiento secuencial al planeamiento iterativo
 

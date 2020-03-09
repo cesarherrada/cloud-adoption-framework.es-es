@@ -1,6 +1,6 @@
 ---
 title: Herramientas de la coherencia de recursos en Azure
-description: Herramientas de la coherencia de recursos en Azure
+description: Compruebe cómo las herramientas nativas de Azure pueden ayudarle a consolidar directivas y procesos que respalden la materia de gobernanza de coherencia de recursos.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a2f553285f9d44085cc816c2db34f76fcb02235d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 002b9d1fc559d87ef84614a6f1c085e08c6b9842
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805190"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708179"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Herramientas de la coherencia de recursos en Azure
 
@@ -23,38 +23,38 @@ A continuación, se muestra una lista de las herramientas de Azure que pueden ay
 
 | Herramienta | [Azure Portal](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)  | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Azure Automation](https://docs.microsoft.com/azure/automation/automation-intro) | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Implementación de recursos                             | Sí | Sí | Sí | Sí | No  | No | No |
-| Administrar recursos                             | Sí | Sí | Sí | Sí | No  | No | No |
-| Implementación de recursos mediante plantillas             | No  | Sí | No  | Sí | No  | No | No |
-| Implementación de entornos organizada          | No  | No  | Sí | No  | No  | No | No |
-| Definición de grupos de recursos                       | Sí | Sí | Sí | No  | No  | No | No |
-| Administración de propietarios de cuentas y de cargas de trabajo           | Sí | Sí | Sí | No  | No  | No | No |
-| Administración del acceso condicional a los recursos       | Sí | Sí | Sí | No  | No  | No | No |
-| Configuración de usuarios de RBAC                         | Sí | No  | No  | No  | Sí | No | No |
-| Asignación de roles y permisos a los recursos | Sí | Sí | Sí | No  | Sí | No | No |
-| Definición de las dependencias entre recursos        | No  | Sí | Sí | No  | No  | No | No |
-| Aplicación del control de acceso                         | Sí | Sí | Sí | No  | Sí | No | No |
-| Evaluación de disponibilidad y escalabilidad          | No  | No  | No  | Sí | No  | No | No |
-| Aplicación de etiquetas a recursos                      | Sí | Sí | Sí | No  | No  | No | No |
-| Asignación de reglas de Azure Policy                    | Sí | Sí | Sí | No  | No  | No | No |
-| Aplicación de la corrección automatizada                  | No  | No  | No  | Sí | No  | No | No |
-| Administración de facturas                               | Sí | No  | No  | No  | No  | No | No |
-| Planeamiento de recursos para la recuperación ante desastres         | Sí | Sí | Sí | No  | No  | Sí | Sí |
-|Recuperación de datos durante un corte o una infracción del Acuerdo de Nivel de Servicio     | No | No  | No  | No  | No  | Sí | Sí |
-|Recuperación de aplicaciones y datos durante un corte o una infracción del Acuerdo de Nivel de Servicio     | No | No  | No  | No  | No  | Sí | Sí |
+| Implementación de recursos                             | Sí | Sí | Sí | Sí | Sin  | Sin | Sin |
+| Administrar recursos                             | Sí | Sí | Sí | Sí | Sin  | Sin | Sin |
+| Implementación de recursos mediante plantillas             | Sin  | Sí | Sin  | Sí | Sin  | Sin | Sin |
+| Implementación de entornos organizada          | Sin  | Sin  | Sí | Sin  | Sin  | Sin | Sin |
+| Definición de grupos de recursos                       | Sí | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Administración de propietarios de cuentas y de cargas de trabajo           | Sí | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Administración del acceso condicional a los recursos       | Sí | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Configuración de usuarios de RBAC                         | Sí | Sin  | Sin  | Sin  | Sí | Sin | Sin |
+| Asignación de roles y permisos a los recursos | Sí | Sí | Sí | Sin  | Sí | Sin | Sin |
+| Definición de las dependencias entre recursos        | Sin  | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Aplicación del control de acceso                         | Sí | Sí | Sí | Sin  | Sí | Sin | Sin |
+| Evaluación de disponibilidad y escalabilidad          | Sin  | Sin  | Sin  | Sí | Sin  | Sin | Sin |
+| Aplicación de etiquetas a recursos                      | Sí | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Asignación de reglas de Azure Policy                    | Sí | Sí | Sí | Sin  | Sin  | Sin | Sin |
+| Aplicación de la corrección automatizada                  | Sin  | Sin  | Sin  | Sí | Sin  | Sin | Sin |
+| Administración de facturas                               | Sí | Sin  | Sin  | Sin  | Sin  | Sin | Sin |
+| Planeamiento de recursos para la recuperación ante desastres         | Sí | Sí | Sí | Sin  | Sin  | Sí | Sí |
+|Recuperación de datos durante un corte o una infracción del Acuerdo de Nivel de Servicio     | Sin | Sin  | Sin  | Sin  | Sin  | Sí | Sí |
+|Recuperación de aplicaciones y datos durante un corte o una infracción del Acuerdo de Nivel de Servicio     | Sin | Sin  | Sin  | Sin  | Sin  | Sí | Sí |
 
 Junto con estas características y herramientas de la coherencia de recursos, será preciso que supervise si los recursos implementados tienen problemas de rendimiento y mantenimiento. [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) es la solución de supervisión y generación de informes predeterminada de Azure. Azure Monitor proporciona características para supervisar los recursos en la nube. Esta lista muestra qué característica se ocupa de los requisitos de supervisión habituales.
 
 | Herramienta | [Azure Portal](https://azure.microsoft.com/features/azure-portal) | [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview) | [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview) | [API Rest de Azure Monitor](https://docs.microsoft.com/rest/api/monitor) |
 |----------------------------------------------------|--------------|----------------------|---------------|------------------------|
-| Registro de datos de telemetría de máquina virtual                 | No           | No                   | Sí           | No                     |
-| Registro de datos de telemetría de redes virtuales              | No           | No                   | Sí           | No                     |
-| Registro de datos de telemetría de servicios de PaaS                   | No           | No                   | Sí           | No                     |
-| Registro de datos de telemetría de las aplicaciones                     | No           | Sí                  | No            | No                     |
-| Configuración de informes y alertas                       | Sí          | No                   | No            | Sí                    |
-| Programación de informes periódicos o análisis personalizados        | No           | No                   | No            | No                     |
-| Visualización y análisis de datos de rendimiento y registro     | Sí          | No                   | No            | No                     |
-| Integración con una solución de supervisión local o de terceros     | No           | No                   | No            | Sí                    |
+| Registro de datos de telemetría de máquina virtual                 | Sin           | Sin                   | Sí           | Sin                     |
+| Registro de datos de telemetría de redes virtuales              | Sin           | Sin                   | Sí           | Sin                     |
+| Registro de datos de telemetría de servicios de PaaS                   | Sin           | Sin                   | Sí           | Sin                     |
+| Registro de datos de telemetría de las aplicaciones                     | Sin           | Sí                  | Sin            | Sin                     |
+| Configuración de informes y alertas                       | Sí          | Sin                   | Sin            | Sí                    |
+| Programación de informes periódicos o análisis personalizados        | Sin           | Sin                   | Sin            | Sin                     |
+| Visualización y análisis de datos de rendimiento y registro     | Sí          | Sin                   | Sin            | Sin                     |
+| Integración con una solución de supervisión local o de terceros     | Sin           | Sin                   | Sin            | Sí                    |
 
 Al planear la implementación, será preciso que tenga en cuenta dónde se almacenan los datos de registro y cómo se integran los [servicios de supervisión y generación de informes](../../decision-guides/logging-and-reporting/index.md) en la nube con las herramientas y los procesos existentes.
 

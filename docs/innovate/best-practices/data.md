@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Herramientas para la democratización de los datos en Azure'
-description: Herramientas para la democratización de los datos en Azure
+title: Herramientas de innovación para la democratización de los datos
+description: Más información sobre Azure Data Catalog y otros servicios que pueden ayudarle a probar rápidamente una hipótesis antes de pasar a invenciones digitales más amplias y costosas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3fed47eb3a5bb7a3b51f19f2d103395ede848e9d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e505b7794c9eeff94d746286e0d8cbb9f0cea86e
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808692"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171266"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Herramientas para la democratización de los datos en Azure
 

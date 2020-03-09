@@ -1,6 +1,6 @@
 ---
 title: Enfoques de planeamiento del patrimonio digital
-description: Obtenga información sobre los distintos enfoques del planeamiento del patrimonio digital.
+description: Descripción de las características y requisitos de los enfoques descendentes controlados por cargas de trabajo, los controlados por recursos o los enfoques incrementales relacionados con el planeamiento del patrimonio digital.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 453ac12e8c86aed46675c710395101ff3a121195
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 13fef27afdc4ca7622924f3890b72d1847e833c0
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806550"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222629"
 ---
 # <a name="approaches-to-digital-estate-planning"></a>Enfoques de planeamiento del patrimonio digital
 
@@ -23,7 +23,7 @@ El planeamiento del patrimonio digital puede adoptar varias formas, según los r
 
 El enfoque de evaluación de arriba a abajo evalúa aspectos de seguridad. La seguridad incluye requisitos de clasificación de los datos (impacto empresarial alto, medio o bajo), cumplimiento, soberanía y riesgo de seguridad. Este enfoque evalúa la complejidad general de la arquitectura. Evalúa aspectos como la autenticación, la estructura de datos, los requisitos de latencia, las dependencias y la esperanza de vida de las aplicaciones.
 
-El enfoque de arriba a abajo también mide los requisitos operativos de la aplicación, como los niveles de servicio, la integración, las ventanas de mantenimiento, la supervisión y la información. Cuando todos estos aspectos se han analizado y tenido en cuenta, el resultado es una puntuación que refleja la dificultad relativa de migrar esta aplicación a cada una de las plataformas en la nube: IaaS, PaaS y SaaS.
+El enfoque de arriba a abajo también mide los requisitos operativos de la aplicación, como los niveles de servicio, la integración, las ventanas de mantenimiento, la supervisión y la información. Cuando todos estos aspectos se hayan analizado y tenido en cuenta, la puntuación resultante refleja la dificultad relativa de migrar esta aplicación a cada una de las plataformas en la nube: IaaS, PaaS y SaaS.
 
 Además, la valoración de arriba a abajo evalúa las ventajas financieras de la aplicación, como las eficiencias operativas, el TCO, la rentabilidad de la inversión y otras métricas financieras adecuadas. La valoración también examina la estacionalidad de la aplicación (por ejemplo, si existen picos de demanda en algunos momentos del año) y la carga de proceso general.
 

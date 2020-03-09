@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas complejas: Mejora de la nube múltiple'
-description: 'Guía de gobernanza para empresas complejas: Mejora de la nube múltiple'
+title: 'Gobernanza empresarial compleja: Mejora de la nube múltiple'
+description: Use Cloud Adoption Framework de Azure para más información sobre varias nubes y cómo integrar organizaciones multinube para empresas complejas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3da91b65c282e9eba8248645b18cec65763b429b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9f4b11023e8b345283054c0ddede132f10664632
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805598"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223927"
 ---
 # <a name="governance-guide-for-complex-enterprises-multicloud-improvement"></a>Guía de gobernanza para empresas complejas: Mejora de la nube múltiple
 
@@ -31,7 +31,7 @@ Desde entonces, han cambiado algunas cosas que afectarán a la gobernanza:
 
 - La identidad se controla mediante una instancia local de Active Directory. La identidad híbrida se facilita mediante la replicación a Azure Active Directory.
 - Las operaciones de TI o las operaciones en la nube se administran en gran parte en Azure Monitor y en las funcionalidades de automatización relacionadas.
-- La recuperación ante desastres y la continuidad empresarial (DRBC) se controlan mediante instancias de Azure Vault.
+- La recuperación ante desastres y la continuidad empresarial (BCDR) se controlan mediante instancias de Azure Vault.
 - Azure Security Center se utiliza para supervisar infracciones de seguridad y ataques.
 - Tanto Azure Security Center como Azure Monitor se utilizan para supervisar la gobernanza de la nube.
 - Azure Blueprints, Azure Policy y los grupos de administración se utilizan para automatizar el cumplimiento con la directiva.

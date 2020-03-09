@@ -1,6 +1,6 @@
 ---
 title: Declaraciones de la directiva de ejemplo de aceleración de la implementación
-description: Declaraciones de la directiva de ejemplo de aceleración de la implementación
+description: Use Cloud Adoption Framework de Azure para obtener instrucciones de ejemplo de la directiva de aceleración de la implementación que le ayuden a realizar un borrador de dicha directiva.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c582b0a6e836f5198724e5675840f3f8085f55dc
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9e25c81e2811bcefa238366462db3d2c66184b08
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803949"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708961"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Declaraciones de la directiva de ejemplo de aceleración de la implementación
 

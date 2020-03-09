@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 326ffa486c07da907ad9e532d5794545ef2dbd9f
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: 0aeaa665370c612e89a0d4ce72a2b38b2bb05e2b
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173408"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222233"
 ---
+<!-- cSpell:ignore ccoe -->
+
 # <a name="establish-team-structures"></a>Establecimiento de estructuras de equipo
 
 En cada esfuerzo de adopción de la nube, hay alguien encargado de proporcionar las funcionalidades de la nube. Estas asignaciones y estructuras de equipo se pueden desarrollar de forma orgánica o diseñarse de manera intencionada para ajustarse a una estructura de equipo definida.

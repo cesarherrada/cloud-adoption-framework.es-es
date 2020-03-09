@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: dbb2d190fcbe787cd3ee26cc0803566b398e945d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: df6851ff628c0abcb38ee9139fcf24f31e2117cf
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807944"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223277"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Servicios y herramientas de administración de servidores de Azure
 

@@ -1,28 +1,34 @@
 ---
-title: Optimización y transformación
+title: Optimización y promoción
 description: En esta parte de la guía de migración de Azure se describen las áreas de optimización, incluida la revisión del diseño de la solución, el ajuste del tamaño de los servicios y el análisis de los costos.
 author: matticusau
 ms.author: mlavery
-ms.date: 04/04/2019
+ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5173dc348ee0c9251b4c5e41aaa2b193da6ea890
-ms.sourcegitcommit: 4948a5f458725e8a0c7206f08502422965a549d5
+ms.openlocfilehash: bcd49a2168db862c3e1a0d948e4948abccbfe7c7
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76994171"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222504"
 ---
-# <a name="optimize-and-transform"></a>Optimizar y transformar
+<!-- cSpell:ignore Fservers Fdatabases -->
 
-Ahora que migró los servicios a Azure, la fase siguiente incluye revisar la solución para ver posibles áreas de optimización. Esto podría incluir la revisión del diseño de la solución, el ajuste correcto del tamaño de los servicios y el análisis de los costos.
+<!-- markdownlint-disable MD025 DOCSMD001 -->
+
+# <a name="test-optimize-and-promote"></a>Prueba, optimización y promoción
+
+Ahora que migró los servicios a Azure, la fase siguiente incluye revisar la solución para ver posibles áreas de optimización. Este esfuerzo podría incluir la revisión del diseño de la solución, el ajuste correcto del tamaño de los servicios y el análisis de los costos.
 
 Esta fase también es una oportunidad para optimizar el entorno y realizar las transformaciones posibles del entorno. Por ejemplo, es posible que haya realizado una migración de "rehospedaje" y ahora que los servicios se ejecutan en Azure, puede revisar la configuración de soluciones o los servicios consumidos y, posiblemente, realizar alguna "refactorización" para modernizar y aumentar la funcionalidad de la solución.
 
-# <a name="right-size-assetstaboptimize"></a>[Recursos del tamaño correcto](#tab/optimize)
+El resto de este artículo se centra en las herramientas para optimizar la carga de trabajo migrada. Cuando se alcanza el equilibrio de rendimiento y costo, ya se puede promocionar a producción una carga de trabajo. Para más información sobre las opciones de promoción, consulte los artículos sobre la mejora de procesos de [Optimización y promoción](../migration-considerations/optimize/index.md).
+
+# <a name="right-size-assets"></a>[Recursos del tamaño correcto](#tab/optimize)
 
 Se puede cambiar el tamaño de todos los servicios de Azure que proporcionan un modelo de costos basado en el consumo mediante Azure Portal, la CLI o PowerShell. El primer paso para ajustar correctamente el tamaño de un servicio es revisar sus métricas de uso. El servicio Azure Monitor proporciona acceso a estas métricas. Puede que tenga que configurar la recopilación de las métricas para el servicio que está analizando y permitir un tiempo adecuado para recopilar datos significativos en función de los patrones de carga de trabajo.
 
@@ -48,8 +54,7 @@ Sin embargo, en el caso de las máquinas virtuales creadas o migradas mediante o
 1. Seleccione **Tamaño** y el nuevo tamaño deseado en la lista. Es posible que tenga que ajustar los filtros para encontrar el tamaño que necesita.
 1. Seleccione **Cambiar tamaño**.
 
-Tenga en cuenta que el cambio de tamaño de las máquinas virtuales de producción tiene el potencial de generar interrupciones en el servicio. Intente aplicar el ajuste de tamaño correcto en las máquinas virtuales antes de promocionarlas a producción.
-
+El cambio de tamaño de las máquinas virtuales de producción puede generar interrupciones en el servicio. Intente aplicar el ajuste de tamaño correcto en las máquinas virtuales antes de promocionarlas a producción.
 
 ::: zone target="chromeless"
 
@@ -95,9 +100,9 @@ Los asociados pueden revisar el uso en el Centro de partners.
 
 ::: zone-end
 
-# <a name="cost-managementtabmanagecost"></a>[Cost Management](#tab/ManageCost)
+# <a name="cost-management"></a>[Cost Management](#tab/ManageCost)
 
-Es importante realizar revisiones y análisis de costos continuos. Esto le permite tener la oportunidad de cambiar el tamaño de los recursos según sea necesario para equilibrar el costo y la carga de trabajo.
+Es importante realizar revisiones y análisis de costos continuos. Este esfuerzo le permite tener la oportunidad de cambiar el tamaño de los recursos según sea necesario para equilibrar el costo y la carga de trabajo.
 
 Azure Cost Management funciona con Azure Advisor para proporcionar recomendaciones de optimización de costos. Azure Advisor le ayuda a optimizar y mejorar la eficiencia mediante la identificación de recursos inactivos e infrautilizados.
 

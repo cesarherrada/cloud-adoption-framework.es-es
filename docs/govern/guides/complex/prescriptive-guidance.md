@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas complejas: Explicación de los procedimientos recomendados'
-description: Más información acerca de los procedimientos recomendados sobre gobernanza en empresas complejas.
+title: 'Gobernanza empresarial compleja: Explicación de los procedimientos recomendados'
+description: Use Cloud Adoption Framework de Azure para establecer un producto mínimo viable para la gobernanza que refleje los procedimientos recomendados de una empresa compleja.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e733db73ce5a77d4b1e81f052804b7a49da4aad5
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 74f81e139e7eacc7445321592eab4027a40a8c56
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806278"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709216"
 ---
 # <a name="governance-guide-for-complex-enterprises-best-practices-explained"></a>Guía de gobernanza para empresas complejas: Explicación de los procedimientos recomendados
 

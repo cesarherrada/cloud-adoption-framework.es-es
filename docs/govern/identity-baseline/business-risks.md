@@ -1,6 +1,6 @@
 ---
-title: Motivaciones y riesgos empresariales de la base de referencia de la identidad
-description: Motivaciones y riesgos empresariales de la base de referencia de la identidad
+title: Riesgos empresariales de la línea de base de identidad
+description: Comprenda y consulte ejemplos de un proceso de adopción normal por parte de un cliente de una materia de línea de base de identidad en una estrategia de gobernanza de la nube. 
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 13aedd3ef5a596547a6a7bb33102182504bde86f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 8969a2f3cfef80f814f7dae63982e66558a35425
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807145"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709335"
 ---
 # <a name="identity-baseline-motivations-and-business-risks"></a>Motivaciones y riesgos empresariales de la base de referencia de la identidad
 

@@ -1,6 +1,6 @@
 ---
-title: Habilitación del éxito de los clientes durante un recorrido de adopción de la nube
-description: Habilitación del éxito de los clientes en todo un recorrido de adopción de la nube
+title: Habilitación de un recorrido de adopción de la nube satisfactorio
+description: Use la herramienta de autoservicio y gratuita Cloud Adoption Framework y otras herramientas para ayudarle a tomar decisiones sobre la nube que permitan el éxito del cliente.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 34b67422ad8f32cf8d6bae141db05956a1b41e22
-ms.sourcegitcommit: 6a22ac00549eb9964f25d3dfd63730e17f7eefe1
+ms.openlocfilehash: 4abfaa8622db86fefb2c7c99589d3ef81a5ed489
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77413199"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170178"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 

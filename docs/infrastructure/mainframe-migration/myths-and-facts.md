@@ -1,18 +1,18 @@
 ---
-title: 'Migración del sistema central: Mitos y verdades'
-description: Migre aplicaciones desde entornos del sistema central a Azure, una infraestructura que se ha probado de alta disponibilidad y escalable para los sistemas que se ejecutan actualmente en sistemas centrales.
+title: Mitos y verdades del sistema central
+description: Para evaluar las cargas de trabajo de los sistemas centrales que son más adecuadas para Azure, primero debe distinguir entre los mitos y la realidad.
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e3e14bca45f8e5531e663c76b346f295ccb64319
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 101ce6ef12ca9f9c686075c6e839a8353bc93da8
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808760"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171317"
 ---
 # <a name="mainframe-myths-and-facts"></a>Mitos y verdades del sistema central
 

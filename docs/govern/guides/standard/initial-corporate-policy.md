@@ -1,6 +1,6 @@
 ---
-title: 'Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
-description: 'Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza'
+title: 'Gobernanza para empresas estándar: Directiva corporativa inicial'
+description: Use Cloud Adoption Framework de Azure para definir la posición inicial de gobernanza, riesgos en las primeras etapas, instrucciones iniciales para las directivas y procesos de aplicación tempranos.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 33c73a13fc49f6e7b70d9b2e2e0dfd01844f1fca
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 64f04fe32445f79f36fe3846f16e3296e9424130
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806176"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170943"
 ---
 # <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Guía de gobernanza para empresas estándar: directiva corporativa inicial que está detrás de la estrategia de gobernanza
 

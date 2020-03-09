@@ -1,6 +1,6 @@
 ---
-title: 'Guía de innovación de Azure: Interacción a través de dispositivos'
-description: 'Guía de innovación de Azure: interacción a través de dispositivos'
+title: 'Innovación de Azure: Interacción mediante dispositivos'
+description: Más información sobre como Azure proporciona un marco para la creación de soluciones empresariales inmersivas y eficaces mediante dispositivos perimetrales conectados y perceptivos.
 author: umarmohamedusman
 ms.author: umarm
 ms.date: 10/10/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 4744a1a019a8454f9a454c5eb75192a6d97b6998
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5063d22cee1a2711bc3dd4c2d052df2870b61c5a
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808318"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171028"
 ---
 ::: zone target="docs"
 
@@ -44,7 +44,7 @@ Los clientes de Azure emplean un conjunto de sistemas y dispositivos conectados 
 
 <!-- markdownlint-disable MD025 -->
 
-## <a name="global-scale-iot-servicetabiothub"></a>[Servicio de IoT a escala global](#tab/IoTHub)
+## <a name="global-scale-iot-service"></a>[Servicio de IoT a escala global](#tab/IoTHub)
 
 <!-- markdownlint-enable MD025 -->
 
@@ -101,7 +101,7 @@ Para crear servicios de IoT Hub Device Provisioning Service:
 
 <!-- markdownlint-disable MD025 -->
 
-## <a name="azure-digital-twinstabdigitaltwins"></a>[Azure Digital Twins](#tab/DigitalTwins)
+## <a name="azure-digital-twins"></a>[Azure Digital Twins](#tab/DigitalTwins)
 
 Cree experiencias reutilizables, muy escalables y con reconocimiento del espacio que vinculan la transmisión de los datos entre el mundo físico y el digital. Mejore la interacción con su cliente mediante modelos completos de entornos físicos. Cree grafos de inteligencia espacial para modelar las relaciones y las interacciones entre personas, lugares y dispositivos. Consulte datos de un espacio físico y no a partir de sensores diferentes.
 
@@ -136,7 +136,7 @@ Para crear Azure Digital Twins:
 
 <!-- markdownlint-disable MD025 -->
 
-## <a name="location-intelligencetabazuremaps"></a>[Inteligencia de ubicación](#tab/AzureMaps)
+## <a name="location-intelligence"></a>[Inteligencia de ubicación](#tab/AzureMaps)
 
 Además de las funcionalidades de ubicación tradicionales, tales como proximidad, tráfico y enrutamiento, el servicio de Azure Maps permite a las empresas crear soluciones mediante inteligencia de ubicación en tiempo real que funciona con tecnología de movilidad de clase mundial de los asociados **TomTom** y **Moovit**. Integre fácilmente características de movilidad y ubicación avanzadas en sus aplicaciones con servicios geoespaciales.
 
@@ -169,7 +169,7 @@ Para usar la inteligencia de ubicación:
 
 ::: zone-end
 
-## <a name="spatial-experiencestabspatial"></a>[Experiencias espaciales](#tab/spatial)
+## <a name="spatial-experiences"></a>[Experiencias espaciales](#tab/spatial)
 
 Azure Spatial Anchors permite a los desarrolladores trabajar con plataformas de realidad mixta para percibir el espacio, designar puntos precisos de interés y volver a recuperar esos puntos de interés desde los dispositivos compatibles.
 
@@ -204,7 +204,7 @@ Para usar las experiencias espaciales:
 
 ::: zone-end
 
-## <a name="azure-remote-renderingtabremoterender"></a>[Azure Remote Rendering](#tab/RemoteRender)
+## <a name="azure-remote-rendering"></a>[Azure Remote Rendering](#tab/RemoteRender)
 
 Represente contenido 3D interactivo de alta calidad en la nube y transmítalo mediante streaming a sus dispositivos en tiempo real. Las cargas de trabajo de representación se usa mucho para efectos especiales (VFX) en el sector multimedia y de entretenimiento. La representación también se usa en muchos otros sectores, como la publicidad, el mercado minorista, petróleo y gas y fabricación.
 

@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 8a8c3b471787e1bc189a0d1f0abe2e2d84447e7c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 8810b4ab2ce78dd2add8a424518717392305346a
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806839"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222091"
 ---
 # <a name="examples-of-performance-outcomes"></a>Ejemplos de resultados de rendimiento
 
@@ -28,7 +28,7 @@ Transforme el negocio y reduzca costos con una infraestructura de bajo consumo q
 
 - **Ejemplo 1:** una empresa de servicios trabajaba con un proveedor de hospedaje que hospedaba varios recursos de infraestructura operativa. Esos sistemas experimentaban interrupciones frecuentes y un rendimiento deficiente. La empresa migró sus recursos a Azure para aprovechar el contrato de nivel de servicio y los controles de rendimiento de la nube. El tiempo de inactividad experimentado cuesta aproximadamente 15 000 USD por minuto de interrupción. Con una interrupción de entre cuatro y ocho horas al mes, resultó fácil justificar esta transformación organizativa.
 
-- **Ejemplo 2:** una empresa de inversión de consumo se encontraba en las primeras fases de un esfuerzo de innovación de aplicaciones habilitadas para la nube. Los procesos de Agile y DevOps estaban madurando correctamente, pero el rendimiento de las aplicaciones tenía picos. Como una transformación más madura, la empresa inició un programa para supervisar y automatizar el tamaño en función de las demandas de uso. La empresa pudo eliminar los problemas de tamaño con las herramientas de administración del rendimiento de Azure, lo que dio lugar a un aumento sorprendente del 5 por ciento en las transacciones.
+- **Ejemplo 2:** una empresa de inversión de consumo se encontraba en las primeras fases de un esfuerzo de innovación de aplicaciones habilitadas para la nube. Los procesos de Agile y DevOps estaban madurando correctamente, pero el rendimiento de las aplicaciones tenía picos. Como una transformación más madura, la empresa inició un programa para supervisar y automatizar el tamaño en función de las demandas de uso. La empresa eliminó los problemas de tamaño mediante las herramientas de administración del rendimiento de Azure, lo que dio lugar a un aumento sorprendente del 5 % en las transacciones.
 
 ## <a name="reliability"></a>Confiabilidad
 
@@ -40,7 +40,7 @@ Azure Backup es una solución sencilla que reduce los costos de infraestructura 
 
 Azure Site Recovery facilita la prueba de la recuperación ante desastres mediante la replicación de aplicaciones entre regiones de Azure. También puede replicar máquinas virtuales locales de VMware e Hyper-V y servidores físicos en Azure para que estén disponibles si el sitio principal deja de funcionar. Además, puede recuperar las cargas de trabajo en el sitio principal una vez que vuelva a estar en funcionamiento.
 
-- **Ejemplo**: una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (DRBC) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
+- **Ejemplo**: una empresa petrolífera usaba tecnologías de Azure para implementar una recuperación del sitio completa. La empresa decidió no adoptar totalmente la nube para las operaciones cotidianas, pero las características de recuperación ante desastres y continuidad empresarial (BCDR) de la nube seguían protegiendo el centro de datos. Cuando se formó un huracán a cientos de kilómetros de distancia, su asociado de implementación comenzó a recuperar el sitio en Azure. Antes de que la tormenta tocara tierra, todos los recursos críticos se estaban ejecutando en Azure, lo que evitó el tiempo de inactividad.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

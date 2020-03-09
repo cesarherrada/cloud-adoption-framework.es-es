@@ -1,19 +1,21 @@
 ---
-title: 'Migración del sistema central: Realizar el cambio desde sistemas centrales a Azure'
-description: Migrar aplicaciones de entornos del sistema central a Azure para sistemas que se ejecutan actualmente en sistemas centrales.
+title: Migración de aplicaciones desde sistemas centrales a Azure
+description: Obtenga una guía técnica para realizar el cambio de una plataforma de sistema central al proceso de hiperescala y almacenamiento de Azure en un entorno de alta disponibilidad.
 author: njray
 ms.author: v-nanra
 ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f68dbd309264b0cef189346096ce3dc797ae7d08
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f869716c907aa6c03adfb81a4f698dab42b9e387
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808777"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223632"
 ---
+<!-- cspell:ignore njray nanra vCPUs Proliant Sysplex IPLs DASDs LPARs ISPF Panvalet -->
+
 # <a name="make-the-switch-from-mainframes-to-azure"></a>Realizar el cambio desde sistemas centrales a Azure
 
 Como plataforma alternativa para ejecutar aplicaciones de sistemas centrales tradicionales, Azure ofrece un proceso y el almacenamiento en hiperescala de un entorno de alta disponibilidad. Obtenga el valor y la agilidad de una plataforma moderna basada en la nube sin los costos asociados a un entorno de sistema central.
@@ -59,7 +61,7 @@ Una instalación de acoplamiento también ofrece un proceso estrechamente acopla
 
 Los clientes del sistema central generalmente mantienen sitios de recuperación ante desastres o hacen uso de un proveedor de sistemas centrales independiente para hacer frente a situaciones de desastre. La sincronización con un sitio de recuperación ante desastres generalmente se realiza a través de copias de datos sin conexión. Ambas opciones conllevan costos elevados.
 
-La redundancia geográfica automatizada también está disponible a través del servicio de acoplamiento del sistema central, aunque conlleva un gran costo y, generalmente, está reservada para sistemas críticos. En cambio, Azure tiene opciones fáciles de implementar y muy rentables para realizar la [copia de seguridad](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup), la [recuperación](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) y la [redundancia](https://docs.microsoft.com/azure/storage/common/storage-redundancy) a nivel local o regional, o por medio de la redundancia geográfica.
+La redundancia geográfica automatizada también está disponible a través de la instalación de acoplamiento del sistema central. Este enfoque es costoso y normalmente se reserva para sistemas críticos. En cambio, Azure tiene opciones fáciles de implementar y muy rentables para realizar la [copia de seguridad](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup), la [recuperación](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) y la [redundancia](https://docs.microsoft.com/azure/storage/common/storage-redundancy) a nivel local o regional, o por medio de la redundancia geográfica.
 
 ## <a name="storage"></a>Storage
 
