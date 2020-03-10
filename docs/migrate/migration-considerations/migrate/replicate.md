@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6b37cea7b912cb4d65f9b1b119787e96b2f698d6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5eaea53e65951cb5fee3d36b2eba472e1048feb2
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802028"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337809"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -24,7 +24,7 @@ La replicación es el verdadero caballo de batalla de los trabajos de migración
 
 ## <a name="required-prerequisites-to-replication"></a>Requisitos previos necesarios para la replicación
 
-Antes de la replicación, la *nueva plataforma* y el hardware deben estar preparados para recibir las copias de los datos binarios. En el artículo sobre [requisitos previos](../prerequisites/index.md) se describen los requisitos mínimos del entorno para ayudar a crear una plataforma segura, sólida y eficaz para recibir las réplicas de los datos binarios.
+Antes de la replicación, la *nueva plataforma* y el hardware deben estar preparados para recibir las copias de los datos binarios. En el artículo sobre [requisitos previos](../prerequisites/index.md) se describen los requisitos mínimos del entorno para ayudar a crear una plataforma segura, sólida y de alto rendimiento para recibir las réplicas de los datos binarios.
 
 Los *datos binarios de origen* también deben estar preparados para la replicación y la sincronización. Los artículos sobre evaluación, arquitectura y corrección abordan cada uno las acciones necesarias para asegurarse de que los datos binarios de origen están listos para la replicación y la sincronización.
 
