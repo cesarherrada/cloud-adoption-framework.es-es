@@ -7,18 +7,18 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 80567c1cb0c36f9f95cea78d812300585050277a
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 8fafc0f014dcda9e004845398f25897659b619aa
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892555"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094380"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Procedimientos recomendados para la migración del host de VMware para Azure
 
 La migración de un host de VMware completo a Azure puede acelerar la metodología estándar de la migración que se describe en el marco de adopción de la nube y que se ilustra a continuación.
 
-![Modelo de migración de Cloud Adoption Framework](../../_images/operational-transformation-migrate.png)
+![Modelo de migración de Cloud Adoption Framework](../../_images/migrate/methodology.png)
 
 ## <a name="migration-best-practices"></a>Procedimientos recomendados de migración
 

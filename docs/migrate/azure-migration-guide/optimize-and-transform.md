@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bcd49a2168db862c3e1a0d948e4948abccbfe7c7
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 3b7d6437e9e066497f55f8ce0bd601e7c53854f0
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222504"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892470"
 ---
 <!-- cSpell:ignore Fservers Fdatabases -->
 
@@ -130,7 +130,7 @@ También puede usar **Advisor** y seleccionar la pestaña **Costos** para identi
 
 ::: zone target="docs"
 
-- [Tutorial: Optimización de los costos a partir de las recomendaciones](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations)
+- [Tutorial: Optimización de los costos a partir de las recomendaciones](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
 - [Prevención de cargos inesperados con la administración de costos y facturación de Azure](https://docs.microsoft.com/azure/billing/billing-getting-started)
 - [Explore y analice los costos con Análisis de costos](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 

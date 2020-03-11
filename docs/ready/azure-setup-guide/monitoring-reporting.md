@@ -9,18 +9,20 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0b37500652606e3a1018b3b93c03aae546827eff
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 762c302bf52473ae917ab5c59c589225f1c5f0ac
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799410"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024000"
 ---
+<!-- cSpell:ignore timleyden tileyden -->
+
 # <a name="monitoring-and-reporting-in-azure"></a>Supervisión e informes en Azure
 
 Azure proporciona muchos servicios que ofrecen una solución completa para recopilar, analizar y actuar en la telemetría de la aplicación y los recursos de Azure que las admiten. Además, estos recursos se pueden ampliar para que incluyan la supervisión de recursos locales críticos para proporcionar un entorno de supervisión híbrido.
 
-# <a name="azure-monitortabazuremonitor"></a>[Azure Monitor](#tab/AzureMonitor)
+# <a name="azure-monitor"></a>[Azure Monitor](#tab/AzureMonitor)
 
 Azure Monitor proporciona un único centro unificado para todos los datos de supervisión y diagnóstico en Azure. Puede usarlo para obtener visibilidad sobre los recursos. Con Azure Monitor, puede buscar y corregir problemas y optimizar el rendimiento. También puede comprender el comportamiento de los clientes.
 
@@ -51,13 +53,15 @@ Para más información, consulte [Documentación sobre Azure Monitor](https://d
 
 ::: zone target="chromeless"
 
+<!-- markdownlint-disable DOCSMD001 -->
+
 ## <a name="action"></a>Acción
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview]" submitText="Explore Azure Monitor" :::
 
 ::: zone-end
 
-# <a name="azure-service-healthtabazureservicehealth"></a>[Azure Service Health](#tab/AzureServiceHealth)
+# <a name="azure-service-health"></a>[Azure Service Health](#tab/AzureServiceHealth)
 
 Azure Service Health proporciona una vista personalizada del estado de los servicios y regiones de Azure que se usan. La información acerca de los problemas activos se publica en Service Health lo cual le ayudará a comprender el impacto de estos en los recursos. Las actualizaciones periódicas le mantendrán informado sobre la resolución del problema.
 
@@ -95,7 +99,7 @@ Para más información, consulte la [documentación de Azure Service Health](h
 
 ::: zone-end
 
-# <a name="azure-advisortabazureadvisor"></a>[Azure Advisor](#tab/AzureAdvisor)
+# <a name="azure-advisor"></a>[Azure Advisor](#tab/AzureAdvisor)
 
 Azure Advisor es un consultor gratuito y personalizado en la nube que le ayuda a seguir e implementar los procedimientos recomendados para las implementaciones de Azure. Analiza la configuración de los recursos y la telemetría de uso y luego recomienda soluciones que pueden ayudarlo a optimizar el entorno. Las recomendaciones se dividen en las cuatro categorías siguientes:
 
@@ -125,7 +129,7 @@ Para más información, consulte [Documentación de Azure Advisor](https://docs
 
 ::: zone-end
 
-# <a name="azure-security-centertabazuresecuritycenter"></a>[Azure Security Center](#tab/AzureSecurityCenter)
+# <a name="azure-security-center"></a>[Azure Security Center](#tab/AzureSecurityCenter)
 
 Azure Security Center también desempeña un papel importante en su estrategia de supervisión. Le permite supervisar la seguridad de las máquinas, las redes, el almacenamiento, los servicios de datos y las aplicaciones. Security Center proporciona detección de amenazas avanzada mediante análisis del comportamiento y aprendizaje automático para ayudar a identificar las amenazas activas dirigidas a los recursos de Azure. También proporciona protección contra amenazas que bloquea el malware u otro código no deseado y reduce la superficie expuesta a los ataques por fuerza bruta y a otros ataques a la red.
 

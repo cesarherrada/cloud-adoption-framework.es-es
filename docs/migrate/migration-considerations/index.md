@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 46689512ec799ff8b5aa47ea095d34d8c25dd83a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: baeac7d27ff7aa71c011a2578968811820ebe22e
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802436"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094743"
 ---
 # <a name="cloud-adoption-framework-migration-model"></a>Modelo de migración de Cloud Adoption Framework
 
@@ -50,7 +50,7 @@ Las herramientas de migración en nube como [Azure Site Recovery](https://docs.m
 
 Los principios que subyacen en este modelo incremental se basan en la ejecución de procesos y requisitos previos a los que se hace referencia en la siguiente infografía.
 
-![Modelo de migración de Cloud Adoption Framework](../../_images/operational-transformation-migrate.png)
+![Modelo de migración de Cloud Adoption Framework](../../_images/migrate/methodology.png)
 
 La aplicación coherente de estos principios representa un objetivo final para sus procesos de migración a la nube y no debe considerarse como un punto inicial necesario. A medida que maduren los esfuerzos de migración, consulte la guía en esta sección para ayudar a definir el mejor proceso para apoyar sus necesidades organizacionales.
 
