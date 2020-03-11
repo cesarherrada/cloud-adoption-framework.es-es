@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 759bd75a134b1f5a5992f038a33693f632b86b03
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1bf3c79b95c748880e5d560003aa65acb1949c48
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801518"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78891910"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -47,10 +47,3 @@ Los equipos muy eficaces no solo ejecutan reuniones retrospectivas. Viven los pr
 Ese nuevo crecimiento se representa de forma más tangible en los cambios del trabajo pendiente de la iteración o de la versión.
 
 La retrospectiva marca el final de una versión o iteración, a medida que los equipos adquieren experiencia y aprenden lecciones, y ajustan el [trabajo pendiente de la iteración o de la versión](../assess/release-iteration-backlog.md) para reflejar los nuevos procesos y experimentos que se van a probar. Esto inicia la siguiente iteración mediante los procesos de migración.
-
-## <a name="next-steps"></a>Pasos siguientes
-
-La sección [Protección y administración](../secure-and-manage/index.md) de este contenido puede ayudar a preparar el lector para la transición de la migración a las operaciones.
-
-> [!div class="nextstepaction"]
-> [Protección de las herramientas de administración y supervisión](../secure-and-manage/index.md)

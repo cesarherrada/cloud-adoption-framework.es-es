@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 4abfaa8622db86fefb2c7c99589d3ef81a5ed489
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: c9e33b32590cd3b73e5bc42a662abf5ef6de36da
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170178"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892249"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 
@@ -22,7 +22,7 @@ Cloud Adoption Framework es una herramienta gratuita de autoservicio para guiar 
 A lo largo de este marco, la habilitación es un tema básico. En la siguiente lista de comprobación se enumeran los principios fundamentales de adopción de la nube que garantizan que tanto el personal de TI como la empresa consideren que el recorrido de la adopción es satisfactorio:
 
 - **Planeamiento:** establezca [resultados empresariales](../strategy/business-outcomes/index.md) claros, un [plan de patrimonio digital](../digital-estate/index.md) bien definido y [trabajos pendientes de adopción](../migrate/migration-considerations/prerequisites/migration-backlog-review.md) bien entendidos.
-- **Listo:** garantice la preparación del personal mediante [planes de aptitudes y aprendizaje](../ready/technical-skills.md).
+- **Listo:** garantice la preparación del personal mediante [planes de aptitudes y aprendizaje](../ready/suggested-skills.md).
 - **Operaciones:** defina un modelo operativo administrable para guiar las actividades durante y después de la adopción.
   - **[Organizar](../organize/index.md):** alinear a personas y equipos para que las operaciones y la adopción de la nube se lleven a cabo de manera adecuada.
   - **Gobernanza:** alinee las [materias de gobernanza](../govern/index.md) adecuadas para aplicar de forma coherente la administración de costos, la mitigación de riesgos, el cumplimiento normativo y las bases de referencia de la seguridad en toda la adopción de la nube.
@@ -77,7 +77,7 @@ Además de Cloud Adoption Framework, Microsoft cubre temas adicionales que puede
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="../ready/technical-skills.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="../ready/suggested-skills.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">

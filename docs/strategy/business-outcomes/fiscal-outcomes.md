@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 43cd9dd0d155849c8ed5dda277252e445507f6d8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7ee0451bd356cfc3fb4c7648f0bbf6b10ab0145f
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806856"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023850"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Ejemplos de resultados fiscales
 
@@ -55,6 +55,8 @@ La informática en la nube puede reducir los gastos de capital del hardware y el
 - **Ejemplo 1:** El centro de datos de una compañía gasta un gran porcentaje del presupuesto de TI anual. El departamento de TI decide ejecutar una migración a la nube y traslada los recursos del centro de datos a soluciones de infraestructura como servicio (IaaS), de forma que se crea una reducción de costos de 3 años.
 - **Ejemplo 2:** Una sociedad de cartera ha adquirido recientemente una nueva compañía. En la adquisición, los términos dictaminan que la nueva entidad se debe retirar de los centros de datos actuales en un plazo de 6 meses. Si no lo hace, deberá pagar una multa de 1 millón de euros al mes a la sociedad de cartera. Mover los recursos digitales a la nube mediante una migración podría permitir una rápida retirada de los recursos antiguos.
 - **Ejemplo 3:** Una compañía de impuestos de renta que atiende a consumidores obtiene un 70 % de sus ingresos anuales durante los tres primeros meses del año. El resto del año, su enorme inversión en TI permanece relativamente inactiva. Una migración a la nube permitiría al equipo de TI implementar la capacidad de proceso y hospedaje necesaria para esos tres meses. Durante los nueve meses restantes, se podrían rebajar considerablemente los costos de IaaS mediante la reducción de la superficie de proceso.
+
+<!-- cSpell:ignore Coverdell Coverdell's Sorensen -->
 
 ### <a name="example-coverdell"></a>Ejemplo: Coverdell
 

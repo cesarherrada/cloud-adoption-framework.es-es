@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c326461435123b8093c86590baa4461f5048f4df
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: cede336255183abec06311137abfe4e023116c03
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170671"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341783"
 ---
 # <a name="engage-through-applications"></a>Participación mediante aplicaciones
 
@@ -105,7 +105,7 @@ Cuantos más elementos se tengan que mantener en una solución, más lenta itera
 
 Para prepararse para el número de iteraciones necesarias para ofrecer una solución innovadora, es importante anticiparse. Por ejemplo, minimice las cargas operativas al principio del proceso, favoreciendo las opciones sin servidor. En Azure, las opciones de aplicación sin servidor podrían incluir [Azure App Service](https://docs.microsoft.com/azure/app-service/overview) o [contenedores](https://docs.microsoft.com/azure/architecture/cloud-adoption/migrate/azure-best-practices/contoso-migration-rearchitect-container-sql).
 
-En paralelo, Azure proporciona opciones de datos de transacciones sin servidor que también reducen la sobrecarga. La [lista de productos de base de datos](https://docs.microsoft.com/azure/#pivot=products&panel=databases) proporciona opciones para hospedar datos, sin necesidad de una plataforma de datos completa.
+En paralelo, Azure proporciona opciones de datos de transacciones sin servidor que también reducen la sobrecarga. La [lista de productos de base de datos](/azure/) proporciona opciones para hospedar datos, sin necesidad de una plataforma de datos completa.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
