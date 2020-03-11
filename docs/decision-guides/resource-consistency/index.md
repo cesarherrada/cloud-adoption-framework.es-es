@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: df1299c091c994e143fdc8102590c823f2974ac2
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: bb84d0f7ce6c29d52b1aebb54a456634cb942182
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708723"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892402"
 ---
 # <a name="resource-consistency-decision-guide"></a>Guía de decisiones de la coherencia de recursos
 
@@ -40,7 +40,7 @@ Los grupos de recursos actúan como contenedores para los recursos con un ciclo 
 Si respondió _NO_ a cualquiera de las preguntas anteriores, el recurso en cuestión debe colocarse en otra parte, en otro grupo de recursos.
 
 > [!IMPORTANT]
-> Los grupos de recursos también son específicos de una región; sin embargo, es habitual que los recursos estén en regiones diferentes, aunque dentro del mismo grupo de recursos, ya que, cómo se indicó anteriormente, se administran de forma conjunta. Para más información sobre la selección de regiones, consulte la [guía para la elección de regiones](../regions/index.md).
+> Los grupos de recursos también son específicos de una región; sin embargo, es habitual que los recursos estén en regiones diferentes, aunque dentro del mismo grupo de recursos, ya que, cómo se indicó anteriormente, se administran de forma conjunta. Para más información sobre la selección de regiones, consulte [Varias regiones](../../migrate/azure-best-practices/multiple-regions.md).
 
 ## <a name="deployment-consistency"></a>Coherencia de implementación
 
