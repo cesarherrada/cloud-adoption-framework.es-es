@@ -1,6 +1,6 @@
 ---
 title: Administración de la nube
-description: Administración de la nube en Cloud Adoption Framework
+description: Use Cloud Adoption Framework para Azure para aprender a desarrollar los enfoques empresariales y técnicos que necesita para lograr una administración eficaz en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 layout: LandingPage
-ms.openlocfilehash: 43f3c7f56560489dda43b77c68da01c093be8a5e
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 4223a6c6103d97a945557bb81eeee3d337dbe12d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892147"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79091966"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Administración de la nube en Cloud Adoption Framework
 

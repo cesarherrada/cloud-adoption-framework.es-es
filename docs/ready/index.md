@@ -1,6 +1,6 @@
 ---
 title: Preparación para la adopción de la nube
-description: Preparación del entorno para la adopción de la nube
+description: Aprenda a crear una zona de aterrizaje para hospedar las cargas de trabajo que planea crear en la nube o migrar a la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 layout: LandingPage
-ms.openlocfilehash: cd4b29823636cfaa758d0568d3298bc146a00eb8
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 11ab187c24bcd288834cf3c4823e508096e69492
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892487"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092525"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -48,7 +48,7 @@ Revise la guía de instalación de Azure para familiarizarse con las herramienta
         </a>
     </li>
     <li style="display: flex; flex-direction: column;">
-        <a href="./landing-zone/migrate-landing-zone.md">
+        <a href="./landing-zone/first-landing-zone.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -59,7 +59,7 @@ Revise la guía de instalación de Azure para familiarizarse con las herramienta
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Primera zona de aterrizaje</h3>
-Evalúe el plano técnico de la zona de aterrizaje para la migración de Cloud Adoption Framework. Use este plano técnico para crear su primera zona de aterrizaje lista para la migración con fines de aprendizaje y experimentación rápida.
+Elija la opción de zona de aterrizaje más adecuada para establecer un punto de partida basado en código para su entorno.
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@ Evalúe el plano técnico de la zona de aterrizaje para la migración de Cloud A
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Expansión del plano técnico</h3>
-Use las consideraciones sobre la zona de aterrizaje para identificar y realizar todas las modificaciones necesarias en la plantilla del plano técnico.
+                            <h3>Expansión de la zona de aterrizaje</h3>
+Amplíe la primera zona de aterrizaje para cumplir los requisitos de plataforma del plan de adopción de la nube.
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ Use las consideraciones sobre la zona de aterrizaje para identificar y realizar 
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Procedimientos recomendados</h3>
-Compruebe las modificaciones de la zona de aterrizaje en comparación con las secciones de procedimientos recomendados para garantizar la correcta configuración de las zonas de aterrizaje actuales y futuras.
+Utilice los procedimientos recomendados para validar las modificaciones de la zona de aterrizaje, con el fin de garantizar la correcta configuración de las zonas de aterrizaje actuales y futuras.
                         </div>
                     </div>
                 </div>

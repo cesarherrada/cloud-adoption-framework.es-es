@@ -8,12 +8,12 @@ layout: LandingPage
 ms.topic: landing-page
 author: BrianBlanchard
 ms.date: 02/28/2020
-ms.openlocfilehash: 7bbdcdbdad1e00947d20f701ff6a81a465a09248
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 4a6bd2f6a14d4726695f76a776c01a421931005c
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223770"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79091978"
 ---
 # <a name="microsoft-cloud-adoption-framework-for-azure"></a>Plataforma de adopción de la nube de Microsoft para Azure
 
@@ -169,7 +169,7 @@ La nube cambia fundamentalmente el modo en que las empresas adquieren, usan y pr
 
 Sin embargo, la adopción de la nube es solo un medio para lograr un fin. La correcta adopción de la nube comienza mucho antes de que se seleccione un proveedor de plataforma en la nube. Comienza cuando los responsables de la toma de decisiones en TI y del negocio se dan cuenta de que la nube puede acelerar un objetivo específico de transformación del negocio. Cloud Adoption Framework puede ayudarles a alinear las estrategias del negocio, la cultura y el cambio técnico para lograr los resultados de negocio deseados.
 
-Cloud Adoption Framework proporciona orientaciones técnicas para Microsoft Azure. Dado que los clientes empresariales pueden estar aún en el proceso de elección de un proveedor de la nube o pueden tener una estrategia de varias nubes, el marco proporciona una guía independiente de la nube para la toma de decisiones estratégicas, siempre que sea posible.
+Cloud Adoption Framework proporciona orientaciones técnicas para Microsoft Azure. Dado que existe la posibilidad de que los clientes empresariales no hayan completado el proceso de elección de un proveedor de la nube o que tengan una estrategia con varias nubes, el marco proporciona una guía independiente de la nube para la toma de decisiones estratégicas, siempre que sea posible.
 
 ## <a name="intended-audience"></a>Destinatarios
 

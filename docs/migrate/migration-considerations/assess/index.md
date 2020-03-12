@@ -1,18 +1,18 @@
 ---
 title: Validación de las suposiciones de evaluación antes de la migración
-description: Validación de las suposiciones de evaluación antes de la migración
+description: Use Cloud Adoption Framework para Azure para aprender a validar suposiciones de valoración antes de comenzar la migración a la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e370ef47b27449a3a46965dc309403a09fb3829d
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 30cc06e28477c70987c7e8dc23300e3e0a184dd2
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222284"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094127"
 ---
 # <a name="validate-assessment-assumptions-before-migration"></a>Validación de las suposiciones de evaluación antes de la migración
 
@@ -62,7 +62,7 @@ Además de la responsabilidad de alto nivel, hay acciones de las que un individu
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Si comprende el proceso de valoración, está listo para comenzar el proceso de [alineación de las prioridades empresariales](./business-priorities.md).
+Si tiene un conocimiento general del proceso de valoración, estará listo para comenzar el proceso de [clasificación de las cargas de trabajo](./classify.md).
 
 > [!div class="nextstepaction"]
-> [Alineación de las prioridades empresariales](./business-priorities.md)
+> [Clasificación de cargas de trabajo](./classify.md)

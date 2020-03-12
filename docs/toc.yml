@@ -42,12 +42,14 @@ items:
             href: strategy/financial-models.md
           - name: Descripción de la contabilidad en la nube
             href: strategy/cloud-accounting.md
-          - name: Conciliar la cartera
-            href: strategy/balance-the-portfolio.md
       - name: Primer proyecto de adopción de la nube
         href: strategy/first-adoption-project.md
       - name: Consideraciones adicionales
         items:
+          - name: Equilibrio de prioridades en la competencia
+            href: strategy/balance-competing-priorities.md
+          - name: Conciliar la cartera
+            href: strategy/balance-the-portfolio.md
           - name: Mercados globales
             href: strategy/global-markets.md
       - name: Aptitudes pertinentes para la estrategia
@@ -256,7 +258,7 @@ items:
                     href: migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md
               - name: Hosts de VMware
                 items:
-                  - name: Información general
+                  - name: Consideraciones al volver a hospedar VMWare
                     href: migrate/azure-best-practices/vmware-host.md
                   - name: Prerrequisitos
                     items:
@@ -496,6 +498,8 @@ items:
                 items:
                   - name: 'Validación de las suposiciones de evaluación antes de la migración: Incorporación del refinamiento de R'
                     href: migrate/migration-considerations/assess/index.md
+                  - name: Clasificación de cargas de trabajo
+                    href: migrate/migration-considerations/assess/classify.md
                   - name: Mantener las prioridades alineadas
                     href: migrate/migration-considerations/assess/business-priorities.md
                   - name: Evaluación de la disponibilidad de las cargas de trabajo
@@ -524,7 +528,7 @@ items:
                     href: migrate/migration-considerations/migrate/replicate-options.md
                   - name: Agregar al "stage" cargas de trabajo
                     href: migrate/migration-considerations/migrate/stage.md
-              - name: 'Procesos de prueba, optimización y promoción'
+              - name: Procesos de promoción
                 items:
                   - name: Información general
                     href: migrate/migration-considerations/optimize/index.md
@@ -1194,6 +1198,8 @@ items:
     items:
       - name: Hoja de ruta de Cloud Adoption Framework
         href: reference/index.md
+      - name: Novedades
+        href: reference/whats-new.md
       - name: Modelo operativo
         items:
           - name: Información general

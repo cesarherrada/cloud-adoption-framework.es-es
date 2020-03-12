@@ -7,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 1b0104767c58e31f6ae31cae511d2aa1dc60dd73
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 0fc60c8d2ca4c0725d114f6bf618e1a02934b2b5
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337943"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092391"
 ---
 <!-- markdownlint-disable MD026 -->
 
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>¿Qué resultados empresariales se asocian con procesos de transformación?
 
-Los procesos de transformación con más éxito comienzan con un resultado empresarial en mente. Adopción de la nube puede ser un esfuerzo en el que hay que invertir mucho tiempo y dinero. Fomentar el nivel adecuado de soporte técnico de TI y otras áreas de la empresa es fundamental para el éxito. El [marco de resultados empresariales](../index.md) de Microsoft está diseñado para ayudar a los clientes a identificar resultados empresariales que son concisos, están definidos y fomentan resultados observables o cambios en el rendimiento de la empresa, además de contar con el apoyo de una medida concreta.
+Los procesos de transformación con más éxito comienzan con un resultado empresarial en mente. Adopción de la nube puede ser un esfuerzo en el que hay que invertir mucho tiempo y dinero. Fomentar el nivel adecuado de soporte técnico de TI y otras áreas de la empresa es fundamental para el éxito. Esta serie de artículos está diseñada para ayudar a los clientes a identificar resultados empresariales que son concisos, están definidos y fomentan resultados observables o cambios en el rendimiento de la empresa, además de contar con el apoyo de una medida concreta.
 
 Durante todas las transformaciones en la nube la capacidad para hablar en términos de resultados soporta la transparencia y las asociaciones interfuncionales. El marco de resultados empresariales comienza con una plantilla sencilla que ayuda a los usuarios con mentalidad técnica a documentarse y conseguir un consenso. Dicha plantilla se puede usar con varias de las partes interesadas del negocio para recopilar los distintos resultados empresariales que podrían verse influidos por el proceso de transformación de una empresa. Dicha plantilla se puede usar de forma electrónica, o mejor aún, se puede dibujar en una pizarra para que los líderes empresariales y las partes interesadas puedan participar en debates acerca de dichos resultados.
 
