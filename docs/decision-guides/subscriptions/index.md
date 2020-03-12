@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 99bcfee8f72250c156178117b368af62eb8a68c9
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 32b1e8933add7f2c786d424e6faabf58f9218ead
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892419"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140695"
 ---
 # <a name="subscription-decision-guide"></a>Guía de decisiones de suscripción
 
@@ -55,7 +55,7 @@ Cuando esté listo para implementar una carga de trabajo en un entorno de produc
 
 A medida que una organización agrega nuevas cargas de trabajo a la nube, las diferentes propiedades de las suscripciones o una separación básica de las responsabilidades puede resultar en varias suscripciones en los grupos de administración de producción y de no producción. Aunque este enfoque proporciona una separación básica de cargas de trabajo, no aprovecha de manera significativa el modelo de herencia a la hora de aplicar automáticamente directivas en un subconjunto de las suscripciones.
 
-![Patrón de separación de cargas de trabajo](../../_images/ready/management-group-hierarchy.png)
+![Patrón de separación de cargas de trabajo](../../_images/ready/management-group-hierarchy-v2.png)
 
 ### <a name="application-category-pattern"></a>Patrón de categoría de aplicación
 

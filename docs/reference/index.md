@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 layout: LandingPage
-ms.openlocfilehash: d43097c940bcb6afb6b816dc4f8a533021d304fb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7c808e02b0f1d759fcb37acd0a6b6a24d2087950
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798662"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140576"
 ---
 # <a name="cloud-adoption-framework-roadmap"></a>Hoja de ruta de Cloud Adoption Framework
 
@@ -45,7 +45,7 @@ Para eliminar los obstáculos más importantes y permitir el cambio, se requiere
 
 Cloud Adoption Framework es un marco general que abarca las fases de planeamiento, preparación y adopción de la nube según las distintas motivaciones de migración e innovación, y que cuenta con el respaldo de las guías de operaciones y gobernanza.
 
-El marco ha alcanzado la disponibilidad general (GA). Sin embargo, vamos a crear activamente este marco en colaboración con clientes, asociados y equipos internos. Para fomentar la cooperación, el contenido se publica a medida que está disponible. Estas versiones públicas permiten probar, validar y perfeccionar la guía por fases. 
+El marco ha alcanzado la disponibilidad general (GA). Sin embargo, vamos a crear activamente este marco en colaboración con clientes, asociados y equipos internos. Para fomentar la cooperación, el contenido se publica a medida que está disponible. Estas versiones públicas permiten probar, validar y perfeccionar la guía por fases.
 
 Para adoptar la nube de forma correcta, los clientes deben preparar a su personal, sus tecnologías y sus procesos para esta transformación digital. Cloud Adoption Framework incluye una sección en la que se describen los procesos de adopción generales, tanto de la migración como de la innovación, a fin de aportar información general para los clientes. Esta sección se compone de las siguientes fases en el proceso de adopción:
 
