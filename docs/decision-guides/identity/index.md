@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 5eb0ab5c264e8abf842f37e03b5c61b43ade9936
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 62a101b8c9dd957a8eae2279f77c5cf0c4381796
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337380"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312244"
 ---
+<!-- cSpell:ignore Kerberos NTLM SAML -->
+
 # <a name="identity-decision-guide"></a>Guía de decisión de identidad
 
 En cualquier entorno, ya sea local, híbrido, o solo en la nube, el departamento de TI necesita controlar qué administradores, usuarios y grupos tienen acceso a los recursos. Los servicios de Administración de identidad y acceso (IAM) le permiten administrar el control de acceso en la nube.
@@ -33,10 +35,10 @@ La administración de identidades basada en la nube es un proceso iterativo. Par
 
 | Pregunta | Línea base en la nube | Sincronización de directorios | Servicios de dominio hospedados en la nube | Servicios de federación de Active Directory |
 |------|------|------|------|------|
-| ¿Actualmente carece de un servicio de directorios local? | Sí | Sin | Sin | Sin |
-| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | Sin | Sí | Sin | Sin |
-| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | Sin | Sin | Sí | Sí |
-| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | Sin | Sin | Sin | Sí |
+| ¿Actualmente carece de un servicio de directorios local? | Sí | No | No | No |
+| ¿Las cargas de trabajo necesitan usar un conjunto común de usuarios y grupos entre el entorno en la nube y el local? | No | Sí | No | No |
+| ¿Sus cargas de trabajo dependen de mecanismos de autenticación heredados, como Kerberos o NTLM? | No | No | Sí | Sí |
+| ¿Necesita el inicio de sesión único entre varios proveedores de identidad? | No | No | No | Sí |
 
 Como parte del planeamiento de la migración a Azure, deberá determinar la mejor manera de integrar sus servicios actuales de administración de identidad y de identidad en la nube. A continuación presentamos escenarios de integración comunes.
 
