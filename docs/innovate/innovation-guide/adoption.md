@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 58d1e420f9f1b76ea37a5ba7edc5c71aba9d0049
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 95087aeda19eb87759bc09f605c42c706d79aac2
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171096"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78891960"
 ---
 ::: zone target="docs"
 
@@ -76,7 +76,7 @@ Para ver los datos sobre sus aplicaciones, vaya a [Azure Portal](https://ms.port
 
 ## <a name="quantitative-feedback-for-apis"></a>[Comentarios cuantitativos para API](#tab/Quantitative-APIs)
 
-La economía conectada está cambiando la forma en que las empresas innovan. Los mercados y las industrias se están interrumpiendo más rápido que nunca. La interrupción tiene muchas formas y las empresas deben enfrentarse al _dilema del innovador_: cómo establecer el ritmo de cambio sin problemas en la actividad de negocio en curso.
+La economía conectada está cambiando la forma en que las empresas innovan. Los mercados y las industrias se están interrumpiendo más rápido que nunca. La interrupción tiene muchas formas y las empresas deben enfrentarse al _dilema del innovador_: cómo establecer el ritmo de cambio sin chocar con la actividad de negocio en curso.
 
 Las empresas usan las API externamente para cambiar el modo en que interactúan con sus clientes y asociados. Internamente, usan las API para conectar sin problemas distintas partes de la empresa. La economía de API funciona en cuatro bloques de creación: redes sociales, móviles, análisis y nube. Las aplicaciones y los servicios se pueden vincular de forma rápida y rentable para crear una propuesta de valor extendido.
 
@@ -124,8 +124,7 @@ El trabajo pendiente (o panel) es donde se registran los comentarios como los ca
 
 ### <a name="action"></a>Acción
 
-Azure Board y Azure Pipelines requieren un portal independiente de GitHub y Azure.
-Para empezar a trabajar con cualquiera de las herramientas, vaya a [Azure DevOps](https://dev.azure.com).
+Azure Board y Azure Pipelines requieren un portal independiente de GitHub y Azure. Introducción al uso de [Azure DevOps](https://dev.azure.com).
 
 ::: zone-end
 

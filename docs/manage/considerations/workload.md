@@ -1,18 +1,18 @@
 ---
-title: 'Operaciones de la carga de trabajo: administración y operaciones de la nube'
-description: 'Operaciones de la carga de trabajo: administración y operaciones de la nube'
+title: Operaciones de la carga de trabajo en la administración de la nube
+description: Se describe un enfoque para la inversión en las operaciones continuadas de estas cargas de trabajo de alta prioridad con el fin de favorecer mejores compromisos de negocio.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: b97cd4963dc19753f0d8216923a376f4d077930a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 43399d4d84d824f03a7fb19da493223f3baea717
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807706"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341256"
 ---
 # <a name="workload-operations-in-cloud-management"></a>Operaciones de la carga de trabajo en la administración de la nube
 

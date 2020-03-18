@@ -3,22 +3,22 @@ title: Conciliar la cartera
 description: Aprenda estrategias para equilibrar migración, innovación y experimentación para sacarle el máximo partido a los esfuerzos de migración a la nube.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/25/2020
+ms.date: 03/04/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
-ms.subservice: migrate
-ms.openlocfilehash: b41a550583628c1246a0663c99509498f0786d70
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.subservice: strategy
+ms.openlocfilehash: 938250f20725540049bca831ff4c12b975b134a5
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228595"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092410"
 ---
 <!-- cSpell:ignore CSAT -->
 
 # <a name="balance-the-portfolio"></a>Conciliar la cartera
 
-La adopción de la nube es un esfuerzo de administración de carteras, disfrazado de manera inteligente como una implementación técnica. Al igual que cualquier ejercicio de administración de carteras, el equilibrio de una cartera es crítico. En un nivel estratégico, esto significa equilibrar la migración, innovación y experimentación para aprovechar la nube al máximo. Cuando el esfuerzo de adopción de la nube se inclina demasiado en una dirección o en la otra, la complejidad se abre camino en el esfuerzo de migración. En este artículo se le guiará al lector a través de los enfoques para alcanzar el equilibrio de la cartera.
+La adopción de la nube es un esfuerzo de administración de carteras, disfrazado de manera inteligente como una implementación técnica. Al igual que cualquier ejercicio de administración de carteras, el equilibrio de una cartera es crítico. En un nivel estratégico, esto significa equilibrar la migración, innovación y experimentación para aprovechar la nube al máximo. Cuando el esfuerzo de adopción de la nube se inclina demasiado en una dirección, la complejidad se abre camino en los esfuerzos de adopción. En este artículo se le guiará al lector a través de los enfoques para alcanzar el equilibrio de la cartera.
 
 ## <a name="general-scope-expansion"></a>Ampliación del ámbito general
 
@@ -26,9 +26,7 @@ El equilibrio de la cartera es estratégico por naturaleza. De ese modo, el enfo
 
 ### <a name="document-business-outcomes"></a>Documentar resultados empresariales
 
-Antes de equilibrar la cartera, es importante documentar y compartir los resultados empresariales que impulsan el esfuerzo de migración a la nube. Para ver algunos ejemplos de los resultados empresariales generales relativos a las migraciones a la nube, consulte el [resumen ejecutivo de la migración a la nube](../getting-started/migrate.md).
-
-La tabla siguiente puede ayudar a documentar y compartir los resultados empresariales deseados. Es importante tener en cuenta que la mayoría de las empresas buscan obtener varios resultados a la vez. La importancia de este ejercicio es aclarar los resultados que están relacionados de manera más directa con el esfuerzo de migración a la nube:
+Antes de equilibrar la cartera, es importante documentar y compartir los resultados empresariales que impulsan el esfuerzo de migración a la nube. La tabla siguiente puede ayudar a documentar y compartir los resultados empresariales deseados. Es importante tener en cuenta que la mayoría de las empresas buscan obtener varios resultados a la vez. La importancia de este ejercicio es aclarar los resultados que están relacionados de manera más directa con el esfuerzo de migración a la nube:
 
 |Resultado  |Medido por  |Objetivo  |Período de tiempo  |Prioridad de este esfuerzo  |
 |---------|---------|---------|---------|---------|
@@ -38,9 +36,9 @@ La tabla siguiente puede ayudar a documentar y compartir los resultados empresar
 |Mejor experiencia del cliente     |Satisfacción del cliente (CSAT)         |10 % de mejora         |12 meses         |N.° 4         |
 
 > [!IMPORTANT]
-> La tabla anterior es un ejemplo ficticio y no se debe usar para establecer las prioridades. En muchos casos, esta tabla se podría considerar como un antipatrón si los ahorros de costos se ponen por sobre las experiencias de los usuarios.
+> La tabla anterior es un ejemplo ficticio y no se debe usar para establecer las prioridades. En muchos casos, esta tabla se podría considerar como un antipatrón, ya que sitúa los ahorros de costos por encima de las experiencias de los usuarios.
 
-La tabla anterior podría representar de manera precisa las prioridades de los equipos de estrategia en la nube y de adopción de la nube que supervisan una migración a la nube. Debido a restricciones a corto plazo, este equipo pone un mayor énfasis en la reducción de costos de TI y en establecer la prioridad de una salida de datos como medio para lograr las reducciones de costos de TI deseadas. Sin embargo, al documentar las prioridades contrapuestas en esta tabla, el equipo de adopción de la nube está capacitado para ayudar al equipo de estrategia en la nube a identificar oportunidades para alinear mejor la implementación de la estrategia de cartera general.
+La tabla anterior podría representar de manera precisa las prioridades de los equipos de estrategia de la nube y de adopción de la nube. Debido a restricciones a corto plazo, este equipo pone un mayor énfasis en la reducción de costos de TI y en establecer la prioridad de una salida de datos como medio para lograr las reducciones de costos de TI deseadas. Sin embargo, al documentar las prioridades contrapuestas en esta tabla, el equipo de adopción de la nube está capacitado para ayudar al equipo de estrategia en la nube a identificar oportunidades para alinear mejor la implementación de la estrategia de cartera general.
 
 ### <a name="move-fast-while-maintaining-balance"></a>Traslado rápido mientras se mantiene el equilibrio
 
@@ -65,15 +63,9 @@ Si la respuesta a ambas preguntas es "Sí", sería recomendable _no_ migrar la c
 
 Si al respuesta a cualquier pregunta es "No", podría ser aconsejable establecer un plan para hospedar la carga de trabajo hasta que se pueda retirar. Este plan podría incluir el traslado de los recursos a un centro datos de menor costo o a uno alternativo, lo que también lograría los objetivos de reducir los costos y salir de un centro de datos.
 
-## <a name="suggested-prerequisites"></a>Requisitos previos sugeridos
+## <a name="adopt-process-changes"></a>Cambios en el proceso de adopción
 
-Los requisitos previos especificados en la guía de línea base deben seguir siendo suficientes para abordar este tema de la complejidad. Sin embargo, el inventario de recursos y el patrimonio digital se deben resaltar y enfatizar entre estos requisitos previos, ya que los datos controlarán las actividades siguientes.
-
-## <a name="assess-process-changes"></a>Evaluación de los cambios en el proceso
-
-El equilibrio de la cartera requiere un análisis cualitativo adicional durante el proceso de evaluación, que ayudará a impulsar una racionalización de cartera sencilla.
-
-### <a name="suggested-action-during-the-assess-process"></a>Acción sugerida durante el proceso de evaluación
+El equilibrio de la cartera requiere un análisis cualitativo adicional durante la ejecución de la adopción, que ayudará a impulsar una racionalización de cartera sencilla.
 
 En función de los datos de la tabla que aparece en la sección [Documentación de los resultados empresariales](#document-business-outcomes) anterior, hay un riesgo probable de que la cartera se incline demasiado hacia un modelo de ejecución centrado en la migración. Si la experiencia del cliente fuese una prioridad principal, sería más probable una cartera inclinada a la innovación. Ninguno de estos enfoques es correcto ni equivocado, pero inclinarse demasiado en una sola dirección habitualmente generá una disminución en las devoluciones, agrega complejidad innecesaria y aumenta el tiempo de ejecución relacionado con los esfuerzos de adopción de la nube.
 
@@ -102,8 +94,6 @@ Estas preguntas no deben ser una extensión del análisis cualitativo realizado 
 
 Durante la migración, las actividades de equilibrio de cartera pueden tener un impacto negativo en la velocidad de migración (la velocidad a la que se migran los recursos). Las instrucciones siguientes expandirán el motivo y la manera de alinear el trabajo para impedir que se produzcan interrupciones en el esfuerzo de migración.
 
-### <a name="suggested-action-during-the-migrate-process"></a>Acción sugerida durante el proceso de migración
-
 La racionalización de la cartera requiere diversos esfuerzos técnicos. Para los equipos de adopción en la nube, es tentador hacer coincidir esa diversidad de la cartera dentro de los esfuerzos de migración. Las partes interesadas de la empresa piden que un solo equipo de adopción de la nube aborde todo el trabajo pendiente de la migración. Este rara vez es un enfoque aconsejable y, en muchos casos, puede ser contraproducente.
 
 Estos distintos esfuerzos se deben dividir entre dos o más equipos de adopción de la nube. Cuando se usa un modelo de dos equipos como modo de ejecución de ejemplo, el Equipo 1 es el equipo de migración y el Equipo 2, el de innovación. En el caso de esfuerzos de mayor tamaño, estos equipos se podrían segmentar aún más para abordar otros enfoques como los esfuerzos de Reemplazo/PaaS o Refactorización secundaria. A continuación, se describen las aptitudes y los roles que se necesitan para Rehospedaje, Refactorización o Refactorización secundaria:
@@ -115,18 +105,3 @@ Estos distintos esfuerzos se deben dividir entre dos o más equipos de adopción
 **Refactorización secundaria:** algunas aplicaciones se pueden modernizar con la refactorización secundaria en el nivel de datos o el de aplicación. Este trabajo requiere que los miembros del equipo implementen datos en las plataformas de datos basadas en la nube o hagan cambios de configuración menores en la aplicación. Esto puede requerir un respaldo limitado de los expertos en el desarrollo de aplicaciones o datos. Sin embargo, este trabajo es similar al que realizan los implementadores de TI al implementar aplicaciones de terceros. Este trabajo se puede alinear fácilmente con el equipo de migración a la nube o con el de estrategia en la nube. Si bien este esfuerzo no es tan rápido como una migración de rehospedaje, demora menos en ejecutarse que los esfuerzos de refactorización.
 
 Durante la migración, los esfuerzos se deben segmentar de las tres maneras mencionadas y debe ejecutarlos el equipo adecuado en la iteración correspondiente. Aunque debe diversificar la cartera, asegúrese también de que los esfuerzos estén bien dirigidos y segregados.
-
-## <a name="optimize-and-promote-process-changes"></a>Optimización y promoción de los cambios del proceso
-
-No se requiere ningún cambio adicional durante los procesos de seguridad y administración dentro del esfuerzo de migración.
-
-## <a name="secure-and-manage-process-changes"></a>Cambios en el proceso de protección y administración
-
-No se requiere ningún cambio adicional durante los procesos de protección y administración dentro del esfuerzo de migración.
-
-## <a name="next-steps"></a>Pasos siguientes
-
-Vuelva a la [lista de comprobación del ámbito ampliado](./index.md) para asegurarse de que el método de migración está totalmente alineado.
-
-> [!div class="nextstepaction"]
-> [Lista de comprobación del ámbito ampliado](./index.md)

@@ -1,18 +1,18 @@
 ---
-title: Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
-description: Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
+title: Definición y clasificación por orden de prioridad de las cargas de trabajo para la adopción de la nube
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a definir y clasificar por orden de prioridad las cargas de trabajo para un plan de adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 78abd15ae06918e913f520d96b29e29f1a253856
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 42f55a866b3ac8f044861ef2bc738e128b3c9f38
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799988"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341919"
 ---
 # <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
 
@@ -26,7 +26,7 @@ Limitar el plan a 10 cargas de trabajo fomenta la agilidad y la alineación de l
 
 En el contexto de una adopción de la nube, una carga de trabajo es una colección de recursos de TI (servidores, máquinas virtuales, aplicaciones, datos o dispositivos) que posibilitan colectivamente un proceso definido. Las cargas de trabajo pueden posibilitar más de un proceso. Las cargas de trabajo también pueden depender de otros activos compartidos o plataformas más grandes. Sin embargo, una carga de trabajo debe tener límites definidos con respecto a los recursos dependientes y los procesos que dependen de la carga de trabajo. A menudo, las cargas de trabajo se pueden visualizar mediante la supervisión del tráfico de red entre los recursos de TI.
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Las entradas estratégicas de la lista de requisitos previos hacen que las siguientes tareas sean mucho más fáciles de realizar. Para obtener ayuda con la recopilación de los datos que se describen en este artículo, consulte los [requisitos previos](./prerequisites.md).
 

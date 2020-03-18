@@ -1,18 +1,18 @@
 ---
 title: Decisiones que afectan a la migración
-description: Decisiones importantes que se deben tomar en relación con el proceso de migración.
+description: Use Cloud Adoption Framework para Azure con el fin de tomar las decisiones adecuadas y elegir las actividades de ejecución que darán soporte a una migración correcta.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3281f7a14c5af58e435be9e3a412fc5285da1b47
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 07856662f95a588f252c78e8a3dd67eba6e8163c
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225478"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094064"
 ---
 <!-- cSpell:ignore migrateable -->
 

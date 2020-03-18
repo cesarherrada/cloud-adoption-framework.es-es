@@ -1,6 +1,6 @@
 ---
 title: Redes perimetrales
-description: Obtenga más información sobre cómo las redes perimetrales, también conocidas como subredes filtradas (DMZ), usan las características y los servicios de Azure.
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a configurar Azure de manera eficaz para la organización.
 author: tracsman
 ms.author: jonor
 ms.date: 05/10/2019
@@ -10,13 +10,15 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 2aa561a7ffdcf43ffc56ad89849e933ea8abf186
-ms.sourcegitcommit: 4948a5f458725e8a0c7206f08502422965a549d5
+ms.openlocfilehash: cbf77bad65753d219e3a0a53f300aee3690b001d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76994215"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093245"
 ---
+<!-- cSpell:ignore tracsman jonor rossort NVAs WAFs -->
+
 # <a name="perimeter-networks"></a>Redes perimetrales
 
 Las [redes perimetrales][perimeter-network] permiten la conectividad segura entre las redes de la nube y las redes de los centros de datos locales o físicos, así como todo tipo de conectividad hacia Internet y desde este. También se conocen como zonas desmilitarizadas (DMZ).
@@ -41,7 +43,7 @@ Las redes perimetrales usan las siguientes características y servicios de Azure
 
 Normalmente, los equipos de TI y de seguridad centrales son responsables de definir los requisitos para el funcionamiento de las redes perimetrales.
 
-![Ejemplo de una topología en estrella tipo hub-and-spoke][7]
+![Ejemplo de una topología de red en estrella tipo hub-and-spoke](../../_images/azure-best-practices/network-high-level-perimeter-networks.png)
 
 En el diagrama anterior se muestra un ejemplo de [topología de red en estrella tipo hub-and-spoke](./hub-spoke-network-topology.md) que implementa la aplicación de dos perímetros con acceso a Internet y a una red local. Ambos perímetros residen en el concentrador de la red perimetral. En el concentrador de DMZ, la red perimetral a Internet puede escalarse verticalmente para admitir varias líneas de negocio mediante varias granjas de firewalls de aplicaciones web que ayudan a proteger las redes virtuales radiales. El concentrador también permite la conectividad a través de VPN o Azure ExpressRoute, según sea necesario.
 
@@ -107,40 +109,13 @@ Puede ajustar las directivas de protección mediante la supervisión del tráfic
 
 La telemetría en tiempo real está disponible mediante las vistas de Azure Monitor durante un ataque y con fines históricos. Se puede agregar protección en la capa de aplicación mediante el firewall de aplicaciones web de Azure Application Gateway. Se proporciona protección para direcciones IP públicas de Azure IPv4.
 
-<!-- images -->
-
-[0]: ../../_images/azure-best-practices/network-redundant-equipment.png "Ejemplos de superposición de componentes"
-[1]: ../../_images/azure-best-practices/network-hub-spoke-high-level.png "Ejemplo de alto nivel de una red de concentrador y radio"
-[2]: ../../_images/azure-best-practices/network-hub-spokes-cluster.png "Clúster de concentradores y radios"
-[3]: ../../_images/azure-best-practices/network-spoke-to-spoke.png "Radio a radio"
-[4]: ../../_images/azure-best-practices/network-hub-spoke-block-level-diagram.png "Diagrama de nivel de bloques del concentrador y radio"
-[5]: ../../_images/azure-best-practices/network-users-groups-subscriptions.png "Usuarios, grupos, suscripciones y proyectos"
-[6]: ../../_images/azure-best-practices/network-infrastructure-high-level.png "Diagrama de infraestructura de alto nivel"
-[7]: ../../_images/azure-best-practices/network-high-level-perimeter-networks.png "Diagrama de infraestructura de alto nivel"
-[8]: ../../_images/azure-best-practices/network-vnet-peering-perimeter-networks.png "Emparejamiento de redes virtuales y redes perimetrales"
-[9]: ../../_images/azure-best-practices/network-high-level-diagram-monitoring.png "Diagrama de alto nivel para supervisión"
-[10]: ../../_images/azure-best-practices/network-high-level-workloads.png "Diagrama de alto nivel para cargas de trabajo"
-
 <!-- links -->
 
-[Limits]: https://docs.microsoft.com/azure/azure-subscription-service-limits
-[Roles]: https://docs.microsoft.com/azure/role-based-access-control/built-in-roles
 [virtual-networks]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview
 [network-security-groups]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg
-[DNS]: https://docs.microsoft.com/azure/dns/dns-overview
-[PrivateDNS]: https://docs.microsoft.com/azure/dns/private-dns-overview
-[VNetPeering]: https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview
 [user-defined-routes]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview
-[RBAC]: https://docs.microsoft.com/azure/role-based-access-control/overview
-[azure-ad]: https://docs.microsoft.com/azure/active-directory/active-directory-whatis
-[VPN]: https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways
-[ExR]: https://docs.microsoft.com/azure/expressroute/expressroute-introduction
-[ExRD]: https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about
-[vWAN]: https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about
 [NVA]: https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/nva-ha
 [AzFW]: https://docs.microsoft.com/azure/firewall/overview
-[SubMgmt]: https://docs.microsoft.com/azure/architecture/cloud-adoption/reference/azure-scaffold
-[RGMgmt]: https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview
 [perimeter-network]: https://docs.microsoft.com/azure/best-practices-network-security
 [ALB]: https://docs.microsoft.com/azure/load-balancer/load-balancer-overview
 [DDoS]: https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview
@@ -149,15 +124,3 @@ La telemetría en tiempo real está disponible mediante las vistas de Azure Moni
 [AFDWAF]: https://docs.microsoft.com/azure/frontdoor/waf-overview
 [AppGW]: https://docs.microsoft.com/azure/application-gateway/application-gateway-introduction
 [AppGWWAF]: https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview
-[Monitor]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/
-[ActLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
-[DiagLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs
-[nsg-log]: https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log
-[OMS]: https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview
-[NPM]: https://docs.microsoft.com/azure/log-analytics/log-analytics-network-performance-monitor
-[NetWatch]: https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview
-[WebApps]: https://docs.microsoft.com/azure/app-service/
-[HDI]: https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-introduction
-[EventHubs]: https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs
-[ServiceBus]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview
-[traffic-manager]: https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview

@@ -1,6 +1,6 @@
 ---
 title: Funcionalidades de la plataforma en la nube
-description: Se describe la formación de funcionalidades de la plataforma en la nube.
+description: Use Cloud Adoption Framework para Azure con el fin de comprender la formación de las funcionalidades de la plataforma en la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: be5e914bd154ec2db0578714d08383c3c8770a5a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 204c22e7682886d8c4f90e74aa3d881e32e6c7b0
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800974"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092716"
 ---
 # <a name="cloud-platform-capabilities"></a>Funcionalidades de la plataforma en la nube
 

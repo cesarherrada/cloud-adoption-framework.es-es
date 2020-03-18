@@ -1,18 +1,18 @@
 ---
 title: Conceptos básicos de Azure
-description: Conozca los conceptos y términos fundamentales que se usan en Azure y cómo esos conceptos se relacionan entre sí.
+description: Use Cloud Adoption Framework para Azure con el fin de conocer los conceptos y términos fundamentales que se usan en Azure y cómo esos conceptos se relacionan entre sí.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d11e69014a9e46f916afb5bc8caf083c930ce725
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 90eed8109627298c8e6a044eff3333154bb17f1d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799155"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092572"
 ---
 # <a name="azure-fundamental-concepts"></a>Conceptos básicos de Azure
 

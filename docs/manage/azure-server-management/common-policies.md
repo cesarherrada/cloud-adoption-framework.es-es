@@ -1,18 +1,18 @@
 ---
 title: Ejemplos comunes de Azure Policy
-description: Ejemplos comunes de Azure Policy
+description: Use Cloud Adoption Framework para Azure con el fin de garantizar el cumplimiento de los requisitos de las directivas de gobernanza mediante la creación de directivas con cmdlets de PowerShell.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 7020ffed2395d6c22f835d66cd1c539b525f37c3
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 2048a302c717ba51b674e50ffdcfe334ba14e101
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808131"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094756"
 ---
 # <a name="common-azure-policy-examples"></a>Ejemplos comunes de Azure Policy
 

@@ -1,6 +1,6 @@
 ---
-title: El Modelo de funcionamiento en la nube es ahora el Marco de adopción de la nube para Azure
-description: Obtenga información sobre el uso de procedimientos del Modelo de funcionamiento en la nube en el Marco de adopción de la nube.
+title: El Modelo de funcionamiento en la nube es ahora Cloud Adoption Framework para Azure
+description: Use Cloud Adoption Framework para Azure con el fin de aprender el qué, el por qué y el cómo de acelerar la adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -9,16 +9,16 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 8408b657a3896cbb9376d0364dbd752ed90b9306
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: d1ba5e26214a0b60a4fe9fefb23d1dffaf8fa4ed
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048130"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023863"
 ---
 # <a name="cloud-operating-model-is-now-part-of-the-microsoft-cloud-adoption-framework-for-azure"></a>El Modelo de funcionamiento en la nube es ahora parte del Marco de adopción de la nube para Azure
 
-A comienzos de 2018, Microsoft lanzó el Modelo de funcionamiento en la nube (COM). COM era una guía que ayudaba a que los clientes entendieran **qué era** la transformación digital y sus **causas**. Esto contribuyó a que los clientes conocieran todas las áreas que se debían abordar: la estrategia empresarial, la estrategia cultural y la estrategia tecnológica. Lo que no se incluyó en COM fueron los _procedimientos_ concretos, lo que dejó a los clientes preguntándose qué hacer a partir de ahí.
+A comienzos de 2018, Microsoft lanzó el modelo operativo de la nube (COM). COM era una guía que ayudaba a que los clientes entendieran **qué era** la transformación digital y sus **causas**. Esto contribuyó a que los clientes conocieran todas las áreas que se debían abordar: la estrategia empresarial, la estrategia cultural y la estrategia tecnológica. Lo que no se incluyó en COM fueron los pasos de _procedimiento_ concretos, lo que dejó a los clientes preguntándose qué hacer a partir de ahí.
 
 En octubre de 2018, se comenzó a revisar todos los modelos que habían proliferado en la comunidad de Microsoft, aproximadamente 60 modelos de adopción de la nube diferentes. Se estableció un equipo multidisciplinar de Microsoft para reunir todo como un "producto" de ingeniería dedicado con implementaciones definidas en servicios, ventas y marketing. Este esfuerzo culminó en la creación de un único modelo, el Marco de adopción de la nube de Microsoft para Azure, diseñado para ayudar a los clientes a comprender el **qué** y el **por qué**, así como para proporcionar orientación unificada sobre el **cómo** a fin de ayudar a acelerar la adopción de la nube. El objetivo de este proyecto es crear un enfoque de Microsoft para la adopción de la nube.
 
@@ -47,7 +47,7 @@ Los ámbitos generales del Modelo de funcionamiento en la nube y el Marco de ado
 > [!NOTE]
 > El ámbito del Marco de adopción de la nube tiene dos puntos significativos de claridad. En el Marco de adopción de la nube, la estrategia empresarial va más allá de la documentación de los costos de la nube: se trata de comprender las motivaciones, los resultados deseados, los beneficios y los costos de la nube para crear planes prácticos y justificaciones empresariales claras. En el Marco de adopción de la nube, la estrategia de personal va más allá del entrenamiento para incluir enfoques que crean una madurez cultural demostrable. Algunas áreas del mapa de ruta incluyen demostraciones del impacto de la administración de Agile, la integración de DevOps, la empatía y obsesión de los clientes y los enfoques de desarrollo de producción ajustada.
 
-## <a name="structure"></a>sección Estructura
+## <a name="structure"></a>Estructura
 
 COM incluía una infografía que describía las distintas decisiones y acciones necesarias durante un esfuerzo de adopción de la nube. Ese gráfico proporcionó un medio claro de comunicar los pasos siguientes y las decisiones dependientes.
 

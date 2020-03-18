@@ -1,18 +1,18 @@
 ---
 title: ¿En qué consiste la contabilidad en la nube?
-description: Explicación del concepto de contabilidad de la nube
+description: Use Cloud Adoption Framework para Azure con el fin de comprender los modelos comunes de contabilidad en la nube para TI a medida que comienza el recorrido de la migración a la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 008958e0542a52f022bbf2ba3183fbfb8c78b9ee
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 0ccff095f78442f583bcd526ee624161276c0db3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806822"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092860"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -24,7 +24,7 @@ La nube cambia el modo en que TI justifica los costos, como se describe en [Crea
 
 A menudo es preciso considerar la TI un centro de costos. En el modelo tradicional de contabilidad de TI, el departamento de TI consolida la capacidad adquisitiva para todos los activos de TI. Como se señaló en el artículo de [modelos financieros](./financial-models.md), dicha consolidación de la capacidad adquisitiva puede incluir licencias de software, cargos periódicos de licencias de CRM, compra de equipos de escritorio para los empleados y otros costos de gran envergadura.
 
-Cuando la TI funciona como centro de costos, su valor percibido se ve en gran medida a través de un objetivo de administración de adquisiciones. Esta percepción dificulta que la Junta u otros ejecutivos comprendan el verdadero valor que proporciona la TI. Los costos de adquisición tienden a sesgar la visión de la TI al sopesar cualquier otro valor agregado por la organización. Esta consideración explica por qué la TI se suele agrupar en las responsabilidades del director financiero (CFO) o del director de información (COO). Esta percepción de la TI es limitada y puede llevar a un planteamiento corto de miras.
+Cuando la TI funciona como centro de costos, su valor percibido se ve en gran medida a través de un objetivo de administración de adquisiciones. Esta percepción dificulta que la Junta u otros ejecutivos comprendan el verdadero valor que proporciona la TI. Los costos de adquisición tienden a sesgar la visión de la TI al sopesar cualquier otro valor agregado por la organización. Esta vista explica por qué se suele agrupar TI en las responsabilidades del director financiero o del director de operaciones. Esta percepción de la TI es limitada y puede llevar a un planteamiento corto de miras.
 
 ## <a name="central-it-accounting-profit-center-model"></a>Contabilidad de TI central (modelo de centro de beneficios)
 

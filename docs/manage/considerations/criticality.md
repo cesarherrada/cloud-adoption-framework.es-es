@@ -1,18 +1,18 @@
 ---
-title: 'Importancia crítica para la empresa: administración y operaciones en la nube'
-description: 'Importancia crítica para la empresa: administración y operaciones en la nube'
+title: Importancia crítica para la empresa en la administración de la nube
+description: Use Cloud Adoption Framework para Azure para comprender la importancia de la carga de trabajo y evitar un impacto negativo en los ingresos y la rentabilidad.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 3232d0544f0382c6277e3a2898a95aa0c2f11ddd
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 2c3d5a71025e821b9554e2a8d99223c7e6b0712b
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807842"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341460"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Importancia crítica para la empresa en la administración de la nube
 

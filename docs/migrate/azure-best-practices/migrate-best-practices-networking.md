@@ -7,12 +7,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 66694a9e1781f7d12d74e767b812b0831a371377
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 7bdfe3108c2ccdfd2661d45cc234978c784232f9
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225584"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892708"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
@@ -40,7 +40,7 @@ Al planear la topología de la red virtual, debe tener en cuenta cómo organizar
 
 Al crear redes virtuales como parte de la migración, es importante planear el espacio de direcciones IP de la red virtual.
 
-- Debe asignar un espacio de direcciones que no sea mayor que un intervalo de CIDR de /16 para cada red virtual. Las redes virtuales permiten el uso de 65536 direcciones IP, y asignar un prefijo menor que /16 tendría como resultado la pérdida de las direcciones IP. Es importante no desperdiciar direcciones IP, aunque se encuentren en los intervalos privados definidos en RFC 1918.
+- Debe asignar un espacio de direcciones que no sea mayor que un intervalo de CIDR de /16 para cada red virtual. Las redes virtuales permiten el uso de 65 536 direcciones IP, por lo que la asignación de un prefijo menor que /16 —como /15, que tiene 131 072 direcciones— provocaría un exceso de direcciones IP que no se podrían utilizar en otro lugar. Es importante no desperdiciar direcciones IP, aunque se encuentren en los intervalos privados definidos en RFC 1918.
 - El espacio de direcciones de red virtual no debe superponerse con intervalos de red local.
 - No debe utilizarse la traducción de direcciones de red (NAT).
 - La superposición de direcciones puede provocar que las redes no se puedan conectar y que el enrutamiento no funcione correctamente. Si las redes se superponen, tendrá que volver a diseñar la red o utilizar la traducción de direcciones de red (NAT).

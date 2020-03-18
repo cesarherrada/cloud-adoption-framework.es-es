@@ -1,18 +1,18 @@
 ---
 title: Escalas de tiempo de un plan de adopción de la nube
-description: Escalas de tiempo de un plan de adopción de la nube
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a estimar las escalas de tiempo en función del plan de adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 4918c5e4c9efefdd8785586bf8fb309684b654a7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 885d5c46099c0e161449aeae3f9c1203a2949728
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800064"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092646"
 ---
 # <a name="timelines-in-a-cloud-adoption-plan"></a>Escalas de tiempo de un plan de adopción de la nube
 

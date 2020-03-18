@@ -1,18 +1,18 @@
 ---
-title: Servicios y herramientas de administración de servidores de Azure
-description: Servicios y herramientas de administración de servidores de Azure
+title: Servicios de administración de servidores de Azure
+description: Use Cloud Adoption Framework para Azure para conocer las áreas del conjunto de servicios de administración de servidores de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: df6851ff628c0abcb38ee9139fcf24f31e2117cf
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 38f7c2f6fc5be0cdad9a963fcf7f0fbb65937d3d
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223277"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341608"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Servicios y herramientas de administración de servidores de Azure
 
@@ -73,7 +73,7 @@ En esta categoría se ajustan varios servicios. Pueden ayudarle a:
 
 Estos servicios son esenciales para la compatibilidad con las operaciones en curso:
 
-- [Update Management](https://docs.microsoft.com/azure/automation/automation-update-management#view-update-assessments) automatiza la implementación de revisiones en el entorno, incluida la implementación en instancias del sistema operativo que se ejecutan fuera de Azure. Es compatible con sistemas operativos Windows y Linux, y realiza un seguimiento de las vulnerabilidades clave del sistema operativo y el incumplimiento provocados por la falta de revisiones.
+- [Update Management](/azure/automation/automation-update-management) automatiza la implementación de revisiones en el entorno, incluida la implementación en instancias del sistema operativo que se ejecutan fuera de Azure. Es compatible con sistemas operativos Windows y Linux, y realiza un seguimiento de las vulnerabilidades clave del sistema operativo y el incumplimiento provocados por la falta de revisiones.
 - [Change Tracking e Inventario](https://docs.microsoft.com/azure/automation/change-tracking) proporciona información sobre el software que se ejecuta en el entorno y resalta los cambios que se han producido.
 - [Azure Automation](https://docs.microsoft.com/azure/automation/automation-intro) permite ejecutar scripts o runbooks de Python y PowerShell para automatizar las tareas en el entorno. Cuando se usa Automation con [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker), también se pueden ampliar los runbooks a los recursos locales.
 - [Azure Automation State Configuration](https://docs.microsoft.com/azure/automation/automation-dsc-overview) permite insertar configuraciones de Desired State Configuration (DSC) de PowerShell directamente desde Azure. DSC también permite supervisar y conservar las configuraciones de las cargas de trabajo y los sistemas operativos invitados.

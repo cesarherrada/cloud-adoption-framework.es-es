@@ -8,19 +8,19 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: d94db62c907599720c8f29408c6b3e5ee5cfde5e
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 8291b48d2955d623b643c944f4307613bcf22f47
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225266"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023939"
 ---
-<!-- cSpell:ignore rodend subscope ITSM -->
+<!-- cSpell:ignore rodend subscope ITSM Hashi -->
 
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Scaffold de Azure Enterprise: Gobernanza de suscripción prescriptiva
 
 > [!NOTE]
-> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/azure-setup-guide/migration-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
+> Scaffolding empresarial de Azure se ha integrado con Microsoft Cloud Adoption Framework. El contenido de este artículo se representa ahora en la sección [Preparación](../ready/index.md) del nuevo marco. Este artículo estará en desuso a principios de 2020. Para empezar a usar el nuevo proceso, consulte [Introducción a la preparación](../ready/index.md), [Creación de la primera zona de aterrizaje](../ready/landing-zone/migrate-landing-zone.md) o [Consideraciones sobre la zona de aterrizaje](../ready/considerations/index.md).
 
 Cada vez son más las empresas que adoptan la tecnología de nube pública para ganar agilidad y flexibilidad. Confían en los puntos fuertes de la nube para generar ingresos y optimizar el uso de los recursos de la empresa. Microsoft Azure proporciona un gran número de servicios y funcionalidades que las empresas ensamblan como bloques de creación con el objetivo de abordar diversas aplicaciones y cargas de trabajo.
 
@@ -77,7 +77,7 @@ Los tres patrones comunes de las inscripciones de Azure son los siguientes:
 
   ![el patrón geográfico.](../_images/reference/geographic.png)
 
-Aunque cada uno de estos patrones tiene su sitio, cada vez se adopta más el patrón de la **unidad de negocio** por su flexibilidad para dar forma al modelo de costos de una organización y para reflejar el ámbito de control. El grupo de operaciones e ingeniería principal de Microsoft ha creado un subconjunto eficaz del patrón de **unidad de negocio**, cuyo modelado se realiza a nivel **federal**, **estatal** y **local**. Para más información, consulte [Organización de suscripciones y grupos de recursos de la empresa](https://azure.microsoft.com/blog/organizing-subscriptions-and-resource-groups-within-the-enterprise).
+Aunque cada uno de estos patrones tiene su sitio, cada vez se adopta más el patrón de la **unidad de negocio** por su flexibilidad para dar forma al modelo de costos de una organización y para reflejar el ámbito de control. El grupo de operaciones e ingeniería principal de Microsoft ha creado un subconjunto eficaz del patrón de **unidad de negocio**, cuyo modelado se realiza a nivel **federal**, **estatal** y **local**. Para más información, consulte [Organización de suscripciones y grupos de recursos de la empresa](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/scaling-subscriptions).
 
 ### <a name="azure-management-groups"></a>Grupos de administración de Azure
 
@@ -314,7 +314,7 @@ La automatización es un trabajo a tiempo completo y rápidamente se convertirá
 
 ## <a name="templates-and-devops"></a>Plantillas y DevOps
 
-Como se explica en la sección de automatización, el objeto como organización debe ser aprovisionar recursos mediante scripts y plantillas controlados por código fuente y minimizar la configuración interactiva de los entornos. Este enfoque de "infraestructura como código" junto con un proceso disciplinado de DevOps para la implementación continua puede garantizar la coherencia y reducir el desfase en todos los entornos. Casi todos los recursos de Azure se pueden implementar con [plantillas JSON de Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) junto con PowerShell o las herramientas y la CLI multiplataforma de Azure, como Terraform de Hashicorp (que ofrece compatibilidad de primera clase y se integra en Azure Cloud Shell).
+Como se explica en la sección de automatización, el objeto como organización debe ser aprovisionar recursos mediante scripts y plantillas controlados por código fuente y minimizar la configuración interactiva de los entornos. Este enfoque de "infraestructura como código" junto con un proceso disciplinado de DevOps para la implementación continua puede garantizar la coherencia y reducir el desfase en todos los entornos. Casi todos los recursos de Azure se pueden implementar con [plantillas JSON de Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) junto con PowerShell o la CLI multiplataforma de Azure y herramientas como Terraform de HashiCorp (que ofrece compatibilidad de primera clase y se integra en Azure Cloud Shell).
 
 En artículos como [Procedimientos recomendados para usar plantillas de Azure Resource Manager](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/01/azure-resource-manager) se ofrece un excelente debate sobre los procedimientos recomendados y las lecciones aprendidas en relación con la aplicación de un enfoque de DevOps a plantillas de Azure Resource Manager con la cadena de herramientas de [Azure DevOps](https://docs.microsoft.com/azure/devops/user-guide/?view=vsts). Dedique tiempo y esfuerzo a desarrollar un conjunto de plantillas específicas para los requisitos de su organización y a desarrollar canalizaciones de entrega continua con las cadenas de herramientas de DevOps (como Azure DevOps, Jenkins, Bamboo, TeamCity y Concourse), especialmente para los entornos de producción y de control de calidad. Existe una gran biblioteca de [plantillas de inicio rápido de Azure](https://github.com/Azure/azure-quickstart-templates) en GitHub que puede usar como punto de partida para las plantillas, a fin de poder crear rápidamente canalizaciones de entrega basadas en la nube con Azure DevOps.
 

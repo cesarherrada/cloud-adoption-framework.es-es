@@ -1,6 +1,6 @@
 ---
 title: Islas y feudos
-description: Comprenda los antipatrones de islas y feudos.
+description: Conozca los antipatrones que pueden bloquear una mentalidad de crecimiento en las organizaciones. En concreto, conozca los antipatrones de silo y feudo.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: a430f988282a89bb4aea7e07689310309d5b971c
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 396e183e0e0af791c514e29b755c0b04a791f3a1
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222301"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093808"
 ---
 # <a name="organizational-antipatterns-silos-and-fiefdoms"></a>Antipatrones de la organización: Islas y feudos
 

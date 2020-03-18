@@ -1,18 +1,18 @@
 ---
-title: Habilitar el seguimiento y las alertas de los cambios críticos
-description: Habilitar el seguimiento y las alertas de los cambios críticos
+title: Seguimiento y alertas de cambios críticos
+description: Habilite el seguimiento y las alertas para los cambios críticos en su entorno híbrido con Azure Change Tracking e Inventario.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 4581c865f3dd928df91e7e1eef97a0ea341e4ccb
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 124f8943b7014f7f9fffeb39d464f3ad28e85816
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223503"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341715"
 ---
 # <a name="enable-tracking-and-alerting-for-critical-changes"></a>Habilitar el seguimiento y las alertas de los cambios críticos
 

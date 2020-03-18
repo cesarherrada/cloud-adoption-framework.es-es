@@ -1,18 +1,18 @@
 ---
 title: Establecimiento de iteraciones y planes de versiones
-description: Establecimiento de iteraciones y planes de versiones
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a definir iteraciones y planes de versiones que le ayuden a administrar la implementación.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: bdd0150aef6c04b43121b5bef1224bea93191e2c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 8aaee4546568301eabbe774cea08c3d5d975bb3e
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800345"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092674"
 ---
 # <a name="establish-iterations-and-release-plans"></a>Establecimiento de iteraciones y planes de versiones
 

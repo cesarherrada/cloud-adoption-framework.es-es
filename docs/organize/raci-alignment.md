@@ -1,6 +1,6 @@
 ---
 title: Alineación de responsabilidades entre los equipos
-description: Aprenda a alinear las responsabilidades entre los equipos.
+description: Aprenda a alinear las responsabilidades de los equipos mediante el desarrollo de una matriz entre equipos que identifique a las entidades responsables, encargadas, consultadas e informadas (RACI por sus siglas en inglés).
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 87ff20e3e81b8b01e6405984a63a9192184a4fa5
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9921f9b8afc492bef5730e55f2d342ab4ec26436
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800702"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093706"
 ---
 # <a name="align-responsibilities-across-teams"></a>Alineación de responsabilidades entre los equipos
 

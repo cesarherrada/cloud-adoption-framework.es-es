@@ -1,6 +1,6 @@
 ---
-title: 'Guía sobre la supervisión en la nube: recopilación de los datos correctos'
-description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
+title: Recopilación de datos de supervisión en la nube
+description: Aprenda a observar el estado y la disponibilidad de la solución en la nube para recopilar los datos de supervisión adecuados.
 author: MGoedtel
 ms.author: magoedte
 ms.date: 06/26/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: a406d0c05594cff736265b0b69e24dcc8bc0f695
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 3b537caf193601057da458b07cb62bdba64a7b6b
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223251"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341113"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Guía sobre la supervisión en la nube: recopilación de los datos correctos
 

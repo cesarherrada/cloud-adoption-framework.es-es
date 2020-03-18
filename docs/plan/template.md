@@ -1,18 +1,18 @@
 ---
 title: Implementación del plan de adopción de la nube en Azure DevOps
-description: Implementación de la plantilla del plan de adopción de la nube
+description: Aprenda a implementar rápidamente un trabajo pendiente en Azure DevOps mediante una plantilla de plan de adopción de la nube que alinea los esfuerzos de adopción de la nube en un proceso normalizado.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a7e4dfda94b15a1e589ffadc9b13db57f4a70ef7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a7f03ce1f83d59fdcfe2b2ce696b6b591b8d0655
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800124"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341936"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>Plan de adopción de la nube y Azure DevOps
 

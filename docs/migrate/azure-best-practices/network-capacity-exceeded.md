@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2d7ae4989251c0c3022c1044280d433e4dc920ad
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 854e22b70250496704cade4d7465c217705c928d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78898114"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094832"
 ---
+<!-- cSpell:ignore HDFS databox VHDX -->
+
 # <a name="data-requirements-exceed-network-capacity-during-a-migration-effort"></a>Los requisitos de datos superan la capacidad de la red durante un esfuerzo de migración.
 
 En una migración a la nube, los recursos se replican y sincronizan a través de la red entre el centro de datos existente y la nube. No es poco frecuente que los requisitos de tamaño de datos existentes de varias cargas de trabajo superen la capacidad de la red. En dicho escenario, el proceso de migración se puede ralentizar de manera considerable o, en algunos casos, se puede detener por completo. En las instrucciones siguientes se expandirá el ámbito de la [Guía de migración a Azure](../azure-migration-guide/index.md) para proporcionar una solución que funcione en torno a las limitaciones de la red.
@@ -28,7 +30,7 @@ La mayor parte de este esfuerzo requerido en esta expansión del ámbito se prod
 
 **Transferencia sin conexión de almacenes de datos independientes:** en el diagrama siguiente se muestran ejemplos de transferencias de datos en línea y sin conexión con Azure Data Box. Estos enfoques se pueden usar para enviar grandes volúmenes de datos a la nube antes de la migración de las cargas de trabajo. En una transferencia de datos sin conexión, los datos de origen se copian a Azure Data Box, el que se envía físicamente a Microsoft para su transferencia a una cuenta de almacenamiento de Azure como archivo o blob. Este proceso se puede usar para enviar datos que no estén vinculados directamente a una carga de trabajo específica, antes de los demás esfuerzos de migración. Esto reduce la cantidad de datos que se deben enviar a través de la red, en un esfuerzo por completar una migración dentro de las restricciones de la red.
 
-este enfoque se podría usar para transferir HDFS de datos, copias de seguridad, archivos, servidores de archivos, aplicaciones, etc. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
+Este enfoque se podría usar para transferir datos desde HDFS, copias de seguridad, archivos, servidores de archivos y aplicaciones. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
 
 También hay [soluciones de asociados de terceros](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box) que usan Azure Data Box para una migración de tipo "inicialización y fuente", donde un gran volumen de datos se mueve a través de una transferencia sin conexión pero que más adelante se sincroniza a una escala inferior a través de la red.
 

@@ -1,18 +1,18 @@
 ---
-title: Aplicación de principios de diseño y operaciones avanzadas
-description: Aplicación de principios de diseño y operaciones avanzadas
+title: Principios de diseño y operaciones avanzadas
+description: Aprenda a aplicar principios de diseño y opciones avanzadas para crear una oferta que proporcione un nivel mínimo de compromiso empresarial para todas las cargas de trabajo que se admiten.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 16762a0eae366c3bf1cd578faaf52df60e6c97b1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a5861b23e5cc408957f922472dd6ee863c7c13fa
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807689"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341052"
 ---
 # <a name="apply-design-principles-and-advanced-operations"></a>Aplicación de principios de diseño y operaciones avanzadas
 

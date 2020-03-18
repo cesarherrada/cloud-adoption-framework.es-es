@@ -1,6 +1,6 @@
 ---
 title: Migración a la nube
-description: Migración a la nube en Cloud Adoption Framework
+description: Aprenda a establecer los procesos iterativos para evaluar, migrar, optimizar, proteger y administrar las cargas de trabajo que desea migrar a la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: 90a9c69b311f1d4687d2691af13c3b51a7b6f813
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: c4ee7491fb5fbfa549dfe82c82e720f51188a25c
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337802"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312312"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Migración a la nube en Cloud Adoption Framework
 
@@ -21,12 +21,12 @@ Cualquier [plan de adopción de nube](../plan/index.md) a escala empresarial inc
 
 ## <a name="getting-started"></a>Introducción
 
-Para prepararse para esta fase del ciclo de vida de adopción de la nube, la plataforma sugiere los cinco ejercicios siguientes:
+Para prepararse para esta fase del ciclo de vida de adopción de la nube, el marco recomienda los siguientes ejercicios:
 
 <!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsF">
     <li style="display: flex; flex-direction: column;">
-        <a href="./azure-migration-guide/prerequisites.md?tabs=Checklist">
+        <a href="./azure-migration-guide/index.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -36,27 +36,8 @@ Para prepararse para esta fase del ciclo de vida de adopción de la nube, la pla
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Requisitos previos de migración</h3>
-Compruebe que se ha implementado una zona de aterrizaje y que está lista para hospedar las primeras cargas de trabajo que se migrarán a Azure. Si no se ha creado una estrategia de adopción de la nube y un plan de adopción de la nube, compruebe que ambas acciones están en curso.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li style="display: flex; flex-direction: column;">
-        <a href="./azure-migration-guide/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
                             <h3>Migración de la primera carga de trabajo</h3>
-Aproveche la guía de migración de Azure para que le ayude a realizar la migración de la primera carga de trabajo. Esta guía le ayudará a familiarizarse con las herramientas y enfoques necesarios para escalar los esfuerzos de adopción.
+Aproveche la guía de migración de Azure para familiarizarse con las herramientas nativas de Azure y con la migración.
                         </div>
                     </div>
                 </div>
@@ -70,12 +51,12 @@ Aproveche la guía de migración de Azure para que le ayude a realizar la migrac
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Escenarios de migración expandidos</h3>
-Aproveche la lista de comprobación de ámbito ampliado para identificar los escenarios que requerirían modificaciones en la arquitectura futura del patrimonio, en los procesos de migración, las configuraciones de zona de aterrizaje o las decisiones sobre herramientas de migración.
+                            <h3>Escenarios de migración</h3>
+Aproveche otras herramientas de migración y enfoques para actuar en escenarios de migración adicionales.
                         </div>
                     </div>
                 </div>
@@ -89,12 +70,12 @@ Aproveche la lista de comprobación de ámbito ampliado para identificar los esc
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Prácticas recomendadas</h3>
-Compruebe todas las modificaciones en comparación con la sección de procedimientos recomendados para garantizar una implementación adecuada del ámbito ampliado o de los enfoques específicos de migración de carga de trabajo o arquitectura.
+                            <h3>Procedimientos recomendados</h3>
+Aborde las necesidades comunes de migración mediante la aplicación de procedimientos recomendados coherentes.
                         </div>
                     </div>
                 </div>
@@ -108,12 +89,12 @@ Compruebe todas las modificaciones en comparación con la sección de procedimie
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/5.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Mejora de procesos</h3>
-La migración es una actividad de proceso intensivo. A medida que se escalan los esfuerzos de migración, utilice la sección de consideraciones sobre la migración para evaluar y madurar diversos aspectos de los procesos.
+La migración es una actividad de proceso intensivo. A medida que se escalan los esfuerzos de migración, utilice estas mejoras de procesos para evaluar y consolidar diversos aspectos de la migración.
                         </div>
                     </div>
                 </div>
@@ -123,11 +104,16 @@ La migración es una actividad de proceso intensivo. A medida que se escalan los
 </ul>
 <!-- markdownlint-enable MD033 -->
 
+Esta metodología y los pasos anteriores se basan en los siguientes supuestos:
+
+- Antes de migrar las cargas de trabajo, se ha identificado, configurado e implementado al menos una [zona de aterrizaje](../ready/index.md) para satisfacer las necesidades del plan de adopción de la nube a corto plazo.
+- La migración se asocia normalmente con los términos _lift-and-shift_ o _rehospedaje_. Esta metodología y los pasos anteriores se basan en la creencia de que no se debe migrar ningún centro de datos (y muy pocas cargas de trabajo) mediante un enfoque de rehospedaje puro. Aunque se pueden rehospedar muchas cargas de trabajo, los clientes suelen optar por modernizar recursos específicos dentro de cada carga de trabajo. Durante este proceso iterativo, el equilibrio entre velocidad y modernización es un punto de debate común.
+
 ## <a name="iterative-migration-process"></a>Proceso de migración iterativo
 
 En esencia, la migración a la nube consta de cuatro fases simples: Evaluación, Migración, Optimización y Seguridad y administración. Esta sección de Cloud Adoption Framework enseña a los lectores cómo maximizar el rendimiento de cada fase del proceso y cómo alinear esas fases al plan de adopción de la nube. El siguiente gráfico ilustra esas fases en un enfoque iterativo:
 
-![Modelo de migración de Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
+![Modelo de migración de Cloud Adoption Framework](../_images/migrate/methodology.png)
 
 ## <a name="create-a-balanced-cloud-portfolio"></a>Creación de una cartera equilibrada en la nube
 
@@ -143,7 +129,7 @@ Un viaje efectivo necesita un destino. Establezca una visión aproximada del est
 
 Estos artículos describen dos recorridos, cada uno con un objetivo similar: migrar un gran porcentaje de los recursos existentes a Azure. Sin embargo, los resultados empresariales y el estado actual influirán de manera significativa en los procesos necesarios para conseguirlo. Esas sutiles desviaciones dan como resultado dos enfoques radicalmente diferentes para alcanzar un estado final similar.
 
-![Modelo de migración de Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
+![Modelo de migración de Cloud Adoption Framework](../_images/migrate/methodology.png)
 
 Para guiar la ejecución incremental durante la transición al estado final, este modelo separa la migración en dos áreas de enfoque.
 
@@ -173,48 +159,9 @@ Sin embargo, sigue siendo necesario un enfoque de migración incremental. En la 
 
 El enfoque de migración incremental de Cloud Adoption Framework ayuda a crear un plan incremental que refleja y documenta las limitaciones técnicas y culturales. El objetivo de este modelo es maximizar la velocidad de migración y minimizar la sobrecarga de TI y de la empresa. A continuación se presentan dos ejemplos de ejecución de una migración incremental basada en el trabajo pendiente de la migración.
 
-<!-- markdownlint-disable MD033 -->
-
-<ul class="panelContent cardsZ">
-<li style="display: flex; flex-direction: column;">
-    <a href="./azure-migration-guide/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Guía de migración a Azure</h3>
-                        <p><b>Resumen narrativo:</b> Este cliente está migrando menos de 1000 máquinas virtuales. Menos de diez aplicaciones admitidas son propiedad del propietario de una aplicación que no pertenece a la organización de TI. El resto de aplicaciones, máquinas virtuales y datos asociados son propiedad de los miembros del equipo de adopción de la nube y están admitidos por ellos. Los miembros del equipo de adopción de la nube tienen acceso administrativo a los entornos de producción del centro de datos existente.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./expanded-scope/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Guía del escenario complejo</h3>
-                        <p><b>Resumen narrativo:</b> La migración de este cliente tiene complejidad en todo el negocio, la referencia cultural y la tecnología. Esta guía incluye múltiples desafíos específicos de complejidad y formas de superarlos.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-</ul>
-
-<!-- markdownlint-enable MD033 -->
-
-Estos dos recorridos representan dos extremos de la experiencia para los clientes que invierten en la migración a la nube. La mayoría de las compañías reflejan una combinación de los dos escenarios anteriores. Después de revisar el recorrido, utilice el modelo de migración de Cloud Adoption Frameworkpara iniciar la conversación de migración y modificar los recorridos de línea de base para satisfacer mejor sus necesidades.
-
 ## <a name="next-steps"></a>Pasos siguientes
 
-Elija uno de estos recorridos:
+Empiece por familiarizarse con la [guía de migración de Azure](./azure-migration-guide/index.md).
 
 > [!div class="nextstepaction"]
 > [Guía de migración a Azure](./azure-migration-guide/index.md)
->
-> [Guía del ámbito ampliado](./expanded-scope/index.md)

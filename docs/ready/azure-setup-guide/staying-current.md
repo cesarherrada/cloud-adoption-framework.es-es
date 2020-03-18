@@ -1,6 +1,6 @@
 ---
-title: Mantenerse al día con Azure en la cadencia de la nube de hoy
-description: Obtenga información sobre cómo mantenerse al día y administrar los cambios con Azure en la cadencia de la nube de hoy.
+title: Mantenerse al día con Azure
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a mantenerse al día y administrar los cambios en la cadencia de la nube de hoy en día.
 author: jelledruyts
 ms.author: andym
 ms.date: 04/09/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 3852317648526cceadfd772b72adbd1af2bb7d08
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: ad8b6259aaa0808e2628fed9b88f0f806c46e655
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222057"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341987"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Manténgase al día con Microsoft Azure
 

@@ -1,6 +1,6 @@
 ---
-title: 'Guía sobre la supervisión en la nube: Introducción a las plataformas de supervisión'
-description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
+title: Introducción a las plataformas de supervisión en la nube
+description: Consulte una introducción general sobre dos plataformas de supervisión, para ayudarle a entender cómo proporciona cada una la funcionalidad de supervisión principal.
 author: mgoedtel
 ms.author: magoedte
 ms.date: 07/31/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 99faaa30d67b404e9a9aa1a45d434fd7ec3f2c31
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: fba1f50b71f664c3d7bbb4a4498c3e067f45923d
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223027"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341205"
 ---
 <!-- cspell:ignore opsman ITSM -->
 

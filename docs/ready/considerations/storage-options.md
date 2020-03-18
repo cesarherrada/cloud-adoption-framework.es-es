@@ -1,19 +1,21 @@
 ---
 title: Revisión de las opciones de almacenamiento
-description: Revise las opciones de almacenamiento para las cargas de trabajo de Azure.
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a revisar las opciones de almacenamiento para las cargas de trabajo de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 054537d4d1b9a83700ed0c6a1a8840682f04faa1
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 28c5fbb7a95edd2ad32ccc3489f81cd99dc6c088
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892504"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093021"
 ---
+<!-- cSpell:ignore HDFS databox Avere HANA ACLs Isilon DFSR Cloudera -->
+
 # <a name="review-your-storage-options"></a>Revisión de las opciones de almacenamiento
 
 Las funcionalidades de almacenamiento son fundamentales para admitir las cargas de trabajo y los servicios que se hospedan en la nube. Como parte de sus preparativos de preparación para la adopción de la nube, revise este artículo para planear y atender sus necesidades de almacenamiento.

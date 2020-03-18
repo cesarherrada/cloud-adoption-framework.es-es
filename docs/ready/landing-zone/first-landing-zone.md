@@ -8,12 +8,12 @@ ms.date: 02/25/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b451ec6f58a684bd4fb5998f1915dc79761b7a44
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 04293b0e0d30ae1eaa85f4c86c6c7d70b2cfac82
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228587"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092986"
 ---
 # <a name="first-landing-zone"></a>Primera zona de aterrizaje
 
@@ -33,7 +33,8 @@ C. Algunos planes de adopción de la nube están gobernados por requisitos de cu
 
 D. Cuando un asociado proporciona servicios administrados continuos o se le contrata para cumplir el plan de adopción, este normalmente, proporcionará su propia zona de aterrizaje. El uso de una zona de aterrizaje de un asociado podría acelerar los esfuerzos de adopción y garantizar unos requisitos de administración operativa coherentes. No obstante, preste especial atención a los requisitos de gobernanza interna y seguridad para garantizar la alineación.
 
-E. Los equipos de adopción que tienen un objetivo a medio plazo (plazo de 24 meses) para **hospedar más de 1000 recursos (aplicaciones, infraestructura o recursos de datos) en la nube**, deberían consultar NorthStar de Cloud Adoption Framework como una guía sobre la arquitectura y las zonas de aterrizaje de la plataforma. Northstar es una hoja de ruta más avanzada que incluye implementaciones de arquitectura y referencia de plataforma de estado de destino. Esta hoja de ruta incorpora aspectos de metodologías paralelas que incluyen la gobernanza y las operaciones necesarias para preparar mejor una adopción crítica, segura, compleja y controlada por el cumplimiento.
+> [!NOTE]
+> Antes de continuar con un enfoque basado primero en el código y centrado en refactorización, los lectores deben familiarizarse con las [prioridades en competencia tras esta decisión](../../strategy/balance-competing-priorities.md#balance-during-ready). Al elegir un enfoque de zona de aterrizaje, es importante comprender el equilibrio necesario entre "tiempo para adopción" y "operaciones a largo plazo".
 
 ## <a name="choosing-a-first-landing-zone"></a>Elección de una primera zona de aterrizaje
 
@@ -49,7 +50,7 @@ La siguiente tabla muestra las mismas zonas de aterrizaje desde una perspectiva 
 | Zona de aterrizaje                                 | Hub                          | Radio    | Modelo de nube | Technology      |
 |----------------------------------------------|------------------------------|----------|-------------|-----------------|--|--|--|
 | [Migración de CAF](./migrate-landing-zone.md)     | Se requiere refactorización            | Se incluye | Solo Azure  | Azure Blueprint |
-| [CAF Terraform](./terraform-landing-zone.md) | Incluido en el módulo de NorthStar | Se incluye | Nube múltiple  | Terraform       |
+| [CAF Terraform](./terraform-landing-zone.md) | Incluido en el módulo de VDC       | Se incluye | Nube múltiple  | Terraform       |
 
 ## <a name="next-steps"></a>Pasos siguientes
 

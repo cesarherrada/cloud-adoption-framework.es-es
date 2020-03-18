@@ -1,18 +1,18 @@
 ---
 title: Usar la plantilla de resultados empresariales
-description: Explicación de la plantilla de resultados empresariales
+description: Aprenda a usar la plantilla de resultados empresariales para capturar los resultados de la empresa que se usarán en el desarrollo de estrategias para el recorrido de transformación del cliente.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 53e925a7ccf036e03b73bb888fa112549a65433e
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 243a75f8aa5352299e0730a91f462fbf935a2f2f
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798560"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092929"
 ---
 # <a name="how-to-use-the-business-outcome-template"></a>Usar la plantilla de resultados empresariales
 
@@ -24,7 +24,7 @@ Descargue la [hoja de cálculo de plantilla de resultados empresariales](https:/
 
 ## <a name="use-the-business-outcome-template"></a>Usar la plantilla de resultados empresariales
 
-Presentados por Kate Johnson en Microsoft Digital Transformation Academy, los resultados empresariales se centran en tres aspectos:
+En esta plantilla, los resultados empresariales se centran en tres temas:
 
 - Alineación con las partes interesadas o los responsables de la toma de decisiones empresariales
 - Descripción de los impulsores y los objetivos del negocio

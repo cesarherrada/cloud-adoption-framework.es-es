@@ -1,19 +1,21 @@
 ---
 title: Revisión de las opciones de datos
-description: Revise las opciones de datos para las cargas de trabajo de Azure.
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a determinar los requisitos de datos para hospedar las cargas de trabajo.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 434fb0982b0749a6fcb117b86d8cf3bb6335f13a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5fdafdfd9bfccd86e7ddcc1ee08afdf561d4e680
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806890"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093753"
 ---
+<!-- cSpell:ignore HDFS -->
+
 # <a name="review-your-data-options"></a>Revisión de las opciones de datos
 
 Cuando prepare el entorno de la zona de aterrizaje para la adopción de la nube, deberá determinar los requisitos de datos para hospedar las cargas de trabajo. Los productos y servicios de base de datos de Azure admiten una amplia variedad de escenarios y funcionalidades de almacenamiento de datos. El modo en que se configure el entorno de la zona de aterrizaje para satisfacer los requisitos de datos depende de los requisitos de gobierno, técnicos y empresariales de la carga de trabajo.
@@ -47,17 +49,17 @@ Responda a las siguientes preguntas sobre las cargas de trabajo como ayuda para 
 
 En la tabla siguiente se muestran algunos requisitos de escenarios de uso comunes y los servicios de base de datos recomendados para gestionarlos:
 
-| **Escenario** | **Servicio de datos** |
-|-----|-----|
-| Necesito una base de datos multimodelo distribuida globalmente que admita opciones NoSQL. | [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) |
-| Necesito una base de datos relacional totalmente administrada que se aprovisione con rapidez, admita escalado sobre la marcha e incluya inteligencia y seguridad integradas. | [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) |
-| Necesito una base de datos relacional MySQL escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional. | [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/overview) |
-| Necesito una base de datos relacional PostgreSQL escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional. | [Azure Database para PostgreSQL](https://docs.microsoft.com/azure/postgresql/overview) |
-| Tengo previsto hospedar aplicaciones de SQL Server empresarial en la nube y tener un control total sobre el sistema operativo del servidor. | [SQL Server en Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview) |
-| Necesito almacenamiento de datos elástico totalmente administrado que disponga de seguridad en todos los niveles de escalado y sin costo adicional. | [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) |
-| Necesito recursos de almacenamiento de Data Lake que puedan admitir clústeres de Hadoop o datos de HDFS. | [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake) |
-| Necesito acceso a datos coherente, de baja latencia y alto rendimiento para mis datos para admitir aplicaciones rápidas y escalables. | [Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview) |
-| Necesito una base de datos relacional MariaDB escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional. | [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/overview) |
+| **Escenario**                                                                                                                            | **Servicio de datos**                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Necesito una base de datos multimodelo distribuida globalmente que admita opciones NoSQL.                                                     | [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction)                                                                        |
+| Necesito una base de datos relacional totalmente administrada que se aprovisione con rapidez, admita escalado sobre la marcha e incluya inteligencia y seguridad integradas. | [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)                                               |
+| Necesito una base de datos relacional MySQL escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional.           | [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/overview)                                                                       |
+| Necesito una base de datos relacional PostgreSQL escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional.      | [Azure Database para PostgreSQL](https://docs.microsoft.com/azure/postgresql/overview)                                                             |
+| Tengo previsto hospedar aplicaciones de SQL Server empresarial en la nube y tener un control total sobre el sistema operativo del servidor.                                        | [SQL Server en Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview) |
+| Necesito almacenamiento de datos elástico totalmente administrado que disponga de seguridad en todos los niveles de escalado y sin costo adicional.                               | [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)                               |
+| Necesito recursos de almacenamiento de Data Lake que puedan admitir clústeres de Hadoop o datos de HDFS.                                         | [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake)                                                                                |
+| Necesito acceso a datos coherente, de baja latencia y alto rendimiento para mis datos para admitir aplicaciones rápidas y escalables.                           | [Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)                                                    |
+| Necesito una base de datos relacional MariaDB escalable y totalmente administrada, con alta disponibilidad y seguridad integrada sin costo adicional.         | [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/overview)                                                                   |
 
 ## <a name="regional-availability"></a>Disponibilidad regional
 

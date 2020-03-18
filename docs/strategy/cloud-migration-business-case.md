@@ -1,6 +1,6 @@
 ---
-title: Compilación de una justificación comercial para la migración a la nube
-description: Consideraciones para crear una justificación empresarial para la migración a la nube
+title: Justificación comercial para la migración a la nube
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a iniciar el desarrollo de una justificación empresarial para la migración a la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 36306ab50f4158741f1ff4334c43900c2f657920
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 28762d3540124b40bd3db4d7bd431033a1c25b5f
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798594"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337971"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Compilación de una justificación comercial para la migración a la nube
 

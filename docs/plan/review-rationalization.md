@@ -1,18 +1,18 @@
 ---
 title: Revisión de las decisiones de racionalización
-description: Revisión de las decisiones de racionalización
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a revisar las decisiones de racionalización y prepararse para facilitar una conversación con la empresa.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 47efac0b85198e95a76d40ad053a33c8051837ea
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e38616b97f5026bd66de510cac12932290e276ba
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800192"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093265"
 ---
 # <a name="review-rationalization-decisions"></a>Revisión de las decisiones de racionalización
 

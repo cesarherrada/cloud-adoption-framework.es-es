@@ -1,6 +1,6 @@
 ---
 title: Desarrollo de aptitudes técnicas
-description: Introducción a la ruta de preparación de aptitudes durante la fase de preparación de una migración.
+description: Use Cloud Adoption Framework para Azure con el fin de saber cómo ayudar a su organización a desarrollar las aptitudes necesarias para estructurar los equipos y alcanzar los resultados deseados.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 7ba7d9044fcc26ecc152e4944dac4999c799bcf2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f1fa9c4705aaa437a0a532fd6463fe502f4df0bb
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800685"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092622"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration"></a>Ruta de preparación de aptitudes durante la fase de preparación de una migración
 

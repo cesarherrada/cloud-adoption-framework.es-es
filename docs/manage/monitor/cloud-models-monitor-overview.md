@@ -1,6 +1,6 @@
 ---
-title: 'Guía sobre la supervisión en la nube: estrategia de supervisión para los modelos de implementación en la nube'
-description: Decida cuándo usar Azure Monitor o System Center Operations Manager en Microsoft Azure.
+title: estrategia de supervisión para los modelos de implementación en la nube
+description: Use Cloud Adoption Framework para Azure para saber qué estrategia de supervisión de la administración en la nube emplear.
 author: MGoedtel
 ms.author: magoedte
 ms.date: 10/04/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: abb9395a739d4e32cab85367d4de822dc47939ac
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3b6434937816255269bda41c422099a07a25f5bc
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807638"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341834"
 ---
 # <a name="cloud-monitoring-guide-monitoring-strategy-for-cloud-deployment-models"></a>Guía sobre la supervisión en la nube: estrategia de supervisión para los modelos de implementación en la nube
 
@@ -74,23 +74,23 @@ En la tabla siguiente se resumen los requisitos que Azure Monitor y System Cente
 
 |Requisito | Azure Monitor | Operations Manager |
 |:--|:---|:---|
-|Requisitos de infraestructura | No | Sí<br> Requiere como mínimo un servidor de administración y una instancia de SQL Server para hospedar la base de datos operativa y la base de datos de almacenamiento de datos de informes. La complejidad aumenta si se requiere alta disponibilidad y recuperación ante desastres, y hay máquinas en varios sitios, sistemas que no son de confianza y otras consideraciones de diseños complejos.|
-|Conectividad limitada: sin Internet<br> o red aislada | No | Sí |
+|Requisitos de infraestructura | Sin | Sí<br> Requiere como mínimo un servidor de administración y una instancia de SQL Server para hospedar la base de datos operativa y la base de datos de almacenamiento de datos de informes. La complejidad aumenta si se requiere alta disponibilidad y recuperación ante desastres, y hay máquinas en varios sitios, sistemas que no son de confianza y otras consideraciones de diseños complejos.|
+|Conectividad limitada: sin Internet<br> o red aislada | Sin | Sí |
 |Conectividad limitada: acceso a Internet controlado | Sí | Sí |
 |Conectividad limitada: desconexión frecuente | Sí | Sí |
-|Supervisión del estado configurable | No | Sí |
+|Supervisión del estado configurable | Sin | Sí |
 | Prueba de disponibilidad de la aplicación web (red aislada) | Sí, limitada<br> Azure Monitor tiene compatibilidad limitada en esta área y requiere excepciones de firewall personalizadas. | Sí |
-| Prueba de disponibilidad de la aplicación web (distribuida globalmente) | No | Sí |
+| Prueba de disponibilidad de la aplicación web (distribuida globalmente) | Sin | Sí |
 |Supervisión de cargas de trabajo de máquinas virtuales | Sí, limitada<br> Puede recopilar registros de errores, eventos de Windows y contadores de rendimiento de IIS y SQL Server. Requiere la creación de consultas, alertas y visualizaciones personalizadas. | Sí<br> Admite la supervisión de la mayoría de las cargas de trabajo de servidor con los módulos de administración disponibles. Requiere que el agente de Windows de Log Analytics o el agente de Operations Manager de la máquina virtual informe al grupo de administración de la red corporativa.|
 |Supervisión de IaaS de Azure | Sí | Sí<br> Admite la supervisión de la mayor parte de la infraestructura de la red corporativa. Realiza un seguimiento del estado de disponibilidad, las métricas y las alertas de máquinas virtuales de Azure, SQL y almacenamiento a través del módulo de administración de Azure.|
 |Supervisión de PaaS de Azure | Sí | Sí, limitada<br> En función de lo que se admite en el módulo de administración de Azure. |
 |Supervisión del servicio de Azure | Sí<br> | Sí<br> Aunque actualmente no se proporciona ninguna supervisión nativa del estado del servicio de Azure mediante un módulo de administración, puede crear flujos de trabajo personalizados para consultar las alertas de estado del servicio de Azure. Use la API de REST de Azure para obtener alertas a través de las notificaciones existentes.|
-|Supervisión de aplicaciones web modernas | Sí | No |
+|Supervisión de aplicaciones web modernas | Sí | Sin |
 |Supervisión de aplicaciones web heredadas | Sí, la limitación varía según el SDK<br> Admite la supervisión de versiones anteriores de aplicaciones web de Java y .NET. | Sí, limitada |
-|Supervisión de contenedores de Azure Kubernetes Service | Sí | No |
-|Supervisión de contenedores de Docker o Windows | Sí | No |
+|Supervisión de contenedores de Azure Kubernetes Service | Sí | Sin |
+|Supervisión de contenedores de Docker o Windows | Sí | Sin |
 |Supervisión del rendimiento de red | Sí | Sí, limitada<br> Admite comprobaciones de disponibilidad y recopila estadísticas básicas de los dispositivos de red mediante el protocolo simple de administración de redes (SNMP) de la red corporativa.|
-|Análisis de datos interactivos | Sí | No<br> Se basa en informes definidos o personalizados de SQL Server Reporting Services, soluciones de visualización de terceros o una implementación de Power BI personalizada. Existen limitaciones de escala y rendimiento en el almacenamiento de datos de Operations Manager. Se puede integrar con los registros de Azure Monitor como alternativa para los requisitos de agregación de datos. La integración se logra configurando el conector de Log Analytics.|
+|Análisis de datos interactivos | Sí | Sin<br> Se basa en informes definidos o personalizados de SQL Server Reporting Services, soluciones de visualización de terceros o una implementación de Power BI personalizada. Existen limitaciones de escala y rendimiento en el almacenamiento de datos de Operations Manager. Se puede integrar con los registros de Azure Monitor como alternativa para los requisitos de agregación de datos. La integración se logra configurando el conector de Log Analytics.|
 |Diagnósticos de un extremo a otro, análisis de la causa principal y solución de problemas puntuales | Sí | Sí, limitada<br> Admite los diagnósticos de un extremo a otro y la solución de problemas solo para infraestructuras y aplicaciones locales. Utiliza otros componentes de System Center o soluciones de asociados.|
 |Visualizaciones interactivas (paneles) | Sí | Sí, limitada<br> Proporciona los paneles esenciales con su consola web de HTML5 o una experiencia avanzada mediante soluciones de asociados, como Squared Up y Savision. |
 |Integración con herramientas de TI y DevOps | Sí | Sí, limitada |

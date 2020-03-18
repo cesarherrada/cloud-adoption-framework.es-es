@@ -1,18 +1,18 @@
 ---
-title: Requisitos previos para un plan de adopción de la nube efectivo
-description: Comprenda los requisitos previos para un plan de adopción de la nube efectivo.
+title: Requisitos previos para un plan de adopción de la nube
+description: Use Cloud Adoption Framework para Azure con el fin de comprender los requisitos previos para un plan efectivo de adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 391abf359cd1da0af1d243c1a220b34a746642eb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f229515b39c69fa0e9e6c840810720bca4e12dc6
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800209"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78342055"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Requisitos previos para un plan de adopción de la nube efectivo
 

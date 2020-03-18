@@ -1,6 +1,6 @@
 ---
 title: Organización de los recursos de Azure de forma eficaz
-description: Procedimientos recomendados para organizar de forma eficaz los recursos de Azure para administrarlos de forma fácil.
+description: Conozca los procedimientos recomendados para organizar de forma eficaz los recursos de Azure y facilitar su administración.
 author: laraaleite
 ms.author: kfollis
 ms.date: 04/09/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: eb2564239548f77084fbc38d93003346a07e8e84
-ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
+ms.openlocfilehash: 67e22ff4831d6bca4bb0054b544bf2efba02a93e
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "77567765"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024020"
 ---
+<!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
+
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
 La organización de los recursos basados en la nube es fundamental para proteger, administrar y realizar un seguimiento de los costos relacionados con las cargas de trabajo. Para organizar los recursos, use las jerarquías de administración de la plataforma Azure, implemente convenciones de nomenclatura bien concebidas y aplique el etiquetado de recursos.
@@ -156,7 +158,7 @@ También puede utilizar etiquetas para muchas otras cosas. Entre los usos comune
 
 - **Metadatos y documentación:** los administradores pueden ver fácilmente detalles sobre los recursos en los que están trabajando mediante la aplicación de una etiqueta, como "ProjectOwner".
 - **Automation:** es posible que cuente con scripts que se ejecuten regularmente y que puedan realizar una acción basada en un valor de etiqueta como "ShutdownTime" o "DeprovisionDate".
-- **Optimización de costos:** Puede asignar recursos a los equipos y recursos responsables del costo. En Azure Cost Management, puede aplicar la etiqueta del centro de costo como filtro para informar de los cargos en función del uso de un equipo o departamento.
+- **Optimización de costos:** En Azure Cost Management, puede aplicar la etiqueta del centro de costo como filtro para informar de los cargos en función del uso de un equipo o departamento.
 
 Cada recurso o grupo de recursos puede tener hasta 50 pares de nombre/valor de etiqueta. Esta limitación solo se aplica a las etiquetas que se aplican directamente al recurso o grupo de recursos.
 

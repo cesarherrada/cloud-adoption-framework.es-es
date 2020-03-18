@@ -1,18 +1,18 @@
 ---
 title: Directivas de configuración de invitado
-description: Aprenda a usar la extensión Configuración de invitado de Azure Policy para auditar la configuración en una máquina virtual de Azure.
+description: Utilice Cloud Adoption Framework para aprender a usar la extensión Configuración de invitado de Azure Policy para auditar la configuración en una máquina virtual de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 6e935288ce58af0570717c973c21b406ee94ebc0
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: 73373e5cc56ef7e5804151171a22ad9f541f1cd3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173311"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094689"
 ---
 # <a name="guest-configuration-policy"></a>Directivas de configuración de invitado
 

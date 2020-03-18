@@ -1,18 +1,18 @@
 ---
 title: Introducción a la ruta de preparación de las aptitudes
-description: Introducción a la ruta de preparación de las aptitudes
+description: Dirija la adopción de los servicios en la nube ayudando a la organización a comprender y adoptar los cambios asociados con una introducción a la ruta de preparación de las aptitudes.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 88de7ae19e3853bf132b58d0c3cbeb16d278a28f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3fdfbcbaabb79876d32fa8ea172b2c426ada9464
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800158"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892691"
 ---
 # <a name="getting-started-on-a-skills-readiness-path"></a>Introducción a la ruta de preparación de las aptitudes
 
@@ -28,7 +28,7 @@ Cloud Adoption Framework guía a los lectores a lo largo de todo el ciclo de vid
 - **[Listo](../ready/suggested-skills.md):** desarrolle las aptitudes necesarias para preparar la empresa, la cultura, las personas y el entorno para los cambios venideros.
 
 - **Adopción:** las aptitudes de adopción se alinean con varios trabajos técnicos:
-  - **[Migración](../migrate/expanded-scope/suggested-skills.md):** adquiera las aptitudes necesarias para implementar el plan de migración a la nube.
+  - **[Migración](../migrate/suggested-skills.md):** adquiera las aptitudes necesarias para implementar el plan de migración a la nube.
   - **Innovación:** adquiera las aptitudes necesarias para entregar soluciones nuevas e innovadoras.
 
 - **Operaciones:** las aptitudes relacionadas con el modelo operativo para la adopción de la nube se alinean con varias oportunidades para adquirir aptitudes:

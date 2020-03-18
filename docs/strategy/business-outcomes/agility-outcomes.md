@@ -1,24 +1,24 @@
 ---
 title: Ejemplos de resultados de agilidad
-description: Ejemplos de resultados de agilidad
+description: Use Cloud Adoption Framework para Azure con el fin de comprender la posición de la empresa en el mercado y el panorama competitivo.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 6f865eb0a5f81aa005239dbafd5437dc93797f94
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 05ff2e7f3e611d789ed289474ff13e0ed58bf0fb
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798509"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092957"
 ---
 # <a name="examples-of-agility-outcomes"></a>Ejemplos de resultados de agilidad
 
 Como se ha tratado en la [información general sobre resultados empresariales](./index.md), varios resultados empresariales potenciales pueden servir como base para cualquier conversación de recorrido de transformación con la empresa. Este artículo se centra en la medida empresarial más oportuna: la agilidad empresarial. Comprender la posición en el mercado y el panorama competitivo de su empresa puede ayudarle a articular los resultados empresariales que son el objetivo del recorrido de transformación de la empresa.
 
-Tradicionalmente, los directores de inversiones (CIO) y los equipos de TI eran considerados como una fuente de estabilidad en procesos críticos principales. Esto sigue siendo cierto. Pocas empresas pueden funcionar bien si su plataforma de TI es inestable. Sin embargo, en el mundo empresarial de hoy en día, se espera mucho más. El equipo de TI puede expandirse para convertirse en algo más que un simple centro de costo al asociarse con la empresa para proporcionar ventajas competitivas. Muchos CIO y ejecutivos entienden que la estabilidad es simplemente la base para el equipo de TI. Para estos líderes, la agilidad empresarial es la medida de la contribución de TI a la empresa.
+Tradicionalmente, los directores de inversiones y los equipos de TI eran considerados como una fuente de estabilidad en procesos críticos principales. Esto sigue siendo cierto. Pocas empresas pueden funcionar bien si su plataforma de TI es inestable. Sin embargo, en el mundo empresarial de hoy en día, se espera mucho más. El equipo de TI puede expandirse para convertirse en algo más que un simple centro de costo al asociarse con la empresa para proporcionar ventajas competitivas. Muchos directores de inversiones y ejecutivos entienden que la estabilidad es simplemente la base de referencia para el equipo de TI. Para estos líderes, la agilidad empresarial es la medida de la contribución de TI a la empresa.
 
 <!-- markdownlint-disable MD026 -->
 
@@ -39,6 +39,8 @@ En el marco de los esfuerzos de innovación compatibles con la nube, el tiempo d
 ### <a name="aurora-health-care"></a>Aurora Health Care
 
 Un sistema sanitario transforma los servicios en línea en una sencilla experiencia digital. Para transformar sus servicios digitales, Aurora Health Care migró sus sitios web a la plataforma de Microsoft Azure y adoptó una estrategia de innovación continua.
+
+<!-- cSpell:ignore Jamey Shiels -->
 
 > "Como equipo, nos centramos en soluciones de alta calidad y en la rapidez. Elegir Azure fue un punto de inflexión para nosotros".  
 > Jamey Shiels  

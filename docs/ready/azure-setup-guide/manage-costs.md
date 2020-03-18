@@ -1,6 +1,6 @@
 ---
 title: Administración de costos y facturación de los recursos de Azure
-description: Comprenda los presupuestos y aprenda a configurar presupuestos y pagos para los recursos de Azure.
+description: Use Cloud Adoption Framework para Azure con el fin de comprender las facturas y aprender a configurar presupuestos y pagos para los recursos de Azure.
 author: dchimes
 ms.author: kfollis
 ms.date: 04/09/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 4f0f0d900f75338a33b1873b8d0eac6d91835256
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 0f91ed2c09b2511304a59bc8768507f737ec6c76
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799529"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024032"
 ---
+<!-- cSpell:ignore dchimes -->
+
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Administración de costos y facturación de los recursos de Azure
 
 La administración de costos es el proceso en el que se planifican y controlan eficazmente los costos implicados en su negocio. Normalmente, los equipos de finanzas, administración y aplicación realizan las tareas de administración de costos. Azure Cost Management puede ayudarle a planear teniendo en cuenta los costos. También le ayuda a analizar eficazmente los costos y a tomar medidas para optimizar el gasto en la nube.

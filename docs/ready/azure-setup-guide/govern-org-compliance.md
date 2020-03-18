@@ -1,6 +1,6 @@
 ---
 title: Gobernanza, seguridad y cumplimiento en Azure
-description: Aprenda a configurar la gobernanza, seguridad y cumplimiento para el entorno de Azure.
+description: Use Cloud Adoption Framework para Azure con el fin de aprender a configurar la gobernanza, la seguridad y el cumplimiento para el entorno de Azure.
 author: tvuylsteke
 ms.author: kfollis
 ms.date: 09/27/2019
@@ -9,18 +9,22 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: c38edb9a5723d99974f5f472453bf4b88ee07bb3
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 89de72cb85cc4c763d443ae9cc1114b648ab72c4
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799614"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024089"
 ---
+<!-- cSpell:ignore tvuylsteke >
+
+<!-- markdownlint-disable MD024 MD025 -->
+
 # <a name="governance-security-and-compliance-in-azure"></a>Gobernanza, seguridad y cumplimiento en Azure
 
 A medida que se establece la directiva corporativa y se planean las estrategias de gobierno, se pueden usar herramientas y servicios como Azure Policy, Azure Blueprints y Azure Security Center para aplicar y automatizar las decisiones de gobierno de su organización. Antes de empezar a planear el gobierno, use la [herramienta de banco de pruebas comparativas de gobierno](https://cafbaseline.com) para identificar posibles brechas en el enfoque del gobierno en la nube de su organización. Para obtener más información sobre cómo desarrollar procesos de gobierno, consulte la [guía de gobernanza de la plataforma de adopción de la nube para Azure](../../govern/index.md).
 
-# <a name="azure-blueprintstabazureblueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
+# <a name="azure-blueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
 
 Azure Blueprints permite a los arquitectos de nube y grupos de TI central definir un conjunto repetible de recursos de Azure que implementa y cumple los estándares, patrones y requisitos de la organización. Azure Blueprints permite a los equipos de desarrollo aprovisionar y crear rápidamente nuevos entornos sabiendo que se crean cumpliendo los estándares organizativos y que contienen un conjunto de componentes integrados, como las redes, para acelerar el desarrollo y la entrega.
 
@@ -40,9 +44,9 @@ Para crear un plano técnico, realice el siguiente procedimiento:
 1. Vaya a **Introducción a planos técnicos**.
 1. En la sección **Crear un plano técnico**, seleccione **Crear**.
 1. Filtre la lista Planos técnicos para seleccionar el plano técnico adecuado.
-1. Escriba el **Nombre del plano técnico** y seleccione la **Ubicación de definición** adecuada.
-1. Haga clic en **Siguiente: Artefactos >>** y revise los artefactos incluidos en el plano técnico.
-1. Haga clic en **Guardar borrador**.
+1. Escriba el **Nombre del plano técnico** y, a continuación, seleccione la **Ubicación de definición** adecuada.
+1. Seleccione **Siguiente: Artefactos >>** , después revise los artefactos incluidos en el plano técnico.
+1. Seleccione **Guardar borrador**.
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted]" submitText="Create a blueprint" :::
 
@@ -53,9 +57,9 @@ Para crear un plano técnico, realice el siguiente procedimiento:
 1. Vaya a [Introducción a planos técnicos](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
 1. En la sección **Crear un plano técnico**, seleccione **Crear**.
 1. Filtre la lista Planos técnicos para seleccionar el plano técnico adecuado.
-1. Escriba el **Nombre del plano técnico** y seleccione la **Ubicación de definición** adecuada.
-1. Haga clic en **Siguiente: Artefactos >>** y revise los artefactos incluidos en el plano técnico.
-1. Haga clic en **Guardar borrador**.
+1. Escriba el **Nombre del plano técnico** y, a continuación, seleccione la **Ubicación de definición** adecuada.
+1. Seleccione **Siguiente: Artefactos >>** , después revise los artefactos incluidos en el plano técnico.
+1. Seleccione **Guardar borrador**.
 
 ::: zone-end
 
@@ -67,7 +71,7 @@ Para publicar artefactos de un plano técnico en su suscripción:
 
 1. Vaya a **Planos técnicos - Definiciones del plano técnico**.
 1. Seleccione el plano técnico que creó en los pasos anteriores.
-1. Revise la definición del plano técnico y seleccione **Publicar plano técnico**.
+1. Revise la definición del plano técnico y, a continuación, seleccione **Publicar plano técnico**.
 1. Proporcione una **versión** (por ejemplo, _1.0_) y **notas de cambios** y, después, seleccione **Publicar**.
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints]" submitText="Blueprint definitions" :::
@@ -78,7 +82,7 @@ Para publicar artefactos de un plano técnico en su suscripción:
 
 1. Vaya a [Planos técnicos - Definiciones del plano técnico](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Seleccione la definición del plano técnico que creó en los pasos anteriores.
-1. Revise la definición del plano técnico y seleccione **Publicar plano técnico**.
+1. Revise la definición del plano técnico y, a continuación, seleccione **Publicar plano técnico**.
 1. Proporcione una **versión** (por ejemplo, _1.0_) y **notas de cambios** y, después, seleccione **Publicar**.
 
 ::: zone-end
@@ -95,7 +99,7 @@ Para obtener más información, consulte:
 
 ::: zone-end
 
-# <a name="azure-policytabazurepolicy"></a>[Azure Policy](#tab/AzurePolicy)
+# <a name="azure-policy"></a>[Azure Policy](#tab/AzurePolicy)
 
 Azure Policy es un servicio que se usa para crear, asignar y administrar directivas. Dichas directivas aplican reglas a los recursos, con el fin de que estos sigan siendo compatibles con los estándares corporativos y los Acuerdos de Nivel de Servicio. Azure Policy escanea los recursos para identificar aquellos que no son compatibles con las directivas que implementa. Por ejemplo, puede haber una directiva que permita solo un tamaño de máquina virtual concreto para ejecutar en el entorno. Cuando implemente esta directiva, esta evaluará las máquinas virtuales existentes que se ejecutan en el entorno y cualquier nueva máquina virtual que se implemente. La evaluación de directivas genera eventos de cumplimiento para que se utilicen para la supervisión y los informes.
 
@@ -129,12 +133,12 @@ Para aplicar una directiva a un grupo de recursos:
 
 Para obtener más información, consulte:
 
-- [Azure Policy](https://docs.microsoft.com/azure/azure-policy)
+- [Azure Policy](https://docs.microsoft.com/azure/governance/policy)
 - [Plataforma de adopción de la nube: Guía de decisiones sobre el cumplimiento de directivas](../../decision-guides/policy-enforcement/index.md)
 
 ::: zone-end
 
-# <a name="azure-security-centertabazuresecuritycenter"></a>[Azure Security Center](#tab/AzureSecurityCenter)
+# <a name="azure-security-center"></a>[Azure Security Center](#tab/AzureSecurityCenter)
 
 Azure Security Center desempeña un papel importante en su estrategia de gobernanza. Le ayuda a conocer la información más reciente sobre seguridad, ya que:
 

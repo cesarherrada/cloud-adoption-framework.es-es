@@ -1,18 +1,18 @@
 ---
 title: Trabajo pendiente de iteración y liberación
-description: Creación de un trabajo pendiente de iteración y liberación
+description: Use Cloud Adoption Framework para Azure para aprender a crear trabajos pendientes de liberación y de iteración para organizar las tareas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 604ce189a1518f87660d8f29d33413581e9b00f6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7204511d8b3f83d18f8179e04c4fd400151a7f3a
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802453"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094176"
 ---
 # <a name="manage-change-in-an-incremental-migration-effort"></a>Administración de los cambios en un esfuerzo de migración incremental
 

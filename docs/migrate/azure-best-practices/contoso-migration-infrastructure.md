@@ -1,6 +1,6 @@
 ---
 title: Implementación de una infraestructura de migración
-description: Obtenga información acerca de cómo Contoso puede configurar una infraestructura de Azure para la migración a Azure.
+description: Use Cloud Adoption Framework para Azure para aprender, mediante un ejemplo ilustrativo, cómo configurar una infraestructura de Azure para la migración a Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/1/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 314cd954332907f9bf1bf63eb52ed5d88cfab121
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 34d2c96adeb476b3129464566a315c2ada9eab67
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223125"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092422"
 ---
 <!-- cspell:ignore CSPs domainname IPAM CIDR Untrust RRAS CONTOSODC sysvol ITIL NSGs ASGs -->
 
@@ -653,7 +653,7 @@ El servicio de Azure Policy evalúa los recursos, para detectar los que no son c
 
 Las directivas especifican una definición de directiva, mientras que una asignación de directiva especifica el ámbito en el que se debe aplicar una directiva. El ámbito puede ir desde un grupo de administración a un grupo de recursos. [Obtenga información](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage) acerca de cómo crear y administrar directivas.
 
-Contoso quiere empezar a trabajar con un par de directivas:
+Contoso quiere iniciar un par de directivas:
 
 - Quiere una directiva para asegurarse de que los recursos solo pueden implementarse en las regiones EUS2 y CUS.
 - Desea limitar las SKU de VM a las SKU aprobadas. La intención es asegurarse de que no se usan SKU de VM costosas.

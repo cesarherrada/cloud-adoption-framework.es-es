@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: ef04a867614c6597268269421ef1d341f5252f3b
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 85f5cf55bb089bd347383bedf58b054cf2a7351c
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223977"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094441"
 ---
 # <a name="begin-a-cloud-migration-journey-in-azure"></a>Comenzar un recorrido de migración a nube en Azure
 
@@ -57,13 +57,13 @@ Este enfoque se compone de dos metodologías o áreas de enfoque: estrategia y p
 
 La implementación en la nube es un proceso iterativo para migrar y modernizar el patrimonio digital en consonancia con los resultados empresariales fijados y los controles de administración de cambios. Durante cada iteración, las cargas de trabajo se migran o modernizan en consonancia con la estrategia y el plan. Las decisiones relacionadas con las aplicaciones IaaS, PaaS o híbridas se realizan durante la fase de evaluación del [plan metodológico](../migrate/index.md) para optimizar el control y la ejecución. Esas decisiones dirigirán las herramientas que se emplean durante cada iteración de la fase de migración con la misma metodología. Este modelo se puede usar con unas dosis mínimas de estrategia y planeamiento. Sin embargo, para garantizar la máxima rentabilidad empresarial, el departamento de TI y la empresa se deben adaptar a una estrategia y un plan claros que guíen las actividades de implementación.
 
-![Metodología de implementación en la nube de Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
+![La metodología de implementación en la nube de Cloud Adoption Framework](../_images/migrate/methodology.png)
 
 El objetivo de este trabajo es la migración o la modernización de las cargas de trabajo. Una carga de trabajo es una colección de infraestructura, aplicaciones y datos que respaldan colectivamente un objetivo empresarial común o la ejecución de un proceso de negocio común. Algunos ejemplos de cargas de trabajo podrían incluir cosas como una aplicación de línea de negocio, una solución de nómina de RR. HH. una solución CRM, un flujo de trabajo de aprobación de documentos financieros o una solución de inteligencia empresarial. Las cargas de trabajo también pueden incluir recursos técnicos compartidos, como un almacenamiento de datos que admite otras diversas soluciones. En algunos casos, una carga de trabajo se puede representar mediante un único recurso, como un servidor, una aplicación o una plataforma de datos independientes.
 
 Las migraciones a la nube a menudo se consideran un solo proyecto dentro de un programa más amplio para simplificar las operaciones, los costos o la complejidad de TI. La metodología de implementación en la nube ayuda a alinear los trabajos técnicos de una serie de migraciones de cargas de trabajo con valores empresariales más generales descritos en la estrategia y el planeamiento para la nube.
 
-**Introducción:** para empezar a trabajar con una implementación en la nube, en la [guía de migración de Azure](../migrate/azure-migration-guide/index.md) y en la [guía de configuración de Azure](../ready/azure-setup-guide/index.md) se describen las herramientas y los procesos generales necesarios para realizar correctamente una implementación en la nube. La migración de la primera carga de trabajo mediante esas guías ayudará al equipo a superar las curvas de aprendizaje iniciales en el proceso de planeamiento. Posteriormente, es necesario tener en cuenta además la [lista de comprobación de ámbito expandida](../migrate/expanded-scope/index.md), los [procedimientos recomendados de migración](../migrate/azure-best-practices/index.md) y las [consideraciones sobre la migración](../migrate/migration-considerations/index.md), a fin de alinear las orientaciones básicas con las restricciones, los procesos, las estructuras de equipo y los objetivos particulares de su trabajo.
+**Introducción:** inicie una implementación en la nube usando la [guía de migración de Azure](../migrate/azure-migration-guide/index.md) y la [guía de configuración de Azure](../ready/azure-setup-guide/index.md), que describen las herramientas y los procesos generales necesarios para realizar correctamente una implementación en la nube. La migración de la primera carga de trabajo mediante esas guías ayudará al equipo a superar las curvas de aprendizaje iniciales en el proceso de planeamiento. Posteriormente, es necesario tener en cuenta además los [procedimientos recomendados de migración](../migrate/azure-best-practices/index.md) y las [consideraciones sobre la migración](../migrate/migration-considerations/index.md), a fin de adaptar las orientaciones básicas a las restricciones, los procesos, las estructuras de equipo y los objetivos particulares de su trabajo.
 
 ## <a name="cloud-strategy-and-planning"></a>Estrategia y planeamiento de la nube
 

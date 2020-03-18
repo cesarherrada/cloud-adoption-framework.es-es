@@ -1,18 +1,18 @@
 ---
 title: Plan para la adopción de la nube
-description: Planeamiento de la adopción de la nube
+description: Use Cloud Adoption Framework para Azure con el fin de saber cómo un plan de adopción de la nube ayuda a las empresas a equilibrar su cartera de TI y a administrar las transiciones a lo largo del tiempo.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 36d87caae344414e7bb311fb032d28f58bc5ea6c
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: d02dfda3b44155b7208e9caf00e979553fe97ff3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222165"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093547"
 ---
 # <a name="plan-for-cloud-adoption"></a>Plan para la adopción de la nube
 
