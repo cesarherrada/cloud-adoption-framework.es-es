@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 42f55a866b3ac8f044861ef2bc738e128b3c9f38
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 9f374bbe149e132fde4c44a8c0ecd9246615bac0
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341919"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140627"
 ---
 # <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
 
@@ -21,6 +21,8 @@ El establecimiento de prioridades claras y accionables es uno de los secretos pa
 En su lugar, se recomienda que el equipo se centre en clasificar por orden de prioridad y documentar las 10 primeras cargas de trabajo. Después de comenzar la implementación del plan de adopción, el equipo puede mantener una lista de las siguientes 10 cargas de trabajo de prioridad más alta. Este enfoque proporciona información suficiente para planear las siguientes iteraciones.
 
 Limitar el plan a 10 cargas de trabajo fomenta la agilidad y la alineación de las prioridades a medida que cambian los criterios de negocio. Este enfoque también posibilita que el equipo de adopción de la nube aprenda y refine las estimaciones. Lo más importante es que elimina el planeamiento extensivo como una barrera para un cambio empresarial efectivo.
+
+<!-- markdownlint-disable MD026 -->
 
 ## <a name="what-is-a-workload"></a>¿Qué es una carga de trabajo?
 

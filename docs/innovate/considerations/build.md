@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Creación con la empatía de los clientes'
-description: Obtenga información sobre cómo crear con la empatía de los clientes.
+title: Creación del proceso de adopción mediante la empatía con los clientes.
+description: Aprenda a crear soluciones que impulsen la innovación basándose en la empatía con el cliente, es decir, un conocimiento profundo de la experiencia del cliente.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 406d53bfb322c424737a9b8cec7c028a9833143d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d6cf92c2cb08e59196bc9c24aadf1fa2c812db0d
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312755"
 ---
 # <a name="build-with-customer-empathy"></a>Creación con la empatía de los clientes
 

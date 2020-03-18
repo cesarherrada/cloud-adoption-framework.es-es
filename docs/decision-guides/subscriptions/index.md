@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 32b1e8933add7f2c786d424e6faabf58f9218ead
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 1420906faadb966585346aeafe0a8e7efa9aaf09
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140695"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508039"
 ---
 # <a name="subscription-decision-guide"></a>Guía de decisiones de suscripción
 
@@ -49,7 +49,7 @@ Una sola suscripción por cuenta puede ser suficiente para las organizaciones qu
 
 Cuando esté listo para implementar una carga de trabajo en un entorno de producción, deberá agregar una suscripción adicional. Esto le ayuda a mantener los datos de producción y otros recursos fuera de los entornos de desarrollo y pruebas. Puede aplicar también fácilmente dos conjuntos diferentes de directivas en los recursos de las dos suscripciones.
 
-![Patrón de suscripción de producción y de no producción](../../_images/ready/basic-subscription-model.png)
+![Patrón de suscripción de producción y de no producción](../../_images/ready/initial-subscription-model.png)
 
 ### <a name="workload-separation-pattern"></a>Patrón de separación de cargas de trabajo
 

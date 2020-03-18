@@ -7,16 +7,16 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a7f03ce1f83d59fdcfe2b2ce696b6b591b8d0655
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 243094da7b92a374124474eaaf0c955b5fdb85ed
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341936"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140610"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>Plan de adopción de la nube y Azure DevOps
 
-Azure DevOps es el conjunto de herramientas basadas en la nube para los clientes de Azure que administran proyectos iterativos. También incluye herramientas para administrar canalizaciones de implementación y otros aspectos importantes de DevOps. 
+Azure DevOps es el conjunto de herramientas basadas en la nube para los clientes de Azure que administran proyectos iterativos. También incluye herramientas para administrar canalizaciones de implementación y otros aspectos importantes de DevOps.
 
 En este artículo aprenderá a implementar rápidamente un trabajo pendiente en Azure DevOps mediante una plantilla del plan de adopción de la nube. Esta plantilla alinea los trabajos de adopción de la nube con un proceso normalizado según la guía de Cloud Adoption Framework.
 

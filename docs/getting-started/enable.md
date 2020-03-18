@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: c9e33b32590cd3b73e5bc42a662abf5ef6de36da
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 5f611494bb395a06a763a500d7b94377177d3c71
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892249"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140276"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Habilitación del éxito durante un recorrido de adopción de la nube
 
@@ -29,7 +29,7 @@ A lo largo de este marco, la habilitación es un tema básico. En la siguiente l
   - **Administración:** [Administración operativa](../manage/index.md) continua de la cartera de TI para minimizar las interrupciones en los procesos empresariales y garantizar la estabilidad de la cartera de TI.
   - **Soporte técnico:** alinee las [opciones de asociación y soporte técnico](../migrate/migration-considerations/assess/partnership-options.md) adecuadas.
 
-Otro tema básico es la seguridad, que es un atributo de calidad crítico para una adopción de la nube correcta. La seguridad se integra en este marco de trabajo para proporcionar instrucciones integradas sobre el mantenimiento de la confidencialidad, integridad y garantías de disponibilidad para las cargas de trabajo en la nube. 
+Otro tema básico es la seguridad, que es un atributo de calidad crítico para una adopción de la nube correcta. La seguridad se integra en este marco de trabajo para proporcionar instrucciones integradas sobre el mantenimiento de la confidencialidad, integridad y garantías de disponibilidad para las cargas de trabajo en la nube.
 
 ## <a name="additional-tools"></a>Herramientas adicionales
 

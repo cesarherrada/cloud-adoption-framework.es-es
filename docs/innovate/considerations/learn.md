@@ -1,18 +1,18 @@
 ---
-title: 'Innovación en la nube: Obtener información'
-description: 'Introducción a la innovación en la nube: contenido sobre aprendizaje'
+title: Aprendizaje a partir de los clientes para impulsar la innovación
+description: Obtenga información de los asociados cliente para crear una solución de producto mínimo viable (MVP) mediante empatía y genere métricas con efectos en los clientes.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3f15407d78517d588e9f98ac6bbbb779574a7afd
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4166f55c3878266a06f1da4b907eaab5baa6e473
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808437"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312759"
 ---
 # <a name="learn-with-customers"></a>Aprendizaje con los clientes
 

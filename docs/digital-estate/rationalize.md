@@ -1,19 +1,19 @@
 ---
 title: Racionalización del patrimonio digital
-description: Evalúe sus recursos digitales para determinar la mejor manera de hospedarlos en la nube.
+description: Use la racionalización de la nube para evaluar los recursos y determinar el mejor enfoque para hospedarlos en la nube.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 12/10/2018
+ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: c618e6c1cf83199ae55df44397e07f3755fbb1f8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 14f96dde6558588c092a181aa2b7a2e57220cf5f
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804561"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312723"
 ---
 # <a name="rationalize-the-digital-estate"></a>Racionalización del patrimonio digital
 
@@ -83,7 +83,7 @@ En un entorno local tradicional, hospedar recursos pequeños no utilizados rara 
 
 Sin embargo, cuando se pasa a un modelo de contabilidad en la nube, la retirada de recursos puede producir ahorros significativos en los costos operativos anuales y en los esfuerzos iniciales de migración.
 
-No es raro que las organizaciones retiren el 20 % o más de su patrimonio digital después de completar un análisis cuantitativo. Es recomendable realizar un análisis cualitativo adicional antes de decidir sobre dicha acción. Una vez confirmada, la retirada de esos recursos puede producir la primera victoria de la migración a la nube en cuanto a la rentabilidad de la inversión. En muchos casos, este es uno de los mayores factores de ahorro de costos. Como tal, es recomendable que el equipo de estrategia de la nube supervise la validación y la retirada de los recursos, en paralelo a la fase de creación del proceso de migración, para permitir una ganancia financiera temprana.
+No es raro que las organizaciones retiren el 20 % o más de su patrimonio digital después de completar un análisis cuantitativo. Es recomendable realizar un análisis cualitativo adicional antes de pasar a la acción. Una vez confirmada, la retirada de esos recursos puede producir la primera victoria de la migración a la nube en cuanto a la rentabilidad de la inversión. A menudo, este es uno de los mayores factores de ahorro de costos. Por lo tanto, el equipo de estrategia de la nube debe supervisar la validación y la retirada de recursos, en paralelo a la ejecución de la [metodología de migración](../migrate/index.md), para lograr una ganancia financiera temprana.
 
 ### <a name="program-adjustments"></a>Ajustes del programa
 

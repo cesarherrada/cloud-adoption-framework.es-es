@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: e06aca53ac70e602d13d2cc23d59d4b56c2cd152
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: ee88c1fc88e5c678f7356aa15b473d0fe61eaa2d
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341443"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140661"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Crear la alineación empresarial en la administración en la nube
 
@@ -22,7 +22,7 @@ En entornos locales, TI administra los activos de TI (aplicaciones, máquinas vi
 
 El primer paso para crear la alineación empresarial es garantizar la alineación de los términos. La administración de TI, como la mayoría de las profesiones de ingeniería, ha acumulado una colección de jerga o de términos muy técnicos. Estos términos pueden generar confusión en las partes interesadas del negocio y dificultar la asignación de servicios de administración al valor empresarial.
 
-Afortunadamente, el proceso para desarrollar una estrategia de adopción de la nube y un plan de adopción de la nube crean una oportunidad ideal para la reasignación de estos términos. El proceso también crea oportunidades para replantear los compromisos para la administración operativa, en colaboración con la empresa. En la siguiente serie de artículos se describe este nuevo enfoque en tres términos específicos que pueden ayudar a mejorar las conversaciones entre las partes interesadas del negocio: 
+Afortunadamente, el proceso para desarrollar una estrategia de adopción de la nube y un plan de adopción de la nube crean una oportunidad ideal para la reasignación de estos términos. El proceso también crea oportunidades para replantear los compromisos para la administración operativa, en colaboración con la empresa. En la siguiente serie de artículos se describe este nuevo enfoque en tres términos específicos que pueden ayudar a mejorar las conversaciones entre las partes interesadas del negocio:
 
 - **[Importancia crítica](./criticality.md):** asignación de cargas de trabajo a procesos empresariales. Clasificación del grado de importancia para enfocar las inversiones.
 - **[Impacto](./impact.md):** comprensión del impacto de las posibles interrupciones para ayudar a evaluar la rentabilidad de la inversión para la administración en la nube.
