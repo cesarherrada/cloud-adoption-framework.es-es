@@ -2,6 +2,8 @@ items:
   - name: Plataforma de adopción de la nube
     href: index.md
     pdf_name: Microsoft Cloud Adoption Framework for Azure
+  - name: Novedades
+    href: getting-started/whats-new.md
   - name: Introducción
     items:
       - name: Inicio del recorrido de la migración

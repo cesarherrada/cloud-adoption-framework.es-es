@@ -8,12 +8,12 @@ ms.date: 02/25/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 6db16b50115f2ba145dd4980dc5d57867f438de7
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: fe53435fe09873a619b2860a63e7bf67fe7bca93
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228366"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508325"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -25,7 +25,7 @@ La infraestructura como código es una transición natural durante la mayoría d
 
 Una zona de aterrizaje es el bloque de creación básico de cualquier entorno de adopción de la nube. El término _zona de aterrizaje_ hace referencia a una construcción lógica que captura todo lo que se debe dar para posibilitar la adopción de la nube deseada.
 
-**Ámbito:** una zona de aterrizaje totalmente funcional analiza todos los recursos de la plataforma que son necesarios para admitir las necesidades de adopción del cliente.
+**Ámbito:** una zona de aterrizaje completamente funcional analiza todos los recursos de la plataforma que son necesarios para admitir las necesidades de adopción del cliente.
 
 **Refactorización:** una zona de aterrizaje plenamente funcional es el resultado final de cualquier iteración de la metodología de preparación de Cloud Adoption Framework. Durante cada iteración, el código base que define la zona de aterrizaje se refactoriza o expande. Después de la refactorización, la zona de aterrizaje se puede modificar o volver a implementar para permitir nuevas necesidades de adopción de la nube.
 
