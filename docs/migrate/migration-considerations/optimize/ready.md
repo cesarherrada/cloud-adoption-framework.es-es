@@ -1,18 +1,18 @@
 ---
 title: Preparación de una aplicación migrada para la promoción de producción
-description: Un proceso de la migración a la nube que se centra en las tareas de migración de cargas de trabajo.
+description: Use Cloud Adoption Framework para Azure para comprender la validación que conlleva la preparación de una aplicación migrada para la promoción a producción.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f3aad7a2b7c592478f9d48a50dc96d5fee607dc8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4b48a4ceea5d322e4a993cdba474269d73fbc7e3
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801620"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312023"
 ---
 # <a name="prepare-a-migrated-application-for-production-promotion"></a>Preparación de una aplicación migrada para la promoción de producción
 

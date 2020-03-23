@@ -1,18 +1,18 @@
 ---
-title: Información general de ejemplos de migración de aplicaciones para Azure
-description: Brinda información general sobre los ejemplos de migración de aplicaciones que se incluyen como parte de la sección Migración de la Plataforma de adopción de la nube.
+title: Ejemplos de migración de aplicaciones para Azure
+description: Use Cloud Adoption Framework para Azure para aprender a migrar la infraestructura local a la nube de Microsoft Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/11/2018
+ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c2e0a27e432141feee526d4cb5fe54380fcde583
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ecb6cfc10b88490269b50a5fe6bec7d2c3277d7b
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807383"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312771"
 ---
 # <a name="application-migration-patterns-and-examples"></a>Ejemplos y patrones de migración de aplicaciones
 
@@ -36,14 +36,14 @@ Las estrategias para la migración a la nube abarcan cuatro patrones amplios: re
 --- | --- | ---
 **Rehospedaje** | A menudo se denomina una migración _mediante lift-and-shift_. Esta opción no requiere cambios en el código y permite migrar las aplicaciones existentes a Azure rápidamente. Cada aplicación se migra tal cual, para aprovechar las ventajas que ofrece la nube, sin correr el riesgo ni incurrir en los costos asociados con los cambios de código. | Cuando necesite mover aplicaciones rápidamente a la nube.<br/><br/> Cuando quiera mover una aplicación sin modificación alguna.<br/><br/> Cuando la arquitectura de las aplicaciones se diseña de modo que puedan aprovechar la escalabilidad de [IaaS de Azure](https://azure.microsoft.com/overview/what-is-iaas) después de la migración.<br/><br/> Cuando las aplicaciones son importantes para su negocio, pero no es necesario realizar cambios inmediatamente en las funciones de la aplicación.
 **Refactorización** | Este concepto con frecuencia se conoce como "reempaquetar" y requiere una mínima cantidad de cambios en las aplicaciones para que puedan conectarse a [PaaS de Azure](https://azure.microsoft.com/overview/what-is-paas) y usar las ofertas de la nube.<br/><br/> Por ejemplo, puede migrar sus aplicaciones existentes a Azure App Service o Azure Kubernetes Service (AKS).<br/><br/> O bien, podría refactorizar las bases de datos relacionales y no relacionales en opciones como, por ejemplo, Instancia administrada de Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL y Azure Cosmos DB. | Si la aplicación se puede reempaquetar fácilmente para que funcione en Azure.<br/><br/> Si quiere aplicar prácticas DevOps innovadoras proporcionadas por Azure, o piensa en DevOps con una estrategia de contenedor para las cargas de trabajo.<br/><br/> Para la refactorización, debe pensar en la portabilidad de la base de código existente y las capacidades de desarrollo disponibles.
-**Rediseño** | El rediseño para la migración se centra en modificar y ampliar la funcionalidad de las aplicaciones y el código base con el fin de optimizar la arquitectura de aplicación para la escalabilidad en la nube.<br/><br/> Por ejemplo, podría dividir una aplicación monolítica en un grupo de microservicios que funcionan en conjunto y se escalan fácilmente.<br/><br/> O bien, puede rediseñar las bases de datos relacionales y no relacionales para adaptarlas a soluciones de bases de datos totalmente administradas, como Instancia administrada de Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL y Azure Cosmos DB. | Cuando las aplicaciones necesitan revisiones importantes para incorporar funcionalidades nuevas o para funcionar de forma eficaz en una plataforma de nube.<br/><br/> Si desea usar las inversiones existentes en las aplicaciones, cumplir los requisitos de escalabilidad, aplicar prácticas innovadoras de Azure DevOps y minimizar el uso de máquinas virtuales.
-**Recompilación** | La recompilación va más lejos al recompilar una aplicación desde cero mediante tecnologías de nube de Azure.<br/><br/> Por ejemplo, puede compilar aplicaciones tipo green field con tecnologías [nativas de la nube](https://azure.com/cloudnative), Azure Functions, Azure AI, Instancia administrada de Azure SQL Database y Azure Cosmos DB. | Cuando quiera un desarrollo rápido, y las aplicaciones existentes tengan funcionalidad y ciclo de vida limitados.<br/><br/> Cuando esté listo para acelerar la innovación empresarial (como los procedimientos de DevOps que proporciona Azure), cree aplicaciones mediante tecnologías nativas-nube y aproveche los avances en inteligencia artificial, cadena de bloques e IoT.
+**Rediseño** | El rediseño para la migración se centra en modificar y ampliar la funcionalidad de las aplicaciones y el código base con el fin de optimizar la arquitectura de aplicación para la escalabilidad en la nube.<br/><br/> Por ejemplo, podría dividir una aplicación monolítica en un grupo de microservicios que funcionan en conjunto y se escalan fácilmente.<br/><br/> O bien, puede rediseñar las bases de datos relacionales y no relacionales para adaptarlas a soluciones de bases de datos totalmente administradas, como Instancia administrada de Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL y Azure Cosmos DB. | Cuando las aplicaciones necesitan revisiones importantes para incorporar funcionalidades nuevas o para funcionar de forma eficaz en una plataforma de nube.<br/><br/> Si desea usar las inversiones existentes en las aplicaciones, cumplir los requisitos de escalabilidad, aplicar procedimientos innovadores de DevOps y minimizar el uso de máquinas virtuales.
+**Recompilación** | La recompilación va más lejos al recompilar una aplicación desde cero mediante tecnologías de nube de Azure.<br/><br/> Por ejemplo, puede compilar aplicaciones tipo "green-field" con tecnologías [nativas de nube](https://azure.com/cloudnative), Azure Functions, Azure AI, Instancia administrada de Azure SQL Database y Azure Cosmos DB. | Cuando quiera un desarrollo rápido, y las aplicaciones existentes tengan funcionalidad y ciclo de vida limitados.<br/><br/> Cuando esté listo para acelerar la innovación empresarial (como los procedimientos de DevOps que proporciona Azure), cree aplicaciones mediante tecnologías nativas-nube y aproveche los avances en inteligencia artificial, cadena de bloques e IoT.
 
 <!-- markdownlint-enable MD033 -->
 
 ## <a name="migration-example-articles"></a>Artículos de ejemplo de una migración
 
-En los artículos de esta sección se proporcionan ejemplos de varios escenarios comunes de migración. Cada uno de estos ejemplos incluye información general y escenarios de implementación detallados en los que se muestra cómo configurar una infraestructura de migración, valorar la idoneidad de los recursos locales para la migración. Con el tiempo, se agregarán más artículos en esta sección.
+En esta sección se proporcionan ejemplos de varios escenarios comunes de migración. Cada ejemplo incluye información general y escenarios de implementación detallados en los que se muestra cómo configurar una infraestructura de migración y evaluar la idoneidad de los recursos locales para la migración. Con el tiempo, se agregarán más artículos en esta sección.
 
 ![Proyectos comunes de migración/modernización](./media/migration-patterns.png)
 
@@ -58,7 +58,7 @@ Los artículos de la serie se resumen a continuación.
 
 **Artículo** | **Detalles**
 --- | ---
-[Valoración de los recursos locales para su migración a Azure](./contoso-migration-assessment.md) | En este artículo se muestra cómo ejecutar la valoración de una aplicación local que se ejecuta en VMware. Aquí, una organización de ejemplo valora las máquinas virtuales de la aplicación mediante el servicio Azure Migrate, y la base de datos SQL Server de la aplicación con Data Migration Assistant.
+[Valoración de los recursos locales para su migración a Azure](../../plan/contoso-migration-assessment.md) | En este artículo de procedimientos recomendados del plan metodológico se describe cómo ejecutar una evaluación de una aplicación local que se ejecuta en VMware. En este artículo, una organización de ejemplo evalúa las máquinas virtuales de la aplicación mediante el servicio Azure Migrate, y la base de datos SQL Server de la aplicación mediante Data Migration Assistant.
 
 ### <a name="infrastructure"></a>Infraestructura
 
@@ -84,7 +84,7 @@ Los artículos de la serie se resumen a continuación.
 
 **Artículo** | **Detalles**
 --- | ---
-[Rehospedaje de una aplicación en una máquina virtual de Azure e Instancia administrada de Azure SQL Database](./contoso-migration-rehost-vm-sql-managed-instance.md) | En este artículo se proporciona un ejemplo de migración de mediante lift-and-shift a Azure para una aplicación local. Esto implica la migración de la máquina virtual front-end de la aplicación mediante [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) y la base de datos de la aplicación a una Instancia administrada de Azure SQL Database con el [servicio Azure Database Migration](https://docs.microsoft.com/azure/dms/dms-overview).
+[Rehospedaje de una aplicación en una máquina virtual de Azure e Instancia administrada de Azure SQL Database](./contoso-migration-rehost-vm-sql-managed-instance.md) | En este artículo se proporciona un ejemplo de migración de mediante lift-and-shift a Azure para una aplicación local. Este esfuerzo implica la migración de la máquina virtual front-end de la aplicación mediante [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) y la base de datos de la aplicación a una Instancia administrada de Azure SQL Database con el [servicio Azure Database Migration](https://docs.microsoft.com/azure/dms/dms-overview).
 [Rehospedaje de una aplicación en VM de Azure y en un grupo de disponibilidad AlwaysOn de SQL Server](./contoso-migration-rehost-vm-sql-ag.md) | En este ejemplo se muestra cómo migrar una aplicación y datos mediante máquinas virtuales hospedadas de Azure SQL Server. Usa Site Recovery para migrar las VM de la aplicación y Azure Database Migration Service para migrar la base de datos de la aplicación a un clúster de SQL Server protegido por un grupo de disponibilidad AlwaysOn.
 
 ### <a name="aspnet-php-and-java-apps"></a>Aplicaciones de ASP.NET, PHP y Java

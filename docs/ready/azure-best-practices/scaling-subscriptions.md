@@ -1,28 +1,28 @@
 ---
-title: Escalado con varias suscripciones de Azure
-description: Aprenda a escalar con varias suscripciones de Azure.
+title: Escalado con suscripciones de Azure
+description: Use Cloud Adoption Framework para Azure para aprender a desarrollar una estrategia de escalado con varias suscripciones de Azure.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 6a893ce6f8620b31fcf23d8c3e8581e95035bdcf
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: b734446a4bac7d8db12119b2248aece9a3377d37
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337747"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508396"
 ---
 # <a name="scale-with-multiple-azure-subscriptions"></a>Escalado con varias suscripciones de Azure
 
-A menudo las organizaciones necesitan más de una suscripción de Azure, como resultado de los límites de recursos y otras consideraciones de gobernanza. Es importante tener una estrategia para escalar las suscripciones.
+Normalmente, las organizaciones necesitan varias suscripciones de Azure, como resultado de los límites de recursos y otras consideraciones de gobernanza. Es importante definir una estrategia para escalar las suscripciones.
 
 ## <a name="production-and-nonproduction-workloads"></a>Cargas de trabajo de producción y no producción
 
 Al implementar la primera carga de trabajo de producción en Azure, debe empezar con dos suscripciones: una para el entorno de producción y otra para el entorno de no producción (desarrollo/pruebas).
 
-![Modelo de suscripción básico que muestra llaves junto a cuadros de producción y no producción](../../_images/ready/basic-subscription-model.png)
+![Modelo de suscripción básico que muestra llaves junto a cuadros de producción y no producción](../../_images/ready/initial-subscription-model.png)
 
 Se recomienda este enfoque por varios motivos:
 
@@ -62,7 +62,7 @@ Puede mover muchos tipos de recursos de una suscripción a otra o usar implement
 
 ## <a name="manage-multiple-subscriptions"></a>Administrar varias suscripciones
 
-Si solo tiene algunas suscripciones, administrarlas de forma independiente es relativamente sencillo. Pero si tiene muchas suscripciones, considere la posibilidad de crear una jerarquía de grupos de administración para simplificar la administración de suscripciones y recursos.
+Si solo tiene algunas suscripciones, administrarlas de forma independiente es relativamente sencillo. Pero si tiene muchas suscripciones, cree una jerarquía de grupos de administración para simplificar la administración de suscripciones y recursos.
 
 Los grupos de administración permiten una administración eficaz del acceso, las directivas y el cumplimiento de las suscripciones de una organización. Cada grupo de administración es un contenedor de una o más suscripciones.
 
@@ -71,7 +71,7 @@ Los grupos de administración están organizados en una sola jerarquía. Esta je
 Azure proporciona cuatro niveles de ámbito administración: grupo de administración, suscripciones, grupos de recursos y recursos. Cualquier acceso o directiva aplicados en un nivel de la jerarquía se hereda por los niveles inferiores. El propietario de un recurso o de una suscripción no puede modificar una directiva heredada. Esta limitación ayuda a mejorar la gobernanza.
 
 > [!NOTE]
-> Tenga en cuenta que la herencia de etiquetas no está disponible en este momento, pero lo estará pronto.
+> Tenga en cuenta que la herencia de etiquetas no se admite en este momento, pero lo hará próximamente.
 
 Al confiar en este modelo de herencia, puede organizar las suscripciones de la jerarquía de forma que cada suscripción siga las directivas y los controles de seguridad adecuados.
 
@@ -79,11 +79,11 @@ Al confiar en este modelo de herencia, puede organizar las suscripciones de la j
 
 Todas las asignaciones de acceso o directivas en el grupo de administración raíz se aplican a todos los recursos dentro del directorio. Considere cuidadosamente qué elementos define en este ámbito. Incluya solo las asignaciones que debe tener.
 
-Al definir inicialmente la jerarquía de grupos de administración, primero debe crear el grupo de administración raíz. A continuación, mueva todas las suscripciones existentes en el directorio al grupo de administración raíz. Las nuevas suscripciones siempre se crean en el grupo de administración raíz. Posteriormente, puede moverlas a otro grupo de administración.
+Al definir la jerarquía de grupos de administración, primero debe crear el grupo de administración raíz. A continuación, mueva todas las suscripciones existentes en el directorio al grupo de administración raíz. Las nuevas suscripciones siempre se crean en el grupo de administración raíz. Posteriormente, puede moverlas a otro grupo de administración.
 
 Cuando se mueve una suscripción a un grupo de administración existente, se heredan las asignaciones de directivas y roles de la jerarquía de grupos de administración que se encuentra por encima. Una vez que haya establecido varias suscripciones para las cargas de trabajo de Azure, debe crear suscripciones adicionales para que contengan los servicios de Azure que otras suscripciones comparten.
 
-![Ejemplo de una jerarquía de grupos de administración](../../_images/ready/management-group-hierarchy.png)
+![Ejemplo de una jerarquía de grupos de administración](../../_images/ready/management-group-hierarchy-v2.png)
 
 Para más información, consulte [Organización de los recursos con grupos de administración de Azure](https://docs.microsoft.com/azure/governance/management-groups).
 

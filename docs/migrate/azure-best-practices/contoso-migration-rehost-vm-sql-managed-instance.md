@@ -1,6 +1,6 @@
 ---
-title: Rehospedaje de una aplicación local mediante la migración a máquinas virtuales de Azure e Instancia administrada de Azure SQL Database
-description: Aprenda cómo Contoso vuelve a hospedar una aplicación local en máquinas virtuales de Azure y mediante Instancia administrada de Azure SQL Database.
+title: Rehospedaje en Azure y en una Instancia administrada de Azure SQL Database
+description: Use Cloud Adoption Framework para Azure para aprender a rehospedar una aplicación local en máquinas virtuales de Azure mediante una Instancia administrada de Azure SQL Database.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 7ec95c75d81b93852a59ef137a02cc35d83a1cd3
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 0308308ab098f7cc7fe7c05094549b01f36c2d61
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223083"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311972"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>rehospedar una aplicación local en una máquina virtual de Azure e Instancia administrada de Azure SQL Database
 

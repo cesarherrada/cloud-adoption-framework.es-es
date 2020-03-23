@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 62c47f8d4b3c386129c6a6a9eeb966393573ea16
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 614c43a59d7fab493aa97eca47dcd43a73987fa9
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223895"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508141"
 ---
 <!-- cSpell:ignore netops -->
 
@@ -30,7 +30,7 @@ Los requisitos son:
 - Compatibilidad para varios **entornos**. Un entorno es una agrupación lógica de recursos, como máquinas virtuales, redes virtuales y servicios de enrutamiento de tráfico de red. Estos grupos de recursos tienen requisitos de seguridad y administración similares y se suelen usar para un propósito específico, como pruebas o producción. En este ejemplo, son necesarios cuatro entornos:
   - Un **entorno de infraestructura compartida** que incluya los recursos compartidos por las cargas de trabajo en otros entornos. Por ejemplo, una red virtual con una subred de puerta de enlace que proporciona conectividad con el entorno local.
   - Un **entorno de producción** con las directivas de seguridad más restrictivas. Puede incluir las cargas de trabajo de acceso interno o externo.
-  - Un **entorno de preproducción** para trabajos de desarrollo y pruebas. Las directivas de seguridad, de cumplimiento normativo y de costos de este entorno difieren de los del entorno de producción. En Azure, esto adopta la forma de una suscripción de desarrollo/pruebas - Enterprise.
+  - Un **entorno que no sea de preproducción** para trabajos de desarrollo y pruebas. Las directivas de seguridad, de cumplimiento normativo y de costos de este entorno difieren de los del entorno de producción. En Azure, esto adopta la forma de una suscripción de desarrollo/pruebas - Enterprise.
   - Un **entorno de espacio aislado** con fines de prueba de concepto y educativos. Este entorno se asigna normalmente por cada empleado que participa en las actividades de desarrollo e incluye estrictos controles de seguridad de procedimientos y controles operativos para evitar que los datos corporativos entren aquí. En Azure, estos adoptan la forma de suscripciones de Visual Studio. Estas suscripciones _no_ se deben asociar tampoco a la instancia de Azure Active Directory de la empresa.
 - Un **modelo de permisos de privilegios mínimos** en el cual los usuarios no poseen permisos de forma predeterminada. El modelo debe admitir lo siguiente:
   - Un usuario único de confianza (que se trata como una cuenta de servicio) en el ámbito de la suscripción con permiso para asignar derechos de acceso a los recursos.
@@ -141,7 +141,7 @@ Ahora que hemos diseñado un modelo de permisos con privilegios mínimos, vamos 
 2. **Entorno de producción:** varios grupos de recursos que representan varias cargas de trabajo de producción. Estos recursos se utilizan para hospedar los artefactos de aplicación de acceso privado y público. Estos recursos normalmente tienen una gobernanza y modelos de seguridad más estrictos para proteger los recursos, el código de la aplicación y los datos contra accesos no autorizados.
 3. **Entorno de preproducción:** varios grupos de recursos que representan varias cargas de trabajo que no están listas para producción. Estos recursos se usan con fines de desarrollo y pruebas. Estos recursos pueden tener un modelo de gobernanza más flexible para ofrecer más agilidad a los desarrolladores. La seguridad dentro de estos grupos debe aumentar para ser lo más parecida a la de "producción" que un proceso de desarrollo de aplicaciones pueda ser.
 
-En cada uno de estos tres entornos, hay que realizar el seguimiento de los datos de costo por **propietario de carga de trabajo**, **entorno** o ambos. Es decir, querrá conocer el costo actual de la **infraestructura compartida**, los costos en los que incurren los usuarios tanto en entornos de **preproducción** como en entornos de **producción** y, por último, el costo total de los entornos de **preproducción** y los de **producción**.
+En cada uno de estos tres entornos, hay que realizar el seguimiento de los datos de costo por **propietario de carga de trabajo**, **entorno** o ambos. Es decir, querrá conocer el costo actual de la **infraestructura compartida**, los costos en los que incurren los usuarios tanto en entornos que **no son de producción** como en entornos de **producción** y, por último, el costo total de los entornos que **no son de producción** y los de **producción**.
 
 Ya ha aprendido que el ámbito de los recursos se establece en dos niveles: **suscripción** y **grupo de recursos**. Por lo tanto, la primera decisión es cómo organizar los entornos por **suscripción**. Hay solo dos posibilidades: una sola suscripción o varias suscripciones.
 

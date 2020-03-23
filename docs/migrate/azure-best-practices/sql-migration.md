@@ -1,18 +1,18 @@
 ---
-title: Procedimientos recomendados de migración de SQL Server para Azure
-description: Introducción a los procedimientos recomendados de migración de SQL Server para Azure
+title: Server Migration para Azure
+description: Use Cloud Adoption Framework para Azure para conocer procedimientos recomendados de migración de SQL Server para reducir la complejidad y normalizar el proceso de migración.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 25e89ccbca604ea7637d8c45b9a843491706ff04
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: e23d954835e20735ca5f8ab57e0139504c5f4c75
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094620"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311904"
 ---
 # <a name="sql-server-migration-best-practices-for-azure"></a>Procedimientos recomendados de migración de SQL Server para Azure
 

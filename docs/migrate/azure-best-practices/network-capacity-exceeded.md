@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 854e22b70250496704cade4d7465c217705c928d
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 565cb0d97fc764375f708d8e3db8f2a1c0a852e4
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094832"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508379"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -59,7 +59,7 @@ Cuando se usan mecanismos de transferencia sin conexión, es probable que no se 
 
 ### <a name="suggested-action-during-the-migrate-process"></a>Acción sugerida durante el proceso de migración
 
-**Copia del almacenamiento:** este enfoque se podría usar para transferir HDFS de datos, copias de seguridad, archivos, servidores de archivos, aplicaciones, etc. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
+**Copia del almacenamiento:** este enfoque se podría usar para transferir HDFS de datos, copias de seguridad, archivos, servidores de archivos o aplicaciones. Una guía técnica existente explica cómo usar este enfoque para transferir datos desde [un almacén de HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) o desde discos con [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) o el [servicio de copia de datos](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) a Data Box.
 
 También hay [soluciones de asociados de terceros](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box) que usan Azure Data Box para una migración de tipo "inicialización y sincronización", donde un gran volumen de datos se mueve a través de una transferencia sin conexión pero que más adelante se sincroniza a una escala inferior a través de la red.
 

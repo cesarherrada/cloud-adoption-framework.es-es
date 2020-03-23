@@ -1,22 +1,25 @@
 ---
-title: Configuración de servicios de administración de servidores de Azure para una suscripción
-description: Configuración de servicios de administración de servidores de Azure para una suscripción
+title: Configuración del servicio para una suscripción
+description: Aprenda a configurar los servicios de administración de servidores de Azure de una suscripción mediante la implementación de agentes de servicio en los servidores y la habilitación de soluciones de administración.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c3c44f3c53049f29be989616e1d5af041907e497
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: efd387f2f3a1c11d518e8e51d06977efdd07609c
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808097"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312739"
 ---
+<!-- cSpell:ignore VMUUID kusto -->
+
 # <a name="configure-azure-server-management-services-at-scale"></a>Configuración de servicios de administración de servidores de Azure a escala
 
 Debe completar estas dos tareas para incorporar los servicios de administración de servidores de Azure en sus servidores:
+
 - Implementar los agentes de servicio en los servidores
 - Habilitar las soluciones de administración
 
@@ -74,7 +77,7 @@ Después de completar el asistente, la asignación de directiva se implementará
 > [!NOTE]
 > Cree el [área de trabajo de Log Analytics y la cuenta de Azure Automation](./prerequisites.md#create-a-workspace-and-automation-account) necesarias antes de incorporar los servicios de administración de servidores de Azure en los servidores.
 
-En el caso de los servidores locales, debe descargar e instalar manualmente el [agente de Log Analytics y Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud), y configurarlos para que se conecten al área de trabajo correcta. Debe especificar el identificador del área de trabajo y la información de clave. Para obtener esa información, vaya al área de trabajo de Log Analytics en Azure Portal y seleccione **Configuración** > **Configuración avanzada**.
+En el caso de los servidores locales, debe descargar e instalar manualmente el [agente de Log Analytics y Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud), y configurarlos para que se conecten al área de trabajo correcta. Debe especificar el identificador del área de trabajo y la información de clave. Para obtener esa información, vaya al área de trabajo de Log Analytics en Azure Portal y, a continuación, seleccione **Configuración** > **Configuración avanzada**.
 
 ![Captura de pantalla de Configuración avanzada del área de trabajo de Log Analytics en Azure Portal](./media/onboarding-on-premises.png)
 
@@ -139,7 +142,7 @@ Para crear o modificar la búsqueda guardada, siga estos pasos:
 
 Para implementar esta solución:
 
-1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
+1. En Azure Portal, abra **Todos los servicios** y, a continuación, seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
 3. Busque **Activity Log Analytics** y selecciónela.
 4. Seleccione **Crear**.
@@ -152,7 +155,7 @@ La solución Agent Health para Azure Log Analytics ofrece información sobre el 
 
 Para implementar esta solución:
 
-1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
+1. En Azure Portal, abra **Todos los servicios** y, a continuación, seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
 3. Busque **Agent Health para Azure Log Analytics** y selecciónela.
 4. Seleccione **Crear**.
@@ -167,7 +170,7 @@ La solución Antimalware Assessment le ayuda a identificar los servidores que es
 
 Para implementar esta solución:
 
-1. En Azure Portal, abra **Todos los servicios** y seleccione **Administración y gobernanza** > **Soluciones**.
+1. En Azure Portal, abra **Todos los servicios** y, a continuación, seleccione **Administración y gobernanza** > **Soluciones**.
 2. En la vista **Soluciones**, seleccione **Agregar**.
 3. Busque la opción **Antimalware Assessment** y selecciónela.
 4. Seleccione **Crear**.
@@ -178,7 +181,7 @@ Una vez completada la creación, la instancia de recurso del área de trabajo mu
 
 ### <a name="azure-monitor-for-vms"></a>Azure Monitor para máquinas virtuales
 
-Puede habilitar [Azure Monitor para VM](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview) a través de la página de vista de la instancia de VM, tal y como se describe en [Habilitar los servicios de administración en una única máquina virtual para su evaluación](./onboard-single-vm.md). No debe habilitar soluciones directamente desde la página **Soluciones** como hizo con las otras soluciones que se describen en este artículo. Para implementaciones a gran escala, puede ser más fácil usar [automatización](./onboarding-automation.md) para habilitar las soluciones correctas en el área de trabajo. 
+Puede habilitar [Azure Monitor para VM](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview) a través de la página de vista de la instancia de VM, tal y como se describe en [Habilitar los servicios de administración en una única máquina virtual para su evaluación](./onboard-single-vm.md). No debe habilitar soluciones directamente desde la página **Soluciones** como hizo con las otras soluciones que se describen en este artículo. Para implementaciones a gran escala, puede ser más fácil usar [automatización](./onboarding-automation.md) para habilitar las soluciones correctas en el área de trabajo.
 
 ### <a name="azure-security-center"></a>Azure Security Center
 

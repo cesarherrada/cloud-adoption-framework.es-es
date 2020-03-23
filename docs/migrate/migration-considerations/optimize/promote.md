@@ -1,18 +1,18 @@
 ---
-title: ¿Qué se necesita para promover un recurso migrado a producción?
-description: Un proceso de la migración a la nube que se centra en las tareas de migración de cargas de trabajo.
+title: Requisitos para promocionar un recurso migrado a producción
+description: Use Cloud Adoption Framework para Azure para comprender las tareas comunes y los requisitos previos estándar para promocionar un recurso migrado a producción.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a357d4d5024d7671d2018276be06532134a1f137
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e2f0a0d92dfa63e0eb3f438fcc155854dfd61f8c
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801688"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311819"
 ---
 <!-- markdownlint-disable MD026 -->
 

@@ -1,18 +1,18 @@
 ---
-title: ¿Qué papel desempeñan la replicación y sincronización en el proceso de migración?
-description: Un proceso de la migración a la nube que se centra en las tareas de migración de cargas de trabajo.
+title: Replicación y proceso de migración
+description: Comprenda el rol que desempeña la replicación en el proceso de migración, así como la forma de planear los requisitos previos y los riesgos de las actividades de replicación.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5eaea53e65951cb5fee3d36b2eba472e1048feb2
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 31930cfef32d4a02b3892405e2c5b462e0039566
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337809"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312779"
 ---
 <!-- markdownlint-disable MD026 -->
 

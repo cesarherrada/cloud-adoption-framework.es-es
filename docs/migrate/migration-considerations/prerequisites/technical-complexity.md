@@ -1,19 +1,21 @@
 ---
-title: 'Preparación para la complejidad técnica: administración de cambios ágil'
-description: 'Preparación para la complejidad técnica: administración de cambios ágil'
+title: Preparación para la complejidad de administración de cambios ágil
+description: Use Cloud Adoption Framework para Azure para preparar a los arquitectos de la nube para una conversación sobre la administración de proyectos con el fin de explicar el concepto de administración de cambios.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 73cbd084e79589de68e359ad4dc88b639d92f9df
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3e2b9139fa4774549f68ccf3762234bc755fd458
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801348"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311836"
 ---
+<!-- cSpell:ignore ITSM TOGAF -->
+
 # <a name="prepare-for-technical-complexity-agile-change-management"></a>Preparación para la complejidad técnica: administración de cambios ágil
 
 Cuando se puede desaprovisionar y volver a crear un centro de datos entero con una sola línea de código, los procesos tradicionales luchan por estar a la altura. Las instrucciones de Cloud Adoption Framework se basan en prácticas como la Administración de servicios de TI (ITSM), el marco Open Group Architecture Framework (TOGAF), etc. Sin embargo, para garantizar la agilidad y la capacidad de respuesta al cambio empresarial, este marco de trabajo moldea esas prácticas para incorporar metodologías ágiles y enfoques de DevOps.

@@ -1,18 +1,18 @@
 ---
-title: Planeamiento de los requisitos previos de los servicios de administración de servidores de Azure
-description: Herramientas y planeamiento de los requisitos previos de los servicios de administración de servidores de Azure
+title: Planeamiento de los servicios de administración de servidores de Azure
+description: Obtenga información sobre las herramientas y prepárese para los recursos necesarios para administrar los servicios de administración de servidores de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 934263f5c143d021ce97125f025f96d8ae6f338f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 97d4b52b50f943dfd0e146e84d4e5fc5a1d97711
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807978"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312783"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Fase 1: Planeamiento de los requisitos previos de los servicios de administración de servidores de Azure
 
@@ -97,7 +97,7 @@ Para crear un área de trabajo de Log Analytics mediante Azure Portal, consulte 
 > [!NOTE]
 > Al crear una cuenta de Automation mediante Azure Portal, el portal intenta de forma predeterminada crear cuentas de ejecución para los recursos de Azure Resource Manager y del modelo de implementación clásica. Si no tiene máquinas virtuales clásicas en su entorno y no es coadministrador de la suscripción, el portal crea una cuenta de ejecución para Resource Manager pero genera un error al implementar la cuenta de ejecución clásica. Si no desea admitir recursos clásicos, puede omitir este error.
 >
-> También puede crear una cuenta de ejecución con [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#create-run-as-account-using-powershell).
+> También puede crear una cuenta de ejecución con [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#creating-a-run-as-account-using-powershell).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -1,6 +1,6 @@
 ---
 title: Centro de datos virtual de Azure
-description: Recursos para el centro de datos virtual de Microsoft Azure
+description: El Centro de datos virtual de Azure ahora es Microsoft Cloud Adoption Framework para Azure. Obtenga información sobre los recursos disponibles para respaldar esta transición.
 author: tracsman
 ms.author: jonor
 ms.date: 06/12/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: 0a4c1777cc256b72fb3897b47d76c1c224b578da
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 4eb8e5a0c9fa88bdfbd6e00c55047e75873ff36f
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78891751"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311564"
 ---
 <!-- cSpell:ignore tracsman jonor -->
 

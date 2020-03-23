@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f1ee4e64e86ccb3648badad38d2118be11b76cc7
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: cc8f2396e379180d213bd042d65f36e9eaef2828
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709369"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508124"
 ---
 # <a name="identity-baseline-discipline-improvement"></a>Mejora de la materia sobre la base de referencia de la identidad
 
@@ -119,7 +119,7 @@ Una vez completada la transformación, la gobernanza y las operaciones deben est
 **Posible actividades:**
 
 - Realice auditorías periódicas de las directivas de identidad y de los procedimientos de cumplimiento.
-- Asegúrese de que las cuentas de usuario confidenciales (CEO, CFO, VP, etc.) estén siempre habilitadas para la autenticación multifactor y la detección de inicios de sesión anómalos.
+- Asegúrese de que las cuentas de usuario confidenciales (las de los directores ejecutivos de la empresa) estén siempre habilitadas para la autenticación multifactor y la detección de inicios de sesión anómalos.
 - Examine en busca de actores malintencionados y vulneraciones de seguridad de los datos de forma periódica, especialmente aquellas relacionadas con los fraudes de identidad como, por ejemplo, posibles apropiaciones de cuentas de administrador.
 - Configure una herramienta de supervisión e informes.
 - Considere la posibilidad de una integración más estrecha con los sistemas de seguridad y prevención de fraudes.

@@ -8,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 250f78bb0287e30615aee4b2cfb1234823197f56
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: e0903b816dbbdf6d227870d8bae99fd585d1734e
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222673"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140327"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Red definida por software: Nativo de la nube
 
 Se requiere una red virtual nativa en la nube para implementar recursos de IaaS, como las máquinas virtuales, en una plataforma en la nube. El acceso a redes virtuales de orígenes externos, similares a la web, se debe proporcionar explícitamente. Este tipo de redes virtuales admiten la creación de subredes y reglas de enrutamiento, así como firewalls virtuales y dispositivos de administración de tráfico.
 
-Una red virtual nativa en la nube no depende de los recursos locales de la organización ni de otros recursos que no estén en la nube para admitir las cargas de trabajo hospedadas en la nube. Todos los recursos necesarios se aprovisionan en la propia red virtual o mediante ofertas PaaS administradas.
+Una red virtual nativa en la nube no depende de los recursos locales de la organización ni de otros recursos que no sean de nube para admitir las cargas de trabajo hospedadas en la nube. Todos los recursos necesarios se aprovisionan en la propia red virtual o mediante ofertas PaaS administradas.
 
 ## <a name="cloud-native-assumptions"></a>Supuestos de la red virtual nativa en la nube
 

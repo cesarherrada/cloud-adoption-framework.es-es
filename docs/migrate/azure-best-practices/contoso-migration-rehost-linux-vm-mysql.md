@@ -1,18 +1,18 @@
 ---
 title: Rehospedaje de una aplicación del departamento de servicios de Linux en Azure y Azure Database for MySQL
-description: Obtenga información sobre cómo Contoso vuelve a hospedar una aplicación de Linux local mediante la migración de VM de Azure y Azure Database for MySQL.
+description: Use Cloud Adoption Framework para Azure para aprender a rehospedar una aplicación de Linux local migrándola a las máquinas virtuales de Azure y a Azure Database for MySQL.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a5043e3d42b843cfb714823fcb476e7bfdc0a2fd
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 89ba67d795f03a424a22fbf834f07f9d45241449
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223004"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311479"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost contosodc contosovmsacc contosoosticket vcenter cswiz osticket NSGs systemctl -->
 

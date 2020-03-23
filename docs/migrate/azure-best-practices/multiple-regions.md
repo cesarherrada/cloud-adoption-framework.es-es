@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 00dfa6c1caed189d9d9b1d27525344b5101c2af0
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 65e2331dca7756306c875dae092faaaf41030765
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78898122"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508345"
 ---
 # <a name="azure-regions"></a>Regiones de Azure
 
@@ -81,10 +81,10 @@ La tabla siguiente puede ayudar a documentar los resultados de los pasos anterio
 
 | Region        | Country     | Empleados locales | Usuarios externos locales   | Centros de datos o recursos locales | Requisitos de soberanía de datos |
 |---------------|-------------|-----------------|------------------------|-----------------------------|-------------------------------|
-| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | Sin                            |
-| Norteamérica | Canadá      | Sin              | Clientes              | Sí                         | Sí                           |
+| Norteamérica | EE. UU.         | Sí             | Asociados y clientes | Sí                         | No                            |
+| Norteamérica | Canadá      | No              | Clientes              | Sí                         | Sí                           |
 | Europa        | Alemania     | Sí             | Asociados y clientes | No, solo red           | Sí                           |
-| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | Sin                            |
+| Asia Pacífico  | Corea del Sur | Sí             | Asociados               | Sí                         | No                            |
 
 <!-- markdownlint-disable MD026 -->
 

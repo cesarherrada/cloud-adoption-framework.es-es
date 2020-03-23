@@ -1,18 +1,18 @@
 ---
-title: Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
-description: Después de migrar a Azure, consulte los procedimientos recomendados para la operación, administración y protección de las cargas de trabajo migradas.
+title: Protección y administración de cargas de trabajo migradas a Azure
+description: Use Cloud Adoption Framework para Azure para conocer los procedimientos recomendados para operar, administrar y proteger las cargas de trabajo migradas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: cef5746f8ab3368150ddcc328a8d929853dfb253
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: d61816b0140c36aa405025358a43068201bcad03
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222693"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311938"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la protección y administración de cargas de trabajo migradas a Azure
 

@@ -1,6 +1,6 @@
 ---
 title: Mecanismos de control de costos centrados en la migración
-description: Aprenda a configurar presupuestos y pagos, y a comprender las facturas de los recursos de Azure.
+description: Use Cloud Adoption Framework para Azure para aprender a configurar presupuestos y pagos, y a comprender las facturas de los recursos de Azure.
 author: bandersmsft
 ms.author: banders
 ms.date: 08/08/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 82c801abee32e0399eb124440868bc455034a018
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: b220929fd6348909b8f06f7a537e1052c459d24d
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222648"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312125"
 ---
+<!-- cSpell:ignore bandersmsft -->
+
 # <a name="migration-focused-cost-control-mechanisms"></a>Mecanismos de control de costos centrados en la migración
 
 La nube presenta algunos cambios en nuestra forma de trabajar, independientemente de nuestro rol en el equipo tecnológico. El costo es un buen ejemplo de este cambio. En el pasado, solo al liderazgo financiero y de TI le preocupaban el costo de los recursos de TI (infraestructura, aplicaciones y datos). La nube permite a todos los miembros de TI tomar decisiones que mejoren el soporte técnico para el usuario final y actuar sobre ellas. Si embargo, con esa eficacia aparece la responsabilidad de tener en cuenta el costo al tomar esas decisiones.
@@ -45,7 +47,7 @@ Para los cálculos de costos manuales, hay dos prácticas calculadoras que puede
 - La [calculadora de precios](https://azure.microsoft.com/pricing/calculator) proporciona estimaciones del costo en función de los productos de Azure especificados manualmente.
 - En ocasiones, las decisiones requieren una comparación de los costos de la nube futuros y los costos locales actuales. La [calculadora del costo total de propiedad (TCO)](https://azure.microsoft.com/pricing/tco/calculator) puede proporcionar esta comparación.
 
-Estas calculadoras de costos manuales se pueden usar por su cuenta para prever los posibles gastos y ahorros. También se pueden usar junto con las herramientas de previsión de costos de Azure Migrate para ajustar las expectativas en cuanto a los costos que se ajusten a arquitecturas alternativas o restricciones de rendimiento.
+Estas calculadoras de costos manuales se pueden usar por su cuenta para prever los posibles gastos y ahorros. También se pueden usar junto con las herramientas de previsión de costos de Azure Migrate para ajustar las expectativas de costos para que se adapten a arquitecturas alternativas o restricciones de rendimiento.
 
 ## <a name="azure-migrate-calculations"></a>Cálculos de Azure Migrate
 

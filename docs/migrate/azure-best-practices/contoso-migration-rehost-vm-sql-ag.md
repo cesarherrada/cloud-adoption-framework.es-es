@@ -1,6 +1,6 @@
 ---
-title: Rehospedaje de una aplicación local mediante su migración a las VM de Azure y los grupos de disponibilidad Always On de SQL Server
-description: Obtenga información sobre cómo Contoso rehospeda una aplicación local migrándola a las VM de Azure y a los grupos de disponibilidad AlwaysOn de SQL Server.
+title: Rehospedaje en Azure y en grupos de disponibilidad AlwaysOn de SQL Server
+description: Use Cloud Adoption Framework para Azure para aprender a rehospedar una aplicación local migrándola a las máquinas virtuales de Azure y a los grupos de disponibilidad AlwaysOn de SQL Server.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: b52b1fad33a9868682ddcd7cf905c7f8ab9b3612
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: bc530c3f97b26a519198ef7b9ddc1fce967fbed6
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222954"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311547"
 ---
 # <a name="rehost-an-on-premises-app-with-azure-virtual-machines-and-sql-server-always-on-availability-groups"></a>Rehospedaje de una aplicación local con máquinas virtuales de Azure y grupos de disponibilidad Always On de SQL Server
 

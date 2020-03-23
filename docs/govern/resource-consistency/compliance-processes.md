@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 17796b5ebe081f6e7ff14ba951db4db0d187d630
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 6751de6d448be8119dceaed86339e1c27ccc40f3
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709522"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508107"
 ---
 # <a name="resource-consistency-policy-compliance-processes"></a>Procesos de cumplimiento de directivas de coherencia de recursos
 
@@ -59,7 +59,7 @@ Los siguientes desencadenadores y acciones de cumplimiento son ejemplos que pued
 - **Recurso infraaprovisionado detectado.** cuando se detectan recursos que utilizan más del 80 % de CPU o de capacidad de memoria, es necesario escalar verticalmente o aprovisionar automáticamente recursos adicionales para proporcionar más capacidad.
 - **Creación de recursos sin etiquetas.** todas las solicitudes para crear un recurso sin las etiquetas META necesarias se rechazarán automáticamente.
 - **Interrupción de recursos crítica detectada.** el personal de TI recibe una notificación de todas las interrupciones críticas detectadas. Si la interrupción no se puede resolver inmediatamente, el personal escala el problema e informa a los propietarios de las cargas de trabajo y al equipo de gobernanza de la nube. El equipo de gobernanza de la nube realiza un seguimiento del problema hasta la resolución y actualiza las instrucciones si se necesita la revisión de las directivas para prevenir futuros incidentes.
-- **Desfase de configuración.** Los recursos detectados que no se ajustan a las líneas de base establecidas deben desencadenar alertas y corregirse automáticamente mediante herramientas de administración de configuración como Azure Automation, Chef, Puppet, Ansible, etc.
+- **Desfase de configuración.** Los recursos detectados que no se ajustan a las líneas de base establecidas deben desencadenar alertas y corregirse automáticamente mediante herramientas de administración de configuración como Azure Automation, Chef, Puppet o Ansible.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

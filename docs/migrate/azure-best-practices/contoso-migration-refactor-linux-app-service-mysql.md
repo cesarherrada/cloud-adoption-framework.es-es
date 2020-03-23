@@ -1,18 +1,18 @@
 ---
-title: Refactorización de una aplicación del departamento de servicios de Linux a Azure App Service y Azure Database for MySQL
-description: Obtenga información sobre cómo Contoso refactoriza la aplicación Linux local mediante la migración a Azure App Service usando GitHub para el nivel web y Azure SQL Database.
+title: Refactorización de una aplicación de Linux en Azure App Service y Database for MySQL
+description: Use Cloud Adoption Framework para Azure para aprender a refactorizar una aplicación del centro de asistencia de Linux en Azure App Service y Azure Database for MySQL.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2e47647b06da12b9b595f4330767f629121e00a0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3a4ebcb2264ff863200071363b8369d8a76549d3
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807468"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311496"
 ---
 # <a name="refactor-a-linux-app-to-multiple-regions-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Refactorización de una aplicación de Linux a varias regiones con Azure App Service, Traffic Manager y Azure Database for MySQL
 
@@ -88,7 +88,7 @@ Contoso completará el proceso de migración como se indica a continuación:
 [Traffic Manager](https://azure.microsoft.com/services/traffic-manager) | Un equilibrador de carga que usa DNS para dirigir los usuarios a Azure o a sitios web y servicios externos. | Los precios se basan en el número de consultas de DNS recibidas y el número de puntos de conexión supervisados. | [Más información](https://azure.microsoft.com/pricing/details/traffic-manager).
 [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql) | La base de datos se basa en el motor de MySQL Server de código abierto. Proporciona una base de datos MySQL de comunidad completamente administrada y lista para la empresa como un servicio para el desarrollo e implementación de aplicaciones. | Los precios se basan en los requisitos de proceso, almacenamiento y copia de seguridad. [Más información](https://azure.microsoft.com/pricing/details/mysql).
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerrequisitos
 
 Esto es lo que tiene hacer Contoso para ejecutar este escenario.
 

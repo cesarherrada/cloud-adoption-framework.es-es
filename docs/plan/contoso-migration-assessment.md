@@ -1,6 +1,6 @@
 ---
-title: Valoración de cargas de trabajo locales para migrarlas a Azure
-description: Obtenga información sobre cómo Contoso valora sus máquinas locales para la migración a Azure con Azure Migrate y Data Migration Assistant.
+title: Valoración de cargas de trabajo locales para la migración a Azure
+description: Aprenda mediante un ejemplo ilustrativo cómo valorar una aplicación local para la migración a Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 78d33031879a49bd70a6dcfb01be604ca4371e49
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 5b70980d1c8f27f286aaf1173970e2edd26f60e0
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228579"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508430"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
 
@@ -130,7 +130,7 @@ Le mostramos cómo realiza Contoso la valoración:
 > - **Paso 6: Valoración de las máquinas virtuales con Azure Migrate.** Contoso comprueba las dependencias, agrupa las máquinas virtuales y ejecuta la valoración. Una vez lista la valoración, Contoso la analiza para preparar la migración.
 
     > [!NOTE]
-    > Assessments shouldn't just be limited to using tooling to discover information about your environment, you should schedule in time to speak to business owners, end users, other members within the IT department, etc in order to get a full picture of what is happening within the environment and understand things tooling cannot tell you. 
+    > Assessments shouldn't just be limited to using tooling to discover information about your environment. You should also schedule time to speak to business owners, end users, and other members of the IT department to fully understand of what is happening in the environment and understand factors that tooling cannot tell you. 
 
 ## <a name="step-1-download-and-install-data-migration-assistant"></a>Paso 1: Descarga e instalación de Data Migration Assistant
 

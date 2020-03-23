@@ -1,6 +1,6 @@
 ---
-title: Rehospedaje de una aplicación local Linux en Azure Virtual Machines
-description: Obtenga información sobre cómo Contoso rehospeda una aplicación de Linux local mediante la migración a VM de Azure.
+title: Rehospedaje de una aplicación local de Linux en máquinas virtuales de Azure
+description: Use Cloud Adoption Framework para Azure para aprender a rehospedar una aplicación de Linux local migrándola a las máquinas virtuales de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 12d69eee9fa52d6c7aef4b7b71b654808928ace4
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: b44a5d9c8e0447488abd500afeaa70fb87a819b1
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222985"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311955"
 ---
 <!-- cSpell:ignore SQLVM OSTICKETWEB OSTICKETMYSQL contosohost contosodc vcenter WEBVM systemctl NSGs -->
 

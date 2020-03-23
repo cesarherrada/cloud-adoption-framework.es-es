@@ -1,6 +1,6 @@
 ---
 title: Scaffold de Azure Enterprise
-description: En este artículo se describe una técnica de scaffolding empresarial que mantienen el entorno seguro y fácil de administrar.
+description: El scaffolding empresarial de Azure ahora es Microsoft Cloud Adoption Framework for Azure. Aprenda a afrontar la necesidad de gobernanza y a equilibrarla con la necesidad de agilidad.
 author: rdendtler
 ms.author: rodend
 ms.date: 09/22/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: 8291b48d2955d623b643c944f4307613bcf22f47
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: c545f147ba374fe1150573b060c600269eb628b1
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79023939"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311615"
 ---
 <!-- cSpell:ignore rodend subscope ITSM Hashi -->
 

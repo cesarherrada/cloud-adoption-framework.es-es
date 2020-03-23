@@ -1,18 +1,18 @@
 ---
-title: 'Compromiso empresarial: administración y operaciones en la nube'
-description: 'Compromiso empresarial: administración y operaciones en la nube'
+title: Compromiso empresarial en la administración de la nube
+description: Calcule los beneficios futuros de la clasificación y el impacto de las interrupciones en varias cargas de trabajo para tomar mejores decisiones y compromisos empresariales.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 4827ca2aac045b105beed9c15de366311092a7f2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9a16131436da5543eefd34afd8eafe6bb8a473d5
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807859"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312707"
 ---
 # <a name="business-commitment-in-cloud-management"></a>Compromiso empresarial en la administración de la nube
 

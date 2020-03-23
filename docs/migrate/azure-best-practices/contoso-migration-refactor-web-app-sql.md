@@ -1,6 +1,6 @@
 ---
-title: Refactorización de una aplicación mediante su migración a Azure App Service y Azure SQL Database
-description: Averigüe cómo Contoso rehospeda una aplicación local al migrarla a una aplicación web de Azure App Service y una base de datos de Azure SQL Server.
+title: Migración de una aplicación a Azure App Service y SQL Database
+description: Use Cloud Adoption Framework para Azure para aprender a refactorizar una aplicación mediante la migración a Azure App Service y Azure SQL Database.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3667207de8cc31a85e12666c425ffdf0469c1be5
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 86a7dc6a0754ece24c8d18dca847bde0e93b5345
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223059"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312006"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost contosodc vcenter smarthotel SHWEB SHWCF -->
 
