@@ -8,12 +8,12 @@ ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 2c9b932bd1a9500b7308fa24be65a12e46221a99
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 1727bb9c77298663f30e6205a9a3230ce65be3c1
+ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228591"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80069751"
 ---
 <!-- cSpell:ignore vCPUs jumpbox -->
 
@@ -32,7 +32,7 @@ Antes de usar el plano técnico de la zona de aterrizaje de migración en Cloud 
 
 Esta zona de aterrizaje inicial incluye las siguientes suposiciones o restricciones. Si estas suposiciones van acordes con las restricciones, puede usar el plano técnico para crear la primera zona de aterrizaje. El plano técnico también se puede ampliar para crear un plano técnico de la zona de aterrizaje que cumpla las restricciones únicas.
 
-- **Límites de suscripción:** no se espera que este esfuerzo de adopción supere los [límites de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits). Dos indicadores comunes constituyen un exceso de 25 000 máquinas virtuales o 10 000 vCPU.
+- **Límites de suscripción:** no se espera que este esfuerzo de adopción supere los [límites de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits).
 - **Cumplimiento:** no se necesita ningún requisito de cumplimiento de terceros en esta zona de aterrizaje.
 - **Complejidad de la arquitectura:** la complejidad de la arquitectura no requiere suscripciones de producción adicionales.
 - **Servicios compartidos:** no hay servicios compartidos en Azure que requieran que esta suscripción se trate como un radio en una arquitectura en estrella tipo hub-and-spoke.
