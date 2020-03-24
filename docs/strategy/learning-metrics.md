@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: b7a6081f37899f11716eca07b7e6a371bcefcc94
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: a27ef0d432fc0aad64211e9b2228d4f82387f854
+ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337883"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80069807"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -54,7 +54,7 @@ Una métrica aún más valiosa es el número de paneles creados a partir de orí
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez alineadas las métricas de aprendizaje, está listo para empezar a [evaluar el patrimonio digital](../digital-estate/index.md) con respecto a esas métricas. El resultado será un [trabajo pendiente de transformación o de migración](../migrate/migration-considerations/prerequisites/technical-complexity.md).
+Una vez alineadas las métricas de aprendizaje, está listo para empezar a [crear la justificación económica](cloud-migration-business-case.md) que debe proporcionar para hacer frente a esas métricas. 
 
 > [!div class="nextstepaction"]
-> [Evaluación del patrimonio digital](../digital-estate/index.md)
+> [Creación de la justificación económica de la nube](cloud-migration-business-case.md)
