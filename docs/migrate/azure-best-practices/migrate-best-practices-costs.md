@@ -1,18 +1,18 @@
 ---
-title: Procedimientos recomendados para la gestión de los costos y los ajustes de tamaño de las cargas de trabajo migradas a Azure
-description: Procedimientos recomendados para la gestión de los costos y los ajustes de tamaño de las cargas de trabajo migradas a Azure.
+title: Gestión de los costos y los ajustes de tamaño de las cargas de trabajo migradas a Azure
+description: Use Cloud Adoption Framework para Azure para aprender los procedimientos recomendados de gestión de costos y ajustes de tamaño de las cargas de trabajo migradas a Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 783652f1f469333c97ebd50673a3d42e1a9741d7
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: dd8030c884b6c5b66c733080d26f29bb8319740e
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892589"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508413"
 ---
 # <a name="best-practices-for-costing-and-sizing-workloads-migrated-to-azure"></a>Procedimientos recomendados para la gestión de los costos y los ajustes de tamaño de las cargas de trabajo migradas a Azure
 
@@ -191,7 +191,7 @@ Si usa Azure Reserved VM Instances, paga por adelantado su uso durante un plazo 
 
 Resulta inevitable que al final tenga más de una suscripción de Azure. Por ejemplo, puede necesitar una suscripción adicional para separar los límites de desarrollo y producción, o podría tener una plataforma que requiera una suscripción independiente para cada cliente. Tener la capacidad de agregar informes de datos a través de todas las suscripciones en una sola plataforma es una característica valiosa.
 
-Para ello, puede usar las API de Azure Cost Management. A continuación, después de agregar los datos en un único origen, como SQL Azure, puede usar herramientas como Power BI para mostrar los datos agregados. Puede crear informes de suscripción agregados e informes pormenorizados. Por ejemplo, para los usuarios que necesitan información proactiva sobre administración de costos, puede crear vistas específicas de los costos, por departamento, grupo de recursos, etc. No es necesario proporcionarles acceso total a los datos de facturación de Azure.
+Para ello, puede usar las API de Azure Cost Management. A continuación, después de agregar los datos en un único origen, como SQL Azure, puede usar herramientas como Power BI para mostrar los datos agregados. Puede crear informes de suscripción agregados e informes pormenorizados. Por ejemplo, para los usuarios que necesitan información proactiva sobre administración de costos, puede crear vistas específicas de los costos, por departamento, grupo de recursos o cualquier otra información. No es necesario proporcionarles acceso total a los datos de facturación de Azure.
 
 **Más información:**
 

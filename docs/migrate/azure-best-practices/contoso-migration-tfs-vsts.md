@@ -1,6 +1,6 @@
 ---
-title: Refactorización de una implementación de Team Foundation Server a Azure DevOps Services en Azure
-description: Obtenga información sobre cómo Contoso refactoriza su implementación de TFS local mediante la migración a Azure DevOps Services en Azure.
+title: Refactorización de una implementación de Team Foundation Server en Azure DevOps Services
+description: Use Cloud Adoption Framework para Azure para aprender a refactorizar la implementación local de TFS mediante la migración a Azure DevOps Services de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 003a5674116f7964971710c5c8c67fc51fa03493
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 36a12a676a9bb48584c9914f93642b1ccbcad406
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222866"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311632"
 ---
 <!-- cSpell:ignore contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME azuredevopsmigration validateonly -->
 
