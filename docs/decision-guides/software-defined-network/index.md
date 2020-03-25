@@ -2,18 +2,18 @@
 title: Guía de decisiones sobre redes definidas por software
 description: Use Cloud Adoption Framework para Azure para obtener información sobre la forma en que las redes definidas por software proporcionan redes virtualizadas administradas centralmente mediante software.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4fa9f16a2636cf5e8f1340bf51ae39e8db3198b0
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: a07130e8d7ac201f7519658ea84e3ff9df33ecbb
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708740"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225741"
 ---
 # <a name="software-defined-networking-decision-guide"></a>Guía de decisiones sobre redes definidas por software
 
@@ -41,12 +41,12 @@ Al planear la arquitectura de red virtual o la combinación de arquitecturas que
 
 | Pregunta | solo PaaS | Nativo de la nube | Red perimetral en la nube | Híbrido | En estrella tipo hub-and-spoke |
 |-----|-----|-----|-----|-----|-----|
-| ¿Va a usar la carga de trabajo solo los servicios de PaaS y no va a requerir funcionalidades de red que vayan más allá de las proporcionados por los propios servicios? | Sí | Sin | Sin | Sin | Sin |
-| ¿Requiere la carga de trabajo integración con las aplicaciones locales? | Sin | Sin | Sí | Sí | Sí |
-| ¿Se han establecido directivas de seguridad maduras y una conectividad segura entre las redes local y en la nube? | Sin | Sin | Sin | Sí | Sí |
-| ¿Requiere la carga de trabajo servicios de autenticación que no se admite a través de servicios de identidad en la nube o se necesita acceso directo a controladores de dominio locales? | Sin | Sin | Sin | Sí | Sí |
-| ¿Va a ser preciso implementar y administrar un gran número de máquinas virtuales y cargas de trabajo? | Sin | Sin | Sin | Sin | Sí |
-| ¿Se va a necesitar proporcionar administración centralizada y conectividad local al delegar el control sobre los recursos a los equipos de las cargas de trabajo individuales? | Sin | Sin | Sin | Sin | Sí |
+| ¿Va a usar la carga de trabajo solo los servicios de PaaS y no va a requerir funcionalidades de red que vayan más allá de las proporcionados por los propios servicios? | Sí | No | No | No | No |
+| ¿Requiere la carga de trabajo integración con las aplicaciones locales? | No | No | Sí | Sí | Sí |
+| ¿Se han establecido directivas de seguridad maduras y una conectividad segura entre las redes local y en la nube? | No | No | No | Sí | Sí |
+| ¿Requiere la carga de trabajo servicios de autenticación que no se admite a través de servicios de identidad en la nube o se necesita acceso directo a controladores de dominio locales? | No | No | No | Sí | Sí |
+| ¿Va a ser preciso implementar y administrar un gran número de máquinas virtuales y cargas de trabajo? | No | No | No | No | Sí |
+| ¿Se va a necesitar proporcionar administración centralizada y conectividad local al delegar el control sobre los recursos a los equipos de las cargas de trabajo individuales? | No | No | No | No | Sí |
 
 ## <a name="virtual-networking-architectures"></a>Arquitecturas de red virtual
 

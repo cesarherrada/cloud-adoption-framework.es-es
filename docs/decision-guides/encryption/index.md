@@ -2,18 +2,18 @@
 title: Guía de decisiones sobre cifrado
 description: Implemente una directiva de cifrado, un servicio principal en las migraciones de Azure que proporciona capas adicionales de seguridad tanto a los datos como a las cargas de trabajo basados en la nube.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: bc80c33569cdb0980885ebba9c87d52e0aa87b7d
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: acc5e2bbaa665888b3453aa54e9292a99801f3df
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222592"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225894"
 ---
 # <a name="encryption-decision-guide"></a>Guía de decisiones sobre cifrado
 
@@ -37,9 +37,9 @@ Al planear una migración a la nube, la tabla siguiente puede ayudarle a decidir
 
 | Pregunta | Nativo de la nube | Bring Your Own Key | Hold your own key |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|-------------|
-| ¿Su organización carece de administración centralizada de claves y secretos?                                                                    | Sí          | Sin     | Sin          |
-| ¿Necesitará limitar la creación de claves y secretos para dispositivos al hardware local, pero se usarán en la nube? | Sin           | Sí    | Sin          |
-| ¿Su organización cuenta con reglas o directivas vigentes que podrían impedir que las claves se almacenen externamente?                | Sin           | Sin     | Sí         |
+| ¿Su organización carece de administración centralizada de claves y secretos?                                                                    | Sí          | No     | No          |
+| ¿Necesitará limitar la creación de claves y secretos para dispositivos al hardware local, pero se usarán en la nube? | No           | Sí    | No          |
+| ¿Su organización cuenta con reglas o directivas vigentes que podrían impedir que las claves se almacenen externamente?                | No           | No     | Sí         |
 
 ### <a name="cloud-native"></a>Nativo de la nube
 

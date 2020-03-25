@@ -2,18 +2,18 @@
 title: Guía de decisiones sobre registros e informes
 description: Desarrolle una estrategia básica de registro, generación de informes y supervisión para asegurarse de que la organización cumple los objetivos de tiempo de actividad, seguridad y cumplimiento de directivas.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: a6229013dcbc56ff39fd4d41a5b81f13b446e625
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: de7f52a4649ce4ff6885f60c5916262448de787b
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222784"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225928"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Guía de decisiones sobre registros e informes
 
@@ -33,10 +33,10 @@ Al planear la implementación, debe pensar en dónde se almacenarán los datos d
 
 | Pregunta | Nativo de la nube | Extensión local | Supervisión híbrida | Agregación de puerta de enlace |
 |-----|-----|-----|-----|-----|
-| ¿Dispone de una infraestructura de supervisión local existente? | Sin | Sí | Sí |  Sin |
-| ¿Existen requisitos que impidan almacenar los datos de registro en ubicaciones de almacenamiento externas? | Sin | Sí | Sin | Sin |
-| ¿Necesita integrar la supervisión en la nube con sistemas locales? | Sin | Sin | Sí | Sin |
-¿Necesita procesar o filtrar datos de telemetría  antes de enviarlos a los sistemas de supervisión? | Sin | Sin | Sin | Sí |
+| ¿Dispone de una infraestructura de supervisión local existente? | No | Sí | Sí |  No |
+| ¿Existen requisitos que impidan almacenar los datos de registro en ubicaciones de almacenamiento externas? | No | Sí | No | No |
+| ¿Necesita integrar la supervisión en la nube con sistemas locales? | No | No | Sí | No |
+¿Necesita procesar o filtrar datos de telemetría  antes de enviarlos a los sistemas de supervisión? | No | No | No | Sí |
 
 ### <a name="cloud-native"></a>Nativo de la nube
 
