@@ -2,18 +2,18 @@
 title: 'Red definida por software: Red perimetral en la nube'
 description: Más información sobre la arquitectura de red perimetral en la nube, la cual permite un acceso limitado entre las redes locales y las basadas en la nube mediante una VPN.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ca545c662f7249b8afeb1c750f6b07bd274c1c02
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: cc9963118d8f69fd78f9cf5d84f5c140c200aec5
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708621"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225860"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Red definida por software: Red perimetral en la nube
 

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 28762d3540124b40bd3db4d7bd431033a1c25b5f
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 2b255d85b8df33f712238d0457a0e78a5481801d
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337971"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225724"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Compilación de una justificación comercial para la migración a la nube
 
@@ -68,7 +68,7 @@ Podemos desempaquetar esta ecuación para obtener una vista de las fórmulas esp
 
 ## <a name="migration-specific-initial-investment"></a>Inversión inicial específica de la migración
 
-- Los proveedores de nube como Azure ofrecen calculadoras para estimar las inversiones en la nube. La [calculadora de precios de Azure](https://azure.microsoft.com/pricing) es un ejemplo.
+- Los proveedores de nube como Azure ofrecen calculadoras para estimar las inversiones en la nube. La [calculadora de precios de Azure](https://azure.com/calculator) es un ejemplo.
 - Algunos proveedores de nube también proporcionan calculadoras de costo diferencial. La [Calculadora de costo total de propiedad (TCO) de Azure](https://azure.com/tco) es un ejemplo.
 - Para estructuras de costo más refinadas, considere un ejercicio de [planeamiento del patrimonio digital](../digital-estate/index.md).
 - Estime el costo de la migración.

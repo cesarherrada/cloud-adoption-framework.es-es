@@ -2,18 +2,18 @@
 title: 'Red definida por software: En estrella tipo hub-and-spoke'
 description: Use Cloud Adoption Framework de Azure para conocer cómo el modelo de redes en estrella tipo hub-and-spoke organiza la infraestructura de la red en varias redes virtuales conectadas.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 9138a686aedd3ba54352280b557b6ac622df6a46
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 5a52615d5b43f7fdd196bcfd473c1aa3fe43d005
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708587"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225792"
 ---
 # <a name="software-defined-networking-hub-and-spoke"></a>Red definida por software: En estrella tipo hub-and-spoke
 
