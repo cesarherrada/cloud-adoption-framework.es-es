@@ -1140,6 +1140,8 @@ items:
                 href: manage/monitor/alerting.md
               - name: Introducción a las plataformas de supervisión
                 href: manage/monitor/platform-overview.md
+              - name: Aptitudes pertinentes para la supervisión
+                href: manage/monitor/suggested-skills.md
           - name: Centralización de operaciones de administración
             href: manage/centralize-operations.md
           - name: Establecimiento de una revisión de adecuación operativa
