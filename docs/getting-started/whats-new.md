@@ -7,12 +7,12 @@ ms.date: 03/09/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 1ec13eca60f8e3ed4f2d30b9c4c1b6b0138905a3
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: c7b3a4d946eac1b5296f4d37d50872105ce756ea
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79510832"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225962"
 ---
 # <a name="whats-new-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Novedades en Microsoft Cloud Adoption Framework para Azure
 
@@ -20,7 +20,19 @@ Esta es una lista de los cambios recientes realizados en Cloud Adoption Framewor
 
 Este marco de trabajo se ha creado en colaboración con clientes, asociados y equipos internos de Microsoft. Se publica contenido nuevo y actualizado cuando está disponible. Estas versiones le permiten probar, validar y refinar la guía junto con nosotros. Le recomendamos que se asocie con nosotros en la creación del Cloud Adoption Framework para Azure.
 
-## <a name="march-2020"></a>Marzo de 2020
+## <a name="march-20-2020"></a>20 de marzo de 2020
+
+Hemos agregado instrucciones prescriptivas que incluyen las herramientas, los programas y el contenido clasificados por rol para impulsar la implementación correcta de aplicaciones en Kubernetes, desde la prueba de concepto a producción, seguida del escalado y la optimización.
+
+### <a name="kubernetes"></a>Kubernetes
+
+| Artículo                                                                                     | Descripción                                                                                                                                                                           |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Desarrollo e implementación de aplicaciones](../innovate/kubernetes/application-development.md) | **Nuevo artículo**: proporciona listas de comprobación, recursos y procedimientos recomendados para planear el desarrollo de aplicaciones, configurar canalizaciones de DevOps e implementar la ingeniería de confiabilidad de sitios para Kubernetes. |
+| [Diseño y operaciones de clústeres](../innovate/kubernetes/cluster-design-operations.md) | **Nuevo artículo**: proporciona listas de comprobación, recursos y procedimientos recomendados para la configuración de clústeres, el diseño de red, la escalabilidad en el futuro, la continuidad empresarial y la recuperación ante desastres para Kubernetes. |
+| [Seguridad de clústeres y aplicaciones](../innovate/kubernetes/cluster-application-security.md) | **Nuevo artículo**: proporciona listas de comprobación, recursos y procedimientos recomendados para el planeamiento de la seguridad, la producción y el escalado. |
+
+## <a name="march-2-2020"></a>2 de marzo de 2020
 
 En respuesta a los comentarios sobre la continuidad en el enfoque de migración en varias secciones de Cloud Adoption Framework entre las que se incluyen las fases de estrategia, planeamiento, preparación y migración, hemos realizado las siguientes actualizaciones. Estas actualizaciones están diseñadas para facilitar la comprensión de los ajustes de planeamiento y adopción a medida que continúa con el recorrido de migración.
 

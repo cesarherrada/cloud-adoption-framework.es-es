@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: ad8b6259aaa0808e2628fed9b88f0f806c46e655
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: a75c014401a8a45eee0d0e301cf209ad3eda690b
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341987"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225809"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Manténgase al día con Microsoft Azure
 
@@ -51,11 +51,15 @@ Los recursos siguientes pueden ayudarle a mantenerse al día con Azure:
 
 Para obtener un contenido más detallado que le ayude a mantenerse al día con Azure, eche un vistazo a los recursos que se indican aquí:
 
-- [Gráficos de Azure](https://azurecharts.com/)
-  - Esta visualización no oficial muestra todas las actualizaciones de Azure realizadas en los últimos seis meses. Contiene otros prácticos gráficos y utilidades para ayudarle a realizar un seguimiento de los cambios de Azure.
 - [Azure Friday](https://channel9.msdn.com/Shows/Azure-Friday)
   - Vídeos semanales con los ingenieros que crean Azure. Hacen demostraciones, responden a preguntas y comparten conclusiones.
   - Suscríbase por [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
-- [Azure Weekly](https://azureweekly.info)
-  - Este boletín es un recurso no oficial proporcionado por [endjin](https://endjin.com). Incluye un resumen de las noticias más importantes de la semana sobre Microsoft Azure. También incluye contenido histórico interesante.
+- [Gráficos de Azure](https://azurecharts.com/)*
+  - Esta visualización muestra todas las actualizaciones de Azure realizadas en los últimos seis meses. Contiene otros prácticos gráficos y utilidades para ayudarle a realizar un seguimiento de los cambios de Azure.
+- [AzAdvertizer](https://www.azadvertizer.net/)*
+  - Seguimiento de versiones y cambios en las funcionalidades de gobernanza de Azure (por ejemplo, Azure Policy, iniciativas de directivas, alias de directivas y RBAC).
+- [Azure Weekly](https://azureweekly.info)*
+  - Este boletín que proporciona [endjin](https://endjin.com) incluye un resumen de las noticias más importantes de la semana sobre Microsoft Azure. También incluye contenido histórico interesante.
   - Suscríbase por [correo electrónico](https://azureweekly.info).
+
+\* *Estos recursos los proporciona la comunidad y Microsoft no los mantiene oficialmente.*
