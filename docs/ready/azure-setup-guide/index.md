@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: e17ab7acd3813929fc05915908108b1cd634d5f0
-ms.sourcegitcommit: e21e70a5ad7bff2f2009a2da8e91a54fccd6d38f
+ms.openlocfilehash: 8b55a99194ef6032905c7495206adeb8fa72ebfb
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80299057"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354482"
 ---
 <!-- cSpell:ignore timleyden -->
 
@@ -41,10 +41,10 @@ Aprenderá a:
 >
 > - **Organizar recursos**: configure una jerarquía de administración para aplicar de forma coherente el control de acceso, las directivas y el cumplimiento a grupos de recursos y utilice el etiquetado para realizar el seguimiento de los recursos relacionados.
 > - **Administrar el acceso**: utilice el control de acceso basado en roles para asegurarse de que los usuarios solo tienen los permisos que realmente necesitan.
-> - **Administrar costos y facturación**: identifique el tipo de suscripción, comprenda cómo funciona la facturación y vea cómo puede controlar los costos.
+> - **Administrar costos y facturación**: identifique el tipo de suscripción, comprenda cómo funciona la facturación y aprenda a controlar los costos.
 > - **Planear la gobernanza, seguridad y cumplimiento**: aplique y automatice las directivas y la configuración de seguridad que le ayudarán a seguir los requisitos legales aplicables.
-> - **Usar la supervisión y los informes**: obtenga visibilidad a través de los recursos para ayudar a buscar y solucionar problemas, optimizar el rendimiento u obtener información sobre el comportamiento de los clientes.
-> - **Mantenerse al día con Azure**: realice un seguimiento de las actualizaciones de productos para que pueda adoptar un enfoque proactivo de la administración de cambios.
+> - **Usar la supervisión y los informes**: obtenga visibilidad a través de los recursos para buscar y solucionar problemas, optimizar el rendimiento y obtener información sobre el comportamiento de los clientes.
+> - **Mantenerse al día con Azure**: realice un seguimiento de las actualizaciones de productos para permitir un enfoque proactivo de la administración de cambios.
 
 ::: zone target="docs"
 

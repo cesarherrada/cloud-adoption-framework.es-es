@@ -9,19 +9,16 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b6d17a410c1903d984b5a1c756f51f7c5145ff9c
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 6e9b83784d2fdaaca7ae4a55ccd977d266b6193d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140293"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356491"
 ---
 ::: zone target="docs"
 
 # <a name="azure-management-guide-before-you-start"></a>Guía de administración de Azure: Antes de comenzar
-
-> [!NOTE]
-> Esta guía supone un punto de partida para la guía de innovación en Cloud Adoption Framework. También está disponible en el Centro de inicio rápido de Azure. En este mismo artículo encontrará un vínculo al Centro de inicio rápido de Azure.
 
 ::: zone-end
 
@@ -31,7 +28,7 @@ ms.locfileid: "79140293"
 
 ::: zone-end
 
-La guía de administración de Azure ayuda a los clientes de Azure a crear una línea de base de administración para establecer la coherencia de los recursos en Azure. En esta guía se describen las herramientas básicas necesarias para los entornos de producción de Azure, especialmente aquellos que hospedan información confidencial. Para más información, procedimientos recomendados y consideraciones relacionadas con la preparación del entorno en la nube, consulte la [sección de preparación de Cloud Adoption Framework](../index.md).
+La guía de administración de Azure ayuda a los clientes de Azure a crear una línea de base de administración para establecer la coherencia de los recursos en Azure. En esta guía se describen las herramientas básicas necesarias para los entornos de producción de Azure, especialmente aquellos que hospedan información confidencial. Para más información, procedimientos recomendados y consideraciones relacionadas con la preparación del entorno en la nube, consulte la [sección de preparación](../index.md) de Cloud Adoption Framework.
 
 ## <a name="scope-of-this-guide"></a>Ámbito de esta guía
 
@@ -51,9 +48,6 @@ Esta guía le enseña a establecer las herramientas necesarias para una línea d
 Una línea base de administración es el conjunto mínimo de herramientas y procesos que se debe aplicar a todos los recursos de un entorno. En la línea de base de administración se pueden incluir varias opciones adicionales. En los siguientes artículos se aceleran las funcionalidades de administración de la nube, para lo que nos centramos en las mínimas necesarias, en lugar de en todas las opciones disponibles.
 
 ::: zone target="docs"
-
-> [!TIP]
-> Para una experiencia interactiva, consulte esta guía en Azure Portal. Vaya al [Centro de inicio rápido de Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) en Azure Portal y seleccione **Guía de administración de Azure**. Después, siga las instrucciones detalladas.
 
 El paso siguiente es [Inventario y visibilidad](./inventory.md).
 

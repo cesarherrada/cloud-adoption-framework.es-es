@@ -1,31 +1,32 @@
 ---
 title: Procedimientos recomendados de preparación para Azure
-description: Aprenda a proporcionar los procedimientos recomendados e instrucciones adicionales que ayuden al equipo a establecer y preparar un entorno de Azure.
+description: Más información sobre los procedimientos recomendados e instrucciones adicionales que ayudan al equipo a establecer y preparar un entorno de Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 8d44d3981824c9599151391cd3b7e3550ac31cd6
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: aecef0bbbdc88b2f95d6a93efeb496cf2d787a45
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093572"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354651"
 ---
 # <a name="best-practices-for-azure-readiness"></a>Procedimientos recomendados de preparación para Azure
 
-Una parte importante del proceso de preparación para la nube consiste en dotar al personal de las aptitudes técnicas necesarias para comenzar un proceso de adopción de la nube y preparar el entorno de destino de la migración para los recursos y las cargas de trabajo que trasladará a la nube. Lea estos procedimientos recomendados e instrucciones adicionales para ayudar al equipo a preparar el entorno de Azure.
+El proceso de preparación para la nube consiste en dotar al personal de las aptitudes técnicas necesarias para comenzar un esfuerzo de adopción de la nube y preparar el entorno de destino de la migración para los recursos y las cargas de trabajo que trasladará a la nube. Lea estos procedimientos recomendados e instrucciones adicionales para ayudar al equipo a preparar el entorno de Azure.
 
 ## <a name="azure-fundamentals"></a>Aspectos básicos de Azure
 
 Organice e implemente los recursos en el entorno de Azure.
 
 - [Conceptos básicos de Azure](../considerations/fundamental-concepts.md). Conozca los conceptos y términos clave de Azure y cómo se relacionan entre sí estos conceptos.
-- [Convenciones de nomenclatura y etiquetado recomendadas](../azure-best-practices/naming-and-tagging.md). Revise las recomendaciones detalladas para asignar nombres a los recursos y etiquetarlos. Estas recomendaciones son aplicables a los procesos de adopción de la nube empresarial.
-- [Escalado de varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md). Comprenda las estrategias de escalado de varias suscripciones de Azure.
-- [Organización de los recursos con grupos de administración de Azure](https://docs.microsoft.com/azure/governance/management-groups/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Conozca cómo los grupos de administración de Azure pueden administrar recursos, roles, directivas e implementaciones en varias suscripciones.
+- [Cree las suscripciones iniciales](./initial-subscriptions.md). Establezca un conjunto inicial de suscripciones de Azure para comenzar la adopción de la nube.
+- [Escale el entorno de Azure mediante varias suscripciones](../azure-best-practices/scale-subscriptions.md). Comprenda los motivos y estrategias de la creación de suscripciones adicionales para escalar el entorno de Azure.
+- [Organización de los recursos con grupos de administración de Azure](../azure-best-practices/organize-subscriptions.md). Conozca cómo los grupos de administración de Azure pueden administrar recursos, roles, directivas e implementaciones en varias suscripciones.
+- [Siga las convenciones recomendadas de nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md). Revise las recomendaciones detalladas para asignar nombres a los recursos y etiquetarlos. Estas recomendaciones son aplicables a los procesos de adopción de la nube empresarial.
 - [Creación de coherencia en la nube híbrida](../considerations/hybrid-consistency.md). Cree soluciones de nube híbrida que ofrezcan las ventajas de la innovación en la nube conservando muchas de las comodidades de la administración local.
 
 ## <a name="networking"></a>Redes

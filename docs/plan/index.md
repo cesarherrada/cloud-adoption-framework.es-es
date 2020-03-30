@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 layout: LandingPage
-ms.openlocfilehash: e22c8332a02b985d733fd8e2e36f6873bd435c77
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: cc4515b97454094ed84a78d04170a8bd03c0f5b2
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092601"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354990"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -110,7 +110,7 @@ Descargue [Cloud Adoption Framework: plantillas de estrategia y planeamiento](ht
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Empiece a crear el plan de adopción de la nube centrándose en el [patrimonio digital](../digital-estate/index.md).
+Comience a crear el plan de adopción de la nube aprendiendo sobre las [cinco "R" de la racionalización de la nube](../digital-estate/5-rs-of-rationalization.md).
 
 > [!div class="nextstepaction"]
-> [Patrimonio digital](../digital-estate/index.md)
+> [Las cinco "R" de la racionalización de la nube](../digital-estate/5-rs-of-rationalization.md)

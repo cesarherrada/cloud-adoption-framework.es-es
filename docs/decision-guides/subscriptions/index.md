@@ -1,6 +1,6 @@
 ---
 title: Guía de decisiones de suscripción
-description: Conozca los modelos de diseño de suscripciones y los grupos de administración como servicio principal para organizar recursos en las migraciones de Azure.
+description: Comprenda las estrategias de diseño de suscripciones y la jerarquía de grupos de administración para organizar los recursos de Azure.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 10/17/2019
@@ -8,29 +8,26 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 1420906faadb966585346aeafe0a8e7efa9aaf09
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: e733280147a16287e92ab93334111950a2583497
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508039"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355486"
 ---
 # <a name="subscription-decision-guide"></a>Guía de decisiones de suscripción
 
-Un diseño eficaz de las suscripciones ayuda a las organizaciones a establecer una estructura para organizar los recursos de Azure durante un proceso de adopción de la nube.
+Un diseño eficaz de las suscripciones ayuda a las organizaciones a establecer una estructura para organizar y administrar los recursos de Azure durante un proceso de adopción de la nube. Esta guía le ayudará a decidir cuándo debe crear suscripciones adicionales y expandir la jerarquía de grupos de administración para dar apoyo a sus prioridades empresariales.
 
-Cada recurso de Azure, como una máquina virtual o una base de datos, está asociado a una suscripción. La adopción de Azure comienza con la creación de una suscripción, la asociación a una cuenta y la implementación de recursos en la suscripción. Para una introducción sobre estos conceptos, consulte [Conceptos básicos de Azure](../../ready/considerations/fundamental-concepts.md).
+## <a name="prerequisites"></a>Prerrequisitos
 
-A medida que crece su patrimonio digital en Azure, es probable que necesite crear suscripciones adicionales para satisfacer sus necesidades. Azure le permite definir una jerarquía de grupos de administración para organizar las suscripciones y aplicar fácilmente la directiva correcta a los recursos adecuados. Para más información, consulte [Scaling with multiple Azure subscriptions](../../ready/azure-best-practices/scaling-subscriptions.md) (Escalado de varias suscripciones de Azure).
+La adopción de Azure comienza con la creación de una suscripción, la asociación a una cuenta y la implementación de recursos tales como máquinas virtuales y bases de datos en la suscripción. Para una introducción sobre estos conceptos, consulte [Conceptos básicos de Azure](../../ready/considerations/fundamental-concepts.md).
 
-Estos son algunos ejemplos básicos del uso de grupos de administración para separar diferentes cargas de trabajo:
+- [Cree las suscripciones iniciales.](../../ready/azure-best-practices/initial-subscriptions.md)
+- [Cree suscripciones adicionales](../../ready/azure-best-practices/scale-subscriptions.md) para escalar el entorno de Azure.
+- [Organice y administre sus suscripciones](../../ready/azure-best-practices/organize-subscriptions.md) mediante grupos de administración de Azure.
 
-- **Cargas de trabajo de producción y de no producción:** Algunas empresas crean grupos de administración para separar las suscripciones de producción y las que no son de producción. Los grupos de administración permiten a estos clientes administrar roles y directivas más fácilmente. Por ejemplo, una suscripción que no es de producción puede otorgar a los desarrolladores acceso de **colaborador**, pero en producción solo tienen acceso de **lector**.
-- **Servicios internos frente a servicios externos:** Al igual que sucede con las cargas de trabajo de producción en comparación con las que no son de producción, las empresas suelen tener requisitos, directivas y roles distintos para los servicios internos en comparación con los externos, orientados al cliente.
-
-Esta guía de decisiones le ayuda a tener en cuenta diferentes métodos para organizar la jerarquía del grupo de administración.
-
-## <a name="subscription-design-patterns"></a>Patrones de diseño de suscripciones
+## <a name="modeling-your-organization"></a>Modelado de la organización
 
 Como cada organización es diferente, los grupos de administración de Azure están diseñados para ser flexibles. El modelado de su entorno en la nube para reflejar la jerarquía de la organización le ayuda a definir y aplicar directivas en los niveles más altos de la jerarquía, y a confiar en la herencia para asegurarse de que esas directivas se aplicarán automáticamente a los grupos de administración situados más abajo. Aunque las suscripciones se pueden trasladar entre diferentes grupos de administración, resulta útil diseñar una jerarquía inicial de grupos de administración que refleje sus necesidades organizativas de forma anticipada.
 
@@ -39,53 +36,45 @@ Antes de finalizar el diseño de la suscripción, considere cómo las decisiones
 > [!NOTE]
 > Los Contratos Enterprise (EA) de Azure le permiten definir otra jerarquía organizativa con fines de facturación. Esta jerarquía es distinta de la jerarquía del grupo de administración, que se centra en proporcionar un modelo de herencia para aplicar fácilmente directivas adecuadas y control de acceso a los recursos.
 
-Los patrones de suscripción siguientes reflejan un aumento inicial de la sofisticación en el diseño de la suscripción, seguido de varias jerarquías más avanzadas que se pueden adaptar bien a su organización:
+## <a name="subscription-design-strategies"></a>Estrategias de diseño de suscripciones
 
-### <a name="single-subscription"></a>Suscripción única
+Tenga en cuenta las siguientes estrategias de diseño de suscripciones para dar respuesta a sus prioridades empresariales.
 
-Una sola suscripción por cuenta puede ser suficiente para las organizaciones que necesitan implementar un número pequeño de recursos hospedados en la nube. Este es el primer patrón de suscripción que se implementa cuando comienza el proceso de adopción de la nube, lo que permite implementaciones experimentales a pequeña escala o de prueba de concepto para explorar las funcionalidades de la nube.
-
-### <a name="production-and-nonproduction-pattern"></a>Patrón de producción y de no producción
-
-Cuando esté listo para implementar una carga de trabajo en un entorno de producción, deberá agregar una suscripción adicional. Esto le ayuda a mantener los datos de producción y otros recursos fuera de los entornos de desarrollo y pruebas. Puede aplicar también fácilmente dos conjuntos diferentes de directivas en los recursos de las dos suscripciones.
-
-![Patrón de suscripción de producción y de no producción](../../_images/ready/initial-subscription-model.png)
-
-### <a name="workload-separation-pattern"></a>Patrón de separación de cargas de trabajo
+### <a name="workload-separation-strategy"></a>Estrategia de separación de cargas de trabajo
 
 A medida que una organización agrega nuevas cargas de trabajo a la nube, las diferentes propiedades de las suscripciones o una separación básica de las responsabilidades puede resultar en varias suscripciones en los grupos de administración de producción y de no producción. Aunque este enfoque proporciona una separación básica de cargas de trabajo, no aprovecha de manera significativa el modelo de herencia a la hora de aplicar automáticamente directivas en un subconjunto de las suscripciones.
 
-![Patrón de separación de cargas de trabajo](../../_images/ready/management-group-hierarchy-v2.png)
+![Estrategia de separación de cargas de trabajo](../../_images/ready/management-group-hierarchy-v2.png)
 
-### <a name="application-category-pattern"></a>Patrón de categoría de aplicación
+### <a name="application-category-strategy"></a>Estrategia de categoría de aplicación
 
-A medida que crece la superficie en la nube de la organización se crean normalmente suscripciones para admitir aplicaciones que tienen diferencias fundamentales con respecto a importancia para la empresa, requisitos de cumplimiento, controles de acceso o necesidades de protección de datos. En el patrón de suscripción de producción y de no producción, las suscripciones que admiten estas categorías de aplicaciones se organizan en el grupo de administración de producción o de no producción según corresponda. Normalmente, el personal central de operaciones de TI posee y administra estas suscripciones.
+A medida que crece la superficie en la nube de la organización se crean normalmente suscripciones para admitir aplicaciones que tienen diferencias fundamentales con respecto a importancia para la empresa, requisitos de cumplimiento, controles de acceso o necesidades de protección de datos. En las suscripciones de producción y de no producción, las suscripciones que admiten estas categorías de aplicaciones se organizan en el grupo de administración de producción o de no producción según corresponda. Normalmente, el personal central de operaciones de TI posee y administra estas suscripciones.
 
-![Patrón de categoría de aplicación](../../_images/infra-subscriptions/application.png)
+![Estrategia de categoría de aplicación](../../_images/infra-subscriptions/application.png)
 
-Cada organización categorizará las aplicaciones de forma diferente, a menudo separarán las suscripciones basadas en aplicaciones o servicios específicos o en arquetipos de aplicación. Esta categorización a menudo está diseñada para admitir cargas de trabajo que es probable que consuman la mayor parte de los límites de recursos de una suscripción o cargas de trabajo críticas independientes para asegurarse de que no compiten con otras cargas de trabajo dentro de estos límites. Entre las cargas de trabajo que pueden justificar una suscripción independiente en este patrón se incluyen:
+Cada organización categorizará las aplicaciones de forma diferente, a menudo separarán las suscripciones basadas en aplicaciones o servicios específicos o en arquetipos de aplicación. Esta categorización a menudo está diseñada para admitir cargas de trabajo que es probable que consuman la mayor parte de los límites de recursos de una suscripción o cargas de trabajo críticas independientes para asegurarse de que no compiten con otras cargas de trabajo dentro de estos límites. Entre las cargas de trabajo que pueden justificar una suscripción independiente se incluyen:
 
 - Cargas de trabajo críticas.
 - Aplicaciones que forman parte del "coste de bienes vendidos" (COGS) dentro de la empresa. Ejemplo: cada instancia del widget de la empresa X contiene un módulo de IoT de Azure que envía datos de telemetría. Esto puede requerir una suscripción dedicada para fines de contabilidad o gobernanza como parte del COGS.
 - Aplicaciones sujetas a requisitos legales (como HIPAA o FedRAMP).
 
-### <a name="functional-pattern"></a>Patrón funcional
+### <a name="functional-strategy"></a>Estrategia funcional
 
-El patrón funcional organiza las suscripciones y cuentas a lo largo de líneas funcionales como finanzas, ventas o soporte técnico de TI, mediante una jerarquía de grupos de administración.
+La estrategia funcional organiza las suscripciones y cuentas a lo largo de líneas funcionales como finanzas, ventas o soporte técnico de TI, mediante una jerarquía de grupos de administración.
 
-### <a name="business-unit-pattern"></a>Patrón de unidad de negocio
+### <a name="business-unit-strategy"></a>Estrategia de la unidad de negocio
 
-Este patrón agrupa las suscripciones y cuentas en función de categorías de pérdidas y ganancias, unidades de negocio, divisiones, centros de beneficios o estructuras empresariales similares mediante una jerarquía de grupo de administración.
+Esta estrategia agrupa las suscripciones y cuentas en función de categorías de pérdidas y ganancias, unidades de negocio, divisiones, centros de beneficios o estructuras empresariales similares mediante una jerarquía de grupo de administración.
 
-### <a name="geographic-pattern"></a>Patrón geográfico
+### <a name="geographic-strategy"></a>Estrategia geográfica
 
-Para organizaciones con operaciones globales, el patrón geográfico agrupa las suscripciones y cuentas en función de las regiones geográficas mediante una jerarquía de administración de grupos.
+Para organizaciones con operaciones globales, la estrategia geográfica agrupa las suscripciones y cuentas en función de las regiones geográficas mediante una jerarquía de administración de grupos.
 
-## <a name="mixed-patterns"></a>Patrones mixtos
+## <a name="mixing-subscription-strategies"></a>Estrategias de suscripciones mixtas
 
-Las jerarquías de los grupos de administración pueden incluir hasta seis niveles de profundidad. Esto le proporciona flexibilidad para crear una jerarquía que combina varios de estos patrones para satisfacer sus necesidades organizativas. Por ejemplo, el diagrama siguiente muestra una jerarquía organizativa que combina un patrón de unidad de negocio con un patrón geográfico.
+Las jerarquías de los grupos de administración pueden incluir hasta seis niveles de profundidad. Esto le proporciona flexibilidad para crear una jerarquía que combina varias de estas estrategias para satisfacer sus necesidades organizativas. Por ejemplo, el diagrama siguiente muestra una jerarquía organizativa que combina una estrategia de unidad de negocio con una estrategia geográfica.
 
-![Patrón de suscripción mixto](../../_images/infra-subscriptions/mixed.png)
+![Estrategia de suscripción mixta](../../_images/infra-subscriptions/mixed.png)
 
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -95,7 +84,7 @@ Las jerarquías de los grupos de administración pueden incluir hasta seis nivel
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-El diseño de suscripciones es solo uno de los principales componentes de infraestructura que requieren decisiones de arquitectura durante un proceso de adopción de la nube. Visite la [introducción a las guías de decisión](../index.md) para obtener información sobre los patrones o los modelos alternativos que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
+El diseño de suscripciones es solo uno de los principales componentes de infraestructura que requieren decisiones de arquitectura durante un proceso de adopción de la nube. Visite la [introducción a las guías de decisión](../index.md) para más información sobre las estrategias adicionales que se usan al tomar decisiones de diseño para otros tipos de infraestructura.
 
 > [!div class="nextstepaction"]
 > [Guías de decisiones sobre arquitectura](../index.md)
