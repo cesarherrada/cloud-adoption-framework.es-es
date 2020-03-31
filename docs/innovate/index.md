@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: 4b596fc83cf3d0b9a951287e052215622f6ee6b2
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 7374a531192ed140c8aa76d0e74e3817e34626db
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171130"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80427434"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Innovación en la nube en Cloud Adoption Framework
 
@@ -126,7 +126,7 @@ A continuación se muestran un par de ejemplos de rutas de aprendizaje específi
 
 [Cree aplicaciones sin servidor](https://docs.microsoft.com/learn/paths/create-serverless-applications): Azure Functions permite la creación sistemas de proceso a petición y basados en eventos que pueden desencadenar varios eventos externos. Aprenda a aprovechar las funciones para ejecutar la lógica del servidor y crear arquitecturas sin servidor.
 
-Para conocer más rutas de aprendizaje, eche un vistazo al [catálogo de Microsoft Learn](/learn/browse). Use el filtro **Roles** para alinear las rutas de aprendizaje con su rol.
+Para conocer más rutas de aprendizaje, eche un vistazo al [catálogo de Microsoft Learn](https://docs.microsoft.com/learn/browse). Use el filtro **Roles** para alinear las rutas de aprendizaje con su rol.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
