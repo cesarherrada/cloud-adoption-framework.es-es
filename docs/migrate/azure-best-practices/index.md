@@ -4,15 +4,15 @@ description: Use Cloud Adoption Framework para Azure para aprender a implementar
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 90ec573d59c88187081fd640d9eb769977b787cf
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 22f2718775b194196f65672f0cbc1712d0a3a4ac
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79091417"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433546"
 ---
 # <a name="best-practices-for-cloud-migration"></a>Procedimientos recomendados para la migración a la nube
 

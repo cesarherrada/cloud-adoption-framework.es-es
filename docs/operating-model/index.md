@@ -4,16 +4,16 @@ description: Use Cloud Adoption Framework para Azure para aprender a establecer 
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: 9080bbafb2877e58c1a69cfe264657a33cfd4d98
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 4f28ec6b7c70f98ccea2fc718f44ebfa450caf52
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094038"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80428928"
 ---
 # <a name="establish-an-operating-model-for-the-cloud"></a>Establecimiento de un modelo de funcionamiento para la nube
 
