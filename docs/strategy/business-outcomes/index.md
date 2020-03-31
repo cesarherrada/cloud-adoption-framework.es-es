@@ -3,16 +3,16 @@ title: Resultados empresariales de recorridos de transformación
 description: Use Cloud Adoption Framework para Azure para conocer los resultados empresariales asociados a las transformaciones en la nube.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2019
-ms.topic: guide
+ms.date: 03/27/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 0fc60c8d2ca4c0725d114f6bf618e1a02934b2b5
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 646ac9da914939a63b9bd4a5cb73ae2899263823
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092391"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392514"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -35,7 +35,7 @@ A continuación encontrará algunos resultados empresariales que tienden a desen
 
 ## <a name="sample-outcomes-by-category"></a>Resultados de ejemplo por categoría
 
-Hablar acerca de los resultados empresariales puede ser como hablar un idioma extranjero para muchas personas con mente técnica. Para facilitar la traducción, Microsoft mantiene un conjunto de resultados empresariales de ejemplo en el [marco de resultados empresariales](../index.md). Estos ejemplos se pueden usar como ayuda para inspirarse y mostrar los resultados empresariales basados en procesos de transformación reales.
+Hablar acerca de los resultados empresariales puede ser como hablar un idioma extranjero para muchas personas con mente técnica. Para facilitar la traducción, mantenemos un conjunto de ejemplos de resultados empresariales. Los siguientes ejemplos se pueden usar para inspirarse y mostrar los resultados empresariales basados en procesos de transformación reales.
 
 Para ayudarle a encontrar resultados empresariales más fácilmente, los hemos separado en las siguientes categorías. Este enfoque tiende a impulsar conversaciones para alcanzar un consenso entre unidades de negocio.
 
