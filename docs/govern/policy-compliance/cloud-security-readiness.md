@@ -7,13 +7,15 @@ ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: ec888ba0c21187e71e825ff24aaadf068dc2a191
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: dc82f4d8ad21bcbb9d36b00fbdad1f91d6d4ec2c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709420"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356941"
 ---
+<!-- cSpell:ignore CISO -->
+
 # <a name="ciso-cloud-readiness-guide"></a>Guía de preparación de CISO para la nube
 
 Las guías de Microsoft, como Cloud Adoption Framework, no están en posición de determinar o guiar las restricciones de seguridad únicas de las miles de empresas a las que se puede aplicar esta documentación. Al cambiar a la nube, sus tecnologías no reemplazarán el rol de responsable de la seguridad de la información. Al contrario, el Director de seguridad de la información y la Oficial principal de seguridad de la información se integran aún más. En esta guía se da por supuesto que el lector está familiarizado con los procesos de seguridad de la información y que desea modernizar esos procesos para habilitar la transformación a la nube.

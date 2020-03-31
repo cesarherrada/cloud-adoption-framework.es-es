@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: cc8f2396e379180d213bd042d65f36e9eaef2828
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: 44b6c2dc910068f70645e54c372e3f4290d02669
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508124"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356988"
 ---
+<!-- cSpell:ignore offboarding preintegration -->
+
 # <a name="identity-baseline-discipline-improvement"></a>Mejora de la materia sobre la base de referencia de la identidad
 
 Esta materia sobre la base de referencia de la identidad se centra en las maneras de establecer directivas que garanticen la coherencia y continuidad de las identidades de usuario, independientemente del proveedor de servicios en la nube que hospede la aplicación o carga de trabajo. Dentro de las cinco materias de gobernanza de la nube, la base de referencia de la identidad incluye decisiones relacionadas con la [estrategia de identidad híbrida](../../decision-guides/identity/index.md), la evaluación y extensión de los repositorios de identidades, la implementación del inicio de sesión único (mismo inicio de sesión), la auditoría y la supervisión de usos no autorizados o la intervención de actores malintencionados. En algunos casos, también puede implicar decisiones para modernizar, consolidar o integrar varios proveedores de identidades.

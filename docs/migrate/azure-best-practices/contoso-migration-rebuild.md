@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 1b8afc8da78d171d0d420730f05d5583b231ddd1
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 45d5a27e6d7ba933c82bc41825e76cf8f7830767
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223092"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356353"
 ---
 <!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel smarthotelcontoso smarthotelakseus smarthotelacreus smarthotelpets smarthotelpetchecker smarthotelsettingsurl vcenter WEBVM SQLVM eastus kubectl contosodevops visualstudio azuredeploy cloudapp publishfront petchecker appsettings -->
 
@@ -634,6 +634,6 @@ Microsoft Learn es un enfoque nuevo al aprendizaje. La preparación para las nue
 
 A continuación se muestran un par de ejemplos de rutas de aprendizaje adaptadas en Microsoft Learn que se alinean con la aplicación Contoso SmartHotel360 en Azure.
 
-[Implementación de un sitio web en Azure con Azure App Service](https://docs.microsoft.com/learn/paths/deploy-a-website-with-azure-app-service/): Las aplicaciones web en Azure le permiten publicar y administrar el sitio web fácilmente sin tener que trabajar con los servidores, almacenamiento o recursos de red subyacentes. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar un acceso seguro al sitio.
+[Implementación de un sitio web en Azure con Azure App Service](https://docs.microsoft.com/learn/paths/deploy-a-website-with-azure-app-service): Las aplicaciones web en Azure le permiten publicar y administrar el sitio web fácilmente sin tener que trabajar con los servidores, almacenamiento o recursos de red subyacentes. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar un acceso seguro al sitio.
 
-[Procese y clasifique las imágenes con Azure Cognitive Vision Services](https://docs.microsoft.com/learn/paths/classify-images-with-vision-services/): Azure Cognitive Services ofrece una funcionalidad pregenerada para habilitar la funcionalidad de Computer Vision en las aplicaciones. Aprenda a usar Cognitive Vision Services para detectar rostros, etiquetar y clasificar imágenes e identificar objetos.
+[Procese y clasifique las imágenes con Azure Cognitive Vision Services](https://docs.microsoft.com/learn/paths/classify-images-with-vision-services): Azure Cognitive Services ofrece una funcionalidad pregenerada para habilitar la funcionalidad de Computer Vision en las aplicaciones. Aprenda a usar Cognitive Vision Services para detectar rostros, etiquetar y clasificar imágenes e identificar objetos.

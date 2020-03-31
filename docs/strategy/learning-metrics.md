@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: a27ef0d432fc0aad64211e9b2228d4f82387f854
-ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
+ms.openlocfilehash: 9173909afb7ffe625a28ec72255c15540dcf7c63
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80069807"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353522"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -54,7 +54,7 @@ Una métrica aún más valiosa es el número de paneles creados a partir de orí
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez alineadas las métricas de aprendizaje, está listo para empezar a [crear la justificación económica](cloud-migration-business-case.md) que debe proporcionar para hacer frente a esas métricas. 
+Una vez alineadas las métricas de aprendizaje, está listo para empezar a [crear la justificación económica](.\cloud-migration-business-case.md) que debe proporcionar para hacer frente a esas métricas.
 
 > [!div class="nextstepaction"]
-> [Creación de la justificación económica de la nube](cloud-migration-business-case.md)
+> [Creación de la justificación económica de la nube](.\cloud-migration-business-case.md)

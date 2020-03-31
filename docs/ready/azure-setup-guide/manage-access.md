@@ -9,14 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 86988a83b0c68bea60d0cceff5a168e2b2b08fd5
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 5fedbb5164da05b166d8a42d8d1ceaf43ee95185
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79024057"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354451"
 ---
-<!-- cSpell:ignore LijuKodicheraJayadevan Fsubscriptions Fresource -->
+<!-- cSpell:ignore LijuKodicheraJayadevan -->
 
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Administración del acceso al entorno de Azure con controles de acceso basado en rol
 
@@ -46,7 +46,7 @@ Para otorgar a un usuario acceso a un grupo de recursos:
 1. Seleccione **Agregar** > **Agregar asignación de roles**.
 1. Seleccione un rol y, después, asigne acceso a un usuario, grupo o entidad de servicio.
 
-::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups]" submitText="Go to resource groups" ::: form-end
+::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources/Subscriptions/ResourceGroups]" submitText="Go to resource groups" ::: form-end
 
 **Concesión de acceso a la suscripción:**
 
@@ -68,7 +68,7 @@ Para otorgar a un usuario acceso a una suscripción:
 
 Para otorgar a un usuario acceso a un grupo de recursos:
 
-1. Vaya a [Grupos de recursos](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups).
+1. Vaya a [Grupos de recursos](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
 1. Seleccione un grupo de recursos.
 1. Seleccione **Access Control (IAM)** .
 1. Seleccione **Agregar** > **Agregar asignación de roles**.

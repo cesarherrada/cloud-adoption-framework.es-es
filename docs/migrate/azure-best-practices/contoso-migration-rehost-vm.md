@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 7a8b70d43ef68137418f0c2cfc731871561844f0
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: a3874de7d2dc78edfcf9e483661748749856cc17
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311377"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355759"
 ---
+<!-- cSpell:ignore NSGs WEBVM SQLVM contosohost vcenter contosodc agentless -->
+
 # <a name="rehost-an-on-premises-app-on-azure-vms"></a>Rehospedaje de una aplicación local en VM de Azure
 
 En este artículo se muestra cómo la compañía ficticia Contoso rehospeda una aplicación de front-end de Windows .NET de dos niveles que se ejecuta en máquinas virtuales de VMware mediante la migración de las máquinas virtuales de la aplicación a VM de Azure.

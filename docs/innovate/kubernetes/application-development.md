@@ -1,6 +1,5 @@
 ---
 title: Desarrollo e implementación de aplicaciones
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre el uso de Kubernetes en Cloud Adoption Framework para el desarrollo y la arquitectura de aplicaciones.
 author: sabbour
 ms.author: asabbour
@@ -8,13 +7,15 @@ ms.topic: guide
 ms.date: 03/20/2020
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 54d1af4e3f4c0669548638451544de9c6678481a
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 6ad36a6dfbce83b23bfcee382ff44daeb9db5f7f
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80226706"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392761"
 ---
+<!-- cSpell:ignore asabbour sabbour autoscaler Istio Linkerd -->
+
 # <a name="application-development-and-deployment"></a>Desarrollo e implementación de aplicaciones
 
 Examine los patrones y prácticas del desarrollo de aplicaciones, configure canalizaciones de DevOps e implemente los procedimientos recomendados de ingeniería de confiabilidad de sitios (SRE).

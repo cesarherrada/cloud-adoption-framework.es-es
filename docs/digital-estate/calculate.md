@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 06e1bafa4a4a4c1ed88bb29d6787fec95fbd956b
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: ffe9e81eb0bdd2d3a859885d6b01bd61abd9f719
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170127"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355355"
 ---
 # <a name="align-cost-models-with-the-digital-estate-to-forecast-cloud-costs"></a>Alineación de los modelos de costos con el patrimonio digital para prever los costos en la nube
 
@@ -25,6 +25,6 @@ Las herramientas de precios de Azure ayudan a administrar el gasto en la nube co
 
 - [Calculadora del costo total de propiedad (TCO)](https://azure.microsoft.com/pricing/tco/calculator): Reduzca el costo total de propiedad de la infraestructura local con la plataforma en la nube de Azure. Utilice la calculadora de TCO de Azure para calcular el ahorro de costos que puede lograr al migrar las cargas de trabajo de aplicación a Azure. Proporcione una breve descripción del entorno local para obtener un informe instantáneo.
 
-- [Calculadora de precios de Azure](https://azure.microsoft.com/pricing): estime la factura mensual prevista con la calculadora de precios. Realice un seguimiento del uso y facturación reales de la cuenta en cualquier momento mediante el portal de facturación. Configure alertas de facturación automáticas por correo electrónico para recibir una notificación si el gasto sobrepasa una cantidad especificada.
+- [Calculadora de precios de Azure](https://azure.microsoft.com/pricing/calculator): estime la factura mensual prevista con la calculadora de precios. Realice un seguimiento del uso y facturación reales de la cuenta en cualquier momento mediante el portal de facturación. Configure alertas de facturación automáticas por correo electrónico para recibir una notificación si el gasto sobrepasa una cantidad especificada.
 
 - [Azure Cost Management](https://azure.microsoft.com/services/cost-management): Azure Cost Management, que se concede bajo licencia de Cloudyn, subsidiaria de Microsoft, es una solución de administración de costos en varias nubes que ayuda a usar y administrar Azure y otros recursos en la nube de forma eficaz. Recopile datos de uso y facturación de recursos en la nube con interfaces de programación de aplicaciones (API) de Azure, Amazon Web Services y Google Cloud Platform. Con esos datos, se obtiene visibilidad total del consumo de recursos y de los costos de todas las plataformas en la nube en una única vista unificada. Supervise de forma constante el consumo de recursos en la nube y las tendencias de los costos. Realice un seguimiento del gasto real en la nube respecto al presupuesto para evitar los sobrecostos. Detecte anomalías en el gasto y deficiencias en el uso. Utilice los datos históricos para mejorar la exactitud de las previsiones de uso de recursos en la nube y los gastos correspondientes.

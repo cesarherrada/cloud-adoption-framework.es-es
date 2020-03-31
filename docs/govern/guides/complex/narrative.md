@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7c2cfcc76153e999b2ca9d50b63cf0a72cfb2c14
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: cb514ea2395deef91e6eca802de630ad77926823
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706921"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357089"
 ---
+<!-- cSpell:ignore CDO's CIO's -->
+
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Guía de gobernanza para empresas complejas: Narrativa de apoyo
 
 El siguiente artículo establece un caso de uso de [gobernanza durante el recorrido de adopción de la nube de una empresa compleja](./index.md). Antes de actuar sobre las recomendaciones de la guía, es importante comprender las suposiciones y los razonamientos que se reflejan en esta narrativa. Solo entonces podrá alinear mejor la estrategia de gobernanza con el recorrido de adopción de la nube de su propia organización.

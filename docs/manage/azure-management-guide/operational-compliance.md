@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a76ca679b8c61e96b8bc8552b8ffbcaa0822e46a
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 18c3c81fdd756e90e729387c7030c64e8a87a056
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094720"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356456"
 ---
 <!-- cSpell:ignore WSUS -->
 
@@ -60,8 +60,8 @@ Para obtener más información, consulte [Solución Update Management](https://d
 >
 > Hay dos enfoques en la incorporación:
 >
-> - [Una única máquina virtual](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-single-vm)
-> - [Toda la suscripción](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-at-scale)
+> - [Una única máquina virtual](../../manage/azure-server-management/onboard-single-vm.md)
+> - [Toda la suscripción](../../manage/azure-server-management/onboard-at-scale.md)
 >
 > Debe seguir uno para poder continuar con Update Management.
 
@@ -69,7 +69,7 @@ Para obtener más información, consulte [Solución Update Management](https://d
 
 Para aplicar una directiva a un grupo de recursos:
 
-1. Vaya a [Azure Automation](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts).
+1. Vaya a [Azure Automation](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts).
 1. Seleccione **Cuentas de Automation** y elija una de las cuentas de la lista.
 1. Diríjase a **Administración de configuración**.
 1. **Inventario**, **Administración de cambios** y **State Configuration** pueden usarse para controlar el estado y el cumplimiento operativo de las VM administradas.
@@ -78,7 +78,7 @@ Para aplicar una directiva a un grupo de recursos:
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 

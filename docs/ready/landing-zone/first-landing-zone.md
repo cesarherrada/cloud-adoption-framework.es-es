@@ -1,19 +1,18 @@
 ---
 title: Consideraciones sobre la zona de aterrizaje de Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Conozca cómo una zona de aterrizaje proporciona el bloque de creación básico de cualquier entorno de adopción de la nube.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: overview
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 04293b0e0d30ae1eaa85f4c86c6c7d70b2cfac82
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 594f10968e45477895fcc5dcd1b2a95d16d7c861
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092986"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392649"
 ---
 # <a name="first-landing-zone"></a>Primera zona de aterrizaje
 

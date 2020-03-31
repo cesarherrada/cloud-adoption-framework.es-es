@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: c4fa1d608f62497869c0498ba82cbdce649af1e2
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 43cec9da3a49bb755f6fa35c757f5e7aaf342db1
+ms.sourcegitcommit: e21e70a5ad7bff2f2009a2da8e91a54fccd6d38f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092470"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80299126"
 ---
 # <a name="examples-of-global-reach-outcomes"></a>Ejemplos de resultados de alcance global
 
@@ -30,7 +30,7 @@ Expandirse en un nuevo mercado puede ser uno de los resultados empresariales má
 
 ## <a name="data-sovereignty"></a>Soberanía de los datos
 
-Operar en nuevos mercados presenta algunas restricciones adicionales de gobernanza. El RGPD es un ejemplo de un criterio de gobernanza que podría suponer un importante recurso financiero. Las ofertas de Azure cumplen las normas, lo que ayuda a los clientes a satisfacer sus obligaciones de cumplimiento en los sectores regulados y en los mercados internacionales. Para más información, consulte [Introducción al cumplimiento de Microsoft Azure](https://aka.ms/AzureCompliance).
+Operar en nuevos mercados presenta algunas restricciones adicionales de gobernanza. El RGPD es un ejemplo de un criterio de gobernanza que podría suponer un importante recurso financiero. Las ofertas de Azure cumplen las normas, lo que ayuda a los clientes a satisfacer sus obligaciones de cumplimiento en los sectores regulados y en los mercados internacionales. Para más información, consulte [Introducción al cumplimiento de Microsoft Azure](https://azure.microsoft.com/overview/trusted-cloud/compliance/).
 
 - **Ejemplo**: Un proveedor de servicios públicos con sede en Estados Unidos ganó un contrato para prestar servicios públicos en Canadá. La ley de soberanía de datos canadiense requiere que los datos canadienses permanezcan en Canadá. Esta compañía había realizado durante años un esfuerzo de innovación en aplicaciones habilitadas para la nube. Como resultado, su software se pudo implementar mediante procesos de DevOps totalmente automatizados con scripts. Con unos cambios menores en el código, pudieron implementar una copia funcional del código en un centro de datos de Azure en Canadá, con lo que se cumplían los requisitos de soberanía de datos y se pudo conservar el cliente.
 

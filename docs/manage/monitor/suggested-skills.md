@@ -7,42 +7,43 @@ ms.date: 03/23/2020
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7e078bbeea12c71997474d372b0b6b838ed5f4a3
-ms.sourcegitcommit: a1209c9dab369171e1fe0cdc6a58e3f6ae6a8f22
+ms.openlocfilehash: fe1dcc215c318ef35c7a1d19af50b1451eb1935d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "80261560"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356225"
 ---
+<!-- cSpell:ignore kusto ITIL -->
+
 # <a name="skills-readiness-for-cloud-monitoring"></a>Preparación de las aptitudes para la supervisión de la nube
 
-Durante la fase de planeamiento del recorrido de migración, el objetivo es desarrollar los planes necesarios para guiar la implementación. Los planes también deben prever cómo funcionarán estas cargas de trabajo antes de que se realice la transición a producción, y no posteriormente. Las partes interesadas de la empresa esperan servicios valiosos y los esperan sin interrupciones. Los miembros del personal de TI son conscientes de que necesitan aprender nuevas aptitudes y adaptarse para estar preparados y emplear con confianza los servicios de Azure integrados para supervisar eficazmente los recursos en Azure y en entornos híbridos. 
+Durante la fase de planeamiento del recorrido de migración, el objetivo es desarrollar los planes necesarios para guiar la implementación. Los planes también deben prever cómo funcionarán estas cargas de trabajo antes de que se realice la transición a producción, y no posteriormente. Las partes interesadas de la empresa esperan servicios valiosos y los esperan sin interrupciones. Los miembros del personal de TI son conscientes de que necesitan aprender nuevas aptitudes y adaptarse para estar preparados y emplear con confianza los servicios de Azure integrados para supervisar eficazmente los recursos en Azure y en entornos híbridos.
 
 Es posible acelerar el desarrollo de las aptitudes necesarias con las siguientes rutas de aprendizaje:
 
 - En la introducción a [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) se describen los conceptos básicos de administración e implementación de recursos de Azure. El personal de TI que administra la experiencia de supervisión en la empresa debe comprender los ámbitos de administración y el control de acceso basado en roles (RBAC) mediante plantillas de Azure Resource Manager, y la administración de recursos mediante la CLI de Azure y Azure PowerShell.
 
-- Para aprender a proteger los recursos mediante directivas, control de acceso basado en roles y otros servicios de Azure, vea [Implementación de la seguridad de administración de recursos en Azure](https://docs.microsoft.com//learn/paths/implement-resource-mgmt-security/). 
+- Para aprender a proteger los recursos mediante directivas, control de acceso basado en roles y otros servicios de Azure, vea [Implementación de la seguridad de administración de recursos en Azure](https://docs.microsoft.com//learn/paths/implement-resource-mgmt-security).
 
 - La introducción a [Azure Policy](https://docs.microsoft.com/azure/governance/policy/overview) le ayuda a usar Azure Policy para crear, asignar y administrar directivas. Azure Policy puede implementar y configurar los agentes de Azure Monitor, habilitar la supervisión con Azure Monitor para VM y Azure Security Center, implementar la configuración de diagnóstico, auditar la configuración de invitados, etc.
 
 - Revise la introducción a la [interfaz de la línea de comandos (CLI) de Azure](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), la experiencia de línea de comandos multiplataforma para administrar recursos de Azure. Revise también la introducción a [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). LinkedIn ofrece, como parte de su curso de nivel básico denominado [Aprendizaje de las herramientas de administración de Azure](https://www.linkedin.com/learning/learning-azure-management-tools), sesiones que tratan sobre la CLI de Azure y los lenguajes de programación de PowerShell:
 
-   - [Uso de la CLI de Azure](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
-   
-   - [Introducción a Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell) 
+  - [Uso de la CLI de Azure](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
+  - [Introducción a Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
 - Aprenda a escribir [consultas de registro en Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries).  El lenguaje de consulta Kusto es el recurso principal para escribir consultas de registro de Azure Monitor para explorar y analizar los datos de registro entre los datos recopilados de Azure y las dependencias de las aplicaciones de recursos híbridos, incluida la aplicación activa.
 
 - Vea cómo [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) le ayuda a visualizar la disponibilidad y el rendimiento de las aplicaciones y servicios en un solo lugar. Pluralsight ofrece los siguientes cursos de ayuda:
 
-   - [Administración y supervisión de IaaS en Microsoft Azure](https://www.pluralsight.com/courses/azure-iaas-monitoring-management-getting-started) le ayuda a usar Azure Monitor para realizar una supervisión básica de las cargas de trabajo que se ejecutan en IaaS.
+  - [Administración y supervisión de IaaS en Microsoft Azure](https://www.pluralsight.com/courses/azure-iaas-monitoring-management-getting-started) le ayuda a usar Azure Monitor para realizar una supervisión básica de las cargas de trabajo que se ejecutan en IaaS.
 
-   - [Supervisión de recursos y cargas de trabajo de Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring) le ayuda a usar herramientas de supervisión de Microsoft Azure para supervisar los recursos de red de Azure (así como los locales).
+  - [Supervisión de recursos y cargas de trabajo de Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring) le ayuda a usar herramientas de supervisión de Microsoft Azure para supervisar los recursos de red de Azure (así como los locales).
 
-   - [Microsoft Azure DevOps Engineer: Optimización de los mecanismos de comentarios](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) le ayuda a prepararse para usar Azure Monitor, incluido Application Insights y Log Analytics para supervisar y optimizar las aplicaciones web.
+  - [Microsoft Azure DevOps Engineer: Optimización de los mecanismos de comentarios](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) le ayuda a prepararse para usar Azure Monitor, incluido Application Insights y Log Analytics para supervisar y optimizar las aplicaciones web.
 
-   - El [cuaderno de estrategias de supervisión de bases de datos de Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) le ayuda a implementar y usar la supervisión de Azure SQL Database, Azure SQL Data Warehouse y Azure Cosmos DB.
+  - El [cuaderno de estrategias de supervisión de bases de datos de Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) le ayuda a implementar y usar la supervisión de Azure SQL Database, Azure SQL Data Warehouse y Azure Cosmos DB.
 
 - Con [Azure Arc para servidores](https://docs.microsoft.com/azure/azure-arc/servers/overview), aprenda a administrar las máquinas Windows y Linux hospedadas fuera de Azure de forma parecida a como administra máquinas virtuales nativas de Azure.
 
@@ -60,19 +61,19 @@ Convierta su conocimiento de Azure en un reconocimiento oficial con los [exámen
 
 ## <a name="azure-devops-and-project-management"></a>Azure DevOps y administración de proyectos
 
-El entorno de nube híbrida supone un obstáculo para TI ya que presenta roles, responsabilidades y actividades no definidos. Las organizaciones deben evolucionar a unos procedimientos más modernos de administración de servicios, entre los que se incluyen las metodologías Agile y DevOps, para satisfacer mejor las necesidades de transformación y optimización de las empresas actuales de una manera simplificada y eficaz. 
+El entorno de nube híbrida supone un obstáculo para TI ya que presenta roles, responsabilidades y actividades no definidos. Las organizaciones deben evolucionar a unos procedimientos más modernos de administración de servicios, entre los que se incluyen las metodologías Agile y DevOps, para satisfacer mejor las necesidades de transformación y optimización de las empresas actuales de una manera simplificada y eficaz.
 
 Como parte de la migración a una plataforma de supervisión en la nube, el equipo de TI responsable de administrar la supervisión en la empresa debe incluir entrenamiento y participación ágiles en actividades de DevOps. Esto también incluye el *desarrollo* en DevOps que toma los requisitos y los convierte en requisitos ágiles organizados con el fin de ofrecer soluciones de supervisión mínimamente viables que se refinan de manera iterativa y en línea con las necesidades empresariales. Para que el control de código fuente administre los paquetes de la solución de supervisión iterativa y cualquier otro material relacionado, conecte el proyecto de Azure DevOps Server a un repositorio de GitHub Enterprise Server. Esto proporciona un vínculo entre las confirmaciones de GitHub y las solicitudes de incorporación de cambios en los elementos de trabajo. Puede usar GitHub Enterprise para el desarrollo con el fin de apoyar la integración e implementación continuas de la supervisión al tiempo que usa Azure Boards para planear y realizar un seguimiento de su trabajo.
 
 Para más información, consulte lo siguiente:
 
-- [Introducción a Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops/) 
+- [Introducción a Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops)
 
-- [Más información acerca de DevOps Dojo White Belt Foundation](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation/)
+- [Más información acerca de DevOps Dojo White Belt Foundation](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation)
 
-- [Logre que sus prácticas de DevOps evolucionen](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices/)
+- [Logre que sus prácticas de DevOps evolucionen](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices)
 
-- [Automatización de las implementaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/automate-deployments-azure-devops/)
+- [Automatización de las implementaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/automate-deployments-azure-devops)
 
 ## <a name="other-considerations"></a>Otras consideraciones
 

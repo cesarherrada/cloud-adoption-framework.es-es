@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 42cf4ffb65456bf1519a0f2bb0f017bb078687d9
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: adb39a25cfb232b19bd983e5d4e0ab7d7370add1
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170977"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356605"
 ---
 ::: zone target="docs"
 
@@ -34,8 +34,8 @@ La tabla siguiente puede ayudarle a encontrar la mejor solución en función de 
 
 |Servicio  |Modelos creados previamente  |Compilación y experimento  |Entrenamiento y compilación con Python|Aptitudes necesarias|
 |---------|---------|---------|---------|---------|
-|Azure Cognitive Services|Sí|Sin|Sin|Aptitudes de API y desarrolladores|
-|Azure Machine Learning Studio|Sí|Sí|Sin|Descripción general de los algoritmos de predicción|
+|Azure Cognitive Services|Sí|No|No|Aptitudes de API y desarrolladores|
+|Azure Machine Learning Studio|Sí|Sí|No|Descripción general de los algoritmos de predicción|
 |Servicio Azure Machine Learning|Sí|Sí|Sí|Científico de datos|
 
 ## <a name="azure-cognitive-services"></a>[Azure Cognitive Services](#tab/CognitiveServices)
@@ -48,7 +48,7 @@ Para obtener una lista de los servicios disponibles y la cantidad de entrenamien
 
 Para usar una API de Cognitive Services:
 
-1. En [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts), vaya a **Cognitive Services**.
+1. En [Azure Portal](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.CognitiveServices%2FAccounts), vaya a **Cognitive Services**.
 2. Seleccione **Agregar** para buscar una API de Cognitive Services en Azure Marketplace.
 3. Realice cualquiera de las siguientes acciones:
    - Si conoce el nombre del servicio que quiere usar, escríbalo en el cuadro **Buscar en Marketplace**.
@@ -58,7 +58,7 @@ Para usar una API de Cognitive Services:
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts]" submitText="Go to Cognitive Services" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2FAccounts]" submitText="Go to Cognitive Services" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -66,7 +66,7 @@ Para usar una API de Cognitive Services:
 
 ::: zone target="docs"
 
-Vaya directamente a Cognitive Services en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts).
+Vaya directamente a Cognitive Services en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2FAccounts).
 
 ::: zone-end
 
@@ -80,7 +80,7 @@ Si los modelos existentes dentro de Cognitive Services no se alinean con la pred
 
 Puede usar Azure Machine Learning Studio para compilar y experimentar con un modelo mediante los siguientes pasos:
 
-1. En [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces), vaya a **Azure Machine Learning Studio**.
+1. En [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces), vaya a **Azure Machine Learning Studio**.
 2. Haga clic en **Creación de área de trabajo de Machine Learning Service** y siga las indicaciones para crear un área de trabajo.
 
    La nueva área de trabajo proporciona una interfaz de arrastrar y colocar para crear un modelo y experimentar con él como alternativa al entrenamiento profundo.
@@ -89,7 +89,7 @@ Puede usar Azure Machine Learning Studio para compilar y experimentar con un mod
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces]" submitText="Go to Azure Machine Learning Studio" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces]" submitText="Go to Azure Machine Learning Studio" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -97,7 +97,7 @@ Puede usar Azure Machine Learning Studio para compilar y experimentar con un mod
 
 ::: zone target="docs"
 
-Vaya directamente a Azure Machine Learning Studio en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces).
+Vaya directamente a Azure Machine Learning Studio en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces).
 
 ::: zone-end
 
@@ -117,7 +117,7 @@ Un científico de datos puede usar Azure Machine Learning Service para entrenar 
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2Fworkspaces]" submitText="Go to Azure Machine Learning service" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2FWorkspaces]" submitText="Go to Azure Machine Learning service" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -125,7 +125,7 @@ Un científico de datos puede usar Azure Machine Learning Service para entrenar 
 
 ::: zone target="docs"
 
-Vaya directamente a Azure Machine Learning Studio en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2Fworkspaces).
+Vaya directamente a Azure Machine Learning Studio en [Azure Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2FWorkspaces).
 
 ::: zone-end
 

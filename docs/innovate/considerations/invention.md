@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4ddc8c0e479aaf0feee928249919edf9899ce40f
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: f9303adc183596f93c822224e5098549a533a153
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171198"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356742"
 ---
 # <a name="develop-digital-inventions"></a>Desarrollo de invenciones digitales
 
@@ -22,7 +22,7 @@ Tal y como se describe en [Innovación en la economía digital](./index.md), la 
 
 ## <a name="summary-of-each-discipline-of-digital-invention"></a>Resumen de cada materia de invención digital
 
-No *todas* las materias siguientes son necesarias para impulsar la innovación en todos los casos. Siguiendo las instrucciones relativas a la [creación con empatía con el cliente](./build.md), el objetivo es probar una hipótesis en cada iteración. Al definir la salida de cada iteración como un [producto mínimo viable (MVP)](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/policy-compliance#minimum-viable-product-mvp-for-policy), esto debería permitirle implicar el menor número posible de materias.
+No *todas* las materias siguientes son necesarias para impulsar la innovación en todos los casos. Siguiendo las instrucciones relativas a la [creación con empatía con el cliente](./build.md), el objetivo es probar una hipótesis en cada iteración. Al definir la salida de cada iteración como un [producto mínimo viable (MVP)](../../govern/policy-compliance/index.md), esto debería permitirle implicar el menor número posible de materias.
 
 - **[Democratización de los datos](./data.md):** al poner los datos en manos de los clientes, asociados y empleados, fomenta una observación innovadora. Los datos se ingieren, centralizan, controlan y comparten.
 - **[Participación mediante aplicaciones](./apps.md):** los usuarios se conectan con el conocimiento mediante aplicaciones y experiencias. Dé a los desarrolladores profesionales y cívicos las herramientas necesarias para crear aplicaciones con rapidez.

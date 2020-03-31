@@ -7,13 +7,15 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 101ce6ef12ca9f9c686075c6e839a8353bc93da8
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 35cd68a317ae3c4d49c961d020d6e803f387741d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171317"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356877"
 ---
+<!-- cSpell:ignore njray nanra chargebacks IPLs -->
+
 # <a name="mainframe-myths-and-facts"></a>Mitos y verdades del sistema central
 
 Los sistemas centrales aparecen de en un lugar destacado de la historia de la informática y siguen siendo viables para cargas de trabajo muy específicas. La mayoría está de acuerdo en que los sistemas centrales son una plataforma probada, con procedimientos operativos arraigados, que los convierten en entornos de confianza y sólidos. Hay ejecuciones de software basadas en el uso, medidas en millones de instrucciones por segundo (MIPS), e informes extensos del uso disponibles para anulaciones.

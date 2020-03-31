@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 9921f9b8afc492bef5730e55f2d342ab4ec26436
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: bd95aec82e3135222184ded49a7fc013f95a05e4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093706"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354951"
 ---
+<!-- cSpell:ignore ccoe -->
+
 # <a name="align-responsibilities-across-teams"></a>Alineación de responsabilidades entre los equipos
 
 Aprenda a alinear las responsabilidades de los equipos mediante el desarrollo de una matriz entre equipos que identifique a las entidades *responsables, encargadas, consultadas e informadas* (RACI por sus siglas en inglés). En este artículo se proporciona una matriz RACI de ejemplo para las estructuras organizativas que se describen en [Establecimiento de estructuras de equipo](./organization-structures.md):

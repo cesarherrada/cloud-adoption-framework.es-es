@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d6cf92c2cb08e59196bc9c24aadf1fa2c812db0d
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 67ea91e503290c8fee37f3d36770fbbea1b336b4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312755"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356798"
 ---
 # <a name="build-with-customer-empathy"></a>Creación con la empatía de los clientes
 
@@ -102,6 +102,8 @@ Cuando la empatía con el cliente es fuerte, debe resultar fácil identificar un
 Existen muchos requisitos de cumplimiento, legales y del sector que pueden requerir un enfoque alternativo. Si las versiones públicas de una solución de desarrollo crean riesgos para los plazos de patentes, la protección de la propiedad intelectual, la pérdida de datos de clientes o la infracción de los requisitos de cumplimiento establecidos, es posible que este enfoque no resulte adecuado. Cuando perciba riesgos como estos, consulte a su asesor legal antes de adoptar cualquier enfoque guiado en la administración de versiones.
 
 ## <a name="references"></a>Referencias
+
+<!-- cSpell:ignore Ries -->
 
 Algunos de los conceptos de este artículo se basan en temas descritos en el libro [*El método Lean Startup*](http://theleanstartup.com/book) (Eric Ries, Crown Business, 2011).
 

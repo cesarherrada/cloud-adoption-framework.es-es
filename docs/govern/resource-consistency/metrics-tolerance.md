@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 98413117b3eb6abf1e826fcf14f765c6cd461d65
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 75a0e1f06b2a5a2734cc386e02200ec06d707d7b
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171368"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356913"
 ---
+<!-- cSpell:ignore MTBF MTTR -->
+
 # <a name="resource-consistency-metrics-indicators-and-risk-tolerance"></a>Métricas, indicadores y tolerancia al riesgo de la coherencia de los recursos
 
 Este artículo le ayudará a cuantificar la tolerancia al riesgo de la empresa en relación con la coherencia de los recursos. Definir las métricas y los indicadores servirá de ayuda para crear un modelo de negocio con el fin de calcular la inversión en la materia sobre la coherencia de los recursos.

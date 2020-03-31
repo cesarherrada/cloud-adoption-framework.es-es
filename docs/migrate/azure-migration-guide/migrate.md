@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: d5be29caa69a2b9a0f1e22cfb6ff704b7e17233c
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 697e42d16918960f97bc534bad93a854af963a49
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312346"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353923"
 ---
 <!-- cSpell:ignore Cloudamize agentless uncontained SSMA Carbonite Movere -->
 
@@ -215,7 +215,7 @@ Hay varias herramientas de migración de terceros y servicios de ISV que pueden 
 
 UnifyCloud es un servicio de ISV que proporciona herramientas de evaluación, migración y automatización de modernización.
 
-[Más información](https://www.unifycloud.com/)
+[Más información](https://www.unifycloud.com)
 
 ## <a name="cloudamize"></a>Cloudamize
 
@@ -278,7 +278,7 @@ Microsoft Learn es un enfoque nuevo al aprendizaje. La preparación para las nue
 
 Este es un ejemplo de ruta de aprendizaje adaptada de Microsoft Learn que complementa la configuración de la guía de DevOps en Cloud Adoption Framework.
 
-[Creación de aplicaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops/): Colabore con otros usuarios para crear aplicaciones con Azure Pipelines y GitHub. Ejecute pruebas automatizadas en la canalización para validar la calidad del código. Examine el código fuente y los componentes de terceros para detectar posibles puntos vulnerables. Defina varias canalizaciones que funcionen conjuntamente para crear la aplicación. Cree aplicaciones mediante agentes hospedados de Microsoft y sus propios agentes de compilación.
+[Creación de aplicaciones con Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops): Colabore con otros usuarios para crear aplicaciones con Azure Pipelines y GitHub. Ejecute pruebas automatizadas en la canalización para validar la calidad del código. Examine el código fuente y los componentes de terceros para detectar posibles puntos vulnerables. Defina varias canalizaciones que funcionen conjuntamente para crear la aplicación. Cree aplicaciones mediante agentes hospedados de Microsoft y sus propios agentes de compilación.
 
 # <a name="cost-management"></a>[Administración de costos](#tab/ManageCost)
 

@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3ba4cc99b210784c7503085234c25c1d9a0ae634
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: fe1bed4da302041998ec09efd2224be3d94fe3aa
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508005"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356716"
 ---
 # <a name="measure-for-customer-impact"></a>Medida del impacto en los clientes
 
@@ -70,5 +70,7 @@ A medida que se acumulan métricas de aprendizaje, el equipo puede empezar a [ap
 
 > [!div class="nextstepaction"]
 > [Aprender con los clientes](./learn.md)
+
+<!-- cSpell:ignore Ries -->
 
 Algunos de los conceptos de este artículo se basan en temas descritos en el libro [El método Lean Startup](http://theleanstartup.com/book), escrito por Eric Ries.

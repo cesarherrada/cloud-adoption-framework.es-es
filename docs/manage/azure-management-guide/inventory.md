@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: da3675484c04c9c02384fcbbc0337accff2aaffe
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 0caf14e402c2c91b1c7b297df7f648d924f9e449
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092131"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356508"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Inventario y visibilidad en Azure
 
@@ -103,7 +103,7 @@ Un [área de trabajo de Log Analytics](https://docs.microsoft.com/azure/azure-mo
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.OperationalInsights%2Fworkspaces]" submitText="Explore Azure Monitor" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.OperationalInsights%2FWorkspaces]" submitText="Explore Azure Monitor" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -174,8 +174,8 @@ Para habilitar las soluciones, tiene que configurar el área de trabajo Log Anal
 
 Hay dos enfoques en la incorporación:
 
-- [Una única máquina virtual](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-single-vm)
-- [Toda la suscripción](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-at-scale)
+- [Una única máquina virtual](../../manage/azure-server-management/onboard-single-vm.md)
+- [Toda la suscripción](../../manage/azure-server-management/onboard-at-scale.md)
 
 Cada uno de los artículos le guía a través de una serie de pasos para incorporar las siguientes soluciones:
 

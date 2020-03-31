@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d1c842c672cc091deaad4e0b7f4ffc89231895c7
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: fd8db03a28c5372ad5ca796607a079ffdcbe4f92
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312040"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355276"
 ---
 # <a name="business-change-plan"></a>Plan de cambio de negocio
 
@@ -65,5 +65,7 @@ Una vez que el cambio empresarial está documentado y planeado, pueden comenzar 
 > [Guía sobre las pruebas empresariales (UAT) durante la migración](./business-test.md)
 
 ## <a name="references"></a>Referencias
+
+<!-- cSpell:ignore Eason -->
 
 - Eason, K. (1988) _Information technology and organizational change_, New York: Taylor and Francis.
