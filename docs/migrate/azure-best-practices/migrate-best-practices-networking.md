@@ -7,13 +7,15 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 84ece22173c921f1a4de5701988b9fffcaedaaf7
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 7cdb1e56b38615e7878352d6e336e0f01261f6ce
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312159"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354114"
 ---
+<!-- cSpell:ignore NSGs CIDR FQDNs BGP's ACLs WAFs -->
+
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Procedimientos recomendados para la configuración de redes para las cargas de trabajo migradas a Azure
 
 A la hora de planear y diseñar la migración, además de la migración propiamente dicha, uno de los pasos más importantes es el diseño y la implementación de redes de Azure. En este artículo se describen los procedimientos recomendados para las redes al migrar a implementaciones de IaaS y PaaS en Azure.
@@ -177,7 +179,7 @@ Al configurar una VPN de sitio a sitio, haga lo siguiente:
 - Cree una instancia de VPN Gateway, especifique el tipo de puerta de enlace (VPN) y si la puerta de enlace está basada en directivas o en rutas. Se considera que una VPN basada en ruta es más eficaz y está mejor preparada para el futuro.
 - Cree una puerta de enlace de red local en el entorno local y configure el dispositivo VPN local.
 - Cree una conexión VPN de sitio a sitio de conmutación por error entre la puerta de enlace de red virtual y el dispositivo local. El uso de VPN basadas en rutas permite conexiones de tipo activa-pasiva o activa-activa con Azure. Las VPN basadas en rutas también admiten conexiones simultáneas de sitio a sitio (desde cualquier equipo) y de punto a sitio (desde un único equipo).
-- Especifique la SKU de la puerta de enlace que quiere utilizar. Esto dependerá de los requisitos, las unidades de rendimiento, las características y los acuerdos de nivel de servicio de la carga de trabajo.
+- Especifique la SKU de la puerta de enlace que quiere utilizar. Esto dependerá de los requisitos, el rendimiento, las características y los Acuerdos de Nivel de Servicio de la carga de trabajo.
 - Protocolo de puerta de enlace de borde (BGP) es una característica opcional que puede usar con Azure ExpressRoute e instancias de VPN Gateway basadas en rutas para propagar las rutas BGP locales a sus redes virtuales.
 
 ![VPN](./media/migrate-best-practices-networking/vpn.png)

@@ -7,13 +7,15 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7b2433b787683cf8ecaaf4a1f7a858aa18bf682c
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 68b360af15f6a2537fb077202373c846365266d2
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093027"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353670"
 ---
+<!-- cSpell:ignore ISVs Bitnami Yourhosting Revera Avanade Pulsant PricewaterhouseCoopers Pointnext -->
+
 # <a name="create-hybrid-cloud-consistency"></a>Creación de coherencia en la nube híbrida
 
 En este artículo le guiaremos a través de los enfoques de alto nivel para crear una coherencia en la nube híbrida.
@@ -51,7 +53,7 @@ Azure y Azure Stack abren nuevos casos de uso híbridos para aplicaciones de lí
 
 - **Soluciones perimetrales y desconectadas**. Para abordar los requisitos de latencia y conectividad, los clientes pueden procesar los datos localmente en Azure Stack y, después, agregarlos a Azure para realizar análisis adicionales. Pueden usar la lógica de aplicación común en ambos. Muchos clientes están interesados en este escenario de vanguardia de diferentes maneras, como pisos de fábricas, cruceros y minas.
 - **Aplicaciones en la nube que cumplen diversas regulaciones**. Los clientes pueden desarrollar e implementar aplicaciones en Azure, ya que cuentan con total flexibilidad de implementación en el entorno local de Azure Stack para satisfacer sus requisitos de cumplimiento normativo o de directivas. No es necesario realizar ningún cambio de código. Algunos ejemplos de aplicación son la auditoría global, los informes financieros, las operaciones de cambio de divisas, los juegos en línea y los informes de gastos. A veces los clientes buscan implementar diferentes instancias de la misma aplicación en Azure o Azure Stack, en función de los requisitos empresariales y técnicos. Si bien Azure cumple con la mayoría de los requisitos, Azure Stack complementa el enfoque de implementación allí donde es necesario.
-- **Modelo de aplicación en la nube en el entorno local**. Los clientes pueden usar las arquitecturas de servicios web, contenedores, sin servidor y microservicio de Azure para actualizar y ampliar las aplicaciones existentes o crear otras nuevas. Puede usar un proceso de DevOps coherente a través de Azure en la nube, y mediante Azure Stack en un entorno local. Existe un creciente interés en la modernización de aplicaciones, incluso para las aplicaciones críticas fundamentales.
+- **Modelo de aplicación en la nube en el entorno local**. Los clientes pueden usar los servicios web, contenedores, microservicios y arquitecturas sin servidor de Azure para actualizar y ampliar las aplicaciones existentes o crear otras nuevas. Puede usar un proceso de DevOps coherente a través de Azure en la nube, y mediante Azure Stack en un entorno local. Existe un creciente interés en la modernización de aplicaciones, incluso para las aplicaciones críticas fundamentales.
 
 Azure Stack se ofrece a través de dos opciones de implementación:
 
@@ -61,6 +63,8 @@ Azure Stack se ofrece a través de dos opciones de implementación:
 ## <a name="azure-stack-one-cloud-ecosystem"></a>Ecosistema de Azure Stack One Cloud
 
 Puede acelerar las iniciativas de Azure Stack si usa el ecosistema de Azure al completo:
+
+<!-- cSpell:ignore ISVs Bitnami Yourhosting Revera Avanade Pulsant PricewaterhouseCoopers -->
 
 - Azure garantiza que la mayoría de las aplicaciones y servicios certificados para Azure funcionarán en Azure Stack. Varios fabricantes de software independientes están extendiendo sus soluciones a Azure Stack. Algunos de estos fabricantes son Bitnami, Docker, Kemp Technologies, Pivotal Cloud Foundry, Red Hat Enterprise Linux y SUSE Linux.
 - Puede configurar Azure Stack para que funcione como un servicio totalmente administrado. Varios asociados tendrán ofertas de servicios administrados en Azure y Azure Stack en breve. Entre estos asociados se incluyen Tieto, Yourhosting, Revera, Pulsant, y NTT. Estos asociados ofrecen servicios administrados para Azure a través del programa de Proveedor de soluciones en la nube (CSP). Están ampliando sus ofertas para incluir soluciones híbridas.

@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: d02dfda3b44155b7208e9caf00e979553fe97ff3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 3b91a6beaa04a74b03282394da7c8c3ab26587cb
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093547"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354873"
 ---
 # <a name="plan-for-cloud-adoption"></a>Plan para la adopción de la nube
 
@@ -36,9 +36,9 @@ En esta serie de artículos se describe cada paso de la conversión de estrategi
 
 1. **Requisitos previos:** confirme que se han completado todos los pasos de requisitos previos antes de crear el plan.
 2. **Definición y clasificación por prioridades de las cargas de trabajo:** clasifique por prioridades las 10 primeras cargas de trabajo para establecer un trabajo pendiente de adopción inicial.
-3. **Alineación de recursos:** identifique qué recursos (propuestos o existentes) son necesarios para posibilitar las cargas de trabajo clasificadas por prioridades.
-4. **Revisión de la racionalización:** revise las decisiones de racionalización para refinar las decisiones de la ruta de adopción: migrar o innovar.
-5. **Definición de iteraciones y versiones:** las *iteraciones* son los bloques de tiempo asignados para realizar el trabajo. Las *versiones* son la definición del trabajo que se debe realizar antes de desencadenar un cambio en los procesos de producción.
+3. **Adaptación de los recursos a las cargas de trabajo:** identifique qué recursos (propuestos o existentes) son necesarios para posibilitar las cargas de trabajo clasificadas por prioridades.
+4. **Revisión de las decisiones de racionalización:** revise las decisiones de racionalización para refinar las decisiones de la ruta de adopción: migrar o innovar.
+5. **Establecimiento de iteraciones y planes de versiones:** las *iteraciones* son los bloques de tiempo asignados para realizar el trabajo. Las *versiones* son la definición del trabajo que se debe realizar antes de desencadenar un cambio en los procesos de producción.
 6. **Estimación de escalas de tiempo**: establezca escalas de tiempo aproximadas para fines de planeamiento de versiones, en función de las estimaciones iniciales.
 
 ## <a name="next-steps"></a>Pasos siguientes

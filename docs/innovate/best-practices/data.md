@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: e505b7794c9eeff94d746286e0d8cbb9f0cea86e
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: a22742755f9336fd1cbbae3bb4417314228a432d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171266"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356808"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Herramientas para la democratización de los datos en Azure
 
@@ -39,26 +39,26 @@ Todas las guías se asignan a los cuatro procesos anteriores. La guía abarca de
 
 En Azure, las siguientes herramientas se suelen usar para acelerar la invención digital en las fases anteriores:
 
-- Power BI
-- Azure Data Catalog
-- Azure SQL Data Warehouse
-- Azure Cosmos DB
-- Azure Database for PostgreSQL
-- Azure Database for MySQL
-- Azure Database for MariaDB
-- Hiperescala para Azure Database for PostgreSQL
-- Azure Data Lake
-- Azure Database Migration Service
-- Azure SQL Database, con o sin instancias administradas
-- Azure Data Factory
-- Azure Stream Analytics
-- SQL Server Integration Services
-- Azure Stack
-- SQL Server Stretch Database
-- Microsoft Azure StorSimple
-- Archivos de Azure
-- Azure File Sync
-- PolyBase
+- [Power BI](https://docs.microsoft.com/power-bi)
+- [Azure Data Catalog](https://docs.microsoft.com/azure/data-catalog)
+- [Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics)
+- [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
+- [Azure Database para PostgreSQL](https://docs.microsoft.com/azure/postgresql)
+- [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql)
+- [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb)
+- [Hiperescala para Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-nodes)
+- [Azure Data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+- [Azure Database Migration Service](https://docs.microsoft.com/azure/dms)
+- [Azure SQL Database, con o sin instancias administradas](https://docs.microsoft.com/azure/sql-database)
+- [Azure Data Factory](https://docs.microsoft.com/azure/data-factory)
+- [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics)
+- [SQL Server Integration Services](https://docs.microsoft.com/sql/integration-services)
+- [Azure Stack](https://docs.microsoft.com/azure-stack)
+- [SQL Server Stretch Database](https://docs.microsoft.com/sql/sql-server/stretch-database)
+- [Microsoft Azure StorSimple](https://docs.microsoft.com/azure/storsimple)
+- [Archivos de Azure](https://docs.microsoft.com/azure/storage/files)
+- [Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
+- [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase)
 
 A medida que la invención se aproxima a la adopción a escala, los aspectos de cada solución requieren una fase de refinamiento y maduración técnica. A medida que eso vaya sucediendo, es probable que se requieran más servicios de los mencionados. Use la tabla de contenido de la izquierda de esta página para obtener la guía de herramientas de Azure correspondiente a su proceso de prueba de hipótesis.
 

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 74f81e139e7eacc7445321592eab4027a40a8c56
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: bbd50e5e2ddda9489f0fc7a90a546ef41fd86ade
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312711"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357117"
 ---
 # <a name="governance-guide-for-complex-enterprises-best-practices-explained"></a>Guía de gobernanza para empresas complejas: Explicación de los procedimientos recomendados
 
@@ -50,7 +50,7 @@ El equipo de gobernanza de la nube será responsable de las siguientes decisione
 
 ### <a name="subscription-design"></a>Detalles de la suscripción
 
-La decisión sobre qué diseño de suscripción usar determina cómo se estructuran las suscripciones de Azure y cómo se usarán los grupos de administración de Azure para administrar de forma eficaz el acceso, las directivas y el cumplimiento de estas suscripciones. En este ejemplo, el equipo de gobernanza ha elegido el patrón de diseño de suscripciones **[Mixto](../../../decision-guides/subscriptions/index.md#mixed-patterns)** .
+La decisión sobre qué diseño de suscripción usar determina cómo se estructuran las suscripciones de Azure y cómo se usarán los grupos de administración de Azure para administrar de forma eficaz el acceso, las directivas y el cumplimiento de estas suscripciones. En este ejemplo, el equipo de gobernanza ha elegido una **[estrategia de suscripción mixta](../../../decision-guides/subscriptions/index.md#mixing-subscription-strategies)** .
 
 - Cuando surjan nuevas solicitudes de recursos de Azure, se debe establecer un "departamento" para cada unidad de negocio principal en cada ubicación geográfica operativa. Dentro de cada uno de los departamentos, deben crearse "suscripciones" para cada arquetipo de aplicación.
 - Un arquetipo de aplicación es una forma de agrupar las aplicaciones con necesidades similares. Algunos ejemplos frecuentes son: Aplicaciones con datos protegidos, aplicaciones reguladas (por ejemplo, HIPAA o FedRAMP), aplicaciones de bajo riesgo, aplicaciones con dependencias en el entorno local, aplicaciones SAP u otros sistemas centrales en Azure, o aplicaciones que amplían SAP o los sistemas centrales locales. Cada organización tiene necesidades únicas según las clasificaciones de datos y los tipos de aplicaciones que respaldan al negocio. La asignación de dependencias del patrimonio digital puede ayudar a definir los arquetipos de aplicación en una organización.

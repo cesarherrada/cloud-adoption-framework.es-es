@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f82dc3d12aa325c3239060a904cc5d3111a056d4
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 1d0c6d30e7bba864fb52b14fb82e1e88231e9a3c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709318"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357037"
 ---
 # <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Guía de gobernanza para empresas estándar: Explicación de los procedimientos recomendados
 
@@ -50,7 +50,7 @@ El equipo de gobernanza de la nube es responsable de las siguientes decisiones e
 
 ### <a name="subscription-design"></a>Detalles de la suscripción
 
-La decisión sobre qué diseño de suscripción usar determina cómo se estructuran las suscripciones de Azure y cómo se usarán los grupos de administración de Azure para administrar de forma eficaz el acceso, las directivas y el cumplimiento de estas suscripciones. En este ejemplo, el equipo de gobernanza ha elegido el patrón de diseño de suscripciones de [producción y de no producción](../../../decision-guides/subscriptions/index.md#production-and-nonproduction-pattern).
+La decisión sobre qué diseño de suscripción usar determina cómo se estructuran las suscripciones de Azure y cómo se usarán los grupos de administración de Azure para administrar de forma eficaz el acceso, las directivas y el cumplimiento de estas suscripciones. En esta narración, el equipo de gobernanza ha establecido suscripciones para el modelo de diseño de suscripciones con cargas de trabajo [de producción y de no producción](../../../ready/azure-best-practices/initial-subscriptions.md).
 
 - Es probable que no se necesiten los departamentos, dado el foco actual. Se espera que las implementaciones puedan restringirse en una sola unidad de facturación. En la fase de adopción, incluso podría no haber un contrato Enterprise para centralizar la facturación. Es probable que este nivel de adopción se administre mediante una única suscripción de pago por uso de Azure.
 - Independientemente del uso de EA Portal o de la existencia de un contrato Enterprise, se debe definir y acordar un modelo de suscripción para minimizar la sobrecarga administrativa más allá de solo la facturación.

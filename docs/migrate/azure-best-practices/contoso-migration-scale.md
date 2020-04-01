@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 8c3ee0a75efa74aa1599399358bac267c5ffe1de
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: b1fceb8a7b54ce88917f6feaef6ea70f5aa2f023
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79091921"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355628"
 ---
+<!-- cSpell:ignore Hanu Scalr VHDs autosnooze unsnooze -->
+
 # <a name="scale-a-migration-to-azure"></a>Escalado de una migración en Azure
 
 En este artículo se muestra cómo la empresa ficticia Contoso realiza una migración a escala en Azure. Consideran cómo planear y realizar una migración de más de 3000 cargas de trabajo, 8000 bases de datos y más de 10 000 máquinas virtuales.

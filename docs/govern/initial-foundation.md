@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 3e7d19fbce96528252e297855a1de41b09492c81
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 5cd0a9f4a9ec7d32b2aced903f2689884c32e97c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223816"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356980"
 ---
 # <a name="establish-an-initial-cloud-governance-foundation"></a>Establecimiento de una base de gobernanza de la nube inicial
 
@@ -24,7 +24,9 @@ En este artículo se proporcionan dos opciones para establecer una base inicial 
 
 ## <a name="already-using-the-cloud-adoption-framework"></a>Ya usa Cloud Adoption Framework
 
-Si ya ha leído la información sobre Cloud Adoption Framework, puede que ya haya implementado un producto viable mínimo de gobernanza. La gobernanza es un aspecto fundamental de cualquier modelo operativo. Está presente en todas las metodologías del ciclo de adopción de la nube. Por tanto, [Cloud Adoption Framework](../index.md) proporciona una guía que incluye gobernanza en las actividades relacionadas con la implementación del [plan de adopción de la nube](../plan/index.md). Un ejemplo de esta integración de la gobernanza es el uso de planos técnicos para implementar una o varias zonas de aterrizaje presentes en la guía de [preparación](../ready/index.md). Otro ejemplo es una guía para el [escalado horizontal de suscripciones](../ready/azure-best-practices/scaling-subscriptions.md). Si ha seguido alguna de esas recomendaciones, las siguientes secciones del producto viable mínimo son simplemente una revisión de las decisiones de implementación ya existentes. Después de una revisión rápida, vaya directamente a [Maduración de la solución de gobernanza inicial y aplicación de controles recomendados](./foundation-improvements.md).
+Si ya ha leído la información sobre Cloud Adoption Framework, puede que ya haya implementado un producto viable mínimo de gobernanza. La gobernanza es un aspecto fundamental de cualquier modelo operativo. Está presente en todas las metodologías del ciclo de adopción de la nube. Por tanto, [Cloud Adoption Framework](../index.md) proporciona una guía que incluye gobernanza en las actividades relacionadas con la implementación del [plan de adopción de la nube](../plan/index.md).
+
+Un ejemplo de esta integración de la gobernanza es el uso de planos técnicos para implementar una o varias zonas de aterrizaje presentes en la guía de [preparación](../ready/index.md). Otro ejemplo es la guía para [organizar y administrar las suscripciones](../ready/azure-best-practices/organize-subscriptions.md). Si ha seguido alguna de esas recomendaciones, las siguientes secciones del producto viable mínimo son simplemente una revisión de las decisiones de implementación ya existentes. Después de una revisión rápida, vaya directamente a [Maduración de la solución de gobernanza inicial y aplicación de controles recomendados](./foundation-improvements.md).
 
 ## <a name="establish-an-initial-governance-foundation"></a>Establecimiento de una base de gobernanza inicial
 
@@ -40,7 +42,7 @@ A continuación se muestran dos ejemplos diferentes de bases de gobernanza inici
                 <div class="card">
                     <div class="cardText">
                         <h3>Guía de gobernanza estándar</h3>
-                        <p>Una guía útil para la mayoría de las organizaciones basada en el modelo recomendado de dos suscripciones, diseñada para implementaciones en varias regiones, pero que no abarca nubes públicas ni soberanas.</p>
+                        <p>Una guía útil para la mayoría de las organizaciones basada en el modelo inicial recomendado de dos suscripciones, diseñada para implementaciones en varias regiones, pero que no abarca nubes públicas ni soberanas.</p>
                     </div>
                 </div>
             </div>

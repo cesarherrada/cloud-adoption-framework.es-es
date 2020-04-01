@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: f229515b39c69fa0e9e6c840810720bca4e12dc6
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: f1c35b41f267887c62b2568583b929657517c87e
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78342055"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354854"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Requisitos previos para un plan de adopción de la nube efectivo
 
@@ -40,7 +40,7 @@ Estas preguntas son esenciales para la precisión del plan de adopción de la nu
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez que el equipo se sienta cómodo con las entradas estratégicas y las entradas para la racionalización del patrimonio digital, puede comenzar el siguiente paso de [clasificación por prioridades de las cargas de trabajo](./workloads.md).
+[Implemente la plantilla del plan de adopción de la nube](./template.md) en Azure DevOps.
 
 > [!div class="nextstepaction"]
-> [Definición y clasificación por prioridades de las cargas de trabajo](./workloads.md)
+> [Implementación de la plantilla en Azure DevOps](./template.md)

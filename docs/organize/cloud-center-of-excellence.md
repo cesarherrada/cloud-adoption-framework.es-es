@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: ab3ff18d25d8a4e6ee9403236d101f98a9a6dd04
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: cfd554aaa2252e9a7569fd2a56af05c3c40e8163
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092656"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355037"
 ---
+<!-- cSpell:ignore ccoe deprioritize -->
+
 # <a name="cloud-center-of-excellence"></a>Centro de excelencia de la nube
 
 La agilidad técnica y empresarial son objetivos fundamentales para la mayoría de las organizaciones de TI. El centro de excelencia de la nube (CCoE) es una función que crea un equilibrio entre velocidad y estabilidad.
@@ -59,7 +61,7 @@ El CCoE es una función dotada con personal de cuatro equipos con grandes exigen
 
 ## <a name="solutions-and-controls"></a>Soluciones y controles
 
-A cada miembro del CCoE se le pide que comprenda las restricciones, riesgos y protecciones necesarios que condujeron al conjunto actual de controles de TI. Los esfuerzos colectivos del CCoE deben centrarse en soluciones nativas en la nube (o híbridas) o en controles que permitan los resultados empresariales de autoservicio que se desean. A medida que se crean las soluciones, estas se comparten con diversos equipos en forma de controles o automatizaciones que actúan como medidas de protección de los distintos esfuerzos. Estas medidas de protección ayudan a enrutar las actividades de libre circulación de los diversos equipos, al tiempo que permiten delegar responsabilidades en los participantes de los distintos esfuerzos de migración o innovación.
+A cada miembro del CCoE se le pide que comprenda las restricciones, riesgos y protecciones necesarios que condujeron al conjunto actual de controles de TI. Los esfuerzos colectivos del CCoE deben centrarse en soluciones nativas en la nube (o híbridas) o en controles que permitan los resultados empresariales de autoservicio que se desean. A medida que se crean las soluciones, estas se comparten con diversos equipos en forma de controles o procesos de automatización que actúan como medidas de protección de los distintos esfuerzos. Estas medidas de protección ayudan a enrutar las actividades de libre circulación de los diversos equipos, al tiempo que permiten delegar responsabilidades en los participantes de los distintos esfuerzos de migración o innovación.
 
 Ejemplos de esta transición:
 

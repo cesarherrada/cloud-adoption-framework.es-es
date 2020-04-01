@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 85f545b8703291819ece3562c0501ba9f0bcdead
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 4281638b7badf9b672ba3a38d2daa847b7604e7e
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094646"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356379"
 ---
 # <a name="automate-onboarding"></a>Automatizar la incorporación
 
@@ -43,7 +43,7 @@ Los archivos que se describen en la tabla siguiente se usan en este ejemplo. Pue
 | WorkspaceSolutions.json | Plantilla de Resource Manager que permite habilitar las soluciones que desee en el área de trabajo de Log Analytics. |
 | ScopeConfig.json | Plantilla de Resource Manager que usa el modelo de participación para servidores locales con la solución Change Tracking. El uso del modelo de participación es opcional. |
 | Enable-VMInsightsPerfCounters.ps1 | Script de PowerShell que habilita VM Insights para los servidores y configura los contadores de rendimiento. |
-| ChangeTracking-Filelist.json | Plantilla de Resource Manager que define la lista de archivos que se supervisarán mediante Change Tracking. |
+| ChangeTracking-FileList.json | Plantilla de Resource Manager que define la lista de archivos que se supervisarán mediante Change Tracking. |
 
 Utilice el comando siguiente para ejecutar New-AMSDeployment.ps1:
 

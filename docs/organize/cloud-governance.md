@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 7569d0718f7b25625cc40887af81edda53ff0b1e
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: be9d5e49fe4c03335fc28636616f97812d1d2312
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093892"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355013"
 ---
 # <a name="cloud-governance-capabilities"></a>Funcionalidades de gobernanza de la nube
 
@@ -90,7 +90,7 @@ Aunque la diferencia es sutil, esta es una distinción importante al crear una c
 
 Los guardianes de la nube comienzan con enfoques de gobernanza avanzados a fin de acelerar la implementación de la plataforma y ayudar a los equipos a ser autosuficientes en cuanto a sus necesidades ambientales, de modo que puedan avanzar más rápido. Ejemplos de estas funciones más avanzadas se ven en las mejoras incrementales del producto viable mínimo de gobernanza, como la [mejora de la base de referencia de la seguridad](../govern/guides/complex/security-baseline-improvement.md).
 
-**Aceleradores de la nube:** los guardianes de la nube y los custodios de la nube recopilan de forma natural scripts y automatizaciones que aceleran la implementación de entornos, plataformas o incluso componentes de varias aplicaciones. Conservar y compartir estos scripts, además de las responsabilidades de gobernanza centralizadas, desarrolla un alto grado de respeto por estos arquitectos en todo el ámbito de TI.
+**Aceleradores de la nube:** los protectores de la nube y los administradores de la nube recopilan de forma natural scripts y procesos automatizados que aceleran la implementación de entornos, plataformas o incluso componentes de varias aplicaciones. Conservar y compartir estos scripts, además de las responsabilidades de gobernanza centralizadas, desarrolla un alto grado de respeto por estos arquitectos en todo el ámbito de TI.
 
 Aquellos profesionales de gobernanza que compartan de forma abierta sus scripts conservados ayudarán a ofrecer proyectos tecnológicos con mayor rapidez y a incorporar la gobernanza en la arquitectura de las cargas de trabajo. Esta influencia de la carga de trabajo y el respaldo de unos buenos patrones de diseño elevan los aceleradores de la nube a una categoría mayor de especialista en gobernanza.
 

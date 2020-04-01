@@ -7,13 +7,15 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 59ef9ad61c9e3545fbcdbd62e05711e20de38a29
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 9b355fa346373d1fcca069e2e47e23d1ee3a86b2
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223479"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356749"
 ---
+<!-- cSpell:ignore deprioritize -->
+
 # <a name="empower-adoption"></a>Capacitación para la adopción
 
 La prueba definitiva de la innovación es la reacción de los clientes a su invención. ¿Se ha demostrado la hipótesis? ¿Los clientes usan la solución? ¿Se puede escalar para satisfacer las necesidades del porcentaje de usuarios deseado? Lo más importante, ¿siguen volviendo? No se puede realizar ninguna de estas preguntas hasta que se haya implementado la solución de producto mínimo viable (MVP). En este artículo, nos centraremos en la materia de capacitación para la adopción.
@@ -43,7 +45,7 @@ Para minimizar las demandas técnicas, dé por hecho que la madurez de cada uno 
 
 Tal y como se describe en [Medida del impacto en los clientes](./measure.md), una validación positiva de cualquier hipótesis requiere iteración y determinación. Experimentará muchos más errores que aciertos durante los ciclos de innovación. Se espera que esto sea así. Sin embargo, cuando se alinean a escala la necesidad del cliente, la hipótesis y la solución, todo cambia rápidamente.
 
-Al escalar la innovación, la herramienta más valiosa es una base de código compartida para la solución. Lamentablemente, no hay ninguna manera confiable de predecir qué iteración o producto viable mínimo será la combinación ganadora. Esta es la razón por la que nunca es demasiado pronto para establecer una base de código base o un repositorio compartido. Esta es la única [demanda técnica](./build.md#reduce-complexity-and-delay-technical-spikes) que nunca se debe retrasar. A medida que el equipo itera por las distintas soluciones de producto viable mínimo, un repositorio compartido facilita colaboración y acelera el desarrollo. Cuando los cambios en la solución minan las métricas de aprendizaje, el control de versiones le permite revertir a una versión anterior y más efectiva de la solución.
+Al escalar la innovación, la herramienta más valiosa es una base de código compartida para la solución. Lamentablemente, no hay ninguna manera confiable de predecir qué iteración o producto viable mínimo será la combinación ganadora. Esta es la razón por la que nunca es demasiado pronto para establecer una base de código o un repositorio compartido. Esta es la única [demanda técnica](./build.md#reduce-complexity-and-delay-technical-spikes) que nunca se debe retrasar. A medida que el equipo itera por las distintas soluciones de producto viable mínimo, un repositorio compartido facilita colaboración y acelera el desarrollo. Cuando los cambios en la solución minan las métricas de aprendizaje, el control de versiones le permite revertir a una versión anterior y más efectiva de la solución.
 
 La herramienta más adoptada para administrar los repositorios de código es [GitHub](https://guides.github.com), que permite la creación de un repositorio de código compartido en tan solo unos pasos. Como alternativa, se puede usar la característica [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops) de Azure DevOps para crear un [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git) o repositorio de [Team Foundation](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc).
 

@@ -7,12 +7,12 @@ ms.date: 03/04/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: bb278c284a0f72a530eb4b84ecd3137b997933ac
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: fc0c52932b15a0987f78e853c3b3756d27629ae0
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508362"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353478"
 ---
 <!-- cSpell:ignore CSAT -->
 
@@ -105,3 +105,10 @@ Estos distintos esfuerzos se deben dividir entre dos o más equipos de adopción
 **Refactorización secundaria:** algunas aplicaciones se pueden modernizar con la refactorización secundaria en el nivel de datos o el de aplicación. Este trabajo requiere que los miembros del equipo implementen datos en las plataformas de datos basadas en la nube o hagan cambios de configuración menores en la aplicación. Esto puede requerir un respaldo limitado de los expertos en el desarrollo de aplicaciones o datos. Sin embargo, este trabajo es similar al que realizan los implementadores de TI al implementar aplicaciones de terceros. Este trabajo se puede alinear fácilmente con el equipo de migración a la nube o con el de estrategia en la nube. Si bien este esfuerzo no es tan rápido como una migración de rehospedaje, demora menos en ejecutarse que los esfuerzos de refactorización.
 
 Durante la migración, los esfuerzos se deben segmentar de las tres maneras mencionadas y debe ejecutarlos el equipo adecuado en la iteración correspondiente. Aunque debe diversificar la cartera, asegúrese también de que los esfuerzos estén bien dirigidos y segregados.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Comprenda cómo las [decisiones de mercados globales](./global-markets.md) pueden afectar a su recorrido de transformación.
+
+> [!div class="nextstepaction"]
+> [Descripción de los mercados globales](./global-markets.md)

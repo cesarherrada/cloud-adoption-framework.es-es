@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: e38616b97f5026bd66de510cac12932290e276ba
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: aa544540c0bebb001f9256527a5f0ba388801c3c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093265"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354794"
 ---
 # <a name="review-rationalization-decisions"></a>Revisión de las decisiones de racionalización
 
@@ -68,7 +68,7 @@ En el caso de planes de adopción complejos y de gran tamaño con varios proyect
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Defina las iteraciones y versiones](./iteration-paths.md) para empezar a planear el trabajo.
+[Establezca iteraciones y planes de versiones](./iteration-paths.md) para empezar a planear el trabajo.
 
 > [!div class="nextstepaction"]
-> [Defina las iteraciones y versiones](./iteration-paths.md) para empezar a planear el trabajo.
+> [Establezca iteraciones y planes de versiones](./iteration-paths.md) para empezar a planear el trabajo.

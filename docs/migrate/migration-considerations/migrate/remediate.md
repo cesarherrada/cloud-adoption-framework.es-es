@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f092bb99cb16a6dd3c79c04d29fa7aac318c913f
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 0805868195912807c50a49d781928865f2f82ca9
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092790"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355219"
 ---
 # <a name="remediate-assets-prior-to-migration"></a>Corrección de los recursos antes de la migración
 
@@ -36,7 +36,7 @@ En cualquier entorno corporativo, existe una deuda técnica. En cierto modo, est
 
 Cuando un centro de recursos se mantiene, revisa y actualiza correctamente, es probable que se necesite poca corrección. Los entornos en los que hay una gran necesidad de corrección tienden a ser habituales en grandes empresas, organizaciones que han experimentado una gran reducción del departamento de TI, algunos entornos de servicios administrados heredados y entornos con muchas adquisiciones. En cada uno de estos tipos de entornos, la corrección puede suponer una gran parte del esfuerzo de migración. Si las siguientes tareas de corrección aparecen con frecuencia y afectan negativamente a la velocidad o coherencia de la migración, puede que sea conveniente dividir estas tareas de corrección en trabajos y equipos paralelos (de forma parecida a como funcionan los procesos de adopción y de gobernanza de la nube).
 
-- **Actualizaciones de host frecuentes.** Si se debe actualizar un gran número de hosts para completar la migración de una carga de trabajo, es probable que el equipo de migración sufra retrasos. Es aconsejable dividir las aplicaciones afectadas y afrontar las tareas de corrección antes de incluir esas aplicaciones en las versiones planeadas.
+- **Actualizaciones de host frecuentes.** Si se debe actualizar un gran número de hosts para completar la migración de una carga de trabajo, es probable que el equipo de migración sufra retrasos. Es aconsejable dividir las aplicaciones afectadas y afrontar los pasos de corrección antes de incluir esas aplicaciones en las versiones planeadas.
 - **Actualización frecuente del sistema operativo invitado.** Las grandes empresas suelen tener servidores que se ejecutan en versiones obsoletas de Linux o Windows. Además del riesgo de seguridad evidente que supone el uso de un sistema operativo obsoleto, también hay problemas de incompatibilidad que impiden la migración de las cargas de trabajo afectadas. Si un gran número de máquinas virtuales requiere la corrección del sistema operativo, puede que sea conveniente dividir esta tarea en trabajos paralelos.
 - **Cambios principales de código.** Las aplicaciones personalizadas más antiguas pueden requerir un número significativamente más elevado de modificaciones para prepararlas para la implementación de PaaS. En este caso, puede que sea aconsejable eliminarlas por completo del trabajo pendiente de la migración y administrarlas en un programa totalmente independiente.
 

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6501871e909beba8d32cee0c5dd8c3dbe091f252
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: de9fd12afe7445c5cdd3b4ae8c1eba9c7cb07f19
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706819"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357067"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Guía de gobernanza para empresas complejas: Mejora de la materia de base de referencia de la seguridad
 
@@ -40,7 +40,7 @@ Desde entonces, han cambiado algunas cosas que afectarán a la gobernanza:
 - Miles de recursos de TI y de negocios se han implementado en la nube.
 - El equipo de desarrollo de aplicaciones ha implementado una canalización de integración e implementación continua (CI/CD) para implementar una aplicación nativa en la nube y así poder ofrecer una experiencia de usuario mejorada. Dado que la aplicación aún no interactúa con los datos protegidos, no está lista para la producción.
 - El equipo de inteligencia empresarial de TI mantiene activamente los datos en la nube de terceros, inventario y logística. Estos datos se emplean para impulsar nuevas predicciones, que podrían dar forma a procesos empresariales. Sin embargo, no se puede actuar sobre las predicciones y conclusiones hasta que los datos de cliente y financieros puedan integrarse en la plataforma de datos.
-- El equipo de TI hace progresos en los planes del Director de sistemas de información y del director financiero para retirar los dos centros de datos. Casi 3500 recursos de los dos centros de datos han sido retirados o migrados.
+- El equipo de TI hace progresos en los planes del Director de sistemas de información y del Director financiero de retirar dos centros de datos. Casi 3500 recursos de los dos centros de datos han sido retirados o migrados.
 - Las directivas relativas a la información personal y financiera confidencial se han modernizado. Sin embargo, las nuevas directivas corporativas están supeditadas a la implementación de directivas de seguridad y de gobernanza relacionadas. Así que los equipos siguen estancados.
 
 ### <a name="incrementally-improve-the-future-state"></a>Mejora gradual del estado futuro

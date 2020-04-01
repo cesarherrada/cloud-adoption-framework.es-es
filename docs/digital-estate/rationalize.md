@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 14f96dde6558588c092a181aa2b7a2e57220cf5f
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 042487ce2c579f581547e4942785cbbba659ad5e
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312723"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357266"
 ---
 # <a name="rationalize-the-digital-estate"></a>Racionalización del patrimonio digital
 
@@ -124,7 +124,7 @@ Paralelamente a la racionalización continua, el equipo de adopción de la nube 
 - Reforzar las habilidades con la plataforma del proveedor de nube.
 - Definir los servicios básicos (y estándar de Azure) necesarios para ajustarse a la visión a largo plazo.
 - Comprender mejor cómo las operaciones pueden necesitar cambiar más adelante en la transformación.
-- Comprender los riesgos inherentes al negocio y la tolerancia del negocio a dichos riesgos.
+- Comprender los riesgos inherentes al negocio y la tolerancia del negocio a esos riesgos.
 - Establecer un producto mínimamente viable (MVP) o de referencia para la gobernanza basado en la tolerancia al riesgo del negocio.
 
 ## <a name="release-planning"></a>Planeamiento de la versión

@@ -7,13 +7,15 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3a4ebcb2264ff863200071363b8369d8a76549d3
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 988d7524941b49821cd96546cc3adafe317dff8a
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311496"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356249"
 ---
+<!-- cSpell:ignore contosohost contosodc vcenter DBHOST DBUSER WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL osticket contosoosticket trafficmanager CNAME -->
+
 # <a name="refactor-a-linux-app-to-multiple-regions-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Refactorización de una aplicación de Linux a varias regiones con Azure App Service, Traffic Manager y Azure Database for MySQL
 
 En este artículo se muestra cómo la empresa ficticia Contoso refactoriza una aplicación de Apache MySQL PHP (LAMP) basada en Linux de dos niveles y la migra de una ubicación local a Azure mediante Azure App Service con integración de GitHub y Azure Database for MySQL.
@@ -291,7 +293,7 @@ Como último paso del proceso de migración, los administradores de Contoso conf
 
     ![Configuración de la aplicación](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app6.png)
 
-8. Se configuran ambas aplicaciones web, **osticket-eus2** y **osticket-cu** para permitir los nombres de host personalizados.
+8. Se configuran ambas aplicaciones web, **osticket-eus2** y **osticket-cus** para permitir los nombres de host personalizados.
 
     ![Configuración de la aplicación](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app7.png)
 

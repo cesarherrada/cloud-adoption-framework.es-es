@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 243094da7b92a374124474eaaf0c955b5fdb85ed
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: fb35c059f3c3c6c9485d70a78a2c3fa1b49dc10d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140610"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354768"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>Plan de adopción de la nube y Azure DevOps
 
@@ -30,7 +30,7 @@ Para implementar el plan de adopción de la nube, abra el [Generador de demostra
 4. Seleccione **Crear proyecto** para crear un nuevo proyecto en el inquilino basado en la plantilla del plan. Una barra de progreso muestra el progreso hacia la implementación del proyecto.
 5. Una vez finalizada la implementación, seleccione **Ir al proyecto** para ver el nuevo proyecto.
 
-Una vez creado el proyecto, continúe con esta serie de artículos para ver cómo puede modificar la plantilla para alinearla con el plan de adopción de la nube.
+Una vez creado el proyecto, continúe con esta serie de artículos para aprender a modificar la plantilla para alinearla con el plan de adopción de la nube.
 
 Para más información sobre soporte técnico e instrucciones de esta herramienta,consulte [Generador de demostraciones de Azure DevOps Services](https://docs.microsoft.com/azure/devops/demo-gen/?toc=/azure/devops/demo-gen/toc.json&bc=/azure/devops/demo-gen/breadcrumb/toc.json&view=azure-devops).
 

@@ -197,7 +197,7 @@ items:
               - name: Protección del acceso con privilegios
                 href: 'https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Elección de un método de autenticación
-                href: 'https://docs.microsoft.com/azure/security/fundamentals/choose-ad-authn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                href: 'https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
           - name: Storage
             items:
               - name: Guía de seguridad de Storage
@@ -621,11 +621,11 @@ items:
                   - name: Centralización de los datos
                     items:
                       - name: Creación y consulta de un grupo de SQL de Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/create-data-warehouse-portal?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Procedimientos recomendados para la carga de datos en almacenamientos de datos
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: "Visualización de los datos del almacén con Power\_BI"
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-get-started-visualize-with-power-bi?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-visualize-with-power-bi?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: 'Arquitectura de referencia: inteligencia empresarial con Azure Synapse Analytics'
                         href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/data/enterprise-bi-synapse?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Administración de macrodatos empresariales con Azure Data Lake Storage
@@ -634,20 +634,20 @@ items:
                         href: 'https://docs.microsoft.com/azure/architecture/data-guide/scenarios/data-lake?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Recopilación de datos
                     items:
-                      - name: 'Migración de datos locales a Azure desde las plataformas SQL, Oracle o NoSQl'
+                      - name: 'Migración de datos locales a Azure desde las plataformas SQL, Oracle o NoSQL'
                         href: innovate/best-practices/data-dms.md
                       - name: Integración de orígenes de datos en la nube con un almacenamiento de datos de SQL Analytics
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-integrate?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-integrate?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Carga de datos locales en Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/sql/integration-services/load-data-to-sql-data-warehouse&toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/sql/integration-services/load-data-to-sql-data-warehouse?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: 'Integración de datos: Data Factory en OLAP'
                         href: 'https://docs.microsoft.com/azure/architecture/data-guide/scenarios/hybrid-on-premises-and-cloud?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Uso de Azure Stream Analytics con Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-integrate-azure-stream-analytics?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-integrate-azure-stream-analytics?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: 'Arquitectura de referencia: Ingesta y análisis de nuevas fuentes'
                         href: 'https://docs.microsoft.com/azure/architecture/example-scenario/ai/newsfeed-ingestion?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Carga de datos en un grupo de SQL de Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/load-data-wideworldimportersdw?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/load-data-wideworldimportersdw?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Participación mediante aplicaciones
                 items:
                   - name: Información general
@@ -655,7 +655,7 @@ items:
                   - name: Desarrolladores cívicos
                     items:
                       - name: Creación de aplicaciones en PowerApps
-                        href: 'https://docs.microsoft.com/powerapps/maker/index?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/powerapps/maker?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Creación del primer flujo de trabajo con Microsoft Flow
                         href: 'https://docs.microsoft.com/power-automate/getting-started?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Uso de AI Builder
@@ -669,7 +669,7 @@ items:
                       - name: Aplicaciones web modernas
                         items:
                           - name: Soluciones de referencia para aplicaciones web
-                            href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
+                            href: 'https://docs.microsoft.com/azure/architecture/solution-ideas/articles/scalable-ecommerce-web-app'
                           - name: "Creación de una aplicación .NET Core con SQL\_Database"
                             href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                           - name: Creación de una aplicación .NET con SQL Database
@@ -697,7 +697,7 @@ items:
                           - name: Creación e implementación de un bot básico
                             href: 'https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-basic-deploy?view=azure-bot-service-4.0&tabs=csharp&toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                           - name: 'Ruta de aprendizaje: Creación de bots con Azure Bot Services'
-                            href: 'https://docs.microsoft.com/learn/paths/create-bots-with-the-azure-bot-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: 'https://docs.microsoft.com/learn/paths/create-bots-with-the-azure-bot-service'
                           - name: 'Repositorio: Ejemplos de Azure Bots en GitHub'
                             href: 'https://github.com/microsoft/botframework-sdk'
                   - name: Aplicaciones nativas de la nube
@@ -729,7 +729,7 @@ items:
                       - name: Aplicaciones controladas por eventos
                         items:
                           - name: Ruta de aprendizaje para crear aplicaciones sin servidor
-                            href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications'
                           - name: "Guía para desarrolladores de Azure\_Functions"
                             href: 'https://docs.microsoft.com/azure/azure-functions/functions-reference?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                           - name: Guía paso a paso para la informática sin servidor en Azure
@@ -785,7 +785,7 @@ items:
                   - name: Experiencia móvil
                     items:
                       - name: Extensión de una aplicación de procesamiento de notificaciones heredada con una experiencia web y móvil
-                        href: 'https://azure.microsoft.com/solutions/architecture/adding-a-modern-web-and-mobile-frontend-to-a-legacy-claims-processing-application/'
+                        href: 'https://docs.microsoft.com/azure/architecture/solution-ideas/articles/adding-a-modern-web-and-mobile-frontend-to-a-legacy-claims-processing-application'
                       - name: Optimización de informes para compartir datos en una aplicación móvil
                         href: 'https://docs.microsoft.com/power-bi/desktop-create-phone-report?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Extensión de la aplicación de lienzo de PowerApps a una experiencia móvil
@@ -841,15 +841,15 @@ items:
                   - name: Patrones
                     items:
                       - name: Flujo de trabajo de Azure Machine Learning
-                        href: 'https://docs.microsoft.com/azure/machine-learning/service/concept-azure-machine-learning-architecture?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-architecture?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Solución Hadoop R Scaler
                         href: 'https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-r-scaler-sparkr?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Análisis de datos con Azure Machine Learning
-                        href: 'https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Predicciones
                     items:
                       - name: Implementación de predicciones
-                        href: 'https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: 'https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Configuración de clústeres de HDInsight
                         href: 'https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Interacciones

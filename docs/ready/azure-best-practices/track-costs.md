@@ -7,12 +7,12 @@ ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b363d43568617d7c58003c2bd278008583870664
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: ce9ce90d429064eeb8e848fd203aec11d042e539
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312803"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354533"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Seguimiento de los costos en unidades de negocio, entornos o proyectos
 
@@ -24,7 +24,7 @@ Para [crear una organización con control de costos](../../organize/cost-conscio
 
 El control de costos, al igual que la gobernanza y otros elementos de administración, depende de que tengamos un entorno bien administrado. El establecimiento de este tipo de entorno (especialmente uno complejo) requiere procesos coherentes en la clasificación y organización de todos los recursos.
 
-Los recursos incluyen todas las máquinas virtuales, los orígenes de datos y las aplicaciones que se implementan en la nube. Azure proporciona varios mecanismos para clasificar y organizar los recursos. En [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md) se detallan las opciones para organizar los recursos en función de varios criterios para establecer un entorno bien administrado. Este artículo se centra en la aplicación de conceptos fundamentales de Azure para proporcionar visibilidad de costos de la nube.
+Los recursos incluyen todas las máquinas virtuales, los orígenes de datos y las aplicaciones que se implementan en la nube. Azure proporciona varios mecanismos para clasificar y organizar los recursos. En [Organización y administración de las suscripciones de Azure](../azure-best-practices/organize-subscriptions.md) se detallan las opciones para organizar los recursos en función de varios criterios para establecer un entorno bien administrado. Este artículo se centra en la aplicación de conceptos fundamentales de Azure para proporcionar visibilidad de costos de la nube.
 
 ### <a name="classification"></a>clasificación
 
@@ -58,15 +58,16 @@ En el diagrama se muestran los procedimientos recomendados, pero no se incluyen 
 
 En el resto de este artículo se da por hecho que se utiliza el enfoque de procedimientos recomendados del diagrama anterior. Sin embargo, los siguientes artículos pueden ayudarlo a aplicar el enfoque a una organización de recursos que se adapta mejor a su empresa:
 
-- [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
+- [Escalado del entorno de Azure con varias suscripciones](../azure-best-practices/scale-subscriptions.md)
+- [Organización y administración de las suscripciones de Azure](../azure-best-practices/organize-subscriptions.md)
 - [Implementación de un MVP de gobernanza para controlar los estándares de un entorno bien administrado](../../govern/guides/complex/index.md)
 
 ## <a name="provide-the-right-level-of-cost-access"></a>Proporcionar el nivel adecuado de acceso a los costos
 
 La administración de costos es una actividad que tiene que realizar el equipo. La sección de preparación de la plataforma de adopción de la nube (CAF) define un número reducido de equipos principales y describe cómo esos equipos asumen los esfuerzos de adopción de la nube. En este artículo se amplían las definiciones de equipo para definir el ámbito y los roles que se asignan a los miembros de cada equipo para tener el nivel de visibilidad adecuado de los datos de administración de costos.
 
-- Los *roles* definen lo que un usuario puede hacer en varios recursos.
-- El *ámbito* establece los recursos (usuario, grupo, entidad de servicio o identidad administrada) en los que un usuario puede llevar a cabo operaciones.
+- Los **roles** definen lo que un usuario puede hacer en varios recursos.
+- El **ámbito** establece los recursos (usuario, grupo, entidad de servicio o identidad administrada) en los que un usuario puede llevar a cabo operaciones.
 
 Como procedimiento recomendado general, sugerimos un modelo con privilegios mínimos para asignar personas a varios roles y ámbitos.
 

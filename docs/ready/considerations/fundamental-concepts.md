@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 90eed8109627298c8e6a044eff3333154bb17f1d
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 8c30f859d90e2fca26fbcd6c70db3c662d56b8a1
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092572"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353642"
 ---
 # <a name="azure-fundamental-concepts"></a>Conceptos básicos de Azure
 
@@ -29,7 +29,7 @@ Al comenzar las labores de adopción de la nube de Azure, resulta útil conocer 
 - **Azure Active Directory (Azure AD):** el servicio de administración de acceso e identidades de Microsoft, basado en la nube. Azure AD ayuda a sus empleados a iniciar sesión y a acceder a los recursos.
 - **Inquilino de Azure AD:** instancia dedicada y de confianza de Azure AD. Se crea automáticamente cuando su organización se suscribe por primera vez a un servicio en la nube de Microsoft, como Microsoft Azure, Microsoft Intune u Office 365. Un inquilino de Azure representa una organización individual.
 - **Directorio de Azure AD:** todos los inquilinos de Azure AD tienen un directorio dedicado y de confianza. El directorio incluye los usuarios, los grupos y las aplicaciones del inquilino. Se usa para realizar funciones de administración de identidades y acceso para los recursos del inquilino. Un directorio puede asociarse a varias suscripciones, pero cada suscripción solo está asociada a un directorio.
-- **Grupos de recursos:** contenedores lógicos que se usan para agrupar los recursos relacionados de una suscripción. Cada recurso solo puede existir en un grupo de recursos. Los grupos de recursos permiten una agrupación más específica dentro de una suscripción. Se usan normalmente para representar una colección de los recursos necesarios para admitir una carga de trabajo, una aplicación o una función específica dentro de una suscripción.
+- **Grupos de recursos:** contenedores lógicos que se usan para agrupar los recursos relacionados de una suscripción. Cada recurso solo puede existir en un grupo de recursos. Los grupos de recursos permiten una agrupación más detallada dentro de una suscripción y se usan normalmente para representar una colección de los recursos necesarios para respaldar una carga de trabajo, una aplicación o una función específica dentro de una suscripción.
 - **Grupos de administración:** contenedores lógicos que se usan para una o varias suscripciones. Puede definir una jerarquía de grupos de administración, suscripciones, grupos de recursos y recursos para administrar de forma eficaz el acceso, las directivas y el cumplimiento a través de la herencia.
 - **Región:** conjunto de centros de datos de Azure que se implementan dentro de un perímetro definido por la latencia. Los centros de datos se conectan a través de una red dedicada, regional y de baja latencia. La mayoría de los recursos de Azure se ejecutan en una región específica de Azure.
 
@@ -94,7 +94,7 @@ Los siguientes recursos proporcionan información detallada sobre los conceptos 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que comprende los conceptos fundamentales de Azure, aprenda a [escalar con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md).
+Ahora que comprende los conceptos fundamentales de Azure, aprenda a [escalar con varias suscripciones de Azure](../azure-best-practices/scale-subscriptions.md).
 
 > [!div class="nextstepaction"]
-> [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
+> [Escalado con varias suscripciones de Azure](../azure-best-practices/scale-subscriptions.md)

@@ -9,29 +9,30 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 67e22ff4831d6bca4bb0054b544bf2efba02a93e
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 6ed6e547156a2fa9f07a49460fedd94a8ceb152b
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79024020"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354336"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
 # <a name="organize-your-azure-resources"></a>Organización de los recursos de Azure
 
-La organización de los recursos basados en la nube es fundamental para proteger, administrar y realizar un seguimiento de los costos relacionados con las cargas de trabajo. Para organizar los recursos, use las jerarquías de administración de la plataforma Azure, implemente convenciones de nomenclatura bien concebidas y aplique el etiquetado de recursos.
+La organización de los recursos basados en la nube es fundamental para proteger, administrar y realizar un seguimiento de los costos relacionados con las cargas de trabajo. Para organizar los recursos, defina una jerarquía de grupos de administración, siga una convención de nomenclatura bien considerada y aplique el etiquetado de recursos.
 
 <!-- markdownlint-disable MD024 MD025 -->
 
+<!-- cSpell:disable-next-line -->
 # <a name="azure-management-groups-and-hierarchy"></a>[Jerarquía y grupos de administración de Azure](#tab/AzureManagmentGroupsAndHierarchy)
 
 Azure proporciona cuatro niveles de ámbito administración: grupo de administración, suscripciones, grupos de recursos y recursos. La imagen siguiente muestra la relación de estos niveles.
 
-   ![Diagrama que muestra la relación de la jerarquía de administración](./media/organize-resources/scope-levels.png)
+   ![Diagrama que muestra la relación de los niveles de la jerarquía de administración](./media/organize-resources/scope-levels.png)
 
 - **Grupos de administración:** estos grupos son contenedores que ayudan a administrar el acceso, las directivas y el cumplimiento de varias suscripciones. Todas las suscripciones de un grupo de administración heredan automáticamente las condiciones que se aplican al grupo de administración.
-- **Suscripciones:** una suscripción agrupa las cuentas de usuario y los recursos creados por esas cuentas de usuario. Cada suscripción tiene límites o cuotas con respecto a la cantidad de recursos que se pueden crear y usar. Las organizaciones pueden usar las suscripciones para administrar los costos y los recursos creados por los usuarios, equipos o proyectos.
+- **Suscripciones:** una suscripción asocia de manera lógica las cuentas de usuario y los recursos creados por esas cuentas de usuario. Cada suscripción tiene límites o cuotas con respecto a la cantidad de recursos que se pueden crear y usar. Las organizaciones pueden usar las suscripciones para administrar los costos y los recursos creados por los usuarios, equipos o proyectos.
 - **Grupos de recursos:** Un grupo de recursos es un contenedor lógico en el que se implementan y se administran recursos de Azure como aplicaciones web, bases de datos y cuentas de almacenamiento.
 - **Recursos:** Los recursos son instancias de servicios que se crean como máquinas virtuales, almacenamiento o bases de datos SQL.
 
@@ -41,9 +42,9 @@ Puede aplicar la configuración de administración, como directivas y controles 
 
 Normalmente, tiene sentido aplicar la configuración crítica en niveles superiores y los requisitos específicos del proyecto en niveles inferiores. Por ejemplo, quizás quiera asegurarse de que todos los recursos de su organización se implementan en determinadas regiones. Para hacerlo, aplique una directiva a la suscripción que especifique las ubicaciones permitidas. Cuando otros usuarios de su organización agreguen nuevos grupos de recursos y recursos, se aplicarán automáticamente las ubicaciones permitidas. Más información acerca de las directivas en la sección de gobernanza, seguridad y cumplimiento de esta guía.
 
-Si solo tiene algunas suscripciones, es relativamente sencillo administrarlas de forma independiente. Si el número de suscripciones que usa aumenta, considere la posibilidad de crear una jerarquía de grupos de administración para simplificar la administración de las suscripciones y los recursos. Para más información sobre cómo administrar varias suscripciones, consulte [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md).
+Si solo tiene algunas suscripciones, es relativamente sencillo administrarlas de forma independiente. Si el número de suscripciones que usa aumenta, considere la posibilidad de crear una jerarquía de grupos de administración para simplificar la administración de las suscripciones y los recursos. Para más información, consulte [Organización y administración de las suscripciones de Azure](../azure-best-practices/organize-subscriptions.md).
 
-Al planear la estrategia de cumplimiento, trabaje con personas de su organización que desempeñen estos roles: seguridad y cumplimiento, administración de TI, arquitecto empresarial, redes, finanzas y adquisiciones.
+Al planear la estrategia de cumplimiento, trabaje con personas de su organización que desempeñen estos roles: seguridad y cumplimiento, administración de TI, arquitectura empresarial, redes, finanzas y adquisiciones.
 
 ::: zone target="docs"
 
@@ -80,9 +81,11 @@ Cree un grupo de recursos para contener recursos como aplicaciones web, bases de
 Para obtener más información, consulte:
 
 - [Aspectos básicos de Azure](../considerations/fundamental-concepts.md)
-- [Escalado con varias suscripciones de Azure](../azure-best-practices/scaling-subscriptions.md)
-- [Descripción de la administración del acceso a los recursos en Azure](../../govern/resource-consistency/resource-access-management.md)
+- [Creación de las suscripciones iniciales](../azure-best-practices/initial-subscriptions.md)
+- [Creación de suscripciones adicionales para escalar el entorno de Azure](../azure-best-practices/scale-subscriptions.md)
+- [Organización y administración de las suscripciones de Azure](../azure-best-practices/organize-subscriptions.md)
 - [Organización de los recursos con grupos de administración de Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
+- [Descripción de la administración del acceso a los recursos en Azure](../../govern/resource-consistency/resource-access-management.md)
 - [Límites del servicio de suscripción](https://docs.microsoft.com/azure/azure-subscription-service-limits)
 
 ::: zone-end
@@ -125,13 +128,13 @@ Cree un grupo de recursos para contener recursos como aplicaciones web, bases de
 
 # <a name="naming-standards"></a>[Estándares de nomenclatura](#tab/NamingStandards)
 
-Un buen estándar de nomenclatura le ayuda a identificar los recursos de Azure Portal, en una factura y en los scripts. La estrategia de nomenclatura debe incluir detalles empresariales y operativos como componentes de los nombres de recursos:
+Un buen estándar de nomenclatura le ayuda a identificar los recursos en Azure Portal, en un resumen de facturación y en los scripts de automatización. La estrategia de nomenclatura debe incluir detalles empresariales y operativos como componentes de los nombres de recursos:
 
 - La parte relacionada con la empresa de esta estrategia debe garantizar que los nombres de los recursos incluyen la información de la organización necesaria para identificar a los equipos. Use un recurso junto con los propietarios de la empresa responsables de los costos de los recursos.
 
 - El lado operativo debe asegurarse de que los nombres incluyan la información que necesitan los equipos de TI. Use los detalles que identifiquen la carga de trabajo, la aplicación, el entorno, la importancia y otra información que resulte útil para administrar los recursos.
 
-Los distintos tipos de recursos pueden tener distintos límites de longitud y caracteres permitidos, muchos de los cuales se enumeran en el [artículo sobre las convenciones de nomenclatura](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) de procedimientos recomendados de Azure. Para más información y recomendaciones centradas específicamente en la compatibilidad con las labores de adopción de la nube empresarial, consulte la [guía sobre nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md) del marco de adopción de la nube.
+Los distintos tipos de recursos tienen [reglas y restricciones de nomenclatura](https://docs.microsoft.com/azure/azure-resource-manager/management/resource-name-rules) diferentes. Para más información y recomendaciones centradas específicamente en la compatibilidad con las labores de adopción de la nube empresarial, consulte la [guía sobre nomenclatura y etiquetado](../azure-best-practices/naming-and-tagging.md) del marco de adopción de la nube.
 
 En la tabla siguiente se incluyen patrones de nomenclatura para algunos tipos de ejemplos de recursos de Azure.
 
@@ -170,7 +173,7 @@ Para obtener más recomendaciones y ejemplos de etiquetado, consulte la [guía s
 
 Para aplicar una etiqueta a un grupo de recursos:
 
-1. Vaya a [Grupos de recursos](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups).
+1. Vaya a [Grupos de recursos](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2fSubscriptions%2fResourceGroups).
 1. Seleccione un grupo de recursos.
 1. Seleccione **Asignar etiquetas**.
 1. Escriba un nuevo nombre y valor o use la lista desplegable para seleccionar unos ya existentes.
@@ -194,6 +197,6 @@ Para aplicar una etiqueta a un grupo de recursos:
 1. Seleccione **Etiquetas**.
 1. Escriba un nuevo nombre y valor o seleccione unos ya existentes.
 
-::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups]" submitText="Go to resource groups" :::
+::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups]" submitText="Go to resource groups" :::
 
 ::: zone-end

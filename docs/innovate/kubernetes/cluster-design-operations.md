@@ -1,6 +1,5 @@
 ---
 title: Diseño y operaciones de clústeres
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Más información sobre Kubernetes en Cloud Adoption Framework para el diseño y las operaciones de los clústeres.
 author: sabbour
 ms.author: asabbour
@@ -8,13 +7,15 @@ ms.topic: guide
 ms.date: 12/16/2019
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5b5aafd1c9470b566395201a46c75d96581306bd
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 1a4bcb42ec8fdcdbdb53d918c8348c22c2606649
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80226702"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392731"
 ---
+<!-- cSpell:ignore asabbour sabbour autoscaler PDBs -->
+
 # <a name="cluster-design-and-operations"></a>Diseño y operaciones de clústeres
 
 Identifíquese para la configuración de clústeres y el diseño de la red. Realice una prueba de la escalabilidad mediante la automatización del aprovisionamiento de la infraestructura. Mantenga una alta disponibilidad mediante el planeamiento de la continuidad empresarial y recuperación ante desastres.
@@ -22,6 +23,8 @@ Identifíquese para la configuración de clústeres y el diseño de la red. Real
 ## <a name="plan-train-and-proof"></a>Planeamiento, entrenamiento y prueba
 
 Al principio, la lista de comprobación y los recursos siguientes le ayudarán a planear el diseño del clúster. Debe ser capaz de responder a estas preguntas:
+
+<!-- markdownlint-disable MD033 -->
 
 > [!div class="checklist"]
 >
@@ -34,7 +37,7 @@ Al principio, la lista de comprobación y los recursos siguientes le ayudarán a
 >
 > | Lista de comprobación  | Recursos |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
-> | **Identificación de los aspectos sobre el diseño de red**. Comprenda los aspectos del diseño de red del clúster, compare modelos de red y elija el complemento de red de Kubernetes que mejor se adapte a sus necesidades.    | [Kubenet y Azure Container Networking Interface (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br/> [Uso de redes kubenet con intervalos de direcciones IP propios en Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br/> [Configuración de redes de Azure CNI en Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br/> [Diseño de red seguro para un clúster de AKS]] (https://github.com/Azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md)|
+> | **Identificación de los aspectos sobre el diseño de red**. Comprenda los aspectos del diseño de red del clúster, compare modelos de red y elija el complemento de red de Kubernetes que mejor se adapte a sus necesidades.    | [Kubenet y Azure Container Networking Interface (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br/> [Uso de redes kubenet con intervalos de direcciones IP propios en Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br/> [Configuración de redes de Azure CNI en Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br/> [Diseño de red seguro para un clúster de AKS](https://github.com/Azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md)|
 > | **Creación de grupos de varios nodos**. Para admitir aplicaciones con diferentes necesidades de proceso o almacenamiento, puede configurar opcionalmente el clúster con grupos de varios nodos. Por ejemplo, puede usar grupos de nodos adicionales para proporcionar GPU para aplicaciones de proceso intensivo o acceso a almacenamiento SSD de alto rendimiento.   | [Creación y administración de varios grupos de nodos para un clúster de Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-multiple-node-pools) |
 > | **Decidir los requisitos de disponibilidad**. Para proporcionar un mayor nivel de disponibilidad a sus aplicaciones, los clústeres se pueden distribuir en zonas de disponibilidad. Estas zonas son centros de datos físicamente separados dentro de una región determinada. Si los componentes del clúster se distribuyen entre varias zonas, el clúster podrá tolerar un error en una de esas zonas. Sus aplicaciones y operaciones de administración continuarán disponibles incluso si todo un centro de datos tiene problemas.   | [Creación de un clúster de Azure Kubernetes Service (AKS) que use zonas de disponibilidad](https://docs.microsoft.com/azure/aks/availability-zones) |
 

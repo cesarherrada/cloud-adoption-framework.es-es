@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: c6f48ae433746906d64023bd72f34c21a3163373
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: bb74e869b2fab2142a8c0ffd8c7396268e2231ed
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79091297"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356316"
 ---
+<!-- cSpell:ignore kusto multiresource multisignal -->
+
 # <a name="cloud-monitoring-guide-alerting"></a>Guía sobre la supervisión en la nube: Alertas
 
 Durante años, las organizaciones de TI se han esforzado por combatir la fatiga por alertas que crean las herramientas de supervisión implementadas en la empresa. Muchos sistemas generan un gran volumen de alertas que a menudo se consideran no significativas, mientras que otras son pertinentes pero se pasan por alto o se omiten. Como resultado, las operaciones de los responsables de TI y de los desarrolladores han tenido dificultades para satisfacer la calidad de nivel de servicio prometida a los clientes internos o externos. Para garantizar la confiabilidad, es fundamental comprender el estado de la infraestructura y de las aplicaciones. Para minimizar la degradación y la interrupción del servicio o para reducir el efecto o el número de los incidentes, es necesario identificar las causas rápidamente.

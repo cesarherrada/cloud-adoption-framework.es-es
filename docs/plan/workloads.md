@@ -7,14 +7,14 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 9f374bbe149e132fde4c44a8c0ecd9246615bac0
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 8d9297534f04b6656b584fa82d565e9119599f26
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140627"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354696"
 ---
-# <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por prioridades de las cargas de trabajo para un plan de adopción de la nube
+# <a name="define-and-prioritize-workloads-for-a-cloud-adoption-plan"></a>Definición y clasificación por orden de prioridad de las cargas de trabajo para un plan de adopción de la nube
 
 El establecimiento de prioridades claras y accionables es uno de los secretos para la adopción correcta de la nube. La tentación natural es invertir tiempo en la definición de todas las cargas de trabajo que podrían verse afectadas durante la adopción de la nube. Pero eso es contraproducente, especialmente al principio del proceso de adopción.
 

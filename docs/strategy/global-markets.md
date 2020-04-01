@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 267408d4634bbed9c6bb9c8884e2af395f5df4d9
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: e2e0399f227f69ef1ae27b6b23a847a6508650d4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337830"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353483"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -42,8 +42,7 @@ Es igualmente importante comprender los patrones de uso de los usuarios externos
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez que se han realizado y comunicado las decisiones de mercados globales, el equipo está listo para comenzar a [establecer estándares técnicos](../digital-estate/index.md) con respecto a esas métricas.
-El resultado será un [trabajo pendiente de transformación o de migración](..//migrate/migration-considerations/prerequisites/technical-complexity.md).
+Obtenga información sobre las [aptitudes necesarias durante la fase de estrategia](./suggested-skills.md) del recorrido de adopción de la nube.
 
 > [!div class="nextstepaction"]
-> [Evaluación del patrimonio digital](../digital-estate/index.md)
+> [Aptitudes pertinentes para la estrategia](./suggested-skills.md)

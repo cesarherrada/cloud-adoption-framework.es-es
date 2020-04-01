@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 0308308ab098f7cc7fe7c05094549b01f36c2d61
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 6b479ac5bd347cda081dc55dbabdc4fbd46d5b11
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311972"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356163"
 ---
+<!-- cSpell:ignore IISRESET WEBVM SQLVM SQLMI contosodc contosohost contosovmsacc cswiz vcenter WEBMV sourcedb -->
+
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>rehospedar una aplicación local en una máquina virtual de Azure e Instancia administrada de Azure SQL Database
 
 En este artículo se muestra cómo la empresa ficticia Contoso migra una aplicación front-end de Windows .NET de dos niveles que se ejecuta en máquinas virtuales de VMware a una máquina virtual de Azure mediante el servicio Azure Site Recovery. También se muestra cómo Contoso migra la base de datos de la aplicación a Instancia administrada de Azure SQL Database.
@@ -392,7 +394,7 @@ Para configurar el entorno de origen de los administradores de Contoso haga lo s
 
     ![Selección del almacén de Recovery Services](./media/contoso-migration-rehost-vm-sql-managed-instance/cswiz1.png)
 
-10. Se descarga e instala el Servidor MySQL y VMware PowerCLI. Luego, validan la configuración del servidor.
+10. Descarga e instala MySQL Server y VMware PowerCLI. Luego, validan la configuración del servidor.
 11. Tras la validación, escriben el nombre de dominio completo (FQDN) o la dirección IP de la instancia de vCenter Server o del host de vSphere. Dejan el puerto predeterminado y escriben el nombre para mostrar de la instancia de vCenter Server en Azure.
 12. Especifican la cuenta que se creó anteriormente para que Site Recovery pueda detectar automáticamente las máquinas virtuales de VMware disponibles para la replicación.
 13. Escriben las credenciales, por lo que Mobility Service se instala automáticamente cuando se habilita la replicación. En máquinas Windows, la cuenta necesita permisos de administrador local en las máquinas virtuales.

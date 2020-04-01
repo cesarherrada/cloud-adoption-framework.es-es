@@ -7,16 +7,16 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: c7e90c1536b2911f8301b1a97f8731139976b4f1
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 7cefe7d64dbda13321b362f298c1ac45aa99ebcc
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78342072"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354937"
 ---
 # <a name="align-assets-to-prioritized-workloads"></a>Alineación de los recursos con las cargas de trabajo prioritarias
 
-Una carga de trabajo es una descripción conceptual de una colección de recursos: máquinas virtuales, aplicaciones y orígenes de datos. En el artículo anterior, [Definición y clasificación por prioridades de las cargas de trabajo](./workloads.md), se proporciona una guía para recopilar los datos que van a definir la carga de trabajo. Antes de la migración, algunas de las entradas técnicas de esa lista requieren una validación adicional. Este artículo ayuda con la validación de las siguientes entradas:
+Una carga de trabajo es una descripción conceptual de una colección de recursos: máquinas virtuales, aplicaciones y orígenes de datos. En el artículo anterior, [Definición y clasificación por orden de prioridad](./workloads.md), se proporciona una guía para recopilar los datos que van a definir la carga de trabajo. Antes de la migración, algunas de las entradas técnicas de esa lista requieren una validación adicional. Este artículo ayuda con la validación de las siguientes entradas:
 
 - **Aplicaciones:** enumere las aplicaciones incluidas en esta carga de trabajo.
 - **VM y servidores:** enumere las máquinas virtuales o los servidores incluidos en la carga de trabajo.

@@ -1,22 +1,22 @@
 ---
 title: Equilibrio de prioridades en la competencia
-description: Descubrimiento de estrategias para equilibrar prioridades contrapuestas
+description: Descubra estrategias para equilibrar prioridades contrapuestas.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 03/04/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: ba70687627e81b58eb76cd69838abf1ebcdb6489
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: a0524d8e7cd48f3b93191d9633bb57b10fb2261b
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312719"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353697"
 ---
 # <a name="balance-competing-priorities"></a>Equilibrio de prioridades en la competencia
 
-Embarcarse en una experiencia de transformación digital sirve de impulso para las partes interesadas en los equipos empresariales y tecnológicos. El camino hacia el éxito está sumamente relacionado con la capacidad de las organizaciones para equilibrar prioridades contrapuestas.
+Embarcarse en una experiencia de transformación digital sirve de impulso para las partes interesadas en los equipos empresariales y tecnológicos. El camino hacia el éxito se basa principalmente en la capacidad de la organización para equilibrar prioridades contrapuestas.
 
 Al igual que sucede con otras transformaciones digitales, la adopción de la nube sacará a la luz prioridades contrapuestas a lo largo del ciclo de vida de la adopción. De forma similar a otras formas de transformación, la capacidad de encontrar el equilibrio en esas prioridades tendrá un impacto significativo en la consecución del valor empresarial. Equilibrar estas prioridades contrapuestas requerirá conversaciones francas (y a veces complicadas) entre las partes interesadas (y, en ocasiones, con los colaboradores individuales).
 
@@ -41,7 +41,7 @@ El objetivo principal de la metodología de estrategia es desarrollar la alineac
 **Prioridades contrapuestas:**
 
 - **Importancia de la justificación**: las partes interesadas suelen querer un análisis financiero en profundidad y una justificación comercial completa para que acepten alinearse con una dirección estratégica. Lamentablemente, ese nivel de análisis puede requerir un período prolongado de tiempo que permita la recopilación y el análisis de datos.
-- **Tiempo para que se produzca el efecto en el negocio**: por el contrario, las partes interesadas suelen ser responsables de tener que entregar resultados empresariales dentro de los plazos de tiempo definidos. Un análisis y evaluación prolongados pueden poner en riesgo esos resultados antes incluso de que se inicie el trabajo técnico.
+- **Tiempo para que se produzca el efecto en el negocio:** por el contrario, las partes interesadas suelen ser responsables de tener que entregar resultados empresariales dentro de los plazos de tiempo definidos. Un análisis y evaluación prolongados pueden poner en riesgo esos resultados antes incluso de que se inicie el trabajo técnico.
 
 **Ámbito mínimo:** la búsqueda de este equilibrio requiere debates entre las partes interesadas al principio del proceso. La metodología de estrategia sugiere limitar el ámbito de la alineación durante este esfuerzo inicial. En el enfoque sugerido, las partes interesadas se centran en alinearse en torno a un conjunto de motivaciones principales, resultados medibles y una justificación comercial de alto nivel. Se recomienda que, a continuación, las partes interesadas realicen rápidamente un pequeño número de proyectos iniciales o pilotos para impulsar las oportunidades de aprendizaje necesarias.
 
@@ -137,3 +137,10 @@ Las prioridades contrapuestas que aparecen a lo largo de este artículo son refl
 **Ámbito mínimo:** la mayoría de las organizaciones experimentarán un conjunto natural de evoluciones a lo largo del tiempo. La metodología de organización describe la serie de evoluciones más habitual. La recomendación para los equipos es intentar pasar a una estructura de Centro de excelencia en la nube que proporcione enfoques de control delegado.
 
 **Ejemplo de ámbito ampliado:** hay muchas situaciones que podrían desencadenar la necesidad de un control centralizado. Dos ejemplos de desencadenadores del control centralizado podrían ser los requisitos de cumplimiento de terceros o los riesgos de seguridad temporales. En estas situaciones, normalmente es necesario establecer directivas de limitación y controles fijos y rígidos. Sin embargo, para permitir que la innovación y la adopción continúen, se recomienda que los equipos de TI centrales proporcionen esos controles en función de la importancia y la confidencialidad de cada carga de trabajo. Proporcionar entornos con menor control, pero con un ámbito o perfil de riesgos reducido, permite una mayor flexibilidad incluso cuando se necesita control.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Aprenda a [equilibrar migración, innovación y experimentación](./balance-the-portfolio.md) para maximizar el valor de los esfuerzos de migración a la nube.
+
+> [!div class="nextstepaction"]
+> [Equilibrio de la cartera](./balance-the-portfolio.md)

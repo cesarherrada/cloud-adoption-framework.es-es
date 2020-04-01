@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: c545f147ba374fe1150573b060c600269eb628b1
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 4e6daee6f5f69599fc8346cf6414b2dff14ae7a9
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311615"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353755"
 ---
 <!-- cSpell:ignore rodend subscope ITSM Hashi -->
 
@@ -77,7 +77,7 @@ Los tres patrones comunes de las inscripciones de Azure son los siguientes:
 
   ![el patrón geográfico.](../_images/reference/geographic.png)
 
-Aunque cada uno de estos patrones tiene su sitio, cada vez se adopta más el patrón de la **unidad de negocio** por su flexibilidad para dar forma al modelo de costos de una organización y para reflejar el ámbito de control. El grupo de operaciones e ingeniería principal de Microsoft ha creado un subconjunto eficaz del patrón de **unidad de negocio**, cuyo modelado se realiza a nivel **federal**, **estatal** y **local**. Para más información, consulte [Organización de suscripciones y grupos de recursos de la empresa](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/scaling-subscriptions).
+Aunque cada uno de estos patrones tiene su sitio, cada vez se adopta más el patrón de la **unidad de negocio** por su flexibilidad para dar forma al modelo de costos de una organización y para reflejar el ámbito de control. El grupo de operaciones e ingeniería principal de Microsoft ha creado un subconjunto eficaz del patrón de **unidad de negocio**, cuyo modelado se realiza a nivel **federal**, **estatal** y **local**. Para más información, consulte [Organización de suscripciones y grupos de recursos](../ready/azure-best-practices/organize-subscriptions.md).
 
 ### <a name="azure-management-groups"></a>Grupos de administración de Azure
 

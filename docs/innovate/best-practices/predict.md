@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 064016bddcf8c78e1b722397a9f18c71a0485776
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: a1201c3e1bf05f7fc704b1a12744d8f031607169
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170773"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356819"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Herramientas para predecir datos e influir en ellos en Azure
 
@@ -34,10 +34,10 @@ En la imagen anterior, los datos y la información se alinean con los procedimie
 
 En Azure, las siguientes herramientas se suelen aprovechar para acelerar la invención digital en cada una de las fases anteriores:
 
-- Azure Machine Learning
-- HDInsight de Azure
-- Hadoop R ScaleR
-- Azure SQL Data Warehouse
+- [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning)
+- [HDInsight de Azure](https://docs.microsoft.com/azure/hdinsight)
+- [Hadoop R ScaleR](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-r-scaler-sparkr)
+- [Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics)
 
 La forma en que cada herramienta ayuda con cada fase de predicción e influencia se refleja en la guía de la tabla de contenido de la izquierda de esta página.
 

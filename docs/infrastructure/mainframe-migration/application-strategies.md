@@ -7,13 +7,15 @@ ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 52dbbd594a95f86c1bdb49ac76a7b178d8a71b13
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 9390ca37087f463ae547d97caaedbf8376ee2f7b
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171419"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356842"
 ---
+<!-- cSpell:ignore njray nanra Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX dbextents Raincode Tmax -->
+
 # <a name="mainframe-application-migration"></a>Migración de aplicaciones del sistema central
 
 Al migrar aplicaciones de entornos de sistema central a Azure, la mayoría de los equipos siguen un enfoque pragmático: reutilizar siempre que sea posible y, después, iniciar una implementación por fases en la que las aplicaciones se reescriben o se reemplazan.

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4b4f3f9e8be48f96abf9471738a50491ac80d317
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: ce937c6e3c173d829a311b838e33ede754a0f173
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708808"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392479"
 ---
 # <a name="cost-management-template"></a>Plantilla de administración de costos
 
@@ -24,11 +24,7 @@ A medida que las conversaciones avancen, use la estructura de esta plantilla com
 > [!IMPORTANT]
 > Esta plantilla es un ejemplo limitado. Antes de actualizar esta plantilla para reflejar sus requisitos, debe revisar los pasos posteriores para definir una materia sobre la administración de los costos eficaz dentro de su estrategia de gobernanza de la nube.
 
-<!-- markdownlint-disable MD033 -->
-
- <a href="https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx">Descarga de la plantilla de la materia de gobernanza</a>
-
-<!-- markdownlint-enable MD033 -->
+[Descarga de la plantilla de la materia de gobernanza](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

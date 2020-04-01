@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 0ccff095f78442f583bcd526ee624161276c0db3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 4458cdb4cf5b63a6ed8bb6cb2d17020c948d0702
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092860"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354067"
 ---
+<!-- cSpell:ignore CIOs -->
+
 <!-- markdownlint-disable MD026 -->
 
 # <a name="what-is-cloud-accounting"></a>¿En qué consiste la contabilidad en la nube?
@@ -58,7 +60,7 @@ Este modelo proporciona un equilibrio entre un modelo verdaderamente de contraca
 
 La elección de los modelos de contabilidad es fundamental en el diseño del sistema. Puede afectar a las estrategias de suscripción, los estándares de nomenclatura, los estándares de etiquetado y los diseños de directivas y planos técnicos.
 
-Después de haber trabajado con la empresa para tomar decisiones sobre un modelo de contabilidad de la nube y los [mercados globales](./global-markets.md), dispone de suficiente información para [desarrollar una base de Azure](../ready/index.md).
+Después de haber trabajado con la empresa para tomar decisiones sobre un modelo de contabilidad de la nube y los [mercados globales](./global-markets.md), dispone de suficiente información para [elegir el primer proyecto de adopción de la nube](./first-adoption-project.md).
 
 > [!div class="nextstepaction"]
-> [Desarrollo de una base de Azure](../ready/index.md)
+> [Elección del primer proyecto de adopción de la nube](./first-adoption-project.md)
