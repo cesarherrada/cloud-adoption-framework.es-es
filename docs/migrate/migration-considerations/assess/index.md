@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b9e39f4f0c86239c3c1d249fdb08dbce2c9f4daa
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: a04208a147d2cf9f50b30f8053b49367fa08aabe
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80429431"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527682"
 ---
 # <a name="validate-assessment-assumptions-before-migration"></a>Validación de las suposiciones de evaluación antes de la migración
 
@@ -45,13 +45,13 @@ Además de la responsabilidad de alto nivel, hay acciones de las que un individu
   - Un miembro del equipo de estrategia en la nube se debe hacer cargo de la responsabilidad final de esta actividad, bajo la dirección del equipo de adopción de la nube.
 - **Acuerdo con las partes interesadas.** El equipo ha acordado las expectativas y prioridades con las partes interesadas internas identificando los factores para lograr el éxito de la migración. ¿Cómo identificar el éxito después de la migración?
 - **Racionalización perfeccionada.** Evalúe las suposiciones iniciales en relación con la racionalización. ¿Se debe usar un [enfoque de racionalización](../../../digital-estate/rationalize.md) diferente para migrar esta carga de trabajo específica?
-- **Decisiones de modernización.** Independientemente de la decisión sobre la racionalización, ¿se deben modernizar varios recursos de la carga de trabajo para aprovechar las soluciones basadas en PaaS?
+- **Decisiones de modernización.** Independientemente de la decisión sobre la racionalización, ¿se deben modernizar varios recursos de la carga de trabajo para usar las soluciones basadas en PaaS?
 - **Costo.** Se ha estimado el costo de la arquitectura de destino y se ha ajustado el presupuesto total.
 - **Compatibilidad con la migración.** El equipo ha decidido cómo se llevará a cabo el trabajo técnico de la migración, incluidas las decisiones relacionadas con el soporte de los asociados o de Microsoft.
 - **Evaluación.** Se evalúa la compatibilidad y las dependencias de la carga de trabajo.
   - Esta actividad debe asignarse a un experto en la materia que esté familiarizado con la arquitectura y las operaciones de la carga de trabajo candidata.
 - **Arquitecto.** El equipo ha acordado la arquitectura final de la carga de trabajo migrada.
-- **Herramientas de migración.** Según los enfoques de modernización y arquitectura, se podrían usar varias herramientas de migración para automatizar la migración. Según la arquitectura propuesta, ¿aprovechará esta migración las mejores [herramientas de migración](../../../decision-guides/migrate-decision-guide/index.md)?
+- **Herramientas de migración.** Según los enfoques de modernización y arquitectura, se podrían usar varias herramientas de migración para automatizar la migración. En función de la arquitectura propuesta, ¿usará esta migración las mejores [herramientas de migración](../../../decision-guides/migrate-decision-guide/index.md)?
 - **Acuerdo sobre el trabajo pendiente.** El equipo de adopción de la nube revisa los requisitos y se compromete a la migración de la carga de trabajo candidata. Después de este compromiso, se debe actualizar el trabajo pendiente de publicación y el de iteración según corresponda.
 - **Estructura de descomposición del trabajo o programación del trabajo.** El equipo define una programación con los hitos más importantes identificando los objetivos que determinan cuándo finalizar los procesos de planeamiento, implementación y revisión.
 - **Aprobación final.** Todos los aprobadores necesarios han revisado el plan y han aprobado el enfoque para migrar el recurso.

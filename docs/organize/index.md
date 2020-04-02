@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 layout: LandingPage
-ms.openlocfilehash: 353cf2effa8158634f93299c504bd3c069b5d11b
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: de34df16a5c709ac5cffbdb355f70c60c8a18c25
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093733"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527695"
 ---
 # <a name="manage-organizational-alignment"></a>Administración de la alineación de la organización
 
@@ -96,7 +96,7 @@ Defina los equipos que proporcionarán las diversas funcionalidades de la nube. 
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Matriz RACI</h3>
-Unos roles claramente definidos son un aspecto importante de cualquier modelo operativo. Aproveche la matriz RACI que se proporciona para asignar roles de responsabilidad, consultados e informados, a cada uno de los equipos de las distintas funciones del modelo operativo en la nube.
+Unos roles claramente definidos son un aspecto importante de cualquier modelo operativo. Use la matriz RACI que se proporciona para asignar roles de responsabilidad, consultados e informados, a cada uno de los equipos de las distintas funciones del modelo operativo en la nube.
                         </div>
                     </div>
                 </div>

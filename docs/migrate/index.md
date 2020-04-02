@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: c4ee7491fb5fbfa549dfe82c82e720f51188a25c
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 10fa2bf0f63351adbf50c04b2725090d0c350d2d
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312312"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527769"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Migración a la nube en Cloud Adoption Framework
 
@@ -37,7 +37,7 @@ Para prepararse para esta fase del ciclo de vida de adopción de la nube, el mar
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Migración de la primera carga de trabajo</h3>
-Aproveche la guía de migración de Azure para familiarizarse con las herramientas nativas de Azure y con la migración.
+Use la guía de migración de Azure para familiarizarse tanto con las herramientas nativas de Azure como con el método de migración.
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ Aproveche la guía de migración de Azure para familiarizarse con las herramient
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Escenarios de migración</h3>
-Aproveche otras herramientas de migración y enfoques para actuar en escenarios de migración adicionales.
+Use otros enfoques y herramientas de migración para actuar en otros escenarios de migración.
                         </div>
                     </div>
                 </div>
