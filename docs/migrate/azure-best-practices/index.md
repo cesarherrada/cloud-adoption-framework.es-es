@@ -7,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 22f2718775b194196f65672f0cbc1712d0a3a4ac
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: a7affd1d64e80cfdf85504ed62960de78a4a34a5
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433546"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636363"
 ---
 # <a name="best-practices-for-cloud-migration"></a>Procedimientos recomendados para la migración a la nube
 
 Si está interesado en la migración a Azure, es aconsejable que la [guía de migración de Azure](../azure-migration-guide/index.md) de Cloud Adoption Framework sea su punto de partida. Esta guía le guiará a través de un conjunto de herramientas y enfoques básicos para la migración de máquinas virtuales a la nube. En esta sección de Cloud Adoption Framework se abordan muchos procedimientos recomendados que van más allá de las herramientas nativas de la nube básicas.
 
-## <a name="cloud-migration-best-practice-checklist"></a>Lista de comprobación de procedimientos recomendados para la migración a la nube
+## <a name="cloud-migration-best-practices-checklist"></a>Lista de comprobación de procedimientos recomendados para la migración a la nube
 
 En la siguiente lista de comprobación se describen las áreas comunes de complejidad que podrían requerir que el ámbito de la migración se ampliara más allá de la [guía de migración a Azure](../azure-migration-guide/index.md).
 

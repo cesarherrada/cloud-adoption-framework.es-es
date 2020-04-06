@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: e0cb1779836edce3571a081ae44794aeb8bc06b8
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 4ef888e26089a2262fadeb93ec33ed063bcbf753
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80432988"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636505"
 ---
 # <a name="azure-migration-guide-before-you-start"></a>Guía de migración a Azure: Antes de comenzar
 
@@ -55,7 +55,7 @@ Si bien las herramientas analizadas en esta guía son compatibles con una amplia
 - La asignación de dependencias de los componentes que se van a migrar es fácil de definir.
 - Su sector tiene requisitos normativos mínimos relevantes para esta migración.
 
-Si alguna de estas condiciones no se aplican a su situación, debería considerar la [guía del ámbito ampliado](../expanded-scope/index.md). También le recomendamos que solicite la asistencia de uno de nuestros equipos o asociados de Microsoft para realizar migraciones que requieran la guía del ámbito ampliado. Los clientes que se relacionan con Microsoft o con asociados certificados tienen más éxito en estos escenarios. Para más información sobre cómo solicitar asistencia, consulte esta guía.
+Si alguna de estas condiciones no es aplicable a su situación, considere la posibilidad de usar en su lugar otros [procedimientos recomendados para la migración a la nube](../azure-best-practices/index.md). También le recomendamos que solicite la asistencia de uno de nuestros equipos o asociados de Microsoft para realizar migraciones más complejas. Los clientes que se relacionan con Microsoft o con asociados certificados tienen más éxito en estos escenarios. Para más información sobre cómo solicitar asistencia, consulte esta guía.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -63,6 +63,6 @@ Si alguna de estas condiciones no se aplican a su situación, debería considera
 
 Para más información, consulte:
 
-- [Guía del ámbito ampliado](../expanded-scope/index.md)
+- [Procedimientos recomendados para la migración a la nube](../azure-best-practices/index.md)
 
 ::: zone-end
